@@ -1,0 +1,1744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - ja - 12 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="卵を採集する"  />
+			<text id="T01" name="卵を採集する"  />
+			<text id="T02" name="卵を採集する"  />
+			<text id="T03" name="卵を採集する"  />
+			<text id="T04" name="鳴かせる"  />
+			<text id="T05" name="卵を採集する"  />
+			<text id="T06" name="卵を集める"  />
+			<text id="T07" name="撫でる"  />
+			<text id="T10" name="トリュフを集める"  />
+			<text id="T11" name="乳搾りをする"  />
+			<text id="T110" name="乳しぼり"  />
+			<text id="T111" name="ブラシがけ"  />
+			<text id="T112" name="ブラシがけ"  />
+			<text id="T113" name="乳しぼり"  />
+			<text id="T114" name="ブラシがけ"  />
+			<text id="T115" name="ブラシがけ"  />
+			<text id="T12" name="刈る"  />
+			<text id="T13" name="乳搾りをする"  />
+			<text id="T14" name="ブラシがけ"  />
+			<text id="T15" name="ブラシがけ"  />
+			<text id="T16" name="ブラシがけ"  />
+			<text id="T17" name="ブラシがけ"  />
+			<text id="T18" name="ブラシがけ"  />
+			<text id="T19" name="刈る"  />
+			<text id="T20" name="ブラシがけ"  />
+			<text id="T21" name="ブラシがけ"  />
+			<text id="T22" name="ブラシがけ"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D327"  />
+				<text id="format_date" name="{2}/{1}/{0}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="1000万"  />
+				<text id="s1" name="100万"  />
+				<text id="s2" name="10億"  />
+				<text id="s3" name="1000兆"  />
+				<text id="s4" name="1兆"  />
+				<text id="s5" name="100京"  />
+				<text id="s6" name="10垓"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="日"  />
+				<text id="day1" name="日"  />
+				<text id="day2" name="日"  />
+				<text id="heute" name="今日"  />
+				<text id="hour0" name="時間"  />
+				<text id="hour1" name="時間"  />
+				<text id="hour2" name="時間"  />
+				<text id="min0" name="分"  />
+				<text id="min1" name="分"  />
+				<text id="min2" name="分"  />
+				<text id="morgen" name="明日"  />
+				<text id="sofort" name="すぐに"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="戻る"  />
+				<text id="ex" name="閉じる"  />
+				<text id="next" name="次へ"  />
+				<text id="no" name="いいえ"  />
+				<text id="yes" name="はい"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="#play#ゲームの目標は、できるだけ大きくてきれいなファームを建てるために、経験値とお金を獲得することです。"  />
+				<text id="intro_01_goals_t" name="目標"  />
+				<text id="welcome_01_i" name="#play#へようこそ、#name#さん。ゲームを簡単に始められるように、ボーナスがもらえるチュートリアルを用意しました。是非ご覧下さい。"  />
+				<text id="welcome_01_t" name="イントロダクション"  />
+				<text id="welcome_02_i" name="そうですか、ボーナスには興味ないですか...チュートリアルは、クエスチョンマークの葉をクリックすればいつでも閲覧できます。また、ゲームのルールを確認するにはヘルプ内の「質問と答え」をクリックしてください。それではお楽しみください!"  />
+				<text id="welcome_02_t" name="イントロダクション2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="グッドゲームファーマーをインストールしました。栽培したものをすべてご覧いただけます。是非お越しください。"  />
+			<text id="descriptionlongfarmer" name="Goodgame Studiosの新しいファーム・シミュレーションゲームグッドゲームファーマーの世界にようこそ。畑で野菜や果物を栽培し、家畜の番をしながら獲得したゲームマネーで有益なアイテムを買ってバーチャルファームを運営します。自分のファームを大きくしながら、世界中の友達とゲームを楽しみましょう。"  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="女"  />
+			<text id="A02" name="男"  />
+			<text id="B00" name="りんご"  />
+			<text id="B01" name="ナシ"  />
+			<text id="B010" name="アボカド"  />
+			<text id="B011" name="ナツメヤシ"  />
+			<text id="B012" name="イチジク"  />
+			<text id="B013" name="ザクロ"  />
+			<text id="B014" name="キウイ"  />
+			<text id="B015" name="柿"  />
+			<text id="B016" name="マンゴ"  />
+			<text id="B017" name="パパイヤ"  />
+			<text id="B018" name="ココナッツ"  />
+			<text id="B019" name="ドラゴンフルーツ"  />
+			<text id="B02" name="さくらんぼ"  />
+			<text id="B020" name="カカオ"  />
+			<text id="B021" name="くるみ"  />
+			<text id="B022" name="ブレッドフルーツ"  />
+			<text id="B023" name="ドリアン"  />
+			<text id="B024" name="アーモンド"  />
+			<text id="B025" name="ライチ"  />
+			<text id="B026" name="スターフルーツ"  />
+			<text id="B027" name="フレイムツリー"  />
+			<text id="B028" name="竹"  />
+			<text id="B029" name="キャンディアップル"  />
+			<text id="B03" name="桃"  />
+			<text id="B030" name="ジンジャーブレッド"  />
+			<text id="B031" name="チョコレート"  />
+			<text id="B032" name="イースターツリー レッド"  />
+			<text id="B033" name="イースターツリー ブルー"  />
+			<text id="B034" name="ヤナギ"  />
+			<text id="B04" name="プラム"  />
+			<text id="B05" name="オリーブ"  />
+			<text id="B06" name="バナナ"  />
+			<text id="B07" name="レモン"  />
+			<text id="B08" name="オレンジ"  />
+			<text id="B09" name="グレープフルーツ"  />
+			<text id="D00" name="材木の山"  />
+			<text id="D01" name="干し草俵"  />
+			<text id="D010" name="切り株"  />
+			<text id="D011" name="車輪"  />
+			<text id="D02" name="飼料入れ"  />
+			<text id="D03" name="水飲み場"  />
+			<text id="D04" name="井戸"  />
+			<text id="D05" name="馬犂"  />
+			<text id="D06" name="水ポンプ"  />
+			<text id="D07" name="馬車"  />
+			<text id="D08" name="樽"  />
+			<text id="D09" name="箱"  />
+			<text id="D11" name="かかし"  />
+			<text id="D110" name="公園のベンチ"  />
+			<text id="D111" name="暗色のベンチ"  />
+			<text id="D112" name="噴水"  />
+			<text id="D113" name="かかし"  />
+			<text id="D114" name="フクロウ"  />
+			<text id="D115" name="風車"  />
+			<text id="D116" name="吹き流し"  />
+			<text id="D117" name="小さな池"  />
+			<text id="D118" name="大きな池"  />
+			<text id="D119" name="鯉の池"  />
+			<text id="D12" name="芝刈り機"  />
+			<text id="D120" name="プール"  />
+			<text id="D121" name="ピクニック"  />
+			<text id="D122" name="ガーデンテーブル"  />
+			<text id="D123" name="ガーデンチェア"  />
+			<text id="D124" name="ハンモック"  />
+			<text id="D125" name="デッキチェア"  />
+			<text id="D126" name="物干し紐"  />
+			<text id="D127" name="ランタン"  />
+			<text id="D128" name="太いサボテン"  />
+			<text id="D129" name="赤いユリ"  />
+			<text id="D13" name="くみとり式便所"  />
+			<text id="D130" name="長いサボテン"  />
+			<text id="D131" name="装飾樹"  />
+			<text id="D132" name="花瓶に入った枝"  />
+			<text id="D133" name="白いユリ"  />
+			<text id="D134" name="お化けかかし"  />
+			<text id="D135" name="子犬"  />
+			<text id="D136" name="小包"  />
+			<text id="D137" name="スノーチャイルド"  />
+			<text id="D138" name="スノーマン"  />
+			<text id="D139" name="スノーウーマン"  />
+			<text id="D14" name="手押し車"  />
+			<text id="D140" name="スキーヤー"  />
+			<text id="D141" name="バードハウスキャット"  />
+			<text id="D142" name="そり"  />
+			<text id="D143" name="ｽﾉｰｴﾝｼﾞｪﾙ"  />
+			<text id="D144" name="看板"  />
+			<text id="D145" name="標識「警告」"  />
+			<text id="D146" name="標識「北極」"  />
+			<text id="D147" name="スノーゴート"  />
+			<text id="D148" name="スノードッグ"  />
+			<text id="D149" name="スノーシープ"  />
+			<text id="D15" name="明色のベンチ"  />
+			<text id="D150" name="スノーカウ"  />
+			<text id="D151" name="スノーキャット"  />
+			<text id="D152" name="スノーチキン"  />
+			<text id="D153" name="スノーピッグ"  />
+			<text id="D154" name="スノーグーズ"  />
+			<text id="D155" name="垣根の門"  />
+			<text id="D156" name="フェンス"  />
+			<text id="D157" name="ポスト"  />
+			<text id="D158" name="ブルーファーツリー"  />
+			<text id="D159" name="クリスマスツリー"  />
+			<text id="D16" name="グリル"  />
+			<text id="D160" name="メイポール"  />
+			<text id="D161" name="鳥の巣"  />
+			<text id="D162" name="干し草人形(男)"  />
+			<text id="D163" name="干し草人形(女)"  />
+			<text id="D164" name="赤い卵"  />
+			<text id="D165" name="青い卵"  />
+			<text id="D166" name="紫の卵"  />
+			<text id="D167" name="赤いエッググループ"  />
+			<text id="D168" name="青いエッググループ"  />
+			<text id="D169" name="紫のエッググループ"  />
+			<text id="D17" name="庭の小人形"  />
+			<text id="D170" name="青いエッグネスト"  />
+			<text id="D171" name="緑のエッグネスト"  />
+			<text id="D172" name="紫のエッグネスト"  />
+			<text id="D173" name="赤いエッグネスト"  />
+			<text id="D174" name="白いエッグネスト"  />
+			<text id="D175" name="巣いっぱいの卵"  />
+			<text id="D176" name="花飾り"  />
+			<text id="D177" name="赤い風船"  />
+			<text id="D178" name="青い風船"  />
+			<text id="D179" name="黄色い風船"  />
+			<text id="D18" name="郵便受け"  />
+			<text id="D180" name="海賊旗"  />
+			<text id="D19" name="鳥の巣箱"  />
+			<text id="D20" name="生け垣"  />
+			<text id="D21" name="垣根"  />
+			<text id="D210" name="ホラーアーチ"  />
+			<text id="D22" name="支柱"  />
+			<text id="D23" name="垣根"  />
+			<text id="D24" name="支柱"  />
+			<text id="D25" name="垣根の門"  />
+			<text id="D26" name="垣根の門"  />
+			<text id="D27" name="生け垣のアーチ"  />
+			<text id="D28" name="ホラーフェンス"  />
+			<text id="D29" name="ホラーポスト"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="ドイツ"  />
+			<text id="D310" name="イタリア"  />
+			<text id="D311" name="フランス"  />
+			<text id="D312" name="スペイン"  />
+			<text id="D313" name="ポルトガル"  />
+			<text id="D314" name="オランダ"  />
+			<text id="D315" name="ベルギー"  />
+			<text id="D316" name="ポーランド"  />
+			<text id="D317" name="ロシア"  />
+			<text id="D318" name="チェコ"  />
+			<text id="D319" name="ギリシャ"  />
+			<text id="D32" name="オーストリア"  />
+			<text id="D320" name="トルコ"  />
+			<text id="D321" name="アメリカ"  />
+			<text id="D322" name="カナダ"  />
+			<text id="D323" name="メキシコ"  />
+			<text id="D324" name="ブラジル"  />
+			<text id="D325" name="アルゼンチン"  />
+			<text id="D326" name="中国"  />
+			<text id="D327" name="日本"  />
+			<text id="D328" name="オーストラリア"  />
+			<text id="D329" name="韓国"  />
+			<text id="D33" name="スイス"  />
+			<text id="D330" name="ハンガリー"  />
+			<text id="D331" name="台湾"  />
+			<text id="D34" name="フィンランド"  />
+			<text id="D35" name="スウェーデン"  />
+			<text id="D36" name="ノルウェー"  />
+			<text id="D37" name="デンマーク"  />
+			<text id="D38" name="イギリス"  />
+			<text id="D39" name="アイルランド"  />
+			<text id="D40" name="馬"  />
+			<text id="D41" name="木"  />
+			<text id="D410" name="ホラーツリー"  />
+			<text id="D42" name="雌牛"  />
+			<text id="D43" name="羊"  />
+			<text id="D44" name="豚"  />
+			<text id="D45" name="ヤギ"  />
+			<text id="D46" name="ガチョウ"  />
+			<text id="D47" name="雌鳥"  />
+			<text id="D48" name="犬"  />
+			<text id="D49" name="猫"  />
+			<text id="D60" name="市場"  />
+			<text id="D70" name="スケルトン"  />
+			<text id="D71" name="ゾンビハンド"  />
+			<text id="D72" name="墓石"  />
+			<text id="D73" name="ジャックランタン"  />
+			<text id="D74" name="ジャックランタン"  />
+			<text id="D75" name="ジャックランタン"  />
+			<text id="D76" name="ジャックランタン"  />
+			<text id="D77" name="ジャックランタン"  />
+			<text id="Dxxx" name="緑の巣"  />
+			<text id="E01" name="10x10 畑"  />
+			<text id="E02" name="12x12 畑"  />
+			<text id="E03" name="14x14 畑"  />
+			<text id="E04" name="16x16 畑"  />
+			<text id="E05" name="18x18 畑"  />
+			<text id="E06" name="20x20 畑"  />
+			<text id="E07" name="22x22 畑"  />
+			<text id="E08" name="24x24 畑"  />
+			<text id="E11" name="10x10 畑"  />
+			<text id="E12" name="12x12 畑"  />
+			<text id="E13" name="14x14 畑"  />
+			<text id="E14" name="16x16 畑"  />
+			<text id="E15" name="18x18 畑"  />
+			<text id="E16" name="20x20 畑"  />
+			<text id="E17" name="22x22 畑"  />
+			<text id="E18" name="24x24 畑"  />
+			<text id="E21" name="10x10 畑"  />
+			<text id="E22" name="12x12 畑"  />
+			<text id="E23" name="14x14 畑"  />
+			<text id="E24" name="16x16 畑"  />
+			<text id="E25" name="18x18 畑"  />
+			<text id="E26" name="20x20 畑"  />
+			<text id="E27" name="22x22 畑"  />
+			<text id="E28" name="24x24 畑"  />
+			<text id="F01" name="時間－M"  />
+			<text id="F20" name="補充機"  />
+			<text id="F30" name="肥料"  />
+			<text id="F31" name="プレミアム肥料"  />
+			<text id="F40" name="飼料"  />
+			<text id="F41" name="プレミアム飼料"  />
+			<text id="F50" name="魔法の粉"  />
+			<text id="G00" name="石道"  />
+			<text id="H00" name="納屋"  />
+			<text id="H01" name="サイロ"  />
+			<text id="H02" name="物置小屋"  />
+			<text id="H03" name="風車"  />
+			<text id="H04" name="温室"  />
+			<text id="H05" name="ホラーグリーンハウス"  />
+			<text id="H06" name="お化けサイロ"  />
+			<text id="H07" name="ホーンテッドウインドミル"  />
+			<text id="H08" name="クリスマスサイロ"  />
+			<text id="H09" name="クリスマスウインドミル"  />
+			<text id="H10" name="鳥小屋"  />
+			<text id="H11" name="豚小屋"  />
+			<text id="H12" name="牛小屋"  />
+			<text id="H13" name="馬小屋"  />
+			<text id="H20" name="小屋"  />
+			<text id="H21" name="農家"  />
+			<text id="H210" name="ホーンテッドコテージ"  />
+			<text id="H211" name="ホーンテッドヴィラ"  />
+			<text id="H212" name="クリスマスキャビン"  />
+			<text id="H213" name="クリスマスコテージ"  />
+			<text id="H214" name="クリスマスヴィラ"  />
+			<text id="H215" name="お菓子の家"  />
+			<text id="H216" name="ウィンターコテージ"  />
+			<text id="H217" name="ウィンターヴィラ"  />
+			<text id="H218" name="青いエッグハウス"  />
+			<text id="H219" name="ピンクのエッグハウス"  />
+			<text id="H22" name="別荘"  />
+			<text id="H220" name="海賊船"  />
+			<text id="H23" name="犬小屋"  />
+			<text id="H24" name="ツリーハウス"  />
+			<text id="H25" name="カントリーハウス"  />
+			<text id="H26" name="オランジェリー"  />
+			<text id="H27" name="大きなヴィラ"  />
+			<text id="H28" name="巨大なヴィラ"  />
+			<text id="H29" name="ホーンテッドキャビン"  />
+			<text id="H30" name="果物の屋台"  />
+			<text id="H31" name="工具店"  />
+			<text id="H32" name="賞品ゲーム ビーソーダ"  />
+			<text id="H40" name="サイロ(肥料)"  />
+			<text id="H50" name="ホーンテッドマンション"  />
+			<text id="H51" name="ナイトメアチャーチ"  />
+			<text id="N01" name="木の刈り取り"  />
+			<text id="N02" name="動物の収穫"  />
+			<text id="R00" name="ジョブエナジーS"  />
+			<text id="R01" name="ジョブエナジーM"  />
+			<text id="R02" name="ジョブエナジーXL"  />
+			<text id="S00" name="チューリップ"  />
+			<text id="S01" name="スズラン"  />
+			<text id="S010" name="紫色のバラ"  />
+			<text id="S02" name="ラベンダー"  />
+			<text id="S03" name="ヒマワリ"  />
+			<text id="S04" name="バラ"  />
+			<text id="S05" name="ダリア"  />
+			<text id="S06" name="クロッカス"  />
+			<text id="S07" name="ユリ"  />
+			<text id="S08" name="ルピナス"  />
+			<text id="S09" name="ケシ"  />
+			<text id="S10" name="イチゴ"  />
+			<text id="S11" name="スイカ"  />
+			<text id="S12" name="パイナップル"  />
+			<text id="S13" name="ブドウ"  />
+			<text id="S14" name="イエローメロン"  />
+			<text id="S15" name="ラズベリー"  />
+			<text id="S16" name="ブルーベリー"  />
+			<text id="S17" name="クランベリー"  />
+			<text id="S18" name="グーズベリー"  />
+			<text id="S19" name="ブラックベリー"  />
+			<text id="S20" name="ナス"  />
+			<text id="S21" name="カリフラワー"  />
+			<text id="S210" name="ホウレンソウ"  />
+			<text id="S211" name="タマネギ"  />
+			<text id="S212" name="赤キャベツ"  />
+			<text id="S213" name="ジャガイモ"  />
+			<text id="S214" name="ニンジン"  />
+			<text id="S215" name="エンドウマメ"  />
+			<text id="S216" name="ラディッシュ"  />
+			<text id="S217" name="ルバーブ"  />
+			<text id="S218" name="芽キャベツ"  />
+			<text id="S219" name="大豆"  />
+			<text id="S22" name="カボチャ"  />
+			<text id="S220" name="テーブルビート"  />
+			<text id="S221" name="ブロッコリー"  />
+			<text id="S222" name="アーティチョーク"  />
+			<text id="S223" name="唐辛子"  />
+			<text id="S224" name="アスパラガス"  />
+			<text id="S225" name="アブラナ"  />
+			<text id="S23" name="ピーマン"  />
+			<text id="S24" name="トマト"  />
+			<text id="S25" name="豆"  />
+			<text id="S26" name="キュウリ"  />
+			<text id="S27" name="カブ"  />
+			<text id="S28" name="レタス"  />
+			<text id="S29" name="ズッキーニ"  />
+			<text id="S30" name="小麦"  />
+			<text id="S31" name="カラスムギ"  />
+			<text id="S32" name="米"  />
+			<text id="S33" name="ライ麦"  />
+			<text id="S34" name="トウモロコシ"  />
+			<text id="S35" name="大麦"  />
+			<text id="S36" name="キビ"  />
+			<text id="S37" name="スイートコーン"  />
+			<text id="S38" name="赤麦"  />
+			<text id="S39" name="スペルト小麦"  />
+			<text id="S40" name="コーヒー"  />
+			<text id="S41" name="茶"  />
+			<text id="S42" name="砂糖"  />
+			<text id="S43" name="アロエベラ"  />
+			<text id="S44" name="綿"  />
+			<text id="S45" name="遺伝子組み換え大豆"  />
+			<text id="S49" name="スノードロップ"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="宝箱"  />
+			<text id="S52" name="卵 レッド"  />
+			<text id="S53" name="卵 ブルー"  />
+			<text id="S54" name="蓮"  />
+			<text id="S55" name="ホワイトローズ"  />
+			<text id="S56" name="ハバネロチリ"  />
+			<text id="S57" name="勿忘草"  />
+			<text id="S58" name="わさび"  />
+			<text id="S59" name="マフィン"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="卵 パープル"  />
+			<text id="S63" name="卵 イエロー"  />
+			<text id="T00" name="雌鶏"  />
+			<text id="T01" name="ガチョウ"  />
+			<text id="T02" name="茶色の雌鳥"  />
+			<text id="T03" name="黒い雌鳥"  />
+			<text id="T04" name="雄鶏"  />
+			<text id="T05" name="鴨"  />
+			<text id="T06" name="クリスマスグーズ"  />
+			<text id="T07" name="オウム"  />
+			<text id="T10" name="豚"  />
+			<text id="T11" name="雌牛"  />
+			<text id="T110" name="茶色の雌牛"  />
+			<text id="T111" name="雄牛"  />
+			<text id="T112" name="ウィンターホース"  />
+			<text id="T113" name="ウィンターカウ"  />
+			<text id="T114" name="子羊"  />
+			<text id="T115" name="ユニコーン"  />
+			<text id="T12" name="羊"  />
+			<text id="T13" name="ヤギ"  />
+			<text id="T14" name="犬"  />
+			<text id="T15" name="黒猫"  />
+			<text id="T16" name="茶猫"  />
+			<text id="T17" name="褐色の馬"  />
+			<text id="T18" name="淡色の馬"  />
+			<text id="T19" name="黒い羊"  />
+			<text id="T20" name="シェパード"  />
+			<text id="T21" name="トナカイ"  />
+			<text id="T22" name="ウサギ"  />
+			<text id="V00" name="10×再補給"  />
+			<text id="V01" name="25×再補給"  />
+			<text id="V02" name="50×再補給"  />
+			<text id="V10" name="トラクター"  />
+			<text id="V20" name="種まき機"  />
+			<text id="V30" name="刈取り機"  />
+			<text id="V40" name="肥料散布機"  />
+			<text id="V90" name="燃料タンク"  />
+			<text id="Y01" name="収穫済み"  />
+			<text id="Y02" name="耕し済み"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="残念ながら、あなたの友達リスト、または #name#の友達リストはすでにいっぱいです。#tab#か #name# は、友達登録希望の問い合わせに同意しませんでした。"  />
+				<text id="buddies_add_ok" name="#name#は今あなたの友達です。"  />
+				<text id="chat_dop" name="ずっと同じテキストでチャットをしないでください。よろしくお願いします!"  />
+				<text id="chat_nonsense" name="有意義なチャットをしてください。よろしくお願いします!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="このメールアドレスは無効です。有効なメールアドレスを入力してください。"  />
+				<text id="email_dop" name="このメールアドレスは、すでに存在しています。別のメールアドレスを入力してください。"  />
+				<text id="email_no" name="このメールアドレスは未登録です。"  />
+				<text id="farm_full" name="このファームは今のところすでに人が多く居すぎますので、他のファームを選択してください。"  />
+				<text id="helper_job_no" name="#name# はあなたからの #job# の問い合わせを断ったか市場を去りました。"  />
+				<text id="helper_job_ok" name="#name#があなたからの#job#の問い合わせを受け入れました。"  />
+				<text id="helper_owner_no_money" name="このファーム所有者は、別の畑を耕させるだけのお金を持っていません。"  />
+				<text id="invite_sent" name="ありがとう!
+あなたの友達宛にEメールが送付されます。"  />
+				<text id="item_dop" name="このオブジェクトの指値に達しました。"  />
+				<text id="kenn_bad" name="パスワードには、
+以下の半角英数を使用してください
+5～15字、使用可能な文字:#tab#
+a-z, A-Z, 0-9, ÄÖÜäöüß, -_@"  />
+				<text id="kenn_no" name="入力されたパスワードは、無効です。"  />
+				<text id="kenn_unequal" name="不適切なパスワードが入力されました。"  />
+				<text id="kick" name="残念ながら、#name#はあなたをファームから追い出しました。#tab#たぶん何か悪いことをしたんじゃないですか?"  />
+				<text id="lagernosell" name="建物を売る前に中を空にしなければなりません。"  />
+				<text id="lager_building" name="アイテムを保管するには、ファーム内に物置か納屋を設置する必要があります。"  />
+				<text id="lager_cantsell" name="この建物を売るには、まず倉庫内に充分スペースを空ける必要があります。"  />
+				<text id="lager_voll" name="ファンクションアイテムには、空のファンクションアイテムしか貯蔵できません。"  />
+				<text id="login_bad" name="ログインエラー。パスワードを忘れたときは、「パスワードを忘れた」をクリックしてください。#tab#　ヘルプが必要なときは、以下アドレスまでメールをお送りください: support@goodgamestudios.com"  />
+				<text id="name_bad" name="プレイヤー名には、次の半角英数を2～15字使用してください:#tab#a-z, A-Z, 0-9, ÄÖÜäöüß, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="そのプレーヤー名は、すでに使われています。他の名前を入力するか以下から選択してください:"  />
+				<text id="name_spam" name="別の名前を入力してください。"  />
+				<text id="no_agb" name="利用規約を承諾する。本利用規約に同意してください。"  />
+				<text id="no_arbeitskraft" name="このアクションを起こすにはジョブエナジーが足りません。ジョブエナジーが回復するまで待つか、ショップに行って補充してください。"  />
+				<text id="no_buddies" name="残念ですが、まだ十分に友達を招待していません。#tab#　オブジェクト#obj#を買うには、さらに#anz#人の友達を招待しなければなりません。"  />
+				<text id="no_chat" name="チャットをするには、登録後、最低でもレベル1に到達しなければなりません。"  />
+				<text id="no_ferti" name="#name#肥料を使い切りました。新しく買ってください。"  />
+				<text id="no_food" name="残念ながら、全ての動物たちに与えるのに充分な飼料がありません!"  />
+				<text id="no_gender" name="性別を選択していません。どちらかの画像をクリックしてください。"  />
+				<text id="no_lager" name="このオブジェクトには適当な、または空の倉庫ないしは小屋がありません。"  />
+				<text id="no_money" name="お金が足りないので、実行できません。"  />
+				<text id="no_premium" name="プレミアムシード #name# は使い切りました。新しく購入しなおしてください。"  />
+				<text id="no_regi" name="この機能は、登録ユーザーのみ使用可能です。#tab#　登録されない場合は、ファームを保存できませんので、登録をお願いします。"  />
+				<text id="no_tanken" name="燃料が足りないので、実行できません。"  />
+				<text id="no_zauberstaub" name="{0}を使い切りました。
+再度入手するには、新たな実績をクリアする必要があります!"  />
+				<text id="old_client_version" name="古いバージョンです ページを再読み込みしてください。"  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="ランキング表に表示されるのは、プレイヤー登録してレベル3に到達以降です。"  />
+				<text id="rangliste_player_not_ranked" name="このプレイヤーがランキング表に表示さるのは、レベル3到達以降です。"  />
+				<text id="rangliste_unknown_id" name="この名前で登録されているプレイヤーは存在しません。"  />
+				<text id="vehiclesnosell" name="この乗り物は現在使用中です。"  />
+				<text id="vollscreen" name="残念ながら、フルスクリーンではチャットを利用できません。(セキュリティ上の理由のため、キー入力を受け付けません)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="フレンドシップ"  />
+				<text id="farm_full" name="おっと!"  />
+				<text id="helper_job_ok" name="ジョブを引き受ける"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="活動中"  />
+				<text id="buyOf" name="#anz#を#menge# から遣う"  />
+				<text id="clickZum" name="クリック"  />
+				<text id="deactive" name="停止中"  />
+				<text id="doContent" name="選択窓"  />
+				<text id="doDel" name="消去"  />
+				<text id="doFertilize" name="施肥する"  />
+				<text id="doFertilizeAnimals" name="飼料を与える"  />
+				<text id="doFortune" name="賞品ゲームをプレイ"  />
+				<text id="doHarvest" name="収穫する"  />
+				<text id="doMove" name="動かす"  />
+				<text id="doPlow" name="耕す"  />
+				<text id="doPos" name="位置を定める"  />
+				<text id="doRot" name="回す"  />
+				<text id="doSell" name="売る"  />
+				<text id="doSow" name="種をまく"  />
+				<text id="doTosOpen" name="寝かせる"  />
+				<text id="doVehicles" name="機械を使う"  />
+				<text id="farmbuddie" name="女友達#男友達"  />
+				<text id="farmgast" name="女性ゲスト#男性ゲスト"  />
+				<text id="farmhelperharvest" name="収穫の女性ヘルパー#収穫の男性ヘルパー"  />
+				<text id="farmhelperplow" name="耕作の女性ヘルパー#耕作の男性ヘルパー"  />
+				<text id="farmowner" name="このファームの女性所有者#このファームの男性所有者"  />
+				<text id="farmvisitor" name="女性訪問者#男性訪問者"  />
+				<text id="isFertilize" name="施肥された"  />
+				<text id="isHarvest" name="収穫済み"  />
+				<text id="isReadyB" name="熟成度"  />
+				<text id="isReadyEX" name="乾ききる"  />
+				<text id="isReadyFin" name="収穫値"  />
+				<text id="isReadyS" name="成長度"  />
+				<text id="isReadyT" name="終了"  />
+				<text id="jobbenrest" name="#anz#のジョブエナジー"  />
+				<text id="jobVehicles" name="--- 機械作業:"  />
+				<text id="jobWalk" name="--- 手作業:"  />
+				<text id="ketteZum" name="ワークリスト"  />
+				<text id="Market" name="市場"  />
+				<text id="marketvisitor" name="女性プレーヤー仲間#男性プレーヤー仲間"  />
+				<text id="my" name="自分"  />
+				<text id="noPfad" name="道が遮断されています。そちらには行けません :-("  />
+				<text id="online" name="オンライン中"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="プレイヤー"  />
+				<text id="AC" name="Tシャツ"  />
+				<text id="AG" name="体のスタイル"  />
+				<text id="AH" name="ヘアスタイル"  />
+				<text id="AP" name="ズボン"  />
+				<text id="AS" name="靴"  />
+				<text id="AT" name="肌の色"  />
+				<text id="B" name="木"  />
+				<text id="D" name="装飾"  />
+				<text id="E" name="ファームの拡張"  />
+				<text id="F" name="肥料"  />
+				<text id="G" name="通り"  />
+				<text id="H" name="建物"  />
+				<text id="R" name="ジョブ"  />
+				<text id="S" name="畑"  />
+				<text id="T" name="動物"  />
+				<text id="V" name="乗り物"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="木"  />
+				<text id="D0" name="ファームの装飾"  />
+				<text id="D1" name="建物の装飾"  />
+				<text id="D2" name="垣根"  />
+				<text id="D3" name="旗"  />
+				<text id="D4" name="ガーデンデコレーション"  />
+				<text id="D7" name="祭日デコレーション"  />
+				<text id="F0" name="時間の加速"  />
+				<text id="F1" name="収穫量を増やす"  />
+				<text id="F2" name="補充"  />
+				<text id="H0" name="ファーム"  />
+				<text id="H1" name="厩舎"  />
+				<text id="H2" name="居住"  />
+				<text id="H4" name="機能"  />
+				<text id="H5" name="特別な建物"  />
+				<text id="N0" name="もっと早く作業する"  />
+				<text id="R0" name="別のファームで働く"  />
+				<text id="S0" name="花"  />
+				<text id="S1" name="果物"  />
+				<text id="S2" name="野菜"  />
+				<text id="S3" name="穀物"  />
+				<text id="S4" name="その他"  />
+				<text id="S5" name="プレミアム"  />
+				<text id="S6" name="シーズン"  />
+				<text id="T0" name="家禽"  />
+				<text id="T1" name="産業動物"  />
+				<text id="T2" name="ペット"  />
+				<text id="V0" name="燃料"  />
+				<text id="V1" name="トラクター"  />
+				<text id="V2" name="種まき機"  />
+				<text id="V3" name="ハーベスター"  />
+				<text id="V4" name="肥料散布機"  />
+				<text id="V9" name="燃料タンク"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="新しい実績!"  />
+				<text id="txt1" name="おめでとうございます!
+#name#&#039; 賞を獲得しました。レベル#level# です。"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="友達に伝える"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="稼いだファームドルの数"  />
+				<text id="i10" name="収穫した花の数"  />
+				<text id="i11" name="収穫した木の数"  />
+				<text id="i12" name="収穫した動物の数"  />
+				<text id="i13" name="贈り物のために使ったファームドルの額"  />
+				<text id="i14" name="獲得した贈り物の数"  />
+				<text id="i15" name="近隣サポーターの数"  />
+				<text id="i16" name="撮った写真の数"  />
+				<text id="i17" name="以前のジョブ権システムにて完了した耕作ジョブの数"  />
+				<text id="i18" name="以前のジョブ権システムにて実行済み収穫ジョブの数"  />
+				<text id="i19" name="以前のジョブ権システムにて提供した耕作ジョブの数"  />
+				<text id="i2" name="使ったファームドルの数"  />
+				<text id="i20" name="以前のジョブ権システムにて提供した収穫ジョブの数"  />
+				<text id="i21" name="施肥した畑、動物と木の数: タイムアドバンテージ"  />
+				<text id="i22" name="施肥した畑、動物、木の数: 魔法の粉"  />
+				<text id="i23" name="収穫した穀物の種類数"  />
+				<text id="i24" name="収穫した果物の種類数"  />
+				<text id="i25" name="収穫した花の数"  />
+				<text id="i26" name="収穫した野菜の数"  />
+				<text id="i27" name="収穫した木の種類数"  />
+				<text id="i28" name="収穫した動物の数"  />
+				<text id="i29" name="収穫した物の総数"  />
+				<text id="i3" name="買った建物の数"  />
+				<text id="i30" name="精通技術の数"  />
+				<text id="i31" name="精通技術の総数"  />
+				<text id="i32" name="友達の数"  />
+				<text id="i33" name="購入した木の数"  />
+				<text id="i34" name="収穫したプレミアムシード数"  />
+				<text id="i35" name="収穫したプレミアムシードの種類数"  />
+				<text id="i36" name="耕作ジョブにて耕した畑の数"  />
+				<text id="i37" name="あなたが提供した耕作ジョブで、耕された畑の数"  />
+				<text id="i38" name="収穫ジョブにて収穫した畑、動物および木の数"  />
+				<text id="i39" name="あなたが提供した収穫ジョブにて、ファームで収穫された畑、木および動物の数"  />
+				<text id="i4" name="買った装飾の数"  />
+				<text id="i5" name="買った動物の数"  />
+				<text id="i6" name="収穫した種の総数"  />
+				<text id="i7" name="収穫した果物の数"  />
+				<text id="i8" name="収穫した野菜の数"  />
+				<text id="i9" name="収穫した穀物の数"  />
+				<text id="next" name="#level#で、次のレベルに到達します。"  />
+				<text id="t1" name="ペザントプランダー"  />
+				<text id="t10" name="フラワーチャイルド"  />
+				<text id="t11" name="ツリーハガー"  />
+				<text id="t12" name="アニマルラバー"  />
+				<text id="t13" name="贈り物に使ったチップ"  />
+				<text id="t14" name="受け取った贈り物"  />
+				<text id="t15" name="近隣のサポーター"  />
+				<text id="t16" name="撮った写真"  />
+				<text id="t17" name="レジェンダリープロワー"  />
+				<text id="t18" name="ハーヴェスターヴェテラン"  />
+				<text id="t19" name="オールドスーパーバイザー"  />
+				<text id="t2" name="ショッピングクイーン"  />
+				<text id="t20" name="アデプトギャザラー"  />
+				<text id="t21" name="ファストファーマー"  />
+				<text id="t22" name="ファーストクラス"  />
+				<text id="t23" name="グレインピッカー"  />
+				<text id="t24" name="フルーツフライ"  />
+				<text id="t25" name="フラワーフレイバー"  />
+				<text id="t26" name="グレートグリーンズ"  />
+				<text id="t27" name="プラントロウス"  />
+				<text id="t28" name="ハッピーハード"  />
+				<text id="t29" name="ファンシーファーマー"  />
+				<text id="t3" name="ビルディンググローワー"  />
+				<text id="t30" name="ディファレントマスタリーズ"  />
+				<text id="t31" name="精通技術の総数"  />
+				<text id="t32" name="クールクリーク"  />
+				<text id="t33" name="バークビートル"  />
+				<text id="t34" name="ゴールデンハーヴェスト"  />
+				<text id="t35" name="シャイニーシーズ"  />
+				<text id="t36" name="プロスペラスプロワー"  />
+				<text id="t37" name="ストリクトスーパーバイザー"  />
+				<text id="t38" name="ヘルプフルハーヴェスター"  />
+				<text id="t39" name="リアライズドリターン"  />
+				<text id="t4" name="デライトフルデコール"  />
+				<text id="t5" name="アドラブルアニマルズ"  />
+				<text id="t6" name="スペリアシード"  />
+				<text id="t7" name="フラクティフェラスフルーツ"  />
+				<text id="t8" name="ヴェジーバラエティ"  />
+				<text id="t9" name="コーンクラシシスト"  />
+				<text id="txt0" name="賞"  />
+				<text id="txt1" name="全体の進行度"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="残念!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="ゲームへの立入りが禁止されました。
+禁止時間は、残り#time#分です
+立入禁止についてのご質問がありましたら、#support#宛にメールにてお問い合わせください。"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="大切なお知らせ!!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="残念!"  />
+				<text id="txt1" name="#spielname#は、すでに他のウィンドウで使用されています。"  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="注意!!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="サーバーとの接続が、#time#秒後に切断されます。"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="選択"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="アバター"  />
+				<text id="txt0" name="偶然"  />
+				<text id="txt1" name="保存"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="プレイヤーを報告!"  />
+				<text id="txt1" name="プレイヤー{0}を報告してよろしいですか?"  />
+				<text id="txt2" name="はい"  />
+				<text id="txt3" name="いいえ"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="友達を確認"  />
+				<text id="txt1" name="#name#が、あなたを友達に加えることを希望しています。"  />
+				<text id="txt2" name="断る"  />
+				<text id="txt3" name="受け入れる"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="フレンドシップ"  />
+				<text id="txt1" name="#name#があなたの友達になりたいかを尋ねてみませんか?"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="尋ねる"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1}はあなたの{0}友達です。削除するには{0}フレンドシップを終了する必要があります。"  />
+				<text id="txt0" name="友達を消去"  />
+				<text id="txt1" name="本当に友達リストから#name# を消去しますか?"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="受け入れる"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="オブジェクト消去"  />
+				<text id="txt1" name="#obj#を本当に消去しますか?"  />
+				<text id="txt2" name="いいえ"  />
+				<text id="txt3" name="はい"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="進む"  />
+				<text id="tTitle" name="報酬!"  />
+				<text id="txt0" name="ギフトがあなたのEメールアドレスに送られました!"  />
+				<text id="txt1" name="今すぐ入手しよう!"  />
+				<text id="txt2" name="Eメールを再送できます!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="進む"  />
+				<text id="tTitle" name="Eメールが送信されました"  />
+				<text id="txt0" name="報酬Eメールがあなた宛てに送信されました!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="進む"  />
+				<text id="tTitle" name="ギフト"  />
+				<text id="txt0" name="報酬をゲットしました!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="拡張"  />
+				<text id="txt1" name="この建物を拡張して、
+より多くのアイテムの
+置き場所を確保しましょう"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="買う"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="ファームが拡張された!"  />
+				<text id="txt1" name="おめでとうございます! あなたのファームがさらに大きくなりました。"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="友達に伝える"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="フォトアルバム"  />
+				<text id="txt1" name="キャンセル"  />
+				<text id="txt2" name="消去"  />
+				<text id="txt3" name="保存"  />
+				<text id="txt4" name="この画像についてコメントを書く!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="登録"  />
+				<text id="txt1" name="ゲームを保存するには登録が必要です。登録されませんとデータが消去されます。登録はフリーです。"  />
+				<text id="txt2" name="登録"  />
+				<text id="txt3" name="ログアウト"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="収穫の問合せ"  />
+				<text id="txt1" name="#name# のファームで収穫の手伝いをしてみませんか?
+行動ごとにXPが入手できます!"  />
+				<text id="txt2" name="断る"  />
+				<text id="txt3" name="受け入れる"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="耕作の問合せ"  />
+				<text id="txt1" name="#name# のファームで耕作の手伝いをしてみませんか?
+行動ごとにファームドルが入手できます!"  />
+				<text id="txt2" name="断る"  />
+				<text id="txt3" name="受け入れる"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="収穫の依頼"  />
+				<text id="txt1" name="#name#にあなたのファームで収穫をしてくれるか尋ねてみませんか?あなたの代わりに誰かに収穫してもらえば、入手するファームドルが増えます!"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="尋ねる"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="耕作の依頼"  />
+				<text id="txt1" name="#name#にあなたのファームで耕作をしてくれるか尋ねてみませんか?あなたの代わりに誰かに耕作してもらえば、追加でXPが入手できます!"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="尋ねる"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="消去"  />
+				<text id="txt1" name="買う"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="配置済みスペース"  />
+				<text id="txt1" name="拡張"  />
+				<text id="txt2" name="倉庫"  />
+				<text id="txt3" name="戻る"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="消去"  />
+				<text id="txt1" name="収穫"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="配置済みスペース"  />
+				<text id="txt1" name="拡張"  />
+				<text id="txt2" name="すべて収穫"  />
+				<text id="txt3" name="すべてに&#039;{0}&#039;を与える"  />
+				<text id="txt4" name="&#039;{0}&#039;を与える"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="ショップで新しいアイテムが購入できるようになりました!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="新しいアイテム"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="レベルアップ!"  />
+				<text id="txt1" name="おめでどうございます! 新しいレベルに到達しました!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="友達に伝える"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="パスワードを忘れた"  />
+				<text id="txt1" name="登録されたEメールアドレスを入力し「送信」をクリックしてください。続けてパスワードが送付されます。"  />
+				<text id="txt2" name="Eメール"  />
+				<text id="txt3" name="キャンセル"  />
+				<text id="txt4" name="送信"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="ログアウト"  />
+				<text id="txt1" name="ファームを去りますか?"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="おっと!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="登録"  />
+				<text id="txt1" name="ファームを保存するためには登録が必要です。"  />
+				<text id="txt2" name="ログアウト"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="登録"  />
+				<text id="txt1" name="Eメール"  />
+				<text id="txt2" name="パスワード"  />
+				<text id="txt3" name="利用規約に同意する"  />
+				<text id="txt4" name="キャンセル"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="プレイヤー作成"  />
+				<text id="txt1" name="ニックネーム"  />
+				<text id="txt2" name="女性"  />
+				<text id="txt3" name="男性"  />
+				<text id="txt4" name="キャンセル"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="今すぐプレイ"  />
+				<text id="txt1" name="登録"  />
+				<text id="txt2" name="ログイン"  />
+				<text id="txt3" name="名前 / Eメール"  />
+				<text id="txt4" name="パスワード"  />
+				<text id="txt5" name="パスワードをお忘れですか?"  />
+				<text id="txt6" name="データを保存"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="市場"  />
+				<text id="txt1" name="これ以上表示しない"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="こんにちは、#name#! ここは#spielname#の市場です。耕作や収穫のために別のプレーヤーに雇われたり、自分でプレーヤーを雇ったりできます。"  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="パスワードを変更"  />
+				<text id="txt1" name="古いパスワード"  />
+				<text id="txt2" name="新しいパスワード"  />
+				<text id="txt3" name="もう一度新しいパスワードを入力する"  />
+				<text id="txt4" name="キャンセル"  />
+				<text id="txt5" name="保存"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="おっと!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="登録"  />
+				<text id="txt3" name="友達を招待"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="設定"  />
+				<text id="txt1" name="木を透明にする"  />
+				<text id="txt10" name="高"  />
+				<text id="txt11" name="中"  />
+				<text id="txt12" name="低"  />
+				<text id="txt13" name="～まで拡大"  />
+				<text id="txt14" name="フレンドシップリクエストを無視する"  />
+				<text id="txt15" name="ランキング表からの訪問を禁止する"  />
+				<text id="txt16" name="ゲームのヒントを表示"  />
+				<text id="txt2" name="建物を透明にする"  />
+				<text id="txt3" name="装飾を透明にする"  />
+				<text id="txt4" name="画質を下げる"  />
+				<text id="txt5" name="パスワードを変更"  />
+				<text id="txt6" name="キャンセル"  />
+				<text id="txt7" name="保存"  />
+				<text id="txt8" name="動画を消す"  />
+				<text id="txt9" name="品質"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="名前/ランクで検索"  />
+				<text id="txt0" name="ランキング"  />
+				<text id="txt1" name="検索"  />
+				<text id="txt2" name="ランク"  />
+				<text id="txt3" name="名前"  />
+				<text id="txt4" name="レベル"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="今日"  />
+				<text id="zeitraum1" name="今週"  />
+				<text id="zeitraum2" name="今月"  />
+				<text id="zeitraum3" name="全期間"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="オブジェクトを売る"  />
+				<text id="txt1" name="本当に#obj#を#w1#ファームドルで売りたいですか?"  />
+				<text id="txt2" name="いいえ"  />
+				<text id="txt3" name="はい"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="この活性肥料を使うと、乾ききった種が回復します。"  />
+				<text id="F30" name="植物および木の成長速度を10%アップさせます"  />
+				<text id="F31" name="植物および木の成長速度を50%アップさせます"  />
+				<text id="F40" name="動物の成長速度を10%アップさせます"  />
+				<text id="F41" name="動物の成長速度を50%アップさせます"  />
+				<text id="F50" name="種で入手できる経験値および種、木、動物の収穫量を50%アップさせます!"  />
+				<text id="H00" name="納屋にはアイテムを15個まで保管できます。"  />
+				<text id="H02" name="物置にはアイテムを4個まで保管できます。"  />
+				<text id="H10" name="鶏小屋で複数の鶏を同時に獲ることを許可します。"  />
+				<text id="H11" name="豚小屋で、複数の豚を同時に獲ることを許可します。"  />
+				<text id="H12" name="牛小屋で、複数の牛を同時に獲ることを許可します。"  />
+				<text id="H13" name="馬小屋で同時に複数の馬を獲ることを許可します。"  />
+				<text id="H40" name="このサイロを利用すれば、肥料や飼料の購入の際に20%のボーナスが付きます。"  />
+				<text id="N01" name="すぐに使える木を一度に全て収穫する権利"  />
+				<text id="N02" name="すぐに使える動物を一度に全て獲る権利"  />
+				<text id="R0x" name="この補充機はあなたの現在のジョブエナジーを{0}ポイント補充します。"  />
+				<text id="S5x" name="プレミアムシードは、普通の作物の場合よりも多くの経験値とファームドルを獲得することができ、また、枯れることもありません!
+プレミアムシードは、パケットとして購入でき、追加費用なしでショップから直接使用できます。"  />
+				<text id="V0x" name="この燃料タンクで{0}×再補給できます。"  />
+				<text id="V10" name="トラクターで同時に4面まで畑を耕すことができます。"  />
+				<text id="V20" name="種まき機で同時に4面まで畑の種まきができます。"  />
+				<text id="V30" name="ハーベスターで同時に4面まで畑の収穫ができます。"  />
+				<text id="V40" name="肥料散布車で同時に4面まで畑に施肥ができます。"  />
+				<text id="V90" name="携帯用のガソリンタンクを買うと補充機が20％増えます"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="レベル#level#"  />
+				<text id="txtAnzahl" name="数量:"  />
+				<text id="txtAnzahlVon" name="の"  />
+				<text id="txtBenutzen" name="使う"  />
+				<text id="txtBuy" name="買う"  />
+				<text id="txtHarvestXP" name="収穫代価:"  />
+				<text id="txtPremium" name="プレミアム"  />
+				<text id="txtSize" name="パケットサイズ:"  />
+				<text id="txtVerbrauch" name="消費"  />
+				<text id="txtWork" name="作業する"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="ゲームのヒントを表示しない"  />
+				<text id="shoptipp_0_title" name="おおっと!"  />
+				<text id="shoptipp_1_text" name="この行動を起こすには燃料が足りません。買い足しますか?"  />
+				<text id="shoptipp_1_title" name="燃料を補給"  />
+				<text id="shoptipp_2_text" name="この行動を起こすには肥料が足りません。買い足しますか?"  />
+				<text id="shoptipp_2_title" name="肥料を購入"  />
+				<text id="shoptipp_3_text" name="ファームに充分なスペースがありません。拡張しますか?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="ジョブエナジーが無くなりました!
+ジョブエナジーは、手動でも補充できることをご存知ですか?"  />
+				<text id="shoptipp_4_title" name="ワーカホリック!"  />
+				<text id="shoptipp_5_text" name="この行動を起こすにはプレミアムシードが足りません。買い足しますか?"  />
+				<text id="shoptipp_5_title" name="プレミアムシードを買い足す"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="ショップ"  />
+				<text id="txtSilo" name="サイロ"  />
+				<text id="txtWork" name="作業"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="ジョブを探しています。"  />
+				<text id="txt1" name="耕作したいです。"  />
+				<text id="txt2" name="収穫したいです。"  />
+				<text id="txt3" name="耕作人募集中!"  />
+				<text id="txt4" name="収穫人募集中!"  />
+				<text id="txt5" name="ハロー!!"  />
+				<text id="txt6" name="ありがとう"  />
+				<text id="txt7" name="はい"  />
+				<text id="txt8" name="いいえ"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="友達を招待する"  />
+				<text id="txt1" name="あなたの名前"  />
+				<text id="txt2" name="あなたの友達の名前"  />
+				<text id="txt3" name="あなたの友達のEメール"  />
+				<text id="txt4" name="キャンセル"  />
+				<text id="txt5" name="招待"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="ミュート"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="ビーソーダ"  />
+				<text id="txt1" name="ビーソーダをプレイして、素敵な賞品をゲットしよう!"  />
+				<text id="txt2" name="回す!"  />
+				<text id="txt3" name="最初の1回は無料!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="やったー!!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="#xp# XPで次のレベル"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="ファームドル:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="友達:"  />
+				<text id="txt4" name="実績:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="プレーヤー仲間を消去"  />
+				<text id="txt1" name="本当に #name#をファームから消去しますか?"  />
+				<text id="txt2" name="キャンセル"  />
+				<text id="txt3" name="受け入れる"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="グッドゲームファーマーにもようやく春が訪れました!新しい建物、デコレーション、動物や木が入手可能です。お見逃し無く!"  />
+				<text id="teaser_11_info_1" name="Goodgame Farmerに新たにサウンドが追加されました!
+ファームの動物たちの賑やかな鳴き声が聞こえてきます!"  />
+				<text id="teaser_11_title" name="音声!"  />
+				<text id="teaser_12_info_1" name="マーケットプレイスでは、レベル10以上になると自由にチャット可能です。それまでは定型文をご利用ください。"  />
+				<text id="teaser_12_title" name="マーケットプレイス チャット規則"  />
+				<text id="teaser_13_info_1" name="さらに!
+新しい動物、木、デコレーションや建物が大幅に追加されました!"  />
+				<text id="teaser_13_info_2" name="さらに、新しい実績ランクも数多く追加!"  />
+				<text id="teaser_14_info_1" name="新登場、プレミアムシード!
+プレミアムシードでは、普通の作物のよりも多くの経験値とファームドルを獲得することができ、また、枯れることもありません!"  />
+				<text id="teaser_14_info_2" name="それに加え、ハイレベルファーマーのために、新しい種（シード）および2つの新実績が実装されました!"  />
+				<text id="teaser_14_title" name="プレミアムシード!"  />
+				<text id="teaser_17_info_1" name="イースター祭りと共に、ゲームに新しい素敵な建物、デコレーション、動物と種がやってきました!
+みなさん、イースターエッグ探しを楽しんでください!"  />
+				<text id="teaser_17_info_2" name="そして、ジョブ提供システムの改善が行われました。
+ジョブ権は、実行した仕事の分のみ、引かれることになりました。何の収穫もなく帰ることはこれでなくなります。"  />
+				<text id="teaser_17_title" name="ハッピーイースター!"  />
+				<text id="teaser_18_info_1" name="お急ぎを!あと数日でイースターフェアが終わってしまいます。今なら、多くのシーズンアイテムを最大50％オフの価格で購入できます!"  />
+				<text id="teaser_18_title" name="今がチャンス!"  />
+				<text id="teaser_19_info_1" name="夏ファッションの季節です!
+素敵な帽子や、愉快なイースターウサギの耳を入手しよう!
+
+是非Farmerフォーラムを覗いてみてください。有益な情報が手に入るかも?"  />
+				<text id="teaser_19_title" name="帽子をかぶろう!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmerが1周年を迎えました!ぜひご一緒にお祝いください!ファームを飾りつけて、愉快なパーティーハットをかぶり、新登場のマフィンシードをお試しあれ!
+
+パーティーは短い期間で終了しますので、お急ぎを!"  />
+				<text id="teaser_20_title" name="ハッピーバーズデー!"  />
+				<text id="teaser_21_info_1" name="注目!新登場、魔法の粉で成功間違いなし!
+これを使えば、木も動物も種も、収穫量と入手経験値が大幅にアップします。"  />
+				<text id="teaser_21_info_2" name="動物たちがお腹を空かせています!
+早く育つように、飼料を与えましょう!
+そして、木にも肥料をやりましょう。"  />
+				<text id="teaser_21_title" name="飼料 &amp; その他!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmerは、ユーロピアンゲームアワードにおいて「ベストソーシャルゲーム」候補としてノミネートされました!"  />
+				<text id="teaser_23_info_2" name="是非、応援投票のほど、よろしくお願いいたします!"  />
+				<text id="teaser_23_title" name="投票をお願いします!"  />
+				<text id="teaser_24_info_1" name="ヤー!
+Goodgame Farmerに、海賊たちがやって来た!
+海賊帽をかぶり、宝の種を植え、しゃべるオウムを手に入れろ!"  />
+				<text id="teaser_24_title" name="海賊アップデート!"  />
+				<text id="teaser_25_info_1" name="前回のアップデートの際、肥料および成功報酬の換算に重大な問題が発生してしまいました。
+真に申し訳ありませんが、そのために、ゲームの保存状態を全てアップデート前の状態に戻すという処置を取らせていただきました。
+プレイヤーの皆様には、ご迷惑をおかけしてしまったことを、深くお詫び申し上げます。"  />
+				<text id="teaser_25_title" name="リセット"  />
+				<text id="teaser_5_info_1" name="訪れる人達を、恐ろしくも素敵なハロウィン装飾と雰囲気あふれる建物で怖がらせてやりましょう!"  />
+				<text id="teaser_5_title" name="新しい機能!"  />
+				<text id="teaser_6_info_1" name=""  />
+				<text id="teaser_6_title" name=""  />
+				<text id="teaser_7_info_1" name="クリスマスです!
+新しい家、デコレーション、木や植物を入手しそこねないように!"  />
+				<text id="teaser_7_info_2" name="そして、ファームをいつも充分広々と使えるように、新しい倉庫を用意しました!
+アイテムを手軽に物置や納屋で保管できます。"  />
+				<text id="teaser_7_title" name="新しいアイテム"  />
+				<text id="teaser_8_info_1" name="そして、もうひとつのクリスマスサプライズ!
+新実装されたランキング表では、他のプレイヤーたちと比べての順位を確認できます。
+ナンバーワンののファーマーを目指して頑張りましょう!"  />
+				<text id="teaser_8_title" name="ランキング表!"  />
+				<text id="teaser_9_info_1" name="お急ぎください!
+あと1週間でクリスマスセールは終了です。
+その代わりに、すべてのシーズンアイテムの最大50%オフでの販売を実施中です!"  />
+				<text id="teaser_9_title" name="今すぐゲットしよう!"  />
+				<text id="teaser_btn_forum" name="フォーラム"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="ショップ"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="断る"  />
+				<text id="zAchievements" name="実績"  />
+				<text id="zAn2" name="承認"  />
+				<text id="zBuddies" name="すべての友達"  />
+				<text id="zBuddiesNoAsk" name="このプレイヤーは友達リクエストを受け付けていません"  />
+				<text id="zBuddiesSub" name="このプレイヤーをあなたの友達リストから消去する"  />
+				<text id="zBuy" name="買う"  />
+				<text id="zCancel" name="ウィンドウを閉じる"  />
+				<text id="zChat" name="チャット"  />
+				<text id="zChatMute" name="ミュート"  />
+				<text id="zChatSenden" name="メッセージを送る"  />
+				<text id="zChatVorgaben" name="チャット用定型文"  />
+				<text id="zCheckAGB" name="利用規約を読み同意する"  />
+				<text id="zCheckAny" name="動物アニメーション機能をオフにする"  />
+				<text id="zCheckMen" name="男性キャラクター"  />
+				<text id="zCheckMerken" name="次回の訪問のために名前とパスワードを保存しますか?"  />
+				<text id="zCheckMute" name="このプレイヤーとはチャットしない"  />
+				<text id="zCheckNoMoreShow" name="このウィンドウをこれ以上表示しない。"  />
+				<text id="zCheckQuali" name="コンピュータの省電力設定のために画質を下げる"  />
+				<text id="zCheckShowB" name="木を透明にする"  />
+				<text id="zCheckShowD" name="装飾を透明にする"  />
+				<text id="zCheckShowH" name="建物を透明にする"  />
+				<text id="zCheckSound1" name="エフェクト"  />
+				<text id="zCheckSound2" name="音楽"  />
+				<text id="zCheckWomen" name="女性キャラクター"  />
+				<text id="zChipsMore" name="ファームドル/ファームゴールドを追加する"  />
+				<text id="zClose" name="閉じる"  />
+				<text id="zClothes" name="ゲームキャラクターに新しい服を着せる"  />
+				<text id="zClothsBuy" name="現在のアバターを保存しますか?"  />
+				<text id="zClothsSelect" name="選択"  />
+				<text id="zClothsZufall" name="コンピュータがスタイルを提案します。"  />
+				<text id="zCookAdd" name="ログデータを追加する"  />
+				<text id="zCookDel" name="このログデータを消去する"  />
+				<text id="zDel" name="消去"  />
+				<text id="zDown" name="下にスクロール"  />
+				<text id="zEarnChips" name="ファームドルをもっと稼ぐ"  />
+				<text id="zEarnGold" name="ファームゴールドをもっと稼ぐ"  />
+				<text id="zEinladen" name="これを購入するには、あと{0}人の友達を招待する必要があります。"  />
+				<text id="zEinladen2" name="現在あなたには{1}人の{0}友達がいます。"  />
+				<text id="zEmailVerificationWinker" name="ギフトを
+受け取る!"  />
+				<text id="zErweitern" name="拡張"  />
+				<text id="zExchange" name="ファームゴールドをファームドルと交換する"  />
+				<text id="zExpHigherLevelNeeded" name="必要なレベルに達していません。"  />
+				<text id="zExpPreviousNeeded" name="事前拡張が必要。"  />
+				<text id="zFarmowner" name="このファームの所有者"  />
+				<text id="zFertilize" name="肥料"  />
+				<text id="zFlinkeHand" name="作業を早める"  />
+				<text id="zFoto" name="写真"  />
+				<text id="zFullscreen" name="全画面表示"  />
+				<text id="zFunc" name="特別施設"  />
+				<text id="zGiftsMy" name="マイギフト"  />
+				<text id="zHarvest" name="収穫"  />
+				<text id="zHarvestV3" name="コンバインで畑を刈り取る"  />
+				<text id="zHelp" name="ヘルプ"  />
+				<text id="zHome" name="マイファーム"  />
+				<text id="zInfoEMail" name="メールアドレスの形式は次の通りです:aaa.bbb@ccc.com"  />
+				<text id="zInfoKenn" name="パスワードには5～15字の半角英数字を入力してください。使用可能文字:a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="開く"  />
+				<text id="zInvite" name="友達を招待する!"  />
+				<text id="zJ" name="実行"  />
+				<text id="zJobben" name="ジョブエナジー:
+他のプレイヤーのファームで収穫・耕作を行うことによって消費されます。
+ジョブエナジーは{0}未満になれば、1分ごとに回復します。また、ショップで補給することもできます。"  />
+				<text id="zKatAC" name="Tシャツ"  />
+				<text id="zKatAG" name="体のスタイル"  />
+				<text id="zKatAH" name="ヘアスタイル"  />
+				<text id="zKatAK" name="帽子"  />
+				<text id="zKatAP" name="ズボン"  />
+				<text id="zKatAS" name="靴"  />
+				<text id="zKatAT" name="肌の色"  />
+				<text id="zKatB" name="木"  />
+				<text id="zKatD" name="装飾"  />
+				<text id="zKatE" name="ファームの拡張"  />
+				<text id="zKatF" name="肥料"  />
+				<text id="zKatG" name="道路"  />
+				<text id="zKatH" name="建物"  />
+				<text id="zKatR" name="ジョブエナジー"  />
+				<text id="zKatS" name="種"  />
+				<text id="zKatT" name="動物"  />
+				<text id="zKatV" name="乗り物"  />
+				<text id="zKatX" name="スペシャルオファー"  />
+				<text id="zKatY" name="全部"  />
+				<text id="zKennLost" name="パスワードを忘れた場合はクリック。"  />
+				<text id="zKennMod" name="パスワードを変更"  />
+				<text id="zKette" name="ワークリスト"  />
+				<text id="zKetteDel" name="ワークリストを消去"  />
+				<text id="zKick" name="このプレイヤーをあなたのファームから追い出す"  />
+				<text id="zLinkAGB" name="利用規約を読むには、クリックしてください。"  />
+				<text id="zLogin" name="ゲームスタート"  />
+				<text id="zLogout" name="ログアウト"  />
+				<text id="zLupeM" name="縮小"  />
+				<text id="zLupeP" name="拡大"  />
+				<text id="zMail" name="メール"  />
+				<text id="zMarket" name="市場"  />
+				<text id="zMeldBad" name="プレイヤーを報告しますか?"  />
+				<text id="zMen" name="男性キャラクター"  />
+				<text id="zMoreChipsGold" name="ファームドル＆ファームゴールドを買う"  />
+				<text id="zMove" name="動かす"  />
+				<text id="zN" name="実行しない"  />
+				<text id="zNext" name="次へ"  />
+				<text id="zNoSilo" name="まずサイロを建てる必要があります。"  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="新たなパスワードを申請する。"  />
+				<text id="zOKKennMod" name="新しいパスワードを保存"  />
+				<text id="zPfeil" name="マルチツール"  />
+				<text id="zPfeilV" name="マルチツールビークル"  />
+				<text id="zPlow" name="耕す"  />
+				<text id="zPlowNew" name="新しい畑"  />
+				<text id="zPlowV1" name="トラクターで畑を耕す"  />
+				<text id="zPrefs" name="設定"  />
+				<text id="zPremium" name="このパケットを購入"  />
+				<text id="zPremiumUse" name="このプレミアムシードをファームで使用する"  />
+				<text id="zPrev" name="戻る"  />
+				<text id="zQuest" name="任務"  />
+				<text id="zRangliste" name="ランキング"  />
+				<text id="zRanking2Farm" name="このプレイヤーはランキング表からの訪問を許可していません"  />
+				<text id="zRegistrieren" name="ゲームデータを保存するために登録する"  />
+				<text id="zRot" name="回す"  />
+				<text id="zSave" name="保存"  />
+				<text id="zScrBG" name="スクロールバー"  />
+				<text id="zScrMove" name="スライダーを動かす"  />
+				<text id="zSell" name="売る"  />
+				<text id="zShare" name="友達に伝える!"  />
+				<text id="zShop" name="ショップ"  />
+				<text id="zShopEarn" name="売値:"  />
+				<text id="zShopHarvest" name="収穫代価:"  />
+				<text id="zShopLagerSize" name="スロット:"  />
+				<text id="zShopTime" name="収穫時間:"  />
+				<text id="zShopXP" name="獲得XP:"  />
+				<text id="zSilo" name="サイロ(肥料)"  />
+				<text id="zSofort" name="今すぐゲームスタート(登録なし)"  />
+				<text id="zSound" name="サウンド"  />
+				<text id="zSow" name="種をまく"  />
+				<text id="zSowV2" name="種まき機で畑に種をまく"  />
+				<text id="zStrangeAchies" name="このプレイヤーの実績"  />
+				<text id="zStrangeAdd" name="このプレイヤーをあなたの友達リストに加える"  />
+				<text id="zStrangeFotos" name="このプレイヤーのフォトアルバム"  />
+				<text id="zStrangeGift" name="このプレイヤーに贈り物をする"  />
+				<text id="zStrangeHarvest" name="このプレイヤーをあなたのファームの収穫に雇う"  />
+				<text id="zStrangeHome" name="このプレイヤーのファームへ行く"  />
+				<text id="zStrangeInfo" name="このプレイヤーについての情報"  />
+				<text id="zStrangeMail" name="このプレイヤーにメッセージを送る"  />
+				<text id="zStrangePlow" name="このプレイヤーをあなたのファームの耕しに雇う"  />
+				<text id="zSubAsk" name="質問と答え"  />
+				<text id="zSubFotobuch" name="フォトアルバム"  />
+				<text id="zSubMailInbox" name="メールを読む"  />
+				<text id="zSubMailNew" name="メールを書く"  />
+				<text id="zSubNews" name="ニュース"  />
+				<text id="zSubShot1" name="写真を撮る　ファーム全体"  />
+				<text id="zSubShot2" name="写真を撮る　長方形の選択肢を選ぶ"  />
+				<text id="zSubShot3" name="写真を撮る　オブジェクトをクリック"  />
+				<text id="zSubSupport" name="サポート"  />
+				<text id="zTanken" name="燃料補給:
+クリックで補給
+表示:
+補給数
+およびタンク表示
+(最高{0})"  />
+				<text id="zTosOpen" name="貯蔵"  />
+				<text id="zTosStall" name="この動物を小屋に連れて行く"  />
+				<text id="zUp" name="上にスクロール"  />
+				<text id="zUse" name="使用"  />
+				<text id="zUsersOnFarm" name="ファームまたは市場にいるすべてのプレイヤー"  />
+				<text id="zVZBuddies" name="必要なフレンド数{0}"  />
+				<text id="zVZBuddiesE" name="友達をたくさん招待できたら、このオブジェクトを低価格で買えます。"  />
+				<text id="zWomen" name="女性キャラクター"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="あなたのファームにようこそ!
+
+最初に簡単な説明をいたします。一緒に立派で素敵なファームを目指して頑張りましょう!"  />
+				<text id="tut_gast_1_title" name="ハロー、フレンド"  />
+				<text id="tut_gast_2_text" name="見てください、早くもいちごが実りました!
+さっそく取りに行きましょう。"  />
+				<text id="tut_gast_2_title" name="クリックして、種を収穫してください!"  />
+				<text id="tut_gast_3_text" name="植物を収穫すると、
+ファームドルが手に入り、
+経験値が増えます。"  />
+				<text id="tut_gast_3_title" name="収穫すると、ファームドルとXPが手に入ります!"  />
+				<text id="tut_gast_4_text" name="次は、また新しく作物を植えることが
+できるように、畑を耕しましょう!"  />
+				<text id="tut_gast_4_title" name="クリックで畑を耕します"  />
+				<text id="tut_gast_5_text" name="ショップで新しい種が選択できるようになりました!"  />
+				<text id="tut_gast_5_title" name="ショップで新しい種を購入"  />
+				<text id="tut_gast_6_text" name="小麦を買いましょう!"  />
+				<text id="tut_gast_6_title" name="小麦を購入"  />
+				<text id="tut_gast_7_text" name="畑をクリックして小麦の種を蒔いてください。"  />
+				<text id="tut_gast_7_title" name="小麦を畑に蒔いてください"  />
+				<text id="tut_gast_8_text" name="グッジョブ!
+あなたのファームが世界一素敵なものになる日も近いでしょう。
+
+では、続けてもっと植えてみましょう!"  />
+				<text id="tut_gast_8_title" name="やった!あなたのファームは大繁栄です!"  />
+				<text id="tut_market_1_text" name="種が育つまで、しばらく時間がかかりますか?
+その間、マーケットプレイスに行って、
+他のプレイヤーのところで働いてはどうでしょう?"  />
+				<text id="tut_market_1_title" name="仕事にも行けます!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="ファームドル:"  />
+				<text id="txt1" name="ファームゴールド:"  />
+				<text id="txt2" name="次の収穫まで:"  />
+				<text id="txt3" name="友達:"  />
+				<text id="txt4" name="実績:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="友達を増やす"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="{0}日目"  />
+				<text id="txt0" name="ようこそ"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="毎日ウェルカムボーナスが入手できます!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="登録ありがとうございます。#w1#ファームドルを獲得。"  />
+				<text id="21" name="毎日もらえるウェルカムボーナスの#w1#ファームドルを獲得。"  />
+				<text id="2f" name="#anz#個の#ferti#を獲得。"  />
+				<text id="2job" name="#job#のジョブエナジーを獲得。"  />
+				<text id="2w1" name="#w1#ファームドルを獲得。"  />
+				<text id="2w2" name="#w2#ファームゴールドを獲得。"  />
+				<text id="2x" name="#days# 日連続でログイン。"  />
+				<text id="2xp" name="#xp#XPを獲得。"  />
+				<text id="freunde" name="あなたが招待したプレーヤーの活動に対して #w1# ファームドルを獲得。"  />
+				<text id="txt0" name="ようこそ"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="エラー"  />
+				<text id="generic_alert_connection_failed_copy" name="現在ゲームのメンテナンス中です。後ほど再度お試しください。"  />
+				<text id="generic_alert_connection_failed_title" name="メンテナンス中です!"  />
+				<text id="generic_alert_connection_lost_copy" name="ゲームサーバーとの接続が切断されました。後ほど再度お試しください。"  />
+				<text id="generic_alert_connection_lost_description" name="現在、アップデート、新キャラクターの取り入れ、エラー訂正のために必要な臨時メンテナンスを行っています。&lt;br&gt;&lt;br&gt;
+できるだけ早くご利用を再開していだだけるよう努めていますので、もうしばらくお待ちください。"  />
+				<text id="generic_alert_connection_lost_promo" name="しばらくの間、他のゲームをお試しください。"  />
+				<text id="generic_alert_connection_lost_thanks" name="ご理解いただきありがとうございます。"  />
+				<text id="generic_alert_connection_lost_title" name="接続が失われました!"  />
+				<text id="generic_alert_error" name="エラー"  />
+				<text id="generic_alert_information" name="注意事項"  />
+				<text id="generic_alert_loggedout_copy" name="ログアウトに成功しました。また、ログインボーナスは、毎日もらえますので、お忘れなく。"  />
+				<text id="generic_alert_loggedout_title" name="それでは、のちほど!"  />
+				<text id="generic_alert_warning" name="警告"  />
+				<text id="generic_alert_watchout" name="注意!"  />
+				<text id="generic_alert_win7chromebug" name="文字入力が出来ない場合は、コントロールキーを押してください。"  />
+				<text id="generic_invalid_email_provider" name="このプロバイダのメールアドレスは、許可されていません！"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="現在、インターネットの接続が非常に遅くなっているようです。後ほど再度お試しください!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="ゲームはいかがでしたか? さらに改善できる点あがりましたら、グッドゲームフォーラムまたはグループでご意見をお聞かせください。"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="ご登録いただかないと、ゲームの状態を保存することができませんので、ご注意ください!"  />
+				<text id="generic_register_error_invalidemail" name="入力したメールアドレスは、間違っています。"  />
+				<text id="generic_report_muted_chattry" name="現在、立入を禁止されていますので、チャットをご利用いただけません。"  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="受け入れる"  />
+				<text id="generic_btn_cancel" name="キャンセル"  />
+				<text id="generic_btn_close" name="閉じる"  />
+				<text id="generic_btn_continue" name="進む"  />
+				<text id="generic_btn_end" name="終了する"  />
+				<text id="generic_btn_endnow" name="すぐに終了"  />
+				<text id="generic_btn_goback" name="戻る"  />
+				<text id="generic_btn_no" name="いいえ"  />
+				<text id="generic_btn_noshare" name="シェアしない"  />
+				<text id="generic_btn_notaccept" name="断る"  />
+				<text id="generic_btn_okay" name="OK"  />
+				<text id="generic_btn_reconnect" name="再接続する"  />
+				<text id="generic_btn_refresh" name="更新"  />
+				<text id="generic_btn_report" name="報告"  />
+				<text id="generic_btn_search" name="検索"  />
+				<text id="generic_btn_share" name="シェアする!"  />
+				<text id="generic_btn_skip" name="スキップ"  />
+				<text id="generic_btn_start" name="スタート"  />
+				<text id="generic_btn_topayment" name="欲しい!"  />
+				<text id="generic_btn_yes" name="はい"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="チャットを行うにはレベル{0}に到達する必要があります!"  />
+				<text id="generic_chat_writeable" name="チャットは、登録されたプレイヤーがレベル1に到達しないと使用できません。"  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="お忘れなく:
+現在、フォーラムにて{0}の素敵なプレゼントキャンペーンが実施中です!
+ぜひ、さっそく立ち寄って、ご参加ください!"  />
+				<text id="cm_teaser2_copy" name="お忘れなく:
+現在、フォーラムにて{0}の素敵なキャンペーンを実施中です!
+この機会を逃がさないように、ぜひすぐにでもお立ち寄りください!"  />
+				<text id="cm_teaser3_copy" name="現在、{0}のFacebookページにて素敵なキャンペーンを実施中です。
+ぜひお立ち寄りください!"  />
+				<text id="cm_teaser4_copy" name="現在、技術的な問題により、{0}のゲーム進行に多少の影響が出る可能性があります。
+詳細についてはフォーラムにてご確認ください。"  />
+				<text id="cm_teaser5_copy" name="ご注意ください:　本物のGoodgame Studiosのスタッフが、ゲーム中にあなたのパスワードを聞き出すことは決してありません。ログインデータは大切に扱い、他人に知られないようにしてください。
+
+では、引き続き{0}をお楽しみください!"  />
+				<text id="cm_teaser6_copy" name="{0}の新アップデートが近日実施されます!
+現在の最新情報および新要素、バグ修正に関しての詳細は、いつもどおりフォーラムにてご覧になれます!"  />
+				<text id="cm_teaser7_copy" name="数分後に{0}サーバーが一時的にシャットダウンされます。詳細についてはフォーラムにてご確認ください。"  />
+				<text id="cm_teaser8_copy" name="申し訳ありませんが、{0}サーバーが緊急メンテナンスのためにシャットダウンされます。詳細についてはフォーラムにてご確認ください。"  />
+				<text id="cm_teaserevent_title" name="{0}さんにお知らせです:"  />
+				<text id="cm_teaserinfo_title" name="こんにちは {0}さん!"  />
+				<text id="cm_teaserwarning_title" name="注意!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="アドミン"  />
+				<text id="generic_animation" name="アニメーションを表示する"  />
+				<text id="generic_bugreport" name="エラー報告"  />
+				<text id="generic_changePass" name="パスワードを変更する"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*近日公開*"  />
+				<text id="generic_date" name="日付"  />
+				<text id="generic_day" name="日"  />
+				<text id="generic_dayformat" name="{2}/{1}/{0}"  />
+				<text id="generic_dayformat_short" name="{1}/{0}"  />
+				<text id="generic_days" name="日"  />
+				<text id="generic_day_short" name="時"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="メール"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="質問＆答え"  />
+				<text id="generic_forum" name="フォーラム"  />
+				<text id="generic_friend" name="友だち"  />
+				<text id="generic_friends" name="友だち"  />
+				<text id="generic_general" name="全般"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="グループ"  />
+				<text id="generic_guest" name="ゲスト"  />
+				<text id="generic_help" name="ヘルプ"  />
+				<text id="generic_high" name="高"  />
+				<text id="generic_hour" name="時間"  />
+				<text id="generic_hours" name="時間"  />
+				<text id="generic_hour_short" name="時間"  />
+				<text id="generic_limited" name="制限あり"  />
+				<text id="generic_logout" name="ログアウト"  />
+				<text id="generic_low" name="低"  />
+				<text id="generic_medium" name="中"  />
+				<text id="generic_minute" name="分"  />
+				<text id="generic_minutes" name="分"  />
+				<text id="generic_minute_short" name="分"  />
+				<text id="generic_moderator" name="進行役"  />
+				<text id="generic_month" name="ケ月"  />
+				<text id="generic_months" name="ケ月"  />
+				<text id="generic_month_short" name="か月"  />
+				<text id="generic_music" name="音楽（オン／オフ）"  />
+				<text id="generic_name" name="名前"  />
+				<text id="generic_news" name="最新情報"  />
+				<text id="generic_options" name="設定"  />
+				<text id="generic_quality" name="画質"  />
+				<text id="generic_register" name="保存と登録"  />
+				<text id="generic_second" name="秒"  />
+				<text id="generic_seconds" name="秒"  />
+				<text id="generic_second_short" name="秒"  />
+				<text id="generic_sound" name="サウンド（オン／オフ）"  />
+				<text id="generic_support" name="サポート"  />
+				<text id="generic_today" name="今日"  />
+				<text id="generic_tomorrow" name="明日"  />
+				<text id="generic_tutorial" name="チュートリアル"  />
+				<text id="generic_username" name="プレイヤー名"  />
+				<text id="generic_validTo_timer" name="あと{0}時間{1}分アクティブです"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="昨日"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="旧バージョンです!"  />
+				<text id="generic_versioncheck_errorcode_1" name="ページを更新する"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="{0} を友達に追加しますか?"  />
+				<text id="generic_friends_add_title" name="友達登録リクエスト"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="友達を増やす!"  />
+				<text id="generic_friends_denied_copy" name="残念ながら{0}は、あなたのリクエストを拒否しました。"  />
+				<text id="generic_friends_denied_title" name="リクエストが拒否されました!"  />
+				<text id="generic_friends_invite_badword_copy" name="入力した名前はご使用になれません!"  />
+				<text id="generic_friends_invite_badword_title" name="注意!"  />
+				<text id="generic_friends_invite_error_copy" name="登録済みのプレイヤーのみ、友達を招待できます!"  />
+				<text id="generic_friends_invite_error_title" name="まずはご登録ください"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="全画面表示モードはできません"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="チェコ語"  />
+				<text id="generic_language_cz" name="チェコ語"  />
+				<text id="generic_language_da" name="デンマーク語"  />
+				<text id="generic_language_de" name="ドイツ語"  />
+				<text id="generic_language_el" name="ギリシャ語"  />
+				<text id="generic_language_en" name="英語"  />
+				<text id="generic_language_es" name="スペイン語"  />
+				<text id="generic_language_fi" name="フィンランド語"  />
+				<text id="generic_language_fr" name="フランス語"  />
+				<text id="generic_language_hu" name="ハンガリー語"  />
+				<text id="generic_language_id" name="インドネシア語"  />
+				<text id="generic_language_it" name="イタリア語"  />
+				<text id="generic_language_ja" name="日本語"  />
+				<text id="generic_language_ko" name="韓国語"  />
+				<text id="generic_language_nl" name="オランダ語"  />
+				<text id="generic_language_no" name="ノルウェー語"  />
+				<text id="generic_language_pl" name="ポーランド語"  />
+				<text id="generic_language_pt" name="ポルトガル語"  />
+				<text id="generic_language_pt_BR" name="ブラジルポルトガル語"  />
+				<text id="generic_language_ru" name="ロシア語"  />
+				<text id="generic_language_sv" name="スウェーデン語"  />
+				<text id="generic_language_tr" name="トルコ語"  />
+				<text id="generic_language_zh_CN" name="中国語（簡体）"  />
+				<text id="generic_language_zh_TW" name="中国語（繁体）"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="アカウントが閉鎖されました。サポートサービスまでご連絡ください。"  />
+				<text id="generic_login_banned_2" name="あなたのゲームアカウントは閉鎖されました。
+
+閉鎖は、{0}までです。
+
+閉鎖に関してご質問などありましたら、サポートデスクまでお問い合わせください。"  />
+				<text id="generic_login_banned_3" name="あなたのゲームアカウントは、永久に閉鎖されました。
+
+閉鎖についてご質問などありましたら、サポートデスクまでお問い合わせください。"  />
+				<text id="generic_login_banned_permanent" name="恒久的"  />
+				<text id="generic_login_facebook" name="Facebookを通して登録"  />
+				<text id="generic_login_login" name="ログイン"  />
+				<text id="generic_login_loginname" name="ユーザー名/ Eメール"  />
+				<text id="generic_login_lostpassword" name="パスワードをお忘れですか?"  />
+				<text id="generic_login_lostpassword_copy" name="ご登録のメールアドレスを入力してください。パスワードを送信いたします。"  />
+				<text id="generic_login_lostpassword_title" name="パスワードを忘れた"  />
+				<text id="generic_login_newplayer" name="初めての方"  />
+				<text id="generic_login_password" name="パスワード"  />
+				<text id="generic_login_play" name="今すぐプレイする"  />
+				<text id="generic_login_playnow" name="今すぐプレイ!"  />
+				<text id="generic_login_register" name="登録"  />
+				<text id="generic_login_rememberpassword" name="パスワードを保存する"  />
+				<text id="generic_login_wronglogin" name="ユーザー名またはパスワードが間違っています。"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="スコアを保存するには、登録が必要です。"  />
+				<text id="generic_logout_guest_title" name="登録"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="少なくともあと{0}で、再びゲームにアクセスいただけます。"  />
+				<text id="servershutdownpremonition_copy" name="ゲームサーバーが、{0}後にシャットダウンを始めます。ログアウトするか、ゲームの進行状況を保存するために登録してください。"  />
+				<text id="servershutdownpremonition_registered_copy" name="ゲームサーバーは、メンテナンスのため、{0}後にダウンします。"  />
+				<text id="servershutdown_copy" name="ゲームサーバーがシャットダウンされます。数分後に再度ログインしてください。"  />
+				<text id="welcomeback_copy" name="またお会いできて嬉しいです。再びゲームに慣れていただくために、少しご案内することがあります。"  />
+				<text id="welcomeback_title" name="ただいま!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="新しいパスワード"  />
+				<text id="generic_change_password_copy_oldpass" name="旧パスワード："  />
+				<text id="generic_change_password_copy_send" name="新しいパスワードは、登録されたメールアドレス宛てに送信されます。"  />
+				<text id="generic_change_password_error_failed" name="申し訳ありませんが、旧パスワードが違います。"  />
+				<text id="generic_change_password_error_success" name="パスワードが変更されました!"  />
+				<text id="generic_change_password_faild_copy" name="新しいパスワードは、最低2文字の長さが必要です。また旧パスワードも正確に入力してください。"  />
+				<text id="generic_change_password_faild_specialcharacters" name="パスワードは、スペースや特殊記号を使用しないで下さい。"  />
+				<text id="generic_change_password_faild_title" name="パスワード入力"  />
+				<text id="generic_change_password_title" name="パスワード変更"  />
+				<text id="generic_guest_change_password_faild_copy" name="登録済みのプレイヤーのみ、パスワードを変更できます!"  />
+				<text id="generic_guest_change_password_faild_title" name="まずはご登録ください"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="{0}を課金購入して追加!"  />
+				<text id="generic_payment_48hdiscount_button" name="登録後48時間内のゴールドを増やす"  />
+				<text id="generic_payment_48hdiscount_button_general" name="登録後48時間内の{0}を増やす"  />
+				<text id="generic_payment_48hdiscount_copy" name="登録して48時間以内に、ゴールドを購入すると、選ばれたセットでさらに{0}%が追加でもらえます。"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="登録後48時間以内にゴールドセットを購入すると、さらに{0}% のゴールドが無料でもらえます。"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="登録して48時間以内に{0}を買うと、すべてのセットで{1}% の追加がもらえます。"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="登録して48時間以内に{0}を買うと、選ばれたセットで、さらに{1}% の追加がもらえます。"  />
+				<text id="generic_payment_btn" name="ショップへ"  />
+				<text id="generic_payment_copy" name="ペイメントショップに移動します。"  />
+				<text id="generic_payment_discount_button" name="お金を払ってゴールドを{0}%増やす!"  />
+				<text id="generic_payment_discount_copy" name="ゴールドを買って、{0}%のボーナスを手に入れる!"  />
+				<text id="generic_payment_discount_copy_general" name="今{0}を買って、{1}% のボーナスを獲得！"  />
+				<text id="generic_payment_discount_general" name="お金を払って{0}%{1}を増やす!"  />
+				<text id="generic_payment_discount_generalshort" name="課金して、{0}%を増やす!"  />
+				<text id="generic_payment_discount_time" name="残り{0}!"  />
+				<text id="generic_payment_discount_title" name="ゴールドを増やす!"  />
+				<text id="generic_payment_newPrices" name="ペイメントショップでの価格が値下げされました! 是非節約にご利用ください!"  />
+				<text id="generic_payment_title" name="ペイメントショップ"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="サーバースペースへ通じるトンネルを探す"  />
+				<text id="loading_text_10" name="アイテムを世界で分配する"  />
+				<text id="loading_text_11" name="グラフィックを描画する"  />
+				<text id="loading_text_12" name="ボタンに着色する"  />
+				<text id="loading_text_13" name="イースター・エッグを隠す"  />
+				<text id="loading_text_14" name="ユーザーデータを調べる"  />
+				<text id="loading_text_15" name="バグを追い払う"  />
+				<text id="loading_text_16" name="プログラマに食べ物を与える"  />
+				<text id="loading_text_17" name="顧客の問題に取り組む"  />
+				<text id="loading_text_18" name="砂時計を回す"  />
+				<text id="loading_text_19" name="システムを冷却する"  />
+				<text id="loading_text_2" name="歯車に油をさす"  />
+				<text id="loading_text_20" name="すぐに終わります"  />
+				<text id="loading_text_3" name="ハムスターの回し車を回す"  />
+				<text id="loading_text_4" name="サーバーを暖める"  />
+				<text id="loading_text_5" name="すべてうまく行くといいけれど"  />
+				<text id="loading_text_6" name="害虫駆除業者を呼び寄せる"  />
+				<text id="loading_text_7" name="複雑なアルゴリズムを計算する"  />
+				<text id="loading_text_8" name="フラックス・コンペンセイターを調整する"  />
+				<text id="loading_text_9" name="キャラクターを作る"  />
+				<text id="loading_text_default" name="初期化"  />
+				<text id="loading_text_itemXML" name="ゲーム要素を読み込む"  />
+				<text id="progress_loadfiles" name="ゲームグラフィックをロード中…"  />
+				<text id="progress_serverconnection" name="ゲームサーバーに接続します…"  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Eメールアドレスを入力"  />
+				<field id="generic_register_insertName" name="名前を入力してください(半角英数)"  />
+				<field id="generic_register_insertPassword" name="パスワードを入力"  />
+				<text id="generic_register_agb_copy" name="まずは利用規約をお読みください。内容に同意いただけたら、左のチェックボックスにチェックを入れて、いよいよゲーム開始です!"  />
+				<text id="generic_register_agb_read" name="利用規約を読む"  />
+				<text id="generic_register_alreadyavatar" name="このユーザーは、すでにアバターを持っています。"  />
+				<text id="generic_register_badword" name="あなたの名前で{0}を使用することはできません。"  />
+				<text id="generic_register_btn_agb" name="利用規約に同意する"  />
+				<text id="generic_register_btn_later" name="後ほど"  />
+				<text id="generic_register_btn_next" name="進む"  />
+				<text id="generic_register_btn_save" name="保存"  />
+				<text id="generic_register_character" name="自分のキャラクターを作ろう"  />
+				<text id="generic_register_copy_0" name="無料でご登録いただけます!"  />
+				<text id="generic_register_copy_1" name="ゲームの状態を保存しよう!"  />
+				<text id="generic_register_emaillong_copy" name="メールアドレスが長すぎます。"  />
+				<text id="generic_register_emailwrong_copy" name="入力したメールアドレスが、間違っています。"  />
+				<text id="generic_register_email_copy" name="メールアドレスにスペースや特殊記号を含めないでください。"  />
+				<text id="generic_register_error" name="登録が失敗に終わりました"  />
+				<text id="generic_register_errormistake" name="エラー"  />
+				<text id="generic_register_error_accountalreadyexists" name="申し訳ありませんが、このメールにはすでにプレイヤーが登録しています。"  />
+				<text id="generic_register_forfree" name="登録無料!"  />
+				<text id="generic_register_forfree1" name="無料!"  />
+				<text id="generic_register_letsgo" name="ゲームスタート!"  />
+				<text id="generic_register_namealreadyused" name="その名前はすでに使われています。"  />
+				<text id="generic_register_namenotvalid" name="入力した名前が無効です。"  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="入力されたパスワードは短すぎます。パスワードは4文字以上必要です。"  />
+				<text id="generic_register_passwordwrong_copy" name="入力したパスワードが間違っています。"  />
+				<text id="generic_register_password_copy" name="パスワードにスペースや特殊記号を含めないでください。"  />
+				<text id="generic_register_receivenews" name="ニュースレターを受け取る"  />
+				<text id="generic_register_rememberdata" name="データ保存"  />
+				<text id="generic_register_reward" name="無料で登録すると{0} {1}がプレゼントでもらえます!"  />
+				<text id="generic_register_subscribe" name="登録"  />
+				<text id="generic_register_success" name="登録に成功しました。"  />
+				<text id="generic_register_title" name="登録エラー"  />
+				<text id="generic_register_unlock" name="この機能のロックを解除する!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="発言には充分ご注意ください。チャットへの立入が禁止されたり、アカウントが閉鎖される場合があります。
+理由： {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="迷惑行為が続いたため、これから{0}の間、チャットをご利用いただけません。理由: {1}"  />
+				<text id="generic_report_muted_domain1" name="インターネットアドレスをチャットで表示しない。"  />
+				<text id="generic_report_muted_reported_copy" name="複数のプレイヤーが、あなたに関する苦情を訴えています。さしあたり{0}の間、チャットをご利用いただけません。理由: {1}"  />
+				<text id="generic_report_player_copy" name="本当に{0}について報告しますか?
+この機能を悪用すると、アカウントが停止されることがありますのでご注意ください。"  />
+				<text id="generic_report_player_reason_0" name="侮辱"  />
+				<text id="generic_report_player_reason_1" name="セクハラ"  />
+				<text id="generic_report_player_reason_2" name="人種差別的発言"  />
+				<text id="generic_report_player_reason_3" name="脅迫／恐喝"  />
+				<text id="generic_report_player_reason_title" name="報告理由:"  />
+				<text id="generic_report_player_title" name="プレイヤーを報告しますか?"  />
+				<text id="generic_report_reported_copy" name="他のプレイヤーから管理者に報告されました。理由: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="接続"  />
+				<text id="generic_select_world" name="世界を選んでください:"  />
+				<text id="generic_world" name="世界: {0}"  />
+				<text id="generic_world_international" name="インターナショナル: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

@@ -1,0 +1,1748 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - ru - 9 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="забрать яйца"  />
+			<text id="T01" name="забрать яйца"  />
+			<text id="T02" name="забрать яйца"  />
+			<text id="T03" name="забрать яйца"  />
+			<text id="T04" name="прокукарекать"  />
+			<text id="T05" name="забрать яйца"  />
+			<text id="T06" name="забрать яйца"  />
+			<text id="T07" name="приласкать"  />
+			<text id="T10" name="забрать трюфели"  />
+			<text id="T11" name="подоить"  />
+			<text id="T110" name="подоить"  />
+			<text id="T111" name="погладить"  />
+			<text id="T112" name="погладить"  />
+			<text id="T113" name="подоить"  />
+			<text id="T114" name="погладить"  />
+			<text id="T115" name="причесать"  />
+			<text id="T12" name="постричь"  />
+			<text id="T13" name="подоить"  />
+			<text id="T14" name="погладить"  />
+			<text id="T15" name="погладить"  />
+			<text id="T16" name="погладить"  />
+			<text id="T17" name="погладить"  />
+			<text id="T18" name="погладить"  />
+			<text id="T19" name="постричь"  />
+			<text id="T20" name="погладить"  />
+			<text id="T21" name="погладить"  />
+			<text id="T22" name="погладить"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D317"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{2}{1}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="тыс"  />
+				<text id="s1" name="млн"  />
+				<text id="s2" name="млрд"  />
+				<text id="s3" name="Квдрлн"  />
+				<text id="s4" name="Трлн"  />
+				<text id="s5" name="квнтл"  />
+				<text id="s6" name="Скстл"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="дн"  />
+				<text id="day1" name="день"  />
+				<text id="day2" name="дн"  />
+				<text id="heute" name="сегодня"  />
+				<text id="hour0" name="ч"  />
+				<text id="hour1" name="ч"  />
+				<text id="hour2" name="ч"  />
+				<text id="min0" name="мин"  />
+				<text id="min1" name="мин"  />
+				<text id="min2" name="мин"  />
+				<text id="morgen" name="завтра"  />
+				<text id="sofort" name="немедленно"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="НАЗАД"  />
+				<text id="ex" name="ВЫХОД"  />
+				<text id="next" name="ВПЕРЁД"  />
+				<text id="no" name="НЕТ"  />
+				<text id="yes" name="ДА"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Итак, #play#.
+Ваша цель - зарабатывать опыт и деньги, чтобы развивать и украшать свою ферму."  />
+				<text id="intro_01_goals_t" name="Цель"  />
+				<text id="welcome_01_i" name="Добро пожаловать в #play#, #name#. Мы предлагаем вам пройти обучение (и получить награду!), чтобы быстрее освоить игру. Что скажете?"  />
+				<text id="welcome_01_t" name="Введение"  />
+				<text id="welcome_02_i" name="Ну ладно, раз уж вы не хотите награду...
+Вы сможете посмотреть вступительные советы в любое время, нажав на листок со знаком вопроса. Правила игры также объясняются в справочном разделе &quot;Вопросы и ответы&quot;. Удачи!"  />
+				<text id="welcome_02_t" name="Введение 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="А у меня теперь есть своя ферма на Goodgame Farmer! Заходи посмотреть на мою живность и... о, нет! коровы объедают пшеницу! Всё! Убегаю! До встречи!"  />
+			<text id="descriptionlongfarmer" name="Goodgame Farmer - это великолепная виртуальная ферма, созданная для вас командой Goodgame Studios. Наслаждайтесь тихой сельской жизнью и управляйте хозяйством. На ферме от Goodgame вы можете выращивать любые растения и деревья, ухаживать за животными, обустраивать своё подворье на вырученные с урожая деньги и многое-многое другое."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Женщина"  />
+			<text id="A02" name="Человек"  />
+			<text id="B00" name="Яблоко"  />
+			<text id="B01" name="Груша"  />
+			<text id="B010" name="Авокадо"  />
+			<text id="B011" name="Финик"  />
+			<text id="B012" name="Инжир"  />
+			<text id="B013" name="Гранат"  />
+			<text id="B014" name="Киви"  />
+			<text id="B015" name="Хурма"  />
+			<text id="B016" name="Манго"  />
+			<text id="B017" name="Папайя"  />
+			<text id="B018" name="Кокос"  />
+			<text id="B019" name="Питайя"  />
+			<text id="B02" name="Вишня"  />
+			<text id="B020" name="Какао"  />
+			<text id="B021" name="Грецкий орех"  />
+			<text id="B022" name="Xлебноe деревo"  />
+			<text id="B023" name="Дуриан"  />
+			<text id="B024" name="Миндаль"  />
+			<text id="B025" name="Личи"  />
+			<text id="B026" name="Карамбола"  />
+			<text id="B027" name="Огненное дерево"  />
+			<text id="B028" name="Бамбук"  />
+			<text id="B029" name="Яблоко в карамели"  />
+			<text id="B03" name="Персик"  />
+			<text id="B030" name="Пряник"  />
+			<text id="B031" name="Шоколад"  />
+			<text id="B032" name="Красная пасха"  />
+			<text id="B033" name="Синяя пасха"  />
+			<text id="B034" name="Ива"  />
+			<text id="B04" name="Слива"  />
+			<text id="B05" name="Олива"  />
+			<text id="B06" name="Банан"  />
+			<text id="B07" name="Лимон"  />
+			<text id="B08" name="Апельсин"  />
+			<text id="B09" name="Грейпфрут"  />
+			<text id="D00" name="Дрова"  />
+			<text id="D01" name="Сноп сена"  />
+			<text id="D010" name="Пень"  />
+			<text id="D011" name="Колесо"  />
+			<text id="D02" name="Кормушка"  />
+			<text id="D03" name="Поилка"  />
+			<text id="D04" name="Колодец"  />
+			<text id="D05" name="Плуг"  />
+			<text id="D06" name="Водяной насос"  />
+			<text id="D07" name="Телега"  />
+			<text id="D08" name="Бочка"  />
+			<text id="D09" name="Ящик"  />
+			<text id="D11" name="Пугало"  />
+			<text id="D110" name="Скамейка"  />
+			<text id="D111" name="Тёмная скамья"  />
+			<text id="D112" name="Фонтан"  />
+			<text id="D113" name="Пугало"  />
+			<text id="D114" name="Сова"  />
+			<text id="D115" name="Мельница"  />
+			<text id="D116" name="Ветряной конус"  />
+			<text id="D117" name="Пруд"  />
+			<text id="D118" name="Большой пруд"  />
+			<text id="D119" name="Пруд и рыбки"  />
+			<text id="D12" name="Газонокосилка"  />
+			<text id="D120" name="Бассейн"  />
+			<text id="D121" name="Пикник"  />
+			<text id="D122" name="Садовый стол"  />
+			<text id="D123" name="Садовый стул"  />
+			<text id="D124" name="Гамак"  />
+			<text id="D125" name="Шезлонг"  />
+			<text id="D126" name="Сушка для белья"  />
+			<text id="D127" name="Светильник"  />
+			<text id="D128" name="Кактус"  />
+			<text id="D129" name="Красные лилии"  />
+			<text id="D13" name="Туалет"  />
+			<text id="D130" name="Пустынник"  />
+			<text id="D131" name="Дерево в кадке"  />
+			<text id="D132" name="Зелень в кадке"  />
+			<text id="D133" name="Белые лилии"  />
+			<text id="D134" name="Жуткое пугало"  />
+			<text id="D135" name="Собачка"  />
+			<text id="D136" name="Посылка"  />
+			<text id="D137" name="Снежное дитя"  />
+			<text id="D138" name="Снеговик"  />
+			<text id="D139" name="Снежная баба"  />
+			<text id="D14" name="Тачка"  />
+			<text id="D140" name="Лыжник"  />
+			<text id="D141" name="Кошка из скворечника"  />
+			<text id="D142" name="Сани"  />
+			<text id="D143" name="Снежный ангел"  />
+			<text id="D144" name="Зимняя вывеска"  />
+			<text id="D145" name="Предупреждение"  />
+			<text id="D146" name="Северный полюс"  />
+			<text id="D147" name="Снежная коза"  />
+			<text id="D148" name="Снежный пёс"  />
+			<text id="D149" name="Снежная овца"  />
+			<text id="D15" name="Скамья"  />
+			<text id="D150" name="Снежная корова"  />
+			<text id="D151" name="Снежная кошка"  />
+			<text id="D152" name="Снежный петух"  />
+			<text id="D153" name="Снежная свинка"  />
+			<text id="D154" name="Снежный гусь"  />
+			<text id="D155" name="Калитка в ограде"  />
+			<text id="D156" name="Ограда"  />
+			<text id="D157" name="Столб"  />
+			<text id="D158" name="Голубая ель"  />
+			<text id="D159" name="Рождественская ёлка"  />
+			<text id="D16" name="Мангал"  />
+			<text id="D160" name="Майский шест"  />
+			<text id="D161" name="Гнёздышко"  />
+			<text id="D162" name="Страшила"  />
+			<text id="D163" name="Страшилиха"  />
+			<text id="D164" name="Красное яйцо"  />
+			<text id="D165" name="Синее яйцо"  />
+			<text id="D166" name="Лиловое яйцо"  />
+			<text id="D167" name="Красные яйца"  />
+			<text id="D168" name="Cиние яйца"  />
+			<text id="D169" name="Лиловые яйца"  />
+			<text id="D17" name="Садовый гном"  />
+			<text id="D170" name="Синее гнездо"  />
+			<text id="D171" name="Зелёное гнездо"  />
+			<text id="D172" name="Лиловое гнездо"  />
+			<text id="D173" name="Красное гнездо"  />
+			<text id="D174" name="Белое гнездо"  />
+			<text id="D175" name="Полное гнездо"  />
+			<text id="D176" name="Гирлянда"  />
+			<text id="D177" name="Красный шарик"  />
+			<text id="D178" name="Синий шарик"  />
+			<text id="D179" name="Жёлтый шарик"  />
+			<text id="D18" name="Почтовый ящик"  />
+			<text id="D180" name="Пиратский флаг"  />
+			<text id="D19" name="Скворечник"  />
+			<text id="D20" name="Живая изгородь"  />
+			<text id="D21" name="Ограда"  />
+			<text id="D210" name="Арка ужаса"  />
+			<text id="D22" name="Столб"  />
+			<text id="D23" name="Ограда"  />
+			<text id="D24" name="Столб"  />
+			<text id="D25" name="Ворота"  />
+			<text id="D26" name="Калитка"  />
+			<text id="D27" name="Арка из зелени"  />
+			<text id="D28" name="Жуткая ограда"  />
+			<text id="D29" name="Столб кошмаров"  />
+			<text id="D30" name="Good Games!"  />
+			<text id="D31" name="Германия"  />
+			<text id="D310" name="Италия"  />
+			<text id="D311" name="Франция"  />
+			<text id="D312" name="Испания"  />
+			<text id="D313" name="Португалия"  />
+			<text id="D314" name="Голландия"  />
+			<text id="D315" name="Бельгия"  />
+			<text id="D316" name="Польша"  />
+			<text id="D317" name="Россия"  />
+			<text id="D318" name="Чехия"  />
+			<text id="D319" name="Греция"  />
+			<text id="D32" name="Австрия"  />
+			<text id="D320" name="Турция"  />
+			<text id="D321" name="США"  />
+			<text id="D322" name="Канада"  />
+			<text id="D323" name="Мексика"  />
+			<text id="D324" name="Бразилия"  />
+			<text id="D325" name="Аргентина"  />
+			<text id="D326" name="Китай"  />
+			<text id="D327" name="Япония"  />
+			<text id="D328" name="Австралия"  />
+			<text id="D329" name="Корея"  />
+			<text id="D33" name="Швейцария"  />
+			<text id="D330" name="Венгрия"  />
+			<text id="D331" name="Тайвань"  />
+			<text id="D34" name="Финляндия"  />
+			<text id="D35" name="Швеция"  />
+			<text id="D36" name="Норвегия"  />
+			<text id="D37" name="Дания"  />
+			<text id="D38" name="Великобритания"  />
+			<text id="D39" name="Ирландия"  />
+			<text id="D40" name="Лошадь"  />
+			<text id="D41" name="Дерево"  />
+			<text id="D410" name="Дерево страхов"  />
+			<text id="D42" name="Корова"  />
+			<text id="D43" name="Овца"  />
+			<text id="D44" name="Свинья"  />
+			<text id="D45" name="Коза"  />
+			<text id="D46" name="Гусь"  />
+			<text id="D47" name="Курица"  />
+			<text id="D48" name="Собака"  />
+			<text id="D49" name="Кошка"  />
+			<text id="D60" name="Рынок"  />
+			<text id="D70" name="Скелет"  />
+			<text id="D71" name="Рука зомби"  />
+			<text id="D72" name="Могильная плита"  />
+			<text id="D73" name="Зловещая тыква"  />
+			<text id="D74" name="Зловещая тыква"  />
+			<text id="D75" name="Зловещая тыква"  />
+			<text id="D76" name="Зловещая тыква"  />
+			<text id="D77" name="Зловещая тыква"  />
+			<text id="Dxxx" name="Гнездо"  />
+			<text id="E01" name="поле 10x10"  />
+			<text id="E02" name="поле 12x12"  />
+			<text id="E03" name="поле 14x14"  />
+			<text id="E04" name="поле 16x16"  />
+			<text id="E05" name="поле 18x18"  />
+			<text id="E06" name="поле 20x20"  />
+			<text id="E07" name="поле 22x22"  />
+			<text id="E08" name="поле 24x24"  />
+			<text id="E11" name="поле 10х10"  />
+			<text id="E12" name="поле 12x12"  />
+			<text id="E13" name="поле 14х14"  />
+			<text id="E14" name="поле 16х16"  />
+			<text id="E15" name="поле 18х18"  />
+			<text id="E16" name="поле 20х20"  />
+			<text id="E17" name="поле 22х22"  />
+			<text id="E18" name="поле 24х24"  />
+			<text id="E21" name="поле 10х10"  />
+			<text id="E22" name="поле 12x12"  />
+			<text id="E23" name="поле 14х14"  />
+			<text id="E24" name="поле 16х16"  />
+			<text id="E25" name="поле 18х18"  />
+			<text id="E26" name="поле 20х20"  />
+			<text id="E27" name="поле 22х22"  />
+			<text id="E28" name="поле 24х24"  />
+			<text id="F01" name="-25% к циклу"  />
+			<text id="F20" name="Живая вода"  />
+			<text id="F30" name="Удобрение"  />
+			<text id="F31" name="Супер-удобрение"  />
+			<text id="F40" name="Корм"  />
+			<text id="F41" name="Корм УЛЬТРА"  />
+			<text id="F50" name="Волшебная пыль"  />
+			<text id="G00" name="Каменная дорожка"  />
+			<text id="H00" name="Амбар"  />
+			<text id="H01" name="Силос"  />
+			<text id="H02" name="Кладовка"  />
+			<text id="H03" name="Мельница"  />
+			<text id="H04" name="Теплица"  />
+			<text id="H05" name="Парник страхов"  />
+			<text id="H06" name="Жуткий силос"  />
+			<text id="H07" name="Мельница ужасов"  />
+			<text id="H08" name="Зимний силос"  />
+			<text id="H09" name="Зимняя мельница"  />
+			<text id="H10" name="Курятник"  />
+			<text id="H11" name="Свинарник"  />
+			<text id="H12" name="Коровник"  />
+			<text id="H13" name="Конюшня"  />
+			<text id="H20" name="Избушка"  />
+			<text id="H21" name="Коттедж"  />
+			<text id="H210" name="Коттедж мёртвых"  />
+			<text id="H211" name="Жуткая вилла"  />
+			<text id="H212" name="Зимняя хижина"  />
+			<text id="H213" name="Зимний дом"  />
+			<text id="H214" name="Зимняя вилла"  />
+			<text id="H215" name="Пряничный домик"  />
+			<text id="H216" name="Зимний сельский дом"  />
+			<text id="H217" name="Зимняя дача"  />
+			<text id="H218" name="Яичный домик"  />
+			<text id="H219" name="Яичный домик"  />
+			<text id="H22" name="Фазенда"  />
+			<text id="H220" name="Пиратская шхуна"  />
+			<text id="H23" name="Собачья будка"  />
+			<text id="H24" name="Дом на дереве"  />
+			<text id="H25" name="Сельский дом"  />
+			<text id="H26" name="Оранжерея"  />
+			<text id="H27" name="Вилла"  />
+			<text id="H28" name="Дворец"  />
+			<text id="H29" name="Избушка привидений"  />
+			<text id="H30" name="Лоток с фруктами"  />
+			<text id="H31" name="Хозтовары"  />
+			<text id="H32" name="Лотерея Медовой Шипучки"  />
+			<text id="H40" name="Силос-удобрения"  />
+			<text id="H50" name="Особняк призраков"  />
+			<text id="H51" name="Церковь кошмаров"  />
+			<text id="N01" name="Плоды"  />
+			<text id="N02" name="Продукция"  />
+			<text id="R00" name="Сила x10"  />
+			<text id="R01" name="Сила x25"  />
+			<text id="R02" name="Сила x50"  />
+			<text id="S00" name="Тюльпаны"  />
+			<text id="S01" name="Ландыши"  />
+			<text id="S010" name="Лиловые розы"  />
+			<text id="S02" name="Лаванда"  />
+			<text id="S03" name="Подсолнухи"  />
+			<text id="S04" name="Розы"  />
+			<text id="S05" name="Георгины"  />
+			<text id="S06" name="Крокусы"  />
+			<text id="S07" name="Лилии"  />
+			<text id="S08" name="Люпины"  />
+			<text id="S09" name="Мак"  />
+			<text id="S10" name="Клубника"  />
+			<text id="S11" name="Арбузы"  />
+			<text id="S12" name="Ананас"  />
+			<text id="S13" name="Виноград"  />
+			<text id="S14" name="Дыни"  />
+			<text id="S15" name="Малина"  />
+			<text id="S16" name="Черника"  />
+			<text id="S17" name="Клюква"  />
+			<text id="S18" name="Крыжовник"  />
+			<text id="S19" name="Ежевика"  />
+			<text id="S20" name="Баклажаны"  />
+			<text id="S21" name="Цветная"  />
+			<text id="S210" name="Шпинат"  />
+			<text id="S211" name="Лук"  />
+			<text id="S212" name="Красная"  />
+			<text id="S213" name="Картофель"  />
+			<text id="S214" name="Морковь"  />
+			<text id="S215" name="Горох"  />
+			<text id="S216" name="Редиска"  />
+			<text id="S217" name="Ревень"  />
+			<text id="S218" name="Брюссельская"  />
+			<text id="S219" name="Соя"  />
+			<text id="S22" name="Тыква"  />
+			<text id="S220" name="Свёкла"  />
+			<text id="S221" name="Брокколи"  />
+			<text id="S222" name="Артишоки"  />
+			<text id="S223" name="Перец чили"  />
+			<text id="S224" name="Спаржа"  />
+			<text id="S225" name="Рапса"  />
+			<text id="S23" name="Сладкий перец"  />
+			<text id="S24" name="Помидоры"  />
+			<text id="S25" name="Фасоль"  />
+			<text id="S26" name="Огурцы"  />
+			<text id="S27" name="Свекла"  />
+			<text id="S28" name="Салат-латук"  />
+			<text id="S29" name="Цуккини"  />
+			<text id="S30" name="Пшеница"  />
+			<text id="S31" name="Овёс"  />
+			<text id="S32" name="Рис"  />
+			<text id="S33" name="Рожь"  />
+			<text id="S34" name="Кукуруза"  />
+			<text id="S35" name="Ячмень"  />
+			<text id="S36" name="Просо"  />
+			<text id="S37" name="Кукуруза"  />
+			<text id="S38" name="Краснозерка"  />
+			<text id="S39" name="Полба"  />
+			<text id="S40" name="Кофе"  />
+			<text id="S41" name="Чай"  />
+			<text id="S42" name="Тростник"  />
+			<text id="S43" name="Алoэ"  />
+			<text id="S44" name="Хлопок"  />
+			<text id="S45" name="Особая соя"  />
+			<text id="S49" name="Подснежники"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Сокровища"  />
+			<text id="S52" name="Красные яйца"  />
+			<text id="S53" name="Синие яйца"  />
+			<text id="S54" name="Лотос"  />
+			<text id="S55" name="Белые розы"  />
+			<text id="S56" name="Перец хабанеро"  />
+			<text id="S57" name="Незабудка"  />
+			<text id="S58" name="Васаби"  />
+			<text id="S59" name="Кекс"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Лиловые яйца"  />
+			<text id="S63" name="Жёлтые яйца"  />
+			<text id="T00" name="Курица"  />
+			<text id="T01" name="Гусь"  />
+			<text id="T02" name="Пегая курица"  />
+			<text id="T03" name="Чёрная курица"  />
+			<text id="T04" name="Петух"  />
+			<text id="T05" name="Утка"  />
+			<text id="T06" name="Зимний гусь"  />
+			<text id="T07" name="Попугай"  />
+			<text id="T10" name="Свинья"  />
+			<text id="T11" name="Корова"  />
+			<text id="T110" name="Пегая корова"  />
+			<text id="T111" name="Бык"  />
+			<text id="T112" name="Зимняя лошадь"  />
+			<text id="T113" name="Зимняя корова"  />
+			<text id="T114" name="Ягнёнок"  />
+			<text id="T115" name="Единорог"  />
+			<text id="T12" name="Овца"  />
+			<text id="T13" name="Коза"  />
+			<text id="T14" name="Собака"  />
+			<text id="T15" name="Чёрная кошка"  />
+			<text id="T16" name="Рыжая кошка"  />
+			<text id="T17" name="Чёрная лошадь"  />
+			<text id="T18" name="Пегая лошадь"  />
+			<text id="T19" name="Чёрная овца"  />
+			<text id="T20" name="Oвчарка"  />
+			<text id="T21" name="Олень"  />
+			<text id="T22" name="Кролик"  />
+			<text id="V00" name="10 литров"  />
+			<text id="V01" name="25 литров"  />
+			<text id="V02" name="50 литров"  />
+			<text id="V10" name="Трактор"  />
+			<text id="V20" name="Сеялка"  />
+			<text id="V30" name="Комбайн"  />
+			<text id="V40" name="Удобритель"  />
+			<text id="V90" name="Топливный бак"  />
+			<text id="Y01" name="Убранное"  />
+			<text id="Y02" name="Вспаханное"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Извините, список друзей у вас или #name# уже полон,#tab# либо ваше предложение дружить отклонено #name#."  />
+				<text id="buddies_add_ok" name="#name# теперь ваш друг."  />
+				<text id="chat_dop" name="Пожалуйста, не пишите один и тот же текст. Спасибо."  />
+				<text id="chat_nonsense" name="Пожалуйста, пишите осмысленные фразы. Спасибо."  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Неправильный e-mail адрес.
+Введите, пожалуйста, правильный."  />
+				<text id="email_dop" name="Этот адрес уже используется.
+Пожалуйста, введите другой."  />
+				<text id="email_no" name="Неизвестный e-mail"  />
+				<text id="farm_full" name="Ha этой ферме в данный момент слишком много людей. Пожалуйста, выберите другую ферму."  />
+				<text id="helper_job_no" name="#name# отклонил ваше предложение #job#, либо ушёл с рынка."  />
+				<text id="helper_job_ok" name="#name# принял ваше предложение #job#."  />
+				<text id="helper_owner_no_money" name="У владельца фермы не хватает денег, чтобы вспахать поле."  />
+				<text id="invite_sent" name="Спасибо!
+Письмо будет отправлено вашему другу!"  />
+				<text id="item_dop" name="Вы уже достигли максимально возможного количества."  />
+				<text id="kenn_bad" name="Используйте, пожалуйста для пароля
+от 5 до 15 знаков,
+из числа следующих символов:#tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="Неправильный пароль"  />
+				<text id="kenn_unequal" name="Пароли не совпадают"  />
+				<text id="kick" name="Извините, вас выгнали из фермы #name#!#tab#Похоже, вы сделали что-то не так."  />
+				<text id="lagernosell" name="Вам нужно убрать всё из постройки, прежде чем продавать её."  />
+				<text id="lager_building" name="Вам нужно возвести амбар или кладовку, чтобы складировать предметы."  />
+				<text id="lager_cantsell" name="Вы не сможете продать эту постройку, пока не освободите достаточно места на складе."  />
+				<text id="lager_voll" name="Вы не можете вложить один функциональный объект в другой."  />
+				<text id="login_bad" name="Ошибка при входе. Если вы забыли свой пароль, нажмите на &#039;Забыли пароль?&#039;.#tab#Если вам нужна помощь, напишите нам на support@goodgamestudios.com"  />
+				<text id="name_bad" name="Используйте, пожалуйста, для имени персонажа:#tab#от 2 до 15 знаков, из следующих символов: a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Такое имя уже зарегистрировано. Пожалуйста, придумайте другое или выберите:"  />
+				<text id="name_spam" name="Пожалуйста, выберите другое имя"  />
+				<text id="no_agb" name="Пожалуйста, убедитесь, что у вас нет возражений к пользовательскому соглашению."  />
+				<text id="no_arbeitskraft" name="У вас не хватает Энергии для этой задачи. Подождите, пока её не станет достаточно или купи Энергию в магазине."  />
+				<text id="no_buddies" name="К сожалению у вас недостаточно друзей.#tab#Чтобы купить #obj# вы должны пригласить ещё #anz# друзей."  />
+				<text id="no_chat" name="Я должен зарегистрироваться и достигнуть 1-го уровня, чтобы участвовать в чате."  />
+				<text id="no_ferti" name="Удобрения #name# закончились. Пожалуйста, купите еще."  />
+				<text id="no_food" name="У вас не хватает корма на всех животных!"  />
+				<text id="no_gender" name="Вы ещё не выбрали пол персонажа. Нажмите, пожалуйста, на одну из картинок."  />
+				<text id="no_lager" name="Для этого объекта нет подходящего места."  />
+				<text id="no_money" name="У вас недостаточно денег для этого."  />
+				<text id="no_premium" name="Вы использовали всю премиальную партию #name#. Купите новую."  />
+				<text id="no_regi" name="Эта функция для зарегистрированных игроков.#tab#Пожалуйста, зарегистрируйтесь, чтобы сохранить свою ферму."  />
+				<text id="no_tanken" name="У вас недостаточно горючего для этого действия."  />
+				<text id="no_zauberstaub" name="Ваш {0} пуст.
+Выполняйте достижения, чтобы получить ещё."  />
+				<text id="old_client_version" name="Старая версия. Пожалуйста, обновите страницу."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Вы должны зарегистрироваться и достичь третьего уровня, чтобы попасть в рейтинг."  />
+				<text id="rangliste_player_not_ranked" name="Этому игроку нужно достичь 3-го уровня, чтобы попасть в рейтинг."  />
+				<text id="rangliste_unknown_id" name="Извините, под этим именем никто не зарегистрирован."  />
+				<text id="vehiclesnosell" name="Этот транспорт используется."  />
+				<text id="vollscreen" name="В полноэкранном режиме нельзя общаться по соображениям безопасности."  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Дружба"  />
+				<text id="farm_full" name="Увы!"  />
+				<text id="helper_job_ok" name="Работа принята"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="активировано"  />
+				<text id="buyOf" name="Расход #anz# из #menge#"  />
+				<text id="clickZum" name="Нажмите, чтобы"  />
+				<text id="deactive" name="неактивно"  />
+				<text id="doContent" name="выбрать действие"  />
+				<text id="doDel" name="Удалить"  />
+				<text id="doFertilize" name="удобрить"  />
+				<text id="doFertilizeAnimals" name="накормить"  />
+				<text id="doFortune" name="Играть в лотерею"  />
+				<text id="doHarvest" name="собрать"  />
+				<text id="doMove" name="передвинуть"  />
+				<text id="doPlow" name="вспахать"  />
+				<text id="doPos" name="поместить"  />
+				<text id="doRot" name="повернуть"  />
+				<text id="doSell" name="Продать"  />
+				<text id="doSow" name="засеять"  />
+				<text id="doTosOpen" name="складировать"  />
+				<text id="doVehicles" name="с помощью машины"  />
+				<text id="farmbuddie" name="Ваша подруга#Ваш  друг"  />
+				<text id="farmgast" name="Гость#Гость"  />
+				<text id="farmhelperharvest" name="Помощница по сбору урожая#Помощник по сбору урожая"  />
+				<text id="farmhelperplow" name="Помощница по вспашке#Помощник по вспашке"  />
+				<text id="farmowner" name="Владелица этой фермы#Владелец этой фермы"  />
+				<text id="farmvisitor" name="Посетительница#Посетитель"  />
+				<text id="isFertilize" name="Удобрено"  />
+				<text id="isHarvest" name="урожай собран"  />
+				<text id="isReadyB" name="зрелости"  />
+				<text id="isReadyEX" name="засохло"  />
+				<text id="isReadyFin" name="стоимости урожая"  />
+				<text id="isReadyS" name="созревания"  />
+				<text id="isReadyT" name="готовности"  />
+				<text id="jobbenrest" name="#anz# единиц силы для работы"  />
+				<text id="jobVehicles" name="--- Работа на машинах:"  />
+				<text id="jobWalk" name="--- Работа руками:"  />
+				<text id="ketteZum" name="Рабочий журнал"  />
+				<text id="Market" name="Рынок"  />
+				<text id="marketvisitor" name="Игрок"  />
+				<text id="my" name="Это вы"  />
+				<text id="noPfad" name="Я не могу туда пройти!"  />
+				<text id="online" name="в сети"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Игрок"  />
+				<text id="AC" name="Футболка"  />
+				<text id="AG" name="Фигура"  />
+				<text id="AH" name="Прическа"  />
+				<text id="AP" name="Штаны"  />
+				<text id="AS" name="Обувь"  />
+				<text id="AT" name="Цвет лица"  />
+				<text id="B" name="Дерево"  />
+				<text id="D" name="Украшение"  />
+				<text id="E" name="Расширение фермы"  />
+				<text id="F" name="Удобрение"  />
+				<text id="G" name="Улица"  />
+				<text id="H" name="Дом"  />
+				<text id="R" name="Работа"  />
+				<text id="S" name="поле"  />
+				<text id="T" name="Животное"  />
+				<text id="V" name="Машина"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Дерево"  />
+				<text id="D0" name="Украшения фермы"  />
+				<text id="D1" name="Украшение для фермы"  />
+				<text id="D2" name="Огораживание"  />
+				<text id="D3" name="Флаг"  />
+				<text id="D4" name="Садовые украшения"  />
+				<text id="D7" name="Праздничные украшения"  />
+				<text id="F0" name="- к циклу"  />
+				<text id="F1" name="+ к доходу"  />
+				<text id="F2" name="Освежает!"  />
+				<text id="H0" name="Ферма"  />
+				<text id="H1" name="Стойла"  />
+				<text id="H2" name="Жилой дом"  />
+				<text id="H4" name="Функции"  />
+				<text id="H5" name="Особые постройки"  />
+				<text id="N0" name="Работать быстрее"  />
+				<text id="R0" name="Работать на других фермах"  />
+				<text id="S0" name="Цветок"  />
+				<text id="S1" name="Фрукт"  />
+				<text id="S2" name="Овощи"  />
+				<text id="S3" name="Зерно"  />
+				<text id="S4" name="Остальное"  />
+				<text id="S5" name="Особые"  />
+				<text id="S6" name="Сезон"  />
+				<text id="T0" name="Домашняя птица"  />
+				<text id="T1" name="Продуктивное животное"  />
+				<text id="T2" name="Домашнее животное"  />
+				<text id="V0" name="Горючее"  />
+				<text id="V1" name="Трактор"  />
+				<text id="V2" name="Сеялка"  />
+				<text id="V3" name="Комбайн"  />
+				<text id="V4" name="Удобритель"  />
+				<text id="V9" name="Топливный бак"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Достижение!"  />
+				<text id="txt1" name="Поздравляем!
+Вы получили уровень #level# в достижении #name#."  />
+				<text id="txt2" name="ОК"  />
+				<text id="txt3" name="Поделиться с друзьями"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Заработанные фермарки"  />
+				<text id="i10" name="Сорвано цветов"  />
+				<text id="i11" name="Собрано урожая с деревьев"  />
+				<text id="i12" name="Всего собрано продукции с животных"  />
+				<text id="i13" name="Всего фермарок, потраченных на подарки"  />
+				<text id="i14" name="Всего получено подарков"  />
+				<text id="i15" name="Всего случаев, когда вам помогли соседи"  />
+				<text id="i16" name="Создано картин"  />
+				<text id="i17" name="Проделано пахотных работ в старой системе"  />
+				<text id="i18" name="Выполнено работ по уборке урожая или продукции в старой системе"  />
+				<text id="i19" name="Проделано пахотных работ на вашей ферме в старой системе"  />
+				<text id="i2" name="Потраченные фермарки"  />
+				<text id="i20" name="Выполнено работ на вашей ферме по уборке урожая или продукции в старой системе"  />
+				<text id="i21" name="Удобрено полей, животных и деревьев: выигрыш во времени"  />
+				<text id="i22" name="Удобрено полей, животных и деревьев: волшебная палочка"  />
+				<text id="i23" name="Виды собранного зерна"  />
+				<text id="i24" name="Виды собранных фруктов"  />
+				<text id="i25" name="Виды сорванных цветов"  />
+				<text id="i26" name="Видов собранных овощей"  />
+				<text id="i27" name="Виды деревьев, с которых собран урожай"  />
+				<text id="i28" name="Виды животных, с которых собрана продукция"  />
+				<text id="i29" name="Количество разных объектов, с которых собран урожай или продукция"  />
+				<text id="i3" name="Купленные постройки"  />
+				<text id="i30" name="Виды деятельности, в которых вы достигли мастерства"  />
+				<text id="i31" name="Достигнуто степеней мастерства"  />
+				<text id="i32" name="Всего присоединилось друзей"  />
+				<text id="i33" name="Куплено деревьев"  />
+				<text id="i34" name="Собрано премиальных семян"  />
+				<text id="i35" name="Виды собранных премиальных семян"  />
+				<text id="i36" name="Всего полей, которые вы вспахали, работая по найму"  />
+				<text id="i37" name="Всего полей, вспаханных на вашей ферме по найму"  />
+				<text id="i38" name="Всего объектов, с которых вы сняли продукцию или урожай, работая по найму"  />
+				<text id="i39" name="Всего объектов с которых на вашей ферме собирали урожай или продукцию по найму"  />
+				<text id="i4" name="Купленные декоративные предметы"  />
+				<text id="i5" name="Купленные животных"  />
+				<text id="i6" name="Собранные семена"  />
+				<text id="i7" name="Собрано фруктов"  />
+				<text id="i8" name="Собрано овощей"  />
+				<text id="i9" name="Собрано зерна"  />
+				<text id="next" name="Еще #level# до следующего уровня"  />
+				<text id="t1" name="Зажиточный Хозяин"  />
+				<text id="t10" name="Дитя Цветов"  />
+				<text id="t11" name="Почитатель Деревьев"  />
+				<text id="t12" name="Обожатель Зверюшек"  />
+				<text id="t13" name="Щедрая Душа"  />
+				<text id="t14" name="Всеобщий любимец"  />
+				<text id="t15" name="Локтём к локтю"  />
+				<text id="t16" name="Деревенский Художник"  />
+				<text id="t17" name="Легендарный Пахарь"  />
+				<text id="t18" name="Ветеран Урожая"  />
+				<text id="t19" name="Старый Начальник"  />
+				<text id="t2" name="Шопоголик"  />
+				<text id="t20" name="Истовый Жнец"  />
+				<text id="t21" name="На скорую руку"  />
+				<text id="t22" name="Знак Качества"  />
+				<text id="t23" name="Хлебороб"  />
+				<text id="t24" name="Плодовая Мушка"  />
+				<text id="t25" name="Ароматы Цветов"  />
+				<text id="t26" name="Овощевод"  />
+				<text id="t27" name="Ненасытная Тля"  />
+				<text id="t28" name="Довольный Пастырь"  />
+				<text id="t29" name="Трудяга Сборщик"  />
+				<text id="t3" name="Зодчий"  />
+				<text id="t30" name="Мастер на все руки"  />
+				<text id="t31" name="Золотые Руки"  />
+				<text id="t32" name="Классная Тусовка"  />
+				<text id="t33" name="Древесный Жук"  />
+				<text id="t34" name="Золотой Урожай"  />
+				<text id="t35" name="Сияющие Семена"  />
+				<text id="t36" name="Преуспевающий Пахарь"  />
+				<text id="t37" name="Строгий Начальник"  />
+				<text id="t38" name="Жнец спешит на помощь"  />
+				<text id="t39" name="Чужими Руками"  />
+				<text id="t4" name="Восхитительное Убранство"  />
+				<text id="t5" name="Скотовладелец"  />
+				<text id="t6" name="Превосходные Семена"  />
+				<text id="t7" name="Плодоносное Древо"  />
+				<text id="t8" name="Вегетарианское Раздолье"  />
+				<text id="t9" name="Зерновой Магнат"  />
+				<text id="txt0" name="Достижения"  />
+				<text id="txt1" name="Общий прогресс"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Извините!"  />
+				<text id="txt1" name="ОК"  />
+				<text id="txt2" name="Вам запретили играть.
+До конца запрета: #time# мин.
+Если у вас есть вопросы, пишите на #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Важная информация!"  />
+				<text id="txt1" name="ОК"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Извините!"  />
+				<text id="txt1" name="На этом компьютере уже открыто окно с #spielname#."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="ВНИМАНИЕ !!!"  />
+				<text id="txt1" name="ОК"  />
+				<text id="txt2" name="К сожалению, cвязь с сервером  будет прервана через  #time# секунд!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Выбрать"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Персонаж"  />
+				<text id="txt0" name="Случайный"  />
+				<text id="txt1" name="Сохранить"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Пожаловаться на игрока!"  />
+				<text id="txt1" name="Вы действительно хотите пожаловаться на игрока {0}?"  />
+				<text id="txt2" name="да"  />
+				<text id="txt3" name="нет"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Подтвердить дружбу"  />
+				<text id="txt1" name="#name# хочет дружить с вами."  />
+				<text id="txt2" name="Отказать"  />
+				<text id="txt3" name="Принять"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Дружба"  />
+				<text id="txt1" name="Предложить #name# стать вашим другом."  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="Спросить"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} ваш {0} друг. Чтобы его удалить, надо разорвать отношения с {0}!"  />
+				<text id="txt0" name="Удалить друга"  />
+				<text id="txt1" name="Вы действительно хотите удалить #name# из списка друзей?"  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="Принять"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Удалить oбъект"  />
+				<text id="txt1" name="Вы действительно хотите удалить #obj#?"  />
+				<text id="txt2" name="Нет"  />
+				<text id="txt3" name="Да"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Продолжить"  />
+				<text id="tTitle" name="Награда!"  />
+				<text id="txt0" name="Мы выслали подарок на ваш e-mail."  />
+				<text id="txt1" name="Заберите сейчас!"  />
+				<text id="txt2" name="Можем заново выслать вам e-mail, если хотите!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Продолжить"  />
+				<text id="tTitle" name="Письмо отослано"  />
+				<text id="txt0" name="Вам только что отослано письмо с наградой!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Продолжить"  />
+				<text id="tTitle" name="Подарок"  />
+				<text id="txt0" name="Вы получаете приз!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Расширить"  />
+				<text id="txt1" name="Увеличьте эту постройку, чтобы поместить больше объектов."  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="Купить"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Ферма увеличена!"  />
+				<text id="txt1" name="Поздравляем!
+Ваша ферма стала ещё больше."  />
+				<text id="txt2" name="ОК"  />
+				<text id="txt3" name="Поделиться с друзьями"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Фотоальбом"  />
+				<text id="txt1" name="Отменить"  />
+				<text id="txt2" name="Удалить"  />
+				<text id="txt3" name="Сохранить"  />
+				<text id="txt4" name="Напишите что-нибудь об этой картине!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Регистрация"  />
+				<text id="txt1" name="Вы должны зарегистрироваться, чтобы сохранить игру. В противном случае, ваши данные будут потеряны!
+
+Регистрация абсолютно бесплатна!"  />
+				<text id="txt2" name="Регистрация"  />
+				<text id="txt3" name="Выйти"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Приглашаю на уборку"  />
+				<text id="txt1" name="Вы хотите помочь #name# собирать урожай?
+В награду за работу вы получите опыт!"  />
+				<text id="txt2" name="Отказать"  />
+				<text id="txt3" name="Принять"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Нужна помощь по вспашке."  />
+				<text id="txt1" name="Вы хотите помочь #name# вспахивать поля?
+В награду за работу вы получите фермарки!"  />
+				<text id="txt2" name="Отказать"  />
+				<text id="txt3" name="Принять"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Задача по уборке урожая"  />
+				<text id="txt1" name="Предложить #name# собирать урожай на вашей ферме.
+Когда кто-либо собирает урожай на вашей ферме, вы зарабатываете дополнительные фермарки!"  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="Спросить"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Задание на вспашку"  />
+				<text id="txt1" name="Предложить #name# пахать поля на вашей ферме.
+Когда кто-либо пашет поля на вашей ферме, вы получаете дополнительный опыт!"  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="Спросить"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Удалить"  />
+				<text id="txt1" name="Купить"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Занято"  />
+				<text id="txt1" name="Расширить"  />
+				<text id="txt2" name="Склад"  />
+				<text id="txt3" name="Назад"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Удалить"  />
+				<text id="txt1" name="Собрать"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Занято"  />
+				<text id="txt1" name="Расширить"  />
+				<text id="txt2" name="Собрать всё"  />
+				<text id="txt3" name="Накормить всех &#039;{0}&#039;"  />
+				<text id="txt4" name="Накормить их &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Вам доступны новые предметы в магазине!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Новые предметы"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Новый уровень!"  />
+				<text id="txt1" name="Поздравляем! Вы достигли нового уровня!"  />
+				<text id="txt2" name="ОК"  />
+				<text id="txt3" name="Поделиться с друзьями"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Забыли пароль?"  />
+				<text id="txt1" name="Введите здесь, пожалуйста, адрес, с которым вы зарегистрировались, и нажмите &#039;отправить&#039;.
+Мы пришлём вам ваш пароль."  />
+				<text id="txt2" name="E-mail"  />
+				<text id="txt3" name="Отменить"  />
+				<text id="txt4" name="Отправить"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Выйти"  />
+				<text id="txt1" name="Хотите покинуть ферму?"  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="ОК"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Увы!"  />
+				<text id="txt1" name="ОК"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Регистрация"  />
+				<text id="txt1" name="Пожалуйста, зарегистрируйтесь - тогда мы сможем сохранить вашу ферму."  />
+				<text id="txt2" name="Выйти"  />
+				<text id="txt3" name="ОК"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Регистрация"  />
+				<text id="txt1" name="E-mail"  />
+				<text id="txt2" name="Пароль"  />
+				<text id="txt3" name="Я принимаю условия пользовательского соглашения"  />
+				<text id="txt4" name="Отменить"  />
+				<text id="txt5" name="ОК"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Создание персонажа"  />
+				<text id="txt1" name="Псевдоним"  />
+				<text id="txt2" name="Девушка"  />
+				<text id="txt3" name="Парень"  />
+				<text id="txt4" name="Отменить"  />
+				<text id="txt5" name="ОК"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Играть сразу"  />
+				<text id="txt1" name="Регистрация"  />
+				<text id="txt2" name="Вход"  />
+				<text id="txt3" name="Имя или e-mail"  />
+				<text id="txt4" name="Пароль"  />
+				<text id="txt5" name="Забыли пароль?"  />
+				<text id="txt6" name="Запомнить данные"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Рынок"  />
+				<text id="txt1" name="Больше не показывать"  />
+				<text id="txt2" name="ОК"  />
+				<text id="txt3" name="Здравствуйте, #name#!
+Это рынок #spielname#. Здесь вы можете нанять других игроков на работу по уборке урожая или вспашке полей, либо предложить другим эти услуги."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Изменить пароль"  />
+				<text id="txt1" name="Старый пароль"  />
+				<text id="txt2" name="Новый пароль"  />
+				<text id="txt3" name="Повторите новый пароль"  />
+				<text id="txt4" name="Отменить"  />
+				<text id="txt5" name="Сохранить"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Увы!"  />
+				<text id="txt1" name="ОК"  />
+				<text id="txt2" name="Регистрация"  />
+				<text id="txt3" name="Пригласить друга"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Настройки"  />
+				<text id="txt1" name="Прозрачные деревья"  />
+				<text id="txt10" name="хорошая"  />
+				<text id="txt11" name="средняя"  />
+				<text id="txt12" name="низкая"  />
+				<text id="txt13" name="масштаб"  />
+				<text id="txt14" name="Игнорировать запросы на дружбу."  />
+				<text id="txt15" name="Отказывать гостям из таблицы рейтинга"  />
+				<text id="txt16" name="Показывать советы."  />
+				<text id="txt2" name="Прозрачные постройки"  />
+				<text id="txt3" name="Прозрачные декоративные предметы"  />
+				<text id="txt4" name="Низкое качество"  />
+				<text id="txt5" name="Изменить пароль"  />
+				<text id="txt6" name="Отменить"  />
+				<text id="txt7" name="Сохранить"  />
+				<text id="txt8" name="Выключить анимацию"  />
+				<text id="txt9" name="Графика"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Искать имя или ранг"  />
+				<text id="txt0" name="Рейтинг"  />
+				<text id="txt1" name="искать"  />
+				<text id="txt2" name="Ранг"  />
+				<text id="txt3" name="Имя"  />
+				<text id="txt4" name="Уровень"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Сегодня"  />
+				<text id="zeitraum1" name="на этой неделе"  />
+				<text id="zeitraum2" name="в этом месяце"  />
+				<text id="zeitraum3" name="Всегда"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Продать объект"  />
+				<text id="txt1" name="Вы действительно хотите продать #obj# за #w1# фермарок?"  />
+				<text id="txt2" name="Нет"  />
+				<text id="txt3" name="Да"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Вернёт к жизни засохшие растения"  />
+				<text id="F30" name="Ускоряет рост растений и деревьев на 10%"  />
+				<text id="F31" name="Ускоряет рост растений и деревьев на 50%"  />
+				<text id="F40" name="Ускоряет рост животных на 10%"  />
+				<text id="F41" name="Ускоряет рост животных на 50%"  />
+				<text id="F50" name="Увеличивает стоимость урожая и продуктов, а также опыт от семян, деревьев и животных на 50%!"  />
+				<text id="H00" name="Амбар позволяет хранить 15 объектов."  />
+				<text id="H02" name="Сарай позволяет хранить 4 объектa."  />
+				<text id="H10" name="Курятник позволяет вам выращивать сразу много кур."  />
+				<text id="H11" name="Свинарник позволяет вам выращивать сразу много свиней."  />
+				<text id="H12" name="Коровник позволяет вам выращивать сразу много коров."  />
+				<text id="H13" name="Конюшня позволяет вам выращивать сразу много лошадей."  />
+				<text id="H40" name="Силосная башня даёт вам бонус +20% когда вы покупаете корм или удобрения."  />
+				<text id="N01" name="Право собрать урожай со всех деревьев сразу"  />
+				<text id="N02" name="Право собрать продукцию со всех животных сразу"  />
+				<text id="R0x" name="{0} дополнительных единиц силы для работы."  />
+				<text id="S5x" name="Премиальные семена дают больше опыта и фермарок чем обычные и ещё - они никогда не вянут!
+Их можно купить в магазине большой партией и сразу же использовать без дальнейших затрат."  />
+				<text id="V0x" name="Эта топливная канистра содержит {0} литров топлива"  />
+				<text id="V10" name="С помощь трактора вы можете вспахать четыре поля одновременно"  />
+				<text id="V20" name="С помощью сеялки вы можете засеивать четыре поля одновременно."  />
+				<text id="V30" name="С помощью комбайна вы можете снимать урожай с четырёх полей одновременно."  />
+				<text id="V40" name="С помощью машины для удобрений вы можете удобрять четыре поля одновременно"  />
+				<text id="V90" name="+20% к объёму приобретаемого топлива"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Уровень #level#"  />
+				<text id="txtAnzahl" name="Партия:"  />
+				<text id="txtAnzahlVon" name="из"  />
+				<text id="txtBenutzen" name="Применить"  />
+				<text id="txtBuy" name="Купить"  />
+				<text id="txtHarvestXP" name="Стоимость урожая"  />
+				<text id="txtPremium" name="Особые"  />
+				<text id="txtSize" name="Размер партии"  />
+				<text id="txtVerbrauch" name="Расход"  />
+				<text id="txtWork" name="Работать"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Не показывать советы."  />
+				<text id="shoptipp_0_title" name="Увы!"  />
+				<text id="shoptipp_1_text" name="У вас недостаточно горючего. Хотите пополнить бак?"  />
+				<text id="shoptipp_1_title" name="Заправка"  />
+				<text id="shoptipp_2_text" name="У вас недостаточно удобрений. Хотите их купить?"  />
+				<text id="shoptipp_2_title" name="Хранить в силосной башне"  />
+				<text id="shoptipp_3_text" name="На вашей ферме не хватает свободного места. Хотите приобрести расширение?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="У вас не осталось сил!
+Вы знаете, что силу для работы можно купить?"  />
+				<text id="shoptipp_4_title" name="Трудоголик!"  />
+				<text id="shoptipp_5_text" name="У вас не хватает для этого премиальных семян. Хотите купить их?"  />
+				<text id="shoptipp_5_title" name="Купить премиальных семян"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Магазин"  />
+				<text id="txtSilo" name="Силос"  />
+				<text id="txtWork" name="Работать"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Я ищу работу."  />
+				<text id="txt1" name="Кому помочь со вспашкой?"  />
+				<text id="txt2" name="Я хочу собирать урожай."  />
+				<text id="txt3" name="Есть желающие вспахать поле?"  />
+				<text id="txt4" name="Есть желающие собирать урожай?"  />
+				<text id="txt5" name="Здравствуйте!"  />
+				<text id="txt6" name="Спасибо"  />
+				<text id="txt7" name="Да"  />
+				<text id="txt8" name="Нет"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Пригласить друга"  />
+				<text id="txt1" name="Ваше имя"  />
+				<text id="txt2" name="Имя вашего друга"  />
+				<text id="txt3" name="E-mail вашего друга"  />
+				<text id="txt4" name="Отменить"  />
+				<text id="txt5" name="Пригласить"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Игнорировать сообщения игрока"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Медовая Шипучка"  />
+				<text id="txt1" name="Отличные призы в Медовой Шипучке!"  />
+				<text id="txt2" name="Крутить!"  />
+				<text id="txt3" name="Первый раунд бесплатно!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Ура!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Следующий уровень #xp#"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Фермарок:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Друзья:"  />
+				<text id="txt4" name="Достижения:"  />
+				<text id="txt5" name="ОК"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Удалить персонаж"  />
+				<text id="txt1" name="Вы действительно хотите прогнать #name# со своей фермы?"  />
+				<text id="txt2" name="Отменить"  />
+				<text id="txt3" name="Принять"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Скоро весна! Не упустите шанс полюбоваться на новых животных, на новые украшения, деревья и постройки!"  />
+				<text id="teaser_11_info_1" name="Прислушайтесь!
+На вашей ферме повсюду мычание и кудахтанье!
+Насладитесь обновлённой звуковой системой Goodgame Farmer."  />
+				<text id="teaser_11_title" name="Звуки!"  />
+				<text id="teaser_12_info_1" name="Вы можете свободно общаться на рынке, начиная с 10 уровня. На более низких уровнях просто используйте шаблоны."  />
+				<text id="teaser_12_title" name="Правила общения на рынке"  />
+				<text id="teaser_13_info_1" name="Ещё одно дополнение!
+Приготовьтесь к знакомству с новыми животными, растениями, украшениями и постройками!"  />
+				<text id="teaser_13_info_2" name="А ещё - мы добавили новые уровни ко всем достижениям!"  />
+				<text id="teaser_14_info_1" name="Попробуй новые премиальные семена!
+Они никогда не вянут и дают больше опыта и фермарок, чем обычные."  />
+				<text id="teaser_14_info_2" name="Помимо прочего, мы добавили новые семена для опытных фермеров, а так же два новых достижения!"  />
+				<text id="teaser_14_title" name="Премиальные семена!"  />
+				<text id="teaser_17_info_1" name="Пасха на носу! И сейчас самое время взглянуть на чудесные новые растения, деревья, постройки и украшения!
+Удачи вам в охоте на яйца!"  />
+				<text id="teaser_17_info_2" name="Система работы по найму также была переработана. Теперь сила для работы тратится только на выполнение действий, так что вы никогда не уйдёте с пустыми руками."  />
+				<text id="teaser_17_title" name="Христос воскрес!"  />
+				<text id="teaser_18_info_1" name="Торопитесь!
+Осталось всего несколько дней и пасхальные торжества закончатся. Мы начинаем распродажу сезонных товаров со скидками до 50%!"  />
+				<text id="teaser_18_title" name="Не пропустите!"  />
+				<text id="teaser_19_info_1" name="Летние наряды снова актуальны!
+Получите одну из новых шляп или забавные ушки пасхального кролика!
+
+И, разумеется, не забудьте заглянуть на новый фермерский форум."  />
+				<text id="teaser_19_title" name="Одевайте шляпы!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer справляет свой первый день рождения и мы приглашаем вас на праздник!
+Украшайте свою ферму, одевайте прикольные праздничные шляпы и не упустите шанс посадить семена кексов.
+
+Торопитесь! Веселье не продлится долго!"  />
+				<text id="teaser_20_title" name="С днём рождения!"  />
+				<text id="teaser_21_info_1" name="Обратите внимание на волшебную палочку: её можно использовать на деревьях, животных и всходах, чтобы получить больше урожая и опыта."  />
+				<text id="teaser_21_info_2" name="Ваша животные голодают!
+Накормите их, чтобы они росли быстрее!
+Деревья тоже не отказались бы от удобрений."  />
+				<text id="teaser_21_title" name="Корм для животных и не только!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer был номинирован на European Games Award как &quot;Лучшая социальная игра&quot;!"  />
+				<text id="teaser_23_info_2" name="Помогите нам выиграть, голосуя за нас!"  />
+				<text id="teaser_23_title" name="Голосуйте за нас!"  />
+				<text id="teaser_24_info_1" name="ГРРРРР!!
+Пираты атаковали Goodgame Farmer!
+Одевайте пиратскую шляпу, сажайте в землю сокровища и обзаводитесь говорящим попугаем!"  />
+				<text id="teaser_24_title" name="Пиратское обновление!"  />
+				<text id="teaser_25_info_1" name="Последнее обновление спровоцировало технические трудности, связанные с удобрениями и наградами за достижения.
+
+Чтобы решить эту проблему, мы были вынуждены сбросить все игровые записи к состоянию до обновления.
+
+Мы приносим извинения за все причинённые неудобства."  />
+				<text id="teaser_25_title" name="Сбросить"  />
+				<text id="teaser_5_info_1" name="Напугай своих гостей жуткими Хэллоинскими украшениями и постройками."  />
+				<text id="teaser_5_title" name="Новые предметы!"  />
+				<text id="teaser_6_info_1" name="Выскажи нам своё мнение! Cкaжи во что бы ты хотел играть в будущем!"  />
+				<text id="teaser_6_title" name="Голосуй!"  />
+				<text id="teaser_7_info_1" name="Приближается Рождество!
+Не упустите шанс посмотреть на новые растения, деревья, постройки и украшения!"  />
+				<text id="teaser_7_info_2" name="Теперь вы можете хранить предметы в хозяйственных постройках и не беспокоиться по поводу недостатка свободного места на вашей ферме!"  />
+				<text id="teaser_7_title" name="Новые предметы"  />
+				<text id="teaser_8_info_1" name="Ещё один рождественский сюрприз!
+Новая рейтинговая система позволит вам сравнить свои успехи с другими игроками.
+Станьте самым лучшим фермером!"  />
+				<text id="teaser_8_title" name="Рейтинг!"  />
+				<text id="teaser_9_info_1" name="Спешите!
+Осталось всего несколько дней до конца рождественской акции. Мы устраиваем большую распродажу со скидками до 50% на все сезонные товары!!!"  />
+				<text id="teaser_9_title" name="Не пропустите!"  />
+				<text id="teaser_btn_forum" name="Форум"  />
+				<text id="teaser_btn_ok" name="ОК"  />
+				<text id="teaser_btn_shop" name="Магазин"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Отказать"  />
+				<text id="zAchievements" name="Достижения"  />
+				<text id="zAn2" name="Принять"  />
+				<text id="zBuddies" name="Все твои друзья"  />
+				<text id="zBuddiesNoAsk" name="Этот игрок не принимает запросов на дружбу"  />
+				<text id="zBuddiesSub" name="Удалить этого игрока из вашего списка друзей"  />
+				<text id="zBuy" name="Купить"  />
+				<text id="zCancel" name="Закрыть"  />
+				<text id="zChat" name="Чат"  />
+				<text id="zChatMute" name="Отключить звук"  />
+				<text id="zChatSenden" name="Отправить сообщение"  />
+				<text id="zChatVorgaben" name="Готовые предложения для общения."  />
+				<text id="zCheckAGB" name="Я принимаю условия пользовательского соглашения"  />
+				<text id="zCheckAny" name="Отключить анимацию животных"  />
+				<text id="zCheckMen" name="Мужской персонаж"  />
+				<text id="zCheckMerken" name="Сохранить имя и пароль?"  />
+				<text id="zCheckMute" name="Не общаться с этим игроком"  />
+				<text id="zCheckNoMoreShow" name="Больше не показывать это окно"  />
+				<text id="zCheckQuali" name="Снизить качество графики для ускорения игры"  />
+				<text id="zCheckShowB" name="Сделать деревья прозрачными"  />
+				<text id="zCheckShowD" name="Сделать декоративные предметы прозрачными"  />
+				<text id="zCheckShowH" name="Сделать постройки прозрачными"  />
+				<text id="zCheckSound1" name="Эффекты"  />
+				<text id="zCheckSound2" name="Музыка"  />
+				<text id="zCheckWomen" name="Женский персонаж"  />
+				<text id="zChipsMore" name="Пополнить счет"  />
+				<text id="zClose" name="Закрыть"  />
+				<text id="zClothes" name="Новый облик для вашего персонажа"  />
+				<text id="zClothsBuy" name="Сохранить эту внешность"  />
+				<text id="zClothsSelect" name="Выбрать"  />
+				<text id="zClothsZufall" name="Компьютер предложит случайный вариант"  />
+				<text id="zCookAdd" name="Занести другие входные данные"  />
+				<text id="zCookDel" name="Удалить эти входные данные"  />
+				<text id="zDel" name="Удалить"  />
+				<text id="zDown" name="Вниз"  />
+				<text id="zEarnChips" name="Заработать больше фермарок"  />
+				<text id="zEarnGold" name="Заработать больше золота"  />
+				<text id="zEinladen" name="Вы должны пригласить ещё {0} друзей, чтобы купить это."  />
+				<text id="zEinladen2" name="У вас {1} {0} друзей."  />
+				<text id="zEmailVerificationWinker" name="Забрать подарок"  />
+				<text id="zErweitern" name="Расширить"  />
+				<text id="zExchange" name="Обменять золото на фермарки"  />
+				<text id="zExpHigherLevelNeeded" name="Уровень слишком низок."  />
+				<text id="zExpPreviousNeeded" name="Требуется предыдущее расширение."  />
+				<text id="zFarmowner" name="Владелец этой фермы"  />
+				<text id="zFertilize" name="Удобрение"  />
+				<text id="zFlinkeHand" name="Работать быстрее"  />
+				<text id="zFoto" name="Фотографии"  />
+				<text id="zFullscreen" name="Во весь экран"  />
+				<text id="zFunc" name="Объекты с особыми возможностями"  />
+				<text id="zGiftsMy" name="Мои подарки"  />
+				<text id="zHarvest" name="собрать"  />
+				<text id="zHarvestV3" name="Использовать комбайн для уборки"  />
+				<text id="zHelp" name="Помощь"  />
+				<text id="zHome" name="Моя ферма"  />
+				<text id="zInfoEMail" name="Адрес e-mail должен выглядеть примерно так: aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Пароль имеет длину от 5 до 15 знаков и состоит из следующих символов: a-z, A-Z, 0-9, ÄÖÜ, äöü, ß-_@."  />
+				<text id="zInsOpen" name="Открыть"  />
+				<text id="zInvite" name="Приглаcите своих друзей!"  />
+				<text id="zJ" name="Выполнить"  />
+				<text id="zJobben" name="Сила для работы:
+Используется для работы по найму на чужих фермах.
+Как только вашей силы становится меньше {0}, она начинает воспроизводиться каждую минуту. Кроме того, вы можете приобрести силу в магазине."  />
+				<text id="zKatAC" name="Футболка"  />
+				<text id="zKatAG" name="Персонаж"  />
+				<text id="zKatAH" name="Прическа"  />
+				<text id="zKatAK" name="Шляпа"  />
+				<text id="zKatAP" name="Штаны"  />
+				<text id="zKatAS" name="Обувь"  />
+				<text id="zKatAT" name="Цвет лица"  />
+				<text id="zKatB" name="Саженцы деревьев"  />
+				<text id="zKatD" name="Декоративные предметы"  />
+				<text id="zKatE" name="Расширение фермы"  />
+				<text id="zKatF" name="Удобрения"  />
+				<text id="zKatG" name="Улицы"  />
+				<text id="zKatH" name="Постройки"  />
+				<text id="zKatR" name="Сила для работы"  />
+				<text id="zKatS" name="Семена"  />
+				<text id="zKatT" name="Животные"  />
+				<text id="zKatV" name="Машины"  />
+				<text id="zKatX" name="Специальные предложения"  />
+				<text id="zKatY" name="Всё"  />
+				<text id="zKennLost" name="Если вы забыли свой пароль"  />
+				<text id="zKennMod" name="Изменить пароль"  />
+				<text id="zKette" name="Рабочий журнал"  />
+				<text id="zKetteDel" name="Удалить задачи"  />
+				<text id="zKick" name="Выгнать этого игрока со своей фермы."  />
+				<text id="zLinkAGB" name="Нажмите, чтобы прочесть пользовательское соглашение"  />
+				<text id="zLogin" name="Начать игру"  />
+				<text id="zLogout" name="Выход"  />
+				<text id="zLupeM" name="Отдалить"  />
+				<text id="zLupeP" name="Приблизить"  />
+				<text id="zMail" name="Сообщение"  />
+				<text id="zMarket" name="Рынок"  />
+				<text id="zMeldBad" name="Пожаловаться на игрока?"  />
+				<text id="zMen" name="Мужской персонаж"  />
+				<text id="zMoreChipsGold" name="Купить фермарки или золото"  />
+				<text id="zMove" name="Передвинуть"  />
+				<text id="zN" name="Не делать этого"  />
+				<text id="zNext" name="Дальше"  />
+				<text id="zNoSilo" name="Для начала, вам нужно построить силос (удобрения)."  />
+				<text id="zOK" name="ОК"  />
+				<text id="zOKKennLost" name="Запросите свой пароль"  />
+				<text id="zOKKennMod" name="Сохранить новый пароль"  />
+				<text id="zPfeil" name="Инструменты"  />
+				<text id="zPfeilV" name="Машины"  />
+				<text id="zPlow" name="Пахать"  />
+				<text id="zPlowNew" name="Новое поле"  />
+				<text id="zPlowV1" name="Использовать трактор для вспашки"  />
+				<text id="zPrefs" name="Настройки"  />
+				<text id="zPremium" name="Купить эту партию"  />
+				<text id="zPremiumUse" name="Использовать эти премиальные семена на ферме"  />
+				<text id="zPrev" name="Назад"  />
+				<text id="zQuest" name="Задания"  />
+				<text id="zRangliste" name="Рейтинг"  />
+				<text id="zRanking2Farm" name="Этот игрок запретил посещать свою ферму через рейтинг."  />
+				<text id="zRegistrieren" name="Зарегистрируйтесь, чтобы иметь возможность сохранить вашу игру"  />
+				<text id="zRot" name="Повернуть"  />
+				<text id="zSave" name="Сохранить"  />
+				<text id="zScrBG" name="Полоса прокрутки"  />
+				<text id="zScrMove" name="Подвиньте ползунок"  />
+				<text id="zSell" name="Продать"  />
+				<text id="zShare" name="Расскажите своим друзьям!"  />
+				<text id="zShop" name="Магазин"  />
+				<text id="zShopEarn" name="Цена продажи"  />
+				<text id="zShopHarvest" name="Собрать урожай за:"  />
+				<text id="zShopLagerSize" name="Мест:"  />
+				<text id="zShopTime" name="Длительность цикла"  />
+				<text id="zShopXP" name="Приносит очков опыта"  />
+				<text id="zSilo" name="Силос-удобрения"  />
+				<text id="zSofort" name="Начать игру без регистрации"  />
+				<text id="zSound" name="Звуки"  />
+				<text id="zSow" name="Сеять"  />
+				<text id="zSowV2" name="Использовать сеялку для засева"  />
+				<text id="zStrangeAchies" name="Достижения этого игрока"  />
+				<text id="zStrangeAdd" name="Добавить этого игрока в свой список друзей"  />
+				<text id="zStrangeFotos" name="Фотоальбом этого игрока"  />
+				<text id="zStrangeGift" name="Bручить подарок этому игроку"  />
+				<text id="zStrangeHarvest" name="Hанять этого игрока для сбора урожая"  />
+				<text id="zStrangeHome" name="Посетить ферму этого игрока"  />
+				<text id="zStrangeInfo" name="Информация об этом игроке"  />
+				<text id="zStrangeMail" name="Отправить сообщение этому игроку"  />
+				<text id="zStrangePlow" name="Нанять этого игрока для вспашки полей"  />
+				<text id="zSubAsk" name="Вопросы и ответы"  />
+				<text id="zSubFotobuch" name="Фотоальбом"  />
+				<text id="zSubMailInbox" name="Прочитать сообщения"  />
+				<text id="zSubMailNew" name="Написать сообщение"  />
+				<text id="zSubNews" name="Новости"  />
+				<text id="zSubShot1" name="Сфотографировать всю ферму"  />
+				<text id="zSubShot2" name="Фотографировать
+выделите участок прямоугольником"  />
+				<text id="zSubShot3" name="Фотографировать
+нажмите на объект"  />
+				<text id="zSubSupport" name="Поддержка"  />
+				<text id="zTanken" name="Топливо на складе: 
+Нажмите, чтобы пополнить
+
+Топливо в баке:
+Остаток от максимума ({0})"  />
+				<text id="zTosOpen" name="Складировать"  />
+				<text id="zTosStall" name="Отвести это животное в стойло"  />
+				<text id="zUp" name="вверх"  />
+				<text id="zUse" name="Применить"  />
+				<text id="zUsersOnFarm" name="Все игроки поблизости"  />
+				<text id="zVZBuddies" name="{0} друзей необходимо"  />
+				<text id="zVZBuddiesE" name="Вы можете получить скидку при расширении своей фермы, пригласив достаточное количество друзей."  />
+				<text id="zWomen" name="Женский персонаж"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Добро пожаловать на вашу ферму!
+
+Позвольте мне помочь вам сделать первые шаги. Вместе мы приведём вашу ферму к процветанию."  />
+				<text id="tut_gast_1_title" name="Привет, дружище"  />
+				<text id="tut_gast_2_text" name="Гляньте, ваша ягода уже выросла!
+Скорее, соберите её."  />
+				<text id="tut_gast_2_title" name="Соберите всходы, нажимая на них!"  />
+				<text id="tut_gast_3_text" name="Когда вы собираете всходы,
+то зарабатываете фермарки и
+получаете очки опыта."  />
+				<text id="tut_gast_3_title" name="Сбор урожая даёт вам фермарки и опыт!"  />
+				<text id="tut_gast_4_text" name="Теперь вам нужно вспахивать поля,
+чтобы посеять что-нибудь новое."  />
+				<text id="tut_gast_4_title" name="Вспашите поля, нажимая на них"  />
+				<text id="tut_gast_5_text" name="Теперь новые семена хорошо заметны в магазине!"  />
+				<text id="tut_gast_5_title" name="Покупайте новые семена в магазине"  />
+				<text id="tut_gast_6_text" name="Давайте купим зерна!"  />
+				<text id="tut_gast_6_title" name="Купите зерно"  />
+				<text id="tut_gast_7_text" name="Нажмите на поле, чтобы посеять зерно."  />
+				<text id="tut_gast_7_title" name="Распределите зерно между полями"  />
+				<text id="tut_gast_8_text" name="У вас отлично получается!
+Скоро ваша ферма будет самой прелестной.
+
+Теперь почему бы вам не попробовать вырастить что-нибудь ещё?!"  />
+				<text id="tut_gast_8_title" name="Ура! Ваша ферма процветает!"  />
+				<text id="tut_market_1_text" name="Вашим всходам нужно время, чтобы вырасти?
+Почему бы вам пока не пойти на рынок и не
+предложить свои услуги другим игрокам?!"  />
+				<text id="tut_market_1_title" name="Вы также можете пойти работать!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Фермарок:"  />
+				<text id="txt1" name="Золота:"  />
+				<text id="txt2" name="До следующего урожая:"  />
+				<text id="txt3" name="Друзья:"  />
+				<text id="txt4" name="Достижения:"  />
+				<text id="txt5" name="ОК"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Пригласить
+друзей"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="День {0}"  />
+				<text id="txt0" name="Добро пожаловать"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Каждый день - поощрительный приз!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Вы получаете #w1# фермарок за регистрацию!"  />
+				<text id="21" name="Вы получаете #w1# фермарок в качестве ежедневной приветственной премии!"  />
+				<text id="2f" name="За это вы получаете #anz# #ferti#."  />
+				<text id="2job" name="За это вы получаете #job# рабочей силы."  />
+				<text id="2w1" name="За это вы получаете #w1# фермарок."  />
+				<text id="2w2" name="За это вы получаете #w2# золота."  />
+				<text id="2x" name="Вы уже #days#-й день подряд заходите в игру."  />
+				<text id="2xp" name="За это вы получаете #xp# очков опыта."  />
+				<text id="freunde" name="Вы получаете #w1# фермарок за активность приглашённых вами игроков."  />
+				<text id="txt0" name="Добро пожаловать"  />
+				<text id="txt1" name="ОК"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Ошибка"  />
+				<text id="generic_alert_connection_failed_copy" name="Техническое обслуживание. Пожалуйста, попробуйте ещё раз чуть позже."  />
+				<text id="generic_alert_connection_failed_title" name="Работа в самом разгаре!"  />
+				<text id="generic_alert_connection_lost_copy" name="Связь с сервером прервана. Попробуйте ещё раз."  />
+				<text id="generic_alert_connection_lost_description" name="Сейчас проводятся работы по техническому обслуживанию, которые необходимо регулярно выполнять для установки обновлений или исправления неполадок. &lt;br&gt;&lt;br&gt;
+Мы работаем так быстро как можем, так что вы сможете вернутся к игре в кратчайшие сроки."  />
+				<text id="generic_alert_connection_lost_promo" name="Почему бы вам пока что не попробовать одну из других наших игр?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Спасибо за ваше понимание!"  />
+				<text id="generic_alert_connection_lost_title" name="Связь прервалась!"  />
+				<text id="generic_alert_error" name="Ошибка"  />
+				<text id="generic_alert_information" name="Предупреждение"  />
+				<text id="generic_alert_loggedout_copy" name="Вы успешно покинули игру. Не забудьте: каждый день вас ожидает бонус за вход!"  />
+				<text id="generic_alert_loggedout_title" name="До свидания!"  />
+				<text id="generic_alert_warning" name="Внимание"  />
+				<text id="generic_alert_watchout" name="Внимание!"  />
+				<text id="generic_alert_win7chromebug" name="If you can&#039;t enter text, please press the Ctrl key."  />
+				<text id="generic_invalid_email_provider" name="Адреса e-mail с этого домена не разрешены!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Похоже что ваше интернет-соединение сейчас слишком медленное. Пожалуйста, попробуйте чуть позже!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Как вам понравилась игра? Можно ли её улучшить? Пожалуйста, выскажите своё мнение на форуме или в группе."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Внимание: ваша игра сохранится, только если вы зарегистрированы."  />
+				<text id="generic_register_error_invalidemail" name="Вы указали неверный e-mail."  />
+				<text id="generic_report_muted_chattry" name="Вам запретили общаться."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Принять"  />
+				<text id="generic_btn_cancel" name="Отменить"  />
+				<text id="generic_btn_close" name="Закрыть"  />
+				<text id="generic_btn_continue" name="Продолжить"  />
+				<text id="generic_btn_end" name="Закончить"  />
+				<text id="generic_btn_endnow" name="Завершить сейчас"  />
+				<text id="generic_btn_goback" name="Назад"  />
+				<text id="generic_btn_no" name="Нет"  />
+				<text id="generic_btn_noshare" name="Ни за что!"  />
+				<text id="generic_btn_notaccept" name="Отклонить"  />
+				<text id="generic_btn_okay" name="О&#039;кей"  />
+				<text id="generic_btn_reconnect" name="Соединить повторно"  />
+				<text id="generic_btn_refresh" name="Обновить"  />
+				<text id="generic_btn_report" name="Пожаловаться"  />
+				<text id="generic_btn_search" name="Искать"  />
+				<text id="generic_btn_share" name="Поделиться!"  />
+				<text id="generic_btn_skip" name="Пропустить"  />
+				<text id="generic_btn_start" name="Начать"  />
+				<text id="generic_btn_topayment" name="Отдайте это мне!"  />
+				<text id="generic_btn_yes" name="Да"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="Вам необходимо зарегистрироваться и достичь первого уровня, чтобы общаться."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="Внимание!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Админ"  />
+				<text id="generic_animation" name="Показываю анимацию"  />
+				<text id="generic_bugreport" name="Расскажите нам про ошибки"  />
+				<text id="generic_changePass" name="Изменить пароль"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Уже на подходе*"  />
+				<text id="generic_date" name="Дата"  />
+				<text id="generic_day" name="день"  />
+				<text id="generic_dayformat" name="{0}.{1}.{2}"  />
+				<text id="generic_dayformat_short" name="{0}.{1}."  />
+				<text id="generic_days" name="дн"  />
+				<text id="generic_day_short" name="дн"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Вопросы и ответы"  />
+				<text id="generic_forum" name="Форум"  />
+				<text id="generic_friend" name="Друг"  />
+				<text id="generic_friends" name="Друзья"  />
+				<text id="generic_general" name="Общие установки"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Группа"  />
+				<text id="generic_guest" name="Гость"  />
+				<text id="generic_help" name="Помощь"  />
+				<text id="generic_high" name="Высокое"  />
+				<text id="generic_hour" name="ч"  />
+				<text id="generic_hours" name="ч"  />
+				<text id="generic_hour_short" name="ч"  />
+				<text id="generic_limited" name="Ограниченный"  />
+				<text id="generic_logout" name="Выход"  />
+				<text id="generic_low" name="Низкое"  />
+				<text id="generic_medium" name="Среднее"  />
+				<text id="generic_minute" name="минута"  />
+				<text id="generic_minutes" name="мин"  />
+				<text id="generic_minute_short" name="мин"  />
+				<text id="generic_moderator" name="Модератор"  />
+				<text id="generic_month" name="месяц"  />
+				<text id="generic_months" name="мес."  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Музыка"  />
+				<text id="generic_name" name="Имя"  />
+				<text id="generic_news" name="Новости"  />
+				<text id="generic_options" name="Настройки"  />
+				<text id="generic_quality" name="Качество"  />
+				<text id="generic_register" name="Сохранить и зарегистрироваться"  />
+				<text id="generic_second" name="секунда"  />
+				<text id="generic_seconds" name="сек"  />
+				<text id="generic_second_short" name="сек"  />
+				<text id="generic_sound" name="Звук включён/выключен"  />
+				<text id="generic_support" name="Поддержка"  />
+				<text id="generic_today" name="Сегодня"  />
+				<text id="generic_tomorrow" name="Сегодня"  />
+				<text id="generic_tutorial" name="Введение"  />
+				<text id="generic_username" name="Имя игрока"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="Очки опыта"  />
+				<text id="generic_yesterday" name="Вчера"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Старая версия!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Обновите страницу."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Хотите добавить {0} в друзья?"  />
+				<text id="generic_friends_add_title" name="Приглашение дружить"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Больше друзей!"  />
+				<text id="generic_friends_denied_copy" name="{0} отклонил ваш запрос."  />
+				<text id="generic_friends_denied_title" name="Приглашение отклонено!"  />
+				<text id="generic_friends_invite_badword_copy" name="Вы выбрали непозволительное имя!"  />
+				<text id="generic_friends_invite_badword_title" name="Внимание!"  />
+				<text id="generic_friends_invite_error_copy" name="Для того, чтобы приглашать друзей, вам необходимо зарегистрироваться."  />
+				<text id="generic_friends_invite_error_title" name="Сначала регистрация"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Полноэкранный режим невозможен"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Чешский"  />
+				<text id="generic_language_cz" name="Чешский"  />
+				<text id="generic_language_da" name="Датский"  />
+				<text id="generic_language_de" name="Немецкий"  />
+				<text id="generic_language_el" name="Греческий"  />
+				<text id="generic_language_en" name="Английский"  />
+				<text id="generic_language_es" name="Испанский"  />
+				<text id="generic_language_fi" name="Финский"  />
+				<text id="generic_language_fr" name="Французский"  />
+				<text id="generic_language_hu" name="Венгерский"  />
+				<text id="generic_language_id" name="Индонезийский"  />
+				<text id="generic_language_it" name="Итальянский"  />
+				<text id="generic_language_ja" name="Японский"  />
+				<text id="generic_language_ko" name="Корейский"  />
+				<text id="generic_language_nl" name="Голландский"  />
+				<text id="generic_language_no" name="Норвежский"  />
+				<text id="generic_language_pl" name="Польский"  />
+				<text id="generic_language_pt" name="Португальский"  />
+				<text id="generic_language_pt_BR" name="Бразильский"  />
+				<text id="generic_language_ru" name="Русский"  />
+				<text id="generic_language_sv" name="Шведский"  />
+				<text id="generic_language_tr" name="Турецкий"  />
+				<text id="generic_language_zh_CN" name="Китайский (упрощённый)"  />
+				<text id="generic_language_zh_TW" name="Китайский (традиционный)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Ваша игровая запись заблокирована, пожалуйста, свяжитесь со службой поддержки!"  />
+				<text id="generic_login_banned_2" name="Ваша запись была отключена!
+
+Отключение до: {0}
+
+Если у вас есть вопросы по поводу отключения - свяжитесь со службой поддержки."  />
+				<text id="generic_login_banned_3" name="Ваша игровая запись была заблокирована навсегда.
+
+Если у вас есть вопросы по поводу этой блокировки - свяжитесь, пожалуйста, со службой поддержки."  />
+				<text id="generic_login_banned_permanent" name="навсегда"  />
+				<text id="generic_login_facebook" name="Войти через Facebook"  />
+				<text id="generic_login_login" name="Вход"  />
+				<text id="generic_login_loginname" name="Имя / E-mail"  />
+				<text id="generic_login_lostpassword" name="Забыли свой пароль?"  />
+				<text id="generic_login_lostpassword_copy" name="Укажите свой e-mail и мы пришлём вам ваш пароль."  />
+				<text id="generic_login_lostpassword_title" name="Забыли свой пароль?"  />
+				<text id="generic_login_newplayer" name="Впервые здесь?"  />
+				<text id="generic_login_password" name="Пароль"  />
+				<text id="generic_login_play" name="Играть сразу"  />
+				<text id="generic_login_playnow" name="Играть сразу!"  />
+				<text id="generic_login_register" name="Зарегистрироваться"  />
+				<text id="generic_login_rememberpassword" name="Сохранить пароль"  />
+				<text id="generic_login_wronglogin" name="Неправильный логин или пароль!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Зарегистрируйтесь, чтобы сохранить свою игру!"  />
+				<text id="generic_logout_guest_title" name="Зарегистрироваться"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Игра будет доступна не позднее, чем через {0}."  />
+				<text id="servershutdownpremonition_copy" name="Сервер игры будет отключен через {0}. Пожалуйста, выйдите из игры, чтобы сохранить её. Зарегистрируйтесь, если вы ещё этого не сделали."  />
+				<text id="servershutdownpremonition_registered_copy" name="Мы отключаем игровой сервер на {0} для профилактики."  />
+				<text id="servershutdown_copy" name="Игровой сервер отключается. Через несколько минут вы сможете снова войти в игру."  />
+				<text id="welcomeback_copy" name="Приятно снова видеть вас! Вот немножко, чтобы помочь вам заново освоиться!"  />
+				<text id="welcomeback_title" name="Вы вернулись!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Новый пароль"  />
+				<text id="generic_change_password_copy_oldpass" name="Старый пароль:"  />
+				<text id="generic_change_password_copy_send" name="Мы выслали ваш новый пароль на ваш e-mail."  />
+				<text id="generic_change_password_error_failed" name="Извините, но у вас был другой пароль."  />
+				<text id="generic_change_password_error_success" name="Ваш пароль был успешно изменён!"  />
+				<text id="generic_change_password_faild_copy" name="Вы должны составить свой новый пароль больше чем из двух знаков и правильно ввести старый пароль."  />
+				<text id="generic_change_password_faild_specialcharacters" name="Ваш пароль не должен остаться пустым или содержать спецсимволы."  />
+				<text id="generic_change_password_faild_title" name="Введите пароль"  />
+				<text id="generic_change_password_title" name="Изменение пароля"  />
+				<text id="generic_guest_change_password_faild_copy" name="Вы сможете изменять свой пароль только после регистрации!"  />
+				<text id="generic_guest_change_password_faild_title" name="Сначала регистрация"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Больше {0} за деньги!"  />
+				<text id="generic_payment_48hdiscount_button" name="Больше золота в первые 48 часов"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Больше {0} в первые 48 часов"  />
+				<text id="generic_payment_48hdiscount_copy" name="Только в 2 дня после регистрации - покупайте золото и получайте +{0}% в подарок!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Только в 2 дня после регистрации - покупайте партии золота и получайте {0}% сверху в подарок!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Только в 2 дня после регистрации - покупайте {0} и получайте +{1}% в подарок!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Только в 2 дня после регистрации - покупайте {0} и получайте +{1}% в подарок!"  />
+				<text id="generic_payment_btn" name="В магазин"  />
+				<text id="generic_payment_copy" name="Сейчас вы сможете пополнить счёт"  />
+				<text id="generic_payment_discount_button" name="+{0}% золота!"  />
+				<text id="generic_payment_discount_copy" name="Купите золото и получите бонус +{0}%!"  />
+				<text id="generic_payment_discount_copy_general" name="Купите {0} сейчас с бонусом +{1}%!"  />
+				<text id="generic_payment_discount_general" name="Получите на {0}% больше {1} прямо сейчас!"  />
+				<text id="generic_payment_discount_generalshort" name="Получите на {0}% больше!"  />
+				<text id="generic_payment_discount_time" name="Осталось {0}!"  />
+				<text id="generic_payment_discount_title" name="Больше золота за деньги!"  />
+				<text id="generic_payment_newPrices" name="Внимание! Внимание! Снижены цены на игровые валюты! Самое время экономить!"  />
+				<text id="generic_payment_title" name="Пополнение счёта"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Ищу туннель сквозь кибер-пространство"  />
+				<text id="loading_text_10" name="Распределяю предметы по миру"  />
+				<text id="loading_text_11" name="Прорисовываю графику"  />
+				<text id="loading_text_12" name="Раскрашиваю кнопки"  />
+				<text id="loading_text_13" name="Прячу пасхальные яйца"  />
+				<text id="loading_text_14" name="Ищу данные пользователя"  />
+				<text id="loading_text_15" name="Комменчу баги"  />
+				<text id="loading_text_16" name="Кормлю программистов"  />
+				<text id="loading_text_17" name="Экспериментирую с клиентом"  />
+				<text id="loading_text_18" name="Переворачиваю песочные часы"  />
+				<text id="loading_text_19" name="Охлаждаю систему"  />
+				<text id="loading_text_2" name="Смазываю шестерёнки"  />
+				<text id="loading_text_20" name="Скоро будет готово"  />
+				<text id="loading_text_3" name="Кручу беличье колесо"  />
+				<text id="loading_text_4" name="Включаю сервер"  />
+				<text id="loading_text_5" name="Надеюсь, что всё прошло как следует"  />
+				<text id="loading_text_6" name="Вызываю зачистку"  />
+				<text id="loading_text_7" name="Обсчитываю сложные алгоритмы"  />
+				<text id="loading_text_8" name="Калибрую накопители потока"  />
+				<text id="loading_text_9" name="Всякая всячина"  />
+				<text id="loading_text_default" name="Инициализация"  />
+				<text id="loading_text_itemXML" name="Загружаю игровые элементы"  />
+				<text id="progress_loadfiles" name="Загружаю активы..."  />
+				<text id="progress_serverconnection" name="Связываюсь с Сервером..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="задать адрес эл.почты"  />
+				<field id="generic_register_insertName" name="ввести имя"  />
+				<field id="generic_register_insertPassword" name="задать пароль"  />
+				<text id="generic_register_agb_copy" name="Вам необходимо сперва принять Пользовательское соглашение. Подтвердите ваше согласие галочкой слева и вперёд!"  />
+				<text id="generic_register_agb_read" name="Прочитать пользовательское соглашение"  />
+				<text id="generic_register_alreadyavatar" name="У этого игрока уже есть персонаж."  />
+				<text id="generic_register_badword" name="Имя не должно содержать {0}."  />
+				<text id="generic_register_btn_agb" name="Принять Пользовательское соглашение"  />
+				<text id="generic_register_btn_later" name="Позже"  />
+				<text id="generic_register_btn_next" name="Продолжить"  />
+				<text id="generic_register_btn_save" name="Сохранить"  />
+				<text id="generic_register_character" name="Создайте свой персонаж"  />
+				<text id="generic_register_copy_0" name="Зарегистрируйтесь бесплатно!"  />
+				<text id="generic_register_copy_1" name="Сохраните вашу игру!"  />
+				<text id="generic_register_emaillong_copy" name="К сожалению, ваш e-mail слишком длинный."  />
+				<text id="generic_register_emailwrong_copy" name="Вы ввели неправильный e-mail."  />
+				<text id="generic_register_email_copy" name="E-mail не должен быть пустым или содержать спецсимволы."  />
+				<text id="generic_register_error" name="Регистрация не удалась"  />
+				<text id="generic_register_errormistake" name="Ошибка"  />
+				<text id="generic_register_error_accountalreadyexists" name="Другой игрок уже зарегистрирован под этим e-mail."  />
+				<text id="generic_register_forfree" name="Регистрируйтесь бесплатно!"  />
+				<text id="generic_register_forfree1" name="Бесплатно!"  />
+				<text id="generic_register_letsgo" name="Поехали!"  />
+				<text id="generic_register_namealreadyused" name="Это имя уже занято."  />
+				<text id="generic_register_namenotvalid" name="Вы ввели неправильное имя."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Ваш пароль слишком короткий. Он должен содержать хотя бы 4 символа."  />
+				<text id="generic_register_passwordwrong_copy" name="Вы ввели неправильный пароль."  />
+				<text id="generic_register_password_copy" name="Пароль не может быть пустым или содержать спецсимволы."  />
+				<text id="generic_register_receivenews" name="Узнайте Новости"  />
+				<text id="generic_register_rememberdata" name="Сохранить данные"  />
+				<text id="generic_register_reward" name="Подпишитесь бесплатно и получите {0} {1}!"  />
+				<text id="generic_register_subscribe" name="Подписаться"  />
+				<text id="generic_register_success" name="Вы успешно зарегистрировались."  />
+				<text id="generic_register_title" name="Ошибка при регистрации"  />
+				<text id="generic_register_unlock" name="Открыть эту функцию!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Пожалуйста, следите за своей манерой высказываться. В противном случае, вам запретят общаться или даже заблокируют на время игровую запись.
+Причина: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Благодаря вашим проступкам, вы не сможете общаться в течение {0}. Причина: {1}"  />
+				<text id="generic_report_muted_domain1" name="Запрещено указывать ссылки при общении!"  />
+				<text id="generic_report_muted_reported_copy" name="Несколько игроков пожаловались на вас. Вам запретили общаться на следующие {0}. Причина: {1}"  />
+				<text id="generic_report_player_copy" name="Вы действительно хотите пожаловаться на {0}?
+Обратите внимание, что злоупотребление этой функцией может привести к блокированию игровой записи."  />
+				<text id="generic_report_player_reason_0" name="Оскорбление"  />
+				<text id="generic_report_player_reason_1" name="Сексуальное домогательство"  />
+				<text id="generic_report_player_reason_2" name="расистское высказывание"  />
+				<text id="generic_report_player_reason_3" name="Угроза или вымогательство"  />
+				<text id="generic_report_player_reason_title" name="Суть жалобы:"  />
+				<text id="generic_report_player_title" name="Пожаловаться на игрока?"  />
+				<text id="generic_report_reported_copy" name="Другой игрок пожаловался на вас администратору. Причина: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Связываюсь"  />
+				<text id="generic_select_world" name="Укажите игровой мир:"  />
+				<text id="generic_world" name="Игровой мир: {0}"  />
+				<text id="generic_world_international" name="Международный: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

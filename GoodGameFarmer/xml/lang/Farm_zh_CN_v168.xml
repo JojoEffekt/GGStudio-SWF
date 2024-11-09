@@ -1,0 +1,1757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - zh_CN - 11 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="捡鸡蛋"  />
+			<text id="T01" name="捡鸡蛋"  />
+			<text id="T02" name="收集鸡蛋"  />
+			<text id="T03" name="收集鸡蛋"  />
+			<text id="T04" name="放飞乌鸦"  />
+			<text id="T05" name="收集鸡蛋"  />
+			<text id="T06" name="收集鸡蛋"  />
+			<text id="T07" name="收宠 "  />
+			<text id="T10" name="捡松露"  />
+			<text id="T11" name="   挤奶"  />
+			<text id="T110" name="牛奶"  />
+			<text id="T111" name="梳理"  />
+			<text id="T112" name="梳理"  />
+			<text id="T113" name="牛奶"  />
+			<text id="T114" name="刷子"  />
+			<text id="T115" name="刷"  />
+			<text id="T12" name="  剪"  />
+			<text id="T13" name="挤奶"  />
+			<text id="T14" name="梳理"  />
+			<text id="T15" name="梳理"  />
+			<text id="T16" name="梳理"  />
+			<text id="T17" name="梳理"  />
+			<text id="T18" name="梳理"  />
+			<text id="T19" name="剪"  />
+			<text id="T20" name="梳理"  />
+			<text id="T21" name="梳理"  />
+			<text id="T22" name="刷子"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D326"  />
+				<text id="format_date" name="{2}/{1}/{0}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="千"  />
+				<text id="s1" name="百万"  />
+				<text id="s2" name="十亿"  />
+				<text id="s3" name="有机绿色"  />
+				<text id="s4" name="下价"  />
+				<text id="s5" name="三重"  />
+				<text id="s6" name="组"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="天"  />
+				<text id="day1" name="天"  />
+				<text id="day2" name="天"  />
+				<text id="heute" name="今天"  />
+				<text id="hour0" name="小时"  />
+				<text id="hour1" name="小时"  />
+				<text id="hour2" name="小时"  />
+				<text id="min0" name="分钟"  />
+				<text id="min1" name="分钟"  />
+				<text id="min2" name="分钟"  />
+				<text id="morgen" name="明天"  />
+				<text id="sofort" name="马上"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="返回"  />
+				<text id="ex" name="退出"  />
+				<text id="next" name="下一步"  />
+				<text id="no" name="否 "  />
+				<text id="yes" name=" 是"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="在#play#里，您的目标就是争取获得更多的经验值和金币来建设和装饰您的农场。"  />
+				<text id="intro_01_goals_t" name="目标 "  />
+				<text id="welcome_01_i" name="欢迎来到#play#, #name# 我们想请您先阅读简短的教程，以来熟悉游戏基本的功能。完成之后您会获得相应的奖励！准备好了么？"  />
+				<text id="welcome_01_t" name="介绍"  />
+				<text id="welcome_02_i" name="好吧，看起来您并不在乎奖励...但任何需要的时候，您都可以通过点击带问号的树叶来阅读此教程。您能在帮助菜单的“常见问题”里找到游戏的基本规则，祝您玩得愉快！"  />
+				<text id="welcome_02_t" name="介绍2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="我刚安装完Goodgame农场。赶快来参观一下我的农场，今年的收成很好呢！"  />
+			<text id="descriptionlongfarmer" name="Goodgame农场是Goodgame游戏工作室推出的一款模拟农场游戏。在游戏里玩家能够尽情享受美丽的乡村生活和管理虚拟农场。通过耕种稻谷和树木，喂养牲畜来获得成就和升级。快来扩大你的农场和全世界的“农牧民”一起参与游戏吧！"  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="女人"  />
+			<text id="A02" name="男人"  />
+			<text id="B00" name="苹果"  />
+			<text id="B01" name="梨子"  />
+			<text id="B010" name="牛油果"  />
+			<text id="B011" name="枣子"  />
+			<text id="B012" name="无花果"  />
+			<text id="B013" name="石榴"  />
+			<text id="B014" name="猕猴桃"  />
+			<text id="B015" name="柿子"  />
+			<text id="B016" name="芒果"  />
+			<text id="B017" name="木瓜"  />
+			<text id="B018" name="椰"  />
+			<text id="B019" name="火龙果"  />
+			<text id="B02" name="樱桃"  />
+			<text id="B020" name="可可"  />
+			<text id="B021" name="核桃"  />
+			<text id="B022" name="面包果"  />
+			<text id="B023" name="榴莲"  />
+			<text id="B024" name="杏仁"  />
+			<text id="B025" name="荔枝"  />
+			<text id="B026" name="杨桃"  />
+			<text id="B027" name="火焰树"  />
+			<text id="B028" name="竹子"  />
+			<text id="B029" name="苹果脯"  />
+			<text id="B03" name="杏"  />
+			<text id="B030" name="姜汁面包"  />
+			<text id="B031" name="巧克力"  />
+			<text id="B032" name="红色复活节树"  />
+			<text id="B033" name="蓝色复活节树"  />
+			<text id="B034" name="柳树"  />
+			<text id="B04" name="李子"  />
+			<text id="B05" name="橄榄"  />
+			<text id="B06" name="香蕉"  />
+			<text id="B07" name="柠檬"  />
+			<text id="B08" name="橙子"  />
+			<text id="B09" name="柚子"  />
+			<text id="D00" name="木桩"  />
+			<text id="D01" name="干草捆"  />
+			<text id="D010" name="树桩"  />
+			<text id="D011" name="车轮"  />
+			<text id="D02" name="饲料槽"  />
+			<text id="D03" name="水槽"  />
+			<text id="D04" name="井"  />
+			<text id="D05" name="马梨"  />
+			<text id="D06" name="水泵"  />
+			<text id="D07" name="马车"  />
+			<text id="D08" name="桶"  />
+			<text id="D09" name="跳板箱"  />
+			<text id="D11" name="稻草人"  />
+			<text id="D110" name="长椅"  />
+			<text id="D111" name="深色长椅"  />
+			<text id="D112" name="喷泉"  />
+			<text id="D113" name="打草人"  />
+			<text id="D114" name="猫头鹰"  />
+			<text id="D115" name="风车"  />
+			<text id="D116" name="风向袋"  />
+			<text id="D117" name="小池塘"  />
+			<text id="D118" name="大池塘"  />
+			<text id="D119" name="鲤鱼池塘"  />
+			<text id="D12" name="电动割草机"  />
+			<text id="D120" name="游泳池"  />
+			<text id="D121" name="野餐"  />
+			<text id="D122" name="花园桌"  />
+			<text id="D123" name="花园椅"  />
+			<text id="D124" name="吊床"  />
+			<text id="D125" name="躺椅"  />
+			<text id="D126" name="晾衣绳"  />
+			<text id="D127" name="灯笼"  />
+			<text id="D128" name="大仙人球"  />
+			<text id="D129" name="红色百合花"  />
+			<text id="D13" name="外屋"  />
+			<text id="D130" name="仙人掌"  />
+			<text id="D131" name="观赏树木"  />
+			<text id="D132" name="瓶装灌木"  />
+			<text id="D133" name="白色百合"  />
+			<text id="D134" name="幽灵稻草人"  />
+			<text id="D135" name="小狗"  />
+			<text id="D136" name="包裹"  />
+			<text id="D137" name="雪孩子"  />
+			<text id="D138" name="雪人"  />
+			<text id="D139" name="雪女孩"  />
+			<text id="D14" name="轻便长椅"  />
+			<text id="D140" name="滑雪者"  />
+			<text id="D141" name="禽舍猫"  />
+			<text id="D142" name="雪橇"  />
+			<text id="D143" name="雪天使"  />
+			<text id="D144" name="圣诞招牌"  />
+			<text id="D145" name="告示牌"  />
+			<text id="D146" name="北极标记"  />
+			<text id="D147" name="雪山羊"  />
+			<text id="D148" name="雪狗"  />
+			<text id="D149" name="雪绵羊"  />
+			<text id="D15" name="亮的长椅"  />
+			<text id="D150" name="雪奶牛"  />
+			<text id="D151" name="雪猫猫"  />
+			<text id="D152" name="雪鸡"  />
+			<text id="D153" name="雪猪"  />
+			<text id="D154" name="雪鹅"  />
+			<text id="D155" name="大门"  />
+			<text id="D156" name="栅栏"  />
+			<text id="D157" name="柱子"  />
+			<text id="D158" name="蓝杉树"  />
+			<text id="D159" name="圣诞树"  />
+			<text id="D16" name="烧烤炉"  />
+			<text id="D160" name="白桦树"  />
+			<text id="D161" name="鸟巢"  />
+			<text id="D162" name="农工"  />
+			<text id="D163" name="农工"  />
+			<text id="D164" name="红色鸡蛋"  />
+			<text id="D165" name="蓝色鸡蛋"  />
+			<text id="D166" name="紫色鸡蛋"  />
+			<text id="D167" name="红色鸡蛋组合"  />
+			<text id="D168" name="蓝色鸡蛋组合"  />
+			<text id="D169" name="紫色鸡蛋组"  />
+			<text id="D17" name="小矮人"  />
+			<text id="D170" name="蓝色鸡蛋篮子"  />
+			<text id="D171" name="绿色鸡蛋篮子"  />
+			<text id="D172" name="紫色鸡蛋篮子"  />
+			<text id="D173" name="红色鸡蛋篮子"  />
+			<text id="D174" name="白色鸡蛋篮子"  />
+			<text id="D175" name="篮子里都是鸡蛋"  />
+			<text id="D176" name="花环"  />
+			<text id="D177" name="红色气球"  />
+			<text id="D178" name="蓝色气球"  />
+			<text id="D179" name="黄色气球"  />
+			<text id="D18" name="信箱"  />
+			<text id="D180" name="海盗旗 "  />
+			<text id="D19" name="鸟屋"  />
+			<text id="D20" name="树篱"  />
+			<text id="D21" name="栅栏"  />
+			<text id="D210" name="恐怖拱门"  />
+			<text id="D22" name="立柱"  />
+			<text id="D23" name="栅栏"  />
+			<text id="D24" name="柱子"  />
+			<text id="D25" name="栅栏门"  />
+			<text id="D26" name="栅栏门"  />
+			<text id="D27" name=" 栵"  />
+			<text id="D28" name="恐怖栅栏"  />
+			<text id="D29" name="恐怖邮件"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="德国"  />
+			<text id="D310" name="意大利"  />
+			<text id="D311" name="法国"  />
+			<text id="D312" name="西班牙"  />
+			<text id="D313" name="葡萄牙"  />
+			<text id="D314" name="荷兰"  />
+			<text id="D315" name="比利时"  />
+			<text id="D316" name="波兰"  />
+			<text id="D317" name="俄罗斯"  />
+			<text id="D318" name="捷克"  />
+			<text id="D319" name="希腊"  />
+			<text id="D32" name="奥地利"  />
+			<text id="D320" name="土耳其"  />
+			<text id="D321" name="美国"  />
+			<text id="D322" name="加拿大"  />
+			<text id="D323" name="墨西哥"  />
+			<text id="D324" name="巴西"  />
+			<text id="D325" name="阿根廷"  />
+			<text id="D326" name="中国"  />
+			<text id="D327" name="日本"  />
+			<text id="D328" name="澳大利亚"  />
+			<text id="D329" name="韩国"  />
+			<text id="D33" name="瑞士"  />
+			<text id="D330" name="匈牙利"  />
+			<text id="D331" name="台湾"  />
+			<text id="D34" name="芬兰"  />
+			<text id="D35" name="瑞典"  />
+			<text id="D36" name="挪威"  />
+			<text id="D37" name="丹麦"  />
+			<text id="D38" name="英国"  />
+			<text id="D39" name="爱尔兰"  />
+			<text id="D40" name="马"  />
+			<text id="D41" name="树"  />
+			<text id="D410" name="恐怖大树"  />
+			<text id="D42" name="奶牛"  />
+			<text id="D43" name="绵羊"  />
+			<text id="D44" name="猪"  />
+			<text id="D45" name="山羊"  />
+			<text id="D46" name="鹅"  />
+			<text id="D47" name="鸡"  />
+			<text id="D48" name="狗"  />
+			<text id="D49" name="猫"  />
+			<text id="D60" name="集市"  />
+			<text id="D70" name="骷髅"  />
+			<text id="D71" name="僵尸手臂"  />
+			<text id="D72" name="墓碑"  />
+			<text id="D73" name="空心南瓜灯"  />
+			<text id="D74" name="空心南瓜灯"  />
+			<text id="D75" name="空心南瓜灯"  />
+			<text id="D76" name="空心南瓜灯"  />
+			<text id="D77" name="空心南瓜灯"  />
+			<text id="Dxxx" name="绿色篮子"  />
+			<text id="E01" name="10x10 块土地"  />
+			<text id="E02" name="12x12块土地"  />
+			<text id="E03" name="14x14块土地"  />
+			<text id="E04" name="16x16块土地"  />
+			<text id="E05" name="18x18块土地"  />
+			<text id="E06" name="20x20块土地"  />
+			<text id="E07" name="22x22块土地"  />
+			<text id="E08" name="24x24块土地"  />
+			<text id="E11" name="10x10 块土地"  />
+			<text id="E12" name="12x12块土地"  />
+			<text id="E13" name="14x14块土地"  />
+			<text id="E14" name="16x16块土地"  />
+			<text id="E15" name="18x18块土地"  />
+			<text id="E16" name="20x20块土地"  />
+			<text id="E17" name="22x22块土地"  />
+			<text id="E18" name="24x24块土地"  />
+			<text id="E21" name="10x10 块土地"  />
+			<text id="E22" name="12x12块土地"  />
+			<text id="E23" name="14x14块土地"  />
+			<text id="E24" name="16x16块土地"  />
+			<text id="E25" name="18x18块土地"  />
+			<text id="E26" name="20x20块土地"  />
+			<text id="E27" name="22x22块土地"  />
+			<text id="E28" name="24x24块土地"  />
+			<text id="F01" name="时间- 中"  />
+			<text id="F20" name="翻新"  />
+			<text id="F30" name="肥料"  />
+			<text id="F31" name="高级种子"  />
+			<text id="F40" name="饲料"  />
+			<text id="F41" name="高级饲料"  />
+			<text id="F50" name="魔法棒 "  />
+			<text id="G00" name="石子路"  />
+			<text id="H00" name="谷仓"  />
+			<text id="H01" name="仓库"  />
+			<text id="H02" name="工具棚"  />
+			<text id="H03" name="风车"  />
+			<text id="H04" name="温室"  />
+			<text id="H05" name="恐怖温室"  />
+			<text id="H06" name="幽灵肥料仓"  />
+			<text id="H07" name="幽灵风车"  />
+			<text id="H08" name="圣诞筒仓"  />
+			<text id="H09" name="圣诞风车"  />
+			<text id="H10" name="鸡舍"  />
+			<text id="H11" name="猪棚"  />
+			<text id="H12" name="牛棚"  />
+			<text id="H13" name="马棚"  />
+			<text id="H20" name="舱室"  />
+			<text id="H21" name="农舍"  />
+			<text id="H210" name="幽灵茅舍"  />
+			<text id="H211" name="幽灵别墅"  />
+			<text id="H212" name="圣诞小屋"  />
+			<text id="H213" name="圣诞村庄"  />
+			<text id="H214" name="圣诞别墅"  />
+			<text id="H215" name="糖果屋"  />
+			<text id="H216" name="大圣诞小屋"  />
+			<text id="H217" name="大圣诞别墅"  />
+			<text id="H218" name="蓝色鸡蛋屋"  />
+			<text id="H219" name="粉色鸡蛋房"  />
+			<text id="H22" name="别墅"  />
+			<text id="H220" name="海盗船 "  />
+			<text id="H23" name="狗窝"  />
+			<text id="H24" name="树屋"  />
+			<text id="H25" name="农舍"  />
+			<text id="H26" name="桔园"  />
+			<text id="H27" name="大别墅"  />
+			<text id="H28" name="大豪宅"  />
+			<text id="H29" name="幽灵舱室"  />
+			<text id="H30" name="水果的摊"  />
+			<text id="H31" name="工具商店"  />
+			<text id="H32" name="玩乐透 "  />
+			<text id="H40" name="仓库（肥料）"  />
+			<text id="H50" name="幽灵大宅"  />
+			<text id="H51" name="噩梦教堂"  />
+			<text id="N01" name="收获果树"  />
+			<text id="N02" name="收获动物"  />
+			<text id="R00" name="工作能量中号"  />
+			<text id="R01" name="小号工作能量"  />
+			<text id="R02" name="工作能量特大号"  />
+			<text id="S00" name="郁金香"  />
+			<text id="S01" name="铃兰"  />
+			<text id="S010" name="紫色玫瑰"  />
+			<text id="S02" name="薰衣草"  />
+			<text id="S03" name="葵花"  />
+			<text id="S04" name="玫瑰"  />
+			<text id="S05" name="大丽花"  />
+			<text id="S06" name="番红花"  />
+			<text id="S07" name="百合花"  />
+			<text id="S08" name="羽扇豆"  />
+			<text id="S09" name="罂粟"  />
+			<text id="S10" name="草莓"  />
+			<text id="S11" name="西瓜"  />
+			<text id="S12" name="菠萝"  />
+			<text id="S13" name="葡萄"  />
+			<text id="S14" name="香瓜"  />
+			<text id="S15" name="山莓"  />
+			<text id="S16" name="蓝莓"  />
+			<text id="S17" name="小红莓"  />
+			<text id="S18" name="醋栗莓"  />
+			<text id="S19" name="黑莓"  />
+			<text id="S20" name="茄子"  />
+			<text id="S21" name="菜花"  />
+			<text id="S210" name="菠菜"  />
+			<text id="S211" name="洋葱"  />
+			<text id="S212" name="紫包菜"  />
+			<text id="S213" name="土豆"  />
+			<text id="S214" name="红萝卜"  />
+			<text id="S215" name="豌豆"  />
+			<text id="S216" name="小萝卜"  />
+			<text id="S217" name=" 食用大黄"  />
+			<text id="S218" name="小包菜"  />
+			<text id="S219" name="大豆"  />
+			<text id="S22" name="南瓜"  />
+			<text id="S220" name="红菜头"  />
+			<text id="S221" name="西兰花"  />
+			<text id="S222" name="洋蓟"  />
+			<text id="S223" name="辣椒"  />
+			<text id="S224" name="芦笋"  />
+			<text id="S225" name="油菜"  />
+			<text id="S23" name="灯笼椒"  />
+			<text id="S24" name="西红柿"  />
+			<text id="S25" name="菜豆"  />
+			<text id="S26" name="黄瓜"  />
+			<text id="S27" name="白萝卜"  />
+			<text id="S28" name="生菜"  />
+			<text id="S29" name="西葫芦"  />
+			<text id="S30" name="小麦"  />
+			<text id="S31" name="燕麦"  />
+			<text id="S32" name="大米"  />
+			<text id="S33" name="黑麦"  />
+			<text id="S34" name="玉米"  />
+			<text id="S35" name="大麦"  />
+			<text id="S36" name="小米"  />
+			<text id="S37" name="甜玉米"  />
+			<text id="S38" name="红小麦"  />
+			<text id="S39" name="斯佩耳特小麦"  />
+			<text id="S40" name="咖啡"  />
+			<text id="S41" name="茶"  />
+			<text id="S42" name="蔗糖"  />
+			<text id="S43" name="芦荟"  />
+			<text id="S44" name="棉花"  />
+			<text id="S45" name="转基因大豆"  />
+			<text id="S49" name="雪花莲"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="百宝箱 "  />
+			<text id="S52" name="红色复活节彩蛋"  />
+			<text id="S53" name="蓝色复活节彩蛋"  />
+			<text id="S54" name="高级货币1"  />
+			<text id="S55" name="高级货币2"  />
+			<text id="S56" name="高级货币3"  />
+			<text id="S57" name="高级货币4"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="玛芬"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="紫色复活节彩蛋"  />
+			<text id="S63" name="黄色复活节彩蛋"  />
+			<text id="T00" name="鸡"  />
+			<text id="T01" name="鹅"  />
+			<text id="T02" name="棕色的鸡"  />
+			<text id="T03" name="黑鸡"  />
+			<text id="T04" name="公鸡"  />
+			<text id="T05" name="鸭"  />
+			<text id="T06" name="圣诞烧鹅"  />
+			<text id="T07" name="礼物 "  />
+			<text id="T10" name="猪"  />
+			<text id="T11" name="牛"  />
+			<text id="T110" name="棕色的牛"  />
+			<text id="T111" name="公牛"  />
+			<text id="T112" name="圣诞马"  />
+			<text id="T113" name="圣诞奶牛"  />
+			<text id="T114" name="羊"  />
+			<text id="T115" name="独角兽 "  />
+			<text id="T12" name="绵羊"  />
+			<text id="T13" name="羊"  />
+			<text id="T14" name="狗"  />
+			<text id="T15" name="黑猫"  />
+			<text id="T16" name="棕色猫"  />
+			<text id="T17" name="黑马"  />
+			<text id="T18" name="白马"  />
+			<text id="T19" name="黑羊"  />
+			<text id="T20" name="牧羊犬"  />
+			<text id="T21" name="驯鹿"  />
+			<text id="T22" name="兔子"  />
+			<text id="V00" name="10x 加油"  />
+			<text id="V01" name="25x加油"  />
+			<text id="V02" name="50x加油"  />
+			<text id="V10" name=" 拖拉机"  />
+			<text id="V20" name="播种机"  />
+			<text id="V30" name=" 收割机"  />
+			<text id="V40" name="施肥车"  />
+			<text id="V90" name="油箱"  />
+			<text id="Y01" name="已收获"  />
+			<text id="Y02" name="已耕地"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="对不起,由于您或#name#的好友已经达到上限,#tab#或#name# 没能通过您的好友请求."  />
+				<text id="buddies_add_ok" name="#name#已成为了您的好友"  />
+				<text id="chat_dop" name="请不要重复发送同一条信息，谢谢！"  />
+				<text id="chat_nonsense" name="请多发送一些有意义的信息。谢谢！"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="无效电子邮箱
+请输入一个有效的电子邮箱地址"  />
+				<text id="email_dop" name="这个邮箱已被使用。
+请选择使用另外一个email地址"  />
+				<text id="email_no" name="未知电子邮箱。"  />
+				<text id="farm_full" name="现在此农场的人太多. 请选别的农场."  />
+				<text id="helper_job_no" name="#name# 拒绝了您的#job#请求/已离开集市。"  />
+				<text id="helper_job_ok" name="#name# 接受了您的#job#请求"  />
+				<text id="helper_owner_no_money" name="此农场主没有足够的金钱去耕种更多的土地。"  />
+				<text id="invite_sent" name="谢谢！我们会用Email通知了您的好友"  />
+				<text id="item_dop" name="由于购买太多，您已经无法再购入此物品。"  />
+				<text id="kenn_bad" name="密码
+请使用：
+5到15个字符, 可包含:#tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="密码无效"  />
+				<text id="kenn_unequal" name="密码不一致"  />
+				<text id="kick" name="对不起, #name#已经把您逐出了他们的农场。#tab#您很有可能做错事了！？"  />
+				<text id="lagernosell" name="您必须把楼清空才能卖掉。 "  />
+				<text id="lager_building" name="您需要建造一个谷仓或一个工具架来储存物品。"  />
+				<text id="lager_cantsell" name="在您要卖楼之前，
+您的仓库里必须有足够的空闲。"  />
+				<text id="lager_voll" name="您不能把一个无功能的物品放在在具备功能的物品里。"  />
+				<text id="login_bad" name="登陆失败。如果您忘记密码，点击“密码丢失？”。#tab#如果您还需要其他帮助，请email联系我们support@goodgamestudios.com"  />
+				<text id="name_bad" name="玩家姓名可以包括:#tab#2到15个字符,可含有 a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="此玩家名称已被使用，请使用另一个名称或从以下推荐名称中选择："  />
+				<text id="name_spam" name="请重新选择其他玩家名称"  />
+				<text id="no_agb" name="请确认接受我们的用户协议条款。"  />
+				<text id="no_arbeitskraft" name="你没有足够的能量来完成当前的活动．请耐心等待积攒你的工作能量，或者去商店购买一些吧．"  />
+				<text id="no_buddies" name="非常抱歉，您还没有邀请足够的朋友。#tab#如想购买 #obj#您还需邀请#anz# 个好友。 "  />
+				<text id="no_chat" name="我需要注册并且升级到等级1才能进行聊天。"  />
+				<text id="no_ferti" name="肥料#name#用完了。快买点新的吧。"  />
+				<text id="no_food" name="您的饲料不足，无法喂饱所有动物！"  />
+				<text id="no_gender" name="您还未选则性别. 请点击以下图片进行选择"  />
+				<text id="no_lager" name="已经没有可用的仓库来放置这件物品。"  />
+				<text id="no_money" name="您的金钱太少，不够来完成此项操作。"  />
+				<text id="no_premium" name="你的高级货币-播种#name# 已经没有了,请购买一些."  />
+				<text id="no_regi" name="这项功能只有注册用户才能使用。#tab#请成为注册玩家，否则游戏进程将不会被保存"  />
+				<text id="no_tanken" name="您的燃料太少，不够来完成此项操作"  />
+				<text id="no_zauberstaub" name="您的{0}空了。
+完成任务，获得更多。 "  />
+				<text id="old_client_version" name="旧版本！ 更新此页面。"  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="您在等级3以后才会被列在排名榜上。"  />
+				<text id="rangliste_player_not_ranked" name="该玩家还不到等级3， 不能出现在排名榜上。"  />
+				<text id="rangliste_unknown_id" name="很抱歉，找不到符合该名字的注册玩家。"  />
+				<text id="vehiclesnosell" name="这个驾驶工具正在使用中."  />
+				<text id="vollscreen" name="在全屏模式下不能聊天。(出于安全原因，不支持键盘输入)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="友谊"  />
+				<text id="farm_full" name="呀，糟糕！"  />
+				<text id="helper_job_ok" name="工作被接受"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="激活"  />
+				<text id="buyOf" name="消耗#anz#/#menge#"  />
+				<text id="clickZum" name="单击"  />
+				<text id="deactive" name="未激活"  />
+				<text id="doContent" name="选择窗口"  />
+				<text id="doDel" name="删除"  />
+				<text id="doFertilize" name=" 施肥"  />
+				<text id="doFertilizeAnimals" name="饲料"  />
+				<text id="doFortune" name="玩乐透 "  />
+				<text id="doHarvest" name="收割"  />
+				<text id="doMove" name="移动"  />
+				<text id="doPlow" name="耕地"  />
+				<text id="doPos" name="位置"  />
+				<text id="doRot" name="旋转"  />
+				<text id="doSell" name="卖出"  />
+				<text id="doSow" name="播种"  />
+				<text id="doTosOpen" name=" 储存"  />
+				<text id="doVehicles" name="加工"  />
+				<text id="farmbuddie" name="您的男朋友#女朋友"  />
+				<text id="farmgast" name="访客#访客"  />
+				<text id="farmhelperharvest" name="收割助手#收割助手"  />
+				<text id="farmhelperplow" name="耕地助手#耕地助手"  />
+				<text id="farmowner" name="#农场的农场主"  />
+				<text id="farmvisitor" name="来宾#来宾"  />
+				<text id="isFertilize" name="已施肥"  />
+				<text id="isHarvest" name="已收割"  />
+				<text id="isReadyB" name="成熟"  />
+				<text id="isReadyEX" name="枯萎"  />
+				<text id="isReadyFin" name="收割值"  />
+				<text id="isReadyS" name="成长"  />
+				<text id="isReadyT" name="好了"  />
+				<text id="jobbenrest" name="#anz# 工作许可"  />
+				<text id="jobVehicles" name="--- 驾驶机械工具:"  />
+				<text id="jobWalk" name="--- 人力完成的工作:"  />
+				<text id="ketteZum" name="工作名单"  />
+				<text id="Market" name="集市"  />
+				<text id="marketvisitor" name="玩家#玩家"  />
+				<text id="my" name="自己"  />
+				<text id="noPfad" name="我做错了那条路。
+我去不了那边了:-("  />
+				<text id="online" name="在线"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="玩家"  />
+				<text id="AC" name="T恤"  />
+				<text id="AG" name="外形"  />
+				<text id="AH" name="发型"  />
+				<text id="AP" name="裤子"  />
+				<text id="AS" name="鞋子"  />
+				<text id="AT" name="肤色"  />
+				<text id="B" name="树"  />
+				<text id="D" name="装饰"  />
+				<text id="E" name="农场扩建"  />
+				<text id="F" name="肥料"  />
+				<text id="G" name="道路"  />
+				<text id="H" name="房子"  />
+				<text id="R" name="工作"  />
+				<text id="S" name="土地"  />
+				<text id="T" name="动物"  />
+				<text id="V" name="车量"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="树"  />
+				<text id="D0" name="农场装饰"  />
+				<text id="D1" name=" 房屋的装饰"  />
+				<text id="D2" name="建栅栏"  />
+				<text id="D3" name="旗帜"  />
+				<text id="D4" name="花园装饰"  />
+				<text id="D7" name="节日装饰"  />
+				<text id="F0" name="时间加速"  />
+				<text id="F1" name="加大进程"  />
+				<text id="F2" name="翻新的"  />
+				<text id="H0" name="农场"  />
+				<text id="H1" name="马棚"  />
+				<text id="H2" name="住所"  />
+				<text id="H4" name="功能"  />
+				<text id="H5" name="特殊建筑"  />
+				<text id="N0" name="工作加速"  />
+				<text id="R0" name="在别的农场干活"  />
+				<text id="S0" name="花"  />
+				<text id="S1" name="水果"  />
+				<text id="S2" name="蔬菜"  />
+				<text id="S3" name="庄稼"  />
+				<text id="S4" name="其它"  />
+				<text id="S5" name="高级货币"  />
+				<text id="S6" name="时下风行"  />
+				<text id="T0" name="家禽"  />
+				<text id="T1" name="生产动物"  />
+				<text id="T2" name="宠物"  />
+				<text id="V0" name="汽油"  />
+				<text id="V1" name="拖拉机"  />
+				<text id="V2" name=" 播种机"  />
+				<text id="V3" name="收割机"  />
+				<text id="V4" name="施肥机"  />
+				<text id="V9" name="油箱"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="成就!"  />
+				<text id="txt1" name="恭喜!
+您已获得成就&#039;#name#&#039; - 等级#level#"  />
+				<text id="txt2" name="确认"  />
+				<text id="txt3" name="分享"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="已经赚取的农场基金数量"  />
+				<text id="i10" name="已收获的鲜花数量"  />
+				<text id="i11" name="已收获的树木数量"  />
+				<text id="i12" name="已收获的动物数量"  />
+				<text id="i13" name="用来购买礼物的农场元花销"  />
+				<text id="i14" name="已收到的礼物数量"  />
+				<text id="i15" name="已接到邻里帮助数量"  />
+				<text id="i16" name="已拍摄的照片数量"  />
+				<text id="i17" name="旧系统下已完成的耕地任务数量（以工作许可方式完成）"  />
+				<text id="i18" name="旧系统下已完成的收获任务数量（以工作许可方式完成）"  />
+				<text id="i19" name="旧系统下已分配到的耕地任务数量（以工作许可方式完成）"  />
+				<text id="i2" name="已消费的农场资金数量"  />
+				<text id="i20" name="旧系统下已分配到的收割任务数量（以工作许可方式完成）"  />
+				<text id="i21" name="土地块数、动物数目、已施肥树木的数目：时间上的优势"  />
+				<text id="i22" name="土地块数、动物数目、已施肥树木的数目：魔法棒"  />
+				<text id="i23" name="已收获的各类稻谷数量"  />
+				<text id="i24" name="已收获的各类水果数量"  />
+				<text id="i25" name="已收获的各类鲜花数量"  />
+				<text id="i26" name="已收获的不同蔬菜数量"  />
+				<text id="i27" name="已收获的不同种类树木数量"  />
+				<text id="i28" name="已收获的不同动物的数量数量"  />
+				<text id="i29" name="已收获不同种类的数量"  />
+				<text id="i3" name="已购买的房屋数量"  />
+				<text id="i30" name="不同技术的数量"  />
+				<text id="i31" name="已收集的技巧数量"  />
+				<text id="i32" name="已获得的好友数量"  />
+				<text id="i33" name="购买的树木"  />
+				<text id="i34" name="已经收获的高级货币种子的数量"  />
+				<text id="i35" name="收获不同高级货币种子的数量"  />
+				<text id="i36" name="已经耕地的工作数量"  />
+				<text id="i37" name="分配工作当前田地的数量"  />
+				<text id="i38" name="收获工作的数量－田地，动物或者树木"  />
+				<text id="i39" name="在你分配收获工作时,树木,动物,田地的数量"  />
+				<text id="i4" name="购买的装饰物品数量"  />
+				<text id="i5" name="已购买的动物数量"  />
+				<text id="i6" name="已收获的种子数量"  />
+				<text id="i7" name="已收获的水果数量"  />
+				<text id="i8" name="已收获的蔬菜数量"  />
+				<text id="i9" name="已收获的稻谷数量"  />
+				<text id="next" name="下一等级#level#"  />
+				<text id="t1" name="风箱"  />
+				<text id="t10" name="花童"  />
+				<text id="t11" name="园林工人"  />
+				<text id="t12" name="动物园"  />
+				<text id="t13" name="花在礼物上的筹码"  />
+				<text id="t14" name="收到的礼物"  />
+				<text id="t15" name="支持您的邻居们"  />
+				<text id="t16" name="拍好的照片"  />
+				<text id="t17" name="传说中的耕地者"  />
+				<text id="t18" name="收割老手"  />
+				<text id="t19" name="旧监督人"  />
+				<text id="t2" name="购物女皇"  />
+				<text id="t20" name="收获者"  />
+				<text id="t21" name="熟练的农夫"  />
+				<text id="t22" name="质量最优"  />
+				<text id="t23" name="拾谷人"  />
+				<text id="t24" name="水果大全"  />
+				<text id="t25" name="摘花工人"  />
+				<text id="t26" name="农蔬园地"  />
+				<text id="t27" name="害虫"  />
+				<text id="t28" name="欢乐的牧群"  />
+				<text id="t29" name="巧手农夫"  />
+				<text id="t3" name="建筑工地农民"  />
+				<text id="t30" name="各种技能"  />
+				<text id="t31" name="总技能数"  />
+				<text id="t32" name="好友"  />
+				<text id="t33" name="小蠹"  />
+				<text id="t34" name="金牌大丰收"  />
+				<text id="t35" name="无限的光辉"  />
+				<text id="t36" name="大耕种"  />
+				<text id="t37" name="劳模"  />
+				<text id="t38" name="收割机"  />
+				<text id="t39" name="获得收入"  />
+				<text id="t4" name="时髦的装饰"  />
+				<text id="t5" name="可爱的动物们"  />
+				<text id="t6" name="种子精选"  />
+				<text id="t7" name="水果天地"  />
+				<text id="t8" name="蔬菜大全"  />
+				<text id="t9" name="丰收的稻谷"  />
+				<text id="txt0" name="成就"  />
+				<text id="txt1" name="整体进展"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="很抱歉!"  />
+				<text id="txt1" name="确认"  />
+				<text id="txt2" name="您的账号已被封。
+期限: #time#分。
+如有关于账号被封的详情请email联系我们 #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="重要信息!!!"  />
+				<text id="txt1" name="确认"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="很抱歉!"  />
+				<text id="txt1" name="此电脑上已经有一个在运行#spielname#的窗口被开启。"  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="注意!!!"  />
+				<text id="txt1" name="确认"  />
+				<text id="txt2" name="对不起，服务器将在#time#秒后被中断"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="选择"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="游戏角色"  />
+				<text id="txt0" name="随机"  />
+				<text id="txt1" name=" 保存"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="举报玩家！"  />
+				<text id="txt1" name="你真的要举报玩家{0}么?"  />
+				<text id="txt2" name="是"  />
+				<text id="txt3" name="否"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="朋友"  />
+				<text id="txt1" name="#name#想要加您为好友。"  />
+				<text id="txt2" name="拒绝"  />
+				<text id="txt3" name="同意"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="朋友"  />
+				<text id="txt1" name="问问#name#是否愿意加您为好友。"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="询问"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} 是您的 {0} 朋友。如果要删掉他们您必须取消{0}好友关系！ "  />
+				<text id="txt0" name="删除好友"  />
+				<text id="txt1" name="您确定要从好友中删除#name#吗?"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="接受"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="删除物品"  />
+				<text id="txt1" name="您真的要删除这个物品#obj#吗?"  />
+				<text id="txt2" name="否"  />
+				<text id="txt3" name="是"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="继续 "  />
+				<text id="tTitle" name="奖赏！ "  />
+				<text id="txt0" name="我们已经将您的礼物发送到了您的电子邮件地址。 "  />
+				<text id="txt1" name="现在就收取！ "  />
+				<text id="txt2" name="如果您愿意，我们可以重新发送您的电子邮件！ "  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="继续 "  />
+				<text id="tTitle" name="邮件已发送 "  />
+				<text id="txt0" name="我们刚刚给您发送了奖赏邮件！ "  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="继续 "  />
+				<text id="tTitle" name="礼物 "  />
+				<text id="txt0" name="您已经收到了您的奖赏！ "  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="扩大"  />
+				<text id="txt1" name="扩建这个建筑来储藏更多物品。"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="买"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="你的农场扩大了!"  />
+				<text id="txt1" name="恭喜!
+您的农场已扩建成功。"  />
+				<text id="txt2" name="确认"  />
+				<text id="txt3" name="分享给好友"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="相册"  />
+				<text id="txt1" name="取消"  />
+				<text id="txt2" name="删除"  />
+				<text id="txt3" name="保存"  />
+				<text id="txt4" name="给照片写点备注吧！"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name=" 注册"  />
+				<text id="txt1" name="您必须注册才能保存游戏分数，
+否则数据将不会被保存！
+
+注册免费！"  />
+				<text id="txt2" name=" 注册"  />
+				<text id="txt3" name=" 登出"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="想要收割吗？"  />
+				<text id="txt1" name="您想要帮#name#的农场收割吗？
+您会得到额外的经验值作为奖励哦！"  />
+				<text id="txt2" name="拒绝"  />
+				<text id="txt3" name="接受"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="要犁地吗？"  />
+				<text id="txt1" name="您想要帮#name#的农场犁地吗？
+您会得到Farmdollars作为奖励！ "  />
+				<text id="txt2" name="拒绝"  />
+				<text id="txt3" name="接受"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="收获合同"  />
+				<text id="txt1" name="问问#name#是否愿意来您的农场帮忙收割。如果其他人帮助你收割的话，您可挣得更多农场元！"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="询问"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="耕田合同"  />
+				<text id="txt1" name="问问#name#是否愿意来您的农场帮忙耕地。
+有人在您的农场耕作，您将获得额外经验值！"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="提问"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="删除"  />
+				<text id="txt1" name="购买"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="已占用的地方"  />
+				<text id="txt1" name="扩建"  />
+				<text id="txt2" name="存储仓库"  />
+				<text id="txt3" name="返回"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="删除"  />
+				<text id="txt1" name="收获"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="已占用的地方"  />
+				<text id="txt1" name="扩建"  />
+				<text id="txt2" name="收割全部"  />
+				<text id="txt3" name="用&#039;{0}&#039;喂"  />
+				<text id="txt4" name="用&#039;{0}&#039;喂它们"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="您解锁了物品，可以购买啦！"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="新物品"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="升级！"  />
+				<text id="txt1" name="恭喜！您已升到新的一级！"  />
+				<text id="txt2" name="确认"  />
+				<text id="txt3" name="告诉你的朋友"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="忘了密码?"  />
+				<text id="txt1" name="请输入您登记时的邮件地址， 请点击”发送“。
+我们会把密码发送至您的邮箱"  />
+				<text id="txt2" name="邮件地址"  />
+				<text id="txt3" name="取消"  />
+				<text id="txt4" name="发送"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="登出"  />
+				<text id="txt1" name="您想离开农场吗？"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="确定"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="糟糕！"  />
+				<text id="txt1" name="确定"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="注册"  />
+				<text id="txt1" name="请您注册来保留您的农场数据。"  />
+				<text id="txt2" name="登出"  />
+				<text id="txt3" name="确定"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name=" 注册"  />
+				<text id="txt1" name="邮件地址"  />
+				<text id="txt2" name="密码"  />
+				<text id="txt3" name="用户许可协议"  />
+				<text id="txt4" name="取消"  />
+				<text id="txt5" name="确定"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="建立玩家档案"  />
+				<text id="txt1" name="昵称"  />
+				<text id="txt2" name="女"  />
+				<text id="txt3" name="男"  />
+				<text id="txt4" name="取消"  />
+				<text id="txt5" name="确定"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="开始游戏"  />
+				<text id="txt1" name="注册"  />
+				<text id="txt2" name="登入"  />
+				<text id="txt3" name="名字 / 邮件地址"  />
+				<text id="txt4" name="密码"  />
+				<text id="txt5" name="忘记密码？"  />
+				<text id="txt6" name="保存数据？"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="集市"  />
+				<text id="txt1" name="不再显示"  />
+				<text id="txt2" name="确认"  />
+				<text id="txt3" name="Hi #name#!
+这里是#spielname#的集市. 您能在这里寻找到工作机会或者您也可以雇佣其它玩家帮您耕地和收割。"  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="更改密码"  />
+				<text id="txt1" name=" 旧的密码"  />
+				<text id="txt2" name="新的密码"  />
+				<text id="txt3" name="再次输入密码"  />
+				<text id="txt4" name="取消"  />
+				<text id="txt5" name="保存"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="呀，糟糕！"  />
+				<text id="txt1" name="确认"  />
+				<text id="txt2" name="注册"  />
+				<text id="txt3" name="邀请好友"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="设置"  />
+				<text id="txt1" name="隐藏树木"  />
+				<text id="txt10" name="好"  />
+				<text id="txt11" name="中等"  />
+				<text id="txt12" name="差"  />
+				<text id="txt13" name="低"  />
+				<text id="txt14" name="忽略所有好友请求。"  />
+				<text id="txt15" name="阻止该玩家从排行榜访问你。"  />
+				<text id="txt16" name="现实游戏指导。"  />
+				<text id="txt2" name="隐藏建筑"  />
+				<text id="txt3" name="隐藏装饰"  />
+				<text id="txt4" name="画面质量 “快”"  />
+				<text id="txt5" name="修改密码"  />
+				<text id="txt6" name="取消"  />
+				<text id="txt7" name=" 保存"  />
+				<text id="txt8" name="关闭动画"  />
+				<text id="txt9" name="质量"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="名字/排名搜索"  />
+				<text id="txt0" name="排名"  />
+				<text id="txt1" name="搜索"  />
+				<text id="txt2" name="排名"  />
+				<text id="txt3" name="名字"  />
+				<text id="txt4" name="等级"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="今天"  />
+				<text id="zeitraum1" name="本周"  />
+				<text id="zeitraum2" name="本月"  />
+				<text id="zeitraum3" name="累计"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="卖东西"  />
+				<text id="txt1" name="您真的要卖#obj# 来获得#w1# 农场元吗？"  />
+				<text id="txt2" name="否"  />
+				<text id="txt3" name="是"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="使用恢复肥料让您枯萎的农作物重获生机。"  />
+				<text id="F30" name="增加植物成长速度10%"  />
+				<text id="F31" name="增加庄稼和树木的成长速度50%"  />
+				<text id="F40" name="增加动物的成长速度10"  />
+				<text id="F41" name="增加动物成长速度50%"  />
+				<text id="F50" name="从种子，收获种子，树木及动物获得的经验值增加50%！"  />
+				<text id="H00" name="谷仓可以用来存放最多15个物品。"  />
+				<text id="H02" name="工具架可以用来存放最多4个物品。"  />
+				<text id="H10" name="鸡舍能使您在同一时间收获多只鸡"  />
+				<text id="H11" name="养猪场能让您同一时间收获多头猪。"  />
+				<text id="H12" name="牛棚能让您在同一时间收获多头牛"  />
+				<text id="H13" name="马棚能让您在同一时间收获多匹马。"  />
+				<text id="H40" name="每次购买肥料和饲料，储藏罐给您提供20%的奖励。"  />
+				<text id="N01" name="权限：
+一次性收获所有生长成熟的树木。"  />
+				<text id="N02" name="权限：
+一次性收获有已经生长成熟的动物."  />
+				<text id="R0x" name="该填充物品能增加您的工作能量{0}点。"  />
+				<text id="S5x" name="高级货币中的播种可以换得更多的经验值，而且作物还不会枯萎哦！你可以在套餐中购买 ，相比在商店里购买会省掉不少的附加费用哦。"  />
+				<text id="V0x" name="这些燃料罐可以让你再装满{0}x燃料。"  />
+				<text id="V10" name="使用拖拉机能让您同时耕种4片土地。"  />
+				<text id="V20" name="使用播种机，能让您同时播种4块土地。"  />
+				<text id="V30" name="使用收割机能让您同时收获4块土地"  />
+				<text id="V40" name="施肥机能让您同时给4块土地施肥。"  />
+				<text id="V90" name="增加20%的填充
+如购一个汽油桶"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="等级#level#"  />
+				<text id="txtAnzahl" name="数量:"  />
+				<text id="txtAnzahlVon" name=" 于"  />
+				<text id="txtBenutzen" name="使用"  />
+				<text id="txtBuy" name="购买"  />
+				<text id="txtHarvestXP" name="收割获得:"  />
+				<text id="txtPremium" name="高级货币"  />
+				<text id="txtSize" name="包裹大小"  />
+				<text id="txtVerbrauch" name=" 消耗"  />
+				<text id="txtWork" name="工作"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="隐藏游戏指导."  />
+				<text id="shoptipp_0_title" name="哎呀！"  />
+				<text id="shoptipp_1_text" name="你没有足够的燃料来完成这个活动，要马上买一些吗? "  />
+				<text id="shoptipp_1_title" name="补充燃料"  />
+				<text id="shoptipp_2_text" name="你没有足够的肥料完成这个项目， 要买一些吗? "  />
+				<text id="shoptipp_2_title" name="补充购买肥料"  />
+				<text id="shoptipp_3_text" name="你的农场几乎没有空闲的地方了，要马上扩建吗？"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="没有工作能量了！
+知道吗？你可以手动操作来补充工作能量。"  />
+				<text id="shoptipp_4_title" name="可以耕种！"  />
+				<text id="shoptipp_5_text" name="您的高级种子不足，无法进行此项操作。现在就买一些吗？"  />
+				<text id="shoptipp_5_title" name="购买高级种子"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="商店"  />
+				<text id="txtSilo" name="仓库"  />
+				<text id="txtWork" name="工作"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="我正在找工作."  />
+				<text id="txt1" name="我想要耕地."  />
+				<text id="txt2" name="我想要干收获的工作."  />
+				<text id="txt3" name="谁想去耕地？"  />
+				<text id="txt4" name="谁想要收获？"  />
+				<text id="txt5" name="您好！"  />
+				<text id="txt6" name="谢谢"  />
+				<text id="txt7" name="是"  />
+				<text id="txt8" name="不"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="请朋友"  />
+				<text id="txt1" name="你的名字"  />
+				<text id="txt2" name="好友姓名"  />
+				<text id="txt3" name="好友邮箱"  />
+				<text id="txt4" name="取消"  />
+				<text id="txt5" name="邀请"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="把该用户拉进黑名单"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bee Soda"  />
+				<text id="txt1" name="玩Bee Soda，赢大奖！ "  />
+				<text id="txt2" name="旋转！ "  />
+				<text id="txt3" name="第一圈免费！ "  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="万岁！"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="升下一等级需要
+#xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="农场元:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="好友:"  />
+				<text id="txt4" name="奖项:"  />
+				<text id="txt5" name="确认"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="删除此玩家"  />
+				<text id="txt1" name="您真的要从农场把#name#删除吗？"  />
+				<text id="txt2" name="取消"  />
+				<text id="txt3" name="接受"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="春天来了！别错过所有全新的建筑，装饰，动物和树木哦！"  />
+				<text id="teaser_11_info_1" name="听！
+农场里面有哞哞和咯咯叫的声音
+快来感受Goodgame农场发出的新声音吧!"  />
+				<text id="teaser_11_title" name="声音！"  />
+				<text id="teaser_12_info_1" name="到达级别10, 可以在市场上用事先打好稿的句子聊天."  />
+				<text id="teaser_12_title" name="市场聊天规则"  />
+				<text id="teaser_13_info_1" name="更多选择！
+新的动物，树木，装饰和建筑群即将在游戏里登场，让我们拭目以待吧！"  />
+				<text id="teaser_13_info_2" name="除此之外每个程度现在都有一个奖励标准哦!"  />
+				<text id="teaser_14_info_1" name="现在就来领取新的高级种子吧!
+新的高级种子可以让你得到更多的经验值而且作物不会枯萎哦！"  />
+				<text id="teaser_14_info_2" name="除此之外高级农场现在可以获得高级种子以及两个奖励哦!"  />
+				<text id="teaser_14_title" name="高级种子货币！"  />
+				<text id="teaser_17_info_1" name="为了配合复活节现在游戏里有更多的农舍，装饰，动物，种子　可以选择哦！
+快来寻找复活节彩蛋吧！"  />
+				<text id="teaser_17_info_2" name="工作任务系统改版啦！现在只有在进行活动时才会消耗工作许可，所以再也不会两手空空的收工啦！"  />
+				<text id="teaser_17_title" name="复活节快乐！　"  />
+				<text id="teaser_18_info_1" name="赶快行动吧！
+离复活节活动结束时间仅有几天了。我们的优惠活动还在持续进行当中，许多物品都会以5折销售"  />
+				<text id="teaser_18_title" name="把握机会！"  />
+				<text id="teaser_19_info_1" name="夏日流行元素降临！
+赶快为自己来挑选一款最新款式的帽子，或一副复活节小兔子耳朵吧！
+
+还有，别忘记访问我们新的农场论坛。"  />
+				<text id="teaser_19_title" name="带上可爱的帽子！"  />
+				<text id="teaser_20_info_1" name="Goodgame 开心农场一岁生日拉，快来和我一起庆祝吧！戴上有趣的派队帽子，现在就装饰你的农场，戴上有趣的派队帽子，还有，一定不要错过新的玛芬种子吧。
+
+但是要抓紧时间哦，关情的时间很快就会过去!"  />
+				<text id="teaser_20_title" name="生日快乐!"  />
+				<text id="teaser_21_info_1" name="注意！有一个成功魔法棒。
+使用它，您的树木、动物和种子可产生更多经验值，提高产量。 "  />
+				<text id="teaser_21_info_2" name="您的动物都饿了！
+快喂它们吧，这样它们才能长得更快些！
+树需要施肥。"  />
+				<text id="teaser_21_title" name="动物饲料及更多！"  />
+				<text id="teaser_23_info_1" name="Goodgame农场在欧洲游戏大奖(European Games Award)中获得“最佳社交游戏”提名！"  />
+				<text id="teaser_23_info_2" name="投票给我们，帮助我们赢得大奖！"  />
+				<text id="teaser_23_title" name="投我们一票！"  />
+				<text id="teaser_24_info_1" name="耶！
+海盗正式登陆Goodgame农场了！
+头顶海盗帽，播下宝藏种子，还要带上会说话的鹦鹉噢！"  />
+				<text id="teaser_24_title" name="海盗更新！"  />
+				<text id="teaser_25_info_1" name="最新更新造成严重技术困难，无法在肥料和成就奖赏之间转换。
+
+为了解决这个问题，我们不得不将所有帐户重置为前一状态。
+
+对造成了任何不便，我们深感歉意。 "  />
+				<text id="teaser_25_title" name="重置 "  />
+				<text id="teaser_5_info_1" name="用恐怖的万圣节建筑和装饰吓唬你的访客吧！"  />
+				<text id="teaser_5_title" name="新的功能！"  />
+				<text id="teaser_6_info_1" name="我们以经询问了您的意见！请告知我们您接下来还想玩什么！"  />
+				<text id="teaser_6_title" name="决定吧!!!"  />
+				<text id="teaser_7_info_1" name="圣诞节要来了！
+别错过所有全新的建筑，装饰，植物和种子哦！"  />
+				<text id="teaser_7_info_2" name="为了确保农场里总有足够的空间，你现在可以储存物品到工具架和谷仓里了！"  />
+				<text id="teaser_7_title" name="新物品"  />
+				<text id="teaser_8_info_1" name="嗨，又一个圣诞礼物送给你！
+来试试全新的排名系统吧，来和其他玩家比个高下。
+成为最好的农场主！"  />
+				<text id="teaser_8_title" name="排名！"  />
+				<text id="teaser_9_info_1" name="赶快行动！
+还有几天圣诞特别活动就会结束了。我们为所有节日物品提供多达50%的折扣！！"  />
+				<text id="teaser_9_title" name="抓住机会！"  />
+				<text id="teaser_btn_forum" name="论坛"  />
+				<text id="teaser_btn_ok" name="确定"  />
+				<text id="teaser_btn_shop" name="商店"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="拒绝"  />
+				<text id="zAchievements" name="我的成就"  />
+				<text id="zAn2" name="接受"  />
+				<text id="zBuddies" name="全部好友"  />
+				<text id="zBuddiesNoAsk" name="该玩家拒绝了好友请求。"  />
+				<text id="zBuddiesSub" name="从好友名单里删除该玩家"  />
+				<text id="zBuy" name="购买"  />
+				<text id="zCancel" name="关闭"  />
+				<text id="zChat" name="聊天"  />
+				<text id="zChatMute" name="禁音"  />
+				<text id="zChatSenden" name="发送消息"  />
+				<text id="zChatVorgaben" name="使用事先列好的句子聊天"  />
+				<text id="zCheckAGB" name="我同意接受用户协议条款"  />
+				<text id="zCheckAny" name="禁止动物动画"  />
+				<text id="zCheckMen" name="男性"  />
+				<text id="zCheckMerken" name="保存您的名字和密码?"  />
+				<text id="zCheckMute" name="没有与此玩家聊过天"  />
+				<text id="zCheckNoMoreShow" name="请不要再次显示此窗口"  />
+				<text id="zCheckQuali" name="降低画面效果
+来节省电源用电"  />
+				<text id="zCheckShowB" name="隐藏树木"  />
+				<text id="zCheckShowD" name="隐藏装饰"  />
+				<text id="zCheckShowH" name="隐藏建筑"  />
+				<text id="zCheckSound1" name="效果"  />
+				<text id="zCheckSound2" name="音乐"  />
+				<text id="zCheckWomen" name="女性"  />
+				<text id="zChipsMore" name="添加农场元/金币"  />
+				<text id="zClose" name="关闭"  />
+				<text id="zClothes" name="新服装"  />
+				<text id="zClothsBuy" name="需要保存当前任务形象么？"  />
+				<text id="zClothsSelect" name="选择"  />
+				<text id="zClothsZufall" name="电脑将会建议一种款式"  />
+				<text id="zCookAdd" name="添加更多日志"  />
+				<text id="zCookDel" name="删除登陆信息"  />
+				<text id="zDel" name="删除"  />
+				<text id="zDown" name="下降"  />
+				<text id="zEarnChips" name="赚更多农场元"  />
+				<text id="zEarnGold" name="赚更多农场金币"  />
+				<text id="zEinladen" name="您还需要邀请{0}个朋友才能购买此物品。"  />
+				<text id="zEinladen2" name="你有{1}个{0}好友。"  />
+				<text id="zEmailVerificationWinker" name="收取欢迎礼物 "  />
+				<text id="zErweitern" name="扩建"  />
+				<text id="zExchange" name="金币/农场币兑换"  />
+				<text id="zExpHigherLevelNeeded" name="等级不够"  />
+				<text id="zExpPreviousNeeded" name="需要前期扩建"  />
+				<text id="zFarmowner" name="农场主"  />
+				<text id="zFertilize" name="肥料"  />
+				<text id="zFlinkeHand" name="工作加速"  />
+				<text id="zFoto" name="照片"  />
+				<text id="zFullscreen" name="全屏"  />
+				<text id="zFunc" name="特殊功能物品"  />
+				<text id="zGiftsMy" name="我的礼物"  />
+				<text id="zHarvest" name="收割"  />
+				<text id="zHarvestV3" name="使用机械收割"  />
+				<text id="zHelp" name="帮助"  />
+				<text id="zHome" name="我的农场"  />
+				<text id="zInfoEMail" name="正确电子邮箱格式:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="密码必须为5到15个字符,
+可包含:a-z,A-Z,0-9,ÄÖÜ,äöüß,-_@"  />
+				<text id="zInsOpen" name="打开"  />
+				<text id="zInvite" name="邀请好友！"  />
+				<text id="zJ" name="实行"  />
+				<text id="zJobben" name="工作能量:
+在农场耕种和收获时需要消耗的能量。
+如果你的工作能量低于{0}，它每分钟都会恢复，你也可以商店购买更多能量。"  />
+				<text id="zKatAC" name=" T恤"  />
+				<text id="zKatAG" name="外形"  />
+				<text id="zKatAH" name="发型"  />
+				<text id="zKatAK" name="帽子"  />
+				<text id="zKatAP" name="裤子"  />
+				<text id="zKatAS" name="鞋子"  />
+				<text id="zKatAT" name="肤色"  />
+				<text id="zKatB" name="树木"  />
+				<text id="zKatD" name="装饰"  />
+				<text id="zKatE" name="农场扩建"  />
+				<text id="zKatF" name="肥料"  />
+				<text id="zKatG" name="道路"  />
+				<text id="zKatH" name="建筑"  />
+				<text id="zKatR" name="工作能量"  />
+				<text id="zKatS" name="种子"  />
+				<text id="zKatT" name="动物"  />
+				<text id="zKatV" name="车辆"  />
+				<text id="zKatX" name="特别供应"  />
+				<text id="zKatY" name="全部"  />
+				<text id="zKennLost" name="如果忘记密码，请点击此处。"  />
+				<text id="zKennMod" name="更改密码"  />
+				<text id="zKette" name="工作名单"  />
+				<text id="zKetteDel" name="删除工作名单"  />
+				<text id="zKick" name="把该玩家逐出您的农场。"  />
+				<text id="zLinkAGB" name="点击查看用户协议条款。"  />
+				<text id="zLogin" name="开始游戏"  />
+				<text id="zLogout" name="登出"  />
+				<text id="zLupeM" name="缩小"  />
+				<text id="zLupeP" name="放大"  />
+				<text id="zMail" name="信箱"  />
+				<text id="zMarket" name="集市"  />
+				<text id="zMeldBad" name="举报玩家？"  />
+				<text id="zMen" name="男性"  />
+				<text id="zMoreChipsGold" name="购买农场资金&amp;金币"  />
+				<text id="zMove" name="移动"  />
+				<text id="zN" name="不实行"  />
+				<text id="zNext" name="下一步"  />
+				<text id="zNoSilo" name="您需要先建立储藏罐"  />
+				<text id="zOK" name="确认"  />
+				<text id="zOKKennLost" name="申请找回密码。"  />
+				<text id="zOKKennMod" name="保存密码"  />
+				<text id="zPfeil" name="多用途工具"  />
+				<text id="zPfeilV" name="多用途工具车"  />
+				<text id="zPlow" name="耕地"  />
+				<text id="zPlowNew" name="新的耕地"  />
+				<text id="zPlowV1" name="使用机械耕地"  />
+				<text id="zPrefs" name="设置"  />
+				<text id="zPremium" name="购买这个套装"  />
+				<text id="zPremiumUse" name="在农场里使用高级种子。"  />
+				<text id="zPrev" name="返回"  />
+				<text id="zQuest" name="任务"  />
+				<text id="zRangliste" name="排名"  />
+				<text id="zRanking2Farm" name="该玩家不接受来自排行榜的访问。"  />
+				<text id="zRegistrieren" name="为保存您的游戏进程请您注册."  />
+				<text id="zRot" name="旋转"  />
+				<text id="zSave" name="保存"  />
+				<text id="zScrBG" name="滚动条"  />
+				<text id="zScrMove" name="移动滚动条"  />
+				<text id="zSell" name="卖"  />
+				<text id="zShare" name="告诉好友！"  />
+				<text id="zShop" name="商店"  />
+				<text id="zShopEarn" name="卖掉赚取:"  />
+				<text id="zShopHarvest" name="收割获得:"  />
+				<text id="zShopLagerSize" name="格子："  />
+				<text id="zShopTime" name="收获:"  />
+				<text id="zShopXP" name="获得XP:"  />
+				<text id="zSilo" name="仓库（肥料）"  />
+				<text id="zSofort" name="开始游戏-暂时不注册"  />
+				<text id="zSound" name="声音"  />
+				<text id="zSow" name="播种"  />
+				<text id="zSowV2" name="使用机械播种"  />
+				<text id="zStrangeAchies" name="该玩家的成就"  />
+				<text id="zStrangeAdd" name="添加该玩家
+到您的好友名单里"  />
+				<text id="zStrangeFotos" name="该玩家的相册"  />
+				<text id="zStrangeGift" name="赠送该玩家
+礼物"  />
+				<text id="zStrangeHarvest" name="雇佣该玩家
+帮您收割"  />
+				<text id="zStrangeHome" name="去该玩家的农场参观"  />
+				<text id="zStrangeInfo" name="该玩家信息"  />
+				<text id="zStrangeMail" name="给该玩家发送
+消息"  />
+				<text id="zStrangePlow" name="雇佣该玩家
+帮您耕地"  />
+				<text id="zSubAsk" name="常见问题 "  />
+				<text id="zSubFotobuch" name="相册"  />
+				<text id="zSubMailInbox" name="查看短信"  />
+				<text id="zSubMailNew" name="写短信"  />
+				<text id="zSubNews" name="新闻"  />
+				<text id="zSubShot1" name="拍照
+农场全景"  />
+				<text id="zSubShot2" name="拍照
+使用取景框来选择需要拍照的区域"  />
+				<text id="zSubShot3" name="拍照
+选择点击一样物品"  />
+				<text id="zSubSupport" name="技术支持"  />
+				<text id="zTanken" name="加油:
+点击加满
+显示:
+加油次数
+和油表显示
+(最大值 {0})"  />
+				<text id="zTosOpen" name="储备"  />
+				<text id="zTosStall" name="这只动物已经入圈"  />
+				<text id="zUp" name="向上"  />
+				<text id="zUse" name="使用"  />
+				<text id="zUsersOnFarm" name="农场/集市里的所有玩家"  />
+				<text id="zVZBuddies" name="还需要{0}数量的好友"  />
+				<text id="zVZBuddiesE" name="如果拥有足够的好友，您可以用较低的价钱来扩建农场。"  />
+				<text id="zWomen" name="女性"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="欢迎来到您自己的农场！
+
+让我帮助您开始吧，我们一起使农场兴旺发达。"  />
+				<text id="tut_gast_1_title" name="朋友您好"  />
+				<text id="tut_gast_2_text" name="看，您的草莓已长熟了！
+快点收吧。"  />
+				<text id="tut_gast_2_title" name="点击种子来收获！"  />
+				<text id="tut_gast_3_text" name="您在收获庄稼的时候，
+会挣得农场元
+并获得经验值。"  />
+				<text id="tut_gast_3_title" name="通过收割您可获得农场元和XP？"  />
+				<text id="tut_gast_4_text" name="现在您必须犁地
+才能种新作物。"  />
+				<text id="tut_gast_4_title" name="点击土地来犁地"  />
+				<text id="tut_gast_5_text" name="现在您可以在店里捡出新种子！"  />
+				<text id="tut_gast_5_title" name="在商店购买新种子"  />
+				<text id="tut_gast_6_text" name="让我们买麦子吧！"  />
+				<text id="tut_gast_6_title" name="买麦子"  />
+				<text id="tut_gast_7_text" name="点击土地在那里种麦子。"  />
+				<text id="tut_gast_7_title" name="在土地均匀地播撒麦子"  />
+				<text id="tut_gast_8_text" name="干得好！
+您的农场很快就会成为最漂亮的
+农场。
+
+来吧，为什么不多种点呢？！"  />
+				<text id="tut_gast_8_title" name="万岁！您的农场正在蓬勃发展！"  />
+				<text id="tut_market_1_text" name="您的种子要等一会才能完成？
+为什么不去市场，
+为其他玩家打工呢？"  />
+				<text id="tut_market_1_title" name="您还可以去工作！"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="农场元:"  />
+				<text id="txt1" name="农场金:"  />
+				<text id="txt2" name="下一次收成:"  />
+				<text id="txt3" name="好友:"  />
+				<text id="txt4" name="成就:"  />
+				<text id="txt5" name="确认"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="更多好友"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="第{0}天 "  />
+				<text id="txt0" name="欢迎光临"  />
+				<text id="txt1" name="确认"  />
+				<text id="txt2" name="您每天都能获得欢迎奖！ "  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="您获得了#w1#Farmdollar作为您的登记注册奖励。"  />
+				<text id="21" name="您获得了#w1#农场资金为每日登陆奖励。"  />
+				<text id="2f" name="为此你获得#anz# #ferti#。"  />
+				<text id="2job" name="为此您获得了#job#个工作能量"  />
+				<text id="2w1" name="为此您获得了#w1#个农场元。 "  />
+				<text id="2w2" name="为此你获得#w2#金子。"  />
+				<text id="2x" name="您已经连续登陆了#days#天。"  />
+				<text id="2xp" name="为此您获得#xp#经验值。"  />
+				<text id="freunde" name="因为您邀请的玩家激活了游戏，您获得了#w1#Farmdollar。"  />
+				<text id="txt0" name=" 欢迎光临"  />
+				<text id="txt1" name="确定"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="错误"  />
+				<text id="generic_alert_connection_failed_copy" name="网站正在维修中，请稍后回来！"  />
+				<text id="generic_alert_connection_failed_title" name="正在修建！"  />
+				<text id="generic_alert_connection_lost_copy" name="连接服务器失败，请尝试重新连接。"  />
+				<text id="generic_alert_connection_lost_description" name="为了修改游戏漏洞并且给玩家们带来更多的更新和推出更多的游戏新功能，我们网站正处于必要的维护当中. &lt;br&gt;&lt;br&gt;我们将尽可能快的完成维修,让游戏恢复正常."  />
+				<text id="generic_alert_connection_lost_promo" name="为什么不来试试我们其它的游戏呢？"  />
+				<text id="generic_alert_connection_lost_thanks" name="谢谢您的谅解！"  />
+				<text id="generic_alert_connection_lost_title" name="连接已断开"  />
+				<text id="generic_alert_error" name="错误"  />
+				<text id="generic_alert_information" name="提醒"  />
+				<text id="generic_alert_loggedout_copy" name="您已成功登出。请记得:您每天都能获得登陆奖励。"  />
+				<text id="generic_alert_loggedout_title" name="再见！"  />
+				<text id="generic_alert_warning" name="警示"  />
+				<text id="generic_alert_watchout" name="请注意！"  />
+				<text id="generic_alert_win7chromebug" name="If you can&#039;t enter text, please press the Ctrl key."  />
+				<text id="generic_invalid_email_provider" name="不允许使用来自此提供商的邮箱地址！"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="目前，您的网络速度不是很理想。请稍后再试！"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="您对游戏有什么看法和建议么？请在Goodgame论坛或群组里面留下您宝贵的意见。"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="请注意:您的游戏进程只有注册之后才能被保存！"  />
+				<text id="generic_register_error_invalidemail" name="您输入的邮箱地址不正确"  />
+				<text id="generic_report_muted_chattry" name="由于被禁用聊天功能，您将无法进行对话"  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="接受"  />
+				<text id="generic_btn_cancel" name="取消"  />
+				<text id="generic_btn_close" name="关闭"  />
+				<text id="generic_btn_continue" name="继续"  />
+				<text id="generic_btn_end" name="结束"  />
+				<text id="generic_btn_endnow" name="现在结束"  />
+				<text id="generic_btn_goback" name="上一步"  />
+				<text id="generic_btn_no" name="否"  />
+				<text id="generic_btn_noshare" name="不要分享"  />
+				<text id="generic_btn_notaccept" name="拒绝"  />
+				<text id="generic_btn_okay" name="好"  />
+				<text id="generic_btn_reconnect" name="重新连接"  />
+				<text id="generic_btn_refresh" name="更新"  />
+				<text id="generic_btn_report" name="举报"  />
+				<text id="generic_btn_search" name="搜索"  />
+				<text id="generic_btn_share" name="分享！"  />
+				<text id="generic_btn_skip" name="跳过"  />
+				<text id="generic_btn_start" name="开始"  />
+				<text id="generic_btn_topayment" name="我也要我也要！"  />
+				<text id="generic_btn_yes" name="是"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="您必须注册并升级至等级1才能开始使用聊天功能。"  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="请注意！"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="管理员"  />
+				<text id="generic_animation" name="播放动画"  />
+				<text id="generic_bugreport" name="报告错误"  />
+				<text id="generic_changePass" name="更改密码"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*即将上市*"  />
+				<text id="generic_date" name="日期"  />
+				<text id="generic_day" name="天"  />
+				<text id="generic_dayformat" name="{2}/{1}/{0}"  />
+				<text id="generic_dayformat_short" name="{1}/{0}"  />
+				<text id="generic_days" name="天"  />
+				<text id="generic_day_short" name="D"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="电子邮箱"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="常见问题"  />
+				<text id="generic_forum" name="论坛"  />
+				<text id="generic_friend" name="好友"  />
+				<text id="generic_friends" name="朋友"  />
+				<text id="generic_general" name="常规设置"  />
+				<text id="generic_ggs" name="Goodgame 游戏工作室"  />
+				<text id="generic_group" name="群组"  />
+				<text id="generic_guest" name="客人"  />
+				<text id="generic_help" name="帮助"  />
+				<text id="generic_high" name="高"  />
+				<text id="generic_hour" name="小时"  />
+				<text id="generic_hours" name="小时"  />
+				<text id="generic_hour_short" name="小时"  />
+				<text id="generic_limited" name="限期的"  />
+				<text id="generic_logout" name="退出登录"  />
+				<text id="generic_low" name="低"  />
+				<text id="generic_medium" name="中"  />
+				<text id="generic_minute" name="分钟"  />
+				<text id="generic_minutes" name="分钟"  />
+				<text id="generic_minute_short" name="分"  />
+				<text id="generic_moderator" name="管理员"  />
+				<text id="generic_month" name="个月"  />
+				<text id="generic_months" name="个月"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="音乐开/关"  />
+				<text id="generic_name" name="姓名"  />
+				<text id="generic_news" name="新故事"  />
+				<text id="generic_options" name="选项"  />
+				<text id="generic_quality" name="质量"  />
+				<text id="generic_register" name="保存并注册"  />
+				<text id="generic_second" name="秒"  />
+				<text id="generic_seconds" name="秒"  />
+				<text id="generic_second_short" name="秒"  />
+				<text id="generic_sound" name="声音开/关"  />
+				<text id="generic_support" name="技术支持"  />
+				<text id="generic_today" name="今天"  />
+				<text id="generic_tomorrow" name="今天"  />
+				<text id="generic_tutorial" name="教程"  />
+				<text id="generic_username" name="玩家昵称"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="昨天"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="旧版本！"  />
+				<text id="generic_versioncheck_errorcode_1" name="更新页面"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="是否添加{0}为好友？"  />
+				<text id="generic_friends_add_title" name="好友请求"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="更多好友！"  />
+				<text id="generic_friends_denied_copy" name="对不起，{0}拒绝了您的请求"  />
+				<text id="generic_friends_denied_title" name="好友添加被拒绝!"  />
+				<text id="generic_friends_invite_badword_copy" name="该用户名未能通过！"  />
+				<text id="generic_friends_invite_badword_title" name="注意！"  />
+				<text id="generic_friends_invite_error_copy" name="如想邀请好友，您必须先进行注册。"  />
+				<text id="generic_friends_invite_error_title" name="请先注册"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="全屏不可用"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="捷克语"  />
+				<text id="generic_language_cz" name="捷克语"  />
+				<text id="generic_language_da" name="丹麦语"  />
+				<text id="generic_language_de" name="德语"  />
+				<text id="generic_language_el" name="希腊语"  />
+				<text id="generic_language_en" name="英语"  />
+				<text id="generic_language_es" name="西班牙语"  />
+				<text id="generic_language_fi" name="芬兰语"  />
+				<text id="generic_language_fr" name="法语"  />
+				<text id="generic_language_hu" name="匈牙利语"  />
+				<text id="generic_language_id" name="印度尼西亚"  />
+				<text id="generic_language_it" name="意大利语"  />
+				<text id="generic_language_ja" name="日语"  />
+				<text id="generic_language_ko" name="韩语"  />
+				<text id="generic_language_nl" name="荷兰语"  />
+				<text id="generic_language_no" name="挪威语"  />
+				<text id="generic_language_pl" name="波兰语"  />
+				<text id="generic_language_pt" name="葡萄牙语"  />
+				<text id="generic_language_pt_BR" name="巴西人"  />
+				<text id="generic_language_ru" name="俄罗斯语"  />
+				<text id="generic_language_sv" name="瑞典语"  />
+				<text id="generic_language_tr" name="土耳其语"  />
+				<text id="generic_language_zh_CN" name="中文(简体)"  />
+				<text id="generic_language_zh_TW" name="中文(繁体)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="您的账户已被禁！请联系技术支持团队！"  />
+				<text id="generic_login_banned_2" name="您的帐户已被停用！
+
+停用截止日期：{0}
+
+如果您对帐户停用有任何问题，请联系支持。"  />
+				<text id="generic_login_banned_3" name="您的帐户被永久冻结。
+
+关于被封，您如果有任何问题，请联系支持。"  />
+				<text id="generic_login_banned_permanent" name="永久"  />
+				<text id="generic_login_facebook" name="通过facebook分享"  />
+				<text id="generic_login_login" name="登入"  />
+				<text id="generic_login_loginname" name="用户名/电子邮件"  />
+				<text id="generic_login_lostpassword" name="忘记密码？"  />
+				<text id="generic_login_lostpassword_copy" name="请输入您的电子邮箱地址，我们将会把密码发送至邮箱。"  />
+				<text id="generic_login_lostpassword_title" name="忘记密码？"  />
+				<text id="generic_login_newplayer" name="初来乍到?"  />
+				<text id="generic_login_password" name="密码"  />
+				<text id="generic_login_play" name="开始游戏"  />
+				<text id="generic_login_playnow" name="现在就开始游戏！"  />
+				<text id="generic_login_register" name="注册"  />
+				<text id="generic_login_rememberpassword" name="保存密码"  />
+				<text id="generic_login_wronglogin" name="用户名或密码错误！"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="您必须注册才能保存游戏资料！"  />
+				<text id="generic_logout_guest_title" name="注册"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="游戏要在至少 {0} 之后可用。"  />
+				<text id="servershutdownpremonition_copy" name="游戏系统将在{0}重启。请登出游戏或者尽快注册成为用户以便保存游戏数据。"  />
+				<text id="servershutdownpremonition_registered_copy" name="由于维护原因，我们将于 {0} 之后关闭游戏服务器。"  />
+				<text id="servershutdown_copy" name="游戏系统现在正在重启。请稍后，您很快就能重新登入游戏。"  />
+				<text id="welcomeback_copy" name="很高兴再次见到您！我这里有点好东西可以帮您快速回到正轨！"  />
+				<text id="welcomeback_title" name="您回来了！"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="新密码:"  />
+				<text id="generic_change_password_copy_oldpass" name="旧密码"  />
+				<text id="generic_change_password_copy_send" name="您的新密码已发送至您的邮箱地址。"  />
+				<text id="generic_change_password_error_failed" name="对不起，您的旧密码不正确"  />
+				<text id="generic_change_password_error_success" name="您的密码已成功被更改！"  />
+				<text id="generic_change_password_faild_copy" name="您的新密码必须含有两个字母以上的字符，旧密码同时也要正确的输入！"  />
+				<text id="generic_change_password_faild_specialcharacters" name="密码中不可以有空各或者特殊符号．"  />
+				<text id="generic_change_password_faild_title" name="输入密码"  />
+				<text id="generic_change_password_title" name="更换密码"  />
+				<text id="generic_guest_change_password_faild_copy" name="您必须先注册才能更改密码！"  />
+				<text id="generic_guest_change_password_faild_title" name="清先注册"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="用这些钱获得更多{0}！"  />
+				<text id="generic_payment_48hdiscount_button" name="24小时内获得更多金币"  />
+				<text id="generic_payment_48hdiscount_button_general" name="头48小时更多的{0}"  />
+				<text id="generic_payment_48hdiscount_copy" name="注册账户48小时后 - 购买指定金币套餐将能获赠{0}%金币！"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="注册账户48小时之后 - 购买金币套餐即可额外获赠{0}%金币！"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="头48小时购买{0}以及所有套餐即可获得{1}% 更多的回报哦！"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="头48小时内购买 {0}以及套餐即可获得{1}%更多的回报哦！"  />
+				<text id="generic_payment_btn" name="到商店去"  />
+				<text id="generic_payment_copy" name="您正被连接至付款页面"  />
+				<text id="generic_payment_discount_button" name="现在获得{0}%的提成！"  />
+				<text id="generic_payment_discount_copy" name="现在购买金币可以获得{0}%的奖励！"  />
+				<text id="generic_payment_discount_copy_general" name="现在购买{0}赢取{1}%奖励！"  />
+				<text id="generic_payment_discount_general" name="现在{0}％更多的{1}！"  />
+				<text id="generic_payment_discount_generalshort" name="多{0}%的钱哦！　"  />
+				<text id="generic_payment_discount_time" name="还需{0}！"  />
+				<text id="generic_payment_discount_title" name="更多的提成!"  />
+				<text id="generic_payment_newPrices" name="赶快行动！在线商店大减价啦！真正节省您的金钱！"  />
+				<text id="generic_payment_title" name="支付商店"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="搜索通过虚拟空间的隧道"  />
+				<text id="loading_text_10" name="在全世界分发物品"  />
+				<text id="loading_text_11" name="画图"  />
+				<text id="loading_text_12" name="给按钮上色"  />
+				<text id="loading_text_13" name="藏起来的复活节彩蛋"  />
+				<text id="loading_text_14" name="查看用户信息"  />
+				<text id="loading_text_15" name="吓跑虫子"  />
+				<text id="loading_text_16" name="给程序员反馈"  />
+				<text id="loading_text_17" name="使用客户端做实验"  />
+				<text id="loading_text_18" name="转动时针"  />
+				<text id="loading_text_19" name="冷却系统"  />
+				<text id="loading_text_2" name="给齿轮上油"  />
+				<text id="loading_text_20" name="不久即可完成"  />
+				<text id="loading_text_3" name="转动仓鼠转盘。"  />
+				<text id="loading_text_4" name="让服务器热身"  />
+				<text id="loading_text_5" name="希望一切顺利"  />
+				<text id="loading_text_6" name="呼叫终结者"  />
+				<text id="loading_text_7" name="计算复杂算法"  />
+				<text id="loading_text_8" name="校准磁通电容"  />
+				<text id="loading_text_9" name="修补物品"  />
+				<text id="loading_text_default" name="初始化"  />
+				<text id="loading_text_itemXML" name="加载游戏元素"  />
+				<text id="progress_loadfiles" name="正在加载..."  />
+				<text id="progress_serverconnection" name="正在连接服务器..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="输入电子邮件地址"  />
+				<field id="generic_register_insertName" name="输入名字"  />
+				<field id="generic_register_insertPassword" name="输入密码"  />
+				<text id="generic_register_agb_copy" name="想要继续，您必须阅读并同意用户许可协议。点击左边的确认按钮进入下一步。"  />
+				<text id="generic_register_agb_read" name="阅读使用条款和条件"  />
+				<text id="generic_register_alreadyavatar" name="用户已经有一个头像了．"  />
+				<text id="generic_register_badword" name="名字里不能含有{0}"  />
+				<text id="generic_register_btn_agb" name="接受用户许可协议"  />
+				<text id="generic_register_btn_later" name="以后"  />
+				<text id="generic_register_btn_next" name="继续"  />
+				<text id="generic_register_btn_save" name="保存"  />
+				<text id="generic_register_character" name="创建您的性格"  />
+				<text id="generic_register_copy_0" name="现在免费注册！"  />
+				<text id="generic_register_copy_1" name="保存你的游戏纪录！"  />
+				<text id="generic_register_emaillong_copy" name="邮件地址过长．"  />
+				<text id="generic_register_emailwrong_copy" name="所输入的邮件地址不正确．"  />
+				<text id="generic_register_email_copy" name="您输入的电子邮件地址不能为空，也不能包含空格。"  />
+				<text id="generic_register_error" name="开通注册"  />
+				<text id="generic_register_errormistake" name="错误！　"  />
+				<text id="generic_register_error_accountalreadyexists" name="此电子邮箱已被他人使用，对不起。"  />
+				<text id="generic_register_forfree" name="免费注册！"  />
+				<text id="generic_register_forfree1" name="完全免费！"  />
+				<text id="generic_register_letsgo" name="开始吧！"  />
+				<text id="generic_register_namealreadyused" name="这个名字已经被使用了．"  />
+				<text id="generic_register_namenotvalid" name="所输入的用户名无效．"  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="您输入的密码太短。密码至少为4个字符。"  />
+				<text id="generic_register_passwordwrong_copy" name="登陆密码不正确．"  />
+				<text id="generic_register_password_copy" name="您的密码不能包含空格和特殊符号。"  />
+				<text id="generic_register_receivenews" name="接收新闻"  />
+				<text id="generic_register_rememberdata" name="保存信息"  />
+				<text id="generic_register_reward" name="免费注册并获得{0}{1}！"  />
+				<text id="generic_register_subscribe" name="注册"  />
+				<text id="generic_register_success" name="您已成功注册"  />
+				<text id="generic_register_title" name="注册出错"  />
+				<text id="generic_register_unlock" name="开通这个功能！"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="请注意文明用语。如再次发现使用不当的言论，你将会被禁止使用聊天功能，或被暂封游戏账号。原因：{0}"  />
+				<text id="generic_report_muted_badword2_copy" name="由于多次在游戏里的不当行为，您在未来的{0}里将被禁止使用聊天功能。原因：{1}"  />
+				<text id="generic_report_muted_domain1" name="请不要在聊天栏里输入网络连接！"  />
+				<text id="generic_report_muted_reported_copy" name="有玩家向我们举报，你将在未来{0}里暂停使用聊天功能。原因：{1}"  />
+				<text id="generic_report_player_copy" name="你是否确定要举报玩家{0}？\n 注意！不当使用此功能可能会被关闭游戏账户。"  />
+				<text id="generic_report_player_reason_0" name="言论侮辱"  />
+				<text id="generic_report_player_reason_1" name="性骚扰"  />
+				<text id="generic_report_player_reason_2" name="种族言论"  />
+				<text id="generic_report_player_reason_3" name="威胁/敲诈"  />
+				<text id="generic_report_player_reason_title" name="举报缘由"  />
+				<text id="generic_report_player_title" name="举报玩家？"  />
+				<text id="generic_report_reported_copy" name="有其他玩家向管理员举报您的不当行为。原因：{0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="链接"  />
+				<text id="generic_select_world" name="选择区域："  />
+				<text id="generic_world" name="区域：{0}"  />
+				<text id="generic_world_international" name="国际：{0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

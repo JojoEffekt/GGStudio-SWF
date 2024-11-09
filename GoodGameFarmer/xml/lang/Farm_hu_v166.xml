@@ -1,0 +1,1741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - hu - 13 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Tojásokat begyűjteni"  />
+			<text id="T01" name="Tojásokat begyűjteni"  />
+			<text id="T02" name="Tojásokat begyűjteni"  />
+			<text id="T03" name="Tojásokat begyűjteni"  />
+			<text id="T04" name="kukurikú"  />
+			<text id="T05" name="Tojásokat begyűjteni"  />
+			<text id="T06" name="Tojást begyűjteni"  />
+			<text id="T07" name="simogatás"  />
+			<text id="T10" name="Szarvasgombát begyűjteni"  />
+			<text id="T11" name="fejni"  />
+			<text id="T110" name="fejni"  />
+			<text id="T111" name="kefélni"  />
+			<text id="T112" name="kefélni"  />
+			<text id="T113" name="fejni"  />
+			<text id="T114" name="kefélni"  />
+			<text id="T115" name="kefélni"  />
+			<text id="T12" name="nyírni"  />
+			<text id="T13" name="fejni"  />
+			<text id="T14" name="kefélni"  />
+			<text id="T15" name="kefélni"  />
+			<text id="T16" name="kefélni"  />
+			<text id="T17" name="kefélni"  />
+			<text id="T18" name="kefélni"  />
+			<text id="T19" name="nyírni"  />
+			<text id="T20" name="kefélni"  />
+			<text id="T21" name="kefélni"  />
+			<text id="T22" name="kefélni"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D330"  />
+				<text id="format_date" name="{2}/{1}/{0}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="E"  />
+				<text id="s1" name="Mó"  />
+				<text id="s2" name="Mrd"  />
+				<text id="s3" name="Bó"  />
+				<text id="s4" name="Brd"  />
+				<text id="s5" name="Tri"  />
+				<text id="s6" name="Trd"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="E"  />
+				<text id="day1" name="nap"  />
+				<text id="day2" name="nap"  />
+				<text id="heute" name="ma"  />
+				<text id="hour0" name="óra"  />
+				<text id="hour1" name="óra"  />
+				<text id="hour2" name="óra"  />
+				<text id="min0" name="perc"  />
+				<text id="min1" name="perc"  />
+				<text id="min2" name="perc"  />
+				<text id="morgen" name="holnap"  />
+				<text id="sofort" name="rögtön"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="VISSZA"  />
+				<text id="ex" name="BEZÁRÁS"  />
+				<text id="next" name="Tovább"  />
+				<text id="no" name="NEM"  />
+				<text id="yes" name="IGEN"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Szóval, a #play# játékban az a célod, hogy sok tapasztalati pontot és pénzt gyűjts, hogy minél nagyobb és szebb farmot építhess ki."  />
+				<text id="intro_01_goals_t" name="Cél"  />
+				<text id="welcome_01_i" name="Üdvözlünk, #name#, a #play#-on! Igazán klassz lenne, ha a gondosan összeállított bevezetőnket megnéznéd, amely a kezdésnél segítene neked. Ezért még jutalmat is kapsz! Szeretnéd?"  />
+				<text id="welcome_01_t" name="Bevezetés"  />
+				<text id="welcome_02_i" name="Na, jó, ha nem kérsz a jutalomból ... A bevezetőnket bármikor megnézheted, ha a kérdőjeles lapra kattintasz. A játékszabályokat a Súgóban a 'Kérdések és válaszok' pontban találod. Jó szórakozást!"  />
+				<text id="welcome_02_t" name="Bevezetés 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Éppen most telepítettem a Goodgame Farmert. Látogass el a farmomra és nézd meg, hogy virágzik!"  />
+			<text id="descriptionlongfarmer" name="A Goodgame Farmer a Goodgame Studios legújabb farmszimulációs játéka. Irányítsd a virtuális farmodat, ahol gyümölcsöt, gabonát vagy fát termesztesz és betakarítasz, állatokat tenyésztesz és a bevételedet hasznos tárgyakra költheted."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Nő"  />
+			<text id="A02" name="Férfi"  />
+			<text id="B00" name="Alma"  />
+			<text id="B01" name="Körte"  />
+			<text id="B010" name="Avokádó"  />
+			<text id="B011" name="Datolya"  />
+			<text id="B012" name="Füge"  />
+			<text id="B013" name="Gránátalma"  />
+			<text id="B014" name="Kivi"  />
+			<text id="B015" name="Kaki-szilva"  />
+			<text id="B016" name="Mangó"  />
+			<text id="B017" name="Papaja"  />
+			<text id="B018" name="Kókusz"  />
+			<text id="B019" name="Sárkánygyümi"  />
+			<text id="B02" name="Cseresznye"  />
+			<text id="B020" name="Kakaó"  />
+			<text id="B021" name="Dió"  />
+			<text id="B022" name="Majomkenyérfa"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Mandula"  />
+			<text id="B025" name="Licsi"  />
+			<text id="B026" name="Csillaggyümölcs"  />
+			<text id="B027" name="Lángfa"  />
+			<text id="B028" name="Bambusz"  />
+			<text id="B029" name="Kandis alma"  />
+			<text id="B03" name="Sárgabarack"  />
+			<text id="B030" name="Mézeskalács"  />
+			<text id="B031" name="Csokoládé"  />
+			<text id="B032" name="Piros húsvéti fa"  />
+			<text id="B033" name="Kék húsvéti fa"  />
+			<text id="B034" name="Mező"  />
+			<text id="B04" name="Szilva"  />
+			<text id="B05" name="Olívabogyó"  />
+			<text id="B06" name="Banán"  />
+			<text id="B07" name="Citrom"  />
+			<text id="B08" name="Narancs"  />
+			<text id="B09" name="Grépfrút"  />
+			<text id="D00" name="Farakás"  />
+			<text id="D01" name="Szalmabála"  />
+			<text id="D010" name="Fatörzs"  />
+			<text id="D011" name="Kocsikerék"  />
+			<text id="D02" name="Etető"  />
+			<text id="D03" name="Itató"  />
+			<text id="D04" name="Szökőkút"  />
+			<text id="D05" name="Eke"  />
+			<text id="D06" name="Vízpumpa"  />
+			<text id="D07" name="Lovas kocsi"  />
+			<text id="D08" name="Hordó"  />
+			<text id="D09" name="Láda"  />
+			<text id="D11" name="Madárijesztő"  />
+			<text id="D110" name="Parki pad"  />
+			<text id="D111" name="Sötét pad"  />
+			<text id="D112" name="Szökőkút"  />
+			<text id="D113" name="Madárijesztő"  />
+			<text id="D114" name="Bagoly"  />
+			<text id="D115" name="Szélkerék"  />
+			<text id="D116" name="Szélzsák"  />
+			<text id="D117" name="Kis tavacska"  />
+			<text id="D118" name="Nagy tavacska"  />
+			<text id="D119" name="Koi tavacska"  />
+			<text id="D12" name="Fűnyíró"  />
+			<text id="D120" name="Medence"  />
+			<text id="D121" name="Piknik"  />
+			<text id="D122" name="Kerti asztal"  />
+			<text id="D123" name="Kerti szék"  />
+			<text id="D124" name="Függőágy"  />
+			<text id="D125" name="Nyugágy"  />
+			<text id="D126" name="Szárítókötél"  />
+			<text id="D127" name="Viharlámpa"  />
+			<text id="D128" name="Vastag kaktusz"  />
+			<text id="D129" name="Vörös liliom"  />
+			<text id="D13" name="Budi"  />
+			<text id="D130" name="Hosszú kaktusz"  />
+			<text id="D131" name="Díszfa"  />
+			<text id="D132" name="Csokor vázában"  />
+			<text id="D133" name="Fehér liliom"  />
+			<text id="D134" name="Madárrémísztő"  />
+			<text id="D135" name="Kutya kölyök"  />
+			<text id="D136" name="Ajándék"  />
+			<text id="D137" name="Hógyerek"  />
+			<text id="D138" name="Hóember"  />
+			<text id="D139" name="Hóasszony"  />
+			<text id="D14" name="Talicska"  />
+			<text id="D140" name="Síelő"  />
+			<text id="D141" name="Madárház cica"  />
+			<text id="D142" name="Szánkó"  />
+			<text id="D143" name="Hóangyal"  />
+			<text id="D144" name="Tábla"  />
+			<text id="D145" name="Figyelmeztetés"  />
+			<text id="D146" name="Északi sark"  />
+			<text id="D147" name="Hókecske"  />
+			<text id="D148" name="Hókutya"  />
+			<text id="D149" name="Hóbirka"  />
+			<text id="D15" name="Világos pad"  />
+			<text id="D150" name="Hótehén"  />
+			<text id="D151" name="Hómacska"  />
+			<text id="D152" name="Hótyúk"  />
+			<text id="D153" name="Hómalac"  />
+			<text id="D154" name="Hóliba"  />
+			<text id="D155" name="Kerítéskapu"  />
+			<text id="D156" name="Kerítés"  />
+			<text id="D157" name="Oszlop"  />
+			<text id="D158" name="Feketefenyő"  />
+			<text id="D159" name="Színes fenyő"  />
+			<text id="D16" name="Grill"  />
+			<text id="D160" name="Májusfa"  />
+			<text id="D161" name="Madárfészek"  />
+			<text id="D162" name="Szalmaember"  />
+			<text id="D163" name="Szalmanő"  />
+			<text id="D164" name="Piros tojás"  />
+			<text id="D165" name="Kék tojás"  />
+			<text id="D166" name="Lila tojás"  />
+			<text id="D167" name="Piros tojások"  />
+			<text id="D168" name="Kék tojáscsoport"  />
+			<text id="D169" name="Lila tojáscsoport"  />
+			<text id="D17" name="Kerti törpe"  />
+			<text id="D170" name="Kék tojásfészek"  />
+			<text id="D171" name="Zöld tojásfészek"  />
+			<text id="D172" name="Lila tojásfészek"  />
+			<text id="D173" name="Piros tojások"  />
+			<text id="D174" name="Fehér tojások"  />
+			<text id="D175" name="Tojásfészek"  />
+			<text id="D176" name="Girland"  />
+			<text id="D177" name="Piros lufi"  />
+			<text id="D178" name="Kék lufi"  />
+			<text id="D179" name="Sárga lufi"  />
+			<text id="D18" name="Postaláda"  />
+			<text id="D180" name="Kalózzászló"  />
+			<text id="D19" name="Madáretető"  />
+			<text id="D20" name="Sövény"  />
+			<text id="D21" name="Kerítés"  />
+			<text id="D210" name="Horrorív"  />
+			<text id="D22" name="Oszlop"  />
+			<text id="D23" name="Kerítés"  />
+			<text id="D24" name="Oszlop"  />
+			<text id="D25" name="Kerítéskapu"  />
+			<text id="D26" name="Kerítéskapu"  />
+			<text id="D27" name="Sövény boltív"  />
+			<text id="D28" name="Horrorkerítés"  />
+			<text id="D29" name="Horroroszlopok"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Németország"  />
+			<text id="D310" name="Olaszország"  />
+			<text id="D311" name="Franciaország"  />
+			<text id="D312" name="Spanyolország"  />
+			<text id="D313" name="Portugália"  />
+			<text id="D314" name="Hollandia"  />
+			<text id="D315" name="Belgium"  />
+			<text id="D316" name="Lengyelország"  />
+			<text id="D317" name="Oroszország"  />
+			<text id="D318" name="Csehország"  />
+			<text id="D319" name="Görögország"  />
+			<text id="D32" name="Ausztria"  />
+			<text id="D320" name="Törökország"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Mexikó"  />
+			<text id="D324" name="Brazília"  />
+			<text id="D325" name="Argentína"  />
+			<text id="D326" name="Kína"  />
+			<text id="D327" name="Japán"  />
+			<text id="D328" name="Ausztrália"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Svájc"  />
+			<text id="D330" name="Magyarország"  />
+			<text id="D331" name="Tajvan"  />
+			<text id="D34" name="Finnország"  />
+			<text id="D35" name="Svédország"  />
+			<text id="D36" name="Norvégia"  />
+			<text id="D37" name="Dánia"  />
+			<text id="D38" name="Nagy-Britannia"  />
+			<text id="D39" name="Írország"  />
+			<text id="D40" name="Ló"  />
+			<text id="D41" name="Fa"  />
+			<text id="D410" name="Horrorfa"  />
+			<text id="D42" name="Tehén"  />
+			<text id="D43" name="Juh"  />
+			<text id="D44" name="Malac"  />
+			<text id="D45" name="Kecske"  />
+			<text id="D46" name="Liba"  />
+			<text id="D47" name="Tyúk"  />
+			<text id="D48" name="Kutya"  />
+			<text id="D49" name="Macska"  />
+			<text id="D60" name="Piactér"  />
+			<text id="D70" name="Ragacsontváz"  />
+			<text id="D71" name="Zombikéz"  />
+			<text id="D72" name="Sírkő"  />
+			<text id="D73" name="Jack O'Lantern"  />
+			<text id="D74" name="Jack O'Lantern"  />
+			<text id="D75" name="Jack O'Lantern"  />
+			<text id="D76" name="Jack O'Lantern"  />
+			<text id="D77" name="Jack O'Lantern"  />
+			<text id="Dxxx" name="Zöld fészek"  />
+			<text id="E01" name="10x10 föld"  />
+			<text id="E02" name="12x12 föld"  />
+			<text id="E03" name="14x14 föld"  />
+			<text id="E04" name="16x16 föld"  />
+			<text id="E05" name="18x18 föld"  />
+			<text id="E06" name="20x20 föld"  />
+			<text id="E07" name="22x22 föld"  />
+			<text id="E08" name="24x24 föld"  />
+			<text id="E11" name="10x10 mező"  />
+			<text id="E12" name="12x12 mező"  />
+			<text id="E13" name="14x14 mező"  />
+			<text id="E14" name="16x16 mező"  />
+			<text id="E15" name="18x18 mező"  />
+			<text id="E16" name="20x20 mező"  />
+			<text id="E17" name="22x22 mező"  />
+			<text id="E18" name="24x24 mező"  />
+			<text id="E21" name="10x10 mező"  />
+			<text id="E22" name="12x12 mező"  />
+			<text id="E23" name="14x14 mező"  />
+			<text id="E24" name="16x16 mező"  />
+			<text id="E25" name="18x18 mező"  />
+			<text id="E26" name="20x20 mező"  />
+			<text id="E27" name="22x22 mező"  />
+			<text id="E28" name="24x24 mező"  />
+			<text id="F01" name="Idő - M"  />
+			<text id="F20" name="Frissítő"  />
+			<text id="F30" name="Trágya"  />
+			<text id="F31" name="Prémium trágya"  />
+			<text id="F40" name="Eledel"  />
+			<text id="F41" name="Prémium eledel"  />
+			<text id="F50" name="Csodapor"  />
+			<text id="G00" name="Kőlapos út"  />
+			<text id="H00" name="Szénapajta"  />
+			<text id="H01" name="Siló"  />
+			<text id="H02" name="Fészer"  />
+			<text id="H03" name="Szélmalom"  />
+			<text id="H04" name="Melegház"  />
+			<text id="H05" name="Szelleműző ház"  />
+			<text id="H06" name="Szellemsiló"  />
+			<text id="H07" name="Szörnymalom"  />
+			<text id="H08" name="Téli siló"  />
+			<text id="H09" name="Téli szélmalom"  />
+			<text id="H10" name="Baromfiól"  />
+			<text id="H11" name="Disznóól"  />
+			<text id="H12" name="Tehénistálló"  />
+			<text id="H13" name="Lóistálló"  />
+			<text id="H20" name="Kunyhó"  />
+			<text id="H21" name="Parasztház"  />
+			<text id="H210" name="Szellemház"  />
+			<text id="H211" name="Szellemvilla"  />
+			<text id="H212" name="Téli lak"  />
+			<text id="H213" name="Téli ház"  />
+			<text id="H214" name="Téli villa"  />
+			<text id="H215" name="Mézeskalácsház"  />
+			<text id="H216" name="Téli vidéki ház"  />
+			<text id="H217" name="Télilény"  />
+			<text id="H218" name="Kék tojásház"  />
+			<text id="H219" name="Rózsasz. tojásház"  />
+			<text id="H22" name="Parasztház"  />
+			<text id="H220" name="Kalózhajó"  />
+			<text id="H23" name="Kutyaól"  />
+			<text id="H24" name="Lombház"  />
+			<text id="H25" name="Tanyasi ház"  />
+			<text id="H26" name="Narancsliget"  />
+			<text id="H27" name="Nagy villa"  />
+			<text id="H28" name="Óriási villa"  />
+			<text id="H29" name="Szellemlak"  />
+			<text id="H30" name="Gyümölcsös bódé"  />
+			<text id="H31" name="Szerszámos láda"  />
+			<text id="H32" name="Forgó-dongó szerencsejáték"  />
+			<text id="H40" name="Siló (trágya)"  />
+			<text id="H50" name="Kísértetház"  />
+			<text id="H51" name="Rémtemplom"  />
+			<text id="N01" name="Fákat leszedni"  />
+			<text id="N02" name="Állat begyűjtés"  />
+			<text id="R00" name="Munkaenergia S"  />
+			<text id="R01" name="Munkaenergia M"  />
+			<text id="R02" name="Munkaenergia XL"  />
+			<text id="S00" name="Tulipán"  />
+			<text id="S01" name="Gyöngyvirág"  />
+			<text id="S010" name="Lila rózsa"  />
+			<text id="S02" name="Levendula"  />
+			<text id="S03" name="Napraforgó"  />
+			<text id="S04" name="Rózsa"  />
+			<text id="S05" name="Dália"  />
+			<text id="S06" name="Krókusz"  />
+			<text id="S07" name="Liliom"  />
+			<text id="S08" name="Csillagfürt"  />
+			<text id="S09" name="Mák"  />
+			<text id="S10" name="Eper"  />
+			<text id="S11" name="Görögdinnye"  />
+			<text id="S12" name="Ananász"  />
+			<text id="S13" name="Szőlő"  />
+			<text id="S14" name="Sárgadinnye"  />
+			<text id="S15" name="Málna"  />
+			<text id="S16" name="Áfonya"  />
+			<text id="S17" name="Vörösáfonya"  />
+			<text id="S18" name="Egres"  />
+			<text id="S19" name="Szeder"  />
+			<text id="S20" name="Padlizsán"  />
+			<text id="S21" name="Karfiol"  />
+			<text id="S210" name="Spenót"  />
+			<text id="S211" name="Hagyma"  />
+			<text id="S212" name="Vöröskáposzta"  />
+			<text id="S213" name="Krumpli"  />
+			<text id="S214" name="Répa"  />
+			<text id="S215" name="Borsó"  />
+			<text id="S216" name="Retek"  />
+			<text id="S217" name="Rebarbara"  />
+			<text id="S218" name="Kelbimbó"  />
+			<text id="S219" name="Szója"  />
+			<text id="S22" name="Tök"  />
+			<text id="S220" name="Cékla"  />
+			<text id="S221" name="Brokkoli"  />
+			<text id="S222" name="Articsóka"  />
+			<text id="S223" name="Chili"  />
+			<text id="S224" name="Spárga"  />
+			<text id="S225" name="Repce"  />
+			<text id="S23" name="Paprika"  />
+			<text id="S24" name="Paradicsom"  />
+			<text id="S25" name="Bab"  />
+			<text id="S26" name="Uborka"  />
+			<text id="S27" name="Répa"  />
+			<text id="S28" name="Saláta"  />
+			<text id="S29" name="Cukkini"  />
+			<text id="S30" name="Búza"  />
+			<text id="S31" name="Zab"  />
+			<text id="S32" name="Rizs"  />
+			<text id="S33" name="Rozs"  />
+			<text id="S34" name="Kukorica"  />
+			<text id="S35" name="Árpa"  />
+			<text id="S36" name="Köles"  />
+			<text id="S37" name="Édeskukorica"  />
+			<text id="S38" name="Rőtbúza"  />
+			<text id="S39" name="Tönkölybúza"  />
+			<text id="S40" name="Kávé"  />
+			<text id="S41" name="Tea"  />
+			<text id="S42" name="Cukornád"  />
+			<text id="S43" name="Aloe vera"  />
+			<text id="S44" name="Gyapot"  />
+			<text id="S45" name="Szója"  />
+			<text id="S49" name="Hóvirág"  />
+			<text id="S50" name="Piros cukorpálca"  />
+			<text id="S51" name="Hóvirág"  />
+			<text id="S510" name="Kincses láda"  />
+			<text id="S52" name="Piros tojás"  />
+			<text id="S53" name="Kék tojás"  />
+			<text id="S54" name="Lótusz"  />
+			<text id="S55" name="Fehér rózsák"  />
+			<text id="S56" name="Habaneros"  />
+			<text id="S57" name="Nefelejcs"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffin"  />
+			<text id="S60" name="Jégvirág"  />
+			<text id="S61" name="Kék cukorpálca"  />
+			<text id="S62" name="Lila tojások"  />
+			<text id="S63" name="Sárga tojás"  />
+			<text id="T00" name="Tyúk"  />
+			<text id="T01" name="Liba"  />
+			<text id="T02" name="Barna tyúk"  />
+			<text id="T03" name="Fekete tyúk"  />
+			<text id="T04" name="Kakas"  />
+			<text id="T05" name="Kacsa"  />
+			<text id="T06" name="Téli liba"  />
+			<text id="T07" name="Papagáj"  />
+			<text id="T10" name="Disznó"  />
+			<text id="T11" name="Tehén"  />
+			<text id="T110" name="Barna tehén"  />
+			<text id="T111" name="Tenyészbika"  />
+			<text id="T112" name="Téli ló"  />
+			<text id="T113" name="Téli tehén"  />
+			<text id="T114" name="Bárány"  />
+			<text id="T115" name="Egyszarvú"  />
+			<text id="T12" name="Juh"  />
+			<text id="T13" name="Kecske"  />
+			<text id="T14" name="Kutya"  />
+			<text id="T15" name="Fekete macska"  />
+			<text id="T16" name="Barna macska"  />
+			<text id="T17" name="Sötét ló"  />
+			<text id="T18" name="Világos ló"  />
+			<text id="T19" name="Fekete bárány"  />
+			<text id="T20" name="Juhászkutya"  />
+			<text id="T21" name="Rénszarvas"  />
+			<text id="T22" name="Nyúl"  />
+			<text id="V00" name="10x tankolni"  />
+			<text id="V01" name="25x tankolni"  />
+			<text id="V02" name="50x tankolni"  />
+			<text id="V10" name="Traktor"  />
+			<text id="V20" name="Vetőgép"  />
+			<text id="V30" name="Kombájn"  />
+			<text id="V40" name="Trágyázó"  />
+			<text id="V90" name="Tank"  />
+			<text id="Y01" name="Betakarított"  />
+			<text id="Y02" name="Felszántott"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Sajnos, vagy a #name# barátságlistája, vagy a tied már tele van,#tab#vagy #name# nem kívánt barátkozni veled."  />
+				<text id="buddies_add_ok" name="#name# a barátod."  />
+				<text id="chat_dop" name="Kérlek, ne mondd mindig ugyanazt csevegéskor. Köszi!"  />
+				<text id="chat_nonsense" name="Valami értelmesebbről csevegj. Köszi!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Érvénytelen e-mailcím. Adj meg egy érvényes e-mailcímet."  />
+				<text id="email_dop" name="Ez az e-mailcím már létezik. Adj meg egy másikat."  />
+				<text id="email_no" name="Ezt az e-mailcímet nem ismerjük."  />
+				<text id="farm_full" name="Ezen a farmon már túl sokan vannak. Válassz egy másik farmot."  />
+				<text id="helper_job_no" name="#name# nem fogadta el a #job# ajánlatodat, vagy elhagyta a piacteret."  />
+				<text id="helper_job_ok" name="#name# elfogadta a #job# ajánlatodat."  />
+				<text id="helper_owner_no_money" name="A farm tulajdonosának nincs elég pénze, hogy további földet szántasson fel."  />
+				<text id="invite_sent" name="Hálás köszönet!
+A barátod hamarosan e-mailt kap."  />
+				<text id="item_dop" name="Ennek a tárgynak a határát már elérted."  />
+				<text id="kenn_bad" name="A jelszó legyen:
+5-15 karakteres, tartalmazhat:#tab#
+a-z, A-Z, 0-9, ÄÖÜäöüß, -_@"  />
+				<text id="kenn_no" name="Ezt a jelszót nem ismerjük"  />
+				<text id="kenn_unequal" name="A jelszó nem egyezik"  />
+				<text id="kick" name="Sajnos, #name# kidobott téged a farmjáról!#tab#Úgy tűnik csúnyán viselkedtél."  />
+				<text id="lagernosell" name="Ezt az épületet ki kell ürítened mielőtt eladnád."  />
+				<text id="lager_building" name="Szükséged van egy pajtára vagy egy fészerre, hogy a tárgyaidat tárolhasd."  />
+				<text id="lager_cantsell" name="Először a tárolódban helyet kell csinálnod, hogy az épületet eladhasd."  />
+				<text id="lager_voll" name="Egy használati tárgyat nem tehetsz egy másik használati tárgyra."  />
+				<text id="login_bad" name="Belépési hiba. Ha elfelejtetted a jelszavadat, kattints az 'Elfelejtetted a jelszavadat?' kérdésre.#tab#Ha segítségre van szükséged, írj nekünk: support@goodgamestudios.com"  />
+				<text id="name_bad" name="A név legyen:#tab#2-15 karakteres, tartalmazhat: a-z, A-Z, 0-9, ÄÖÜäöüß, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Ez a játékosnév már foglalt. Adj meg egy másikat vagy válassz:"  />
+				<text id="name_spam" name="Kérlek, adj meg egy másik nevet"  />
+				<text id="no_agb" name="ÁSZF elfogadása. Kérlek fogadd el az ÁSZF-t."  />
+				<text id="no_arbeitskraft" name="Ehhez nincs elég erőd. Várj, amíg újra megerősödsz, vagy a boltban vásárolhatsz egy kis energiát."  />
+				<text id="no_buddies" name="Sajnos még nem hívtál meg elég barátot.#tab#Hogy a #obj# tárgyat megvehesd, még  #anz# barátot kell meghívnod."  />
+				<text id="no_chat" name="A csevegéshez regisztrálnod kell magad és legalább az első szintre eljutnod."  />
+				<text id="no_ferti" name="#name# trágyát felhasználtad. Vásárolj újat."  />
+				<text id="no_food" name="Sajnos, nincs elég élelmed, hogy megetesd az összes állatodat."  />
+				<text id="no_gender" name="Még nem választottál nemet. Kattints az egyik képre."  />
+				<text id="no_lager" name="Nincs ehhez a tárgyhoz való szabad tároló vagy istálló."  />
+				<text id="no_money" name="Ehhez túl kevés aranyad van."  />
+				<text id="no_premium" name="A prémium vetőmagodat #name# felhasználtad. Vásárolj újat."  />
+				<text id="no_regi" name="Ezt a funkciót csak regisztrált játékosok használhatják.#tab#Regisztrálj, hogy megtartsd a farmodat."  />
+				<text id="no_tanken" name="Ehhez túl kevés az üzemanyagod."  />
+				<text id="no_zauberstaub" name="Felhasználtad az összes: {0}
+Ha újat akarsz szerezni, új kitüntetéseket kell kapnod!"  />
+				<text id="old_client_version" name="Régi verzió! Frissítsd az oldalt!"  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="A ranglistán csak akkor szerepelhetsz, ha regisztráltál és már a 3. szintet elérted."  />
+				<text id="rangliste_player_not_ranked" name="Ez a játékos csak úgy kerülhet a ranglistára, ha a 3. szintet elérte már."  />
+				<text id="rangliste_unknown_id" name="Sajnos, ezen a néven nincs regisztrált játékos."  />
+				<text id="vehiclesnosell" name="Ez a jármű éppen használatban van."  />
+				<text id="vollscreen" name="A teljesképernyő nézetben nem lehet chatelni. (Biztonsági okok miatt a billentyűzet nem használható)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Barátság"  />
+				<text id="farm_full" name="Hoppá!"  />
+				<text id="helper_job_ok" name="Munka elfogadva"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="bekapcsolva"  />
+				<text id="buyOf" name="#menge#-ből  #anz# felhasználva"  />
+				<text id="clickZum" name="Kattintás"  />
+				<text id="deactive" name="kikapcsolva"  />
+				<text id="doContent" name="kiválasztóablak"  />
+				<text id="doDel" name="törölni"  />
+				<text id="doFertilize" name="trágyázás"  />
+				<text id="doFertilizeAnimals" name="etetés"  />
+				<text id="doFortune" name="Játssz a nyereményjátékon"  />
+				<text id="doHarvest" name="betakarítás"  />
+				<text id="doMove" name="mozgatás"  />
+				<text id="doPlow" name="szántás"  />
+				<text id="doPos" name="elhelyezés"  />
+				<text id="doRot" name="forgatás"  />
+				<text id="doSell" name="eladni"  />
+				<text id="doSow" name="vetés"  />
+				<text id="doTosOpen" name="tárolás"  />
+				<text id="doVehicles" name="gépi"  />
+				<text id="farmbuddie" name="A barátod#A barátod"  />
+				<text id="farmgast" name="Vendég#Vendég"  />
+				<text id="farmhelperharvest" name="Betakarító segéderő#Betakarító segéderő"  />
+				<text id="farmhelperplow" name="Szántó segéderő#Szántó segéderő"  />
+				<text id="farmowner" name="Ennek a farmnak a tulajdonosa#Ennek a farmnak a tulajdonosa"  />
+				<text id="farmvisitor" name="Látogató#Látogató"  />
+				<text id="isFertilize" name="trágyázott"  />
+				<text id="isHarvest" name="betakarítva"  />
+				<text id="isReadyB" name="érett"  />
+				<text id="isReadyEX" name="tönkrement"  />
+				<text id="isReadyFin" name="betakarítható"  />
+				<text id="isReadyS" name="megnőtt"  />
+				<text id="isReadyT" name="kész"  />
+				<text id="jobbenrest" name="#anz# munkaenergia"  />
+				<text id="jobVehicles" name="--- Gépi munka:"  />
+				<text id="jobWalk" name="--- Kézimunka:"  />
+				<text id="ketteZum" name="Munkalista"  />
+				<text id="Market" name="Piactér"  />
+				<text id="marketvisitor" name="Játékos#Játékos"  />
+				<text id="my" name="Te magad"  />
+				<text id="noPfad" name="Az utat lezárták. Nem tudok arra futni."  />
+				<text id="online" name="online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Játékos"  />
+				<text id="AC" name="Póló"  />
+				<text id="AG" name="Alak"  />
+				<text id="AH" name="Frizura"  />
+				<text id="AP" name="Nadrág"  />
+				<text id="AS" name="Cipő"  />
+				<text id="AT" name="Bőrszín"  />
+				<text id="B" name="Fa"  />
+				<text id="D" name="Dekoráció"  />
+				<text id="E" name="Farmbővítés"  />
+				<text id="F" name="Trágya"  />
+				<text id="G" name="Utca"  />
+				<text id="H" name="Ház"  />
+				<text id="R" name="Munka"  />
+				<text id="S" name="parcella"  />
+				<text id="T" name="Állat"  />
+				<text id="V" name="Jármű"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Fa"  />
+				<text id="D0" name="Farmdekoráció"  />
+				<text id="D1" name="Házdekoráció"  />
+				<text id="D2" name="Elkerítés"  />
+				<text id="D3" name="Zászló"  />
+				<text id="D4" name="Kerti dekoráció"  />
+				<text id="D7" name="Szabadidős dekoráció"  />
+				<text id="F0" name="Időrövidítő"  />
+				<text id="F1" name="Terméshozamnövelő"  />
+				<text id="F2" name="Frissítő"  />
+				<text id="H0" name="Farm"  />
+				<text id="H1" name="Istállók"  />
+				<text id="H2" name="Lakóházak"  />
+				<text id="H4" name="Funkciók"  />
+				<text id="H5" name="Egyéb épületek"  />
+				<text id="N0" name="Gyorsabb munka"  />
+				<text id="R0" name="Munka más farmokon"  />
+				<text id="S0" name="Virágok"  />
+				<text id="S1" name="Gyümölcs"  />
+				<text id="S2" name="Zöldség"  />
+				<text id="S3" name="Magvak"  />
+				<text id="S4" name="Egyéb"  />
+				<text id="S5" name="Prémium"  />
+				<text id="S6" name="Szezon"  />
+				<text id="T0" name="Szárnyasok"  />
+				<text id="T1" name="Haszonállatok"  />
+				<text id="T2" name="Házi állatok"  />
+				<text id="V0" name="Benzin"  />
+				<text id="V1" name="Traktor"  />
+				<text id="V2" name="Vetőgép"  />
+				<text id="V3" name="Kombájn"  />
+				<text id="V4" name="Trágyázó"  />
+				<text id="V9" name="Tank"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Új kitüntetés!"  />
+				<text id="txt1" name="Gratulálunk! Megkaptad a '#name#' díjat - #level# fokozat"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Barátokkal megosztom"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Megkeresett Farmdollár összesen:"  />
+				<text id="i10" name="Betakarított virágok összesen"  />
+				<text id="i11" name="Betakarított fák összesen"  />
+				<text id="i12" name="Betakarított állatok összesen"  />
+				<text id="i13" name="Ajándékra költött Farmdollár mennyisége"  />
+				<text id="i14" name="Megkapott ajándékok száma"  />
+				<text id="i15" name="Segítő szomszédok száma"  />
+				<text id="i16" name="Elkészült fotók száma"  />
+				<text id="i17" name="Elvégzett munkák száma (szántás) a régi rendszerben"  />
+				<text id="i18" name="Elvégzett munkák száma (betakarítás) a régi rendszerben"  />
+				<text id="i19" name="Munkamegbízások száma (szántás) a régi rendszerben"  />
+				<text id="i2" name="Elköltött Farmdollár összesen:"  />
+				<text id="i20" name="Munkamegbízások száma (betakarítás) a régi rendszerben"  />
+				<text id="i21" name="Trágyázott parcellák, állatok és fák száma: megspórolt idő"  />
+				<text id="i22" name="Trágyázott parcellák, állatok és fák száma: varázspor"  />
+				<text id="i23" name="Betakarított gabonafajták"  />
+				<text id="i24" name="Betakarított gyümölcsök"  />
+				<text id="i25" name="Betakarított virágfajták"  />
+				<text id="i26" name="Különböző betakarított zöldségfajták"  />
+				<text id="i27" name="Különböző betakarított fafajták"  />
+				<text id="i28" name="Különböző betakarított állatok"  />
+				<text id="i29" name="Különböző betakarított egység összesen"  />
+				<text id="i3" name="Megvásárolt épületek száma"  />
+				<text id="i30" name="Mesterfokozatok szintje"  />
+				<text id="i31" name="Összes mesterfokozat"  />
+				<text id="i32" name="Megszerzett barátok"  />
+				<text id="i33" name="Megvásárolt fák száma"  />
+				<text id="i34" name="Betakarított prémium vetőmag"  />
+				<text id="i35" name="Különböző betakarított prémium vetőmagok száma"  />
+				<text id="i36" name="Megbízások száma: föld szántás"  />
+				<text id="i37" name="Megbízásaid során felszántott földek száma"  />
+				<text id="i38" name="Megbízások száma: föld, állatok, fák betakarítása"  />
+				<text id="i39" name="Megbízásaid során betakarított fák, állatok és föld száma"  />
+				<text id="i4" name="Megvásárolt dekorációk száma"  />
+				<text id="i5" name="Megvásárolt állatok száma"  />
+				<text id="i6" name="Összes betakarított magvak"  />
+				<text id="i7" name="Betakarított gyümölcsök összesen"  />
+				<text id="i8" name="Betakarított zöldségek összesen"  />
+				<text id="i9" name="Betakarított gabonák összesen"  />
+				<text id="next" name="Még #level# \na következő szintig."  />
+				<text id="t1" name="Pénzes Paraszt"  />
+				<text id="t10" name="Rózsás kedvű"  />
+				<text id="t11" name="Fából faragott Királyfi"  />
+				<text id="t12" name="Állatbarát"  />
+				<text id="t13" name="Ajándékra felhasznált chipek"  />
+				<text id="t14" name="Megkapott ajándékok"  />
+				<text id="t15" name="Segítőkész szomszédok"  />
+				<text id="t16" name="Elkészült fotók"  />
+				<text id="t17" name="Legendás Szántóvető"  />
+				<text id="t18" name="Betakarítónő"  />
+				<text id="t19" name="Szántóerő"  />
+				<text id="t2" name="Dollár Papa"  />
+				<text id="t20" name="Nagyon betakarító"  />
+				<text id="t21" name="Spórolós paraszt"  />
+				<text id="t22" name="Minő manó"  />
+				<text id="t23" name="Búzavarázsló"  />
+				<text id="t24" name="Gyümölcsöző kereskedő"  />
+				<text id="t25" name="Virágos kertész"  />
+				<text id="t26" name="Zöldségeket beszélő"  />
+				<text id="t27" name="Fafaló"  />
+				<text id="t28" name="Állati idomár"  />
+				<text id="t29" name="Sikeres szekeres"  />
+				<text id="t3" name="Fejlődő építész"  />
+				<text id="t30" name="Mesterfokozatok"  />
+				<text id="t31" name="Összes mesterfokozat"  />
+				<text id="t32" name="Hívogató jóbarát"  />
+				<text id="t33" name="Fanagykereskedő"  />
+				<text id="t34" name="Arany aratás"  />
+				<text id="t35" name="Felemelő fényesség"  />
+				<text id="t36" name="Szorgos Szántó"  />
+				<text id="t37" name="Szántó-Vető"  />
+				<text id="t38" name="Arany arató"  />
+				<text id="t39" name="Betakarítási hozam"  />
+				<text id="t4" name="Menő dekós"  />
+				<text id="t5" name="Állati vállalkozó"  />
+				<text id="t6" name="Magas magos"  />
+				<text id="t7" name="Gyümölcsöző gyümölcsözön"  />
+				<text id="t8" name="Zöldfülű"  />
+				<text id="t9" name="Gabona babona"  />
+				<text id="txt0" name="Kitüntetések"  />
+				<text id="txt1" name="Összes előrelépés"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Bocsi!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Letiltottak! A tiltás fennmaradó ideje: #time# perc.
+Ha a letiltással kapcsolatban kérdésed van, írj nekünk egy e-mailt: #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Fontos infó!!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Bocsi!"  />
+				<text id="txt1" name="Ezen a számítógépen már fut egy ablak egy #spielname#.nevű játékossal."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="FIGYELEM!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="A szerver kapcsolat #time# másodpercre megszakad!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Kiválasztás"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Véletlen"  />
+				<text id="txt1" name="Mentés"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Játékost jelenteni"  />
+				<text id="txt1" name="Valóban jelented a {0} játékost?"  />
+				<text id="txt2" name="igen"  />
+				<text id="txt3" name="nem"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Barátság visszaigazolás"  />
+				<text id="txt1" name="#name# szeretne veled barátkozni."  />
+				<text id="txt2" name="Elutasítani"  />
+				<text id="txt3" name="Elfogadni"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Barátság"  />
+				<text id="txt1" name="Kérdezd meg #name#-t, akar-e a barátod lenni."  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="Megkérdezem"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} a te {0} barátod. Ha ki kívánod törölni őt, le kell zárni a {0} barátságotokat."  />
+				<text id="txt0" name="Barát eltávolítása"  />
+				<text id="txt1" name="Biztosan el kívánod távolítani #name# barátodat a listádról?"  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="Elfogadni"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Tárgy törlése"  />
+				<text id="txt1" name="Valóban törölni akarod a #obj#-t?"  />
+				<text id="txt2" name="Nem"  />
+				<text id="txt3" name="Igen"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Tovább"  />
+				<text id="tTitle" name="Jutalom!"  />
+				<text id="txt0" name="E-mailen kaptál ajándékot."  />
+				<text id="txt1" name="Hozd el magadnak!"  />
+				<text id="txt2" name="Küldd el magadnak újra az e-mailt."  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Tovább"  />
+				<text id="tTitle" name="E-mail elküldve"  />
+				<text id="txt0" name="E-mailen kaptál éppen jutalmat."  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Tovább"  />
+				<text id="tTitle" name="Ajándék"  />
+				<text id="txt0" name="Jutalmat kaptál!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Bővítés"  />
+				<text id="txt1" name="Bővítsd ezt az épületet,
+hogy még több tárgyat 
+elhelyezhess benne."  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="Vásárlás"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Farm nagyítva!"  />
+				<text id="txt1" name="Gratulálok! A farmod még nagyobb lett."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Barátokkal megosztani"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Fotóalbum"  />
+				<text id="txt1" name="Mégse"  />
+				<text id="txt2" name="Törlés"  />
+				<text id="txt3" name="Mentés"  />
+				<text id="txt4" name="Írhatsz valamit erre a képre!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Regisztrálás"  />
+				<text id="txt1" name="Regisztrálnod kell magad, hogy lementhesd a játékodat. Különben elvesznek az adataid. A regisztráció teljesen ingyenes!"  />
+				<text id="txt2" name="Regisztrálás"  />
+				<text id="txt3" name="Kijelentkezés"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Kérés: betakarítás"  />
+				<text id="txt1" name="Szeretnél a #name#  farmomján segíteni a betakarításban?
+Minden alkalommal XP-t kapsz a munkádért."  />
+				<text id="txt2" name="Elutasítani"  />
+				<text id="txt3" name="Elfogadni"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Kérés: szántás"  />
+				<text id="txt1" name="#name#, szeretnél a farmomon segíteni a szántásban?
+Minden alkalommal Farmdollárt kapsz a munkádért."  />
+				<text id="txt2" name="Elutasítani"  />
+				<text id="txt3" name="Elfogadni"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Megbízás: betakarítás"  />
+				<text id="txt1" name="Kérdezd meg  #name#-t, hogy kíván-e a farmodon betakarítani. Ha valaki nálad dolgozik, több Farmdollárt kapsz."  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="Megkérdezem"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Megbízás: szántás"  />
+				<text id="txt1" name="Kérdezd meg  #name#-t, hogy kíván-e a farmodon szántani. Ha valaki nálad dolgozik, több XPt kapsz."  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="Megkérdezem"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Eltávolítás"  />
+				<text id="txt1" name="Vásárlás"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Elfoglalt helyek"  />
+				<text id="txt1" name="Bővítés"  />
+				<text id="txt2" name="Tároló"  />
+				<text id="txt3" name="Vissza"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Eltávolítás"  />
+				<text id="txt1" name="Betakarítani"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Elfoglalt helyek"  />
+				<text id="txt1" name="Bővítés"  />
+				<text id="txt2" name="Mindet betakarítani"  />
+				<text id="txt3" name="Mindent trágyázni: &#039;{0}&#039;"  />
+				<text id="txt4" name="Etetés: &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Új tárgyakhoz juthatsz hozzá a boltban"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Új termékek"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Felsőbb szint!"  />
+				<text id="txt1" name="Gratulálunk! Újabb szintet értél el."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Barátokkal megosztani"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Elfelejtett jelszó"  />
+				<text id="txt1" name="Add meg az e-mailcímedet, amelyen regisztrálod magad és kattints a 'Küldés' gombra. Hamarosan megküldjük a jelszavadat."  />
+				<text id="txt2" name="E-mail"  />
+				<text id="txt3" name="Mégse"  />
+				<text id="txt4" name="Küldés"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Kijelentkezés"  />
+				<text id="txt1" name="Elhagyod a farmot?"  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Hoppá!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Regisztrálás"  />
+				<text id="txt1" name="Kérünk, regisztrálj, hogy a farmodat megtarthasd."  />
+				<text id="txt2" name="Kijelentkezés"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Regisztrálás"  />
+				<text id="txt1" name="E-mail"  />
+				<text id="txt2" name="Jelszó"  />
+				<text id="txt3" name="ÁSZF-t elolvastam, elfogadom"  />
+				<text id="txt4" name="Mégse"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Játékos elkészítése"  />
+				<text id="txt1" name="Becenév"  />
+				<text id="txt2" name="nő"  />
+				<text id="txt3" name="férfi"  />
+				<text id="txt4" name="Mégse"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Játszhatsz"  />
+				<text id="txt1" name="Regisztrálás"  />
+				<text id="txt2" name="Belépés"  />
+				<text id="txt3" name="Név / e-mail"  />
+				<text id="txt4" name="Jelszó"  />
+				<text id="txt5" name="Elfelejtetted a jelszavadat?"  />
+				<text id="txt6" name="Adatok mentve"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Piactér"  />
+				<text id="txt1" name="ne mutassa többet"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Szia, #name#! Ez a #spielname# piactere. Itt tudsz más játékost a farmodon munkára fogni (szántás, betakarítás) vagy akár te is találhatsz magadnak munkát."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Jelszóváltoztatás"  />
+				<text id="txt1" name="Régi jelszó"  />
+				<text id="txt2" name="Új jelszó"  />
+				<text id="txt3" name="Új jelszó megismétlése"  />
+				<text id="txt4" name="Mégse"  />
+				<text id="txt5" name="Mentés"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Hoppá!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Regisztrálás"  />
+				<text id="txt3" name="Barát meghívása"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Beállítás"  />
+				<text id="txt1" name="Átlátszó fák"  />
+				<text id="txt10" name="magas"  />
+				<text id="txt11" name="közepes"  />
+				<text id="txt12" name="alacsony"  />
+				<text id="txt13" name="zoomolás"  />
+				<text id="txt14" name="Baráti meghívó ignorálása"  />
+				<text id="txt15" name="A ranglistán keresztül nem enged be játékost"  />
+				<text id="txt16" name="Tippek mutatása"  />
+				<text id="txt2" name="Átlátszó házak"  />
+				<text id="txt3" name="Átlátszó dekoráció"  />
+				<text id="txt4" name="'Gyors' megjelenítés"  />
+				<text id="txt5" name="Jelszóváltoztatás"  />
+				<text id="txt6" name="Mégse"  />
+				<text id="txt7" name="Mentés"  />
+				<text id="txt8" name="Animáció kikapcsolása"  />
+				<text id="txt9" name="Minőség"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="név/hely keresés"  />
+				<text id="txt0" name="Ranglista"  />
+				<text id="txt1" name="keres"  />
+				<text id="txt2" name="Hely"  />
+				<text id="txt3" name="Név"  />
+				<text id="txt4" name="Szint"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="ma"  />
+				<text id="zeitraum1" name="e héten"  />
+				<text id="zeitraum2" name="e hónapban"  />
+				<text id="zeitraum3" name="mindig"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Tárgy eladása"  />
+				<text id="txt1" name="Valóban el kívánod adni a  #obj# tárgyat #w1# Farmdollárért?"  />
+				<text id="txt2" name="Nem"  />
+				<text id="txt3" name="Igen"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Ez a frissítő trágya a tönkrement vetésedet hozza rendbe."  />
+				<text id="F30" name="Ezzel a trágyával a növények és fák növekedését 10%-kal gyorsíthatod meg."  />
+				<text id="F31" name="Ezzel a trágyával a növények és fák növekedését 50%-kal gyorsíthatod meg."  />
+				<text id="F40" name="Ezzel a trágyával az állataid növekedését 10%-kal gyorsíthatod meg."  />
+				<text id="F41" name="Ezzel a trágyával az állataid növekedését 50%-kal gyorsíthatod meg."  />
+				<text id="F50" name="A magok tapasztalatpontjait, a magok, fák és állatok hozamát 50%-kal növeli."  />
+				<text id="H00" name="A pajtában 15 tárgyat tárolhatsz."  />
+				<text id="H02" name="A fészerben 4 tárgyat tárolhatsz."  />
+				<text id="H10" name="A baromfiól lehetővé teszi, hogy egyszerre több baromfit is betakaríts."  />
+				<text id="H11" name="A disznóól lehetővé teszi, hogy egyszerre több disznót is betakaríts."  />
+				<text id="H12" name="A tehénistálló lehetővé teszi, hogy egyszerre több tehenet is betakaríts."  />
+				<text id="H13" name="A lóistálló lehetővé teszi, hogy egyszerre több lovat is betakaríts."  />
+				<text id="H40" name="Ez a siló 20% bónuszt ad minden trágya és eledel vásárlásakor."  />
+				<text id="N01" name="Jogosultság: egyszerre az összes fát leszedni"  />
+				<text id="N02" name="Jogosultság: egyszerre az összes állatot betakarítani"  />
+				<text id="R0x" name="Ez a feltöltő a jelenlegi energiádat {0}-al növeli."  />
+				<text id="S5x" name="A prémium vetőmag több Farmdollárt és XP-t hoz, mint a normál vetőmag, és nem megy tönkre!
+Csomagban vásárolhatod, és boltból elhozva a farmodon felhasználhatod."  />
+				<text id="V0x" name="Ez az üzemanyagtartály lehetővé teszi, hogy az üzemanyagkészletedet {0}x újra töltsd."  />
+				<text id="V10" name="A traktorral négy parcellát tudsz egyszerre felszántani"  />
+				<text id="V20" name="A vetőgéppel négy parcellát tudsz egyszerre bevetni."  />
+				<text id="V30" name="A kombájnnal négy parcellát tudsz egyszerre betakarítani."  />
+				<text id="V40" name="A trágyázóval négy parcellát tudsz egyszerre trágyázni."  />
+				<text id="V90" name="A benzintartály vásárlásakor 20%-kal többet tölthetsz"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Szint: #level#"  />
+				<text id="txtAnzahl" name="Darab:"  />
+				<text id="txtAnzahlVon" name="Összesen:"  />
+				<text id="txtBenutzen" name="Használom"  />
+				<text id="txtBuy" name="Vásárlás"  />
+				<text id="txtHarvestXP" name="Bevétel:"  />
+				<text id="txtPremium" name="Prémium"  />
+				<text id="txtSize" name="Csomagméret:"  />
+				<text id="txtVerbrauch" name="Keret"  />
+				<text id="txtWork" name="Dolgozni"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Ne mutasson tippeket"  />
+				<text id="shoptipp_0_title" name="Hoppá!"  />
+				<text id="shoptipp_1_text" name="Az akcióhoz túl kevés az üzemanyagod. Most rögtön tankolsz egyet?"  />
+				<text id="shoptipp_1_title" name="Üzemanyag feltöltés"  />
+				<text id="shoptipp_2_text" name="Az akcióhoz túl kevés a trágyád. Most rögtön vásárolsz?"  />
+				<text id="shoptipp_2_title" name="Trágya vásárlása"  />
+				<text id="shoptipp_3_text" name="Alig van helyed a farmodon. Most rögtön bővíted?"  />
+				<text id="shoptipp_3_title" name="Bővítsd a farmodat!"  />
+				<text id="shoptipp_4_text" name="Nincs energiád.
+Tudtad, hogy feltöltheted magad is az energiádat?"  />
+				<text id="shoptipp_4_title" name="Munkamániás"  />
+				<text id="shoptipp_5_text" name="Kevés prémium magod van. Szeretnél most vásárolni?"  />
+				<text id="shoptipp_5_title" name="Prémium mag vásárlás"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Bolt"  />
+				<text id="txtSilo" name="Siló"  />
+				<text id="txtWork" name="Dolgozni"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Munkát keresek."  />
+				<text id="txt1" name="Szeretnék szántani."  />
+				<text id="txt2" name="Szeretnék aratni!"  />
+				<text id="txt3" name="Ki szeretne szántani?"  />
+				<text id="txt4" name="Ki szeretne aratni?"  />
+				<text id="txt5" name="Szia!"  />
+				<text id="txt6" name="Köszi"  />
+				<text id="txt7" name="Igen"  />
+				<text id="txt8" name="Nem"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Barátokat meghívni"  />
+				<text id="txt1" name="Neved"  />
+				<text id="txt2" name="Barátod neve"  />
+				<text id="txt3" name="Barátod e-mailcíme"  />
+				<text id="txt4" name="Mégse"  />
+				<text id="txt5" name="Meghívom"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Némítás"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Forgó-dongó"  />
+				<text id="txt1" name="Játssz a forgó-dongón és nyerj remek ajándékokat!"  />
+				<text id="txt2" name="Forgass!"  />
+				<text id="txt3" name="Az első kör ingyenes!!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hurrá!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Következő szint #xp# XP elérésekor."  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farmdollár"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Barátok:"  />
+				<text id="txt4" name="Kitüntetések:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Játékos eltávolítása"  />
+				<text id="txt1" name="Biztosan el kívánod távolítani a farmodról #name# játékost?"  />
+				<text id="txt2" name="Mégse"  />
+				<text id="txt3" name="Elfogadni"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Végre beköszöntött a tavasz a Goodgame Farmernél! Ki ne hagyd az új épületeket, dekorációt, állatokat és fákat!"  />
+				<text id="teaser_11_info_1" name="Figyu!
+Bőgés és hápogás hallatszik a farmodról!
+Élvezd a Goodgame Farmer hangjait!"  />
+				<text id="teaser_11_title" name="Hangok!"  />
+				<text id="teaser_12_info_1" name="A piactéren a 10. szinttől chatelhetsz. Addig az előre elkészített mondatokat használhatod."  />
+				<text id="teaser_12_title" name="Piactér chatszabályai"  />
+				<text id="teaser_13_info_1" name="Még több segítség!
+Állatok, fák, dekorációk és épületek tömege vár rád!"  />
+				<text id="teaser_13_info_2" name="Tovább kitüntetések tömege vár rád!"  />
+				<text id="teaser_14_info_1" name="Szerezz be prémium vetőmagot!
+A prémium vetőmag több Farmdollárt és XP-t hoz, mint a normál vetőmag, és nem megy tönkre!"  />
+				<text id="teaser_14_info_2" name="Ezen kívül a magas szintű farmerekre új vetőmagok és két új kitüntetés vár."  />
+				<text id="teaser_14_title" name="Prémium vetőmag!"  />
+				<text id="teaser_17_info_1" name="A húsvéti ünnepekre a játékba fantasztikus épületek, dekorációk, állatok és vetőmagok kerültek!
+Kellemes tojáskeresést kívánunk!"  />
+				<text id="teaser_17_info_2" name="A megbízások rendszere megváltozott.
+Mostantól csak az elvégzett munkáidat vonjuk le a munkaengedélyeid számából. Így nem mész haza üres kézzel."  />
+				<text id="teaser_17_title" name="Kellemes Húsvéti Ünnepeket!"  />
+				<text id="teaser_18_info_1" name="Húzz bele! Hamarosan vége a húsvéti akciónak. Addig is 50% kedvezmény jár a szezonális termékekre!!"  />
+				<text id="teaser_18_title" name="Ragadd meg!"  />
+				<text id="teaser_19_info_1" name="Itt a nyári divat!
+Szerezz be egy csini új kalapot vagy a vicces húsvéti nyuszis fülbevalót!
+
+Ezenkívül megéri az új Farmer fórumba bekukkantani."  />
+				<text id="teaser_19_title" name="Kalapra fel!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer az első születésnapját ünnepli, csatlakozz hozzánk!
+Díszítsd a farmodat, vegyél fel egy vicces satyit és mindenképpen próbáld ki az új maffin-magokat.
+
+Siess, mert az ünnepség csak rövid ideig tart!"  />
+				<text id="teaser_20_title" name="Boldog szülinapot!"  />
+				<text id="teaser_21_info_1" name="Figyelem! A siker érdekében különleges csodapor kapható! 
+Ettől a fák, állatok és magok több tapasztalatot és termést hoznak neked!"  />
+				<text id="teaser_21_info_2" name="Az állataid éhesek!
+Etesd meg őket, hogy gyorsabban nőjjenek. A fáidra is ráférne a trágyázás!"  />
+				<text id="teaser_21_title" name="Állateledel stb"  />
+				<text id="teaser_23_info_1" name="A Goodgame Farmer a &quot;Best Social Game&quot; kitüntetést kapta a European Games Awardon."  />
+				<text id="teaser_23_info_2" name="Segíts, hogy megnyerjük a díjat és szavazz ránk!"  />
+				<text id="teaser_23_title" name="Szavazz ránk!"  />
+				<text id="teaser_24_info_1" name="Arr!
+A kalózok eljutottak a Goodgame Farmerhez!
+Szerezz egy vakmerő kalózkalapot, ültess új kincstermő magokat és tarts beszélő papagájt!"  />
+				<text id="teaser_24_title" name="Kalóz frissítés"  />
+				<text id="teaser_25_info_1" name="The latest update caused severe technical difficulties with the conversion of the fertilizer and the achievement rewards.
+
+In order to solve this issue we had to reset all accounts to the previous state.
+
+We are sorry about any inconveniences caused."  />
+				<text id="teaser_25_title" name="Reset"  />
+				<text id="teaser_5_info_1" name="Ijesztegesd a látogatóidat csodás Halloween dekorációval és hangulatos épületekkel!"  />
+				<text id="teaser_5_title" name="Új lehetőségek!"  />
+				<text id="teaser_6_info_1" name="Érdekel a véleményed! Mondd el nekünk mivel játszanál a jövőben."  />
+				<text id="teaser_6_title" name="Dönts!"  />
+				<text id="teaser_7_info_1" name="Végre itt a Karácsony! Semmiképpen ne hagyd ki az új házakat, dekorációkat és növényeket!"  />
+				<text id="teaser_7_info_2" name="Azért, hogy elég hely maradjon a Farmodon, itt egy új tároló! Egyszerűen tedd bele az eszközeidet egy pajtába vagy fészerbe."  />
+				<text id="teaser_7_title" name="Új termékek"  />
+				<text id="teaser_8_info_1" name="Íme még egy karácsonyi ajándék!
+Az új ranglistán összehasonlíthatod magad más játékossal.
+Légy te a legjobb köztük!"  />
+				<text id="teaser_8_title" name="Ranglista!"  />
+				<text id="teaser_9_info_1" name="Húzz bele!
+Egy hét és a karácsonyi akciónknak vége! Addig azonban akár 50%-os kedvezménnyel vásárolhatsz szezonális cikkeket!!"  />
+				<text id="teaser_9_title" name="Szerezd meg!"  />
+				<text id="teaser_btn_forum" name="Fórumhoz"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Bolt"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Elutasítani"  />
+				<text id="zAchievements" name="Kitüntetéseim"  />
+				<text id="zAn2" name="Elfogadni"  />
+				<text id="zBuddies" name="Az összes barátod"  />
+				<text id="zBuddiesNoAsk" name="Ez a játékos nem fogad baráti meghívásokat"  />
+				<text id="zBuddiesSub" name="Törölheted a játékost a barátságlistádról"  />
+				<text id="zBuy" name="Vásárlás"  />
+				<text id="zCancel" name="Ablak bezárása"  />
+				<text id="zChat" name="Csevegés"  />
+				<text id="zChatMute" name="Némára állítás"  />
+				<text id="zChatSenden" name="Üzenet elküldése"  />
+				<text id="zChatVorgaben" name="Előre megírt mondatok a chathez"  />
+				<text id="zCheckAGB" name="ÁSZF-t elolvastam, elfogadom"  />
+				<text id="zCheckAny" name="Állatanimáció kikapcsolása"  />
+				<text id="zCheckMen" name="Férfi játékfigura"  />
+				<text id="zCheckMerken" name="A nevet és a jelszót jegyezze meg a legközelebbi bejelentkezésnél?"  />
+				<text id="zCheckMute" name="Ezzel a játékossal nincs csevegés"  />
+				<text id="zCheckNoMoreShow" name="Ne jelenjen meg többet ez az ablak."  />
+				<text id="zCheckQuali" name="Csökkentsd a felbontás minőségét a számítógéped teljesítményének javítsához"  />
+				<text id="zCheckShowB" name="Fákat tedd átlátszóvá"  />
+				<text id="zCheckShowD" name="Dekorációt tedd átlátszóvá"  />
+				<text id="zCheckShowH" name="Házakat tedd átlátszóvá"  />
+				<text id="zCheckSound1" name="Effektek"  />
+				<text id="zCheckSound2" name="Zene"  />
+				<text id="zCheckWomen" name="Női játékfigura"  />
+				<text id="zChipsMore" name="Farmdollár/aranykészlet feltöltése"  />
+				<text id="zClose" name="Bezárás"  />
+				<text id="zClothes" name="Öltöztesd át a karakteredet"  />
+				<text id="zClothsBuy" name="Az aktuális avatart elfogadod?"  />
+				<text id="zClothsSelect" name="Válaszd ki"  />
+				<text id="zClothsZufall" name="A számítógép felajánl neked egy stílust"  />
+				<text id="zCookAdd" name="további naplózási adatok megadása"  />
+				<text id="zCookDel" name="a naplózási adatok törlése"  />
+				<text id="zDel" name="Eltávolítás"  />
+				<text id="zDown" name="Le"  />
+				<text id="zEarnChips" name="Több Farmdollárt kereshetsz"  />
+				<text id="zEarnGold" name="Még több aranyat kereshetsz"  />
+				<text id="zEinladen" name="Ha itt kívánsz vásárolni, még {0} barátot meg kell hívnod."  />
+				<text id="zEinladen2" name="Csupán {1} {0} barátod van."  />
+				<text id="zEmailVerificationWinker" name="Hozd el az ajándékod!"  />
+				<text id="zErweitern" name="Bővítsd"  />
+				<text id="zExchange" name="Aranyat farmdollárra váltani"  />
+				<text id="zExpHigherLevelNeeded" name="Nem érted még el a szükséges szintet."  />
+				<text id="zExpPreviousNeeded" name="Szükséges egy korábbi bővítés"  />
+				<text id="zFarmowner" name="A farm tulajdonosa"  />
+				<text id="zFertilize" name="Trágya"  />
+				<text id="zFlinkeHand" name="Gyorsabb munka"  />
+				<text id="zFoto" name="Fotó"  />
+				<text id="zFullscreen" name="Teljes képernyő"  />
+				<text id="zFunc" name="Tárgyak különleges feladatokkal"  />
+				<text id="zGiftsMy" name="Ajándékaim"  />
+				<text id="zHarvest" name="Takarítsd be"  />
+				<text id="zHarvestV3" name="Takarítsd be kombájnnal"  />
+				<text id="zHelp" name="Súgó"  />
+				<text id="zHome" name="A farmom"  />
+				<text id="zInfoEMail" name="Egy e-mailcím formája: aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Egy jelszó 5-15 karakteres lehet és benne:
+a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="Nyiss be"  />
+				<text id="zInvite" name="Hívd meg a barátaidat!"  />
+				<text id="zJ" name="Megteszem"  />
+				<text id="zJobben" name="Munkaenergia: 
+A betakarítás és szántás során egy másik farmon felhasználható.
+Amíg kevesebb mint {0} energiád van, percenként automatikusan regenerálódsz vagy a boltban feltöltheted."  />
+				<text id="zKatAC" name="Póló"  />
+				<text id="zKatAG" name="Alak"  />
+				<text id="zKatAH" name="Frizura"  />
+				<text id="zKatAK" name="Kalap"  />
+				<text id="zKatAP" name="Nadrág"  />
+				<text id="zKatAS" name="Cipő"  />
+				<text id="zKatAT" name="Bőrszín"  />
+				<text id="zKatB" name="Fák"  />
+				<text id="zKatD" name="Dekoráció"  />
+				<text id="zKatE" name="Farmbővítés"  />
+				<text id="zKatF" name="Trágya"  />
+				<text id="zKatG" name="Utak"  />
+				<text id="zKatH" name="Épületek"  />
+				<text id="zKatR" name="Munkaenergia"  />
+				<text id="zKatS" name="Magvak"  />
+				<text id="zKatT" name="Állatok"  />
+				<text id="zKatV" name="Járművek"  />
+				<text id="zKatX" name="Akció"  />
+				<text id="zKatY" name="Mind"  />
+				<text id="zKennLost" name="Kattints ide, ha elfelejtetted a jelszavadat"  />
+				<text id="zKennMod" name="Jelszóváltoztatás"  />
+				<text id="zKette" name="Munkalista"  />
+				<text id="zKetteDel" name="Munkalista törlése"  />
+				<text id="zKick" name="Ezt a játékost kirúghatod a farmodról"  />
+				<text id="zLinkAGB" name="Kattints ide, ha az ÁSZF-t el kívánod olvasni"  />
+				<text id="zLogin" name="A játékhoz"  />
+				<text id="zLogout" name="Kijelentkezés"  />
+				<text id="zLupeM" name="Kicsinyítés"  />
+				<text id="zLupeP" name="Nagyítás"  />
+				<text id="zMail" name="Üzenetek"  />
+				<text id="zMarket" name="Piactér"  />
+				<text id="zMeldBad" name="Játékost jelenteni?"  />
+				<text id="zMen" name="Férfi játékfigura"  />
+				<text id="zMoreChipsGold" name="Farmdollár és aranyvásárlás"  />
+				<text id="zMove" name="Mozgasd"  />
+				<text id="zN" name="Nem teszem meg"  />
+				<text id="zNext" name="Tovább"  />
+				<text id="zNoSilo" name="Először egy silót kell építened."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="A jelszókérelem elküldése"  />
+				<text id="zOKKennMod" name="Új jelszó mentése"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Multi Tool járművek"  />
+				<text id="zPlow" name="Szánts"  />
+				<text id="zPlowNew" name="Új parcella"  />
+				<text id="zPlowV1" name="Szánts traktorral"  />
+				<text id="zPrefs" name="Beállítás"  />
+				<text id="zPremium" name="Vásárold meg ezt a csomagot"  />
+				<text id="zPremiumUse" name="Ezt a prémium vetőmagot a farmon felhasználod"  />
+				<text id="zPrev" name="Vissza"  />
+				<text id="zQuest" name="Feladatok"  />
+				<text id="zRangliste" name="Ranglista"  />
+				<text id="zRanking2Farm" name="Ez a játékos nem engedélyezik a Farmájának látogatását a ranglistán keresztül."  />
+				<text id="zRegistrieren" name="Jelentkezz be, hogy a játék adatait elmenthesd"  />
+				<text id="zRot" name="Forgasd"  />
+				<text id="zSave" name="Mentés"  />
+				<text id="zScrBG" name="Legördülő lista"  />
+				<text id="zScrMove" name="Mozgasd a húzókát"  />
+				<text id="zSell" name="Add el"  />
+				<text id="zShare" name="Ajánld egy barátodnak!"  />
+				<text id="zShop" name="Bolt"  />
+				<text id="zShopEarn" name="Eladás:"  />
+				<text id="zShopHarvest" name="Bevétel:"  />
+				<text id="zShopLagerSize" name="Hely:"  />
+				<text id="zShopTime" name="Kész:"  />
+				<text id="zShopXP" name="Kapható XP:"  />
+				<text id="zSilo" name="Siló (trágya)"  />
+				<text id="zSofort" name="Játssz - regisztrálás nélkül"  />
+				<text id="zSound" name="Hangok"  />
+				<text id="zSow" name="Vess magot"  />
+				<text id="zSowV2" name="Vetőgéppel vess"  />
+				<text id="zStrangeAchies" name="A játékos kitüntetései"  />
+				<text id="zStrangeAdd" name="Barátkozhatsz ezzel a játékossal"  />
+				<text id="zStrangeFotos" name="A játékos fotóalbuma"  />
+				<text id="zStrangeGift" name="Küldj ajándékot ennek a játékosnak"  />
+				<text id="zStrangeHarvest" name="Beállhatsz ehhez a játékoshoz betakarítani"  />
+				<text id="zStrangeHome" name="Meglátogathatod a farmját"  />
+				<text id="zStrangeInfo" name="Infó erről a játékosról"  />
+				<text id="zStrangeMail" name="Írj üzenetet ennek a játékosnak"  />
+				<text id="zStrangePlow" name="Beállhatsz ehhez a játékoshoz szántani"  />
+				<text id="zSubAsk" name="Kérdések és válaszok"  />
+				<text id="zSubFotobuch" name="Fotóalbum"  />
+				<text id="zSubMailInbox" name="Üzenetek olvasása"  />
+				<text id="zSubMailNew" name="Üzenetek szerkesztése"  />
+				<text id="zSubNews" name="Újdonságok"  />
+				<text id="zSubShot1" name="Fotózd le a teljes farmod"  />
+				<text id="zSubShot2" name="Fotózáshoz húzz egy célkeretet"  />
+				<text id="zSubShot3" name="A fotózáshoz kattints egy tárgyra"  />
+				<text id="zSubSupport" name="Support"  />
+				<text id="zTanken" name="Tankolás: 
+Kattints rá, hogy feltölthesd 
+Kijelzés: 
+Feltöltések és 
+tankkijelzések száma 
+(max: {0})"  />
+				<text id="zTosOpen" name="Tárold"  />
+				<text id="zTosStall" name="Ezt az állatot az istállóba viszem"  />
+				<text id="zUp" name="Fel"  />
+				<text id="zUse" name="Használd"  />
+				<text id="zUsersOnFarm" name="Az összes játékos a farmon ill. a piactéren"  />
+				<text id="zVZBuddies" name="A szükséges meghívott barátra száma: {0}"  />
+				<text id="zVZBuddiesE" name="Ha elég barátot hívtál meg sikeresen, 
+akkor ezt a tárgyat olcsóbban is megvásárolhatod."  />
+				<text id="zWomen" name="Női játékfigura"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Üdv a saját farmodon!
+
+Hadd segítsünk a kezdésnél és együtt a csodálatosan felvirágoztatjuk."  />
+				<text id="tut_gast_1_title" name="Szia, barátom!"  />
+				<text id="tut_gast_2_text" name="Nézd csak, az epred kész!
+Gyorsan takarítsd be."  />
+				<text id="tut_gast_2_title" name="Kattintással takarítsd be a magokat."  />
+				<text id="tut_gast_3_text" name="Ha betakarítasz,
+kapsz Farmdollárt és
+tapasztalati pontot."  />
+				<text id="tut_gast_3_title" name="A betakarításért Farmdollár és XP jár!"  />
+				<text id="tut_gast_4_text" name="Fel kell szántanod a földedet, ha vetni kívánsz."  />
+				<text id="tut_gast_4_title" name="Kattintással szántsd fel a földet"  />
+				<text id="tut_gast_5_text" name="Válaszd ki a magokat a boltban."  />
+				<text id="tut_gast_5_title" name="A boltban új magot vásárolhatsz"  />
+				<text id="tut_gast_6_text" name="Vásároljunk búzát!"  />
+				<text id="tut_gast_6_title" name="Vásárolj búzát"  />
+				<text id="tut_gast_7_text" name="Kattints a földre és vesd el a magokat!"  />
+				<text id="tut_gast_7_title" name="Szórd el a magokat a földeden"  />
+				<text id="tut_gast_8_text" name="Nagyon jól megy ez neked!
+Hamarosan a te farmod lesz a legszebb!
+
+Még egy kicsit ültethetnél!"  />
+				<text id="tut_gast_8_title" name="Hurrá! Megnőtt a farmod!"  />
+				<text id="tut_market_1_text" name="Túl sok idő kell a növényeidnek?
+Menj addig a piactérre és dolgozz a többi játékosnál."  />
+				<text id="tut_market_1_title" name="Mehetsz dolgozni!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farmdollár:"  />
+				<text id="txt1" name="Arany:"  />
+				<text id="txt2" name="Kész:"  />
+				<text id="txt3" name="Barát:"  />
+				<text id="txt4" name="Kitüntetések:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Még több barát"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="{0}. nap"  />
+				<text id="txt0" name="Üdvözlünk!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Mindennap kapsz üdvözlő bónuszt."  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="A regisztrálásodért cserébe kapsz #w1# Farmdollárt."  />
+				<text id="21" name="Napi bónuszként kapsz #w1# Farmdollárt."  />
+				<text id="2f" name="Ezért jár: #anz# #ferti#."  />
+				<text id="2job" name="Ezért jár: #job# munkaenergia."  />
+				<text id="2w1" name="Ezért #w1# Farmdollárt kapsz."  />
+				<text id="2w2" name="Ezért #w2# aranyat kapsz."  />
+				<text id="2x" name="Már #days# napon keresztül naponta bejelentkezel."  />
+				<text id="2xp" name="Ezért #xp# XP-t kapsz."  />
+				<text id="freunde" name="Mivel nagyon aktív vagy a baráti meghívások tekintetében, ezért jár: #w1# Farmdollár."  />
+				<text id="txt0" name="Üdvözlünk!"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Hiba"  />
+				<text id="generic_alert_connection_failed_copy" name="Jelenleg karbantartás folyik. Kérünk, később próbálkozz újra!"  />
+				<text id="generic_alert_connection_failed_title" name="Karbantartás"  />
+				<text id="generic_alert_connection_lost_copy" name="A játékszerverrel megszakadt a kapcsolat. Kérünk, próbálkozz újra!"  />
+				<text id="generic_alert_connection_lost_description" name="Jelenleg karbantartás folyik. Néha ezt is el kell végezni, sajnso.
+Ilyenkor frissítések és új lehetőségek kerülnek a játékba.&lt;br&gt;&lt;br&gt;
+Belehúzunk, hogy mielőbb játszhass!"  />
+				<text id="generic_alert_connection_lost_promo" name="Addig próbálj ki egy másik játékunkat!"  />
+				<text id="generic_alert_connection_lost_thanks" name="Köszönjük, hogy megérted!"  />
+				<text id="generic_alert_connection_lost_title" name="Elveszett a kapcsolat"  />
+				<text id="generic_alert_error" name="Hiba"  />
+				<text id="generic_alert_information" name="Megjegyzés"  />
+				<text id="generic_alert_loggedout_copy" name="Sikeresen kijelentkeztél. Ne felejtsd: mindennap vár rád üdvözlő bónusz"  />
+				<text id="generic_alert_loggedout_title" name="Viszlát!"  />
+				<text id="generic_alert_warning" name="Figyelmeztetés!"  />
+				<text id="generic_alert_watchout" name="Figyelem!"  />
+				<text id="generic_alert_win7chromebug" name="Ha nem lehetséges a szövegbevitel, nyomd a Ctrl billentyűt."  />
+				<text id="generic_invalid_email_provider" name="A kiszolgáló e-mail címe nem engedélyezett!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Az internet kapcsolatod éppen elég lassúnak tűnik. Próbáld újra később!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Tetszik a játék, vagy lehetne valamit javítani rajta? Írd meg a véleményedet a Goodgame fórumra vagy a csapatnak!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Figyelem! A játékodat akkor mentheted csak, ha regisztrálsz!"  />
+				<text id="generic_register_error_invalidemail" name="A megadott e-mail cím nem helyes."  />
+				<text id="generic_report_muted_chattry" name="A felfüggesztésed miatt jelenleg nem cseveghetsz."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Elfogad"  />
+				<text id="generic_btn_cancel" name="Mégse"  />
+				<text id="generic_btn_close" name="Bezárás"  />
+				<text id="generic_btn_continue" name="Tovább"  />
+				<text id="generic_btn_end" name="Befejezés"  />
+				<text id="generic_btn_endnow" name="Azonnal befejezés"  />
+				<text id="generic_btn_goback" name="Vissza"  />
+				<text id="generic_btn_no" name="Nem"  />
+				<text id="generic_btn_noshare" name="Mégse!"  />
+				<text id="generic_btn_notaccept" name="Elutasít"  />
+				<text id="generic_btn_okay" name="Rendben"  />
+				<text id="generic_btn_reconnect" name="Újra kapcsolódás"  />
+				<text id="generic_btn_refresh" name="Aktualizálni"  />
+				<text id="generic_btn_report" name="Jelentés"  />
+				<text id="generic_btn_search" name="Keresés"  />
+				<text id="generic_btn_share" name="Megosztás!"  />
+				<text id="generic_btn_skip" name="Átugrás"  />
+				<text id="generic_btn_start" name="Kezdés"  />
+				<text id="generic_btn_topayment" name="Ide vele!"  />
+				<text id="generic_btn_yes" name="Igen"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="A chathez el kell érned a {0}. szintet!"  />
+				<text id="generic_chat_writeable" name="Csak a regisztrált első szintű játékosok használhatják a csevegést."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Ne felejtsd!
+A fórumon egy szuper {0} nyereményjátékot találsz!
+Nézz el arra és vegyél részt rajta!"  />
+				<text id="cm_teaser2_copy" name="Ne felejtsd!
+A fórumon jelenleg egy szuper {0} akció fut!
+Biztosan nem akarsz lemaradni róla, szóval, nézz el arra gyorsan."  />
+				<text id="cm_teaser3_copy" name="Jelenleg a {0}-Facebook oldalon szuper akció fut!
+Mindenképpen nézd meg!"  />
+				<text id="cm_teaser4_copy" name="Technikai problémák miatt jelenleg egy időre ({0}) korlátozott játék valószínű.
+Nézz el a fórumra, hogy megtudd a részleteket."  />
+				<text id="cm_teaser5_copy" name="Kérünk, ne felejtsd: Egy igazis Goodgame Studios kolléga sosem kérdezi meg a jelszavadat! Az adataidat gondosan őrizd és sose add tovább!
+
+Jó szórakozást a {0} játékkal!"  />
+				<text id="cm_teaser6_copy" name="A {0} játék fejlesztése úton van!
+Az újdonságokról, további infókról és az esetleges hibákról - mint mindig - a fórumban tájékozódhatsz!"  />
+				<text id="cm_teaser7_copy" name="Pár percen belül a {0}-szervert újra kell indítanunk. További infót a fórumon találsz."  />
+				<text id="cm_teaser8_copy" name="Sajnos a {0}-szervert egy sürgős karbantartás miatt újra kell indítanunk. További infót a fórumon találsz."  />
+				<text id="cm_teaserevent_title" name="{0}, figyelj:"  />
+				<text id="cm_teaserinfo_title" name="Szia, {0}!"  />
+				<text id="cm_teaserwarning_title" name="Figyelem!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Animáció mutatása"  />
+				<text id="generic_bugreport" name="Jelents hibát"  />
+				<text id="generic_changePass" name="Jelszó változtatása"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Hamarosan*"  />
+				<text id="generic_date" name="Dátum"  />
+				<text id="generic_day" name="nap"  />
+				<text id="generic_dayformat" name="{2}.{1}.{0}."  />
+				<text id="generic_dayformat_short" name="{0}.{1}."  />
+				<text id="generic_days" name="nap"  />
+				<text id="generic_day_short" name="N"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Kérdések és válaszok"  />
+				<text id="generic_forum" name="Fórum"  />
+				<text id="generic_friend" name="Barát"  />
+				<text id="generic_friends" name="Barát"  />
+				<text id="generic_general" name="Általános"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Csoport"  />
+				<text id="generic_guest" name="Vendég"  />
+				<text id="generic_help" name="Súgó"  />
+				<text id="generic_high" name="Magas"  />
+				<text id="generic_hour" name="óra"  />
+				<text id="generic_hours" name="óra"  />
+				<text id="generic_hour_short" name="óra"  />
+				<text id="generic_limited" name="Határolt"  />
+				<text id="generic_logout" name="Kijelentkezés"  />
+				<text id="generic_low" name="Gyenge"  />
+				<text id="generic_medium" name="Közepes"  />
+				<text id="generic_minute" name="perc"  />
+				<text id="generic_minutes" name="perc"  />
+				<text id="generic_minute_short" name="perc"  />
+				<text id="generic_moderator" name="Moderator"  />
+				<text id="generic_month" name="hónap"  />
+				<text id="generic_months" name="hónap"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Zene be/ki"  />
+				<text id="generic_name" name="Név"  />
+				<text id="generic_news" name="Újdonságok"  />
+				<text id="generic_options" name="Beállítások"  />
+				<text id="generic_quality" name="Minőség"  />
+				<text id="generic_register" name="Ments és regisztrálj"  />
+				<text id="generic_second" name="másodperc"  />
+				<text id="generic_seconds" name="másodperc"  />
+				<text id="generic_second_short" name="mp."  />
+				<text id="generic_sound" name="Hang be/ki"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="ma"  />
+				<text id="generic_tomorrow" name="holnap"  />
+				<text id="generic_tutorial" name="Ismertető"  />
+				<text id="generic_username" name="Játékosnév"  />
+				<text id="generic_validTo_timer" name="Még {0} óra {1} percig aktív"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="tegnap"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Régi verzió!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Frissítsd az oldalt!"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Szeretnéd, hogy {0} a barátod legyen?"  />
+				<text id="generic_friends_add_title" name="Barátkozás"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Több barát!"  />
+				<text id="generic_friends_denied_copy" name="{0} sajnos elutasította a felkérésedet."  />
+				<text id="generic_friends_denied_title" name="Felkérés elutasítva!"  />
+				<text id="generic_friends_invite_badword_copy" name="A megadott név nem megengedett!"  />
+				<text id="generic_friends_invite_badword_title" name="Figyelem!"  />
+				<text id="generic_friends_invite_error_copy" name="Csak regisztrált játékosként hívhatsz meg új barátokat."  />
+				<text id="generic_friends_invite_error_title" name="Először regisztrálj"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="A teljes képernyő nem lehetséges"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="cseh"  />
+				<text id="generic_language_cz" name="cseh"  />
+				<text id="generic_language_da" name="dán"  />
+				<text id="generic_language_de" name="német"  />
+				<text id="generic_language_el" name="görög"  />
+				<text id="generic_language_en" name="angol"  />
+				<text id="generic_language_es" name="spanyol"  />
+				<text id="generic_language_fi" name="finn"  />
+				<text id="generic_language_fr" name="francia"  />
+				<text id="generic_language_hu" name="magyar"  />
+				<text id="generic_language_id" name="indonéz"  />
+				<text id="generic_language_it" name="olasz"  />
+				<text id="generic_language_ja" name="japán"  />
+				<text id="generic_language_ko" name="koreai"  />
+				<text id="generic_language_nl" name="holland"  />
+				<text id="generic_language_no" name="norvég"  />
+				<text id="generic_language_pl" name="lengyel"  />
+				<text id="generic_language_pt" name="portugál"  />
+				<text id="generic_language_pt_BR" name="brazil"  />
+				<text id="generic_language_ru" name="orosz"  />
+				<text id="generic_language_sv" name="svéd"  />
+				<text id="generic_language_tr" name="török"  />
+				<text id="generic_language_zh_CN" name="kínai (egyszerű)"  />
+				<text id="generic_language_zh_TW" name="Kínai (tradicionális)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="A számládat zároltuk. Fordulj a Supporthoz!"  />
+				<text id="generic_login_banned_2" name="A számládat zároltuk!
+
+A zárolás tart: {0}
+
+Ha a zárolással kapcsolatban kérdésed lenne, fordulj a supporthoz."  />
+				<text id="generic_login_banned_3" name="A számládat lezártuk.
+
+Ha a zárolással kapcsolatban kérdésed lenne, fordulj a supporthoz."  />
+				<text id="generic_login_banned_permanent" name="véglegesen"  />
+				<text id="generic_login_facebook" name="Facebookon keresztül bejelentkezni"  />
+				<text id="generic_login_login" name="BELÉPÉS"  />
+				<text id="generic_login_loginname" name="Felhasználó név/E-mail"  />
+				<text id="generic_login_lostpassword" name="Elfelejtetted a jelszavadat?"  />
+				<text id="generic_login_lostpassword_copy" name="Add meg az e-mailcímedet és elküldjük a jelszavadat."  />
+				<text id="generic_login_lostpassword_title" name="Elfelejtett jelszó"  />
+				<text id="generic_login_newplayer" name="Új vagy?"  />
+				<text id="generic_login_password" name="Jelszó"  />
+				<text id="generic_login_play" name="JÁTSZHATSZ"  />
+				<text id="generic_login_playnow" name="Játssz most!"  />
+				<text id="generic_login_register" name="Regisztrálás"  />
+				<text id="generic_login_rememberpassword" name="Jelszómentés"  />
+				<text id="generic_login_wronglogin" name="Hibás felhasználónév vagy jelszó!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Regisztrálj a játékod mentéséhez"  />
+				<text id="generic_logout_guest_title" name="Regisztrálás"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Legkésőbb {0} belül a játék ismét elérhetővé válik."  />
+				<text id="servershutdownpremonition_copy" name="A játékszervert {0} lezárjuk. Jelentkezz ki vagy regisztrálj, hogy elmentsd a játékodat."  />
+				<text id="servershutdownpremonition_registered_copy" name="A játékszervert {0} időre karbantartás miatt leállítjuk."  />
+				<text id="servershutdown_copy" name="A játékszervert lezárjuk. Pár perc múlva újra bejelentkezhetsz."  />
+				<text id="welcomeback_copy" name="Öröm újra látni! Emitt egy kis apróság, hogy megkönnyítsük az újrakezdést."  />
+				<text id="welcomeback_title" name="Újra itt!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Új jelszó:"  />
+				<text id="generic_change_password_copy_oldpass" name="Régi jelszó:"  />
+				<text id="generic_change_password_copy_send" name="Az új jelszavadat e-mailben elküldtük."  />
+				<text id="generic_change_password_error_failed" name="Sajnos, ez nem a régi jelszavad."  />
+				<text id="generic_change_password_error_success" name="A jelszavadat sikeresen megváltoztattad."  />
+				<text id="generic_change_password_faild_copy" name="Az új jelszó legyen 2 karakternél hosszabb és a régi jelszót helyesen kell megadni!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="A jelszavad nem maradhat üresen és nem tartalmazhat különleges karaktereket."  />
+				<text id="generic_change_password_faild_title" name="Jelszó megadása"  />
+				<text id="generic_change_password_title" name="Jelszóváltoztatás"  />
+				<text id="generic_guest_change_password_faild_copy" name="Csak regisztrált játékosként változtathatod a jelszavadat."  />
+				<text id="generic_guest_change_password_faild_title" name="Először regisztrálj"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Most plussz {0}!"  />
+				<text id="generic_payment_48hdiscount_button" name="Az első 48 órában még több aranyhoz juthatsz."  />
+				<text id="generic_payment_48hdiscount_button_general" name="Több {0} az első 48 órában!"  />
+				<text id="generic_payment_48hdiscount_copy" name="Az első 48 órában vásárolj aranyat és a kiválasztott csomag után {0}% extra jár!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Az első 48 órában vásárolj aranyat és minden csomag után {0}% extra jár!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Az első 48 órában vegyél {0}t és minden csomag után {1}%t kapsz hozzá!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Az első 48 órában vegyél {0}t és a kiválasztott csomagokra {1}%t kapsz hozzá!"  />
+				<text id="generic_payment_btn" name="Boltba"  />
+				<text id="generic_payment_copy" name="Továbblépsz a Paymentshopra (fizetési hely)."  />
+				<text id="generic_payment_discount_button" name="{0}%-kal több aranyat kapsz most a pénzedért!"  />
+				<text id="generic_payment_discount_copy" name="Vásárolj most aranyat és {0}% bónuszt kapsz!"  />
+				<text id="generic_payment_discount_copy_general" name="Most vásárolj {0} és kapsz {1}% bónuszt!"  />
+				<text id="generic_payment_discount_general" name="{0}%-kal több {1}t kapsz most a pénzedért!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}%-kal több a pénzedért!"  />
+				<text id="generic_payment_discount_time" name="{0} MÉG!"  />
+				<text id="generic_payment_discount_title" name="Most plussz arany!"  />
+				<text id="generic_payment_newPrices" name="Azonnal! Csökkentett árak a Payment-Shopban! Valódi pénzt spórolhatsz!"  />
+				<text id="generic_payment_title" name="Befizetés"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Alagút keresése a cyberspace-en"  />
+				<text id="loading_text_10" name="Ossz szét tárgyakat a világba"  />
+				<text id="loading_text_11" name="Grafika rajzolása"  />
+				<text id="loading_text_12" name="A gombok szinezése"  />
+				<text id="loading_text_13" name="Húsvéti tojás elrejtése"  />
+				<text id="loading_text_14" name="Felhasználó adatainak keresése"  />
+				<text id="loading_text_15" name="Csapd le a legyet"  />
+				<text id="loading_text_16" name="Etesd meg a programozót"  />
+				<text id="loading_text_17" name="Gyűröm az ipart"  />
+				<text id="loading_text_18" name="Forgasd a homokórát"  />
+				<text id="loading_text_19" name="A rendszer hűtése"  />
+				<text id="loading_text_2" name="A fogaskerekek olajozása"  />
+				<text id="loading_text_20" name="Mindjárt kész"  />
+				<text id="loading_text_3" name="Forgasd a mókuskereket"  />
+				<text id="loading_text_4" name="A szerver felmelegítése"  />
+				<text id="loading_text_5" name="Remélem, minden rendben"  />
+				<text id="loading_text_6" name="Szerezz egy féregirtót"  />
+				<text id="loading_text_7" name="Komplikált algoritmus kiszámolása"  />
+				<text id="loading_text_8" name="Fluxkompenzátor kalibrálása"  />
+				<text id="loading_text_9" name="Kézműves tárgyak"  />
+				<text id="loading_text_default" name="Inicializálás"  />
+				<text id="loading_text_itemXML" name="A játékelemek töltése..."  />
+				<text id="progress_loadfiles" name="A játékgrafika töltése..."  />
+				<text id="progress_serverconnection" name="A játékszerverrel összekötve..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="E-mailcím megadása"  />
+				<field id="generic_register_insertName" name="Név megadása"  />
+				<field id="generic_register_insertPassword" name="Jelszó megadása"  />
+				<text id="generic_register_agb_copy" name="Az ÁSZF nélkül nem megy. Csak olvasd el, a baloldalon pipáld ki az ÁSZF elfogadását és kész!"  />
+				<text id="generic_register_agb_read" name="ÁSZF olvasása"  />
+				<text id="generic_register_alreadyavatar" name="A felhasználónak már van avatarja."  />
+				<text id="generic_register_badword" name="{0}t nem használhatod a nevedben."  />
+				<text id="generic_register_btn_agb" name="ÁSZF elfogadva"  />
+				<text id="generic_register_btn_later" name="Később"  />
+				<text id="generic_register_btn_next" name="Tovább"  />
+				<text id="generic_register_btn_save" name="Mentés"  />
+				<text id="generic_register_character" name="Készítsd el a karakteredet!"  />
+				<text id="generic_register_copy_0" name="Regisztrálj ingyen!"  />
+				<text id="generic_register_copy_1" name="A játékodat mentsd le."  />
+				<text id="generic_register_emaillong_copy" name="Az e-mail címed sajnos túl hosszú."  />
+				<text id="generic_register_emailwrong_copy" name="A megadott e-mail cím nem helyes."  />
+				<text id="generic_register_email_copy" name="Az e-mailcím nem lehet üres, és nem tartalmazhat speciális karaktereket."  />
+				<text id="generic_register_error" name="A regisztráció nem sikerült."  />
+				<text id="generic_register_errormistake" name="Hiba"  />
+				<text id="generic_register_error_accountalreadyexists" name="Ezzel az e-mail címmel már egy játékos bejelentkezett, sajnos."  />
+				<text id="generic_register_forfree" name="Ingyenesen jelentkezhetsz!"  />
+				<text id="generic_register_forfree1" name="Ingyenes!"  />
+				<text id="generic_register_letsgo" name="Mehet!"  />
+				<text id="generic_register_namealreadyused" name="A név már foglalt."  />
+				<text id="generic_register_namenotvalid" name="A megadott név érvénytelen."  />
+				<text id="generic_register_optional" name="(választható)"  />
+				<text id="generic_register_passwordshort_copy" name="A megadott jelszó túl rövid. Legalább 4 karakterből kell állnia."  />
+				<text id="generic_register_passwordwrong_copy" name="A megadott jelszó nem helyes."  />
+				<text id="generic_register_password_copy" name="A jelszavad nem lehet üres és nem tartalmazhat speciális karaktereket."  />
+				<text id="generic_register_receivenews" name="Hírek fogadása"  />
+				<text id="generic_register_rememberdata" name="Adatok megjegyzése"  />
+				<text id="generic_register_reward" name="Az ingyenes bejelentkezéskor kapsz {0} {1} ajándékba!"  />
+				<text id="generic_register_subscribe" name="Bejelentkezés"  />
+				<text id="generic_register_success" name="Sikeresen regisztráltál!"  />
+				<text id="generic_register_title" name="Regisztrációs hiba"  />
+				<text id="generic_register_unlock" name="A funkció engedélyezése."  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Figyelj a szádra, különben felfüggeszthetünk a csevegésből vagy átmenetileg az egész játékból. 
+Ok: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="A többszöri helytelen viselkedésednek köszönhetően a következő {0} alatt nem cseveghetsz. Ok: {1}"  />
+				<text id="generic_report_muted_domain1" name="Internetcím a csevegésben nem megengedett!"  />
+				<text id="generic_report_muted_reported_copy" name="Több játékos panaszkodott rád. Ezért a következő {0} alatt nem cseveghetsz. Ok: {1}"  />
+				<text id="generic_report_player_copy" name="Biztosan jelented {0} játékost?\nFigyelem! A funkció ok nélküli használata az adatok lezárását vonhatja maga után."  />
+				<text id="generic_report_player_reason_0" name="Sértegetés"  />
+				<text id="generic_report_player_reason_1" name="Szexuális zaklatás"  />
+				<text id="generic_report_player_reason_2" name="Rassziszta megjegyzés"  />
+				<text id="generic_report_player_reason_3" name="Fenyegetés/Erőltetés"  />
+				<text id="generic_report_player_reason_title" name="A jelentés oka:"  />
+				<text id="generic_report_player_title" name="Játékost jelenteni?"  />
+				<text id="generic_report_reported_copy" name="Egyik játékos jelentett téged az Administratornak.
+Ok: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Kapcsolódás"  />
+				<text id="generic_select_world" name="Válassz egy világot:"  />
+				<text id="generic_world" name="Világ: {0}"  />
+				<text id="generic_world_international" name="nemzetközi: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<network>
+  <instances>
+    <instance value="1">
+      <server>95.211.105.97</server>
+      <port>443</port>
+      <zone>FarmEx</zone>
+      <defaultlanguage>default</defaultlanguage>
+    </instance>
+  </instances>
+  <general>
+    <defaultinstance>1</defaultinstance>
+    <allowedfullscreen>true</allowedfullscreen>
+    <networkname>Web</networkname>
+    <usekeybaselogin>false</usekeybaselogin>
+    <networkbuddies>false</networkbuddies>
+    <enablefeedmessages>false</enablefeedmessages>
+    <enablelonelycow>false</enablelonelycow>
+    <requestpaybyjs>false</requestpaybyjs>
+    <earncredits>1</earncredits>
+    <useexternallinks>true</useexternallinks>
+    <invitefriends>false</invitefriends>
+    <maxusernamelength>15</maxusernamelength>
+    <usepayment>true</usepayment>
+    <showversion>true</showversion>
+    <networknewsbyjs>false</networknewsbyjs>
+  </general>
+  <testserver/>
+</network>

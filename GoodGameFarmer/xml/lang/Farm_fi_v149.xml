@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - fi - 17 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Kerää munat"  />
+			<text id="T01" name="Kerää munat"  />
+			<text id="T02" name="Kerää munat"  />
+			<text id="T03" name="Kerää munat"  />
+			<text id="T04" name="anna kiekua"  />
+			<text id="T05" name="Kerää munat"  />
+			<text id="T06" name="Kerää munat"  />
+			<text id="T07" name="silitä"  />
+			<text id="T10" name="Kerää tryffelit"  />
+			<text id="T11" name="lypsä"  />
+			<text id="T110" name="lypsä"  />
+			<text id="T111" name="harjaa"  />
+			<text id="T112" name="harjaa"  />
+			<text id="T113" name="lypsä"  />
+			<text id="T114" name="keri"  />
+			<text id="T115" name="harjaa"  />
+			<text id="T12" name="keri"  />
+			<text id="T13" name="lypsä"  />
+			<text id="T14" name="harjaa"  />
+			<text id="T15" name="harjaa"  />
+			<text id="T16" name="harjaa"  />
+			<text id="T17" name="harjaa"  />
+			<text id="T18" name="harjaa"  />
+			<text id="T19" name="keri"  />
+			<text id="T20" name="harjaa"  />
+			<text id="T21" name="harjaa"  />
+			<text id="T22" name="harjaa"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D34"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{1}{2}{0}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="tuhat"  />
+				<text id="s1" name="milj."  />
+				<text id="s2" name="mrd."  />
+				<text id="s3" name="kvadtrj."  />
+				<text id="s4" name="trj."  />
+				<text id="s5" name="kvintlj."  />
+				<text id="s6" name="sekstlj."  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="pv"  />
+				<text id="day1" name="päivä"  />
+				<text id="day2" name="päivää"  />
+				<text id="heute" name="tänään"  />
+				<text id="hour0" name="h"  />
+				<text id="hour1" name="Tunti"  />
+				<text id="hour2" name="Tuntia"  />
+				<text id="min0" name="Min"  />
+				<text id="min1" name="Minuutti"  />
+				<text id="min2" name="Minuuttia"  />
+				<text id="morgen" name="huomenna"  />
+				<text id="sofort" name="välittömästi"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="TAKAISIN"  />
+				<text id="ex" name="EXIT"  />
+				<text id="next" name="SEURAAVA"  />
+				<text id="no" name="EI"  />
+				<text id="yes" name="KYLLÄ"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Sinun tavoitteesi pelissä #play# on kerätä XP:tä (kokemuspisteitä) ja kolikkoja kehittääksesi ja koristellaksesi farmiasi."  />
+				<text id="intro_01_goals_t" name="Tavoite"  />
+				<text id="welcome_01_i" name="Tervetuloa pelaamaan peliä #play#, #name#! Haluaisimme opastaa sinua pelin aloittamisessa.  Saat siitä palkinnon! Haluisitko siis opastuksen?"  />
+				<text id="welcome_01_t" name="Opastus"  />
+				<text id="welcome_02_i" name="Selvä, et siis halua palkintoa...Voit saada opastusta milloin vain klikkaamalla lehtistä, jossa on kysymysmerkki. Löydät pelin säännöt kohdasta &#039;Kysymykset &amp; Vastaukset&#039;. Pidä hauskaa!"  />
+				<text id="welcome_02_t" name="Opastus 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Asensin juuri Goodgame Farmer -pelin. Tule katsomaan farmiani ja näet millaista satoa korjaan!"  />
+			<text id="descriptionlongfarmer" name="Goodgame Farmer on upea farmisimulaatio Goodgame Studioilta. Nauti ihanasta maalaiselämästä ja hoida virtuaalista farmia. Goodgame Farm -pelissä saat kasvattaa hedelmiä, viljaa ja puita, hoitaa eläimiä ja ostaa monia hyödyllisiä työkaluja ansaitsemallasi virtuaalirahalla."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Nainen"  />
+			<text id="A02" name="Mies"  />
+			<text id="B00" name="Omena"  />
+			<text id="B01" name="Päärynä"  />
+			<text id="B010" name="Avokado"  />
+			<text id="B011" name="Taateli"  />
+			<text id="B012" name="Viikuna"  />
+			<text id="B013" name="Granaattiomena"  />
+			<text id="B014" name="Kiivi"  />
+			<text id="B015" name="Kaki"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papaija"  />
+			<text id="B018" name="Kookospähkinä"  />
+			<text id="B019" name="Pitaya"  />
+			<text id="B02" name="Kirsikka"  />
+			<text id="B020" name="Kaakao"  />
+			<text id="B021" name="Saksanpähkinä"  />
+			<text id="B022" name="Leipäpuu"  />
+			<text id="B023" name="Durio"  />
+			<text id="B024" name="Manteli"  />
+			<text id="B025" name="Litsi"  />
+			<text id="B026" name="Tähtihedelmä"  />
+			<text id="B027" name="Liekkipuu"  />
+			<text id="B028" name="Bambu"  />
+			<text id="B029" name="Karkkiomena"  />
+			<text id="B03" name="Persikka"  />
+			<text id="B030" name="Piparkakku"  />
+			<text id="B031" name="Suklaa"  />
+			<text id="B032" name="Pääsiäispuu"  />
+			<text id="B033" name="Pääsiäispuu"  />
+			<text id="B034" name="Paju"  />
+			<text id="B04" name="Luumu"  />
+			<text id="B05" name="Oliivi"  />
+			<text id="B06" name="Banaani"  />
+			<text id="B07" name="Sitruuna"  />
+			<text id="B08" name="Appelsiini"  />
+			<text id="B09" name="Greippi"  />
+			<text id="D00" name="Puukasa"  />
+			<text id="D01" name="Heinäpaali"  />
+			<text id="D010" name="Puun kanto"  />
+			<text id="D011" name="Kärrynpyörä"  />
+			<text id="D02" name="Syöttökaukalo"  />
+			<text id="D03" name="Vesikaukalo"  />
+			<text id="D04" name="Kaivo"  />
+			<text id="D05" name="Hevosaura"  />
+			<text id="D06" name="Vesipumppu"  />
+			<text id="D07" name="Hevoskärry"  />
+			<text id="D08" name="Tynnyri"  />
+			<text id="D09" name="Laatikko"  />
+			<text id="D11" name="Linnunpelätin"  />
+			<text id="D110" name="Puiston penkki"  />
+			<text id="D111" name="Pimeä penkki"  />
+			<text id="D112" name="Lähde"  />
+			<text id="D113" name="Linnunpelätin"  />
+			<text id="D114" name="Pöllö"  />
+			<text id="D115" name="Tuulimylly"  />
+			<text id="D116" name="Tuulipussi"  />
+			<text id="D117" name="Pieni lampi"  />
+			<text id="D118" name="Iso lampi"  />
+			<text id="D119" name="Koi lampi"  />
+			<text id="D12" name="Ruohonleikkuri"  />
+			<text id="D120" name="Allas"  />
+			<text id="D121" name="Piknik"  />
+			<text id="D122" name="Puutarhapöytä"  />
+			<text id="D123" name="Puutarhatuoli"  />
+			<text id="D124" name="Riippumatto"  />
+			<text id="D125" name="Kansituoli"  />
+			<text id="D126" name="Pyykkiteline"  />
+			<text id="D127" name="Lyhty"  />
+			<text id="D128" name="Pyöreä kaktus"  />
+			<text id="D129" name="Punaiset liljat"  />
+			<text id="D13" name="Ulkovessa"  />
+			<text id="D130" name="Pitkä kaktus"  />
+			<text id="D131" name="Koristepuu"  />
+			<text id="D132" name="Kimppu maljakossa"  />
+			<text id="D133" name="Valkoiset liljat"  />
+			<text id="D134" name="Pelottava linnunpelätin"  />
+			<text id="D135" name="Koiranpentu"  />
+			<text id="D136" name="Paketti"  />
+			<text id="D137" name="Lumilapsi"  />
+			<text id="D138" name="Lumiukko"  />
+			<text id="D139" name="Lumiakka"  />
+			<text id="D14" name="Kottikärryt"  />
+			<text id="D140" name="Hiihtäjä"  />
+			<text id="D141" name="Joulukissa"  />
+			<text id="D142" name="Reki"  />
+			<text id="D143" name="Lumienkeli"  />
+			<text id="D144" name="Joulukyltti"  />
+			<text id="D145" name="Varoituskyltti"  />
+			<text id="D146" name="Napapiirikyltti"  />
+			<text id="D147" name="Lumivuohi"  />
+			<text id="D148" name="Lumikoira"  />
+			<text id="D149" name="Lumilammas"  />
+			<text id="D15" name="Valopenkki"  />
+			<text id="D150" name="Lumilehmä"  />
+			<text id="D151" name="Lumikissa"  />
+			<text id="D152" name="Lumikana"  />
+			<text id="D153" name="Lumisika"  />
+			<text id="D154" name="Lumihanhi"  />
+			<text id="D155" name="Portti"  />
+			<text id="D156" name="Aita"  />
+			<text id="D157" name="Tolppa"  />
+			<text id="D158" name="Jalokuusi"  />
+			<text id="D159" name="Joulukuusi"  />
+			<text id="D16" name="Grilli"  />
+			<text id="D160" name="Juhannussalko"  />
+			<text id="D161" name="Linnunpesä"  />
+			<text id="D162" name="Heinäpaalimies"  />
+			<text id="D163" name="Heinäpaalinainen"  />
+			<text id="D164" name="Punainen muna"  />
+			<text id="D165" name="Sininen muna"  />
+			<text id="D166" name="Liila muna"  />
+			<text id="D167" name="Punainen munakeko"  />
+			<text id="D168" name="Sininen munakeko"  />
+			<text id="D169" name="Liila munakeko"  />
+			<text id="D17" name="Puutarhatonttu"  />
+			<text id="D170" name="Sininen munakori"  />
+			<text id="D171" name="Vihreä munakori"  />
+			<text id="D172" name="Liila munakori"  />
+			<text id="D173" name="Punainen munakori"  />
+			<text id="D174" name="Valkoinen munakori"  />
+			<text id="D175" name="Munakori"  />
+			<text id="D176" name="Kranssi"  />
+			<text id="D177" name="Punainen ilmapallo"  />
+			<text id="D178" name="Sininen ilmapallo"  />
+			<text id="D179" name="Keltainen ilmapallo"  />
+			<text id="D18" name="Postilaatikko"  />
+			<text id="D180" name="Merirosvolippu"  />
+			<text id="D19" name="Linnunpönttö"  />
+			<text id="D20" name="Aita"  />
+			<text id="D21" name="Aita"  />
+			<text id="D210" name="Kauhukaari"  />
+			<text id="D22" name="Tolppa"  />
+			<text id="D23" name="Aita"  />
+			<text id="D24" name="Tolppa"  />
+			<text id="D25" name="Portti"  />
+			<text id="D26" name="Portti"  />
+			<text id="D27" name="Kaariportti"  />
+			<text id="D28" name="Kauhuaita"  />
+			<text id="D29" name="Kauhutolppa"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Saksa"  />
+			<text id="D310" name="Italia"  />
+			<text id="D311" name="Ranska"  />
+			<text id="D312" name="Espanja"  />
+			<text id="D313" name="Portugali"  />
+			<text id="D314" name="Alankomaat"  />
+			<text id="D315" name="Belgia"  />
+			<text id="D316" name="Puola"  />
+			<text id="D317" name="Venäjä"  />
+			<text id="D318" name="Tsekki"  />
+			<text id="D319" name="Kreikka"  />
+			<text id="D32" name="Itävalta"  />
+			<text id="D320" name="Turkki"  />
+			<text id="D321" name="Yhdysvallat"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Meksiko"  />
+			<text id="D324" name="Brasilia"  />
+			<text id="D325" name="Argentiina"  />
+			<text id="D326" name="Kiina"  />
+			<text id="D327" name="Japani"  />
+			<text id="D328" name="Australia"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Sveitsi"  />
+			<text id="D330" name="Unkari"  />
+			<text id="D331" name="Taiwan"  />
+			<text id="D34" name="Suomi"  />
+			<text id="D35" name="Ruotsi"  />
+			<text id="D36" name="Norja"  />
+			<text id="D37" name="Tanska"  />
+			<text id="D38" name="Iso-Britannia"  />
+			<text id="D39" name="Irlanti"  />
+			<text id="D40" name="Hevonen"  />
+			<text id="D41" name="Puu"  />
+			<text id="D410" name="Kauhupuu"  />
+			<text id="D42" name="Lehmä"  />
+			<text id="D43" name="Lammas"  />
+			<text id="D44" name="Sika"  />
+			<text id="D45" name="Vuohi"  />
+			<text id="D46" name="Hanhi"  />
+			<text id="D47" name="Kana"  />
+			<text id="D48" name="Koira"  />
+			<text id="D49" name="Kissa"  />
+			<text id="D60" name="Tori"  />
+			<text id="D70" name="Luuranko"  />
+			<text id="D71" name="Zombin käsi"  />
+			<text id="D72" name="Hautakivi"  />
+			<text id="D73" name="Jack o&#039;lantern"  />
+			<text id="D74" name="Jack o&#039;lantern"  />
+			<text id="D75" name="Jack o&#039;lantern"  />
+			<text id="D76" name="Jack o&#039;lantern"  />
+			<text id="D77" name="Jack o&#039;lantern"  />
+			<text id="Dxxx" name="Vihreä kori"  />
+			<text id="E01" name="10x10 alue"  />
+			<text id="E02" name="12x12 alue"  />
+			<text id="E03" name="14x14 alue"  />
+			<text id="E04" name="16x16 alue"  />
+			<text id="E05" name="18x18 alue"  />
+			<text id="E06" name="20x20 alue"  />
+			<text id="E07" name="22x22 alue"  />
+			<text id="E08" name="24x24 alue"  />
+			<text id="E11" name="10x10 alue"  />
+			<text id="E12" name="12x12 alue"  />
+			<text id="E13" name="14x14 alue"  />
+			<text id="E14" name="16x16 alue"  />
+			<text id="E15" name="18x18 alue"  />
+			<text id="E16" name="20x20 alue"  />
+			<text id="E17" name="22x22 alue"  />
+			<text id="E18" name="24x24 alue"  />
+			<text id="E21" name="10x10 alue"  />
+			<text id="E22" name="12x12 alue"  />
+			<text id="E23" name="14x14 alue"  />
+			<text id="E24" name="16x16 alue"  />
+			<text id="E25" name="18x18 alue"  />
+			<text id="E26" name="20x20 alue"  />
+			<text id="E27" name="22x22 alue"  />
+			<text id="E28" name="24x24 alue"  />
+			<text id="F01" name="Aika - M"  />
+			<text id="F20" name="Kastelija"  />
+			<text id="F30" name="Lannoite"  />
+			<text id="F31" name="Premium-siemen"  />
+			<text id="F40" name="Ruoki"  />
+			<text id="F41" name="Premium-ruokinta"  />
+			<text id="F50" name="Taikapöly"  />
+			<text id="G00" name="Kivipolku"  />
+			<text id="H00" name="Lato"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Vaja"  />
+			<text id="H03" name="Tuulimylly"  />
+			<text id="H04" name="Kasvihuone"  />
+			<text id="H05" name="Kauhukasvihuone"  />
+			<text id="H06" name="Pelottava silo"  />
+			<text id="H07" name="Kummitustuulimylly"  />
+			<text id="H08" name="Joulu-Silo"  />
+			<text id="H09" name="Joulutuulimylly"  />
+			<text id="H10" name="Kanahäkki"  />
+			<text id="H11" name="Sikala"  />
+			<text id="H12" name="Navetta"  />
+			<text id="H13" name="Hevostalli"  />
+			<text id="H20" name="Mökki"  />
+			<text id="H21" name="Mökki"  />
+			<text id="H210" name="Kummitusmökki"  />
+			<text id="H211" name="Kummitusvilla"  />
+			<text id="H212" name="Joulumökki"  />
+			<text id="H213" name="Joulumökki"  />
+			<text id="H214" name="Jouluvilla"  />
+			<text id="H215" name="Piparkakkutalo"  />
+			<text id="H216" name="Iso joulumökki"  />
+			<text id="H217" name="Iso jouluvilla"  />
+			<text id="H218" name="Sininen munatalo"  />
+			<text id="H219" name="Pinkki munatalo"  />
+			<text id="H22" name="Villa"  />
+			<text id="H220" name="Merirosvoalus"  />
+			<text id="H23" name="Koirankoppi"  />
+			<text id="H24" name="Puumaja"  />
+			<text id="H25" name="Maalaistalo"  />
+			<text id="H26" name="Orangery"  />
+			<text id="H27" name="Iso villa"  />
+			<text id="H28" name="Jättikokoinen villa"  />
+			<text id="H29" name="Kummitustalo"  />
+			<text id="H30" name="Hedelmäkoju"  />
+			<text id="H31" name="Tavaravarasto"  />
+			<text id="H32" name="Ampiaslimu-lotto"  />
+			<text id="H40" name="Silo(Lannoite)"  />
+			<text id="H50" name="Kummituskartano"  />
+			<text id="H51" name="Painajaiskirkko"  />
+			<text id="N01" name="Korjaa sato"  />
+			<text id="N02" name="Korjaa sato"  />
+			<text id="R00" name="Työenergia M"  />
+			<text id="R01" name="Työenergia S"  />
+			<text id="R02" name="Työenergia XL"  />
+			<text id="S00" name="Tulppaani"  />
+			<text id="S01" name="Kielo"  />
+			<text id="S010" name="Liilat ruusut"  />
+			<text id="S02" name="Laventeli"  />
+			<text id="S03" name="Auringonkukka"  />
+			<text id="S04" name="Ruusu"  />
+			<text id="S05" name="Daaliat"  />
+			<text id="S06" name="Krookus"  />
+			<text id="S07" name="Liljat"  />
+			<text id="S08" name="Lupiinit"  />
+			<text id="S09" name="Unikon siemen"  />
+			<text id="S10" name="Mansikat"  />
+			<text id="S11" name="Vesimeloni"  />
+			<text id="S12" name="Ananakset"  />
+			<text id="S13" name="Viinirypäleet"  />
+			<text id="S14" name="Hunajameloni"  />
+			<text id="S15" name="Vadelmat"  />
+			<text id="S16" name="Mustikat"  />
+			<text id="S17" name="Karpalot"  />
+			<text id="S18" name="Karviaiset"  />
+			<text id="S19" name="Karhunvatukat"  />
+			<text id="S20" name="Munakoiso"  />
+			<text id="S21" name="Kukkakaali"  />
+			<text id="S210" name="Pinaatti"  />
+			<text id="S211" name="Sipulit"  />
+			<text id="S212" name="Punakaali"  />
+			<text id="S213" name="Perunat"  />
+			<text id="S214" name="Porkkanat"  />
+			<text id="S215" name="Herneet"  />
+			<text id="S216" name="Retiisi"  />
+			<text id="S217" name="Raparperi"  />
+			<text id="S218" name="Ruusukaali"  />
+			<text id="S219" name="Soijapavut"  />
+			<text id="S22" name="Kurpitsa"  />
+			<text id="S220" name="Punajuuri"  />
+			<text id="S221" name="Parsakaali"  />
+			<text id="S222" name="Artisokat"  />
+			<text id="S223" name="Chilipaprikat"  />
+			<text id="S224" name="Parsa"  />
+			<text id="S225" name="Rapsi"  />
+			<text id="S23" name="Paprika"  />
+			<text id="S24" name="Tomaatit"  />
+			<text id="S25" name="Pavut"  />
+			<text id="S26" name="Kurkku"  />
+			<text id="S27" name="Nauris"  />
+			<text id="S28" name="Lehtisalaatti"  />
+			<text id="S29" name="Kesäkurpitsa"  />
+			<text id="S30" name="Vehnä"  />
+			<text id="S31" name="Kaura"  />
+			<text id="S32" name="Riisi"  />
+			<text id="S33" name="Ruis"  />
+			<text id="S34" name="Maissi"  />
+			<text id="S35" name="Ohra"  />
+			<text id="S36" name="Hirssi"  />
+			<text id="S37" name="Makea maissi"  />
+			<text id="S38" name="Punavehnä"  />
+			<text id="S39" name="Speltti"  />
+			<text id="S40" name="Kahvi"  />
+			<text id="S41" name="Tee"  />
+			<text id="S42" name="Sokeriruoko"  />
+			<text id="S43" name="Aloe vera"  />
+			<text id="S44" name="Puuvilla"  />
+			<text id="S45" name="GM Soijapavut"  />
+			<text id="S49" name="Lumikello"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Aarre-arkku"  />
+			<text id="S52" name="Punaiset munat"  />
+			<text id="S53" name="Siniset munat"  />
+			<text id="S54" name="Lootus"  />
+			<text id="S55" name="Valkoiset ruusut"  />
+			<text id="S56" name="Habanero-chili"  />
+			<text id="S57" name="Lemmikki"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffinssi"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Liilat munat"  />
+			<text id="S63" name="Keltaiset munat"  />
+			<text id="T00" name="Kana"  />
+			<text id="T01" name="Hanhi"  />
+			<text id="T02" name="Ruskea kana"  />
+			<text id="T03" name="Musta kana"  />
+			<text id="T04" name="Kukko"  />
+			<text id="T05" name="Ankka"  />
+			<text id="T06" name="Jouluhanhi"  />
+			<text id="T07" name="Papukaija"  />
+			<text id="T10" name="Sika"  />
+			<text id="T11" name="Lehmä"  />
+			<text id="T110" name="Ruskea lehmä"  />
+			<text id="T111" name="Härkä"  />
+			<text id="T112" name="Jouluhevonen"  />
+			<text id="T113" name="Joululehmä"  />
+			<text id="T114" name="Lammas"  />
+			<text id="T115" name="Yksisarvinen"  />
+			<text id="T12" name="Lammas"  />
+			<text id="T13" name="Vuohi"  />
+			<text id="T14" name="Koira"  />
+			<text id="T15" name="Musta kissa"  />
+			<text id="T16" name="Ruskea kissa"  />
+			<text id="T17" name="Musta hevonen"  />
+			<text id="T18" name="Ruskea hevonen"  />
+			<text id="T19" name="Musta lammas"  />
+			<text id="T20" name="Lammaskoira"  />
+			<text id="T21" name="Poro"  />
+			<text id="T22" name="Kani"  />
+			<text id="V00" name="10x täyttö"  />
+			<text id="V01" name="25x täyttö"  />
+			<text id="V02" name="50x täyttö"  />
+			<text id="V10" name="Traktori"  />
+			<text id="V20" name="Kylvökone"  />
+			<text id="V30" name="Puimuri"  />
+			<text id="V40" name="Lannoituskone"  />
+			<text id="V90" name="Polttoainesäiliö"  />
+			<text id="Y01" name="Sato korjattu"  />
+			<text id="Y02" name="Kynnetty"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Sorry, sinun tai #name#n ystävälista on jo täynnä,#tab# tai #name# ei ole vielä hyväksynyt ystäväpyyntöäsi."  />
+				<text id="buddies_add_ok" name="#name# on nyt ystäväsi."  />
+				<text id="chat_dop" name="Ole hyvä, äläkä kirjoita samaa tekstiä koko ajan. Kiitos!"  />
+				<text id="chat_nonsense" name="Ole hyvä ja kirjoita jotain merkityksellistä. Kiitos!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Väärä sähköpostiosoite.
+Ole hyvä ja anna käytössä oleva sähköpostiosoite."  />
+				<text id="email_dop" name="Sähköpostiosoite on jo käytössä.
+Ole hyvä ja anna toinen sähköpostiosoite."  />
+				<text id="email_no" name="Tuntematon sähköpostiosoite."  />
+				<text id="farm_full" name="Tällä farmilla on jo liikaa ihmisiä. Ole hyvä ja valitse toinen farmi."  />
+				<text id="helper_job_no" name="#name# on kieltäytynyt sinun #job# tarjouksestasi tai on lähtenyt pois torilta."  />
+				<text id="helper_job_ok" name="#name# on hyväksynyt sinun #job# kutsusi."  />
+				<text id="helper_owner_no_money" name="Farmin omistajalla ei ole tarpeeksi rahaa peltojen kyntämiseen."  />
+				<text id="invite_sent" name="Kiitos!
+Ystävällesi lähetetään sähköpostia."  />
+				<text id="item_dop" name="Olet jo saavuttanut rajan tälle kohteelle."  />
+				<text id="kenn_bad" name="Salasanaa varten
+käytä seuraavia merkkejä:
+5-15 merkkiä, sisältäen #tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="Väärä salasana"  />
+				<text id="kenn_unequal" name="Salasanat eivät täsmää"  />
+				<text id="kick" name="Sorry, #name# on heittänyt sinut pois farmiltansa!#tab#Olet siis luultavasti tehnyt jotain väärin."  />
+				<text id="lagernosell" name="Sinun täytyy tyhjentää tämä rakennus ennen kuin voit myydä sen."  />
+				<text id="lager_building" name="Sinun täytyy rakentaa lato tai vaja varastoidaksesi tavaroita."  />
+				<text id="lager_cantsell" name="Et voi myydä tätä rakennusta, ellei varastossasi ole lisää tilaa."  />
+				<text id="lager_voll" name="Voit varastoida vain tyhjän kohteen toisen kohteen sisälle."  />
+				<text id="login_bad" name="Sisäänkirjautumisvirhe. Jos unohdit salasanasi, klikkaa &quot;Salasana kadoksissa?&quot;.#tab#Jos tarvitset apua, 
+lähetä meille sähköpostia:
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="Ole hyvä ja käytä pelaajanimessä seuraavia merkkejä: #tab#2-15 merkkiä, jotka ovat a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Pelaajanimi on jo käytössä. Ole hyvä ja anna toinen nimi tai valitse yksi näistä:"  />
+				<text id="name_spam" name="Ole hyvä ja valitse toinen nimi"  />
+				<text id="no_agb" name="Ole hyvä ja varmista, että hyväksyt käyttöehtomme."  />
+				<text id="no_arbeitskraft" name="Sinulla ei ole tarpeeksi työenergiaa tätä toimintoa varten. Odota kunnes työenergiaa on tarjolla tai osta sitä kaupasta."  />
+				<text id="no_buddies" name="Valitettavasti et ole kutsunut tarpeeksi monta ystävää.#tab#Jotta voisit ostaa #obj#  sinun täytyy kutsua #anz# ystävää lisää."  />
+				<text id="no_chat" name="Minun täytyy rekisteröityä ja saavuttaa taso 1 käyttääkseni chattia."  />
+				<text id="no_ferti" name="Olet käyttänyt kaiken #name#.
+Ole hyvä ja osta sitä lisää."  />
+				<text id="no_food" name="Sinulla ei ole tarpeeksi rehua eläinten ruokkimiseksi!"  />
+				<text id="no_gender" name="Et ole valinnut sukupuolta. Ole hyvä ja klikkaa yhtä kuvista."  />
+				<text id="no_lager" name="Tälle kohteelle ei ole varastoa."  />
+				<text id="no_money" name="Sinulla ei ole tarpeeksi rahaa tätä toimintoa varten."  />
+				<text id="no_premium" name="Käytit kaikki #name# Premium-siemenesi. Osta uusia siemeniä."  />
+				<text id="no_regi" name="Tämä toiminto on käytössä vain rekisteröityneille käyttäjille.#tab#Ole hyvä ja rekisteröidy. Jos et, farmisi kehitys ei tallennu."  />
+				<text id="no_tanken" name="Sinulla ei ole tarpeeksi polttoainetta tätä toimintoa varten."  />
+				<text id="no_zauberstaub" name="Sinun {0} on tyhjä.
+Saavutusten avulla voit saada lisää."  />
+				<text id="old_client_version" name="Vanha versio! Päivitä sivu."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Sinun täytyy olla rekisteröitynyt ja saavuttaa taso 3 päästäksesi sijoituslistalle."  />
+				<text id="rangliste_player_not_ranked" name="Tämän pelaajan tulee saavuttaa taso 3 päästääkseen sijoituslistalle."  />
+				<text id="rangliste_unknown_id" name="Sorry, tällä nimellä rekisteröitynyttä pelaajaa ei löydy."  />
+				<text id="vehiclesnosell" name="Tämä kulkuväline on käytössä."  />
+				<text id="vollscreen" name="Et voi käyttää chat-toimintoa koko näyttö -tilassa. (Tämä ei ole sallittua turvallisuussyistä)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Ystävyys"  />
+				<text id="farm_full" name="Ups!"  />
+				<text id="helper_job_ok" name="Työ hyväksytty"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="aktiivinen"  />
+				<text id="buyOf" name="Kulutettu #anz#/#menge#"  />
+				<text id="clickZum" name="Klikkaa"  />
+				<text id="deactive" name="ei-aktiivinen"  />
+				<text id="doContent" name="Valikkonäyttö"  />
+				<text id="doDel" name="poista"  />
+				<text id="doFertilize" name="lannoita"  />
+				<text id="doFertilizeAnimals" name="ruoki"  />
+				<text id="doFortune" name="Pelaa lottoa"  />
+				<text id="doHarvest" name="korjaa sato"  />
+				<text id="doMove" name="siirrä"  />
+				<text id="doPlow" name="kynnä"  />
+				<text id="doPos" name="aseta"  />
+				<text id="doRot" name="käännä"  />
+				<text id="doSell" name="Myy"  />
+				<text id="doSow" name="Kylvä"  />
+				<text id="doTosOpen" name="varastoi"  />
+				<text id="doVehicles" name="mekaaninen"  />
+				<text id="farmbuddie" name="Ystäväsi#Ystäväsi"  />
+				<text id="farmgast" name="Vieras#Vieras"  />
+				<text id="farmhelperharvest" name="Sadonkorjuun apulainen#Sadonkorjuun apulainen"  />
+				<text id="farmhelperplow" name="Kyntöapulainen#Kyntöapulainen"  />
+				<text id="farmowner" name="Tämän farmin omistaja#Tämän farmin omistaja"  />
+				<text id="farmvisitor" name="Vierailija#Vierailija"  />
+				<text id="isFertilize" name="lannoitettu"  />
+				<text id="isHarvest" name="korjattu sato"  />
+				<text id="isReadyB" name="kypsä"  />
+				<text id="isReadyEX" name="kuihtunut"  />
+				<text id="isReadyFin" name="Sadon arvo"  />
+				<text id="isReadyS" name="kasvanut"  />
+				<text id="isReadyT" name="valmis"  />
+				<text id="jobbenrest" name="#anz# työenergia"  />
+				<text id="jobVehicles" name="--- koneen avulla:"  />
+				<text id="jobWalk" name="--- kävellen:"  />
+				<text id="ketteZum" name="Työlista"  />
+				<text id="Market" name="Tori"  />
+				<text id="marketvisitor" name="Pelaaja#Pelaaja"  />
+				<text id="my" name="Sinä itse"  />
+				<text id="noPfad" name="En voi mennä sinne!"  />
+				<text id="online" name="on online-tilassa"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Pelaaja"  />
+				<text id="AC" name="T-paita"  />
+				<text id="AG" name="Hahmo"  />
+				<text id="AH" name="Hiustyyli"  />
+				<text id="AP" name="Housut"  />
+				<text id="AS" name="Kengät"  />
+				<text id="AT" name="Iho"  />
+				<text id="B" name="Puu"  />
+				<text id="D" name="Koriste"  />
+				<text id="E" name="Laajennus"  />
+				<text id="F" name="Lannoite"  />
+				<text id="G" name="Katu"  />
+				<text id="H" name="Talo"  />
+				<text id="R" name="Työ"  />
+				<text id="S" name="Pelto"  />
+				<text id="T" name="Eläin"  />
+				<text id="V" name="Kulkuväline"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Puu"  />
+				<text id="D0" name="Farmin koristeet"  />
+				<text id="D1" name="Kodin koristeet"  />
+				<text id="D2" name="Aitaus"  />
+				<text id="D3" name="Lippu"  />
+				<text id="D4" name=""  />
+				<text id="D7" name=""  />
+				<text id="F0" name="Ajan nopeuttaminen"  />
+				<text id="F1" name="Tuoton kasvu"  />
+				<text id="F2" name="Virkistys"  />
+				<text id="H0" name="Farmi"  />
+				<text id="H1" name="Tallit"  />
+				<text id="H2" name="Asunto"  />
+				<text id="H4" name="Toiminto"  />
+				<text id="H5" name="Erikoisrakennus"  />
+				<text id="N0" name="Työskentele nopeammin"  />
+				<text id="R0" name="Työskentele muilla farmeilla"  />
+				<text id="S0" name="Kukka"  />
+				<text id="S1" name="Hedelmä"  />
+				<text id="S2" name="Vihannes"  />
+				<text id="S3" name="Jyvä"  />
+				<text id="S4" name="Muu"  />
+				<text id="S5" name="Premium"  />
+				<text id="S6" name="Kausi"  />
+				<text id="T0" name="Siipikarja"  />
+				<text id="T1" name="Tuotantoeläin"  />
+				<text id="T2" name="Lemmikki"  />
+				<text id="V0" name="Polttoaine"  />
+				<text id="V1" name="Traktori"  />
+				<text id="V2" name="Kylvökone"  />
+				<text id="V3" name="Puimuri"  />
+				<text id="V4" name="Lannoituskone"  />
+				<text id="V9" name="Polttoainesäiliö"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Saavutus!"  />
+				<text id="txt1" name="Onneksi olkoon!
+Sait saavutuksen #name# - Taso #level#."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Jaa"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Ansaittujen Farmidollareiden määrä"  />
+				<text id="i10" name="Kerättyjen kukkien määrä"  />
+				<text id="i11" name="Kaadettujen puiden määrä"  />
+				<text id="i12" name="Tuotettujen eläinten määrä"  />
+				<text id="i13" name="Lahjoihin käytettyjen Farmidollareiden määrä"  />
+				<text id="i14" name="Saatujen lahjojen määrä"  />
+				<text id="i15" name="Naapureiden avun määrä"  />
+				<text id="i16" name="Otettujen kuvien määrä"  />
+				<text id="i17" name="Suoritettujen kyntämisten määrä vanhan työlupasysteemin aikana"  />
+				<text id="i18" name="Suoritettujen sadonkorjuiden määrä vanhan työlupasysteemin aikana"  />
+				<text id="i19" name="Aloitettujen kyntämisten määrä vanhan työlupasysteemin aikana"  />
+				<text id="i2" name="Käytettyjen Farmidollareiden määrä"  />
+				<text id="i20" name="Aloitettujen sadonkorjuiden määrä vanhan työlupasysteemin aikana"  />
+				<text id="i21" name="Lannoitettujen peltojen, eläinten ja puiden määrä: Aikaetu"  />
+				<text id="i22" name="Lannoitettujen peltojen, eläinten ja puiden määrä: Taikasauva"  />
+				<text id="i23" name="Erilaisten kerättyjen jyvien määrä"  />
+				<text id="i24" name="Erilaisten kerättyjen hedelmien määrä"  />
+				<text id="i25" name="Erilaisten kerättyjen kukkien määrä"  />
+				<text id="i26" name="Erilaisten kerättyjen vihannesten määrä"  />
+				<text id="i27" name="Erilaisten kaadettujen puiden määrä"  />
+				<text id="i28" name="Erilaisten tuotettujen eläinten määrä"  />
+				<text id="i29" name="Erilaisten sadonkorjattujen alueiden määrä"  />
+				<text id="i3" name="Ostettujen rakennusten määrä"  />
+				<text id="i30" name="Erilaisten taitojen määrä"  />
+				<text id="i31" name="Taitojen määrä"  />
+				<text id="i32" name="Ystävien määrä"  />
+				<text id="i33" name="Ostettujen puiden määrä"  />
+				<text id="i34" name="Kerättyjen premium-siementen määrä"  />
+				<text id="i35" name="Erilaisten kerättyjen premium-siementen määrä"  />
+				<text id="i36" name="Kynnettyjen peltojen määrä"  />
+				<text id="i37" name="Kyntötöiden aikana kynnettyjen peltojen määrä"  />
+				<text id="i38" name="Sadonkorjuutöiden aikana tuotettujen peltojen, puiden ja eläinten määrä"  />
+				<text id="i39" name="Sadonkorjuun aikana tuotettujen peltojen, puiden ja eläinten määrä"  />
+				<text id="i4" name="Ostettujen koristeiden määrä"  />
+				<text id="i5" name="Ostettujen eläinten määrä"  />
+				<text id="i6" name="Kerättyjen siementen määrä"  />
+				<text id="i7" name="Kerättyjen hedelmien määrä"  />
+				<text id="i8" name="Kerättyjen vihannesten määrä"  />
+				<text id="i9" name="Kerättyjen jyvien määrä"  />
+				<text id="next" name="Seuraava taso: 
+#level#"  />
+				<text id="t1" name="Maalaismenestyjä"  />
+				<text id="t10" name="Kukkaiskeiju"  />
+				<text id="t11" name="Puunhalaaja"  />
+				<text id="t12" name="Eläinten ystävä"  />
+				<text id="t13" name="Lahjoihin käytetyt chipit"  />
+				<text id="t14" name="Saadut lahjat"  />
+				<text id="t15" name="Avuliaat naapurit"  />
+				<text id="t16" name="Otetut kuvat"  />
+				<text id="t17" name="Kuuluisa kyntäjä"  />
+				<text id="t18" name="Ahkera sadonkorjaaja"  />
+				<text id="t19" name="Vanha tarkastaja"  />
+				<text id="t2" name="Himoshoppaaja"  />
+				<text id="t20" name="Kokenut kerääjä"  />
+				<text id="t21" name="Nopea maanviljelijä"  />
+				<text id="t22" name="Ykkösluokka"  />
+				<text id="t23" name="Jyvänkerääjä"  />
+				<text id="t24" name="Hedelmäsato"  />
+				<text id="t25" name="Kukoistavat kukat"  />
+				<text id="t26" name="Valloittavat vihannekset"  />
+				<text id="t27" name="Puiden poistaja"  />
+				<text id="t28" name="Leppoisa lauma"  />
+				<text id="t29" name="Mainio maanviljelijä"  />
+				<text id="t3" name="Rakennuttaja"  />
+				<text id="t30" name="Erilaiset taidot"  />
+				<text id="t31" name="Kaikki taidot"  />
+				<text id="t32" name="Paras porukka"  />
+				<text id="t33" name="Köhisevä kuplavolkkari"  />
+				<text id="t34" name="Kultainen sadonkorjuu"  />
+				<text id="t35" name="Säihkyvät siemenet"  />
+				<text id="t36" name="Kunnioitettava kyntäjä"  />
+				<text id="t37" name="Tiukka tarkastaja"  />
+				<text id="t38" name="Avulias sadonkorjaaja"  />
+				<text id="t39" name="Toteutunut paluu"  />
+				<text id="t4" name="Kauniit koristeet"  />
+				<text id="t5" name="Ihanat eläimet"  />
+				<text id="t6" name="Super-siemenet"  />
+				<text id="t7" name="Herkulliset hedelmät"  />
+				<text id="t8" name="Kasvisten kerääjä"  />
+				<text id="t9" name="Maissimestari"  />
+				<text id="txt0" name="Saavutukset"  />
+				<text id="txt1" name="Kokonaiskehitys"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Anteeksi!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Sinut poistettiin pelistä.
+Pelikiellon kesto: #time# minuuttia
+Jos sinulla on kysyttävää pelikiellosta, lähetä meille sähköpostia: #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Tärkeää tietoa!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Anteeksi!"  />
+				<text id="txt1" name="#spielname# on jo käynnissä toisessa ikkunassa."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="HUOMIO !!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Valitettavasti palvelimen yhteys häiriintyy #time# sekunnin kuluessa!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Valitse"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Satunnainen"  />
+				<text id="txt1" name="Tallenna"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Raportoi pelaajasta!"  />
+				<text id="txt1" name="Haluatko todella raportoida pelaajasta {0}?"  />
+				<text id="txt2" name="kyllä"  />
+				<text id="txt3" name="ei"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Ystävyys"  />
+				<text id="txt1" name="#name# haluaa lisätä sinut ystäviinsä."  />
+				<text id="txt2" name="Kieltäydy"  />
+				<text id="txt3" name="Hyväksy"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Ystävyys"  />
+				<text id="txt1" name="Kysy pelaajalta #name# haluaako hän olla sinun ystäväsi."  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="Kysy"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} on sinun {0} ystäväsi. Poistaaksesi hänet sinun täytyy peruuttaa {0} ystävyys!"  />
+				<text id="txt0" name="Poista ystävä"  />
+				<text id="txt1" name="Haluatko todella poistaa pelaajan #name# ystävälistaltasi?"  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="Hyväksy"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Poista kohde"  />
+				<text id="txt1" name="Haluatko todella poistaa kohteen #obj#?"  />
+				<text id="txt2" name="Ei"  />
+				<text id="txt3" name="Kyllä"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Jatka"  />
+				<text id="tTitle" name="Palkinto!"  />
+				<text id="txt0" name="Olemme lähettäneet palkinnon sähköpostiisi."  />
+				<text id="txt1" name="Hae se nyt!"  />
+				<text id="txt2" name="Voimme lähettää sinulle uuden sähköpostin, jos haluat."  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Jatka"  />
+				<text id="tTitle" name="Sähköposti on lähetetty"  />
+				<text id="txt0" name="Lähetimme sinulle juuri sähköpostin, jossa on palkintosi!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Jatka"  />
+				<text id="tTitle" name="Lahja"  />
+				<text id="txt0" name="Olet vastaanottanut palkintosi!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Laajenna"  />
+				<text id="txt1" name="Laajenna tätä rakennusta varastoidaksesi useampia tavaroita."  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="Osta"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Farmi laajennettu!"  />
+				<text id="txt1" name="Onneksi olkoon!
+Farmisi on kasvanut entistä isommaksi."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Jaa"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Kuvagalleria"  />
+				<text id="txt1" name="Peruuta"  />
+				<text id="txt2" name="Poista"  />
+				<text id="txt3" name="Tallenna"  />
+				<text id="txt4" name="Kirjoita jotain tästä kuvasta!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Rekisteröidy"  />
+				<text id="txt1" name="Sinun täytyy rekisteröityä tallentaaksesi pelin. Muuten tiedot häviävät!
+
+Rekisteröityminen on ilmaista!"  />
+				<text id="txt2" name="Rekisteröidy"  />
+				<text id="txt3" name="Kirjaudu ulos"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Haluatko korjata satoa?"  />
+				<text id="txt1" name="Haluatko auttaa pelaajaa #name# korjaamaan satoa hänen Farmillaan?
+Saat XP-pisteitä palkinnoksi!"  />
+				<text id="txt2" name="Kieltäydy"  />
+				<text id="txt3" name="Hyväksy"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Haluatko kyntää?"  />
+				<text id="txt1" name="Haluatko auttaa pelaajaa #name# kyntämisessä hänen farmillaan?
+Saat Farmidollareita palkinnoksi mistä tahansa toiminnasta!"  />
+				<text id="txt2" name="Kieltäydy"  />
+				<text id="txt3" name="Hyväksy"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Sadonkorjuutehtävä"  />
+				<text id="txt1" name="Kysy pelaajalta #name# haluaako hän korjata satoa farmillasi.
+Kun toinen pelaaja korjaa satoa farmillasi ansaitset lisää Farmidollareita!"  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="Kysy"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Kyntötehtävä!"  />
+				<text id="txt1" name="Kysy pelaajalta #name# haluaako hän kyntää farmillasi.
+Kun toinen pelaaja kyntää farmillasi saat lisää XP-pisteitä!"  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="Kysy"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Poista"  />
+				<text id="txt1" name="Osta"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Käytetyt alueet"  />
+				<text id="txt1" name="Laajenna"  />
+				<text id="txt2" name="Varasto"  />
+				<text id="txt3" name="Takaisin"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Poista"  />
+				<text id="txt1" name="Korjaa sato"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Käytetyt alueet"  />
+				<text id="txt1" name="Laajenna"  />
+				<text id="txt2" name="Korjaa koko sato"  />
+				<text id="txt3" name="Ruoki kaikki  &#039;{0}&#039; avulla"  />
+				<text id="txt4" name="Anna niille &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Sinun on nyt mahdollista ostaa uusia tavaroita!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Uusia tavaroita"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Uusi taso!"  />
+				<text id="txt1" name="Onneksi olkoon! Saavutit uuden tason!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Jaa"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Salasana kadoksissa?"  />
+				<text id="txt1" name="Ole hyvä ja anna sähköpostiosoitteesi, jolla olet rekisteröitynyt ja klikkaa &#039;lähetä&#039;.
+Saat salasanan sähköpostiisi."  />
+				<text id="txt2" name="Sähköposti"  />
+				<text id="txt3" name="Peruuta"  />
+				<text id="txt4" name="Lähetä"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Kirjaudu ulos"  />
+				<text id="txt1" name="Haluatko poistua farmilta?"  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Ups!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Rekisteröidy"  />
+				<text id="txt1" name="Ole hyvä ja rekisteröidy, jotta edistymisesi voidaan tallentaa."  />
+				<text id="txt2" name="Kirjaudu ulos"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Rekisteröidy"  />
+				<text id="txt1" name="Sähköposti"  />
+				<text id="txt2" name="Salasana"  />
+				<text id="txt3" name="Hyväksyn Käyttöehdot"  />
+				<text id="txt4" name="Peruuta"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Luo Pelaaja"  />
+				<text id="txt1" name="Lempinimi"  />
+				<text id="txt2" name="nainen"  />
+				<text id="txt3" name="mies"  />
+				<text id="txt4" name="Peruuta"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Pelaa nyt"  />
+				<text id="txt1" name="Rekisteröidy"  />
+				<text id="txt2" name="Kirjaudu sisään"  />
+				<text id="txt3" name="Nimi/Sähköposti"  />
+				<text id="txt4" name="Salasana"  />
+				<text id="txt5" name="Salasana kadoksissa?"  />
+				<text id="txt6" name="Muista tiedot"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Tori"  />
+				<text id="txt1" name="älä näytä uudelleen"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Hei #name# !
+Tämä on #spielname# tori. Täällä voit etsiä työtä tai palkata toiset pelaajat kyntämään tai korjaamaan satoa."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Vaihda salasana"  />
+				<text id="txt1" name="Vanha salasana"  />
+				<text id="txt2" name="Uusi salasana"  />
+				<text id="txt3" name="Toista uusi salasana"  />
+				<text id="txt4" name="Peruuta"  />
+				<text id="txt5" name="Tallenna"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Ups!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Rekisteröidy"  />
+				<text id="txt3" name="Kutsu ystäviä"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Asetukset"  />
+				<text id="txt1" name="Läpinäkyvät puut"  />
+				<text id="txt10" name="korkea"  />
+				<text id="txt11" name="keskitaso"  />
+				<text id="txt12" name="alhainen"  />
+				<text id="txt13" name="zoomaa"  />
+				<text id="txt14" name="Estä kaikki ystäväpyynnöt."  />
+				<text id="txt15" name="Estä pelaajien käynnit Ranking-listan kautta."  />
+				<text id="txt16" name="Näytä pelivinkit."  />
+				<text id="txt2" name="Läpinäkyvät rakennukset"  />
+				<text id="txt3" name="Läpinäkyvät koristeet"  />
+				<text id="txt4" name="Laatu &#039;heikko&#039;"  />
+				<text id="txt5" name="Muuta salasana"  />
+				<text id="txt6" name="Peruuta"  />
+				<text id="txt7" name="Tallenna"  />
+				<text id="txt8" name="Animaatio pois"  />
+				<text id="txt9" name="Laatu"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Etsi nimi/sijoitus"  />
+				<text id="txt0" name="Ranking"  />
+				<text id="txt1" name="etsi"  />
+				<text id="txt2" name="Sijoitus"  />
+				<text id="txt3" name="Nimi"  />
+				<text id="txt4" name="Taso"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Tänään"  />
+				<text id="zeitraum1" name="Tällä viikolla"  />
+				<text id="zeitraum2" name="Tässä kuussa"  />
+				<text id="zeitraum3" name="Aina"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Myy kohde"  />
+				<text id="txt1" name="Haluatko todella myydä kohteen #obj# #w1# Farmidollarilla?"  />
+				<text id="txt2" name="Ei"  />
+				<text id="txt3" name="Kyllä"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Elvytä kuihtunut sato tällä elvyttävällä lannoitteella."  />
+				<text id="F30" name="Nopeuttaa kasvien ja eläinten kasvua 10%!"  />
+				<text id="F31" name="Nopeuttaa kasvien ja eläinten kasvua 50%!"  />
+				<text id="F40" name="Nopeuttaa eläinten kasvua 10%!"  />
+				<text id="F41" name="Nopeuttaa eläinten kasvua 50%!"  />
+				<text id="F50" name="Lisää siemenistä, siementen kylvämisestä, puista ja eläimistä saatuja kokemuspisteitä 50%!"  />
+				<text id="H00" name="Voit varastoida tähän latoon 15 tavaraa."  />
+				<text id="H02" name="Voit varastoida tähän vajaan 4 tavaraa."  />
+				<text id="H10" name="Kanahäkin avulla voit
+pitää useampia kanoja
+samanaikaisesti."  />
+				<text id="H11" name="Sikalan avulla voit
+pitää useampia sikoja
+samanaikaisesti."  />
+				<text id="H12" name="Navetan avulla voit
+pitää useampia lehmiä
+samanaikaisesti."  />
+				<text id="H13" name="Hevostallin avulla voit
+pitää useampia hevosia
+samanaikasesti."  />
+				<text id="H40" name="Silo antaa sinulle 20% bonusta kaikista lannoite- ja ruokaostoksista."  />
+				<text id="N01" name="Sadonkorjaamislupa:
+Kaikki valmiit puut samalla kertaa."  />
+				<text id="N02" name="Sadonkorjaamislupa: Kaikki valmiit eläimet samalla kertaa."  />
+				<text id="R0x" name="Tämän täydennyksen avulla voit täyttää työlupasi {0}x."  />
+				<text id="S5x" name="Premium-siementen avulla saat enemmän XP-pisteitä ja Farmidollareita kuin normaaleita siemeniä käyttäen. Niistä kasvatetut kasvit eivät voi myöskään lakastua!
+Voit ostaa niitä paketeissa ja voit istuttaa niitä suoraan kaupan kautta ilman erillisiä kustannuksia."  />
+				<text id="V0x" name="Nämä polttoainesäiliöt
+voi täyttää {0}x."  />
+				<text id="V10" name="Traktorilla voit
+kyntää neljä peltoa samanaikaisesti."  />
+				<text id="V20" name="Kylvökoneella voit
+kylvää neljä peltoa samanaikaisesti."  />
+				<text id="V30" name="Puimurilla voit korjata neljän pellon sadon samanaikasesti."  />
+				<text id="V40" name="Lannoituskoneella voit lannoittaa neljä peltoa samanaikaisesti."  />
+				<text id="V90" name="20% lisää polttoainetta,
+kun ostat täydennyksen"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Taso #level#"  />
+				<text id="txtAnzahl" name="Määrä:"  />
+				<text id="txtAnzahlVon" name="/"  />
+				<text id="txtBenutzen" name="Käytä"  />
+				<text id="txtBuy" name="Osta"  />
+				<text id="txtHarvestXP" name="Korjaa sato:"  />
+				<text id="txtPremium" name="Premium"  />
+				<text id="txtSize" name="Paketin koko:"  />
+				<text id="txtVerbrauch" name="Kulutus"  />
+				<text id="txtWork" name="Tee työtä"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Älä näytä pelivinkkejä."  />
+				<text id="shoptipp_0_title" name="Ups!"  />
+				<text id="shoptipp_1_text" name="Sinulla ei ole tarpeeksi polttoainetta. Haluatko täydentää polttoainevarastosi?"  />
+				<text id="shoptipp_1_title" name="Polttoaineen täydennys"  />
+				<text id="shoptipp_2_text" name="Sinulla ei ole tarpeeksi lannoitetta. Haluatko ostaa sitä lisää?"  />
+				<text id="shoptipp_2_title" name="Varastoi lannoitetta"  />
+				<text id="shoptipp_3_text" name="Sinulla ei ole tarpeeksi tilaa farmillasi. Haluatko laajentaa sitä?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="Sinulta on loppunut työenergia!
+Tiesitkö, että voit täydentää sitä?"  />
+				<text id="shoptipp_4_title" name="Työnarkomaani!"  />
+				<text id="shoptipp_5_text" name="Sinulla ei ole premium-siemeniä tätä toimintoa varten. Haluaisitko ostaa niitä nyt?"  />
+				<text id="shoptipp_5_title" name="Osta premium-siemeniä"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Kauppa"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="Työ"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Etsin työtä."  />
+				<text id="txt1" name="Kuka tarvitsee apua kyntämisessä?"  />
+				<text id="txt2" name="Haluan korjata satoa."  />
+				<text id="txt3" name="Kuka haluaa kyntää?"  />
+				<text id="txt4" name="Kuka haluaa korjata satoa?"  />
+				<text id="txt5" name="Hei!"  />
+				<text id="txt6" name="Kiitos"  />
+				<text id="txt7" name="Kyllä"  />
+				<text id="txt8" name="Ei"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Kutsu ystäviä"  />
+				<text id="txt1" name="Nimesi"  />
+				<text id="txt2" name="Ystäväsi nimi"  />
+				<text id="txt3" name="Ystäväsi sähköposti"  />
+				<text id="txt4" name="Peruuta"  />
+				<text id="txt5" name="Kutsu"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Hiljennä käyttäjät"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Ampiaislimu"  />
+				<text id="txt1" name="Pelaa Ampiaislimua ja voit voittaa upeita palkintoja!"  />
+				<text id="txt2" name="Pyöritä!"  />
+				<text id="txt3" name="Ensimmäinen kierros on ilmainen!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hurraa!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="#xp# XP:tä seuraavaan tasoon"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farmidollarit:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Ystävät:"  />
+				<text id="txt4" name="Saavutukset:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Poista pelaaja"  />
+				<text id="txt1" name="Haluatko todella poistaa pelaajan #name# farmiltasi?"  />
+				<text id="txt2" name="Peruuta"  />
+				<text id="txt3" name="Hyväksy"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Kevät on tulossa! Huomaa uudet rakennukset, koristeet, eläimet ja puut!"  />
+				<text id="teaser_11_info_1" name="Kuuntele!
+Farmillasi on nyt ammummista ja kotkotusta! 
+Pidä hauskaa Goodgame Farmer -pelin uusien äänten parissa!"  />
+				<text id="teaser_11_title" name="Äänet!"  />
+				<text id="teaser_12_info_1" name="Voit jutella vapaasti torilla alkaen tasolta 10. Alemmilla tasoilla voit yksinkertaisesti käyttää ennaltamääriteltyjä lauseita."  />
+				<text id="teaser_12_title" name="Torin Keskustelusäännöt"  />
+				<text id="teaser_13_info_1" name="Lisää tarjontaa!
+Valmistaudu uusien eläinten, puiden, koristeiden ja rakennusten tuloon!"  />
+				<text id="teaser_13_info_2" name="Lisäsimme uusia tasoja kaikkiin saavutuksiin!"  />
+				<text id="teaser_14_info_1" name="Kokeile uusia Premium-siemeniä!
+Saat niiden avulla lisää XP-pisteitä ja Farmidollareita kuin normaalien siementen avulla ja niistä kasvatetut kasvit eivät voi lakastua!"  />
+				<text id="teaser_14_info_2" name="Lisäsimme uusia siemeniä ja kaksi uutta saavutusta huippuluokan maanviljelijöille!"  />
+				<text id="teaser_14_title" name="Premium-siemenet!"  />
+				<text id="teaser_17_info_1" name="Pääsiäinen on täällä ja on aika nauttia uusista rakennuksista, koristeista, puista ja siemenistä!
+Pidä hauskaa munanetsinnässä!"  />
+				<text id="teaser_17_info_2" name="Työjärjestelmä on muuttunut. Käytät työlupia nyt vain toimintoihin, joten et ikinä lähde pois tyhjin käsin."  />
+				<text id="teaser_17_title" name="Iloista pääsiäistä!"  />
+				<text id="teaser_18_info_1" name="Kiirehdi!
+Muutaman päivän päästä pääsiäisen aika on ohi. Tarjoamme kausituotteita jopa 50% alennuksella!"  />
+				<text id="teaser_18_title" name="Nyt on mahdollisuutesi!"  />
+				<text id="teaser_19_info_1" name="Kesämuoti on täällä!
+Hanki jokin uusista hatuistamme tai kokeile hauskoja pääsiäispupun korvia!
+
+Älä myöskään unohda käydä uudella Farmer-foorumillamme."  />
+				<text id="teaser_19_title" name="Hattu päähän!"  />
+				<text id="teaser_20_info_1" name="On Goodgame Farmer -pelin 1-vuotissyntymäpäivä ja on aika juhlia yhdessä!
+Sisusta farmiasi, laita päähäsi hassu juhlahattu, äläkä missaa uusia muffinssi-siemeniä. 
+
+Pidä kiirettä, juhlat eivät kestä pitkään!"  />
+				<text id="teaser_20_title" name="Hyvää syntymäpäivää!"  />
+				<text id="teaser_21_info_1" name="Huomio! Taikasauva auttaa sinua menestymään.
+Käytä sitä ja puut, eläimet sekä siemenet tuottavat enemmän iloa ja tulosta."  />
+				<text id="teaser_21_info_2" name="Eläimet ovat nälkäisiä!
+Ruoki niitä, jotta ne kasvaisivat nopeammin!
+Puut odottavat myös lannoitusta."  />
+				<text id="teaser_21_title" name="Eläinten ruokintaa ja paljon muuta!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer on juuri nimetty European Games Awards -kilpailussa &quot;Parhaaksi sosiaaliseksi peliksi&quot;!"  />
+				<text id="teaser_23_info_2" name="Auta meitä voittamaan äänestämällä meitä!"  />
+				<text id="teaser_23_title" name="Äänestä meitä!"  />
+				<text id="teaser_24_info_1" name="Hurraa!
+Merirosvot ovat saapuneet Goodgame Farmer -peliin!
+Laita merirosvohattu päähän, istuta uusi aarresiemen ja hanki puhuva papukaija!"  />
+				<text id="teaser_24_title" name="Päivitetyt merirosvot!"  />
+				<text id="teaser_25_info_1" name="Uusin päivitys aiheutti lukuisia teknisiä ongelmia lannoittajan ja saavutettujen palkintojen muuntamissa. 
+
+Ratkaistaksemme tämän ongelman meidän täytyi palauttaa kaikki tilit aikaisempaan tilaan.
+
+Pahoittelemme aiheutunutta haittaa."  />
+				<text id="teaser_25_title" name="Aseta uudelleen"  />
+				<text id="teaser_5_info_1" name="Pelästytä vierailijat pelottavilla Halloween-koristeilla ja kauhistuttavilla rakennuksilla."  />
+				<text id="teaser_5_title" name="Uusia tavaroita!"  />
+				<text id="teaser_6_info_1" name=""  />
+				<text id="teaser_6_title" name=""  />
+				<text id="teaser_7_info_1" name="Joulu on tulossa!
+Älä missaa uusia rakennuksia, koristeita, puita ja siemeniä!"  />
+				<text id="teaser_7_info_2" name="Jos haluat, että farmillasi on aina vapaata tilaa, 
+voit varastoida tavaroitasi vajoihin ja latoihin!"  />
+				<text id="teaser_7_title" name="Uusia tavaroita"  />
+				<text id="teaser_8_info_1" name="Joululahja sinulle!
+Katso uudelta sijoituslistalta, kuinka sijoitut muihin pelaajiin nähden.
+Tule kaikista parhaimmaksi maanviljelijäksi!"  />
+				<text id="teaser_8_title" name="Sijoitus!"  />
+				<text id="teaser_9_info_1" name="Pidä kiirettä!
+Muutaman päivän päästä joulun aika on ohi. Tarjoamme isot alennukset ja voit ostaa kausituotteita jopa 50% alennuksella!!!"  />
+				<text id="teaser_9_title" name="Ainutlaatuinen mahdollisuus!"  />
+				<text id="teaser_btn_forum" name="Forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Kauppa"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Kieltäydy"  />
+				<text id="zAchievements" name="Saavutukset"  />
+				<text id="zAn2" name="Hyväksy"  />
+				<text id="zBuddies" name="Kaikki ystäväsi"  />
+				<text id="zBuddiesNoAsk" name="Tämä pelaaja ei hyväksy ystäväpyyntöjä."  />
+				<text id="zBuddiesSub" name="Poista tämä pelaaja
+ystävälistaltasi"  />
+				<text id="zBuy" name="Osta"  />
+				<text id="zCancel" name="Sulje"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Hiljennä"  />
+				<text id="zChatSenden" name="Lähetä viesti"  />
+				<text id="zChatVorgaben" name="Ennalta-annetut lauseet keskusteluun."  />
+				<text id="zCheckAGB" name="Hyväksyn käyttöehdot"  />
+				<text id="zCheckAny" name="Eläinanimaatiot pois"  />
+				<text id="zCheckMen" name="Miespuolinen avatar"  />
+				<text id="zCheckMerken" name="Tallenna nimi ja salasana?"  />
+				<text id="zCheckMute" name="Ei chattailua tämän pelaajan kanssa"  />
+				<text id="zCheckNoMoreShow" name="Älä näytä tätä ikkunaa uudelleen."  />
+				<text id="zCheckQuali" name="Vähennä grafiikan laatua
+säästääksesi tietokoneen virtaa"  />
+				<text id="zCheckShowB" name="Tee puista läpinäkyviä"  />
+				<text id="zCheckShowD" name="Tee koristeista läpinäkyviä"  />
+				<text id="zCheckShowH" name="Tee rakennuksista läpinäkyviä"  />
+				<text id="zCheckSound1" name="Tehosteet"  />
+				<text id="zCheckSound2" name="Musiikki"  />
+				<text id="zCheckWomen" name="Naispuolinen avatar"  />
+				<text id="zChipsMore" name="Lisää Farmidollareita/Kultaa"  />
+				<text id="zClose" name="Sulje"  />
+				<text id="zClothes" name="Uusia vaatteita avatarellesi"  />
+				<text id="zClothsBuy" name="Tallenna nykyinen avatar?"  />
+				<text id="zClothsSelect" name="Valitse"  />
+				<text id="zClothsZufall" name="Tämä tietokone ehdottaa tyylin"  />
+				<text id="zCookAdd" name="luo uudet kirjautumistiedot"  />
+				<text id="zCookDel" name="poista nämä kirjautumistiedot"  />
+				<text id="zDel" name="Poista"  />
+				<text id="zDown" name="Alas"  />
+				<text id="zEarnChips" name="Ansaitse lisää Farmidollareita"  />
+				<text id="zEarnGold" name="Ansaitse lisää Kultaa"  />
+				<text id="zEinladen" name="Sinun täytyy kutsua lisää {0} ystäviä ostaaksesi tämän."  />
+				<text id="zEinladen2" name="Sinulla on {1} {0} ystävää."  />
+				<text id="zEmailVerificationWinker" name="Hae lahja"  />
+				<text id="zErweitern" name="Laajenna"  />
+				<text id="zExchange" name="Vaihda Kultaa Farmidollareiksi"  />
+				<text id="zExpHigherLevelNeeded" name="Liian alhainen taso."  />
+				<text id="zExpPreviousNeeded" name="Tarvitaan aikaisempi laajennus."  />
+				<text id="zFarmowner" name="Tämän farmin omistaja"  />
+				<text id="zFertilize" name="Lannoite"  />
+				<text id="zFlinkeHand" name="Työskentele nopeammin"  />
+				<text id="zFoto" name="Valokuvat"  />
+				<text id="zFullscreen" name="Koko näyttö"  />
+				<text id="zFunc" name="Kohteet, joilla on erikoistoimintoja"  />
+				<text id="zGiftsMy" name="Minun lahjani"  />
+				<text id="zHarvest" name="korjaa sato"  />
+				<text id="zHarvestV3" name="käytä puimuria sadon korjaamiseen"  />
+				<text id="zHelp" name="Apu"  />
+				<text id="zHome" name="Minun farmini"  />
+				<text id="zInfoEMail" name="Sähköpostiosoitteen tulisi näyttää tältä:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Salasana sisältää 5-15 merkkiä.
+Käytössä olevat merkit: a-z, A-Z ,0-9, ÄÖÜ, äöü, ß-_@"  />
+				<text id="zInsOpen" name="avaa"  />
+				<text id="zInvite" name="Kutsu ystäviäsi!"  />
+				<text id="zJ" name="Suorita"  />
+				<text id="zJobben" name="Työenergia:
+Käytetään kyntö- ja sadonkorjuutöihin toisten pelaajien farmeilla.
+Niin kauan kuin työenergia on  enemmän kuin {0}  se uudistuu joka minuutti. Voit myös ostaa lisäenergiaa kaupasta."  />
+				<text id="zKatAC" name="T-paita"  />
+				<text id="zKatAG" name="Hahmo"  />
+				<text id="zKatAH" name="Hiustyyli"  />
+				<text id="zKatAK" name="Hattu"  />
+				<text id="zKatAP" name="Housut"  />
+				<text id="zKatAS" name="Kengät"  />
+				<text id="zKatAT" name="Iho"  />
+				<text id="zKatB" name="Puut"  />
+				<text id="zKatD" name="Koristeet"  />
+				<text id="zKatE" name="Laajennukset"  />
+				<text id="zKatF" name="Lannoite"  />
+				<text id="zKatG" name="Kadut"  />
+				<text id="zKatH" name="Rakennukset"  />
+				<text id="zKatR" name="Työenergia"  />
+				<text id="zKatS" name="Siemenet"  />
+				<text id="zKatT" name="Eläimet"  />
+				<text id="zKatV" name="Kulkuvälineet"  />
+				<text id="zKatX" name="Erikoistarjoukset"  />
+				<text id="zKatY" name="Kaikki"  />
+				<text id="zKennLost" name="Klikkaa, jos unohdit salasanasi."  />
+				<text id="zKennMod" name="Vaihda salasana"  />
+				<text id="zKette" name="Työlista"  />
+				<text id="zKetteDel" name="Poista työlista"  />
+				<text id="zKick" name="Poista tämä pelaaja farmiltasi."  />
+				<text id="zLinkAGB" name="Klikkaa lukeaksesi käyttöehdot."  />
+				<text id="zLogin" name="Aloita peli"  />
+				<text id="zLogout" name="Kirjaudu ulos"  />
+				<text id="zLupeM" name="Zoomaa kauemmas"  />
+				<text id="zLupeP" name="Zoomaa lähemmäs"  />
+				<text id="zMail" name="Viesti"  />
+				<text id="zMarket" name="Tori"  />
+				<text id="zMeldBad" name="Kerro käyttäjälle?"  />
+				<text id="zMen" name="Miespuolinen avatar"  />
+				<text id="zMoreChipsGold" name="Osta Farmidollareita &amp; Kultaa"  />
+				<text id="zMove" name="Siirrä"  />
+				<text id="zN" name="Älä tee sitä"  />
+				<text id="zNext" name="Seuraava"  />
+				<text id="zNoSilo" name="Sinun täytyy rakentaa ensin silo."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Pyydä salasanaasi."  />
+				<text id="zOKKennMod" name="Tallenna uusi salasana"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Monikäyttöiset Kulkuvälineet"  />
+				<text id="zPlow" name="Kynnä"  />
+				<text id="zPlowNew" name="Uusi pelto"  />
+				<text id="zPlowV1" name="Käytä traktoria kyntämiseen"  />
+				<text id="zPrefs" name="Asetukset"  />
+				<text id="zPremium" name="Osta tämä paketti"  />
+				<text id="zPremiumUse" name="Käytä näitä premium-siemeniä farmillasi."  />
+				<text id="zPrev" name="Takaisin"  />
+				<text id="zQuest" name="Tehtävät"  />
+				<text id="zRangliste" name="Ranking"  />
+				<text id="zRanking2Farm" name="Tämä pelaaja ei halua, että hänen farmillaan vieraillaan Ranking-listan kautta."  />
+				<text id="zRegistrieren" name="Rekisteröidy
+tallentaaksesi kehityksesi."  />
+				<text id="zRot" name="Käännä"  />
+				<text id="zSave" name="Tallenna"  />
+				<text id="zScrBG" name="Vierityspalkki"  />
+				<text id="zScrMove" name="Liikuta liukusäädintä"  />
+				<text id="zSell" name="Myy"  />
+				<text id="zShare" name="Kerro ystävillesi!"  />
+				<text id="zShop" name="Kauppa"  />
+				<text id="zShopEarn" name="Myy:"  />
+				<text id="zShopHarvest" name="Korjaa sato:"  />
+				<text id="zShopLagerSize" name="Paikat:"  />
+				<text id="zShopTime" name="Korjaa sato:"  />
+				<text id="zShopXP" name="Saavutetut XP:t"  />
+				<text id="zSilo" name="Silo(Lannoite)"  />
+				<text id="zSofort" name="Aloita peli rekisteröitymättä"  />
+				<text id="zSound" name="Äänet"  />
+				<text id="zSow" name="Kylvä"  />
+				<text id="zSowV2" name="käytä kylvökonetta kylvämiseen"  />
+				<text id="zStrangeAchies" name="Tämän pelaajan saavutukset"  />
+				<text id="zStrangeAdd" name="Lisää tämä pelaaja
+ystävälistallesi"  />
+				<text id="zStrangeFotos" name="Tämän pelaajan kuvagalleria"  />
+				<text id="zStrangeGift" name="Anna tälle pelaajalle
+lahja"  />
+				<text id="zStrangeHarvest" name="Palkkaa tämä pelaaja
+korjaamaan satoa farmillasi"  />
+				<text id="zStrangeHome" name="Mene tämän pelaajan farmille"  />
+				<text id="zStrangeInfo" name="Tämän pelaajan tiedot"  />
+				<text id="zStrangeMail" name="Lähetä tälle pelaajalle
+viesti"  />
+				<text id="zStrangePlow" name="Palkkaa tämä pelaaja
+kyntämään farmillasi"  />
+				<text id="zSubAsk" name="Kysymykset ja vastaukset"  />
+				<text id="zSubFotobuch" name="Kuvagalleria"  />
+				<text id="zSubMailInbox" name="Lue viestit"  />
+				<text id="zSubMailNew" name="Kirjoita viesti"  />
+				<text id="zSubNews" name="Uutiset"  />
+				<text id="zSubShot1" name="Ota kuva
+koko farmista"  />
+				<text id="zSubShot2" name="Ota kuva
+valitse alue suorakaiteen avulla"  />
+				<text id="zSubShot3" name="Ota kuva
+klikkaa kohdetta"  />
+				<text id="zSubSupport" name="Tuki"  />
+				<text id="zTanken" name="Täyttö:
+Klikkaa täyttääksesi
+Näyttö:
+Täydennyksien määrä
+ja polttoainenäyttö
+ (maximum {0})"  />
+				<text id="zTosOpen" name="Varastoi"  />
+				<text id="zTosStall" name="Vie tämä eläin talliin"  />
+				<text id="zUp" name="Ylös"  />
+				<text id="zUse" name="Käytä"  />
+				<text id="zUsersOnFarm" name="Kaikki pelaajat täällä
+tällä farmilla tai torilla"  />
+				<text id="zVZBuddies" name="{0} ystävää tarvitaan"  />
+				<text id="zVZBuddiesE" name="Jos sinulla on tarpeeksi ystäviä, voit laajentaa farmiasi edullisemmin."  />
+				<text id="zWomen" name="Naispuolinen avatar"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Tervetuloa omalle farmillesi!
+
+Anna minun auttaa sinut alkuun, yhdessä saamme farmisi kukoistamaan kauniisti."  />
+				<text id="tut_gast_1_title" name="Hei ystävä"  />
+				<text id="tut_gast_2_text" name="Katso, mansikat ovat jo valmiita!
+Mene nopeasti keräämään ne."  />
+				<text id="tut_gast_2_title" name="Korjaa satoa klikkaamalla sitä!"  />
+				<text id="tut_gast_3_text" name="Kun keräät satoa,
+saat Farmidollareita ja
+kokemuspisteitä."  />
+				<text id="tut_gast_3_title" name="Sadonkorjuu antaa sinulle Farmidollareita ja XP-pisteitä!"  />
+				<text id="tut_gast_4_text" name="Nyt sinun täytyy kyntää pellot,
+jotta voit istuttaa jotain uutta."  />
+				<text id="tut_gast_4_title" name="Kynnä pelto klikkaamalla sitä"  />
+				<text id="tut_gast_5_text" name="Voit nyt ostaa uusia siemeniä kaupasta!"  />
+				<text id="tut_gast_5_title" name="Osta uusia siemeniä kaupasta"  />
+				<text id="tut_gast_6_text" name="Ostetaan vehnää!"  />
+				<text id="tut_gast_6_title" name="Osta vehnää"  />
+				<text id="tut_gast_7_text" name="Klikkaa peltoa kylvääksesi vehnää sinne."  />
+				<text id="tut_gast_7_title" name="Kylvä vehnä pelloille"  />
+				<text id="tut_gast_8_text" name="Hyvin menee!
+Farmistasi tulee kohta kaikista kaunein.
+
+Mikset siis istuttaisi lisää?"  />
+				<text id="tut_gast_8_title" name="Hurraa! Farmisi kukoistaa!"  />
+				<text id="tut_market_1_text" name="Siemenet tarvitsevat vielä hetken kasvaakseen.
+Mikset menisi torille
+ja tekisi töitä muille pelaajille?!"  />
+				<text id="tut_market_1_title" name="Voit myös mennä töihin!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farmidollarit:"  />
+				<text id="txt1" name="Kulta:"  />
+				<text id="txt2" name="Seuraava sadonkorjuu:"  />
+				<text id="txt3" name="Ystävät:"  />
+				<text id="txt4" name="Saavutukset:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Lisää
+ystäviä"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="{0} päivä"  />
+				<text id="txt0" name="Tervetuloa"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Saat tervetuliaisbonusta joka päivä!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Saat
+#w1# Farmidollaria palkintona rekisteröitymisestä!"  />
+				<text id="21" name="Saat
+#w1# Farmidollaria päivittäisenä tervetuliaslahjana!"  />
+				<text id="2f" name="Saat siksi #anz# #ferti#."  />
+				<text id="2job" name="Saat siksi #job# työenergiaa"  />
+				<text id="2w1" name="Saat siksi #w1# Farmidollaria."  />
+				<text id="2w2" name="Saat siksi #w2# Kultaa."  />
+				<text id="2x" name="Olet kirjautunut sisään
+#days# päivänä peräkkäin."  />
+				<text id="2xp" name="Saat siksi #xp# XP:tä."  />
+				<text id="freunde" name="Saat #w1# Farmidollaria kutsumiesi pelaajien toiminnasta."  />
+				<text id="txt0" name="Tervetuloa"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Virhe"  />
+				<text id="generic_alert_connection_failed_copy" name="Huolto. Ole hyvä ja yritä uudelleen!"  />
+				<text id="generic_alert_connection_failed_title" name="Työ kesken!"  />
+				<text id="generic_alert_connection_lost_copy" name="Yhteys palvelimeen on katkennut. Ole hyvä ja yritä yhdistää uudelleen!"  />
+				<text id="generic_alert_connection_lost_description" name="Teemme tällä hetkellä ylläpitotöitä, joita tulee tehdä aika ajoin. Niitä tehdään päivittääksemme pelejä, uusia toimintoja tai korjataksemme virheitä.  &lt;br&gt;
+&lt;br&gt;
+Työskentelemme niin nopeasti kuin mahdollista, jotta pääset pelaamaan mahdollisimman pian."  />
+				<text id="generic_alert_connection_lost_promo" name="Haluatko kokeilla jotain muista peleistämme sillä aikaa?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Kiitos ymmärtämisestä!"  />
+				<text id="generic_alert_connection_lost_title" name="Yhteys poikki!"  />
+				<text id="generic_alert_error" name="Virhe"  />
+				<text id="generic_alert_information" name="Hälytys"  />
+				<text id="generic_alert_loggedout_copy" name="Kirjauduit ulos. Älä unohda tätä: Joka päivä sinulle on tarjolla sisäänkirjautumisbonus!"  />
+				<text id="generic_alert_loggedout_title" name="Nähdään myöhemmin!"  />
+				<text id="generic_alert_warning" name="Varoitus"  />
+				<text id="generic_alert_watchout" name="Huomio!"  />
+				<text id="generic_alert_win7chromebug" name="If you can&#039;t enter text, please press the Ctrl key."  />
+				<text id="generic_invalid_email_provider" name="Tämän hankkijan sähköpostiosoite ei ole sallittu!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Internet-yhteytesi vaikuttaa hitaalta tällä hetkellä. Ole hyvä ja yritä myöhemmin uudelleen!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Mitä pidät pelistämme? Mitä voisimme vielä parantaa? Ole hyvä ja kirjoita mielipiteesi Goodgame forumiin tai ryhmään."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Huomio: Kehityksesi tallennetaan vain kun olet rekisteröitynyt!"  />
+				<text id="generic_register_error_invalidemail" name="Annettu sähköpostiosoite ei ole oikea."  />
+				<text id="generic_report_muted_chattry" name="Et voi käyttää chat-toimintoa, koska se on poistettu väliaikaisesti."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Hyväksy"  />
+				<text id="generic_btn_cancel" name="Peruuta"  />
+				<text id="generic_btn_close" name="Sulje"  />
+				<text id="generic_btn_continue" name="Jatka"  />
+				<text id="generic_btn_end" name="Lopeta"  />
+				<text id="generic_btn_endnow" name="Lopeta nyt"  />
+				<text id="generic_btn_goback" name="Takaisin"  />
+				<text id="generic_btn_no" name="Ei"  />
+				<text id="generic_btn_noshare" name="Älä välitä!"  />
+				<text id="generic_btn_notaccept" name="Hylkää"  />
+				<text id="generic_btn_okay" name="Okei"  />
+				<text id="generic_btn_reconnect" name="Yhdistä uudelleen"  />
+				<text id="generic_btn_refresh" name="Päivitä"  />
+				<text id="generic_btn_report" name="Raportoi"  />
+				<text id="generic_btn_search" name="Etsi"  />
+				<text id="generic_btn_share" name="Jaa!"  />
+				<text id="generic_btn_skip" name="Jätä väliin"  />
+				<text id="generic_btn_start" name="Aloita"  />
+				<text id="generic_btn_topayment" name="Anna se minulle!"  />
+				<text id="generic_btn_yes" name="Kyllä"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="Sinun täytyy rekisteröityä ja saavuttaa taso 1 käyttääksesi chattia."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="Huomio!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Järjestelmänvalvoja"  />
+				<text id="generic_animation" name="Näytä animaatioita"  />
+				<text id="generic_bugreport" name="Kerro meille virheistä"  />
+				<text id="generic_changePass" name="Vaihda salasana"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Tulossa Pian*"  />
+				<text id="generic_date" name="Päiväys"  />
+				<text id="generic_day" name="Päivä"  />
+				<text id="generic_dayformat" name="{0}.{1}.{2}"  />
+				<text id="generic_dayformat_short" name="{1}/{0}"  />
+				<text id="generic_days" name="Päivää"  />
+				<text id="generic_day_short" name="päivää"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="Sähköposti"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Usein kysytyt kysymykset"  />
+				<text id="generic_forum" name="Foorumi"  />
+				<text id="generic_friend" name="Ystävä"  />
+				<text id="generic_friends" name="Ystävät"  />
+				<text id="generic_general" name="Yleisasetukset"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Ryhmä"  />
+				<text id="generic_guest" name="Vieras"  />
+				<text id="generic_help" name="Apu"  />
+				<text id="generic_high" name="Korkea"  />
+				<text id="generic_hour" name="Tunti"  />
+				<text id="generic_hours" name="Tuntia"  />
+				<text id="generic_hour_short" name="h"  />
+				<text id="generic_limited" name="Rajoitettu"  />
+				<text id="generic_logout" name="Kirjaudu ulos"  />
+				<text id="generic_low" name="Alhainen"  />
+				<text id="generic_medium" name="Keskitaso"  />
+				<text id="generic_minute" name="Minuutti"  />
+				<text id="generic_minutes" name="Minuuttia"  />
+				<text id="generic_minute_short" name="min"  />
+				<text id="generic_moderator" name="Moderaattori"  />
+				<text id="generic_month" name="kuukausi"  />
+				<text id="generic_months" name="kuukautta"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Musiikki päällä/pois"  />
+				<text id="generic_name" name="Nimi"  />
+				<text id="generic_news" name="Uutissähke"  />
+				<text id="generic_options" name="Valinnat"  />
+				<text id="generic_quality" name="Laatu"  />
+				<text id="generic_register" name="Tallenna ja Rekisteröidy"  />
+				<text id="generic_second" name="Sekunti"  />
+				<text id="generic_seconds" name="Sekuntia"  />
+				<text id="generic_second_short" name="sek"  />
+				<text id="generic_sound" name="Äänet päällä/pois"  />
+				<text id="generic_support" name="Tuki"  />
+				<text id="generic_today" name="Tänään"  />
+				<text id="generic_tomorrow" name="Tänään"  />
+				<text id="generic_tutorial" name="Opastus"  />
+				<text id="generic_username" name="Pelaajanimi"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Eilen"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Vanha versio!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Päivitä sivu."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Haluatko lisätä pelaajan {0} ystäväksesi?"  />
+				<text id="generic_friends_add_title" name="Ystäväpyyntö"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Lisää ystäviä!"  />
+				<text id="generic_friends_denied_copy" name="{0} on hylännyt pyyntösi."  />
+				<text id="generic_friends_denied_title" name="Pyyntö hylätty!"  />
+				<text id="generic_friends_invite_badword_copy" name="Nimi, jonka valitsit, ei ole sallittu!"  />
+				<text id="generic_friends_invite_badword_title" name="Huomio!"  />
+				<text id="generic_friends_invite_error_copy" name="Sinun täytyy rekisteröityä kutsuaksesi pelaajia."  />
+				<text id="generic_friends_invite_error_title" name="Rekisteröidy ensin"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Koko näyttö ei ole mahdollinen"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="tšekki"  />
+				<text id="generic_language_cz" name="tšekki"  />
+				<text id="generic_language_da" name="tanska"  />
+				<text id="generic_language_de" name="saksa"  />
+				<text id="generic_language_el" name="kreikka"  />
+				<text id="generic_language_en" name="englanti"  />
+				<text id="generic_language_es" name="espanja"  />
+				<text id="generic_language_fi" name="suomi"  />
+				<text id="generic_language_fr" name="ranska"  />
+				<text id="generic_language_hu" name="unkari"  />
+				<text id="generic_language_id" name="indonesia"  />
+				<text id="generic_language_it" name="italia"  />
+				<text id="generic_language_ja" name="japani"  />
+				<text id="generic_language_ko" name="korea"  />
+				<text id="generic_language_nl" name="hollanti"  />
+				<text id="generic_language_no" name="norja"  />
+				<text id="generic_language_pl" name="puola"  />
+				<text id="generic_language_pt" name="portugali"  />
+				<text id="generic_language_pt_BR" name="brasilia"  />
+				<text id="generic_language_ru" name="venäjä"  />
+				<text id="generic_language_sv" name="ruotsi"  />
+				<text id="generic_language_tr" name="turkki"  />
+				<text id="generic_language_zh_CN" name="kiina (selkokieli)"  />
+				<text id="generic_language_zh_TW" name="kiina (perinteinen)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Käyttäjätilisi on suljettu! Ota yhteyttä käyttäjätukeen!"  />
+				<text id="generic_login_banned_2" name="Tilisi on otettu pois käytöstä!
+
+Pois käytöstä {0} asti
+
+Jos sinulla on kysyttävää käytöstä poistamisesta, ota yhteyttä tukeen."  />
+				<text id="generic_login_banned_3" name="Sinun tilisi on jäädytetty pysyvästi.
+
+Jos sinulla on kysyttävää tästä, ole hyvä ja ota yhteyttä tukeen."  />
+				<text id="generic_login_banned_permanent" name="pysyvä"  />
+				<text id="generic_login_facebook" name="Kirjaudu Facebookin kautta"  />
+				<text id="generic_login_login" name="KIRJAUDU SISÄÄN"  />
+				<text id="generic_login_loginname" name="Käyttäjänimi/ Sähköposti"  />
+				<text id="generic_login_lostpassword" name="Unohditko salasanasi?"  />
+				<text id="generic_login_lostpassword_copy" name="Anna sähköpostiosoitteesi ja lähetämme sinulle salasanasi."  />
+				<text id="generic_login_lostpassword_title" name="Unohditko salasanasi?"  />
+				<text id="generic_login_newplayer" name="Oletko uusi?"  />
+				<text id="generic_login_password" name="Salasana"  />
+				<text id="generic_login_play" name="PELAA NYT"  />
+				<text id="generic_login_playnow" name="Pelaa nyt!"  />
+				<text id="generic_login_register" name="Rekisteröidy"  />
+				<text id="generic_login_rememberpassword" name="Muista salasana"  />
+				<text id="generic_login_wronglogin" name="Väärä käyttäjänimi tai salasana!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Rekisteröidy tallentaaksesi pelipisteesi!"  />
+				<text id="generic_logout_guest_title" name="Rekisteröidy"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Peli on saatavilla taas viimeistään {0} kuluessa."  />
+				<text id="servershutdownpremonition_copy" name="Peliserveri sulkeutuu {0} minuutin kuluttua. Kirjaudu ulos tai takaisin sisään säilyttääksesi pisteesi."  />
+				<text id="servershutdownpremonition_registered_copy" name="Suljemme peliserverin huoltotöiden vuoksi {0} kuluessa."  />
+				<text id="servershutdown_copy" name="Peliserveri on nyt sulkeutunut. Voit kirjautua uudelleen sisään parin minuutin kuluttua."  />
+				<text id="welcomeback_copy" name="Hauska nähdä taas! Tässä on vähän jotain, joka auttaa sinua pääsemään taas vauhtiin!"  />
+				<text id="welcomeback_title" name="Tulit takaisin!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Uusi salasana:"  />
+				<text id="generic_change_password_copy_oldpass" name="Vanha salasana:"  />
+				<text id="generic_change_password_copy_send" name="Uusi salasanasi lähetettiin sähköpostiosoitteeseesi."  />
+				<text id="generic_change_password_error_failed" name="Tämä ei ole vanha salasanasi."  />
+				<text id="generic_change_password_error_success" name="Salasanasi vaihdettiin onnistuneesti!"  />
+				<text id="generic_change_password_faild_copy" name="Uudessa salasanassa tulee olla vähintään kaksi kirjainta ja vanhan salasanan tulee olla oikein annettu!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Salasana ei saa olla tyhjä tai sisältää erikoismerkkejä."  />
+				<text id="generic_change_password_faild_title" name="Anna salasana"  />
+				<text id="generic_change_password_title" name="Salasanan vaihto"  />
+				<text id="generic_guest_change_password_faild_copy" name="Voit vaihtaa salasanaa vain rekisteröityneenä pelaajana!"  />
+				<text id="generic_guest_change_password_faild_title" name="Rekisteröidy ensin"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Lisää {0} rahoillasi!"  />
+				<text id="generic_payment_48hdiscount_button" name="Lisää kultaa ensimmäisten 48 tunnin ajan"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Lisää  {0} ensimmäisten 48 tunnin aikana"  />
+				<text id="generic_payment_48hdiscount_copy" name="Vain 48 tuntia rekisteröitymisestä - Osta valikoituja kultapakkauksia ja saat {0}%  lisää kultaa ilmaiseksi!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Vain 48 tuntia rekisteröitymisestä - Osta kultapakkauksia ja saat  {0}% lisää kultaa ilmaiseksi!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Vain 48 tuntia rekisteröitymisen jälkeen - Osta  {0} pakettia ja saat   {1} % extraa ilmaiseksi!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Vain 48 tuntia rekisteröitymisen jälkeen - Osta  {0} pakettia ja saat  {1}% extraa ilmaiseksi!"  />
+				<text id="generic_payment_btn" name="Kauppaan"  />
+				<text id="generic_payment_copy" name="Sinut siirretään pelirahakauppaan."  />
+				<text id="generic_payment_discount_button" name="Nyt {0} % enemmän kultaa!"  />
+				<text id="generic_payment_discount_copy" name="Osta nyt kultaa ja saat {0} % bonuksen!"  />
+				<text id="generic_payment_discount_copy_general" name="Osta nyt  {0} ja saat  {1} % bonusta!"  />
+				<text id="generic_payment_discount_general" name="Saat {0}%  lisää {1} rahoillasi!"  />
+				<text id="generic_payment_discount_generalshort" name="Saat {0}% lisää rahoillasi!"  />
+				<text id="generic_payment_discount_time" name="{0} jäljellä!"  />
+				<text id="generic_payment_discount_title" name="Lisää kultaa rahoillasi!"  />
+				<text id="generic_payment_newPrices" name="Alkaen nyt! Alennetut hinnat pelirahakaupassamme! Säästä oikeaa rahaa!"  />
+				<text id="generic_payment_title" name="Pelirahakauppa"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Etsi tunneli kyberavaruudesta"  />
+				<text id="loading_text_10" name="Jaa kohteet maailmaan"  />
+				<text id="loading_text_11" name="Piirrä grafiikat"  />
+				<text id="loading_text_12" name="Väritä napit"  />
+				<text id="loading_text_13" name="Piilota pääsiäismunat"  />
+				<text id="loading_text_14" name="Katso käyttäjätiedot"  />
+				<text id="loading_text_15" name="Pelästytä ötökät"  />
+				<text id="loading_text_16" name="Ruoki ohjelmoijat"  />
+				<text id="loading_text_17" name="Kokemus asiakkaan kanssa"  />
+				<text id="loading_text_18" name="Käännä tiimalasi"  />
+				<text id="loading_text_19" name="Jäähdytä järjestelmä"  />
+				<text id="loading_text_2" name="Öljyä hammasrattaat"  />
+				<text id="loading_text_20" name="Valmistuu pian"  />
+				<text id="loading_text_3" name="Pyöritä hamsterin pyörää"  />
+				<text id="loading_text_4" name="Valmistele palvelin"  />
+				<text id="loading_text_5" name="Toivo, että kaikki menee hyvin"  />
+				<text id="loading_text_6" name="Soita tuholaismyrkyttäjälle"  />
+				<text id="loading_text_7" name="Ratkaise monimutkaisia yhtälöitä"  />
+				<text id="loading_text_8" name="Kalibroi superkondensaattori"  />
+				<text id="loading_text_9" name="Korjaa kohteita"  />
+				<text id="loading_text_default" name="Alustaminen"  />
+				<text id="loading_text_itemXML" name="Lataa pelielementtejä"  />
+				<text id="progress_loadfiles" name="Lataa ominaisuuksia..."  />
+				<text id="progress_serverconnection" name="Yhdistyy palvelimeen..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Anna sähköpostiosoite"  />
+				<field id="generic_register_insertName" name="Anna nimi"  />
+				<field id="generic_register_insertPassword" name="Anna salasana"  />
+				<text id="generic_register_agb_copy" name="Sinun täytyy lukea ja hyväksyä käyttöehdot ensin! Hyväksy vasemmalla olevalla näppäimellä ja voit jatkaa!"  />
+				<text id="generic_register_agb_read" name="Lue käyttöehdot"  />
+				<text id="generic_register_alreadyavatar" name="Tällä käyttäjällä on jo avatar."  />
+				<text id="generic_register_badword" name="Et voi käyttää {0}  nimessäsi."  />
+				<text id="generic_register_btn_agb" name="Hyväksy käyttöehdot"  />
+				<text id="generic_register_btn_later" name="Myöhemmin"  />
+				<text id="generic_register_btn_next" name="Jatka"  />
+				<text id="generic_register_btn_save" name="Tallenna"  />
+				<text id="generic_register_character" name="Luo hahmosi"  />
+				<text id="generic_register_copy_0" name="Rekisteröidy nyt ilmaiseksi!"  />
+				<text id="generic_register_copy_1" name="Vieras"  />
+				<text id="generic_register_emaillong_copy" name="Valitettavasti sähköpostiosoitteesi on liian pitkä."  />
+				<text id="generic_register_emailwrong_copy" name="Antamasi sähköpostiosoite on väärä."  />
+				<text id="generic_register_email_copy" name="Sähköpostiosoite ei saa olla tyhjä tai sisältää välimerkkejä."  />
+				<text id="generic_register_error" name="Rekisteröityminen epäonnistui"  />
+				<text id="generic_register_errormistake" name="Virhe"  />
+				<text id="generic_register_error_accountalreadyexists" name="Toinen pelaaja on jo rekisteröitynyt tätä sähköpostiosoitetta käyttäen."  />
+				<text id="generic_register_forfree" name="Rekisteröidy ilmaiseksi!"  />
+				<text id="generic_register_forfree1" name="Ilmaiseksi!"  />
+				<text id="generic_register_letsgo" name="Nyt mennään!"  />
+				<text id="generic_register_namealreadyused" name="Tämä nimi on jo käytössä."  />
+				<text id="generic_register_namenotvalid" name="Antamasi nimi on epäpätevä."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Salasanasi on liian lyhyt. Siinä tulee olla vähintään 4 kirjainta."  />
+				<text id="generic_register_passwordwrong_copy" name="Antamasi salasana on väärä."  />
+				<text id="generic_register_password_copy" name="Salasana ei saa olla tyhjä tai sisältää erikoismerkkejä."  />
+				<text id="generic_register_receivenews" name="Vastaanota uutisia"  />
+				<text id="generic_register_rememberdata" name="Muista tiedot"  />
+				<text id="generic_register_reward" name="Tilaa ilmaseksi ja saat  {0}  {1}!"  />
+				<text id="generic_register_subscribe" name="Rekisteröidy"  />
+				<text id="generic_register_success" name="Olet rekisteröitynyt onnistuneesti."  />
+				<text id="generic_register_title" name="Rekisteröitymisvirhe"  />
+				<text id="generic_register_unlock" name="Avaa tämä toiminto!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Tarkkaile, kuinka puhut muille. Muuten sinut poistetaan chatista tai käyttäjätilisi suljetaan väliaikaisesti. Syy: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Et voi käyttää chat-toimintoa seuraavan {0} ajan toistuvan käytösrikkomuksen vuoksi. Syy: {1}"  />
+				<text id="generic_report_muted_domain1" name="Älä kirjoita Internetosoitteita chatissa!"  />
+				<text id="generic_report_muted_reported_copy" name="Eräs pelaaja on tehnyt valituksen sinusta. Et voit käyttää chattia seuraavan {0} ajan. Syy: {1}"  />
+				<text id="generic_report_player_copy" name="Haluatko todella raportoida pelaajasta {0}?
+Huomio! Tämän toiminnon väärinkäyttäminen johtaa käyttäjätilisi sulkemiseen."  />
+				<text id="generic_report_player_reason_0" name="Loukkaus"  />
+				<text id="generic_report_player_reason_1" name="seksuaalinen häirintä"  />
+				<text id="generic_report_player_reason_2" name="rasistinen huomautus"  />
+				<text id="generic_report_player_reason_3" name="Uhka/roskaposti"  />
+				<text id="generic_report_player_reason_title" name="Raportoinnin syy:"  />
+				<text id="generic_report_player_title" name="Raportoi pelaajasta?"  />
+				<text id="generic_report_reported_copy" name="Toinen pelaaja raportoi sinusta järjestelmänvalvojalle. Syy: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Yhdistä"  />
+				<text id="generic_select_world" name="Valitse maailma:"  />
+				<text id="generic_world" name="Maailma: {0}"  />
+				<text id="generic_world_international" name="Kansainvälinen: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

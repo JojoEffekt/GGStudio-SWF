@@ -1,0 +1,1781 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - tr - 5 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Yumurta topla"  />
+			<text id="T01" name="Yumurta topla"  />
+			<text id="T02" name="Yumurta topla"  />
+			<text id="T03" name="Yumurta topla"  />
+			<text id="T04" name="kargaları sal"  />
+			<text id="T05" name="Yumurta topla"  />
+			<text id="T06" name="yumurtaları topla"  />
+			<text id="T07" name="evcil hayvan"  />
+			<text id="T10" name="Yer mantarı topla"  />
+			<text id="T11" name="sağ"  />
+			<text id="T110" name="süt"  />
+			<text id="T111" name="fırça"  />
+			<text id="T112" name="fırça"  />
+			<text id="T113" name="süt"  />
+			<text id="T114" name="yün kırp"  />
+			<text id="T115" name="topla"  />
+			<text id="T12" name="kırp"  />
+			<text id="T13" name="sağ"  />
+			<text id="T14" name="fırçala"  />
+			<text id="T15" name="fırçala"  />
+			<text id="T16" name="fırçala"  />
+			<text id="T17" name="fırçala"  />
+			<text id="T18" name="fırçala"  />
+			<text id="T19" name="kırp"  />
+			<text id="T20" name="fırça"  />
+			<text id="T21" name="fırça"  />
+			<text id="T22" name="yün kırpma"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D320"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{1}{2}{0}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="K"  />
+				<text id="s1" name="M"  />
+				<text id="s2" name="B"  />
+				<text id="s3" name="T"  />
+				<text id="s4" name="Q"  />
+				<text id="s5" name="Qui"  />
+				<text id="s6" name="Set"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="G"  />
+				<text id="day1" name="Gün"  />
+				<text id="day2" name="Gün"  />
+				<text id="heute" name="bugün"  />
+				<text id="hour0" name="S"  />
+				<text id="hour1" name="Saat"  />
+				<text id="hour2" name="Saat"  />
+				<text id="min0" name="dak"  />
+				<text id="min1" name="Dakika"  />
+				<text id="min2" name="Dakika"  />
+				<text id="morgen" name="yarın"  />
+				<text id="sofort" name="hemen"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="GERİ"  />
+				<text id="ex" name="ÇIKIŞ"  />
+				<text id="next" name="İLERİ"  />
+				<text id="no" name="HAYIR"  />
+				<text id="yes" name="EVET"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="#play#'daki amacın, çiftliğini geliştirmek ve dekore etmek için XP ve para toplamak."  />
+				<text id="intro_01_goals_t" name="Hedef"  />
+				<text id="welcome_01_i" name="#play#!a hoşgeldin, #name# Başlamadan önce temel adımları öğrenebilmen için sana açıklamaları göstermek istiyoruz. Bunun için bir ödül kazanacaksın! Başlamaya hazır mısın?"  />
+				<text id="welcome_01_t" name="Açıklama"  />
+				<text id="welcome_02_i" name="Tmam, demek ki bu ödülü istemiyorsun.. Istediğin zaman soru işaretini tıklayarak açıklamalara dönebilirsin. Oyun kurallarını yardım sekmesinde 'Sorular &amp; Cevaplar' başlığı altında bulabilirsin. İyi eğlenceler!"  />
+				<text id="welcome_02_t" name="Açıklama 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Goodgame Farmer\'ı şimdi yükledim. Gel ve topladığım ekinlerime bir göz at!"  />
+			<text id="descriptionlongfarmer" name="Goodgame Farmer çok eğlenceli bi sanal çiftlik sunuyor! Sanal çiftliğinizi yönetirken çiftlik yaşamının bütün güzelliklerini tadacaksınız. Bitki ve ağaçlarınızı büyütün, hayvanlarınızı yetiştirin ve çiftliğin eğlenceli dünyasında puanlar ve başarı kazanın. Çifliğini büyütebilir ve bu eğlenceli oyunu dünyanın her yerinden arkadaşlarınla oynayabilirsin!"  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Bay"  />
+			<text id="A02" name="Bayan"  />
+			<text id="B00" name="Elma"  />
+			<text id="B01" name="Armut"  />
+			<text id="B010" name="Avokado"  />
+			<text id="B011" name="Hurma"  />
+			<text id="B012" name="İncir"  />
+			<text id="B013" name="Nar"  />
+			<text id="B014" name="Kivi"  />
+			<text id="B015" name="Trabzon hurması"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papaya"  />
+			<text id="B018" name="Hindistan cevizi"  />
+			<text id="B019" name="Kaktüs inciri"  />
+			<text id="B02" name="Vişne"  />
+			<text id="B020" name="Kakao"  />
+			<text id="B021" name="Ceviz"  />
+			<text id="B022" name="Ekmekmeyvesi"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Badem"  />
+			<text id="B025" name="Tropik meyve liçi"  />
+			<text id="B026" name="Yıldız meyve"  />
+			<text id="B027" name="Ateş ağacı"  />
+			<text id="B028" name="Bambu"  />
+			<text id="B029" name="Elma şekeri"  />
+			<text id="B03" name="Kayısı"  />
+			<text id="B030" name="Zencefilli çörek"  />
+			<text id="B031" name="Çikolata"  />
+			<text id="B032" name="Kırmızı paskalya ağacı"  />
+			<text id="B033" name="Mavi paskalya ağacı"  />
+			<text id="B034" name="Çürük"  />
+			<text id="B04" name="Erik"  />
+			<text id="B05" name="Zeytin"  />
+			<text id="B06" name="Muz"  />
+			<text id="B07" name="Limon"  />
+			<text id="B08" name="Portakal"  />
+			<text id="B09" name="Greyfurt"  />
+			<text id="D00" name="Odun yığını"  />
+			<text id="D01" name="Saban balyaları"  />
+			<text id="D010" name="Çotuk"  />
+			<text id="D011" name="Fayton tekerleği"  />
+			<text id="D02" name="Yem oluğu"  />
+			<text id="D03" name="Su kabı"  />
+			<text id="D04" name="Çeşme"  />
+			<text id="D05" name="Pulluk"  />
+			<text id="D06" name="Su pompası"  />
+			<text id="D07" name="At arabası"  />
+			<text id="D08" name="Varil"  />
+			<text id="D09" name="Kutu"  />
+			<text id="D11" name="Korkuluk"  />
+			<text id="D110" name="Park bankı"  />
+			<text id="D111" name="Koyu renk bank"  />
+			<text id="D112" name="fıskiye"  />
+			<text id="D113" name="Korkuluk"  />
+			<text id="D114" name="Baykuş"  />
+			<text id="D115" name="Yel değirmeni"  />
+			<text id="D116" name="Rüzgar konisi"  />
+			<text id="D117" name="Küçük gölet"  />
+			<text id="D118" name="Büyük gölet"  />
+			<text id="D119" name="Balık havuzu"  />
+			<text id="D12" name="Çim biçme makinesi"  />
+			<text id="D120" name="Havuz"  />
+			<text id="D121" name="Piknik"  />
+			<text id="D122" name="Bahçe masası"  />
+			<text id="D123" name="Sandalye"  />
+			<text id="D124" name="Hamak"  />
+			<text id="D125" name="Şezlong"  />
+			<text id="D126" name="Çamaşır ipi"  />
+			<text id="D127" name="Baca"  />
+			<text id="D128" name="Top kaktüs"  />
+			<text id="D129" name="Kırmızı lale"  />
+			<text id="D13" name="Dış kulübe"  />
+			<text id="D130" name="Sütun kaktüs"  />
+			<text id="D131" name="Süs ağacı"  />
+			<text id="D132" name="Vazo süsü"  />
+			<text id="D133" name="Beyaz laleler"  />
+			<text id="D134" name="Bostan korkuluğu"  />
+			<text id="D135" name="Yavru köpek"  />
+			<text id="D136" name="Parsel"  />
+			<text id="D137" name="Kar çocuk"  />
+			<text id="D138" name="Kardan adam"  />
+			<text id="D139" name="Kardan kadın"  />
+			<text id="D14" name="El arabası"  />
+			<text id="D140" name="Kayakçı"  />
+			<text id="D141" name="Kuşevi kedisi"  />
+			<text id="D142" name="Atlı Kızak"  />
+			<text id="D143" name="Kar meleği"  />
+			<text id="D144" name="Noel işareti"  />
+			<text id="D145" name="İkaz işareti"  />
+			<text id="D146" name="Kutup işareti"  />
+			<text id="D147" name="Kardan keçi"  />
+			<text id="D148" name="Kardan köpek"  />
+			<text id="D149" name="Kardan koyun"  />
+			<text id="D15" name="Açık renk bank"  />
+			<text id="D150" name="Kardan inek"  />
+			<text id="D151" name="Noel barakası"  />
+			<text id="D152" name="Kardan tavuk"  />
+			<text id="D153" name="Kardan domuz"  />
+			<text id="D154" name="Kardan kaz"  />
+			<text id="D155" name="Kapı"  />
+			<text id="D156" name="Çit"  />
+			<text id="D157" name="Posta"  />
+			<text id="D158" name="Mavi çam"  />
+			<text id="D159" name="Noel ağacı"  />
+			<text id="D16" name="Mangal"  />
+			<text id="D160" name="Çiçekli direk"  />
+			<text id="D161" name="Kuş yuvası"  />
+			<text id="D162" name="Saman balyalayıcı"  />
+			<text id="D163" name="Samancı kadın"  />
+			<text id="D164" name="Kırmızı yumurta"  />
+			<text id="D165" name="Mavi yumurta"  />
+			<text id="D166" name="Lila yumurta"  />
+			<text id="D167" name="Kırmızı yumurta grubu"  />
+			<text id="D168" name="Mavi yumurta grubu"  />
+			<text id="D169" name="Lila yumurta grubu"  />
+			<text id="D17" name="Bahçe süsü"  />
+			<text id="D170" name="Mavi yumurta kuluçkası"  />
+			<text id="D171" name="Yeşil yumurta kuluçkası"  />
+			<text id="D172" name="Lila yumurta evi"  />
+			<text id="D173" name="Kırmızı yumurta kuluçkası"  />
+			<text id="D174" name="Beyaz yumurta evi"  />
+			<text id="D175" name="Yumurta dolu yuva"  />
+			<text id="D176" name="Çelenk"  />
+			<text id="D177" name="Kırmızı balon"  />
+			<text id="D178" name="Mavi balon"  />
+			<text id="D179" name="Sarı balon"  />
+			<text id="D18" name="Posta kutusu"  />
+			<text id="D180" name="Korsan bayragi"  />
+			<text id="D19" name="Kuş evi"  />
+			<text id="D20" name="Çalı çit"  />
+			<text id="D21" name="Çit"  />
+			<text id="D210" name="Korkutucu kafa"  />
+			<text id="D22" name="Kazık"  />
+			<text id="D23" name="Çit"  />
+			<text id="D24" name="Kazık"  />
+			<text id="D25" name="Çitten kapı"  />
+			<text id="D26" name="Çitten kapı"  />
+			<text id="D27" name="Çalıdan kapı"  />
+			<text id="D28" name="Korku çiti"  />
+			<text id="D29" name="Korku kazığı"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Almanya"  />
+			<text id="D310" name="İtalya"  />
+			<text id="D311" name="Fransa"  />
+			<text id="D312" name="İspanya"  />
+			<text id="D313" name="Portekiz"  />
+			<text id="D314" name="Hollanda"  />
+			<text id="D315" name="Belçika"  />
+			<text id="D316" name="Polonya"  />
+			<text id="D317" name="Rusya"  />
+			<text id="D318" name="Çek Cumhuriyeti"  />
+			<text id="D319" name="Yunanistan"  />
+			<text id="D32" name="Avusturya"  />
+			<text id="D320" name="Türkiye"  />
+			<text id="D321" name="ABD"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Meksika"  />
+			<text id="D324" name="Brazilya"  />
+			<text id="D325" name="Arjantin"  />
+			<text id="D326" name="Çin"  />
+			<text id="D327" name="Japonya"  />
+			<text id="D328" name="Avustralya"  />
+			<text id="D329" name="Kore"  />
+			<text id="D33" name="İsviçre"  />
+			<text id="D330" name="Macaristan"  />
+			<text id="D331" name="Tayvan"  />
+			<text id="D34" name="Finlandiya"  />
+			<text id="D35" name="İsveç"  />
+			<text id="D36" name="Norveç"  />
+			<text id="D37" name="Danimarka"  />
+			<text id="D38" name="İngiltere"  />
+			<text id="D39" name="İrlanda"  />
+			<text id="D40" name="At"  />
+			<text id="D41" name="Ağaç"  />
+			<text id="D410" name="Korku ağacı"  />
+			<text id="D42" name="İnek"  />
+			<text id="D43" name="Koyun"  />
+			<text id="D44" name="Domuz"  />
+			<text id="D45" name="Keçi"  />
+			<text id="D46" name="Kaz"  />
+			<text id="D47" name="Tavuk"  />
+			<text id="D48" name="Köpek"  />
+			<text id="D49" name="Kedi"  />
+			<text id="D60" name="Pazar"  />
+			<text id="D70" name="İskelet"  />
+			<text id="D71" name="Zombi eli"  />
+			<text id="D72" name="Mezar taşı"  />
+			<text id="D73" name="Cadılar Bayramına özel Balkabağı"  />
+			<text id="D74" name="Cadılar Bayramına özel Balkabağı"  />
+			<text id="D75" name="Cadılar Bayramına özel Balkabağı"  />
+			<text id="D76" name="Cadılar Bayramına özel Balkabağı"  />
+			<text id="D77" name="Cadılar Bayramına özel Balkabağı"  />
+			<text id="Dxxx" name="Yeşil kuluçka"  />
+			<text id="E01" name="10x10 Alan"  />
+			<text id="E02" name="12x12 Alan"  />
+			<text id="E03" name="14x14 Alan"  />
+			<text id="E04" name="16x16 Alan"  />
+			<text id="E05" name="18x18 Alan"  />
+			<text id="E06" name="20x20 Alan"  />
+			<text id="E07" name="22x22 Alan"  />
+			<text id="E08" name="24x24 Alan"  />
+			<text id="E11" name="10x10 alan"  />
+			<text id="E12" name="12x12 alan"  />
+			<text id="E13" name="14x14 alan"  />
+			<text id="E14" name="16x16 alan"  />
+			<text id="E15" name="18x18 alan"  />
+			<text id="E16" name="20x20 alan"  />
+			<text id="E17" name="22x22 alan"  />
+			<text id="E18" name="24x24 alan"  />
+			<text id="E21" name="10x10 alan"  />
+			<text id="E22" name="12x12 alan"  />
+			<text id="E23" name="14x14 alan"  />
+			<text id="E24" name="16x16 alan"  />
+			<text id="E25" name="18x18 alan"  />
+			<text id="E26" name="20x20 alan"  />
+			<text id="E27" name="22x22 alan"  />
+			<text id="E28" name="24x24 alan"  />
+			<text id="F01" name="Süre - M"  />
+			<text id="F20" name="Yenile"  />
+			<text id="F30" name="Gübre"  />
+			<text id="F31" name="Premium Tohum"  />
+			<text id="F40" name="Besle"  />
+			<text id="F41" name="Premium Yem"  />
+			<text id="F50" name="Sihirli Degnek"  />
+			<text id="G00" name="Taştan yol"  />
+			<text id="H00" name="Samanlık"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Ambar"  />
+			<text id="H03" name="Yel değirmeni"  />
+			<text id="H04" name="Sera"  />
+			<text id="H05" name="Korku serası"  />
+			<text id="H06" name="Ürkütücü silo"  />
+			<text id="H07" name="Perili değirmen"  />
+			<text id="H08" name="Noel deposu"  />
+			<text id="H09" name="Yel değirmeni"  />
+			<text id="H10" name="Kümes"  />
+			<text id="H11" name="Domuz ahırı"  />
+			<text id="H12" name="İnek ahırıl"  />
+			<text id="H13" name="At ahırı"  />
+			<text id="H20" name="Kulübe"  />
+			<text id="H21" name="Çiftlik"  />
+			<text id="H210" name="Perili külube"  />
+			<text id="H211" name="Perili villa"  />
+			<text id="H212" name="Noel kulübesi"  />
+			<text id="H213" name="Noel evi"  />
+			<text id="H214" name="Noel evi"  />
+			<text id="H215" name="Şeker ev"  />
+			<text id="H216" name="Noel Kır Köşkü"  />
+			<text id="H217" name="Büyük Noel Villası"  />
+			<text id="H218" name="Mavi yumurta evi"  />
+			<text id="H219" name="Pembe yumurta evi"  />
+			<text id="H22" name="Villa"  />
+			<text id="H220" name="Korsan gemisi"  />
+			<text id="H23" name="Köpek kulübesi"  />
+			<text id="H24" name="Ağaç ev"  />
+			<text id="H25" name="Kır evi"  />
+			<text id="H26" name="Sera"  />
+			<text id="H27" name="Büyük ev"  />
+			<text id="H28" name="Malikane"  />
+			<text id="H29" name="Perili kabin"  />
+			<text id="H30" name="Sebze standı"  />
+			<text id="H31" name="Araç gereç dükkanı"  />
+			<text id="H32" name="Sansli Ari Sodasi"  />
+			<text id="H40" name="Silo(Gübre)"  />
+			<text id="H50" name="Perili köşk"  />
+			<text id="H51" name="Kabus kilise"  />
+			<text id="N01" name="Ağaç hasat et"  />
+			<text id="N02" name="Hayvan hasat et"  />
+			<text id="R00" name="İş enerjisi M"  />
+			<text id="R01" name="İş enerjisi S"  />
+			<text id="R02" name="İş enerjisi XL"  />
+			<text id="S00" name="Laleler"  />
+			<text id="S01" name="İnciçiçeği"  />
+			<text id="S010" name="Lila güller"  />
+			<text id="S02" name="Lavanta"  />
+			<text id="S03" name="Ayçiçeği"  />
+			<text id="S04" name="Güller"  />
+			<text id="S05" name="Yıldızçiçeği"  />
+			<text id="S06" name="Çiğdem"  />
+			<text id="S07" name="Zambak"  />
+			<text id="S08" name="Acı bakla"  />
+			<text id="S09" name="Gelincik"  />
+			<text id="S10" name="Çilekler"  />
+			<text id="S11" name="Karpuzlar"  />
+			<text id="S12" name="Ananas"  />
+			<text id="S13" name="Üzüm"  />
+			<text id="S14" name="Kavunlar"  />
+			<text id="S15" name="Ahududular"  />
+			<text id="S16" name="Yaban mersini"  />
+			<text id="S17" name="Yabanmersini"  />
+			<text id="S18" name="Bektaşi üzümü"  />
+			<text id="S19" name="Böğürtlen"  />
+			<text id="S20" name="Patlıcan"  />
+			<text id="S21" name="Karnabahar"  />
+			<text id="S210" name="Ispanak"  />
+			<text id="S211" name="Soğan"  />
+			<text id="S212" name="Kırmızı lahana"  />
+			<text id="S213" name="Patates"  />
+			<text id="S214" name="Havuç"  />
+			<text id="S215" name="Bezelye"  />
+			<text id="S216" name="Turp"  />
+			<text id="S217" name="Ravent"  />
+			<text id="S218" name="Brüksel lahanası"  />
+			<text id="S219" name="Soya"  />
+			<text id="S22" name="Kabak"  />
+			<text id="S220" name="Kırmızı turp"  />
+			<text id="S221" name="Brokoli"  />
+			<text id="S222" name="Enginar"  />
+			<text id="S223" name="Acı biber"  />
+			<text id="S224" name="Kuşkonmaz"  />
+			<text id="S225" name="Kanola"  />
+			<text id="S23" name="Biber"  />
+			<text id="S24" name="Domates"  />
+			<text id="S25" name="Fasulye"  />
+			<text id="S26" name="Salatalık"  />
+			<text id="S27" name="Pancar"  />
+			<text id="S28" name="Marul"  />
+			<text id="S29" name="Dolmalık kabak"  />
+			<text id="S30" name="Buğday"  />
+			<text id="S31" name="Yulaf"  />
+			<text id="S32" name="Pirinç"  />
+			<text id="S33" name="Çavdar"  />
+			<text id="S34" name="Mısır"  />
+			<text id="S35" name="Arpa"  />
+			<text id="S36" name="Darı"  />
+			<text id="S37" name="Tatlı mısır"  />
+			<text id="S38" name="Kırmızı buğday"  />
+			<text id="S39" name="Kılçıksız buğday"  />
+			<text id="S40" name="Kahve"  />
+			<text id="S41" name="Çay"  />
+			<text id="S42" name="Şeker pancarı"  />
+			<text id="S43" name="Aloe Vera"  />
+			<text id="S44" name="Pamuk"  />
+			<text id="S45" name="Soya"  />
+			<text id="S49" name="Kardelen"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Hazine satranc"  />
+			<text id="S52" name="Kırmızı yumurtalar"  />
+			<text id="S53" name="Mavi yumurtalar"  />
+			<text id="S54" name="Nilüfer"  />
+			<text id="S55" name="Beyaz güller"  />
+			<text id="S56" name="Habareno biberi"  />
+			<text id="S57" name="Beni Unutma"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Kek"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Lila paskalya yumurtası"  />
+			<text id="S63" name="Sarı yumurtalar"  />
+			<text id="T00" name="Tavuk"  />
+			<text id="T01" name="Kaz"  />
+			<text id="T02" name="Esmer tavuk"  />
+			<text id="T03" name="Kara tavuk"  />
+			<text id="T04" name="Horoz"  />
+			<text id="T05" name="Ördek"  />
+			<text id="T06" name="Noel Kazı"  />
+			<text id="T07" name="Papagan"  />
+			<text id="T10" name="Domuz"  />
+			<text id="T11" name="İnek"  />
+			<text id="T110" name="Kara inek"  />
+			<text id="T111" name="Boğa"  />
+			<text id="T112" name="Noel atı"  />
+			<text id="T113" name="Noel ineği"  />
+			<text id="T114" name="Koyun"  />
+			<text id="T115" name="Tek boynuzlu at"  />
+			<text id="T12" name="Koyun"  />
+			<text id="T13" name="Keçi"  />
+			<text id="T14" name="Köpek"  />
+			<text id="T15" name="Siyah kedi"  />
+			<text id="T16" name="Kahverengi kedi"  />
+			<text id="T17" name="Koyu renkli at"  />
+			<text id="T18" name="Açık renkli at"  />
+			<text id="T19" name="Kara koyun"  />
+			<text id="T20" name="Çoban köpeği"  />
+			<text id="T21" name="Ren geyiği"  />
+			<text id="T22" name="Tavşan"  />
+			<text id="V00" name="10x yakıt al"  />
+			<text id="V01" name="25x yakıt al"  />
+			<text id="V02" name="50x yakıt al"  />
+			<text id="V10" name="Traktör"  />
+			<text id="V20" name="Ekici"  />
+			<text id="V30" name="Biçerdöver"  />
+			<text id="V40" name="Dağıtıcı"  />
+			<text id="V90" name="Tank"  />
+			<text id="Y01" name="Hasadı yapılan"  />
+			<text id="Y02" name="Bakımı yapılan"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Üzgünüz, senin veya #name#&#039;in arkadaş listesi dolu,#tab#ya da #name# arkadaşlık isteğini reddetti."  />
+				<text id="buddies_add_ok" name="#name#&#039;a arkadaş oldun."  />
+				<text id="chat_dop" name="Lütfen devamlı aynı mesajı yazmayın. Teşekkürler!"  />
+				<text id="chat_nonsense" name="Lütfen yazdıklarınıza biraz dikkat edin. Teşekkürler!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Geçersiz eposta adresi.
+Lütfen geçerli bir eposta adresi gir."  />
+				<text id="email_dop" name="Bu eposta adresi mevcut.
+Lütfen başka bir adres gir."  />
+				<text id="email_no" name="Bu eposta adresi tanınmıyor."  />
+				<text id="farm_full" name="Bu çiflikte şu anda çok fazla kişi var. Lütfen başka bir çiftlik seç."  />
+				<text id="helper_job_no" name="#name#, #job# talebini reddetti veya pazardan ayrıldı."  />
+				<text id="helper_job_ok" name="#name# #job# talebini kabul etti."  />
+				<text id="helper_owner_no_money" name="Çiftlik sahibinin tarlalarını bakımın yaptırmak için yeterince parası yok."  />
+				<text id="invite_sent" name="Teşekkürler! 
+Davet e-postası arkadaşına gönderilecek."  />
+				<text id="item_dop" name="Bu öğe için limitin çoktan doldu."  />
+				<text id="kenn_bad" name="Şifre için lütfen
+aşağıdaki karakterleri kullanın:
+5 ila 15 arasi, kullanilabilecekler#tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="Şifre tanınmıyor"  />
+				<text id="kenn_unequal" name="Şifre yanlış girildi."  />
+				<text id="kick" name="#name# seni tarlasından attı!#tab#Bu hatalı davranmışsın demek oluyor!?"  />
+				<text id="lagernosell" name="Bu binayı satmadan önce içini boşaltman gerekiyor."  />
+				<text id="lager_building" name="Eşyalarını saklamak için bir ambar yada kiler inşa etmelisin."  />
+				<text id="lager_cantsell" name="Deponda daha fazla müsait yer bulunmadıkça bu binayı satamazsın."  />
+				<text id="lager_voll" name="Fonksiyon öğelerine sadece boş fonksiyon öğelerini ekleyebilirsin."  />
+				<text id="login_bad" name="Giriş hatası. Şifreni unuttuysan,&#039;Şifreni mi unuttun?&#039;a tıkla.#tab#Yardım istiyorsan,
+sbize yaz
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="Oyuncu adları için lütfen
+aşağıdaki karakterleri kullanın:#tab#2-15 karakter, uygun karakterler
+a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="kötü_isim_mobage"  />
+				<text id="name_defaults" name="Bu oyuncu adı mevcut. Lütfen başka bir ad seçin:"  />
+				<text id="name_spam" name="Lütfen başka ad verin"  />
+				<text id="no_agb" name="Şart ve koşulları kabul et."  />
+				<text id="no_arbeitskraft" name="Bu iş için yeterli enerjin yok. Yeterli enerjiye sahip olana kadar bekle veya mağazan biraz satın al."  />
+				<text id="no_buddies" name="Ne yazik ki, henüz yeterince arkadaş davet etmedin.#tab#Bu öğeyi #obj# satın alabilmek için #anz# arkadaş daha davet etmen gerekiyor."  />
+				<text id="no_chat" name="Sohbet edebilmek için kayıt olup Seviye 1'e ulaşman gerekiyor."  />
+				<text id="no_ferti" name="Gübre #name# bitti.
+Lütfen yenisini al."  />
+				<text id="no_food" name="Tüm hayvanlarini beslemek icin yeterli miktarda yemin yok!"  />
+				<text id="no_gender" name="Henüz cinsiyeti seçmedin. Lütfen bir resmin üzerine tıkla."  />
+				<text id="no_lager" name="Bu öğe için depoda uygun bir yer yok."  />
+				<text id="no_money" name="Bu işlem içim paran yeterli değil."  />
+				<text id="no_premium" name="Tüm #name# premium tohumlarını kullandın. Yeni tohum satın al."  />
+				<text id="no_regi" name="Bu işlev sadece kayıtlı oyuncular tarafından kullanılabilir.#tab#Çiftliğini elinde tutmak için lütfen kayıt ol."  />
+				<text id="no_tanken" name="Bu eylem için yeterince yakıtın yok."  />
+				<text id="no_zauberstaub" name="{0} simdi bos.
+Daha fazla almak icin görevleri tamamla."  />
+				<text id="old_client_version" name="Eski versiyon! Sayfayı yenile."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Sıralama&#039;da yer alabilmek için kaydolmalı ve 3. seviyeye ulaşmalısın."  />
+				<text id="rangliste_player_not_ranked" name="Sıralama&#039;da görüntülenebilmesi için bu oyuncunun Seviye 3&#039;e ulaşması gerekiyor."  />
+				<text id="rangliste_unknown_id" name="Üzgünüz, bu isimde kayıtlı oyuncu bulunamadı."  />
+				<text id="vehiclesnosell" name="Bu araç kullanımda."  />
+				<text id="vollscreen" name="Tam ekran modunda sohbet edemezsin."  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Arkadaşlık"  />
+				<text id="farm_full" name="Oops!"  />
+				<text id="helper_job_ok" name="İş kabul edildi"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="aktif"  />
+				<text id="buyOf" name="Tüketimi #anz# of #menge#"  />
+				<text id="clickZum" name="Tıkla"  />
+				<text id="deactive" name="aktif değil"  />
+				<text id="doContent" name="Seçim penceresi"  />
+				<text id="doDel" name="Sil"  />
+				<text id="doFertilize" name="Gübrele"  />
+				<text id="doFertilizeAnimals" name="besle"  />
+				<text id="doFortune" name="Piyango oyna"  />
+				<text id="doHarvest" name="Hasat et"  />
+				<text id="doMove" name="Hareket et"  />
+				<text id="doPlow" name="Bakım yap"  />
+				<text id="doPos" name="Yerleştir"  />
+				<text id="doRot" name="Döndür"  />
+				<text id="doSell" name="Sat"  />
+				<text id="doSow" name="Tohum ek"  />
+				<text id="doTosOpen" name="depola"  />
+				<text id="doVehicles" name="işlenmiş"  />
+				<text id="farmbuddie" name="Arkadaşın#Arkadaşın"  />
+				<text id="farmgast" name="konuk#konuk"  />
+				<text id="farmhelperharvest" name="hasat yardımcısı#hasat yardımcısı"  />
+				<text id="farmhelperplow" name="yardımcı#yardımcı"  />
+				<text id="farmowner" name="Çiftlik sahibi#Çiftlik sahibi"  />
+				<text id="farmvisitor" name="ziyaretçi#ziyaretçi"  />
+				<text id="isFertilize" name="gübrelenmiş"  />
+				<text id="isHarvest" name="hasat edildi"  />
+				<text id="isReadyB" name="olgun"  />
+				<text id="isReadyEX" name="kurumuş"  />
+				<text id="isReadyFin" name="hasata hazır"  />
+				<text id="isReadyS" name="büyümüş"  />
+				<text id="isReadyT" name="hazır"  />
+				<text id="jobbenrest" name="#anz# İş enerjisi"  />
+				<text id="jobVehicles" name="--- taşıtlı işler:"  />
+				<text id="jobWalk" name="--- yaya işleri:"  />
+				<text id="ketteZum" name="İş listesinde"  />
+				<text id="Market" name="Pazar"  />
+				<text id="marketvisitor" name="oyuncu#oyuncu"  />
+				<text id="my" name="sen kendin"  />
+				<text id="noPfad" name="Yolum kapalı.
+Bu nedenle gidemiyorum :-("  />
+				<text id="online" name="çevrimiçisin"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Oyuncu"  />
+				<text id="AC" name="Tişört"  />
+				<text id="AG" name="Figür"  />
+				<text id="AH" name="Saç stili"  />
+				<text id="AP" name="Pantolon"  />
+				<text id="AS" name="Ayakkabı"  />
+				<text id="AT" name="Ten"  />
+				<text id="B" name="Ağaç"  />
+				<text id="D" name="Süsleme"  />
+				<text id="E" name="Çiftlik büyütme"  />
+				<text id="F" name="Gübre"  />
+				<text id="G" name="Cadde"  />
+				<text id="H" name="Ev"  />
+				<text id="R" name="İşe gir"  />
+				<text id="S" name="Tarla"  />
+				<text id="T" name="Hayvan"  />
+				<text id="V" name="Taşıt"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Ağaç"  />
+				<text id="D0" name="Çiftlik dekorasyonu"  />
+				<text id="D1" name="Ev dekorasyonu"  />
+				<text id="D2" name="Sınır"  />
+				<text id="D3" name="Bayrak"  />
+				<text id="D4" name=""  />
+				<text id="D7" name=""  />
+				<text id="F0" name="Hızlandırma"  />
+				<text id="F1" name="verimi arttıran"  />
+				<text id="F2" name="Yenile"  />
+				<text id="H0" name="Çiftlik"  />
+				<text id="H1" name="Ahır"  />
+				<text id="H2" name="Apartman"  />
+				<text id="H4" name="İşlev"  />
+				<text id="H5" name="özel bina"  />
+				<text id="N0" name="Daha hızlı çalış"  />
+				<text id="R0" name="Başka tarlalarda çalış"  />
+				<text id="S0" name="Çiçek"  />
+				<text id="S1" name="Meyve"  />
+				<text id="S2" name="Sebze"  />
+				<text id="S3" name="Tahıl"  />
+				<text id="S4" name="Diğerleri"  />
+				<text id="S5" name="Premium"  />
+				<text id="S6" name="Sezon"  />
+				<text id="T0" name="Kümes hayvanı"  />
+				<text id="T1" name="Çiftlik hayvanı"  />
+				<text id="T2" name="Ev hayvanı"  />
+				<text id="V0" name="Akaryakıt"  />
+				<text id="V1" name="Traktör"  />
+				<text id="V2" name="Ekici"  />
+				<text id="V3" name="Biçerdöver"  />
+				<text id="V4" name="Gübre Makinesi"  />
+				<text id="V9" name="Tank"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Yeni ödül!"  />
+				<text id="txt1" name="Tebrikler!
+ '#name#' – Seviye #level# ödülünü kazandın."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Başkalarına ilet"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Kazanılan çiftlik doları sayısı"  />
+				<text id="i10" name="Toplanan çiçek sayısı"  />
+				<text id="i11" name="Toplanan ağaç sayısı"  />
+				<text id="i12" name="Toplanan hayvan sayısı"  />
+				<text id="i13" name="Hediyeler için harcanan çip sayısı"  />
+				<text id="i14" name="Alınan hediye sayısı"  />
+				<text id="i15" name="Destek veren komşu sayısı"  />
+				<text id="i16" name="Çekilen fotoğraf sayısı"  />
+				<text id="i17" name="Eski sisteme göre bitirilen bakım işi sayısı"  />
+				<text id="i18" name="Eski sisteme göre bitirilen hasat işi sayısı"  />
+				<text id="i19" name="Eski sisteme göre verilen bakım işi sayısı"  />
+				<text id="i2" name="Harcanan çiftlik doları sayısı"  />
+				<text id="i20" name="Eski sisteme göre verilen hasat işi sayısı"  />
+				<text id="i21" name="Gübrelenen tarla, agac ve beslenen hayvan sayısı: Zaman avantajı"  />
+				<text id="i22" name="Gübrelenen tarla, agac ve beslenen hayvan sayısı: Sihirli çubuk"  />
+				<text id="i23" name="Toplanan başka tohum sayısı"  />
+				<text id="i24" name="Toplanan başka meyve sayısı"  />
+				<text id="i25" name="Toplanan başka çiçek sayısı"  />
+				<text id="i26" name="Toplanan başka sebze sayısı"  />
+				<text id="i27" name="Toplanan başka ağaç sayısı"  />
+				<text id="i28" name="Toplanan başka hayvan sayısı"  />
+				<text id="i29" name="Toplanan başka birim sayısı"  />
+				<text id="i3" name="Satın alınan bina sayısı"  />
+				<text id="i30" name="Başka ustalıkların sayısı"  />
+				<text id="i31" name="Toplam ustalık sayısı"  />
+				<text id="i32" name="Arkadaş sayısı"  />
+				<text id="i33" name="Satın alınan ağaç sayısı"  />
+				<text id="i34" name="hasat edilen premium tohum sayısı"  />
+				<text id="i35" name="Hasat edilen premium tohum çeşit sayısı"  />
+				<text id="i36" name="Saban işi esnasında sürülen tarla sayısı"  />
+				<text id="i37" name="Saban işi sırasında çiftliğinde sürülen tarla sayısı"  />
+				<text id="i38" name="Hasat zamanı tarlanda hasat edilen arazi, ağaç ve hayvan sayısı"  />
+				<text id="i39" name="Hasat zamanı çiftliğinde hasat edilen arazi, ağaç ve hayvan sayısı"  />
+				<text id="i4" name="Alınan süs sayısı"  />
+				<text id="i5" name="Alınan hayvan sayısı"  />
+				<text id="i6" name="Toplana tohum sayısı"  />
+				<text id="i7" name="Toplanan meyve sayısı"  />
+				<text id="i8" name="Toplanan sebze sayısı"  />
+				<text id="i9" name="Toplanan tahıl sayısı"  />
+				<text id="next" name="Bir sonraki adım
+#level#"  />
+				<text id="t1" name="Hoyrat Çiftçi"  />
+				<text id="t10" name="Çiçek Çocuk"  />
+				<text id="t11" name="Ağaç sever"  />
+				<text id="t12" name="Hayvansever Çiftçi"  />
+				<text id="t13" name="Hediyelere harcanan Chipler"  />
+				<text id="t14" name="Alınan hediyeler"  />
+				<text id="t15" name="Seni destekleyen komşular"  />
+				<text id="t16" name="Çekilen resimler"  />
+				<text id="t17" name="Süper Toplayıcı"  />
+				<text id="t18" name="Yardımsever Hasatçı"  />
+				<text id="t19" name="Yaşlı Yönetici"  />
+				<text id="t2" name="Alışveriş Kralı"  />
+				<text id="t20" name="Gerçek Dönüş"  />
+				<text id="t21" name="Hızlı Çiftçi"  />
+				<text id="t22" name="First Klas"  />
+				<text id="t23" name="Elyaf Toplayıcı"  />
+				<text id="t24" name="Uçan Meyve"  />
+				<text id="t25" name="Çiçek Şenliği"  />
+				<text id="t26" name="Muhteşem Yeşiller"  />
+				<text id="t27" name="Bitki Biti"  />
+				<text id="t28" name="Mutlu Sürü"  />
+				<text id="t29" name="Zevkli Çiftçi"  />
+				<text id="t3" name="Bina ustası"  />
+				<text id="t30" name="Farklı ustalıklar"  />
+				<text id="t31" name="Ustalıklar"  />
+				<text id="t32" name="Cool Takım"  />
+				<text id="t33" name="Kabuk Böceği"  />
+				<text id="t34" name="Altın Hasat"  />
+				<text id="t35" name="Parlak Tohumlar"  />
+				<text id="t36" name="Elverişli Kar Küreleyici"  />
+				<text id="t37" name="Otoriter süpervizör"  />
+				<text id="t38" name="Yardımsever Hasatçı"  />
+				<text id="t39" name="Gerçekleşen iade"  />
+				<text id="t4" name="Muhteşem Dekorasyon"  />
+				<text id="t5" name="Tapılası Hayvanlar"  />
+				<text id="t6" name="Süper Tohumcu"  />
+				<text id="t7" name="Verimli Meyveler"  />
+				<text id="t8" name="Vejeteryan Bereketi"  />
+				<text id="t9" name="Tahıl Toplayısı"  />
+				<text id="txt0" name="Fiyatlar"  />
+				<text id="txt1" name="Toplam ilerleme"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Pardon!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Oyun dışı bırakıldın.
+Oyun dışı kalma süresi: #time# dakika
+Bu durumla ilgili bir sorun varsa #support# a yaz"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Önemli bilgi !!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Pardon!"  />
+				<text id="txt1" name="Bu bilgisayarda şu anda #spielname# adlı bir pencere açık."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="DİKKAT !!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Sunucu bağlantısı ne yazık ki #time# saniye içinde kesilecek!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Seç"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Tesadüf"  />
+				<text id="txt1" name="Kaydet"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Oyuncuyu şikayet et!"  />
+				<text id="txt1" name="Oyuncu {0}\'yu gerçekten şikayet etmek istiyor musun?"  />
+				<text id="txt2" name="evet"  />
+				<text id="txt3" name="hayır"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Arkadaşını onayla"  />
+				<text id="txt1" name="#name# seni arkadaş olarak eklemek istiyor."  />
+				<text id="txt2" name="Reddet"  />
+				<text id="txt3" name="Kabul et"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Arkadaşlık"  />
+				<text id="txt1" name="#name#&#039;e arkadaşın olmak isteyip istemediğini sor."  />
+				<text id="txt2" name="Sonlandır"  />
+				<text id="txt3" name="Sor"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} senin {0} arkadaşın. Onları silmek için önce {0} arkadaşlığını iptal etmelisin!"  />
+				<text id="txt0" name=" Arkadaşını sil"  />
+				<text id="txt1" name=" #name#’ı gerçekten arkadaş listenden çıkarmak istiyor musun?"  />
+				<text id="txt2" name="Sonlandır"  />
+				<text id="txt3" name="Kabul et"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Öğe sil"  />
+				<text id="txt1" name="Bu öğeyi #obj# gerçekten silmek mi istiyorsun?"  />
+				<text id="txt2" name="Hayır"  />
+				<text id="txt3" name="Evet"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Devam et"  />
+				<text id="tTitle" name="Ödül!"  />
+				<text id="txt0" name="Hediyeni sana bir e-postayla beraber yolladik."  />
+				<text id="txt1" name="Simdi topla!"  />
+				<text id="txt2" name="Istersen tekrar e-posta gönderebiliriz!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Devam et"  />
+				<text id="tTitle" name="E-posta gönderildi"  />
+				<text id="txt0" name="Ödülünle birlikte sana bir e-posta yolladik!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Devam et"  />
+				<text id="tTitle" name="Hediye"  />
+				<text id="txt0" name="Ödülün bize ulasti!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Genişlet"  />
+				<text id="txt1" name="Daha fazla mal saklayabilmek icin bu binayı genişlet."  />
+				<text id="txt2" name="Bitir"  />
+				<text id="txt3" name="Satın al"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Tarla büyültüldü!"  />
+				<text id="txt1" name="Tebrikler!
+Tarlan artık daha büyük."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Başkalarına ilet"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Fotoğraf albümü"  />
+				<text id="txt1" name="Sonlandır"  />
+				<text id="txt2" name="Sil"  />
+				<text id="txt3" name="Kaydet"  />
+				<text id="txt4" name="Resim için bir şeyler yaz!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Kayıt ol"  />
+				<text id="txt1" name="Oyunu kaydetmek için kayıt olmanız gerekiyor. Yoksa bilgileriniz silinecek!
+
+Kayıt ücretsiz!"  />
+				<text id="txt2" name="Kayıt ol"  />
+				<text id="txt3" name="Çıkış"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Hasat işi teklifi"  />
+				<text id="txt1" name="#name#&#039;e tarla hasadında yardım etmek ister misin? 
+Her aktivite için ödül olarak ekstra XP kazanacaksın!"  />
+				<text id="txt2" name="Reddet"  />
+				<text id="txt3" name="Kabul et"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Bakım işi teklifi"  />
+				<text id="txt1" name="#name#&#039;e tarla bakımında yardım etmek ister misin? 
+Her iş için ödül olarak Çiftlik doları kazanırsın!"  />
+				<text id="txt2" name="Reddet"  />
+				<text id="txt3" name="Kabul et"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Hasat işini başkasına devret"  />
+				<text id="txt1" name="#name#&#039;a tarlanı hasat etmek isteyip istemediğini sor. 
+Diğer oyuncular hasat için  tarlana geldiklerinde ekstra Farm doları kazanırsın!"  />
+				<text id="txt2" name="Sonlandır"  />
+				<text id="txt3" name="Kabul et"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Bakım işini başkasına devret"  />
+				<text id="txt1" name="#name#&#039;a tarlanın bakımını yapmak isteyip istemediğini sor. 
+Tarlanda başkası çalıştığında anında fazladan XP kazanırsın!"  />
+				<text id="txt2" name="Sonlandır"  />
+				<text id="txt3" name="Sor"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Sil"  />
+				<text id="txt1" name="Satın al"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Dolu alan"  />
+				<text id="txt1" name="Genişlet"  />
+				<text id="txt2" name="Depo"  />
+				<text id="txt3" name="Geri"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Sil"  />
+				<text id="txt1" name="Hasat et"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Dolu alanlar"  />
+				<text id="txt1" name="Genişlet"  />
+				<text id="txt2" name="Hepsini hasat et"  />
+				<text id="txt3" name="&#039;{0}&#039; Ile besle"  />
+				<text id="txt4" name="&#039;{0}&#039; ile besle"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Dükkandaki yeni ürünlerin kilidini kaldirdin!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Yeni eşyalar!"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Seviye atladın!"  />
+				<text id="txt1" name="Tebrikler! Bir üst seviyeye ulaştın!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Başkalarına ilet"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Şifremi unuttum"  />
+				<text id="txt1" name="Lütfen burada kayıt olduğun eposta adresini gir ve &#039;gönder&#039;e tıkla.
+Sonrasında şifren sana gönderilecek."  />
+				<text id="txt2" name="Eposta"  />
+				<text id="txt3" name="Sonlandır"  />
+				<text id="txt4" name="Gönder"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Çıkış"  />
+				<text id="txt1" name="Tarlayı terk etmek mi istiyorsun?"  />
+				<text id="txt2" name="Sonlandır"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Oops!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Kayıt ol"  />
+				<text id="txt1" name="Tarlanı elinde tutmak için kayıt ol."  />
+				<text id="txt2" name="Çıkış"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Kayıt ol"  />
+				<text id="txt1" name="Eposta"  />
+				<text id="txt2" name="Şifre"  />
+				<text id="txt3" name="Şart ve Koşullar"  />
+				<text id="txt4" name="Sonlandır"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Oyuncu oluştur"  />
+				<text id="txt1" name="Adı"  />
+				<text id="txt2" name="bayan"  />
+				<text id="txt3" name="erkek"  />
+				<text id="txt4" name="Sonlandır"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Şimdi oyna"  />
+				<text id="txt1" name="Kayıt ol"  />
+				<text id="txt2" name="Giriş"  />
+				<text id="txt3" name="Ad / Eposta"  />
+				<text id="txt4" name="Şifre"  />
+				<text id="txt5" name="Şifreni mi unuttun?"  />
+				<text id="txt6" name="Bilgileri hatırla"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Pazar"  />
+				<text id="txt1" name="gösterme"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Merhaba #name# !
+Burası #spielname#’ın pazarı. Burada başka oyuncuları hasat veya bakım işine alabilirsin."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Şifre değiştir"  />
+				<text id="txt1" name="Eski Şifre"  />
+				<text id="txt2" name="Yeni Şifre"  />
+				<text id="txt3" name="Yeni şifreyi tekrarla"  />
+				<text id="txt4" name="Sonlandır"  />
+				<text id="txt5" name="Kaydet"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Oops!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Kayıt ol"  />
+				<text id="txt3" name="Arkadaş davet et"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Ayarlar"  />
+				<text id="txt1" name="Ağaçları göster"  />
+				<text id="txt10" name="yüksek"  />
+				<text id="txt11" name="orta"  />
+				<text id="txt12" name="düşük"  />
+				<text id="txt13" name="düşük"  />
+				<text id="txt14" name="Tüm arkadaşlık isteklerini reddet."  />
+				<text id="txt15" name="Sıralama&#039;dan ziyaretçileri blokla."  />
+				<text id="txt16" name="Oyunun ipuçlarını göster."  />
+				<text id="txt2" name="Evleri göster"  />
+				<text id="txt3" name="Dekorasyonu göster"  />
+				<text id="txt4" name="&#039;hızlı&#039; gösterim"  />
+				<text id="txt5" name="Şifre değiştir"  />
+				<text id="txt6" name="Sonlandır"  />
+				<text id="txt7" name="Kaydet"  />
+				<text id="txt8" name="Animasyonu kaldır"  />
+				<text id="txt9" name="kalite"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="İsim/sıralama ara"  />
+				<text id="txt0" name="Sıralama"  />
+				<text id="txt1" name="ara"  />
+				<text id="txt2" name="Sıralama"  />
+				<text id="txt3" name="İsim"  />
+				<text id="txt4" name="Seviye"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Bugün"  />
+				<text id="zeitraum1" name="Bu hafta"  />
+				<text id="zeitraum2" name="Bu ay"  />
+				<text id="zeitraum3" name="Her zaman"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Öğeyi sat"  />
+				<text id="txt1" name="Bu öğeyi #obj# gerçekten #w1# çiftlik doları için satmak mı istiyorsun?"  />
+				<text id="txt2" name="Hayır"  />
+				<text id="txt3" name="Evet"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Bu destek gübresiyle kuruyan ekinler tekrar düzelir."  />
+				<text id="F30" name="Agaclarin ve bitkilerin büyüme hizini %10 arttirir."  />
+				<text id="F31" name="Bitkilerin ve agaclarin büyüme hizini %50 arttirir."  />
+				<text id="F40" name="Hayvanlarin büyüme hizini %10 arttirir!"  />
+				<text id="F41" name="Hayvanlarin büyüme hizini %50 arttirir."  />
+				<text id="F50" name="Tohumlardan, agaçlardan ve hayvanlardan elde edilen tecrübe puanini %50 arttirir!"  />
+				<text id="H00" name="Ahırda en fazla 15 adet eşya saklayabilirsin."  />
+				<text id="H02" name="Barakada en fazla 4 adet eşya saklayabilirsin."  />
+				<text id="H10" name="Kümes çok sayıda tavuğa
+aynı anda bakabilmeni sağlar."  />
+				<text id="H11" name="Domuz ahırı çok
+sayıda domuza aynı
+anda bakabilmeni sağlar."  />
+				<text id="H12" name="İnek ahırı çok
+sayıda ineğe aynı
+anda bakabilmeni sağlar."  />
+				<text id="H13" name="At ahırı çok
+sayıda ata aynı anda
+bakabilmeni sağlar."  />
+				<text id="H40" name="Silo gübre alisverisinde her zaman bonus kazandirir."  />
+				<text id="N01" name="Verilen izin:
+bütün hazır ağaçları bir defada hasat etmek."  />
+				<text id="N02" name="Verilen izin:
+bütün hazır hayvanları bir defada hasat etmek."  />
+				<text id="R0x" name="Bu ünite iş enerjini {0} kat arttırır."  />
+				<text id="S5x" name="Premium yumurtalar daha fazla XP ve çiftlik doları kazandırır ve çürümezler!
+Paket olarak satın alınabilirler ve ayrıca ücret ödemeden onları saklayabilirsin."  />
+				<text id="V0x" name="Bu akaryakıt bidonu
+rezervlerini {0} kez
+daha doldurmanı sağlar."  />
+				<text id="V10" name="Traktörle en fazla dört
+tarlayı aynı anda sürebilirsin."  />
+				<text id="V20" name="Ekiciyle en fazla dört
+tarlayı aynı anda ekebilirsin."  />
+				<text id="V30" name="Biçerdöverle en fazla dört tarlayı aynı anda biçebilirsin."  />
+				<text id="V40" name="Gübre makinesiyle en fazla dört tarlayı aynı anda gübreleyebilirsin."  />
+				<text id="V90" name="Benzin bidonu alırsan %20
+daha fazla doldurabilme
+avantajına sahip olacaksın"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Seviye #level#"  />
+				<text id="txtAnzahl" name="Sayı:"  />
+				<text id="txtAnzahlVon" name="tarafından"  />
+				<text id="txtBenutzen" name="Kullan"  />
+				<text id="txtBuy" name="Sat"  />
+				<text id="txtHarvestXP" name="Hasat:"  />
+				<text id="txtPremium" name="Premium"  />
+				<text id="txtSize" name="Paket boyu:"  />
+				<text id="txtVerbrauch" name="Tüketim"  />
+				<text id="txtWork" name="Iş"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Oyunun ipuçlarını gizle."  />
+				<text id="shoptipp_0_title" name="Hoop!"  />
+				<text id="shoptipp_1_text" name="Yeterli yakıtın yok. Tekrar doldurmak ister misin?"  />
+				<text id="shoptipp_1_title" name="Yakıt doldur"  />
+				<text id="shoptipp_2_text" name="Yeterli gübren yok. Biraz satın almak ister misin?"  />
+				<text id="shoptipp_2_title" name="Gübre satın al"  />
+				<text id="shoptipp_3_text" name="Çiftliğinde yeterli alan yok. Genişletmek ister misin?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="İş enerjin tükendi!
+Manuel olarak bunu tekrar doldurabileceğini biliyor muydun?"  />
+				<text id="shoptipp_4_title" name="İşkolik!"  />
+				<text id="shoptipp_5_text" name="Bunu gerceklestirmek icin yeterli premium tohumun yok. Biraz satin almak ister misin?"  />
+				<text id="shoptipp_5_title" name="Yüksek kalite tohum satin al"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Dükkan"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="Çalış"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Ben iş arıyorum."  />
+				<text id="txt1" name="Ben işlemek isterim"  />
+				<text id="txt2" name="Ben hasat istiyorum."  />
+				<text id="txt3" name="Kim toprak sürmek ister?"  />
+				<text id="txt4" name="Hasada kimler katilmak ister?"  />
+				<text id="txt5" name="Merhaba!"  />
+				<text id="txt6" name="Tesekkürler"  />
+				<text id="txt7" name="Evet"  />
+				<text id="txt8" name="Hayır"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Arkadaş davet et"  />
+				<text id="txt1" name="Adın"  />
+				<text id="txt2" name="Arkadaşının adı"  />
+				<text id="txt3" name="Arkadaşının epostası"  />
+				<text id="txt4" name="Sonlandır"  />
+				<text id="txt5" name="Davet et"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Sesi kapat"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Ari Sodasi"  />
+				<text id="txt1" name="Ari Sodasi oyna ve muhtesem ödüller kazan!"  />
+				<text id="txt2" name="Döndür!"  />
+				<text id="txt3" name="Ilk tur ücretsiz!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Oley!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Bir sonraki adım
+#xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Çiflik doları:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Arkadaşlar:"  />
+				<text id="txt4" name="Ödüller:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Oyuncuyu at"  />
+				<text id="txt1" name=" #name#’i tarlandan gerçekten atmak mı istiyorsun?"  />
+				<text id="txt2" name="Kes"  />
+				<text id="txt3" name="Kabul et"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Bahar geliyor! Yeni binaları, dekorasyonları, hayvanları ve ağaçları kaçırma!"  />
+				<text id="teaser_11_info_1" name="Dinle!
+Çiftliğinden möleme ve gıdaklama sesleri geliyor!
+Goodgame Farmer&#039;daki yeni seslerle eğlencenin tadını çıkar"  />
+				<text id="teaser_11_title" name="Ses!"  />
+				<text id="teaser_12_info_1" name="Seviye 10dan itibaren Pazar Yerinde ücretsiz sohbete katılabilirsin.Düşük seviyelerde ise sadece kalıp cümleler kullanılabilir."  />
+				<text id="teaser_12_title" name="PazarYeri Kuralları"  />
+				<text id="teaser_13_info_1" name="Daha fazla seçenek!
+Kendini yeni çiftlik hayvanları, ağaçlar, dekorasyon ve bina seçeneklerine hazırla!"  />
+				<text id="teaser_13_info_2" name="Bu arda, tüm ödüllere yeni seviyeler ekledik!"  />
+				<text id="teaser_14_info_1" name="Yeni muhteşem premium tohumları dene!
+Normal ekinden daha fazla XP ve Çiftlik doları kazandıracaklar ve çürümeyecekler!"  />
+				<text id="teaser_14_info_2" name="Ayrıca üst seviye çiftçilerimiz için yeni tohumlar ve iki yeni başarı ekledik !"  />
+				<text id="teaser_14_title" name="Premium tohumlar!"  />
+				<text id="teaser_17_info_1" name="Paskalya burada ve yeni dekorasyonlar, binalar, ağaçlar ve tohumlarla eğlenmenin tam sırası! Yumurta avında eğlencenin tadını çıkar!"  />
+				<text id="teaser_17_info_2" name="Ayrıca iş sistemi tekrar yapılandırıldı. Artık çalışma izinlerini sadece bir iş yaptığında harcayabilirsin, Böylece boş elle dönmeyeceksin."  />
+				<text id="teaser_17_title" name="Mutlu Paskalya Bayramı!"  />
+				<text id="teaser_18_info_1" name="Acele et!
+Paskalya eğlencelerinin bitmesine çok az gün kaldı. sezon ürünlerinde sunulan %50&#039;lik büyük indirimden yararlan!!!"  />
+				<text id="teaser_18_title" name="Şansını dene!"  />
+				<text id="teaser_19_info_1" name="Yaz modası burada!
+Yeni şapkalardan birini tak ya da eğlenceli paskalya tavşan kulaklarını dene!
+
+Ve yeni Farmer forum&#039;u ziyaret etmeyi unutma."  />
+				<text id="teaser_19_title" name="Şapkalar başa!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer 1. yaşını kurtarıyor, bizimle kutlama zamanı!
+Çiftliğini dekore et, çılgın parti şapkalarından birini al ve yeni kek tohumlarını kaçırma.
+
+Ama acele et, kutlama uzun sürmeyecek!"  />
+				<text id="teaser_20_title" name="İyi ki doğdun!"  />
+				<text id="teaser_21_info_1" name="Dikkat! Basari icin sihirli bir degnek var.
+Onu agaçlarin, hayvanlarin ve tohumlarin icin kullanarak daha verimli olmalarini saglayabilirsin."  />
+				<text id="teaser_21_info_2" name="Habvanlarin aç!
+Büyümeleri için onlari beslemen gerekiyor!"  />
+				<text id="teaser_21_title" name="Hayvanlari yemle &amp; daha fazlasi!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer Avrupa Oyun Ödülleri´nde, &quot;En Iyi Sosyal Oyun&quot; secildi!"  />
+				<text id="teaser_23_info_2" name="Bize oy vererek yardim edebilirsin!"  />
+				<text id="teaser_23_title" name="Bize oy ver!"  />
+				<text id="teaser_24_info_1" name="Heyy!
+Korsanlar Goodgame Farmer a geldi!
+Bir korsan sapkasi tak, hazineyi sakla ve papagan dili ögren!"  />
+				<text id="teaser_24_title" name="Korsan güncelleme!"  />
+				<text id="teaser_25_info_1" name="The latest update caused severe technical difficulties with the conversion of the fertilizer and the achievement rewards.
+
+In order to solve this issue we had to reset all accounts to the previous state.
+
+We are sorry about any inconveniences caused."  />
+				<text id="teaser_25_title" name="Sifirla"  />
+				<text id="teaser_5_info_1" name="Ziyaretçilerinizi korkutucu Cadılar bayramı dekorasyonları ve kabus binalarla korkutun."  />
+				<text id="teaser_5_title" name="Yeni özellikler!"  />
+				<text id="teaser_6_info_1" name=""  />
+				<text id="teaser_6_title" name=""  />
+				<text id="teaser_7_info_1" name="Noel yaklaşıyor!
+Yeni binaları, dekorasyonları, ağaçları ve tohumları kaçırma!"  />
+				<text id="teaser_7_info_2" name="Çiftliğinde her zaman boş alan olduğundan emin ol, eşyalarını ambar ve hangar menüsünde depolayabilirsiniz!"  />
+				<text id="teaser_7_title" name="Yeni eşyalar!"  />
+				<text id="teaser_8_info_1" name="Yeni bir Noel hediyesi daha!
+Diğer oyuncularla eşleşmek için yeni sıralamayı kullan.
+Herkesin içinde en iyi çiftçi sen ol!"  />
+				<text id="teaser_8_title" name="Sıralama!"  />
+				<text id="teaser_9_info_1" name="Acele et!
+Noel etkinliğinin sona ermesine bir kaç gün kaldı. Tüm sezon ürünlerindeki 50% oranında indirimden yararlanmak için çabuk ol!!!"  />
+				<text id="teaser_9_title" name="Şansını dene!"  />
+				<text id="teaser_btn_forum" name="forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Dükkan"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Reddet"  />
+				<text id="zAchievements" name="Ödüllerim"  />
+				<text id="zAn2" name="Kabul et"  />
+				<text id="zBuddies" name="Bütün arkadaşların"  />
+				<text id="zBuddiesNoAsk" name="Bu oyuncu arkadaşlık taleplerini reddetti."  />
+				<text id="zBuddiesSub" name="Bu oyuncuyu
+arkadaşlık listenden sil"  />
+				<text id="zBuy" name="Satın al"  />
+				<text id="zCancel" name="Pencereyi kapat"  />
+				<text id="zChat" name="Sohbet"  />
+				<text id="zChatMute" name="Sessize al"  />
+				<text id="zChatSenden" name="Mesaj gönder"  />
+				<text id="zChatVorgaben" name="Sohbet için kalıp cümleler."  />
+				<text id="zCheckAGB" name="Şartları kabul ediyorum."  />
+				<text id="zCheckAny" name="Hayvan animasyonunu kaldır"  />
+				<text id="zCheckMen" name="Erkek oyun figürü"  />
+				<text id="zCheckMerken" name="Adın ve şifren
+kaydedilsin mi?"  />
+				<text id="zCheckMute" name="Bu oyuncuyla sohbeti bitir"  />
+				<text id="zCheckNoMoreShow" name="Bu pencereyi bundan sonra gösterme."  />
+				<text id="zCheckQuali" name="İşlemi kolaylaştırmak için
+gösterim kalitesini azalt"  />
+				<text id="zCheckShowB" name="Ağaçları göster"  />
+				<text id="zCheckShowD" name="Süslemeleri göster"  />
+				<text id="zCheckShowH" name="Evleri göster"  />
+				<text id="zCheckSound1" name="Efektler"  />
+				<text id="zCheckSound2" name="Müzik"  />
+				<text id="zCheckWomen" name="Bayan oyun figürü"  />
+				<text id="zChipsMore" name="Çiflik doları/altını ekle"  />
+				<text id="zClose" name="Kapat"  />
+				<text id="zClothes" name="Oyuncularını giydir"  />
+				<text id="zClothsBuy" name="Mevcut Avatar’ı kullanmak ister misin?"  />
+				<text id="zClothsSelect" name="Seç"  />
+				<text id="zClothsZufall" name="Bilgisayar sana bir stil öneriyor"  />
+				<text id="zCookAdd" name="başka giriş bilgisi ekle"  />
+				<text id="zCookDel" name="bu giriş bilgilerini sil"  />
+				<text id="zDel" name="Sil"  />
+				<text id="zDown" name="Aşağı"  />
+				<text id="zEarnChips" name="Çiftlik doları kazan"  />
+				<text id="zEarnGold" name="Altın kazan"  />
+				<text id="zEinladen" name="Satın alabilmek için {0} daha arkadaş davet etmelisin."  />
+				<text id="zEinladen2" name="{1} {0} tane arkadaşın var."  />
+				<text id="zEmailVerificationWinker" name="Hosgeldin hediyeni al"  />
+				<text id="zErweitern" name="Genişlet"  />
+				<text id="zExchange" name="Altını çiftlik dolarıyla değiştir"  />
+				<text id="zExpHigherLevelNeeded" name="Henüz bu seviyeye ulaşmadın"  />
+				<text id="zExpPreviousNeeded" name="Bir önceki genişletme eksik."  />
+				<text id="zFarmowner" name="Çiftlik sahibi"  />
+				<text id="zFertilize" name="Gübre"  />
+				<text id="zFlinkeHand" name="Daha hızlı çalış"  />
+				<text id="zFoto" name="Fotoğraflar"  />
+				<text id="zFullscreen" name="Tam ekran"  />
+				<text id="zFunc" name="Özel fonksiyonlu öğeler"  />
+				<text id="zGiftsMy" name="Hediyelerim"  />
+				<text id="zHarvest" name="Hasat et"  />
+				<text id="zHarvestV3" name="Tarlaları biçerdöverle hasat et"  />
+				<text id="zHelp" name="Yardım"  />
+				<text id="zHome" name="Çiftliğim"  />
+				<text id="zInfoEMail" name="Epostanın biçimi:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Şifre 5-15 karakterden oluşur,
+karakterler: a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="Aç"  />
+				<text id="zInvite" name="Arkadaşlarını davet et!"  />
+				<text id="zJ" name="Yürüt"  />
+				<text id="zJobben" name="İş enerjisi:
+diğer oyuncuların çiftliklerinde hasat yapıldığında ve tarlalar sürüldüğünde kullanılır.
+İş enerjin {0} seviyesinin altına düştüğünde her dakika yenilenir, ayrıca mağazadan da enerji satın alabilirsin."  />
+				<text id="zKatAC" name="Tişört"  />
+				<text id="zKatAG" name="Figür"  />
+				<text id="zKatAH" name="Saç stili"  />
+				<text id="zKatAK" name="Şapka"  />
+				<text id="zKatAP" name="Pantalon"  />
+				<text id="zKatAS" name="Ayakkabı"  />
+				<text id="zKatAT" name="Ten"  />
+				<text id="zKatB" name="Ağaçlar"  />
+				<text id="zKatD" name="Süslemeler"  />
+				<text id="zKatE" name="Çiflik büyütme"  />
+				<text id="zKatF" name="Gübre"  />
+				<text id="zKatG" name="Caddeler"  />
+				<text id="zKatH" name="Binalar"  />
+				<text id="zKatR" name="İş enerjisi"  />
+				<text id="zKatS" name="Tohumlar"  />
+				<text id="zKatT" name="Hayvanlar"  />
+				<text id="zKatV" name="Taşıtlar"  />
+				<text id="zKatX" name="Özel teklifler"  />
+				<text id="zKatY" name="Hepsi"  />
+				<text id="zKennLost" name="Şifreni unuttuysan tıkla."  />
+				<text id="zKennMod" name="Şifreyi değiştir"  />
+				<text id="zKette" name="İş listesi"  />
+				<text id="zKetteDel" name="İş listesini sil"  />
+				<text id="zKick" name="Bu oyuncuyu tarlandan at."  />
+				<text id="zLinkAGB" name="Kayıt ve şartları okumak istiyorsan tıkla."  />
+				<text id="zLogin" name="Oyuna git"  />
+				<text id="zLogout" name="Çıkış"  />
+				<text id="zLupeM" name="Küçült"  />
+				<text id="zLupeP" name="Büyüt"  />
+				<text id="zMail" name="Mesajlar"  />
+				<text id="zMarket" name="Pazar"  />
+				<text id="zMeldBad" name="Kullanıcıyı şikayet et?"  />
+				<text id="zMen" name="Erkek oyun figürü"  />
+				<text id="zMoreChipsGold" name="Çiftlik doları &amp; altını al"  />
+				<text id="zMove" name="Hareket ettir"  />
+				<text id="zN" name="Yürütme"  />
+				<text id="zNext" name="İleri"  />
+				<text id="zNoSilo" name="Önce bir depo kurmalısın."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Şifre başvurusunda bulun."  />
+				<text id="zOKKennMod" name="Yeni şifreyi kaydet"  />
+				<text id="zPfeil" name="Çoklu araç"  />
+				<text id="zPfeilV" name="Çoklu araç Taşıtlar"  />
+				<text id="zPlow" name="Bakım yap"  />
+				<text id="zPlowNew" name="Yeni tarla"  />
+				<text id="zPlowV1" name="Tarlaları traktörle sür"  />
+				<text id="zPrefs" name="Ayarlar"  />
+				<text id="zPremium" name="Paketi satın al"  />
+				<text id="zPremiumUse" name="Çiftliğinde premium tohumkullan."  />
+				<text id="zPrev" name="Geri"  />
+				<text id="zQuest" name="Ödevler"  />
+				<text id="zRangliste" name="Sıralama"  />
+				<text id="zRanking2Farm" name="Bu oyuncu sıralama listesi aracılığıyla görüntülenmeyi reddediyor."  />
+				<text id="zRegistrieren" name="Kayıt ol
+oyun bilgilerin kayıtlı kalsın."  />
+				<text id="zRot" name="Döndür"  />
+				<text id="zSave" name="Kaydet"  />
+				<text id="zScrBG" name="Kaydırma çubuğu"  />
+				<text id="zScrMove" name="Sürgüyü hareket ettir"  />
+				<text id="zSell" name="Sat"  />
+				<text id="zShare" name="Arkadaşlarına söyle!"  />
+				<text id="zShop" name="Dükkan"  />
+				<text id="zShopEarn" name="Satış fiyatı:"  />
+				<text id="zShopHarvest" name="Hasat:"  />
+				<text id="zShopLagerSize" name="Alan:"  />
+				<text id="zShopTime" name="Hasat zamanı:"  />
+				<text id="zShopXP" name="Kazanılan XP:"  />
+				<text id="zSilo" name="Silo"  />
+				<text id="zSofort" name="Kayıt olmadan - şimdi oyna"  />
+				<text id="zSound" name="Sesler"  />
+				<text id="zSow" name="Tohum ek"  />
+				<text id="zSowV2" name="Ekim makinesiyle tarlaya tohum ek"  />
+				<text id="zStrangeAchies" name="Oyuncunun ödülleri"  />
+				<text id="zStrangeAdd" name="Bu oyuncuyla
+arkadaş ol"  />
+				<text id="zStrangeFotos" name="Oyuncunun fotoğraf albümü"  />
+				<text id="zStrangeGift" name="Bu oyuncuya
+hediye ver"  />
+				<text id="zStrangeHarvest" name="Bu oyuncuya
+hasat işini ver"  />
+				<text id="zStrangeHome" name="Oyuncunun çifliğine git"  />
+				<text id="zStrangeInfo" name="Oyuncu hakkında bilgi"  />
+				<text id="zStrangeMail" name="Bu oyuncuya
+bir mesaj yaz"  />
+				<text id="zStrangePlow" name="Bu oyuncuya
+tarla bakım işini ver"  />
+				<text id="zSubAsk" name="Soru ve cevaplar"  />
+				<text id="zSubFotobuch" name="Fotoğraf albümü"  />
+				<text id="zSubMailInbox" name="Mesaj oku"  />
+				<text id="zSubMailNew" name="Mesaj yaz"  />
+				<text id="zSubNews" name="Haberler"  />
+				<text id="zSubShot1" name="Bütün tarlanın
+fotoğrafını çek"  />
+				<text id="zSubShot2" name="Fotoğraf çek
+istediğin yere tıkla"  />
+				<text id="zSubShot3" name="Fotoğraf çek
+bir öğenin üzerine tıkla"  />
+				<text id="zSubSupport" name="Destek"  />
+				<text id="zTanken" name="Yakıt al:
+Doldurmak icin tikla:
+Ekran:
+Yedekleme sayisi
+ve yakıt ibresi
+(en fazla {0})"  />
+				<text id="zTosOpen" name="Depola"  />
+				<text id="zTosStall" name="Bu hayvan ahıra getirildi."  />
+				<text id="zUp" name="Yukarı"  />
+				<text id="zUse" name="Kullan"  />
+				<text id="zUsersOnFarm" name="Tarla ve pazardaki
+bütün oyuncular"  />
+				<text id="zVZBuddies" name="{0} gereken arkadaş sayısı"  />
+				<text id="zVZBuddiesE" name="Yeterince arkadaşin oldugunda, cifligini daha ucuza genisletebilirsin."  />
+				<text id="zWomen" name="Bayan oyun figürü"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Kendi ciftligine hossgeldin!
+
+Baslamana yardim etmeme izin ver,beraber cok güzel yapacagiz."  />
+				<text id="tut_gast_1_title" name="Merhaba arkadaşım"  />
+				<text id="tut_gast_2_text" name="Bak, cilekler hazır bile!
+Acele et, hepsini topla."  />
+				<text id="tut_gast_2_title" name="Tohumları üzerlerine tıklayarak topla!"  />
+				<text id="tut_gast_3_text" name="Ekinleri hasat ettiginde,
+Ciftlik dolari ve tecrübe puanı
+kazanırsın."  />
+				<text id="tut_gast_3_title" name="Ekin bicmek sana Ciftlik dolari ve XP kazandirir1"  />
+				<text id="tut_gast_4_text" name="Simdi, yeni birşeyler ekebilmek icin topraklarını sürmen gerekiyor."  />
+				<text id="tut_gast_4_title" name="Topraklari sürmek icin üstüne tikla"  />
+				<text id="tut_gast_5_text" name="Simdi dükkandan yeni tohumlar alabilirsin!"  />
+				<text id="tut_gast_5_title" name="Dükkandan yeni tohumlar satin al"  />
+				<text id="tut_gast_6_text" name="Hadi budgay satin al!"  />
+				<text id="tut_gast_6_title" name="Bugday satın al"  />
+				<text id="tut_gast_7_text" name="Bugday ekmek icin tarlanin üstüne tikla."  />
+				<text id="tut_gast_7_title" name="Bugdaylari arazi boyunca dagıt"  />
+				<text id="tut_gast_8_text" name="Harikasın!
+Yakında ciftligin iclerinde en güzeli olacak.
+
+Hadi gel, neden biraz daha ekmiyorsun?!"  />
+				<text id="tut_gast_8_title" name="Oley! Cifligin mükemmel!"  />
+				<text id="tut_market_1_text" name="Tohumlarının biraz daha zamana ihtiyacı var?
+Neden pazar yerine gidip başkalarının ciftiginde calışmıyorsun?!"  />
+				<text id="tut_market_1_title" name="Ayrıca işe de gidebilirsin!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Çiflik doları:"  />
+				<text id="txt1" name="Altın:"  />
+				<text id="txt2" name="Sonraki hasat:"  />
+				<text id="txt3" name="Arkadaşlar:"  />
+				<text id="txt4" name="Ödüller:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Arkadaş
+davet et"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Gün {0}"  />
+				<text id="txt0" name="Hoşgeldin"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Her gün hosgeldin bonusu kazan!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Kayıdın için teşekkür olarak #w1# çiftlik doları kazandın."  />
+				<text id="21" name="Hoşgeldin hediyesi olarak günlük
+#w1# çiftlik doları kazanacaksın!"  />
+				<text id="2f" name="Böylece #anz# #ferti# kazandın."  />
+				<text id="2job" name="Böylece #job# iş enerjisi kazandın."  />
+				<text id="2w1" name="Böylece #w1# çiftlik doları kazandın."  />
+				<text id="2w2" name="Böylece #w2# Altın kazandın."  />
+				<text id="2x" name="Üst üste
+#days# gün arka arkaya giriş yaptın."  />
+				<text id="2xp" name="Böylece #xp# XP kazandın."  />
+				<text id="freunde" name="Davet ettiğin oyuncuların faaliyetleri neticesinde #w1# çiftlik doları kazanacaksın."  />
+				<text id="txt0" name="Hoşgeldin"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Hata"  />
+				<text id="generic_alert_connection_failed_copy" name="Çalışma var. Lütfen sonra tekrar dene!"  />
+				<text id="generic_alert_connection_failed_title" name="Çalışma var!"  />
+				<text id="generic_alert_connection_lost_copy" name="Sunucuyla bağlantı başarısız. Lütfen tekrar bağlanmayı dene."  />
+				<text id="generic_alert_connection_lost_description" name="Kısa bir çalışma yapıyoruz. Zaman zaman bu şekilde güncelleme yapıyor veya hataları düzeltiyoruz. &lt;br&gt;&lt;br&gt;
+Olabildiğince hızlı çalışıyoruz, dolayısıyla en kısa zamanda oyuna dönebileceksiniz."  />
+				<text id="generic_alert_connection_lost_promo" name="Neden aynı zamanda diğer oyunlarımızdan birini denemiyorsun?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Anlayışınız için teşekkürler!"  />
+				<text id="generic_alert_connection_lost_title" name="Bağlantı koptu!"  />
+				<text id="generic_alert_error" name="Hata"  />
+				<text id="generic_alert_information" name="Alarm"  />
+				<text id="generic_alert_loggedout_copy" name="Başarıyla çıkış yaptın. Unutma: Her gün giriş yaptığında bonus kazanacaksın!"  />
+				<text id="generic_alert_loggedout_title" name="Görüşmek üzere!"  />
+				<text id="generic_alert_warning" name="Uyarı"  />
+				<text id="generic_alert_watchout" name="Dikkat!"  />
+				<text id="generic_alert_win7chromebug" name="Yazı giremiyorsan lütfen CTRL tuşuna bas."  />
+				<text id="generic_invalid_email_provider" name="Bu servis sağlayıcısının sunduğu e-posta adresleri kabul edilmemekte!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="İnternet bağlantın şu anda çok yavaş. Lütfen daha sonra tekrar dene!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Oyun hakkındaki düşüncelerini ve önerilerini bizimle paylaşır mısın? Lütfen, Goodgame forum veya Grup&#039;a katıl."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Dikkat: Oyununu sadece kaydolduğunda saklayabilirsin!"  />
+				<text id="generic_register_error_invalidemail" name="Girilen e-posta adresi yanlış."  />
+				<text id="generic_report_muted_chattry" name="Bloke olduğundan dolayı sohbet fonksiyonunu kullanamazsın."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Kabul"  />
+				<text id="generic_btn_cancel" name="İptal"  />
+				<text id="generic_btn_close" name="Kapat"  />
+				<text id="generic_btn_continue" name="Devam"  />
+				<text id="generic_btn_end" name="Son"  />
+				<text id="generic_btn_endnow" name="Şimdi Bitir"  />
+				<text id="generic_btn_goback" name="Geri"  />
+				<text id="generic_btn_no" name="Hayır"  />
+				<text id="generic_btn_noshare" name="Paylaşma"  />
+				<text id="generic_btn_notaccept" name="Red"  />
+				<text id="generic_btn_okay" name="Tamam"  />
+				<text id="generic_btn_reconnect" name="Tekrar bağlan"  />
+				<text id="generic_btn_refresh" name="Güncelle"  />
+				<text id="generic_btn_report" name="Rapor"  />
+				<text id="generic_btn_search" name="Ara"  />
+				<text id="generic_btn_share" name="Paylaş!"  />
+				<text id="generic_btn_skip" name="Atla"  />
+				<text id="generic_btn_start" name="Başla"  />
+				<text id="generic_btn_topayment" name="Onu bana ver!"  />
+				<text id="generic_btn_yes" name="Evet"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="Sohbet edebilmek için kaydolmalı ve seviye 1\'e ulaşmalısın."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="Dikkat!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Animasyonları göster"  />
+				<text id="generic_bugreport" name="Hataları bize ilet"  />
+				<text id="generic_changePass" name="Şifreyi değiştir"  />
+				<text id="generic_comma" name="."  />
+				<text id="generic_conningsoon" name="*Yakında*"  />
+				<text id="generic_date" name="Tarih"  />
+				<text id="generic_day" name="Gün"  />
+				<text id="generic_dayformat" name="{0}.{1}.{2}"  />
+				<text id="generic_dayformat_short" name="{0}.{1}."  />
+				<text id="generic_days" name="Gün"  />
+				<text id="generic_day_short" name="G"  />
+				<text id="generic_decimalseparator" name=","  />
+				<text id="generic_email" name="E-posta"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Sıkça Sorulan Sorular"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Arkadaş"  />
+				<text id="generic_friends" name="Arkadaşlar"  />
+				<text id="generic_general" name="Genel ayarlar"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Grup"  />
+				<text id="generic_guest" name="Ziyaretçi"  />
+				<text id="generic_help" name="Yardım"  />
+				<text id="generic_high" name="Yüksek"  />
+				<text id="generic_hour" name="Saat"  />
+				<text id="generic_hours" name="Saat"  />
+				<text id="generic_hour_short" name="S"  />
+				<text id="generic_limited" name="Sınırlı"  />
+				<text id="generic_logout" name="Çıkış"  />
+				<text id="generic_low" name="Düşük"  />
+				<text id="generic_medium" name="Orta"  />
+				<text id="generic_minute" name="Dakika"  />
+				<text id="generic_minutes" name="Dakika"  />
+				<text id="generic_minute_short" name="Dk"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_month" name="ay"  />
+				<text id="generic_months" name="aylar"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Müzik aç/kapa"  />
+				<text id="generic_name" name="İsim"  />
+				<text id="generic_news" name="Yeni Hikayeler"  />
+				<text id="generic_options" name="Seçenekler"  />
+				<text id="generic_quality" name="Kalite"  />
+				<text id="generic_register" name="Sakla ve kaydet"  />
+				<text id="generic_second" name="Saniye"  />
+				<text id="generic_seconds" name="Saniye"  />
+				<text id="generic_second_short" name="Sn"  />
+				<text id="generic_sound" name="Ses aç/kapa"  />
+				<text id="generic_support" name="Destek"  />
+				<text id="generic_today" name="Bugün"  />
+				<text id="generic_tomorrow" name="Bugün"  />
+				<text id="generic_tutorial" name="Açıklama"  />
+				<text id="generic_username" name="Oyuncu adı"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Dün"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Eski versiyon!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Sayfayı tekrar yükle."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="{0}&#039;i arkadaş olarak eklemek ister misin?"  />
+				<text id="generic_friends_add_title" name="Arkadaşlık talebi"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Daha fazla arkadaş!"  />
+				<text id="generic_friends_denied_copy" name="{0} talebini reddetti."  />
+				<text id="generic_friends_denied_title" name="Talep reddedildi!"  />
+				<text id="generic_friends_invite_badword_copy" name="Seçtiğiniz isim kullanılamaz!"  />
+				<text id="generic_friends_invite_badword_title" name="Dikkat!"  />
+				<text id="generic_friends_invite_error_copy" name="Arkadaşlarını davet etmek için önce kaydolmalısın."  />
+				<text id="generic_friends_invite_error_title" name="Önce kayıt ol"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Tam ekran kullanılamıyor"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Çekçe"  />
+				<text id="generic_language_cz" name="Çekçe"  />
+				<text id="generic_language_da" name="Danca"  />
+				<text id="generic_language_de" name="Almanca"  />
+				<text id="generic_language_el" name="Yunanca"  />
+				<text id="generic_language_en" name="İngilizce"  />
+				<text id="generic_language_es" name="İspanyolca"  />
+				<text id="generic_language_fi" name="Fince"  />
+				<text id="generic_language_fr" name="Fransız"  />
+				<text id="generic_language_hu" name="Macarca"  />
+				<text id="generic_language_id" name="Endonezyaca"  />
+				<text id="generic_language_it" name="İtalyanca"  />
+				<text id="generic_language_ja" name="Japonca"  />
+				<text id="generic_language_ko" name="Korece"  />
+				<text id="generic_language_nl" name="Flemenkçe"  />
+				<text id="generic_language_no" name="Norveççe"  />
+				<text id="generic_language_pl" name="Lehçe"  />
+				<text id="generic_language_pt" name="Portekizce"  />
+				<text id="generic_language_pt_BR" name="Brazilya dili"  />
+				<text id="generic_language_ru" name="Rusça"  />
+				<text id="generic_language_sv" name="İsveççe"  />
+				<text id="generic_language_tr" name="Türkçe"  />
+				<text id="generic_language_zh_CN" name="Çince (basitleştirilmiş)"  />
+				<text id="generic_language_zh_TW" name="Çince (geleneksel)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Hesabınız bloke edildi! Lütfen destekle iletişime geçin!"  />
+				<text id="generic_login_banned_2" name="Hesabin donduruldu!
+
+Dondurma zamani: {0}
+
+Dondurma islemiyle ilgili sorun olursa, lütfen destekle iletisime gec."  />
+				<text id="generic_login_banned_3" name="Hesabın geçici olarak donduruldu.
+
+Bu durum ile ilgili bir sorun varsa, lütfen destek birimi ile irtibata geç."  />
+				<text id="generic_login_banned_permanent" name="süresiz"  />
+				<text id="generic_login_facebook" name="Facebook aracılığı ile oturum aç"  />
+				<text id="generic_login_login" name="GİRİŞ"  />
+				<text id="generic_login_loginname" name="Kullanıcı adı/E-mail"  />
+				<text id="generic_login_lostpassword" name="Şifreni mi unuttun?"  />
+				<text id="generic_login_lostpassword_copy" name="E-mail adresini gir, şifren e-mail adresine yollanacak."  />
+				<text id="generic_login_lostpassword_title" name="Şifreni mi unuttun?"  />
+				<text id="generic_login_newplayer" name="Yeni misin?"  />
+				<text id="generic_login_password" name="Şifre"  />
+				<text id="generic_login_play" name="HEMEN OYNA"  />
+				<text id="generic_login_playnow" name="Şimdi oyna!"  />
+				<text id="generic_login_register" name="Kayıt ol"  />
+				<text id="generic_login_rememberpassword" name="Şifreni kaydet"  />
+				<text id="generic_login_wronglogin" name="Kullanıcı adı yada şifre yanlış!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Skorunu kaydetmek için kaydol!"  />
+				<text id="generic_logout_guest_title" name="Kayıt ol"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Oyun en geç {0} süre sonra tekrar oynanabilir olacak."  />
+				<text id="servershutdownpremonition_copy" name="Oyun sunucusu {0} içinde kapanacak. Çıkış yap ya da tekrar giriş yap."  />
+				<text id="servershutdownpremonition_registered_copy" name="Bakım çalışmaları sebebiyle sunucuyu {0} süre sonra kapatacağız."  />
+				<text id="servershutdown_copy" name="Oyun sunucusu şimdi kapatılıyor. Birkaç dakika içinde tekrar giriş yapabilirsiniz."  />
+				<text id="welcomeback_copy" name="Seni tekrar görmek güzel! İşleri yoluna koyabilmen için sana küçük bir yardımımız var!"  />
+				<text id="welcomeback_title" name="Geri döndün!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Yeni şifre:"  />
+				<text id="generic_change_password_copy_oldpass" name="Eski şifre:"  />
+				<text id="generic_change_password_copy_send" name="Yeni şifren e-postana gönderildi."  />
+				<text id="generic_change_password_error_failed" name="Üzgünüz, bu eski şifren değil."  />
+				<text id="generic_change_password_error_success" name="Şifre başarıyla değiştirildi!"  />
+				<text id="generic_change_password_faild_copy" name="Yeni şifren en az iki harf içermeli ve eski şifre doğru girilmelidir!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Şifren boş olamaz yada özel karakter içeremez."  />
+				<text id="generic_change_password_faild_title" name="Şifreyi gir"  />
+				<text id="generic_change_password_title" name="Şifre değiştir"  />
+				<text id="generic_guest_change_password_faild_copy" name="Sadece kayıtlı oyuncular şifre değiştirebilir!"  />
+				<text id="generic_guest_change_password_faild_title" name="Önce kaydol"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Daha fazla {0}!"  />
+				<text id="generic_payment_48hdiscount_button" name="İlk 48 saate daha fazla altın"  />
+				<text id="generic_payment_48hdiscount_button_general" name="İlk 48 saate daha fazla {0}"  />
+				<text id="generic_payment_48hdiscount_copy" name="Kaydından sadece 48 saat sonra - Seçilen altın paketlerini satın al ve {0}% ekstra Altın kazan!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Kaydından sadece 48 saat sonra - altın paketi satın al ve ekstra {0}% Altın kazan!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Kaydından sadece 48 saat sonra - {0} paketi satın al ve ekstra {1}% kazan!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Kaydından sadece 48 saat sonra - Seçilen {0} paketlerini satın al ve {1}% ekstra kazan!"  />
+				<text id="generic_payment_btn" name="Magazaya"  />
+				<text id="generic_payment_copy" name="Ödeme noktasına yönlendiriliyorsunuz"  />
+				<text id="generic_payment_discount_button" name="Şimdi %{0} daha fazla altın!"  />
+				<text id="generic_payment_discount_copy" name="Altın satın al ve %{0} bonus kazan!"  />
+				<text id="generic_payment_discount_copy_general" name="Şimdi al {0} ve % {1} bonu hakkı kazan!"  />
+				<text id="generic_payment_discount_general" name="Şimdi paran için {0}% daha fazla {1} kazan!"  />
+				<text id="generic_payment_discount_generalshort" name="Paran için {0}% fazlasını al!"  />
+				<text id="generic_payment_discount_time" name="Son {0}!"  />
+				<text id="generic_payment_discount_title" name="Daha fazla altın!"  />
+				<text id="generic_payment_newPrices" name="Hemen basla! Ödeme noktamızda fiyatları düşürdük! Para biriktirme zamanı!"  />
+				<text id="generic_payment_title" name="Ödeme Noktası"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Siber üzerinden bir tünel ara"  />
+				<text id="loading_text_10" name="Dünya&#039;nın dört bir yanına ürün dağıt"  />
+				<text id="loading_text_11" name="Grafik çiz"  />
+				<text id="loading_text_12" name="Renk düğmeleri"  />
+				<text id="loading_text_13" name="Paskalya yumurtası gizle"  />
+				<text id="loading_text_14" name="Kullanıcı bilgisi ara"  />
+				<text id="loading_text_15" name="Böcekleri korkut"  />
+				<text id="loading_text_16" name="Programcıları besle"  />
+				<text id="loading_text_17" name="Müşteri ile deney yap"  />
+				<text id="loading_text_18" name="Kum saati açın"  />
+				<text id="loading_text_19" name="Sistemi soğutmak"  />
+				<text id="loading_text_2" name="Çarkları yağla"  />
+				<text id="loading_text_20" name="Kısa sürede yapılır"  />
+				<text id="loading_text_3" name="Hamster çarkını çevir"  />
+				<text id="loading_text_4" name="Sunuyucu ısıt"  />
+				<text id="loading_text_5" name="Umarım herşey yolunda gider"  />
+				<text id="loading_text_6" name="İmhacıyı çağır"  />
+				<text id="loading_text_7" name="Karmaşık algoritmaları hesapla"  />
+				<text id="loading_text_8" name="Akım kapasitörünü kalibre et"  />
+				<text id="loading_text_9" name="Tamirci öğeleri"  />
+				<text id="loading_text_default" name="Başlatma"  />
+				<text id="loading_text_itemXML" name="Oyun öğelerini yükle"  />
+				<text id="progress_loadfiles" name="Degerleri yükle..."  />
+				<text id="progress_serverconnection" name="Sunucuya baglan..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="E-posta adresini gir"  />
+				<field id="generic_register_insertName" name="Ad gir"  />
+				<field id="generic_register_insertPassword" name="Şifreni gir"  />
+				<text id="generic_register_agb_copy" name="Önce şart ve koşulları okuyup kabul etmelisin! Soldaki butonla kabul edip devam edebilirsin!"  />
+				<text id="generic_register_agb_read" name="Kayıt ve Şartları oku"  />
+				<text id="generic_register_alreadyavatar" name="Bu kullanıcının zaten avatarı var."  />
+				<text id="generic_register_badword" name="İsminde {0} kullanamazsın."  />
+				<text id="generic_register_btn_agb" name="Şartlar kabul edildi"  />
+				<text id="generic_register_btn_later" name="Daha sonra"  />
+				<text id="generic_register_btn_next" name="Devam"  />
+				<text id="generic_register_btn_save" name="Kaydet"  />
+				<text id="generic_register_character" name="Karakterini yarat"  />
+				<text id="generic_register_copy_0" name="Şimdi bedavaya kayıt ol!"  />
+				<text id="generic_register_copy_1" name="Oyunun kaydediliyor!"  />
+				<text id="generic_register_emaillong_copy" name="Malesef E-Posta adresin fazla uzun."  />
+				<text id="generic_register_emailwrong_copy" name="Girdiğin E-Posta adresi hatalı."  />
+				<text id="generic_register_email_copy" name="E-mail adresi boş olamaz yada boşluk içeremez."  />
+				<text id="generic_register_error" name="Kayıt işlemi başarısız"  />
+				<text id="generic_register_errormistake" name="Hata"  />
+				<text id="generic_register_error_accountalreadyexists" name="Bu e-postayla başka bir oyuncu kayıtlı, üzgünüz."  />
+				<text id="generic_register_forfree" name="Bedavaya kayıt ol!"  />
+				<text id="generic_register_forfree1" name="Bedava!"  />
+				<text id="generic_register_letsgo" name="Gidiyoruz!"  />
+				<text id="generic_register_namealreadyused" name="Bu isim zaten alınmış."  />
+				<text id="generic_register_namenotvalid" name="Girdiğin isim geçerli değil."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Şifren çok kısa. Şifren en az 4 harf içermelidir."  />
+				<text id="generic_register_passwordwrong_copy" name="Girdiğin şifre hatalı."  />
+				<text id="generic_register_password_copy" name="Şifren boş olamaz ve özel karakterler içeremez."  />
+				<text id="generic_register_receivenews" name="Haberler alın"  />
+				<text id="generic_register_rememberdata" name="Bilgiyi hatirla"  />
+				<text id="generic_register_reward" name="Bedavaya abone ol ve {0} {1} al!"  />
+				<text id="generic_register_subscribe" name="Abone ol"  />
+				<text id="generic_register_success" name="Kayıt başarıyla tamamlandı."  />
+				<text id="generic_register_title" name="Kayıt hatası"  />
+				<text id="generic_register_unlock" name="Bu özelliği aç!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="İfadelerine lütfen dikkat et. Aksi halde, sohbet özelliği bloke edilecek ve hesabın bir süre için kapatılacak. Sebep: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Tekrar edilen suistimalden dolayı sohbet fonksiyonu {0} için durduruldu. Sebep: {1}"  />
+				<text id="generic_report_muted_domain1" name="Sohbette URL adresi yazmayınız!"  />
+				<text id="generic_report_muted_reported_copy" name="Bazı oyuncular seni şikayet etti. Sohbet özelliği, {0} için bloke edildi. Sebep: {1}"  />
+				<text id="generic_report_player_copy" name="Oyuncu {0}&#039;ı gerçekten şikayet etmek istiyor musun?
+Dikkat! Bu özelliğin dikkatsizce kullanılması hesabınızın bloke edilmesine yol açar."  />
+				<text id="generic_report_player_reason_0" name="Hakaret"  />
+				<text id="generic_report_player_reason_1" name="cinsel taciz"  />
+				<text id="generic_report_player_reason_2" name="ırkçılık"  />
+				<text id="generic_report_player_reason_3" name="Tehdit/Şantaj"  />
+				<text id="generic_report_player_reason_title" name="Şikayet sebebi"  />
+				<text id="generic_report_player_title" name="Oyuncuyu şikayet et?"  />
+				<text id="generic_report_reported_copy" name="Başka bir oyuncu tarafından site yöneticisine şikayet edildin. Sebep: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Bağlan"  />
+				<text id="generic_select_world" name="Dünyanı seç"  />
+				<text id="generic_world" name="Dünya: {0}"  />
+				<text id="generic_world_international" name="Uluslararası: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

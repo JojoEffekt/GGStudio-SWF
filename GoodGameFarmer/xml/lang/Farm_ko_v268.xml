@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - ko - 10 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="알 줍기"  />
+			<text id="T01" name="알 줍기"  />
+			<text id="T02" name="알 줍기"  />
+			<text id="T03" name="알 줍기"  />
+			<text id="T04" name="울리다"  />
+			<text id="T05" name="알 줍기"  />
+			<text id="T06" name="알 줍기"  />
+			<text id="T07" name="애완동물"  />
+			<text id="T10" name="버섯따기"  />
+			<text id="T11" name="젖 짜기"  />
+			<text id="T110" name="젖 짜기"  />
+			<text id="T111" name="털깎기"  />
+			<text id="T112" name="털깎기"  />
+			<text id="T113" name="젖 짜기"  />
+			<text id="T114" name="털깎기"  />
+			<text id="T115" name="브러시"  />
+			<text id="T12" name="떨 깎기"  />
+			<text id="T13" name="젖 짜기"  />
+			<text id="T14" name="털깎기"  />
+			<text id="T15" name="털깎기"  />
+			<text id="T16" name="털깎기"  />
+			<text id="T17" name="털깎기"  />
+			<text id="T18" name="털깎기"  />
+			<text id="T19" name="떨 깎기"  />
+			<text id="T20" name="털깎기"  />
+			<text id="T21" name="털깎기"  />
+			<text id="T22" name="털깎기"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D329"  />
+				<text id="format_date" name="{2}/{1}/{0}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="천"  />
+				<text id="s1" name="백만"  />
+				<text id="s2" name="십억"  />
+				<text id="s3" name="조"  />
+				<text id="s4" name="천조"  />
+				<text id="s5" name="백경"  />
+				<text id="s6" name="십해"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="일"  />
+				<text id="day1" name="일"  />
+				<text id="day2" name="일"  />
+				<text id="heute" name="오늘"  />
+				<text id="hour0" name="시간"  />
+				<text id="hour1" name="시간"  />
+				<text id="hour2" name="시간"  />
+				<text id="min0" name="분"  />
+				<text id="min1" name="분"  />
+				<text id="min2" name="분"  />
+				<text id="morgen" name="내일"  />
+				<text id="sofort" name="즉시"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="뒤로"  />
+				<text id="ex" name="닫기"  />
+				<text id="next" name="계속"  />
+				<text id="no" name="아니오"  />
+				<text id="yes" name="네"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="#play#에서의 목표는 경험치와 돈을 모아 가능한 한 크고 아름다운 농장을 만드는 것입니다."  />
+				<text id="intro_01_goals_t" name="목표"  />
+				<text id="welcome_01_i" name="#play#, #name# 에 오신것을 환영합니다. 저희가 준비한 안내를 지침하셔서 좀 더 쉽게 게임을 시작하세요. 안내 과정에서 보수를 받으실 수 있습니다. 실행하시겠습니까"  />
+				<text id="welcome_01_t" name="안내"  />
+				<text id="welcome_02_i" name="보수를 원치 않으시면 괜찮아요! 게임 중 언제든 게임 화면의 물음표를 눌러 안내 팁을 확인 할 수 있습니다. 게임 규율은 도움말의 &quot;FAQ&quot;에서 확인할 수 있습니다. 즐거운 게임되시길 바랍니다!"  />
+				<text id="welcome_02_t" name="안내 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="방금 Goodgame Farmer를 설치했어요. 제 농장에 들러 제가 가꾸는 농작물을 한 번 둘러보세요!"  />
+			<text id="descriptionlongfarmer" name="Goodgame Studios의 새로운 농장 시뮬레이션인 Goodgame Farmer에 오신 것을 환영합니다. 이 곳에서 아름다운 전원 생활을 누리고 나만의 농장을 경영해보세요. 곡식과 나무를 기르고 가축을 돌보면서 농장을 넓힐 수 있습니다. 세계 곳곳의 친구들과 함께 서로의 농장을 드나들며 친분을 쌓아보세요!"  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="여자"  />
+			<text id="A02" name="남자"  />
+			<text id="B00" name="사과"  />
+			<text id="B01" name="배"  />
+			<text id="B010" name="아보카도"  />
+			<text id="B011" name="대추"  />
+			<text id="B012" name="무화과"  />
+			<text id="B013" name="석류"  />
+			<text id="B014" name="키위"  />
+			<text id="B015" name="감"  />
+			<text id="B016" name="망고"  />
+			<text id="B017" name="파파야"  />
+			<text id="B018" name="코코넛"  />
+			<text id="B019" name="용과"  />
+			<text id="B02" name="체리"  />
+			<text id="B020" name="카카오"  />
+			<text id="B021" name="호두"  />
+			<text id="B022" name="빵나무"  />
+			<text id="B023" name="두리안"  />
+			<text id="B024" name="아몬드"  />
+			<text id="B025" name="리치"  />
+			<text id="B026" name="카람볼라"  />
+			<text id="B027" name="봉황목"  />
+			<text id="B028" name="대나무"  />
+			<text id="B029" name="애플 캔디"  />
+			<text id="B03" name="복숭아"  />
+			<text id="B030" name="X-mas 쿠키"  />
+			<text id="B031" name="초콜릿"  />
+			<text id="B032" name="부활절나무(적)"  />
+			<text id="B033" name="부활절나무(청)"  />
+			<text id="B034" name="목장"  />
+			<text id="B04" name="자두"  />
+			<text id="B05" name="올리브"  />
+			<text id="B06" name="바나나"  />
+			<text id="B07" name="레몬"  />
+			<text id="B08" name="오렌지"  />
+			<text id="B09" name="자몽"  />
+			<text id="D00" name="나무 더미"  />
+			<text id="D01" name="짚 더미"  />
+			<text id="D010" name="그루터기"  />
+			<text id="D011" name="수레바퀴"  />
+			<text id="D02" name="여물 통"  />
+			<text id="D03" name="물 통"  />
+			<text id="D04" name="우물"  />
+			<text id="D05" name="쟁기"  />
+			<text id="D06" name="물 펌프"  />
+			<text id="D07" name="마차"  />
+			<text id="D08" name="통"  />
+			<text id="D09" name="상자"  />
+			<text id="D11" name="허수아비"  />
+			<text id="D110" name="공원 벤치"  />
+			<text id="D111" name="어두운 벤치"  />
+			<text id="D112" name="분수"  />
+			<text id="D113" name="허수아비"  />
+			<text id="D114" name="부엉이"  />
+			<text id="D115" name="풍차"  />
+			<text id="D116" name="풍향계"  />
+			<text id="D117" name="작은 연못"  />
+			<text id="D118" name="큰 연못"  />
+			<text id="D119" name="잉어연못"  />
+			<text id="D12" name="잔디 깎는 기계"  />
+			<text id="D120" name="풀장"  />
+			<text id="D121" name="피크닉"  />
+			<text id="D122" name="정원탁자"  />
+			<text id="D123" name="정원의자"  />
+			<text id="D124" name="그물침대"  />
+			<text id="D125" name="조립식의자"  />
+			<text id="D126" name="빨랫줄"  />
+			<text id="D127" name="전등"  />
+			<text id="D128" name="두꺼운 선인장"  />
+			<text id="D129" name="붉은 백합"  />
+			<text id="D13" name="별채"  />
+			<text id="D130" name="기다란 선인장"  />
+			<text id="D131" name="조화"  />
+			<text id="D132" name="꽃병의 꽃다발"  />
+			<text id="D133" name="흰 백합"  />
+			<text id="D134" name="마녀 허수아비"  />
+			<text id="D135" name="강아지"  />
+			<text id="D136" name="선물꾸러미"  />
+			<text id="D137" name="아이 눈사람"  />
+			<text id="D138" name="눈사람"  />
+			<text id="D139" name="여자 눈사람"  />
+			<text id="D14" name="손수레"  />
+			<text id="D140" name="스키타는 사람"  />
+			<text id="D141" name="새집위 고양이"  />
+			<text id="D142" name="썰매"  />
+			<text id="D143" name="스노우엔젤"  />
+			<text id="D144" name="X-mas 표지판"  />
+			<text id="D145" name="경고 표지판"  />
+			<text id="D146" name="북극 표지판"  />
+			<text id="D147" name="산양"  />
+			<text id="D148" name="강아지"  />
+			<text id="D149" name="양"  />
+			<text id="D15" name="밝은 벤치"  />
+			<text id="D150" name="젖소"  />
+			<text id="D151" name="고양이"  />
+			<text id="D152" name="뇌조"  />
+			<text id="D153" name="겨울 돼지"  />
+			<text id="D154" name="기러기"  />
+			<text id="D155" name="울타리 문"  />
+			<text id="D156" name="울타리"  />
+			<text id="D157" name="기둥"  />
+			<text id="D158" name="X-mas 트리"  />
+			<text id="D159" name="X-mas 트리"  />
+			<text id="D16" name="그릴"  />
+			<text id="D160" name="5월의 기둥"  />
+			<text id="D161" name="새 둥지"  />
+			<text id="D162" name="건초(남)"  />
+			<text id="D163" name="건초(여)"  />
+			<text id="D164" name="적색 알"  />
+			<text id="D165" name="청색 알"  />
+			<text id="D166" name="보라빛 알"  />
+			<text id="D167" name="적색 알"  />
+			<text id="D168" name="청색 알"  />
+			<text id="D169" name="보라빛 알"  />
+			<text id="D17" name="정원 요정"  />
+			<text id="D170" name="청색 알 새집"  />
+			<text id="D171" name="녹색 알 둥지"  />
+			<text id="D172" name="보라빛 알둥지"  />
+			<text id="D173" name="적색 알 둥지"  />
+			<text id="D174" name="백색 알 둥지"  />
+			<text id="D175" name="가득한 둥지"  />
+			<text id="D176" name="화환"  />
+			<text id="D177" name="빨간색 풍선"  />
+			<text id="D178" name="파란색 풍선"  />
+			<text id="D179" name="노란색 풍선"  />
+			<text id="D18" name="우편함"  />
+			<text id="D180" name="해적기"  />
+			<text id="D19" name="새장"  />
+			<text id="D20" name="수풀울타리"  />
+			<text id="D21" name="울타리"  />
+			<text id="D210" name="공포의 아치"  />
+			<text id="D22" name="기둥"  />
+			<text id="D23" name="울타리"  />
+			<text id="D24" name="기둥"  />
+			<text id="D25" name="울타리 문"  />
+			<text id="D26" name="울타리 문"  />
+			<text id="D27" name="솔잎아치"  />
+			<text id="D28" name="공포의 울타리"  />
+			<text id="D29" name="공포의 기둥"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="독일"  />
+			<text id="D310" name="이탈리아"  />
+			<text id="D311" name="프랑스"  />
+			<text id="D312" name="스페인"  />
+			<text id="D313" name="포르투갈"  />
+			<text id="D314" name="네덜란드"  />
+			<text id="D315" name="벨기에"  />
+			<text id="D316" name="폴란드"  />
+			<text id="D317" name="러시아"  />
+			<text id="D318" name="체코"  />
+			<text id="D319" name="그리스"  />
+			<text id="D32" name="오스트리아"  />
+			<text id="D320" name="터키"  />
+			<text id="D321" name="미국"  />
+			<text id="D322" name="캐나다"  />
+			<text id="D323" name="멕시코"  />
+			<text id="D324" name="브라질"  />
+			<text id="D325" name="아르헨티나"  />
+			<text id="D326" name="중국"  />
+			<text id="D327" name="일본"  />
+			<text id="D328" name="호주"  />
+			<text id="D329" name="한국"  />
+			<text id="D33" name="스위스"  />
+			<text id="D330" name="헝가리"  />
+			<text id="D331" name="대만"  />
+			<text id="D34" name="핀란드"  />
+			<text id="D35" name="스웨덴"  />
+			<text id="D36" name="노르웨이"  />
+			<text id="D37" name="덴마크"  />
+			<text id="D38" name="영국"  />
+			<text id="D39" name="아일랜드"  />
+			<text id="D40" name="말 조형"  />
+			<text id="D41" name="나무"  />
+			<text id="D410" name="공포의 나무"  />
+			<text id="D42" name="젖소"  />
+			<text id="D43" name="양"  />
+			<text id="D44" name="돼지"  />
+			<text id="D45" name="염소"  />
+			<text id="D46" name="거위"  />
+			<text id="D47" name="닭"  />
+			<text id="D48" name="개"  />
+			<text id="D49" name="고양이"  />
+			<text id="D60" name="장터"  />
+			<text id="D70" name="해골"  />
+			<text id="D71" name="좀비의 손"  />
+			<text id="D72" name="묘비"  />
+			<text id="D73" name="호박 초롱"  />
+			<text id="D74" name="호박 초롱"  />
+			<text id="D75" name="호박 초롱"  />
+			<text id="D76" name="호박 초롱"  />
+			<text id="D77" name="호박 초롱"  />
+			<text id="Dxxx" name="녹색 둥지"  />
+			<text id="E01" name="10x10 밭"  />
+			<text id="E02" name="12x12 밭"  />
+			<text id="E03" name="14x14 밭"  />
+			<text id="E04" name="16x16 밭"  />
+			<text id="E05" name="18x18 밭"  />
+			<text id="E06" name="20x20 밭"  />
+			<text id="E07" name="22x22 밭"  />
+			<text id="E08" name="24x24 밭"  />
+			<text id="E11" name="10x10 밭"  />
+			<text id="E12" name="12x12 밭"  />
+			<text id="E13" name="14x14 밭"  />
+			<text id="E14" name="16x16 밭"  />
+			<text id="E15" name="18x18 밭"  />
+			<text id="E16" name="20x20 밭"  />
+			<text id="E17" name="22x22 밭"  />
+			<text id="E18" name="24x24 밭"  />
+			<text id="E21" name="10x10 밭"  />
+			<text id="E22" name="12x12 밭"  />
+			<text id="E23" name="14x14 밭"  />
+			<text id="E24" name="16x16 밭"  />
+			<text id="E25" name="18x18 밭"  />
+			<text id="E26" name="20x20 밭"  />
+			<text id="E27" name="22x22 밭"  />
+			<text id="E28" name="24x24 밭"  />
+			<text id="F01" name="시간 - M"  />
+			<text id="F20" name="영양제"  />
+			<text id="F30" name="비료"  />
+			<text id="F31" name="고급 씨앗"  />
+			<text id="F40" name="피드"  />
+			<text id="F41" name="고급 씨앗"  />
+			<text id="F50" name="요술 지팡이"  />
+			<text id="G00" name="돌 길"  />
+			<text id="H00" name="헛간"  />
+			<text id="H01" name="곡물 저장탑"  />
+			<text id="H02" name="창고"  />
+			<text id="H03" name="풍차"  />
+			<text id="H04" name="온실"  />
+			<text id="H05" name="공포의 온실"  />
+			<text id="H06" name="유령의 저장탑"  />
+			<text id="H07" name="유령의 풍차"  />
+			<text id="H08" name="겨울 비료탑"  />
+			<text id="H09" name="겨울 풍차"  />
+			<text id="H10" name="닭장"  />
+			<text id="H11" name="돼지우리"  />
+			<text id="H12" name="외양간"  />
+			<text id="H13" name="마굿간"  />
+			<text id="H20" name="오두막"  />
+			<text id="H21" name="농가"  />
+			<text id="H210" name="유령의 집"  />
+			<text id="H211" name="유령빌라"  />
+			<text id="H212" name="겨울 오두막"  />
+			<text id="H213" name="겨울 산장(s)"  />
+			<text id="H214" name="겨울 빌라(s)"  />
+			<text id="H215" name="쿠키하우스"  />
+			<text id="H216" name="겨울 산장(L)"  />
+			<text id="H217" name="겨울 빌라(L)"  />
+			<text id="H218" name="청색 알 집"  />
+			<text id="H219" name="적색 알 집"  />
+			<text id="H22" name="빌라"  />
+			<text id="H220" name="해적선"  />
+			<text id="H23" name="개 집"  />
+			<text id="H24" name="나무위 집"  />
+			<text id="H25" name="별장"  />
+			<text id="H26" name="오렌지나무온실"  />
+			<text id="H27" name="큰 빌라"  />
+			<text id="H28" name="거대 빌라"  />
+			<text id="H29" name="유령오두막"  />
+			<text id="H30" name="과일 가판대"  />
+			<text id="H31" name="도구 가게"  />
+			<text id="H32" name="Bee Soda 복권"  />
+			<text id="H40" name="비료 저장소"  />
+			<text id="H50" name="유령의 저택"  />
+			<text id="H51" name="악몽의 교회"  />
+			<text id="N01" name="나무 수확하기"  />
+			<text id="N02" name="동물 수확하기"  />
+			<text id="R00" name="작업 충전 S"  />
+			<text id="R01" name="작업 충전 M"  />
+			<text id="R02" name="작업 충전 XL"  />
+			<text id="S00" name="튤립"  />
+			<text id="S01" name="백합"  />
+			<text id="S010" name="보라빛 장미"  />
+			<text id="S02" name="라벤더"  />
+			<text id="S03" name="해바라기"  />
+			<text id="S04" name="장미"  />
+			<text id="S05" name="모란"  />
+			<text id="S06" name="사프란"  />
+			<text id="S07" name="백합"  />
+			<text id="S08" name="루핀"  />
+			<text id="S09" name="양귀비"  />
+			<text id="S10" name="딸기"  />
+			<text id="S11" name="수박"  />
+			<text id="S12" name="파인애플"  />
+			<text id="S13" name="포도"  />
+			<text id="S14" name="참외"  />
+			<text id="S15" name="라즈베리"  />
+			<text id="S16" name="블루베리"  />
+			<text id="S17" name="크랜베리"  />
+			<text id="S18" name="구즈베리"  />
+			<text id="S19" name="블랙베리"  />
+			<text id="S20" name="가지"  />
+			<text id="S21" name="콜리플라워"  />
+			<text id="S210" name="시금치"  />
+			<text id="S211" name="양파"  />
+			<text id="S212" name="붉은 양배추"  />
+			<text id="S213" name="감자"  />
+			<text id="S214" name="당근"  />
+			<text id="S215" name="강낭콩"  />
+			<text id="S216" name="무"  />
+			<text id="S217" name="대황"  />
+			<text id="S218" name="방울양배추"  />
+			<text id="S219" name="콩"  />
+			<text id="S22" name="호박"  />
+			<text id="S220" name="홍당무"  />
+			<text id="S221" name="브로콜리"  />
+			<text id="S222" name="엉겅퀴"  />
+			<text id="S223" name="고추"  />
+			<text id="S224" name="아스파라거스"  />
+			<text id="S225" name="강간"  />
+			<text id="S23" name="피망"  />
+			<text id="S24" name="토마토"  />
+			<text id="S25" name="강낭콩"  />
+			<text id="S26" name="오이"  />
+			<text id="S27" name="순무"  />
+			<text id="S28" name="상추"  />
+			<text id="S29" name="애호박"  />
+			<text id="S30" name="밀"  />
+			<text id="S31" name="귀리"  />
+			<text id="S32" name="쌀"  />
+			<text id="S33" name="호밀"  />
+			<text id="S34" name="옥수수"  />
+			<text id="S35" name="보리"  />
+			<text id="S36" name="기장"  />
+			<text id="S37" name="스위트 콘"  />
+			<text id="S38" name="붉은 밀"  />
+			<text id="S39" name="스펠트 밀"  />
+			<text id="S40" name="커피"  />
+			<text id="S41" name="차"  />
+			<text id="S42" name="사탕수수"  />
+			<text id="S43" name="알로에"  />
+			<text id="S44" name="목화"  />
+			<text id="S45" name="유전자조작 콩"  />
+			<text id="S49" name="스노우드롭"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="보물 체스트"  />
+			<text id="S52" name="적색 알"  />
+			<text id="S53" name="청색 알"  />
+			<text id="S54" name="로터스"  />
+			<text id="S55" name="백장미"  />
+			<text id="S56" name="하바네로 칠리"  />
+			<text id="S57" name="기억해두기"  />
+			<text id="S58" name="와사비"  />
+			<text id="S59" name="머핀"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="보라빛 알"  />
+			<text id="S63" name="황금빛 알"  />
+			<text id="T00" name="닭"  />
+			<text id="T01" name="거위"  />
+			<text id="T02" name="토종닭"  />
+			<text id="T03" name="오골계"  />
+			<text id="T04" name="수탉"  />
+			<text id="T05" name="오리"  />
+			<text id="T06" name="X-mas 거위"  />
+			<text id="T07" name="앵무새"  />
+			<text id="T10" name="돼지"  />
+			<text id="T11" name="젖소"  />
+			<text id="T110" name="소"  />
+			<text id="T111" name="황소"  />
+			<text id="T112" name="X-mas 말"  />
+			<text id="T113" name="X-mas 소"  />
+			<text id="T114" name="양"  />
+			<text id="T115" name="유니콘"  />
+			<text id="T12" name="양"  />
+			<text id="T13" name="염소"  />
+			<text id="T14" name="개"  />
+			<text id="T15" name="검은 고양이"  />
+			<text id="T16" name="갈색 고양이"  />
+			<text id="T17" name="검은 말"  />
+			<text id="T18" name="갈색 말"  />
+			<text id="T19" name="검은 양"  />
+			<text id="T20" name="셰퍼드"  />
+			<text id="T21" name="루돌프"  />
+			<text id="T22" name="토끼"  />
+			<text id="V00" name="10x 연료 충전"  />
+			<text id="V01" name="25x 연료 충전"  />
+			<text id="V02" name="50x 연료 충전"  />
+			<text id="V10" name="트랙터"  />
+			<text id="V20" name="씨 뿌리는 기계"  />
+			<text id="V30" name="수확용 기계"  />
+			<text id="V40" name="비료차"  />
+			<text id="V90" name="연료 탱크"  />
+			<text id="Y01" name="수확완료"  />
+			<text id="Y02" name="경작완료"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="#name#님 혹은 귀하의 친구목록 용량이 초과되었거나,#tab# #name#님이 친구 수락을 거절하였습니다."  />
+				<text id="buddies_add_ok" name="#name#님과 친구가 되었습니다."  />
+				<text id="chat_dop" name="같은 글을 반복하여 작성하지 말아주세요. 감사합니다!"  />
+				<text id="chat_nonsense" name="올바른 내용으로 대화해주세요. 감사합니다!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="잘못된 이메일 주소 입니다.
+확인 후 다시 입력해주시기 바랍니다."  />
+				<text id="email_dop" name="이미 등록된 메일 주소 입니다. 다른 이메일 주소를 입력해주세요."  />
+				<text id="email_no" name="알 수 없는 이메일 주소입니다."  />
+				<text id="farm_full" name="농장 이용자가 너무 많습니다. 다른 농장을 선택해주세요."  />
+				<text id="helper_job_no" name="#name#님이 당신의 #job# 요청을 거절했거나 장터를 떠났습니다."  />
+				<text id="helper_job_ok" name="#name#님이 당신의 #job# 요청을 수락했습니다."  />
+				<text id="helper_owner_no_money" name="농장주인은 돈이 부족하여 더 이상 경작할 수 없습니다."  />
+				<text id="invite_sent" name="감사합니다!
+친구에게 메일이 전송됩니다."  />
+				<text id="item_dop" name="이미 이 아이템을 구입할 수 있습니다."  />
+				<text id="kenn_bad" name="비밀번호는 다음의 형식을 이용하여
+5-15 자리로 정할 수 있습니다:#tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="잘못된 비밀번호 입니다"  />
+				<text id="kenn_unequal" name="비밀번호 오류"  />
+				<text id="kick" name="죄송합니다. #name#님이 퇴장시키셨습니다. #tab#퇴장당할 이유가 있었나요?"  />
+				<text id="lagernosell" name="판매 전에 건물을 비워주세요."  />
+				<text id="lager_building" name="아이템을 저장하시려면 헛간 혹은 창고를 이용하셔야 합니다."  />
+				<text id="lager_cantsell" name="건물을 비운 후에 판매가 가능합니다."  />
+				<text id="lager_voll" name="다른 기능 도구로 사용할 수 없습니다."  />
+				<text id="login_bad" name="로그인 실패. 비밀번호가 기억나지 않으면 '비밀번호 찾기'를 클릭해 주세요. #tab#문의사항은 support@goodgamestudios.com로 보내주시기 바랍니다"  />
+				<text id="name_bad" name="아이디는 다음의 형식을 이용하여 2-15자리로 정할 수 있습니다:#tab# a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="이미 등록된 아이디입니다. 다른 아이디를 입력하거나 아래 중 선택하세요:"  />
+				<text id="name_spam" name="다른 아이디를 입력해주십시오"  />
+				<text id="no_agb" name="약관을 확인하고, 반드시 동의해주시기 바랍니다."  />
+				<text id="no_arbeitskraft" name="작업 허용 아이템이 부족합니다. 허용 횟수가 충전될 때까지 기다리거나 지금 아이템을 구매하세요."  />
+				<text id="no_buddies" name="친구가 부족합니다.#tab##obj# 을/를 구입하기 위해서 #anz# 명의 친구를 더 초대해야 합니다."  />
+				<text id="no_chat" name="채팅에 참여하시려면 가입하신 후 최소한 레벨 1이 되어야 합니다."  />
+				<text id="no_ferti" name="#name# 재고가 없습니다. 새로 구입 후 사용해주세요."  />
+				<text id="no_food" name="모든 동물이 먹을 수 있는 충분한 먹이를 갖고 있지 않습니다."  />
+				<text id="no_gender" name="성별을 선택하지 않으셨습니다. 성별을 클릭해주세요."  />
+				<text id="no_lager" name="저장 공간이 없거나 부족합니다. 저장 공간을 구입하거나 확장하세요."  />
+				<text id="no_money" name="돈이 부족합니다."  />
+				<text id="no_premium" name="프리미엄 작물 #name# 이/가 시들었군요. 새 작물을 구입하세요."  />
+				<text id="no_regi" name="본 기능은 가입 후 사용하시기 바랍니다.  #tab#비가입 시 게임은 저장되지 않습니다."  />
+				<text id="no_tanken" name="연료가 부족합니다."  />
+				<text id="no_zauberstaub" name="{0} 없음.
+추가하려면 달성을 완료하세요."  />
+				<text id="old_client_version" name="구 버전입니다! 페이지 활성화하기."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="랭킹에 오르기 위해서는 레벨 3 이상이 되어야 합니다."  />
+				<text id="rangliste_player_not_ranked" name="이 플레이어는 레벨 3이하로 아직 랭킹에 오르지 못했습니다."  />
+				<text id="rangliste_unknown_id" name="아래의 이름으로 등록한 플레이어가 존재하지 않습니다."  />
+				<text id="vehiclesnosell" name="이 차량은 이미 사용중 입니다."  />
+				<text id="vollscreen" name="전체화면 모드에서는 채팅이 불가능합니다. (시스템 안전의 문제로 키보드 기능이 해제됩니다.)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="친구맺기"  />
+				<text id="farm_full" name="Oops!"  />
+				<text id="helper_job_ok" name="작업 수락"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="활성화"  />
+				<text id="buyOf" name="#menge# 중  #anz# 회 사용"  />
+				<text id="clickZum" name="클릭"  />
+				<text id="deactive" name="비활성화"  />
+				<text id="doContent" name="선택 목록"  />
+				<text id="doDel" name="삭제하기"  />
+				<text id="doFertilize" name="비료주기"  />
+				<text id="doFertilizeAnimals" name="먹이주기"  />
+				<text id="doFortune" name="복권 게임하기"  />
+				<text id="doHarvest" name="수확하기"  />
+				<text id="doMove" name="이동하기"  />
+				<text id="doPlow" name="경작하기"  />
+				<text id="doPos" name="위치지정"  />
+				<text id="doRot" name="회전하기"  />
+				<text id="doSell" name="판매하기"  />
+				<text id="doSow" name="씨 뿌리기"  />
+				<text id="doTosOpen" name="가두기"  />
+				<text id="doVehicles" name="장비로"  />
+				<text id="farmbuddie" name="친구#친구"  />
+				<text id="farmgast" name="게스트#게스트"  />
+				<text id="farmhelperharvest" name="수확 도우미#수확 도우미"  />
+				<text id="farmhelperplow" name="경작 도우미#경작 도우미"  />
+				<text id="farmowner" name="농장주인#농장주인"  />
+				<text id="farmvisitor" name="방문자#방문자"  />
+				<text id="isFertilize" name="비료 처리함"  />
+				<text id="isHarvest" name="수확 완료"  />
+				<text id="isReadyB" name="익음"  />
+				<text id="isReadyEX" name="시들었음"  />
+				<text id="isReadyFin" name="수확률"  />
+				<text id="isReadyS" name="자람"  />
+				<text id="isReadyT" name="완료"  />
+				<text id="jobbenrest" name="#anz# 회 작업 수락"  />
+				<text id="jobVehicles" name="--- 기계로 작업:"  />
+				<text id="jobWalk" name="--- 직접 작업:"  />
+				<text id="ketteZum" name="작업 목록"  />
+				<text id="Market" name="장터"  />
+				<text id="marketvisitor" name="플레이어#플레이어"  />
+				<text id="my" name="나"  />
+				<text id="noPfad" name="길이 막혀있어서 그리로 갈 수 없어요 :-("  />
+				<text id="online" name="접속 중"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="플레이어"  />
+				<text id="AC" name="상의"  />
+				<text id="AG" name="외모"  />
+				<text id="AH" name="헤어스타일"  />
+				<text id="AP" name="하의"  />
+				<text id="AS" name="신발"  />
+				<text id="AT" name="피부색"  />
+				<text id="B" name="나무"  />
+				<text id="D" name="장식물"  />
+				<text id="E" name="농장 확장"  />
+				<text id="F" name="비료"  />
+				<text id="G" name="도로"  />
+				<text id="H" name="집"  />
+				<text id="R" name="작업하기"  />
+				<text id="S" name="밭"  />
+				<text id="T" name="동물"  />
+				<text id="V" name="차량"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="나무"  />
+				<text id="D0" name="농장 장식물"  />
+				<text id="D1" name="집 장식물"  />
+				<text id="D2" name="울타리"  />
+				<text id="D3" name="깃발"  />
+				<text id="D4" name=""  />
+				<text id="D7" name=""  />
+				<text id="F0" name="시간 단축"  />
+				<text id="F1" name="수확량증가"  />
+				<text id="F2" name="재생"  />
+				<text id="H0" name="농장"  />
+				<text id="H1" name="마굿간"  />
+				<text id="H2" name="숙소"  />
+				<text id="H4" name="기능"  />
+				<text id="H5" name="기능 건물"  />
+				<text id="N0" name="더 빨리 작업하기"  />
+				<text id="R0" name="다른 농장에서 일하기"  />
+				<text id="S0" name="꽃"  />
+				<text id="S1" name="과일"  />
+				<text id="S2" name="채소"  />
+				<text id="S3" name="곡물"  />
+				<text id="S4" name="기타"  />
+				<text id="S5" name="프리미엄"  />
+				<text id="S6" name="시즌"  />
+				<text id="T0" name="가금류(닭, 거위등)"  />
+				<text id="T1" name="생산 가축"  />
+				<text id="T2" name="애완동물"  />
+				<text id="V0" name="연료"  />
+				<text id="V1" name="트랙터"  />
+				<text id="V2" name="파종기"  />
+				<text id="V3" name="수확용 기계"  />
+				<text id="V4" name="비료장비"  />
+				<text id="V9" name="연료 탱크"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="새로운 성과!"  />
+				<text id="txt1" name="축하합니다!  
+성과 '#name#' - #level# 단계를 획득하셨습니다."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="공유하기"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="벌어들인 농장 달러"  />
+				<text id="i10" name="꽃 수확량"  />
+				<text id="i11" name="나무 수확량"  />
+				<text id="i12" name="수확한 동물 수"  />
+				<text id="i13" name="선물 구입에 소비한 농장 달러"  />
+				<text id="i14" name="받은 선물 수"  />
+				<text id="i15" name="도움 횟수"  />
+				<text id="i16" name="촬영한 사진 수"  />
+				<text id="i17" name="이전 작업 시스템에서의 경작 작업 완료 횟수"  />
+				<text id="i18" name="이전 작업 시스템에서의 수확 작업 완료 횟수"  />
+				<text id="i19" name="이전 작업 시스템에서의 경작 작업 요청 횟수"  />
+				<text id="i2" name="소비한 농장 달러"  />
+				<text id="i20" name="이전 작업 시스템에서의 수확 작업 요청 횟수"  />
+				<text id="i21" name="비료 뿌린 밭, 동물, 나무의 수: 시간의 이점"  />
+				<text id="i22" name="비료 뿌린 밭, 동물의 수: 요술 지팡이"  />
+				<text id="i23" name="수확한 곡물 종류"  />
+				<text id="i24" name="수확한 과일 종류"  />
+				<text id="i25" name="수확한 꽃 종류"  />
+				<text id="i26" name="수확한 채소 종류"  />
+				<text id="i27" name="수확한 나무 종류"  />
+				<text id="i28" name="수확한 동물 종류"  />
+				<text id="i29" name="수확한 총 단위 수"  />
+				<text id="i3" name="구매한 건물 수"  />
+				<text id="i30" name="다양한 마스터 수"  />
+				<text id="i31" name="총 마스터 수"  />
+				<text id="i32" name="초대한 친구 수"  />
+				<text id="i33" name="구매한 나무"  />
+				<text id="i34" name="수확한 프리미엄 작물"  />
+				<text id="i35" name="수확한 프리미엄 작물 종류"  />
+				<text id="i36" name="경작 작업 시 경작 한 논의 수"  />
+				<text id="i37" name="경작 작업 요청 시 나의 농장에서 경작 된 논의 수"  />
+				<text id="i38" name="수확 작업 시 수확한 논, 동물, 나무의 수"  />
+				<text id="i39" name="수확 작업 요 시 나의 농장에서 수확된 논, 동물, 나무의 수"  />
+				<text id="i4" name="구매한 장식물 수"  />
+				<text id="i5" name="구매한 동물 수"  />
+				<text id="i6" name="총 씨앗 수확량"  />
+				<text id="i7" name="과일 수확량"  />
+				<text id="i8" name="채소 수확량"  />
+				<text id="i9" name="곡물 수확량"  />
+				<text id="next" name="다음 레벨까지 
+#level#"  />
+				<text id="t1" name="농장달러 수입"  />
+				<text id="t10" name="수확한 꽃"  />
+				<text id="t11" name="수확한 나무"  />
+				<text id="t12" name="수확한 동물"  />
+				<text id="t13" name="선물구입 지출"  />
+				<text id="t14" name="받은 선물"  />
+				<text id="t15" name="나를 지원하는 이웃"  />
+				<text id="t16" name="찍은 사진 수"  />
+				<text id="t17" name="전설의 경작가"  />
+				<text id="t18" name="베테랑 수확가"  />
+				<text id="t19" name="수락한 작업(경작)"  />
+				<text id="t2" name="농장달러 지출"  />
+				<text id="t20" name="작업 요청 (수확)"  />
+				<text id="t21" name="시간단축"  />
+				<text id="t22" name="질 향상"  />
+				<text id="t23" name="다양한 곡물 수확"  />
+				<text id="t24" name="다양한 과일 수확"  />
+				<text id="t25" name="다양한 꽃 수확"  />
+				<text id="t26" name="다양한 채소 수확"  />
+				<text id="t27" name="다양한 나무 수확"  />
+				<text id="t28" name="다양한 동물 수확"  />
+				<text id="t29" name="다양한 종류 수확"  />
+				<text id="t3" name="구입한 건물"  />
+				<text id="t30" name="다방면 마스터"  />
+				<text id="t31" name="완전한 마스터"  />
+				<text id="t32" name="초대한 친구"  />
+				<text id="t33" name="수확한 나무"  />
+				<text id="t34" name="황금 수확"  />
+				<text id="t35" name="빛나는 씨앗"  />
+				<text id="t36" name="번영하는 농장"  />
+				<text id="t37" name="엄격한 관리자"  />
+				<text id="t38" name="친절한 수확가"  />
+				<text id="t39" name="돌아온 농부"  />
+				<text id="t4" name="구입한 장식"  />
+				<text id="t5" name="구입한 동물"  />
+				<text id="t6" name="수확한 모든 씨앗"  />
+				<text id="t7" name="수확한 과일"  />
+				<text id="t8" name="수확한 채소"  />
+				<text id="t9" name="수확한 곡물"  />
+				<text id="txt0" name="성과"  />
+				<text id="txt1" name="진행 상황"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="죄송합니다!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="#time# 분간 게임 접속이 제한됩니다.
+문의 사항은 #support#로 보내주시기 바랍니다"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="중요 정보!!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="죄송합니다!"  />
+				<text id="txt1" name="#spielname#님이 이미 다른 창에서 게임 중입니다."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="주의!!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="서버 오류로 인해 #time# 초 후 장애가 예상됩니다!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="선택하기"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="아바타"  />
+				<text id="txt0" name="랜덤"  />
+				<text id="txt1" name="저장하기"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="플레이어 신고하기"  />
+				<text id="txt1" name="정말로 {0} 님을 신고하시겠습니까?"  />
+				<text id="txt2" name="네"  />
+				<text id="txt3" name="아니오"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="친구 수락"  />
+				<text id="txt1" name="#name# 님이 친구로 추가하셨습니다."  />
+				<text id="txt2" name="거절"  />
+				<text id="txt3" name="수락"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="친구맺기"  />
+				<text id="txt1" name="#name# 님에게 친구맺기를 요청합니다."  />
+				<text id="txt2" name="취소"  />
+				<text id="txt3" name="요청"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} 님은 {0} 친구 입니다. 친구 목록에서 삭제하려면 먼저 {0} 에서의 친구 연결을 종료해야 합니다!"  />
+				<text id="txt0" name="친구 삭제"  />
+				<text id="txt1" name="#name# 님을 정말 친구목록에서 삭제하시겠습니까?"  />
+				<text id="txt2" name="아니오"  />
+				<text id="txt3" name="예"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="아이템 삭제"  />
+				<text id="txt1" name="#obj# 아이템을 정말 삭제 하시겠습니까?"  />
+				<text id="txt2" name="아니오"  />
+				<text id="txt3" name="네"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="계속"  />
+				<text id="tTitle" name="리워드!"  />
+				<text id="txt0" name="선물을 이메일 계정으로 전송했습니다."  />
+				<text id="txt1" name="지금 수거하기!"  />
+				<text id="txt2" name="당신의 이메일을 재전송해 드리겠습니다."  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="계속"  />
+				<text id="tTitle" name="이메일이 전송되었습니다"  />
+				<text id="txt0" name="이메일로 리워드를 보내드렸습니다."  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="계속"  />
+				<text id="tTitle" name="현재"  />
+				<text id="txt0" name="리워드를 받았습니다."  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="확장하기"  />
+				<text id="txt1" name="건물을 확장하여 아이템 추가하기"  />
+				<text id="txt2" name="취소"  />
+				<text id="txt3" name="구입"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="농장을 확장하였습니다!"  />
+				<text id="txt1" name="축하합니다!농장이 확장되었습니다."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="공유하기"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="사진첩"  />
+				<text id="txt1" name="취소"  />
+				<text id="txt2" name="삭제"  />
+				<text id="txt3" name="저장"  />
+				<text id="txt4" name="사진평을 남겨주세요!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="가입하기"  />
+				<text id="txt1" name="비가입 시 게임을 저장할 수 없습니다. 무료로 가입하여 게임을 계속하세요!"  />
+				<text id="txt2" name="가입하기"  />
+				<text id="txt3" name="로그아웃"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="수확하기"  />
+				<text id="txt1" name="#name#님의 수확 요청을 수락하시겠습니까?
+리워드로 XP를 받게 됩니다."  />
+				<text id="txt2" name="거절"  />
+				<text id="txt3" name="수락"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="경작하기"  />
+				<text id="txt1" name="#name# 님의 경작 요청을 수락하시겠습니까?
+수행한 경작에 대해 농장달러를 받게됩니다."  />
+				<text id="txt2" name="거절"  />
+				<text id="txt3" name="수락"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="수확 요청"  />
+				<text id="txt1" name="#name# 님에게 나의 농장에서의 수확을 요청합니다. 요청이 받아들여지면 더 많은 농장달러를 벌게 됩니다."  />
+				<text id="txt2" name="취소"  />
+				<text id="txt3" name="요청"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="경작 요청"  />
+				<text id="txt1" name="#name# 님에게 나의 농장에서의 경작을 요청합니다. 요청이 받아들여지면 더 많은 XP를 얻게 됩니다."  />
+				<text id="txt2" name="취소"  />
+				<text id="txt3" name="요청"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="풀어놓기"  />
+				<text id="txt1" name="구입"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="사용 중 공간"  />
+				<text id="txt1" name="확장하기"  />
+				<text id="txt2" name="창고"  />
+				<text id="txt3" name="뒤로"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="삭제하기"  />
+				<text id="txt1" name="수확하기"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="사용 중인 공간"  />
+				<text id="txt1" name="확장하기"  />
+				<text id="txt2" name="모두 수확하기"  />
+				<text id="txt3" name="&#039;{0}&#039; 로 전체 먹이주기"  />
+				<text id="txt4" name="먹이주기 &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="신규 아이템이 잠금 해제되었습니다."  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="신규 아이템"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="레벨업!"  />
+				<text id="txt1" name="축하합니다! 성공적으로 레벨업되어 가게에 새로운 아이템이 추가되었습니다."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="공유하기"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="비밀번호 찾기"  />
+				<text id="txt1" name="비밀번호를 찾으려면 가입시 등록한 이메일 주소를 입력하고 &#039;보내기&#039;를 클릭하세요."  />
+				<text id="txt2" name="이메일"  />
+				<text id="txt3" name="취소"  />
+				<text id="txt4" name="보내기"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="로그아웃"  />
+				<text id="txt1" name="농장을 나가시겠습니까?"  />
+				<text id="txt2" name="취소"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Oops!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="가입하기"  />
+				<text id="txt1" name="무료 가입 후 게임을 저장하세요."  />
+				<text id="txt2" name="로그아웃"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="가입하기"  />
+				<text id="txt1" name="이메일"  />
+				<text id="txt2" name="비밀번호"  />
+				<text id="txt3" name="이용 약관"  />
+				<text id="txt4" name="취소"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="플레이어 등록"  />
+				<text id="txt1" name="별명"  />
+				<text id="txt2" name="여성"  />
+				<text id="txt3" name="남성"  />
+				<text id="txt4" name="취소하기"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="게임하기"  />
+				<text id="txt1" name="가입하기"  />
+				<text id="txt2" name="로그인"  />
+				<text id="txt3" name="아이디 / 이메일"  />
+				<text id="txt4" name="비밀번호"  />
+				<text id="txt5" name="비밀번호 찾기"  />
+				<text id="txt6" name="기억하기"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="장터"  />
+				<text id="txt1" name="더 이상 표시하지 않기"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="#name#님 안녕하세요 !여기는 #spielname# 님의 장터입니다. 이 곳에서는 경작과 수확 작업을 위한 구인, 구직이 가능합니다."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="비밀번호 변경"  />
+				<text id="txt1" name="기존 비밀번호"  />
+				<text id="txt2" name="신규 비밀번호"  />
+				<text id="txt3" name="신규 비밀번호 재입력"  />
+				<text id="txt4" name="취소"  />
+				<text id="txt5" name="저장"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Oops!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="가입하기"  />
+				<text id="txt3" name="친구 초대"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="설정"  />
+				<text id="txt1" name="나무 투시"  />
+				<text id="txt10" name="상"  />
+				<text id="txt11" name="중"  />
+				<text id="txt12" name="하"  />
+				<text id="txt13" name="화면확대"  />
+				<text id="txt14" name="친구요청 무시하기"  />
+				<text id="txt15" name="랭킹을 통한 나의 농장방문 금지하기"  />
+				<text id="txt16" name="게임안내 보이기"  />
+				<text id="txt2" name="건물 투시"  />
+				<text id="txt3" name="장식물 투시"  />
+				<text id="txt4" name="절전모드"  />
+				<text id="txt5" name="비밀번호 변경"  />
+				<text id="txt6" name="취소"  />
+				<text id="txt7" name="저장"  />
+				<text id="txt8" name="애니메이션 off"  />
+				<text id="txt9" name="화질"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="이름/순위 검색"  />
+				<text id="txt0" name="랭킹"  />
+				<text id="txt1" name="찾기"  />
+				<text id="txt2" name="순위"  />
+				<text id="txt3" name="이름"  />
+				<text id="txt4" name="레벨"  />
+				<text id="txt5" name="경험치"  />
+				<text id="zeitraum0" name="오늘"  />
+				<text id="zeitraum1" name="이번 주"  />
+				<text id="zeitraum2" name="이번 달"  />
+				<text id="zeitraum3" name="항상"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="아이템 판매"  />
+				<text id="txt1" name="#obj# 아이템을 농장 달러 #w1# 에 판매하시겠습니까?"  />
+				<text id="txt2" name="아니오"  />
+				<text id="txt3" name="네"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="이 영양제로 시든 씨앗이 회복됩니다."  />
+				<text id="F30" name="식물과 나무의 성장을 10% 증기시키세요"  />
+				<text id="F31" name="식물과 나무의 성장을 50% 증가시키세요"  />
+				<text id="F40" name="동물의 성장을 10% 증가시키세요"  />
+				<text id="F41" name="동물의 성장을 50% 증가시키세요"  />
+				<text id="F50" name="씨앗, 나무, 동물에서 적립된 XP를 50% 증가시키세요."  />
+				<text id="H00" name="헛간에 15개의 아이템을 저장할 수 있습니다."  />
+				<text id="H02" name="창고에 4개의 아이템을 저장할 수 있습니다."  />
+				<text id="H10" name="닭장이 있으면
+닭 여러 마리를 동시에
+거두어 들일 수 있습니다."  />
+				<text id="H11" name="돼지우리가 있으면
+돼지 여러 마리를 동시에
+거두어 들일 수 있습니다. "  />
+				<text id="H12" name="외양간이 있으면
+소 여러 마리를 동시에
+거두어 들일 수 있습니다."  />
+				<text id="H13" name="마굿간이 있으면 말 여러 마리를 동시에 거두어 들일 수 있습니다."  />
+				<text id="H40" name="용광로에서 모든 비료와 사료 구매에 대해 20% 보너스를 드려요."  />
+				<text id="N01" name="수확 가능한 나무 한 번에 거두기"  />
+				<text id="N02" name="수확 가능한 동물 한 번에 거두기"  />
+				<text id="R0x" name="이 충전기를 이용하면 작업 허용치 {0}번 충전이 가능합니다."  />
+				<text id="S5x" name="시들지 않는 프리미엄 작물로 보다 높은 경험치와 농장달러를 획득해보세요! 상자단위로 구입할 수 있답니다."  />
+				<text id="V0x" name="이 연료통을 이용하면{0}번 주유 가능합니다."  />
+				<text id="V10" name="트랙터를 사용하면 밭 4개를 동시에 경작할 수 있습니다."  />
+				<text id="V20" name="씨 뿌리는 기계를 사용하면 밭 4개에 동시에 씨를 뿌릴 수 있습니다."  />
+				<text id="V30" name="수확하는 기계를 사용하면 밭 4개를 동시에 수확할 수 있습니다."  />
+				<text id="V40" name="비료 뿌리는 기계를 사용하면 밭 4개에 동시에 비료를 뿌릴 수 있습니다."  />
+				<text id="V90" name="연료 충전 시
+ 20% 보너스"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="레벨 #level#"  />
+				<text id="txtAnzahl" name="수량:"  />
+				<text id="txtAnzahlVon" name="허용치"  />
+				<text id="txtBenutzen" name="사용하기"  />
+				<text id="txtBuy" name="구입하기"  />
+				<text id="txtHarvestXP" name="수확료:"  />
+				<text id="txtPremium" name="프리미엄"  />
+				<text id="txtSize" name="상자크기:"  />
+				<text id="txtVerbrauch" name="소비"  />
+				<text id="txtWork" name="일하기"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="게임안내 보이지않기"  />
+				<text id="shoptipp_0_title" name="Oops!"  />
+				<text id="shoptipp_1_text" name="연료가 부족합니다. 새 연료를 구입할까요?"  />
+				<text id="shoptipp_1_title" name="연료 충전하기"  />
+				<text id="shoptipp_2_text" name="비료가 부족합니다. 새 비료를 구입할까요?"  />
+				<text id="shoptipp_2_title" name="비료 추가하기"  />
+				<text id="shoptipp_3_text" name="농장에 공간이 부족합니다. 농장을 확장할까요?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="작업 에너지 아이템이 없습니다.
+작업 에너지를 수동으로 충전할 수 있다는 것을 알고 계세요?"  />
+				<text id="shoptipp_4_title" name="워커홀릭!"  />
+				<text id="shoptipp_5_text" name="액션 수행에 필요한 고급 씨앗을 충분하게 보유하고 있지 않습니다. 추가로 구매하시겠어요?"  />
+				<text id="shoptipp_5_title" name="고급 씨앗 구매"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="가게"  />
+				<text id="txtSilo" name="곡물 저장탑"  />
+				<text id="txtWork" name="일하기"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="일거리를 찾습니다."  />
+				<text id="txt1" name="경작을 하고 싶어요."  />
+				<text id="txt2" name="수확을 하고 싶어요."  />
+				<text id="txt3" name="경작하시겠어요?"  />
+				<text id="txt4" name="수확하시겠어요?"  />
+				<text id="txt5" name="안녕하세요!"  />
+				<text id="txt6" name="감사합니다"  />
+				<text id="txt7" name="네"  />
+				<text id="txt8" name="아니오"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="친구 초대"  />
+				<text id="txt1" name="아이디"  />
+				<text id="txt2" name="친구 아이디"  />
+				<text id="txt3" name="친구 이메일"  />
+				<text id="txt4" name="취소"  />
+				<text id="txt5" name="초대하기"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="음소거"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bee Soda"  />
+				<text id="txt1" name="Bee Soda를 플레이하고 우승 상품을 받으세요!"  />
+				<text id="txt2" name="돌리기!"  />
+				<text id="txt3" name="첫번째 라운드는 무료입니다!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="만세~!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="경험치 #xp# 시 레벨업"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="농장 달러:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="친구:"  />
+				<text id="txt4" name="성과:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="플레이어 삭제하기"  />
+				<text id="txt1" name="정말로  #name# 님을 농장에서 퇴장시키시겠습니까?"  />
+				<text id="txt2" name="취소"  />
+				<text id="txt3" name="수락하기"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="드디어 Goodgame Farmer에도 봄이 오고 있어요! 봄을 알리는 새로운 건물과 장식품, 가축과 나무들을 놓치지 마세요!"  />
+				<text id="teaser_11_info_1" name="잘 들어보세요!
+농장이 소리와 함께 활기를 찾았군요!
+Goodgame Farmer 에서 즐거운 시간되시길 바랍니다."  />
+				<text id="teaser_11_title" name="사운드!"  />
+				<text id="teaser_12_info_1" name="레벨 10부터 장터에서 채팅이 가능합니다. 그 이전까지는 문장 완성 기능으로 채팅을 이용하십시오."  />
+				<text id="teaser_12_title" name="장터 채팅규칙"  />
+				<text id="teaser_13_info_1" name="뉴 아이템!
+그리고 새로운 동물, 나무, 장식품과 건물들과 함께 게임을 즐겨보세요!"  />
+				<text id="teaser_13_info_2" name="이제 새로운 성과 레벨이 추가되었습니다."  />
+				<text id="teaser_14_info_1" name="새 프리미엄 작물을 심어보세요!
+시들지 않는 이 아이템으로 보다 높은 경험치와 농장달러를 획득하게 될거에요."  />
+				<text id="teaser_14_info_2" name="그 밖에 고 레벨을 위한 새로운 작물과 새로운 성과가 업데이트 되었어요!"  />
+				<text id="teaser_14_title" name="프리미엄 작물"  />
+				<text id="teaser_17_info_1" name="부활절과 함께 새로운 아이템이 출시되었답니다. 새로운 건물, 장식품은 물론 새 가축과 작물도 추가되었어요! 지금 확인해보세요!"  />
+				<text id="teaser_17_info_2" name="이제부터 Fake Job 수락 시 작업 횟수에 포함 되지 않습니다. 일거리가 있는 작업 요청만이 수락 횟수에 포함됩니다."  />
+				<text id="teaser_17_title" name="축복의 부활절입니다!"  />
+				<text id="teaser_18_info_1" name="서두르세요! 며칠 후면 부활절 시즌 아이템이 지나간답니다. 50% 할인된 가격으로 시즌 아이템을 구매하세요!"  />
+				<text id="teaser_18_title" name="놓치지마세요!"  />
+				<text id="teaser_19_info_1" name="여름이 왔어요!
+새롭게 출시된 시즌 건물과 부활절 아이템을 구입해보세요!
+
+또한 항상 업데이트 되는 굿게임 포럼을 참고 하는 것도 도움이 될거에요."  />
+				<text id="teaser_19_title" name="모자 위로!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer 의 1주년을 축하해주세요!
+당신의 농장을 꾸며 파티를 열어보세요. 새로운 머핀 씨앗도 잊지 말고 뿌려주세요!
+
+파티가 눈 깜짝할 새에 지나가 버릴지도 모르니 서두르세요!"  />
+				<text id="teaser_20_title" name="생일축하합니다!"  />
+				<text id="teaser_21_info_1" name="주의! 성공을 위한 요술 지팡이가 있습니다.
+요술 지팡이를 이용하여 나무, 동물, 씨앗의 생산물과 경험을 늘리세요."  />
+				<text id="teaser_21_info_2" name="동물들이 배가 고파요!
+먹이를 주면 빨리 자라요!
+나무에도 영양분을 공급해줘야 해요."  />
+				<text id="teaser_21_title" name="동물 피드 등!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer 게임이 유럽 &quot;최고의 소셜 게임&quot;으로 선정되었습니다."  />
+				<text id="teaser_23_info_2" name="우승할 수 있도록 투표해 주세요!"  />
+				<text id="teaser_23_title" name="투표하세요!"  />
+				<text id="teaser_24_info_1" name="야~!
+해적들이 Goodgame Farmer에 도착했습니다!
+해적 모자를 쓰고, 새로운 보물을 심고, 앵무새를 얻으세요."  />
+				<text id="teaser_24_title" name="해적 업데이트!"  />
+				<text id="teaser_25_info_1" name="최근 업데이트로 인해 비료 및 달성 리워드 변환에 기술적인 문제가 발생했습니다.
+
+이 문제를 해결하려면 계정을 이전 상태로 초기화해야 합니다.
+
+불편을 끼쳐 드려 죄송합니다."  />
+				<text id="teaser_25_title" name="초기화"  />
+				<text id="teaser_5_info_1" name="음산한 분위기의 할로윈 아이템으로 농장을 꾸며보세요!"  />
+				<text id="teaser_5_title" name="새로운 아이템!"  />
+				<text id="teaser_6_info_1" name="당신의 생각은 어떤가요? 이 다음에 어떤 게임을 해보고 싶은지 말해주세요!"  />
+				<text id="teaser_6_title" name="결정하세요!!!"  />
+				<text id="teaser_7_info_1" name="크리스마스가 다가오고 있어요!
+새로 추가된 시즌 아이템을 놓치지 마세요!"  />
+				<text id="teaser_7_info_2" name="농장 부지 확보를 위한 새로운 저장용 아이템이 출시되었어요! 
+창고와 헛간에 아이템을 정리하고 농장에 더 많은 자리를 확보해보세요!"  />
+				<text id="teaser_7_title" name="신규 아이템"  />
+				<text id="teaser_8_info_1" name="또 하나의 크리스마스 선물!
+새로운 랭킹으로 다른 플레이어들과 순위를 비교해볼 수 있습니다.
+최고의 농장 경영자가 되어보세요!"  />
+				<text id="teaser_8_title" name="랭킹!"  />
+				<text id="teaser_9_info_1" name="지금 서두르세요!
+일주일후 크리스마스 아이템 판매가 종료됩니다.
+지금 50% 인하된 가격으로 크리스마스 시즌 아이템을 구입할 수 있습니다!"  />
+				<text id="teaser_9_title" name="놓치지 마세요!"  />
+				<text id="teaser_btn_forum" name="Forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="가게"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="거절"  />
+				<text id="zAchievements" name="나의 성과"  />
+				<text id="zAn2" name="수락"  />
+				<text id="zBuddies" name="친구 전체"  />
+				<text id="zBuddiesNoAsk" name="이 플레이어는 친구요청을 수락할 수 없습니다."  />
+				<text id="zBuddiesSub" name="플레이어를
+친구 목록에서 삭제하기"  />
+				<text id="zBuy" name="구입"  />
+				<text id="zCancel" name="닫기"  />
+				<text id="zChat" name="채팅"  />
+				<text id="zChatMute" name="음소거"  />
+				<text id="zChatSenden" name="메시지 전송"  />
+				<text id="zChatVorgaben" name="자동 완성 문장"  />
+				<text id="zCheckAGB" name="모든 약관을 인지하였습니다"  />
+				<text id="zCheckAny" name="동물애니메이션 off"  />
+				<text id="zCheckMen" name="남성 아바타"  />
+				<text id="zCheckMerken" name="아이디 및 비밀번호를 저장하시겠습니까?"  />
+				<text id="zCheckMute" name="채팅 거부"  />
+				<text id="zCheckNoMoreShow" name="더 이상 이 창을 열지 않습니다."  />
+				<text id="zCheckQuali" name="그래픽 품질을 낮춰 절전모드로 변경하기"  />
+				<text id="zCheckShowB" name="나무 투시"  />
+				<text id="zCheckShowD" name="장식물 투시"  />
+				<text id="zCheckShowH" name="건물 투시"  />
+				<text id="zCheckSound1" name="효과"  />
+				<text id="zCheckSound2" name="음악"  />
+				<text id="zCheckWomen" name="여성 아바타"  />
+				<text id="zChipsMore" name="농장 달러/금 추가하기"  />
+				<text id="zClose" name="닫기"  />
+				<text id="zClothes" name="아바타에게 옷 입히기"  />
+				<text id="zClothsBuy" name="현재 아바타를 저장하시겠습니까?"  />
+				<text id="zClothsSelect" name="선택하기"  />
+				<text id="zClothsZufall" name="스타일 추천받기"  />
+				<text id="zCookAdd" name="추가적인 로그 데이터 생성"  />
+				<text id="zCookDel" name="로그 데이터 삭제"  />
+				<text id="zDel" name="삭제"  />
+				<text id="zDown" name="아래로"  />
+				<text id="zEarnChips" name="농장 달러 벌기"  />
+				<text id="zEarnGold" name="금 벌기"  />
+				<text id="zEinladen" name="아 아이템을 구매하기 위해 {0}명의 친구를 더 초대해야합니다."  />
+				<text id="zEinladen2" name="현재 {1}명의 {0} 친구가 있습니다."  />
+				<text id="zEmailVerificationWinker" name="환영 선물 수거"  />
+				<text id="zErweitern" name="확장하기"  />
+				<text id="zExchange" name="금을 농장 달러로 교환"  />
+				<text id="zExpHigherLevelNeeded" name="레벨이 너무 낮습니다."  />
+				<text id="zExpPreviousNeeded" name="전 단계 확장이 필요합니다."  />
+				<text id="zFarmowner" name="농장주인"  />
+				<text id="zFertilize" name="비료"  />
+				<text id="zFlinkeHand" name="빠른 작업"  />
+				<text id="zFoto" name="사진"  />
+				<text id="zFullscreen" name="전체화면"  />
+				<text id="zFunc" name="특수기능 아이템"  />
+				<text id="zGiftsMy" name="나의 선물"  />
+				<text id="zHarvest" name="수확하기"  />
+				<text id="zHarvestV3" name="장비로 수확하기"  />
+				<text id="zHelp" name="도움말"  />
+				<text id="zHome" name="나의 농장"  />
+				<text id="zInfoEMail" name="이 메일 형식은 다음과 같습니다.
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="비밀번호는 5-15 자리로, a-z,A-Z,0-9,ÄÖÜ,äöüß,-_@ 등 알파벳, 숫자, 기호로 이루어져야 합니다"  />
+				<text id="zInsOpen" name="열기"  />
+				<text id="zInvite" name="친구 초대하기"  />
+				<text id="zJ" name="실행"  />
+				<text id="zJobben" name="작업 에너지:
+다른 농장에서의 경작, 수확 작업 수락시 사용됩니다.
+{0}번 작업 허용치를 보유하는 한, 매 분 자동으로 허용치가 충전됩니다. 언제든 아이템 상점에서 추가로 구매할 수 있습니다."  />
+				<text id="zKatAC" name="상의"  />
+				<text id="zKatAG" name="외모"  />
+				<text id="zKatAH" name="헤어 스타일"  />
+				<text id="zKatAK" name="모자"  />
+				<text id="zKatAP" name="하의"  />
+				<text id="zKatAS" name="신발"  />
+				<text id="zKatAT" name="피부색"  />
+				<text id="zKatB" name="나무"  />
+				<text id="zKatD" name="장식물"  />
+				<text id="zKatE" name="농장 확장"  />
+				<text id="zKatF" name="비료"  />
+				<text id="zKatG" name="도로"  />
+				<text id="zKatH" name="건물"  />
+				<text id="zKatR" name="작업 허용치"  />
+				<text id="zKatS" name="씨앗"  />
+				<text id="zKatT" name="동물"  />
+				<text id="zKatV" name="차량"  />
+				<text id="zKatX" name="특별 할인"  />
+				<text id="zKatY" name="모두"  />
+				<text id="zKennLost" name="비밀번호 찾기"  />
+				<text id="zKennMod" name="비밀번호 변경"  />
+				<text id="zKette" name="작업 목록"  />
+				<text id="zKetteDel" name="작업 목록 삭제"  />
+				<text id="zKick" name="이 플레이어를 농장에서 퇴장시키기"  />
+				<text id="zLinkAGB" name="약관 보기"  />
+				<text id="zLogin" name="게임시작"  />
+				<text id="zLogout" name="로그아웃"  />
+				<text id="zLupeM" name="축소"  />
+				<text id="zLupeP" name="확대"  />
+				<text id="zMail" name="메시지"  />
+				<text id="zMarket" name="장터"  />
+				<text id="zMeldBad" name="플레이어를 신고하겠습니까?"  />
+				<text id="zMen" name="남성 아바타"  />
+				<text id="zMoreChipsGold" name="농장 달러 &amp; 금 구입하기"  />
+				<text id="zMove" name="이동하기"  />
+				<text id="zN" name="취소"  />
+				<text id="zNext" name="다음"  />
+				<text id="zNoSilo" name="먼저 비료 저장소를 세워야합니다."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="비밀번호 요청하기"  />
+				<text id="zOKKennMod" name="새 비밀번호 저장"  />
+				<text id="zPfeil" name="멀티툴"  />
+				<text id="zPfeilV" name="차량 멀티툴"  />
+				<text id="zPlow" name="경작하기"  />
+				<text id="zPlowNew" name="새 밭"  />
+				<text id="zPlowV1" name="트랙터로 경작하기"  />
+				<text id="zPrefs" name="설정"  />
+				<text id="zPremium" name="이 상자를 구입하세요"  />
+				<text id="zPremiumUse" name="이 프리미엄급 작물 사용하기"  />
+				<text id="zPrev" name="뒤로"  />
+				<text id="zQuest" name="탐색"  />
+				<text id="zRangliste" name="랭킹"  />
+				<text id="zRanking2Farm" name="이 플레이어는 랭킹을 통한 농장방문을 금지하였습니다."  />
+				<text id="zRegistrieren" name="가입 후
+게임을 저장하세요."  />
+				<text id="zRot" name="회전하기"  />
+				<text id="zSave" name="저장하기"  />
+				<text id="zScrBG" name="스크롤 바"  />
+				<text id="zScrMove" name="상하 스크롤 이동"  />
+				<text id="zSell" name="판매하기"  />
+				<text id="zShare" name="친구에게 알리세요!"  />
+				<text id="zShop" name="가게"  />
+				<text id="zShopEarn" name="판매료:"  />
+				<text id="zShopHarvest" name="수확료:"  />
+				<text id="zShopLagerSize" name="저장가능:"  />
+				<text id="zShopTime" name="수확시간:"  />
+				<text id="zShopXP" name="경험치:"  />
+				<text id="zSilo" name="비료 저장소"  />
+				<text id="zSofort" name="비회원 게임 시작"  />
+				<text id="zSound" name="사운드"  />
+				<text id="zSow" name="씨뿌리기"  />
+				<text id="zSowV2" name="장비로 씨뿌리기"  />
+				<text id="zStrangeAchies" name="플레이어 성과"  />
+				<text id="zStrangeAdd" name="플레이어에게 친구 신청하기"  />
+				<text id="zStrangeFotos" name="플레이어 사진첩"  />
+				<text id="zStrangeGift" name="플에이어에게
+선물 주기"  />
+				<text id="zStrangeHarvest" name="플레이어를 고용해
+내 농장 수확하기"  />
+				<text id="zStrangeHome" name="플레이어의 농장으로 이동"  />
+				<text id="zStrangeInfo" name="플레이어 정보"  />
+				<text id="zStrangeMail" name="플레이어에게 메시지 보내기"  />
+				<text id="zStrangePlow" name="플레이어를 고용해
+내 농장 경작하기"  />
+				<text id="zSubAsk" name="FAQ"  />
+				<text id="zSubFotobuch" name="사진첩"  />
+				<text id="zSubMailInbox" name="메시지읽기"  />
+				<text id="zSubMailNew" name="메시지쓰기"  />
+				<text id="zSubNews" name="뉴스"  />
+				<text id="zSubShot1" name="농장전체 사진찍기"  />
+				<text id="zSubShot2" name="사진찍기 영역을 선택해주세요"  />
+				<text id="zSubShot3" name="사진찍기 대상을 클릭해주세요"  />
+				<text id="zSubSupport" name="고객센터"  />
+				<text id="zTanken" name="연료충전:
+클릭하여 연료 충전하기 
+Info:
+충전 횟수 
+및 연료 용량
+(최대 {0})"  />
+				<text id="zTosOpen" name="가두기"  />
+				<text id="zTosStall" name="이 동물을 우리에 가두기"  />
+				<text id="zUp" name="위로"  />
+				<text id="zUse" name="사용하기"  />
+				<text id="zUsersOnFarm" name="농장 혹은 장터에 있는 
+모든 플레이어"  />
+				<text id="zVZBuddies" name="초대해야 할 {0} 친구 수"  />
+				<text id="zVZBuddiesE" name="많은 친구를 초대하면 저렴한 가격에 농장을 확장할 수 있습니다."  />
+				<text id="zWomen" name="여성 아바타"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="농장에 오신 것을 환영합니다.
+
+도와드릴테니 함께 아름다운 농장을 가꾸어 보자구요."  />
+				<text id="tut_gast_1_title" name="안녕, 친구"  />
+				<text id="tut_gast_2_text" name="딸기가 벌써 익었어요!
+빨리 가서 수확하세요."  />
+				<text id="tut_gast_2_title" name="클릭하여 씨앗을 뿌리세요!"  />
+				<text id="tut_gast_3_text" name="작물을 수확하면,
+Farm 달러와 XP를 
+적립할 수 있어요."  />
+				<text id="tut_gast_3_title" name="수확을 통해 Farm 달러와 XP를 적립합니다!"  />
+				<text id="tut_gast_4_text" name="새로운 작물을 재배하려면 지금
+밭을 경작해야 합니다."  />
+				<text id="tut_gast_4_title" name="밭을 클릭하여 경작하세요"  />
+				<text id="tut_gast_5_text" name="상점에서 새로운 씨앗을 찾을 수 있어요!"  />
+				<text id="tut_gast_5_title" name="상점에서 새로운 씨앗 구매하기"  />
+				<text id="tut_gast_6_text" name="호밀을 구매합시다!"  />
+				<text id="tut_gast_6_title" name="호밀 구매하기"  />
+				<text id="tut_gast_7_text" name="호밀을 재배하려면 밭을 클릭하세요."  />
+				<text id="tut_gast_7_title" name="밭에 호밀을 골고루 재배하세요"  />
+				<text id="tut_gast_8_text" name="잘하고 계세요!
+곧 가장 아름다운 농장이 될거에요.
+
+좀 더 뿌려보시지 않겠어요?!"  />
+				<text id="tut_gast_8_title" name="만세~! 농장이 번성하고 있어요!"  />
+				<text id="tut_market_1_text" name="씨앗을 수확하려면 시간이 걸려요.
+시장에 나가서 다른 플레이어를 위해 일해 보지 않으시겠어요?!"  />
+				<text id="tut_market_1_title" name="일하러 나갈 수도 있어요!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="농장 달러:"  />
+				<text id="txt1" name="금:"  />
+				<text id="txt2" name="다음 수확:"  />
+				<text id="txt3" name="친구:"  />
+				<text id="txt4" name="성과:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="친구 더 초대하기"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="{0}일차"  />
+				<text id="txt0" name="환영합니다"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="환영 보너스를 매일 받을 수 있습니다."  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="등록 기념으로 농장 달러#w1# 를 드립니다."  />
+				<text id="21" name="방문 기념으로 농장 달러#w1# 를 드립니다!"  />
+				<text id="2f" name="#anz# 회 #ferti# 비료를 드립니다."  />
+				<text id="2job" name="선물로 #job# 회 작업 에너지를 드립니다."  />
+				<text id="2w1" name="선물로 농장 달러 #w1# 를 드립니다."  />
+				<text id="2w2" name="선물로 금 #w2# 를 드립니다."  />
+				<text id="2x" name="연속
+#days#일 째 방문하셨습니다."  />
+				<text id="2xp" name="선물로 XP #xp# 를 드립니다."  />
+				<text id="freunde" name="초대한 친구의 작업에 대해 농장 달러 #w1# 를 드립니다."  />
+				<text id="txt0" name="환영합니다"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="오류"  />
+				<text id="generic_alert_connection_failed_copy" name="현재 대기작업중 입니다. 나중에 다시 시도해주시기 바랍니다!"  />
+				<text id="generic_alert_connection_failed_title" name="대기작업중"  />
+				<text id="generic_alert_connection_lost_copy" name="서버와의 연결이 끊어졌습니다. 다시 한 번 연결을 시도해주세요."  />
+				<text id="generic_alert_connection_lost_description" name="업데이트, 새로운 기능 추가, 오류 수정을 위해 현재 정기 보수 작업 중입니다.
+&lt;br&gt;&lt;br&gt;
+빠른 시간내에 업데이트 작업을 마무리할 것이며, 곧 게임 서비스가 재개될 것입니다."  />
+				<text id="generic_alert_connection_lost_promo" name="잠시 Goodgame의 다른 게임을 즐겨 보시지 않겠습니까?"  />
+				<text id="generic_alert_connection_lost_thanks" name="감사합니다!"  />
+				<text id="generic_alert_connection_lost_title" name="연결이 끊어졌습니다!"  />
+				<text id="generic_alert_error" name="오류"  />
+				<text id="generic_alert_information" name="참고"  />
+				<text id="generic_alert_loggedout_copy" name="성공적으로 로그아웃 되었습니다. 매일 로그인 보너스가 있다는 점을 잊지마세요!"  />
+				<text id="generic_alert_loggedout_title" name="다음에 봐요!"  />
+				<text id="generic_alert_warning" name="경고"  />
+				<text id="generic_alert_watchout" name="주의!"  />
+				<text id="generic_alert_win7chromebug" name="If you can&#039;t enter text, please press the Ctrl key."  />
+				<text id="generic_invalid_email_provider" name="입력하신 회사의 이메일 계정은 허용되지 않습니다."  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="귀하의 인터넷 연결이 원활하지 않습니다. 나중에 다시 시도해주세요."  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="게임에 대해 어떻게 생각하시나요? 더 재미있게 만들 방법이 있을까요? Goodgame Forum 혹은 그룹에 당신의 생각을 들려주세요!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="주의: 게임에 등록하시면 현재 상태가 저장됩니다."  />
+				<text id="generic_register_error_invalidemail" name="입력하신 이메일 주소가 정확하지 않습니다."  />
+				<text id="generic_report_muted_chattry" name="채팅 기능 정지로 더 이상 사용하 실 수 없습니다."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="수락하기"  />
+				<text id="generic_btn_cancel" name="취소하기"  />
+				<text id="generic_btn_close" name="닫기"  />
+				<text id="generic_btn_continue" name="계속"  />
+				<text id="generic_btn_end" name="종료하기"  />
+				<text id="generic_btn_endnow" name="바로 종료하기"  />
+				<text id="generic_btn_goback" name="뒤로"  />
+				<text id="generic_btn_no" name="아니오"  />
+				<text id="generic_btn_noshare" name="아닙니다!"  />
+				<text id="generic_btn_notaccept" name="거절하기"  />
+				<text id="generic_btn_okay" name="OK"  />
+				<text id="generic_btn_reconnect" name="새로 연결하기"  />
+				<text id="generic_btn_refresh" name="새로고침"  />
+				<text id="generic_btn_report" name="신고하기"  />
+				<text id="generic_btn_search" name="찾기"  />
+				<text id="generic_btn_share" name="나누세요!"  />
+				<text id="generic_btn_skip" name="건너뛰기"  />
+				<text id="generic_btn_start" name="시작하기"  />
+				<text id="generic_btn_topayment" name="주실거죠!"  />
+				<text id="generic_btn_yes" name="예"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="등록한 레벨 1 이상의 플레이어만 채팅기능을 사용할 수 있습니다."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="주의!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="관리자"  />
+				<text id="generic_animation" name="애니메이션 보기"  />
+				<text id="generic_bugreport" name="오류보고"  />
+				<text id="generic_changePass" name="비밀번호 변경하기"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Coming Soon*"  />
+				<text id="generic_date" name="날짜"  />
+				<text id="generic_day" name="일"  />
+				<text id="generic_dayformat" name="{0}/{1}"  />
+				<text id="generic_dayformat_short" name="{1}/{0}"  />
+				<text id="generic_days" name="일"  />
+				<text id="generic_day_short" name="D"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-Mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Q&amp;A"  />
+				<text id="generic_forum" name="게시판"  />
+				<text id="generic_friend" name="친구"  />
+				<text id="generic_friends" name="친구"  />
+				<text id="generic_general" name="일반 환경"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="그룹"  />
+				<text id="generic_guest" name="손님"  />
+				<text id="generic_help" name="도움말"  />
+				<text id="generic_high" name="고"  />
+				<text id="generic_hour" name="시간"  />
+				<text id="generic_hours" name="시간"  />
+				<text id="generic_hour_short" name="시"  />
+				<text id="generic_limited" name="Limited"  />
+				<text id="generic_logout" name="로그아웃"  />
+				<text id="generic_low" name="저"  />
+				<text id="generic_medium" name="중"  />
+				<text id="generic_minute" name="분"  />
+				<text id="generic_minutes" name="분"  />
+				<text id="generic_minute_short" name="최소"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_month" name="월"  />
+				<text id="generic_months" name="월"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="음악 on/off"  />
+				<text id="generic_name" name="이름"  />
+				<text id="generic_news" name="새로운 소식"  />
+				<text id="generic_options" name="설정"  />
+				<text id="generic_quality" name="품질"  />
+				<text id="generic_register" name="가입하여 저장하기"  />
+				<text id="generic_second" name="초"  />
+				<text id="generic_seconds" name="초"  />
+				<text id="generic_second_short" name="초"  />
+				<text id="generic_sound" name="효과음 on/off"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="오늘"  />
+				<text id="generic_tomorrow" name="내일"  />
+				<text id="generic_tutorial" name="게임안내"  />
+				<text id="generic_username" name="플레이어"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="어제"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="구 버전입니다!"  />
+				<text id="generic_versioncheck_errorcode_1" name="페이지 새로고침."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="{0} 님을 친구로 추가하시겠습니까?"  />
+				<text id="generic_friends_add_title" name="친구 요청"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="친구 추가"  />
+				<text id="generic_friends_denied_copy" name="{0} 님이 귀하의 요청을 거절했습니다."  />
+				<text id="generic_friends_denied_title" name="요청이 거부되었습니다!"  />
+				<text id="generic_friends_invite_badword_copy" name="선택하신 이름은 유효하지 않습니다."  />
+				<text id="generic_friends_invite_badword_title" name="조심하세요!"  />
+				<text id="generic_friends_invite_error_copy" name="게임에 등록하시면 다른 친구들을 초대할 수 있습니다."  />
+				<text id="generic_friends_invite_error_title" name="먼저 가입하기"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="전체화면이 불가능합니다"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="체코어"  />
+				<text id="generic_language_cz" name="체코어"  />
+				<text id="generic_language_da" name="덴마크어"  />
+				<text id="generic_language_de" name="독일어"  />
+				<text id="generic_language_el" name="그리스어"  />
+				<text id="generic_language_en" name="영어"  />
+				<text id="generic_language_es" name="스페인어"  />
+				<text id="generic_language_fi" name="핀란드어"  />
+				<text id="generic_language_fr" name="프랑스어"  />
+				<text id="generic_language_hu" name="헝가리어"  />
+				<text id="generic_language_id" name="인도네시아어"  />
+				<text id="generic_language_it" name="이탈리아어"  />
+				<text id="generic_language_ja" name="일본어"  />
+				<text id="generic_language_ko" name="한국어"  />
+				<text id="generic_language_nl" name="네덜란드어"  />
+				<text id="generic_language_no" name="노르웨이어"  />
+				<text id="generic_language_pl" name="폴란드어"  />
+				<text id="generic_language_pt" name="포르투갈어"  />
+				<text id="generic_language_pt_BR" name="브라질어"  />
+				<text id="generic_language_ru" name="러시아어"  />
+				<text id="generic_language_sv" name="스웨덴어"  />
+				<text id="generic_language_tr" name="터키어"  />
+				<text id="generic_language_zh_CN" name="중국 (간체)"  />
+				<text id="generic_language_zh_TW" name="중국어 (번체)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="귀하의 계정이 차단되었습니다! 문의사항은 Support 로 보내주시기 바랍니다."  />
+				<text id="generic_login_banned_2" name="고객님의 계정은 차단되었습니다!
+
+계정은 {0}까지 차단됩니다.
+
+자세한 정보를 확인하시려면, 지원 담당자에게 문의해 주십시오."  />
+				<text id="generic_login_banned_3" name="회원님의 계정은 사용이 영구 중지되었습니다.
+
+궁금한 사항이 있으시면, 고객 지원 담당자에게 문의해 주십시오."  />
+				<text id="generic_login_banned_permanent" name="영속적"  />
+				<text id="generic_login_facebook" name="페이스북 계정으로 로그인"  />
+				<text id="generic_login_login" name="로그인"  />
+				<text id="generic_login_loginname" name="아이디/ 이메일"  />
+				<text id="generic_login_lostpassword" name="비밀번호 찾기"  />
+				<text id="generic_login_lostpassword_copy" name="비밀번호를 받을 수 있는 이메일 주소를 입력하세요."  />
+				<text id="generic_login_lostpassword_title" name="비밀번호 찾기"  />
+				<text id="generic_login_newplayer" name="새로 가입하셨나요?"  />
+				<text id="generic_login_password" name="비밀번호"  />
+				<text id="generic_login_play" name="바로 게임하기"  />
+				<text id="generic_login_playnow" name="게임하기!"  />
+				<text id="generic_login_register" name="가입하기"  />
+				<text id="generic_login_rememberpassword" name="비밀번호 저장"  />
+				<text id="generic_login_wronglogin" name="아이디 혹은 비밀번호가 틀렸습니다!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="가입하여 현재 플레이어 기록을 저장하세요!"  />
+				<text id="generic_logout_guest_title" name="가입하기"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="명예는 {0}분 안에 다시 이용 가능합니다."  />
+				<text id="servershutdownpremonition_copy" name="게임 서버가 {0} 후에 다운됩니다. 로그아웃 하시거나 현재 상태를 가입하여 저장해주세요."  />
+				<text id="servershutdownpremonition_registered_copy" name="{0}분 후에 보수를 위해 게임 서버 운영을 중단됩니다."  />
+				<text id="servershutdown_copy" name="이제 서버가 다운됩니다. 몇 분 후에 다시 로그인 해주세요."  />
+				<text id="welcomeback_copy" name="오랜만이군요! 다시 게임을 진행하는데 도움이 되는 위한 작은 선물이 있답니다!"  />
+				<text id="welcomeback_title" name="다시 돌아왔어요!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="새 비밀번호:"  />
+				<text id="generic_change_password_copy_oldpass" name="이전 비밀번호:"  />
+				<text id="generic_change_password_copy_send" name="새 비밀번호가 등록하신 이메일 주소로 발송되었습니다."  />
+				<text id="generic_change_password_error_failed" name="죄송합니다. 이전 비밀번호가 일치하지 않습니다."  />
+				<text id="generic_change_password_error_success" name="비밀번호가 변경되었습니다."  />
+				<text id="generic_change_password_faild_copy" name="새 비밀번호는 2자리 이상이어야 하며, 이전 비밀번호를 정확히 입력해주시기 바랍니다!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="사용자 암호 항목을 공란으로 비워두거나 특수문자를 입력할 수 없습니다."  />
+				<text id="generic_change_password_faild_title" name="비밀번호 입력"  />
+				<text id="generic_change_password_title" name="비밀번호 변경"  />
+				<text id="generic_guest_change_password_faild_copy" name="게임에 등록하신 후 비밀번호 변경이 가능합니다."  />
+				<text id="generic_guest_change_password_faild_title" name="먼저 가입하기"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="금전 획득을 위한 {0} 추가"  />
+				<text id="generic_payment_48hdiscount_button" name="첫 48시간내 금 추가"  />
+				<text id="generic_payment_48hdiscount_button_general" name="첫 48시간내에 추가 {0}"  />
+				<text id="generic_payment_48hdiscount_copy" name="가입 후 48시간 이내 - 골드 패키지를 구입하고 추가로 {0}%의 금을 무료로 드립니다."  />
+				<text id="generic_payment_48hdiscount_copy_1" name="가입 후 48시간 이내 - 금 패키지를 구입하고 추가로 {0}% 금을 무료로 받으세요!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="가입 후 48시간 이내 - {0}개의 패키지를 구입하시면, 추가로 {1}%를 무료로 드립니다."  />
+				<text id="generic_payment_48hdiscount_copy_general" name="가입 후 48시간 이내 - {0}개의 패키지를 구입하면 추가 {1}%를 무료로 드립니다."  />
+				<text id="generic_payment_btn" name="상점으로 이동"  />
+				<text id="generic_payment_copy" name="결제창으로 이동됩니다."  />
+				<text id="generic_payment_discount_button" name="금 구입시 {0}% 추가 제공!"  />
+				<text id="generic_payment_discount_copy" name="금괴 구입시 {0}%의 보너스가 주어집니다!"  />
+				<text id="generic_payment_discount_copy_general" name="지금 {0}개를 구입하고 {1}% 보너스를 받으세요!"  />
+				<text id="generic_payment_discount_general" name="자금 확보를 위해 {0}%의 추가 {1}을 받으세요!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% 자금을 추가하세요!"  />
+				<text id="generic_payment_discount_time" name="{0}개 남았습니다!"  />
+				<text id="generic_payment_discount_title" name="금 구입시 추가제공!"  />
+				<text id="generic_payment_newPrices" name="지금 시작하세요! 결제 샵에서 영구 할인 혜택을 받으실 수 있습니다."  />
+				<text id="generic_payment_title" name="Paymentshop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="사이버 공간에서 터널 찾기"  />
+				<text id="loading_text_10" name="아이템 배분"  />
+				<text id="loading_text_11" name="그래픽 그리기"  />
+				<text id="loading_text_12" name="버튼 색칠하기"  />
+				<text id="loading_text_13" name="부활절 달걀 감추기"  />
+				<text id="loading_text_14" name="사용자 정보 찾아보기"  />
+				<text id="loading_text_15" name="버그 물리치기"  />
+				<text id="loading_text_16" name="프로그래머 피드"  />
+				<text id="loading_text_17" name="클라이언트와 실험"  />
+				<text id="loading_text_18" name="모래시계 돌려놓기"  />
+				<text id="loading_text_19" name="시스템 냉각"  />
+				<text id="loading_text_2" name="톱니바퀴 오일"  />
+				<text id="loading_text_20" name="곧 종료"  />
+				<text id="loading_text_3" name="햄스터 휠 돌리기"  />
+				<text id="loading_text_4" name="서버 준비"  />
+				<text id="loading_text_5" name="무고하시기를 빕니다."  />
+				<text id="loading_text_6" name="종료자 요청"  />
+				<text id="loading_text_7" name="복잡한 알고리즘 계산"  />
+				<text id="loading_text_8" name="유통 콘덴서 측정"  />
+				<text id="loading_text_9" name="팅커 아이템"  />
+				<text id="loading_text_default" name="초기화"  />
+				<text id="loading_text_itemXML" name="게임 요소 로딩"  />
+				<text id="progress_loadfiles" name="애셋 로딩 중..."  />
+				<text id="progress_serverconnection" name="서버 연결 중..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="이메일 주소 입력"  />
+				<field id="generic_register_insertName" name="이름 입력"  />
+				<field id="generic_register_insertPassword" name="비밀번호 입력"  />
+				<text id="generic_register_agb_copy" name="다음 단계로 진행하시려면 이용 약관에 동의해주셔야 합니다."  />
+				<text id="generic_register_agb_read" name="이용약관 보기"  />
+				<text id="generic_register_alreadyavatar" name="이미 아바타를 갖고 있습니다."  />
+				<text id="generic_register_badword" name="이름 항목에 {0}을 사용할 수 없습니다."  />
+				<text id="generic_register_btn_agb" name="약관 동의하기"  />
+				<text id="generic_register_btn_later" name="나중에"  />
+				<text id="generic_register_btn_next" name="계속"  />
+				<text id="generic_register_btn_save" name="저장하기"  />
+				<text id="generic_register_character" name="캐릭터 생성"  />
+				<text id="generic_register_copy_0" name="무료 가입하기!"  />
+				<text id="generic_register_copy_1" name="게임 진행 저장!"  />
+				<text id="generic_register_emaillong_copy" name="이메일 주소가 너무 깁니다."  />
+				<text id="generic_register_emailwrong_copy" name="입력하신 이메일 주소는 유효하지 않습니다."  />
+				<text id="generic_register_email_copy" name="이메일 주소는 반드시 입력하여야 하며, 특수기호를 포함할 수 없습니다."  />
+				<text id="generic_register_error" name="가입 실패"  />
+				<text id="generic_register_errormistake" name="오류"  />
+				<text id="generic_register_error_accountalreadyexists" name="죄송합니다. 아래의 이메일 주소는 이미 등록되어 있습니다."  />
+				<text id="generic_register_forfree" name="무료 가입!"  />
+				<text id="generic_register_forfree1" name="무료!"  />
+				<text id="generic_register_letsgo" name="자, 출발합시다!"  />
+				<text id="generic_register_namealreadyused" name="이미 사용 중인 이름입니다."  />
+				<text id="generic_register_namenotvalid" name="입력하신 이름은 유효하지 않습니다."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="입력하신 비밀번호가 너무 짧습니다. 4자리 이상 입력해 주십시오."  />
+				<text id="generic_register_passwordwrong_copy" name="입력하신 암호는 유효하지 않습니다."  />
+				<text id="generic_register_password_copy" name="비밀번호는 반드시 입력하여야 하며, 특수기호를 포함할 수 없습니다."  />
+				<text id="generic_register_receivenews" name="소식받기"  />
+				<text id="generic_register_rememberdata" name="데이터 기억"  />
+				<text id="generic_register_reward" name="무료 구독하시고 {0} {1}을 받으세요!"  />
+				<text id="generic_register_subscribe" name="가입"  />
+				<text id="generic_register_success" name="성공적으로 가입이 완료되었습니다."  />
+				<text id="generic_register_title" name="가입 실패"  />
+				<text id="generic_register_unlock" name="기능 잠금 해제!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="채팅 예절을 지켜주세요. 비속어, 욕설 등의 사용으로 채팅 기능 박탈 혹은 귀하의 계정이 정지될 수 있습니다.
+이유: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="불필요한 도배 행위로 다음 {0} 동안 채팅이 불가능합니다. 이유: {1}"  />
+				<text id="generic_report_muted_domain1" name="채팅시 인터넷 주소입력은 불가능합니다!"  />
+				<text id="generic_report_muted_reported_copy" name="다른 플레이어들에 의해 신고되었습니다. 따라서 다음 {0} 동안 채팅이 불가능합니다. 신고사유: {1}"  />
+				<text id="generic_report_player_copy" name="정말로 {0} 님을 신고하시겠습니까?\n본 기능의 남용으로 계정이 정지 될 수 있음을 주의하세요!"  />
+				<text id="generic_report_player_reason_0" name="욕설"  />
+				<text id="generic_report_player_reason_1" name="성희롱 발언"  />
+				<text id="generic_report_player_reason_2" name="인종 차별 발언"  />
+				<text id="generic_report_player_reason_3" name="강요/협박"  />
+				<text id="generic_report_player_reason_title" name="신고 이유:"  />
+				<text id="generic_report_player_title" name="플레이어를 신고할까요?"  />
+				<text id="generic_report_reported_copy" name="다른 플레이어에 의해 관리자에게 신고당하셨습니다. 신고이유: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="연결"  />
+				<text id="generic_select_world" name="World 선택:"  />
+				<text id="generic_world" name="World: {0}"  />
+				<text id="generic_world_international" name="International: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

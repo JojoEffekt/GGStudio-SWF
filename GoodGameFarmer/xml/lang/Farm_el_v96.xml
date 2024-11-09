@@ -1,0 +1,1754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - el - 23 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Μάζεμα αυγών"  />
+			<text id="T01" name="Μάζεμα αυγών"  />
+			<text id="T02" name="Μάζεμα αυγών"  />
+			<text id="T03" name="Μάζεμα αυγών"  />
+			<text id="T04" name="κακάρισμα"  />
+			<text id="T05" name="Μάζεμα αυγών"  />
+			<text id="T06" name="Μάζεμα αυγών"  />
+			<text id="T07" name="χάϊδεμα"  />
+			<text id="T10" name="Συγκομιδή τρούφας"  />
+			<text id="T11" name="άρμεγμα"  />
+			<text id="T110" name="άρμεγμα"  />
+			<text id="T111" name="βούρτσισμα"  />
+			<text id="T112" name="βούρτσισμα"  />
+			<text id="T113" name="άρμεγμα"  />
+			<text id="T114" name="βούρτσισμα"  />
+			<text id="T115" name="βούρτσισμα"  />
+			<text id="T12" name="κούρεμα"  />
+			<text id="T13" name="άρμεγμα"  />
+			<text id="T14" name="βούρτσισμα"  />
+			<text id="T15" name="βούρτσισμα"  />
+			<text id="T16" name="βούρτσισμα"  />
+			<text id="T17" name="βούρτσισμα"  />
+			<text id="T18" name="βούρτσισμα"  />
+			<text id="T19" name="κούρεμα"  />
+			<text id="T20" name="βούρτσισμα"  />
+			<text id="T21" name="βούρτσισμα"  />
+			<text id="T22" name="βούρτσισμα"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D319"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{1}{2}{0}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="Χ"  />
+				<text id="s1" name="Εκ"  />
+				<text id="s2" name="Δις"  />
+				<text id="s3" name="Τετρ"  />
+				<text id="s4" name="Τρις"  />
+				<text id="s5" name="Πεν"  />
+				<text id="s6" name="Εξα"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="Χ"  />
+				<text id="day1" name="Μέρ."  />
+				<text id="day2" name="Μέρ."  />
+				<text id="heute" name="σήμερα"  />
+				<text id="hour0" name="Ωρ"  />
+				<text id="hour1" name="Ώρα"  />
+				<text id="hour2" name="Ώρες"  />
+				<text id="min0" name="Λεπ"  />
+				<text id="min1" name="Λεπτό"  />
+				<text id="min2" name="Λεπτά"  />
+				<text id="morgen" name="αύριο"  />
+				<text id="sofort" name="άμεσα"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="ΠΙΣΩ"  />
+				<text id="ex" name="ΚΛΕΙΣΙΜΟ"  />
+				<text id="next" name="Συνέχεια"  />
+				<text id="no" name="ΟΧΙ"  />
+				<text id="yes" name="ΝΑΙ"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Λοιπόν: Σκοπός σου στο #play# είναι να μαζέψεις πόντους εμπειρίας και χρήματα, για να φτιάξεις μία όσο το δυνατόν μεγάλη και όμορφη φάρμα."  />
+				<text id="intro_01_goals_t" name="Σκοπός"  />
+				<text id="welcome_01_i" name="Καλώς όρισες στο #play#, #name#
+Θα χαιρόμασταν πολύ αν έβλεπες την εισαγωγή που ετοιμάσαμε με αγάπη, για να σε βοηθήσει στα πρώτα σου βήματα στο παιχνίδι. Γι&#039; αυτό θα ανταμειφθείς κιόλας! Θέλεις να"  />
+				<text id="welcome_01_t" name="Εισαγωγή"  />
+				<text id="welcome_02_i" name="Ουφ, καλά, αφού δεν θες αμοιβή... Μπορείς να δεις οποιαδήποτε ώρα τις συμβουλές της εισαγωγής, πατώντας στο φυλλαράκι με το ερωτηματικό. Οι κανόνες του παιχνιδιού εξηγούνται στο μενού Βοηθείας στις &quot;Ερωτήσεις και απαντήσεις&quot;. 
+Καλή διασκέδαση!"  />
+				<text id="welcome_02_t" name="Εισαγωγή 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Μόλις έκανα εγκατάσταση τον Αγρότη Goodgame. Έλα και ρίξε μια ματιά στη φάρμα μου και δες τι θερίζω αυτή τη στιγμή!"  />
+			<text id="descriptionlongfarmer" name="Ο Αγρότης Goodgame είναι ένας σπουδαίος τίτλος προσομοίωσης από τη Goodgame Studios. Απόλαυσε την υπέροχη ζωή της υπαίθρου και διαχειρίσου την εικονική φάρμα σου. Η Φάρμα Goodgame σ&#039; επιτρέπει να διαχειριστείς την εικονική σου φάρμα καλλιεργώντας φρούτα,σπαρτά ή δέντρα και να τ&#039;αξιοποιείς, φροντίδα για τα ζώα σου και αγορά πολλών χρήσιμων εργαλείων και αντικειμένων με τα εικονικά χρήματα που κερδίζεις."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Γυναίκα"  />
+			<text id="A02" name="Άντρας"  />
+			<text id="B00" name="Μήλο"  />
+			<text id="B01" name="Αχλάδι"  />
+			<text id="B010" name="Αβοκάντο"  />
+			<text id="B011" name="Χουρμάς"  />
+			<text id="B012" name="Σύκο"  />
+			<text id="B013" name="Ρόδι"  />
+			<text id="B014" name="Ακτινίδιο"  />
+			<text id="B015" name="Λοτοί"  />
+			<text id="B016" name="Μάνγκο"  />
+			<text id="B017" name="Παπάγια"  />
+			<text id="B018" name="Καρύδα"  />
+			<text id="B019" name="Πιταχάγια"  />
+			<text id="B02" name="Κεράσι"  />
+			<text id="B020" name="Κακάο"  />
+			<text id="B021" name="Καρύδι"  />
+			<text id="B022" name="Αρτόκαρπος"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Αμύγδαλο"  />
+			<text id="B025" name="Λίτσι"  />
+			<text id="B026" name="Καραμπόλα"  />
+			<text id="B027" name="Πύρινο δέντρο"  />
+			<text id="B028" name="Μπαμπού"  />
+			<text id="B029" name="Καραμελωμένο μήλο"  />
+			<text id="B03" name="Βερύκοκο"  />
+			<text id="B030" name="Χριστουγεννιάτικα μπισκότα"  />
+			<text id="B031" name="Σοκολάτα"  />
+			<text id="B032" name="Κόκκινο μαγιόξυλο"  />
+			<text id="B033" name="Μπλε μαγιόξυλο"  />
+			<text id="B034" name="Λιβάδα"  />
+			<text id="B04" name="Δαμάσκηνο"  />
+			<text id="B05" name="Ελιά"  />
+			<text id="B06" name="Μπανάνα"  />
+			<text id="B07" name="Λεμόνι"  />
+			<text id="B08" name="Πορτοκάλι"  />
+			<text id="B09" name="Γκρέηπφρουτ"  />
+			<text id="D00" name="Στοίβα ξύλα"  />
+			<text id="D01" name="Μπάλες σανού"  />
+			<text id="D010" name="Κούτσουρο"  />
+			<text id="D011" name="Ρόδα"  />
+			<text id="D02" name="Ταΐστρα"  />
+			<text id="D03" name="Ποτίστρα"  />
+			<text id="D04" name="Πηγάδι"  />
+			<text id="D05" name="Άροτρο"  />
+			<text id="D06" name="Αντλία νερού"  />
+			<text id="D07" name="Καρότσα"  />
+			<text id="D08" name="Βαρέλι"  />
+			<text id="D09" name="Κιβώτιο"  />
+			<text id="D11" name="Σκιάχτρο"  />
+			<text id="D110" name="Παγκάκι"  />
+			<text id="D111" name="Μαύρο παγκάκι"  />
+			<text id="D112" name="Συντριβάνι"  />
+			<text id="D113" name="Σκιάχτρο"  />
+			<text id="D114" name="Κουκουβάγια"  />
+			<text id="D115" name="Ανεμογεννήτρια"  />
+			<text id="D116" name="Ανεμούριο"  />
+			<text id="D117" name="Λιμνούλα"  />
+			<text id="D118" name="Λιμνούλα XL"  />
+			<text id="D119" name="Λιμνούλα κόι"  />
+			<text id="D12" name="Χλοοκοπτικό"  />
+			<text id="D120" name="Πισίνα"  />
+			<text id="D121" name="Πικ νικ"  />
+			<text id="D122" name="Τραπέζι κήπου"  />
+			<text id="D123" name="Καρέκλα κήπου"  />
+			<text id="D124" name="Αιώρα"  />
+			<text id="D125" name="Ξαπλώστρα"  />
+			<text id="D126" name="Σκοινί ρούχων"  />
+			<text id="D127" name="Φαναράκι"  />
+			<text id="D128" name="Χοντρός κάκτος"  />
+			<text id="D129" name="Κόκκινοι κρίνοι"  />
+			<text id="D13" name="Τουαλέτα"  />
+			<text id="D130" name="Ψηλός κάκτος"  />
+			<text id="D131" name="Δεντράκι"  />
+			<text id="D132" name="Μπουκέτο"  />
+			<text id="D133" name="Λευκοί κρίνοι"  />
+			<text id="D134" name="Το σκιάχτρο της φρίκης"  />
+			<text id="D135" name="Σκυλάκι"  />
+			<text id="D136" name="Δώρο"  />
+			<text id="D137" name="Χιονοπαιδάκι"  />
+			<text id="D138" name="Χιονάνθρωπος"  />
+			<text id="D139" name="Χιονογυναίκα"  />
+			<text id="D14" name="Καροτσάκι"  />
+			<text id="D140" name="Σκιέρ"  />
+			<text id="D141" name="Γάτα σπιτιού πουλιών"  />
+			<text id="D142" name="Έλκηθρο"  />
+			<text id="D143" name="Χιοναγγελάκι"  />
+			<text id="D144" name="Πινακίδα"  />
+			<text id="D145" name="Προειδοποιητική πινακίδα"  />
+			<text id="D146" name="Πινακίδα Βόρειου Πόλου"  />
+			<text id="D147" name="Χιονοκατσίκα"  />
+			<text id="D148" name="Χιονόσκυλος"  />
+			<text id="D149" name="Χιονοπρόβατο"  />
+			<text id="D15" name="Παγκάκι"  />
+			<text id="D150" name="Χιοναγελάδα"  />
+			<text id="D151" name="Χιονόγατα"  />
+			<text id="D152" name="Χιονόκοτα"  />
+			<text id="D153" name="Χιονογούρουνο"  />
+			<text id="D154" name="Χιονόχηνα"  />
+			<text id="D155" name="Πόρτα φράχτη"  />
+			<text id="D156" name="Φράχτης"  />
+			<text id="D157" name="Κολώνα"  />
+			<text id="D158" name="Μπλε έλατο"  />
+			<text id="D159" name="Πολύχρωμο έλατο"  />
+			<text id="D16" name="Ψησταριά"  />
+			<text id="D160" name="Γαϊτανάκι"  />
+			<text id="D161" name="Φωλιά"  />
+			<text id="D162" name="Σανοάντρας"  />
+			<text id="D163" name="Σανογυναίκα"  />
+			<text id="D164" name="Κόκκινο αυγό"  />
+			<text id="D165" name="Μπλε αυγό"  />
+			<text id="D166" name="Μωβ αυγό"  />
+			<text id="D167" name="Κόκκινα αυγά"  />
+			<text id="D168" name="Μπλε αυγά"  />
+			<text id="D169" name="Μωβ αυγά"  />
+			<text id="D17" name="Νάνος κήπου"  />
+			<text id="D170" name="Μπλε φωλιά με αυγά"  />
+			<text id="D171" name="Πράσινη φωλιά"  />
+			<text id="D172" name="Μωβ φωλιά"  />
+			<text id="D173" name="Κόκκινη φωλιά"  />
+			<text id="D174" name="Λευκή φωλιά"  />
+			<text id="D175" name="Φωλιά γεμάτη αυγά"  />
+			<text id="D176" name="Γιρλάντα"  />
+			<text id="D177" name="Κόκκινο μπαλόνι"  />
+			<text id="D178" name="Μπλε μπαλόνι"  />
+			<text id="D179" name="Κίτρινο μπαλόνι"  />
+			<text id="D18" name="Γραμμ/τιο"  />
+			<text id="D180" name="Πειρατική σημαία"  />
+			<text id="D19" name="Σπιτάκι πουλιών"  />
+			<text id="D20" name="Θαμνοφράχτης"  />
+			<text id="D21" name="Φράχτης"  />
+			<text id="D210" name="Πύλη του τρόμου"  />
+			<text id="D22" name="Κολώνα"  />
+			<text id="D23" name="Φράχτης"  />
+			<text id="D24" name="Κολώνα"  />
+			<text id="D25" name="Πόρτα φράχτη"  />
+			<text id="D26" name="Πόρτα φράχτη"  />
+			<text id="D27" name="Πύλη θάμνων"  />
+			<text id="D28" name="Φράχτης του τρόμου"  />
+			<text id="D29" name="Κολώνα του τρόμου"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Γερμανία"  />
+			<text id="D310" name="Ιταλία"  />
+			<text id="D311" name="Γαλλία"  />
+			<text id="D312" name="Ισπανία"  />
+			<text id="D313" name="Πορτογαλία"  />
+			<text id="D314" name="Ολλανδία"  />
+			<text id="D315" name="Βέλγιο"  />
+			<text id="D316" name="Πολωνία"  />
+			<text id="D317" name="Ρωσία"  />
+			<text id="D318" name="Τσεχία"  />
+			<text id="D319" name="Ελλάδα"  />
+			<text id="D32" name="Αυστρία"  />
+			<text id="D320" name="Τουρκία"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Καναδάς"  />
+			<text id="D323" name="Μεξικό"  />
+			<text id="D324" name="Βραζιλία"  />
+			<text id="D325" name="Αργεντινή"  />
+			<text id="D326" name="Κίνα"  />
+			<text id="D327" name="Ιαπωνία"  />
+			<text id="D328" name="Αυστραλία"  />
+			<text id="D329" name="Κορέα"  />
+			<text id="D33" name="Ελβετία"  />
+			<text id="D330" name="Ουγγαρία"  />
+			<text id="D331" name="Ταϊβάν"  />
+			<text id="D34" name="Φινλανδία"  />
+			<text id="D35" name="Σουηδία"  />
+			<text id="D36" name="Νορβηγία"  />
+			<text id="D37" name="Δανία"  />
+			<text id="D38" name="Αγγλία"  />
+			<text id="D39" name="Ιρλανδία"  />
+			<text id="D40" name="Άλογο"  />
+			<text id="D41" name="Δέντρο"  />
+			<text id="D410" name="Δέντρο του τρόμου"  />
+			<text id="D42" name="Αγελάδα"  />
+			<text id="D43" name="Πρόβατο"  />
+			<text id="D44" name="Γουρούνι"  />
+			<text id="D45" name="Κατσίκα"  />
+			<text id="D46" name="Χήνα"  />
+			<text id="D47" name="Κότα"  />
+			<text id="D48" name="Σκύλος"  />
+			<text id="D49" name="Γάτα"  />
+			<text id="D60" name="Αγορά"  />
+			<text id="D70" name="Χάρτινος σκελετός"  />
+			<text id="D71" name="Χέρι ζόμπι"  />
+			<text id="D72" name="Ταφόπλακα"  />
+			<text id="D73" name="Jack O&#039;Lantern"  />
+			<text id="D74" name="Jack O&#039;Lantern"  />
+			<text id="D75" name="Jack O&#039;Lantern"  />
+			<text id="D76" name="Jack O&#039;Lantern"  />
+			<text id="D77" name="Jack O&#039;Lantern"  />
+			<text id="Dxxx" name="Πράσινη φωλιά"  />
+			<text id="E01" name="10χ10χωράφια"  />
+			<text id="E02" name="12χ12χωράφια"  />
+			<text id="E03" name="14χ14χωράφια"  />
+			<text id="E04" name="16χ16χωράφια"  />
+			<text id="E05" name="18χ18χωράφια"  />
+			<text id="E06" name="20χ20χωράφια"  />
+			<text id="E07" name="22χ22χωράφια"  />
+			<text id="E08" name="24χ24χωράφια"  />
+			<text id="E11" name="10χ10χωράφια"  />
+			<text id="E12" name="12χ12χωράφια"  />
+			<text id="E13" name="14χ14χωράφια"  />
+			<text id="E14" name="16χ16χωράφια"  />
+			<text id="E15" name="18χ18χωράφια"  />
+			<text id="E16" name="20χ20χωράφια"  />
+			<text id="E17" name="22χ22χωράφια"  />
+			<text id="E18" name="24χ24χωράφια"  />
+			<text id="E21" name="10χ10χωράφια"  />
+			<text id="E22" name="12χ12χωράφια"  />
+			<text id="E23" name="14χ14χωράφια"  />
+			<text id="E24" name="16χ16χωράφια"  />
+			<text id="E25" name="18χ18χωράφια"  />
+			<text id="E26" name="20χ20χωράφια"  />
+			<text id="E27" name="22χ22χωράφια"  />
+			<text id="E28" name="24χ24χωράφια"  />
+			<text id="F01" name="Χρόνος - M"  />
+			<text id="F20" name="Αναζωογονητ."  />
+			<text id="F30" name="Λίπασμα"  />
+			<text id="F31" name="Προνομ. λίπασμα"  />
+			<text id="F40" name="Τροφή"  />
+			<text id="F41" name="Προνομ. τροφή"  />
+			<text id="F50" name="Μαγική σκόνη"  />
+			<text id="G00" name="Πέτρινο μονοπάτι"  />
+			<text id="H00" name="Αχυρώνας"  />
+			<text id="H01" name="Δεξαμενή"  />
+			<text id="H02" name="Παράγκα"  />
+			<text id="H03" name="Ανεμόμυλος"  />
+			<text id="H04" name="Θερμοκήπιο"  />
+			<text id="H05" name="Στοιχειωμένο θερμοκήπιο"  />
+			<text id="H06" name="Δεξαμενή φάντασμα"  />
+			<text id="H07" name="Ο μύλος της φρίκης"  />
+			<text id="H08" name="Χειμ. δεξαμενή"  />
+			<text id="H09" name="Χειμ. μύλος"  />
+			<text id="H10" name="Κοτέτσι"  />
+			<text id="H11" name="Χοιροστάσιο"  />
+			<text id="H12" name="Στάνη"  />
+			<text id="H13" name="Στάβλος"  />
+			<text id="H20" name="Καλύβα"  />
+			<text id="H21" name="Εξοχικό"  />
+			<text id="H210" name="Σπίτι φάντασμα"  />
+			<text id="H211" name="Βίλα φάντασμα"  />
+			<text id="H212" name="Χειμ. καλύβα"  />
+			<text id="H213" name="Χειμ. σπίτι"  />
+			<text id="H214" name="Χειμ. βίλα"  />
+			<text id="H215" name="Μπισκοτόσπιτο"  />
+			<text id="H216" name="Χειμ. αγροτόσπιτο"  />
+			<text id="H217" name="Χειμ. κατοικία"  />
+			<text id="H218" name="Μπλε αυγόσπιτο"  />
+			<text id="H219" name="Ροζ αυγόσπιτο"  />
+			<text id="H22" name="Βίλα"  />
+			<text id="H220" name="Πειρατικό καράβι"  />
+			<text id="H23" name="Σκυλόσπιτο"  />
+			<text id="H24" name="Δεντρόσπιτο"  />
+			<text id="H25" name="Αγροτόσπιτο"  />
+			<text id="H26" name="Πορτοκαλεώνας"  />
+			<text id="H27" name="Μεγάλη βίλα"  />
+			<text id="H28" name="Τεράστια βίλα"  />
+			<text id="H29" name="Καλύβα φάντασμα"  />
+			<text id="H30" name="Πάγκος φρούτων"  />
+			<text id="H31" name="Μαγαζί εργαλείων"  />
+			<text id="H32" name="Διαγωνισμός μελισσοσόδα"  />
+			<text id="H40" name="Δεξαμενή (λιπ.)"  />
+			<text id="H50" name="Στοιχειωμένο σπίτι"  />
+			<text id="H51" name="Εφιαλτική εκκλησία"  />
+			<text id="N01" name="Συγκ. δέντρων"  />
+			<text id="N02" name="Συγκ. ζώων"  />
+			<text id="R00" name="Ενέργ. εργ. S"  />
+			<text id="R01" name="Ενέργ. εργ. M"  />
+			<text id="R02" name="Ενέργ. εργ. XL"  />
+			<text id="S00" name="Τουλίπες"  />
+			<text id="S01" name="Μιγκέ"  />
+			<text id="S010" name="Μωβ τρια/φυλλα"  />
+			<text id="S02" name="Λεβάντα"  />
+			<text id="S03" name="Ηλιοτρόπια"  />
+			<text id="S04" name="Τριαντάφυλλα"  />
+			<text id="S05" name="Ντάλιες"  />
+			<text id="S06" name="Κρόκοι"  />
+			<text id="S07" name="Κρίνοι"  />
+			<text id="S08" name="Bluebonnet"  />
+			<text id="S09" name="Παπαρούνα"  />
+			<text id="S10" name="Φράουλες"  />
+			<text id="S11" name="Καρπούζια"  />
+			<text id="S12" name="Aνανάς"  />
+			<text id="S13" name="Σταφύλια"  />
+			<text id="S14" name="Πεπόνια"  />
+			<text id="S15" name="Σμέουρα"  />
+			<text id="S16" name="Μύρτιλλα"  />
+			<text id="S17" name="Φραγκοστάφ."  />
+			<text id="S18" name="Λαγοκέρασο"  />
+			<text id="S19" name="Βατόμουρα"  />
+			<text id="S20" name="Μελιτζάνες"  />
+			<text id="S21" name="Κουνουπίδι"  />
+			<text id="S210" name="Σπανάκι"  />
+			<text id="S211" name="Κρεμμύδια"  />
+			<text id="S212" name="Κόκκινο λάχανο"  />
+			<text id="S213" name="Πατάτες"  />
+			<text id="S214" name="Καρότα"  />
+			<text id="S215" name="Αρακάς"  />
+			<text id="S216" name="Ραπανάκια"  />
+			<text id="S217" name="Ραβέντι"  />
+			<text id="S218" name="Λαχ/κια Βρυξελ."  />
+			<text id="S219" name="Σόγια"  />
+			<text id="S22" name="Κολοκύθα"  />
+			<text id="S220" name="Παντζάρια"  />
+			<text id="S221" name="Μπρόκολο"  />
+			<text id="S222" name="Αγκινάρες"  />
+			<text id="S223" name="Τσίλι"  />
+			<text id="S224" name="Σπαράγγια"  />
+			<text id="S225" name="Ελαιοκράμβη"  />
+			<text id="S23" name="Πιπεριά"  />
+			<text id="S24" name="Ντομάτες"  />
+			<text id="S25" name="Φασόλια"  />
+			<text id="S26" name="Αγγούρια"  />
+			<text id="S27" name="Τεύτλα"  />
+			<text id="S28" name="Σαλάτα"  />
+			<text id="S29" name="Κολοκυθάκια"  />
+			<text id="S30" name="Σιτάρι"  />
+			<text id="S31" name="Βρώμη"  />
+			<text id="S32" name="Ρύζι"  />
+			<text id="S33" name="Σίκαλη"  />
+			<text id="S34" name="Καλαμπόκι"  />
+			<text id="S35" name="Κριθάρι"  />
+			<text id="S36" name="Κεχρί"  />
+			<text id="S37" name="Γλυκό καλαμπ."  />
+			<text id="S38" name="Κόκκινο σιτάρι"  />
+			<text id="S39" name="Ασπροσίτι"  />
+			<text id="S40" name="Καφές"  />
+			<text id="S41" name="Τσάι"  />
+			<text id="S42" name="Ζαχαροκάλαμο"  />
+			<text id="S43" name="Αλόη βέρα"  />
+			<text id="S44" name="Βαμβάκι"  />
+			<text id="S45" name="Γεν. μετ. σόγια"  />
+			<text id="S49" name="Χιονοκαμπανάκια"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Σεντούκι θησαυρού"  />
+			<text id="S52" name="Κόκκινα αυγά"  />
+			<text id="S53" name="Μπλε αυγά"  />
+			<text id="S54" name="Λωτός"  />
+			<text id="S55" name="Λευκά τρια/φυλλα"  />
+			<text id="S56" name="Μεξ/ικες πιπεριές"  />
+			<text id="S57" name="Μη-με-λησμόνει"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Μάφιν"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Μωβ αυγά"  />
+			<text id="S63" name="Κίτρινα αυγά"  />
+			<text id="T00" name="Κότα"  />
+			<text id="T01" name="Χήνα"  />
+			<text id="T02" name="Καφέ κότα"  />
+			<text id="T03" name="Μαύρη κότα"  />
+			<text id="T04" name="Κόκκορας"  />
+			<text id="T05" name="Πάπια"  />
+			<text id="T06" name="Χειμ. χήνα"  />
+			<text id="T07" name="Παπαγάλος"  />
+			<text id="T10" name="Γουρούνι"  />
+			<text id="T11" name="Αγελάδα"  />
+			<text id="T110" name="Καφέ αγελάδα"  />
+			<text id="T111" name="Ταύρος"  />
+			<text id="T112" name="Χειμ. άλογο"  />
+			<text id="T113" name="Χειμ. αγελάδα"  />
+			<text id="T114" name="Αρνί"  />
+			<text id="T115" name="Μονόκερος"  />
+			<text id="T12" name="Πρόβατο"  />
+			<text id="T13" name="Κατσίκα"  />
+			<text id="T14" name="Σκύλος"  />
+			<text id="T15" name="Μαύρη γάτα"  />
+			<text id="T16" name="Καφέ γάτα"  />
+			<text id="T17" name="Μαύρο άλογο"  />
+			<text id="T18" name="Καφέ άλογο"  />
+			<text id="T19" name="Μαύρο πρόβατο"  />
+			<text id="T20" name="Λυκόσκυλο"  />
+			<text id="T21" name="Τάρανδος"  />
+			<text id="T22" name="Λαγός"  />
+			<text id="V00" name="10χ καύσιμα"  />
+			<text id="V01" name="25χ καύσιμα"  />
+			<text id="V02" name="50χ καύσιμα"  />
+			<text id="V10" name="Τρακτέρ"  />
+			<text id="V20" name="Μηχ. σποράς"  />
+			<text id="V30" name="Θεριστική μηχ."  />
+			<text id="V40" name="Φορτηγό λιπ."  />
+			<text id="V90" name="Ντεπόζιτο"  />
+			<text id="Y01" name="Θερισμένο"  />
+			<text id="Y02" name="Οργωμένο"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Συγνώμη, η λίστα φίλων σου ή του/της #name# είναι ήδη γεμάτη,,#tab# ή ο/η #name# δεν δέχτηκε την πρόταση φιλίας σου."  />
+				<text id="buddies_add_ok" name="Ο/Η #name# είναι τώρα φίλος/φίλη σου."  />
+				<text id="chat_dop" name="Παρακαλούμε μη γράφεις συνέχεια το ίδιο στο chat. Ευχαριστούμε!"  />
+				<text id="chat_nonsense" name="Παρακαλούμε γράψε κάτι σχετικό στο chat. Ευχαριστούμε!"  />
+				<text id="chat_vorgaben" name="Στην αγορά μπορείς να μιλάς ελεύθερα από το επίπεδο {0}. Μέχρι τότε χρησιμοποίησε τις έτοιμες προτάσεις."  />
+				<text id="email_bad" name="Άκυρη διεύθυνση e-mail.
+Βάλε μία έγκυρη διεύθυνση e-mail."  />
+				<text id="email_dop" name="Αυτή η διεύθυνση e-mail υπάρχει ήδη. Παρακαλούμε δώσε μία άλλη."  />
+				<text id="email_no" name="Αυτή η διεύθυνση e-mail μας είναι άγνωστη."  />
+				<text id="farm_full" name="Σ΄ αυτήν τη φάρμα βρίσκονται αυτήν τη στιγμή πολλοί παίχτες. Παρακαλούμε διάλεξε μία άλλη φάρμα."  />
+				<text id="helper_job_no" name="Ο/Η #name# απέρριψε το αίτημά σου για #job# ή εγκατέλειψε την αγορά."  />
+				<text id="helper_job_ok" name="Ο/H #name# αποδέχτηκε το αίτημά σου για #job#."  />
+				<text id="helper_owner_no_money" name="Ο ιδιοκτήτης της φάρμας δεν έχει αρκετά χρήματα για να προσφέρει και άλλα χωράφια για όργωμα."  />
+				<text id="invite_sent" name="Σ&#039; ευχαριστούμε πολύ!
+Ένα e-mail στάλθηκε στον φίλο σου."  />
+				<text id="item_dop" name="Έφτασες ήδη το όριο γι&#039; αυτό το αντικείμενο"  />
+				<text id="kenn_bad" name="Για τον κωδικό παρακαλούμε
+διάλεξε τους παρακάτω χαρακτήρες:
+5 μέχρι 15 χαρακτήρες, αποτελούμενους από#tab#
+a-z, A-Z, 0-9, ÄÖÜäöüß, -_@"  />
+				<text id="kenn_no" name="Αυτός ο κωδικός μας είναι άγνωστος"  />
+				<text id="kenn_unequal" name="Οι κωδικοί δεν ταιριάζουν"  />
+				<text id="kick" name="Συγνώμη, ο/η #name# σε έδιωξε από τη φάρμα του/της!#tab#Μάλλον το παραξήλωσες;"  />
+				<text id="lagernosell" name="Πρέπει να αδειάσεις αυτό το κτίριο για να μπορέσεις να το πουλήσεις."  />
+				<text id="lager_building" name="Χρειάζεσαι μία παράγκα ή έναν αχυρώνα στη φάρμα σου, για να μπορείς να αποθηκεύσεις αντικείμενα."  />
+				<text id="lager_cantsell" name="Πρέπει πρώτα να κάνεις αρκετό χώρο στην αποθήκη σου για να μπορέσεις να πουλήσεις αυτό το κτίριο."  />
+				<text id="lager_voll" name="Δεν μπορείς να βάλεις ένα λειτουργικό αντικείμενο μέσα σ&#039; ένα λειτουργικό αντικείμενο."  />
+				<text id="login_bad" name="Σφάλμα σύνδεσης. Αν ξέχασες τον κωδικό σου, πάτα στο &quot;Ξέχασες τον κωδικό;&quot;.#tab#Αν χρειάζεσαι βοήθεια, γράψε μας στο support@goodgamestudios.com"  />
+				<text id="name_bad" name="Για το όνομα παίχτη παρακαλούμε χρησιμοποίησε τους παρακάτω χαρακτήρες::#tab#2 μέχρι 15 χαρακτήρες, αποτελούμενους από a-z, A-Z, 0-9, ÄÖÜäöüß, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Αυτό το όνομα παίχτη υπάρχει ήδη. Παρακαλούμε διάλεξε ένα άλλο ή επέλεξε:"  />
+				<text id="name_spam" name="Παρακαλούμε διάλεξε ένα άλλο όνομα"  />
+				<text id="no_agb" name="Αποδοχή γενικών όρων χρήσης. Παρακαλούμε αποδέξου τους γενικούς όρους χρήσης."  />
+				<text id="no_arbeitskraft" name="Δεν έχεις αρκετή ενέργεια γι&#039; αυτή τη δουλειά. Περίμενε, μέχρι να αποκτήσεις πάλι ενέργεια ή πάνε στο κατάστημα και αγόρασε κάποια."  />
+				<text id="no_buddies" name="Δυστυχώς δεν έχεις καλέσει ακόμα πολλούς φίλους.#tab#Για να αγοράσεις το αντικείμενο #obj# πρέπει να προσκαλέσεις #anz# ακόμα φίλους."  />
+				<text id="no_chat" name="Για να κάνεις chat πρέπει να κάνεις εγγραφή και να φτάσεις τουλάχιστο το επίπεδο 1."  />
+				<text id="no_ferti" name="Το λίπασμα #name# εξαντλήθηκε. Παρακαλούμε αγόρασε καινούργιο."  />
+				<text id="no_food" name="Δυστυχώς δεν έχεις αρκετή τροφή για να ταΐσεις όλα τα ζώα."  />
+				<text id="no_gender" name="Δεν διάλεξες ακόμα φύλο. Παρακαλούμε κάνε κλικ σε μία από τις εικόνες."  />
+				<text id="no_lager" name="Δεν υπάρχει κατάλληλη / διαθέσιμη αποθήκη ή στάβλος γι&#039; αυτό το αντικείμενο."  />
+				<text id="no_money" name="Δεν έχεις αρκετά χρήματα γι&#039; αυτήν την ενέργεια."  />
+				<text id="no_premium" name="Οι προνομιακοί σπόροι σου #name# εξαντλήθηκαν. Παρακαλούμε αγόρασε καινούργιους."  />
+				<text id="no_regi" name="Αυτή η λειτουργία είναι διαθέσιμη μόνο σε εγγεγραμμένους παίχτες.#tab#Παρακαλούμε κάνε εγγραφή, για να μπορέσεις να κρατήσεις τη φάρμα σου."  />
+				<text id="no_tanken" name="Δεν έχεις αρκετά καύσιμα γι&#039; αυτήν την ενέργεια."  />
+				<text id="no_zauberstaub" name="Το {0} εξαντλήθηκε. 
+Για να κερδίσεις καινούργιο πρέπει να πάρεις κι άλλα βραβεία!"  />
+				<text id="old_client_version" name="Υπάρχει μία πιο καινούργια έκδοση. Παρακαλούμε ανανέωσε τη σελίδα."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Θα εμφανίζεσαι στην κατάταξη, όταν κάνεις εγγραφή και έχεις φτάσει το επίπεδο 3."  />
+				<text id="rangliste_player_not_ranked" name="Αυτός ο παίχτης χρειάζεται επίπεδο 3 για να εμφανιστεί στη λίστα κατάταξης."  />
+				<text id="rangliste_unknown_id" name="Συγνώμη, μ&#039; αυτό το όνομα δεν έχει κάνει εγγραφή κανένας."  />
+				<text id="vehiclesnosell" name="Αυτό το όχημα χρησιμοποιείται αυτήν τη στιγμή."  />
+				<text id="vollscreen" name="Όταν παίζεις σε πλήρη οθόνη δεν μπορείς να κάνεις chat (για λόγους ασφαλείας δεν μπορείς να χρησιμοποιήσεις το πληκτρολόγιο)."  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Φιλία"  />
+				<text id="farm_full" name="Ωχ!"  />
+				<text id="helper_job_ok" name="Ανέλαβες εργασία"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="ενεργοποιημένο"  />
+				<text id="buyOf" name="Κατανάλωση #anz# από #menge#"  />
+				<text id="clickZum" name="Κλικ"  />
+				<text id="deactive" name="απενεργοποιημένο"  />
+				<text id="doContent" name="Παράθυρο επιλογών"  />
+				<text id="doDel" name="διαγραφή"  />
+				<text id="doFertilize" name="λίπασμα"  />
+				<text id="doFertilizeAnimals" name="τάϊσμα"  />
+				<text id="doFortune" name="παίξε το διαγωνισμό"  />
+				<text id="doHarvest" name="συγκομιδή"  />
+				<text id="doMove" name="μετακίνηση"  />
+				<text id="doPlow" name="όργωμα"  />
+				<text id="doPos" name="τοποθέτηση"  />
+				<text id="doRot" name="περιστροφή"  />
+				<text id="doSell" name="πώληση"  />
+				<text id="doSow" name="σπορά"  />
+				<text id="doTosOpen" name="αποθήκευση"  />
+				<text id="doVehicles" name="μηχανικ."  />
+				<text id="farmbuddie" name="Η φίλη σου#Ο φίλος σου"  />
+				<text id="farmgast" name="Επισκέπτης#Επισκέπτης"  />
+				<text id="farmhelperharvest" name="Βοηθός συγκομιδής#Βοηθός συγκομιδής"  />
+				<text id="farmhelperplow" name="Βοηθός οργώματος#Βοηθός οργώματος"  />
+				<text id="farmowner" name="Ιδιοκτήτρια αυτής της φάρμας#Ιδιοκτήτης αυτής της φάρμας"  />
+				<text id="farmvisitor" name="Επισκέπτρια#Επισκέπτης"  />
+				<text id="isFertilize" name="λίπασμα"  />
+				<text id="isHarvest" name="συγκομίστηκαν"  />
+				<text id="isReadyB" name="ωρίμανση"  />
+				<text id="isReadyEX" name="μαραμένα"  />
+				<text id="isReadyFin" name="αξία συγκομιδής"  />
+				<text id="isReadyS" name="ωρίμανση"  />
+				<text id="isReadyT" name="έτοιμο"  />
+				<text id="jobbenrest" name="#anz# Ενέργεια δουλειάς"  />
+				<text id="jobVehicles" name="--- Μηχανικές-Εργασίες:"  />
+				<text id="jobWalk" name="--- Χειρωνακτικές-Εργασίες:"  />
+				<text id="ketteZum" name="Λίστα εργασιών"  />
+				<text id="Market" name="Αγορά"  />
+				<text id="marketvisitor" name="Συμπαίχτρια#Συμπαίχτης"  />
+				<text id="my" name="Εσύ ο ίδιος/η ίδια"  />
+				<text id="noPfad" name="Ο δρόμος είναι κλειστός. Δεν μπορώ να πάω εκεί :-("  />
+				<text id="online" name="είναι online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Παίχτης"  />
+				<text id="AC" name="T-Shirt"  />
+				<text id="AG" name="Χαρακτήρας"  />
+				<text id="AH" name="Κούρεμα"  />
+				<text id="AP" name="Παντελόνι"  />
+				<text id="AS" name="Παπούτσια"  />
+				<text id="AT" name="Χροιά"  />
+				<text id="B" name="Δέντρο"  />
+				<text id="D" name="Διακόσμηση"  />
+				<text id="E" name="Επέκταση φάρμας"  />
+				<text id="F" name="Λίπασμα"  />
+				<text id="G" name="Δρόμος"  />
+				<text id="H" name="Σπίτι"  />
+				<text id="R" name="Εργασία"  />
+				<text id="S" name="Χωράφι"  />
+				<text id="T" name="Ζώο"  />
+				<text id="V" name="Όχημα"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Δέντρο"  />
+				<text id="D0" name="Διακοσμητικά φάρμας"  />
+				<text id="D1" name="Διακοσμητικά σπιτιού"  />
+				<text id="D2" name="Όρια"  />
+				<text id="D3" name="Σημαία"  />
+				<text id="D4" name="Διακόσμηση κήπου"  />
+				<text id="D7" name="Γιορτινή διακόσμηση"  />
+				<text id="F0" name="Επιτάχυνση χρόνου"  />
+				<text id="F1" name="Αυξάνει το εισόδημα"  />
+				<text id="F2" name="Αναζωογονητικό"  />
+				<text id="H0" name="Φάρμα"  />
+				<text id="H1" name="Στάβλοι"  />
+				<text id="H2" name="Κατοικία"  />
+				<text id="H4" name="Λειτουργίες"  />
+				<text id="H5" name="Ειδικό κτίριο"  />
+				<text id="N0" name="Γρηγορότερη εργασία"  />
+				<text id="R0" name="Εργασία σε άλλες φάρμες"  />
+				<text id="S0" name="Λουλούδι"  />
+				<text id="S1" name="Φρούτο"  />
+				<text id="S2" name="Λαχανικά"  />
+				<text id="S3" name="Δημητριακά"  />
+				<text id="S4" name="Διάφορα"  />
+				<text id="S5" name="Προνομιακό"  />
+				<text id="S6" name="Σεζόν"  />
+				<text id="T0" name="Πουλερικά"  />
+				<text id="T1" name="Ζώο εργασίας"  />
+				<text id="T2" name="Κατοικίδιο"  />
+				<text id="V0" name="Βενζίνη"  />
+				<text id="V1" name="Τρακτέρ"  />
+				<text id="V2" name="Μηχ. σποράς"  />
+				<text id="V3" name="Θεριστική μηχ."  />
+				<text id="V4" name="Φορτηγό λιπ."  />
+				<text id="V9" name="Ντεπόζιτο"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Νέο βραβείο!"  />
+				<text id="txt1" name="Συγχαρητήρια! 
+Έλαβες το βραβείο &#039;#name#&#039; - Βήμα #level#"  />
+				<text id="txt2" name="ΟΚ"  />
+				<text id="txt3" name="Οι φίλοι λένε"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Ποσότητα κερδισμένων δολλαρίων φάρμας"  />
+				<text id="i10" name="Ποσότητα συγκομιδής λουλουδιών"  />
+				<text id="i11" name="Ποσότητα συγκομιδής από δέντρα"  />
+				<text id="i12" name="Ποσότητα συγκομιδής από ζώα"  />
+				<text id="i13" name="Ποσότητα των δολλαρίων φάρμας, που ξοδεύτηκαν για δώρα"  />
+				<text id="i14" name="Ποσότητα ληφθέντων δώρων"  />
+				<text id="i15" name="Ποσότητα γειτονικών βοηθειών"  />
+				<text id="i16" name="Ποσότητα φωτογραφιών"  />
+				<text id="i17" name="Ποσότητα ανειλλημένων εργασιών οργώματος στο παλιό σύστημα αδειών εργασίας"  />
+				<text id="i18" name="Ποσότητα ανειλλημένων εργασιών θερίσματος στο παλιό σύστημα αδειών εργασίας"  />
+				<text id="i19" name="Ποσότητα ανατεθειμένων εργασιών οργώματος στο παλιό σύστημα αδειών εργασίας"  />
+				<text id="i2" name="Ποσότητα ξοδεμένων δολλαρίων φάρμας"  />
+				<text id="i20" name="Ποσότητα ανατεθειμένων εργασιών θερίσματος στο παλιό σύστημα αδειών εργασίας"  />
+				<text id="i21" name="Ποσότητα των λιπασμένων χωραφιών, ζώων και δέντρων: Πλεονέκτημα χρόνου"  />
+				<text id="i22" name="Ποσότητα των λιπασμένων χωραφιών, ζώων και δέντρων: Μαγική σκόνη"  />
+				<text id="i23" name="Ποσότητα συγκομιδής διαφορετικών δημητριακών"  />
+				<text id="i24" name="Ποσότητα συγκομιδής διαφορετικών φρούτων"  />
+				<text id="i25" name="Ποσότητα συγκομιδής διαφορετικών λουλουδιών"  />
+				<text id="i26" name="Ποσότητα συγκομιδής διαφορετικών λαχανικών"  />
+				<text id="i27" name="Ποσότητα συγκομιδής από διαφορετικά δέντρα"  />
+				<text id="i28" name="Ποσότητα συγκομιδής από διαφορετικά ζώα"  />
+				<text id="i29" name="Ποσότητα συγκομιδής διαφορετικών μονάδων συνολικά"  />
+				<text id="i3" name="Ποσότητα αγορασμένων κτιρίων"  />
+				<text id="i30" name="Ποσότητα διαφορετικών δεξιοτήτων"  />
+				<text id="i31" name="Ποσότητα δεξιοτήτων συνολικά"  />
+				<text id="i32" name="Ποσότητα αποκτημένων φίλων"  />
+				<text id="i33" name="Ποσότητα αγορασμένων δέντρων"  />
+				<text id="i34" name="Ποσότητα συγκομιδής προνομιακών σπόρων"  />
+				<text id="i35" name="Ποσότητα συγκομιδής διαφορετικών προνομιακών σπόρων"  />
+				<text id="i36" name="Ποσότητα οργωμένων χωραφιών κατά τις εργασίες οργώματος"  />
+				<text id="i37" name="Ποσότητα χωραφιών που οργώθηκαν στη φάρμα σου όταν ανέθεσες εργασίες οργώματος"  />
+				<text id="i38" name="Ποσότητα συγκομιδής από χωράφια, δέντρα ή ζώα κατά τις εργασίες συγκομιδής."  />
+				<text id="i39" name="Ποσότητα συγκομιδής από χωράφια, δέντρα ή ζώα από εργασίες συγκομιδής που ανέθεσες στη φάρμα σου"  />
+				<text id="i4" name="Ποσότητα αγορασμένων διακοσμητικών"  />
+				<text id="i5" name="Ποσότητα αγορασμένων ζώων"  />
+				<text id="i6" name="Συνολική ποσότητα συγκομιδής σπόρων"  />
+				<text id="i7" name="Ποσότητα συγκομιδής φρούτων"  />
+				<text id="i8" name="Ποσότητα συγκομιδής λαχανικών"  />
+				<text id="i9" name="Ποσότητα συγκομιδής δημητριακών"  />
+				<text id="next" name="Ακόμα #level#
+μέχρι το επόμενο επίπεδο."  />
+				<text id="t1" name="Γεμάτος κουμπαράς"  />
+				<text id="t10" name="Παιδί των λουλουδιών"  />
+				<text id="t11" name="Φυσιοδίφης"  />
+				<text id="t12" name="Φιλόζωος"  />
+				<text id="t13" name="Τσιπ που ξοδεύτηκαν σε δώρα"  />
+				<text id="t14" name="Δώρα που σου χάρισαν"  />
+				<text id="t15" name="Γείτονες που σε υποστηρίζουν"  />
+				<text id="t16" name="Φωτογράφος"  />
+				<text id="t17" name="Θρυλικός οργωτής"  />
+				<text id="t18" name="Βετεράνος θεριστής"  />
+				<text id="t19" name="Έμπειρος επόπτης"  />
+				<text id="t2" name="Τρελά ψώνια"  />
+				<text id="t20" name="Έμπειρο αφεντικό"  />
+				<text id="t21" name="Γρήγορη τσάπα"  />
+				<text id="t22" name="Σφραγίδα ποιότητας"  />
+				<text id="t23" name="Σιτηροσυλλέκτης"  />
+				<text id="t24" name="Μίξερ φρούτων"  />
+				<text id="t25" name="Συλλέκτης λουλουδιών"  />
+				<text id="t26" name="Τουρλού λαχανικών"  />
+				<text id="t27" name="Καλή καρποφορία"  />
+				<text id="t28" name="Εκπαιδευτής ζώων"  />
+				<text id="t29" name="Πολυάσχολος αγρότης"  />
+				<text id="t3" name="Χωριάτικο γιαπί"  />
+				<text id="t30" name="Διάφορες δεξιότητες"  />
+				<text id="t31" name="Δεξιοτέχνης"  />
+				<text id="t32" name="Cool παρέα"  />
+				<text id="t33" name="Σκαθάρι των δέντρων"  />
+				<text id="t34" name="Χρυσή συγκομιδή"  />
+				<text id="t35" name="Εκθαμβωτική λάμψη"  />
+				<text id="t36" name="Φοβερός οργωτής"  />
+				<text id="t37" name="Μεγάλο αφεντικό"  />
+				<text id="t38" name="Σιδερένιος θεριστής"  />
+				<text id="t39" name="Εισοδηματίας"  />
+				<text id="t4" name="Διακόσμηση με γούστο"  />
+				<text id="t5" name="Μεγαλοκτηνοτρόφος"  />
+				<text id="t6" name="Σποροσυλλέκτης"  />
+				<text id="t7" name="Πανέρι φρούτων"  />
+				<text id="t8" name="Περιβόλι λαχανικών"  />
+				<text id="t9" name="Σιτηρογνώστης"  />
+				<text id="txt0" name="Βραβεία"  />
+				<text id="txt1" name="Συνολική πρόοδος"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Συγνώμη!"  />
+				<text id="txt1" name="ΟΚ"  />
+				<text id="txt2" name="Αποκλείστηκες από το παιχνίδι.
+Υπόλοιπος χρόνος αποκλεισμού: #time# λεπτά
+Αν έχεις ερωτήσεις σχετικά με τον αποκλεισμό, στείλε μας ένα e-mail στο #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Σημαντική πληροφορία !!!"  />
+				<text id="txt1" name="ΟΚ"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Συγνώμη!"  />
+				<text id="txt1" name="Σ&#039; αυτόν τον υπολογιστή είναι ήδη ανοιχτό ένα παράθυρο με #spielname#."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="ΠΡΟΣΟΧΗ !!!"  />
+				<text id="txt1" name="ΟΚ"  />
+				<text id="txt2" name="Η σύνδεση στον σέρβερ δυστυχώς θα διακοπεί σε #time# δευτερόλεπτα!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Επιλογή"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Άβαταρ"  />
+				<text id="txt0" name="Σύμπτωση"  />
+				<text id="txt1" name="Αποθήκευση"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Αναφορά παίχτη!"  />
+				<text id="txt1" name="Θέλεις πραγματικά να αναφέρεις τον παίχτη {0};"  />
+				<text id="txt2" name="ναι"  />
+				<text id="txt3" name="όχι"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Επιβεβαίωση φίλου"  />
+				<text id="txt1" name="Ο/Η #name# θέλει να σε προσθέσει στους φίλους του/της."  />
+				<text id="txt2" name="Απόρριψη"  />
+				<text id="txt3" name="Αποδοχή"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Φιλία"  />
+				<text id="txt1" name="Ρώτησε τον/την #name# αν θέλει να γίνει φίλος/φίλη σου."  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="Ερωτήσεις"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="Ο/Η {1} είναι ο/η {0} φίλος/η σου. Για να τον/τη σβήσεις πρέπει να διακόψεις τη {0} φιλία σας!"  />
+				<text id="txt0" name="Διαγραφή φίλου"  />
+				<text id="txt1" name="Θέλεις πραγματικά να διαγράψεις τον/την #name# από τη λίστα φίλων σου;"  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="Αποδοχή"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Σβήσιμο αντικειμένου"  />
+				<text id="txt1" name="Θέλεις πραγματικά να σβήσεις το αντικείμενο #obj#;"  />
+				<text id="txt2" name="Όχι"  />
+				<text id="txt3" name="Ναι"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Συνέχεια"  />
+				<text id="tTitle" name="Αμοιβή!"  />
+				<text id="txt0" name="Σου έχει σταλεί ένα δώρο στη διεύθυνση e-mail σου."  />
+				<text id="txt1" name="Παρ&#039; το τώρα!"  />
+				<text id="txt2" name="Μπορείς να ζητήσεις να σου σταλεί ξανά το e-mail!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Συνέχεια"  />
+				<text id="tTitle" name="Το e-mail έχει σταλεί"  />
+				<text id="txt0" name="Μόλις σου στείλαμε ένα e-mail με την αμοιβή σου!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Συνέχεια"  />
+				<text id="tTitle" name="Δώρο"  />
+				<text id="txt0" name="Πήρες την αμοιβή σου!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Επέκταση"  />
+				<text id="txt1" name="Επέκτεινε αυτό το κτίριο, 
+για να μπορείς να βάλεις ακόμα 
+περισσότερα αντικείμενα."  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="Αγορά"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Η φάρμα επεκτάθηκε!"  />
+				<text id="txt1" name="Συγχαρητήρια! 
+Η φάρμα σου μεγάλωσε και άλλο!"  />
+				<text id="txt2" name="ΟΚ"  />
+				<text id="txt3" name="Οι φίλοι λένε"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Άλμπουμ φωτογραφιών"  />
+				<text id="txt1" name="Ακύρωση"  />
+				<text id="txt2" name="Διαγραφή"  />
+				<text id="txt3" name="Αποθήκευση"  />
+				<text id="txt4" name="Γράψε κάτι γι&#039; αυτήν την εικόνα!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Εγγραφή"  />
+				<text id="txt1" name="Πρέπει να κάνεις εγγραφή για να αποθηκεύσεις την πρόοδο στο παιχνίδι σου. Αλλιώς τα δεδομένα σου θα χαθούν.
+
+Η εγγραφή είναι εντελώς δωρεάν!"  />
+				<text id="txt2" name="Εγγραφή"  />
+				<text id="txt3" name="Αποσύνδεση"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Aίτημα για συγκομιδή"  />
+				<text id="txt1" name="Θέλεις να βοηθήσεις τον/την #name# να θερίσει στη φάρμα του; Θα πάρεις ένα σωρό πόντους εμπειρίας!"  />
+				<text id="txt2" name="Απόρριψη"  />
+				<text id="txt3" name="Αποδοχή"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Αίτημα για όργωμα"  />
+				<text id="txt1" name="Θέλεις να βοηθήσεις τον/την #name# να οργώσει στη φάρμα του; Θα πάρεις ένα σωρό δολλάρια φάρμας!"  />
+				<text id="txt2" name="Απόρριψη"  />
+				<text id="txt3" name="Αποδοχή"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Αίτημα για συγκομιδή"  />
+				<text id="txt1" name="Ρώτησε τον/την #name# αν θέλει να θερίσει στη φάρμα σου. Αν κάποιος θερίσει για σένα, κερδίζεις περισσότερα δολλάρια φάρμας!"  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="Ερωτήσεις"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Αίτημα για όργωμα"  />
+				<text id="txt1" name="Ρώτησε τον/την #name# αν θέλει να οργώσει στη φάρμα σου. Αν κάποιος οργώσει για σένα, κερδίζεις περισσότερους πόντους εμπειρίας!"  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="Ερωτήσεις"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Αφαίρεση"  />
+				<text id="txt1" name="Αγορά"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Κατειλ. θέσεις"  />
+				<text id="txt1" name="Επέκταση"  />
+				<text id="txt2" name="Αποθήκη"  />
+				<text id="txt3" name="Πίσω"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Αφαίρεση"  />
+				<text id="txt1" name="Συγκομιδή"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Κατειλ. θέσεις"  />
+				<text id="txt1" name="Επέκταση"  />
+				<text id="txt2" name="Συγκ. όλων"  />
+				<text id="txt3" name="Τάϊσμα όλων με &#039;{0}&#039;"  />
+				<text id="txt4" name="Τάϊσμα με &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Νέα αντικείμενα ξεκλειδώθηκαν για σένα στο κατάστημα."  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Νέα αντικείμενα"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Άυξηση επιπέδου!"  />
+				<text id="txt1" name="Συγχαρητήρια, έφτασες σε ένα καινούργιο επίπεδο!"  />
+				<text id="txt2" name="ΟΚ"  />
+				<text id="txt3" name="Οι φίλοι λένε"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Ξέχασα τον κωδικό"  />
+				<text id="txt1" name="Γράψε εδώ την διεύθυνση e-mail με την οποία έκανες εγγραφή και πάτα &quot;αποστολή&quot;. Θα σου αποσταλεί ο κωδικός σου."  />
+				<text id="txt2" name="Ε-mail"  />
+				<text id="txt3" name="Ακύρωση"  />
+				<text id="txt4" name="Αποστολή"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Αποσύνδεση"  />
+				<text id="txt1" name="Θέλεις να φύγεις από τη φάρμα;"  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="ΟΚ"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Ωχ!"  />
+				<text id="txt1" name="ΟΚ"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Εγγραφή"  />
+				<text id="txt1" name="Παρακαλούμε κάνε εγγραφή, για να μπορείς να κρατήσεις την φάρμα σου."  />
+				<text id="txt2" name="Αποσύνδεση"  />
+				<text id="txt3" name="ΟΚ"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Εγγραφή"  />
+				<text id="txt1" name="E-mail"  />
+				<text id="txt2" name="Κωδικός"  />
+				<text id="txt3" name="Αποδέχομαι τους Γ.Ο.Χ"  />
+				<text id="txt4" name="Ακύρωση"  />
+				<text id="txt5" name="ΟΚ"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Δημιουργία παίχτη"  />
+				<text id="txt1" name="Όνομα"  />
+				<text id="txt2" name="γυναίκα"  />
+				<text id="txt3" name="άντρας"  />
+				<text id="txt4" name="Ακύρωση"  />
+				<text id="txt5" name="ΟΚ"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Παίξε αμέσως"  />
+				<text id="txt1" name="Εγγραφή"  />
+				<text id="txt2" name="Σύνδεση"  />
+				<text id="txt3" name="Όνομα / E-mail"  />
+				<text id="txt4" name="Κωδικός"  />
+				<text id="txt5" name="Ξέχασες τον κωδικό;"  />
+				<text id="txt6" name="Αποθήκευση"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Αγορά"  />
+				<text id="txt1" name="να μην προβάλλεται άλλο"  />
+				<text id="txt2" name="ΟΚ"  />
+				<text id="txt3" name="Γειά σου #name#!
+Αυτή είναι η αγορά του #spielname#. Εδώ μπορείς να αναλάβεις εργασίες οργώματος ή θερίσματος από άλλους παίχτες ή να προσλάβεις εσύ άλλους παίχτες."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Αλλαγή κωδικού"  />
+				<text id="txt1" name="Παλιός κωδικός"  />
+				<text id="txt2" name="Νέος κωδικός"  />
+				<text id="txt3" name="Επανέλαβε το νέο κωδικό"  />
+				<text id="txt4" name="Ακύρωση"  />
+				<text id="txt5" name="Αποθήκευση"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Ωχ!"  />
+				<text id="txt1" name="ΟΚ"  />
+				<text id="txt2" name="Εγγραφή"  />
+				<text id="txt3" name="Πρόσκληση φίλου"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Ρυθμίσεις"  />
+				<text id="txt1" name="Διάφανα δέντρα"  />
+				<text id="txt10" name="καλή"  />
+				<text id="txt11" name="μεσαία"  />
+				<text id="txt12" name="χαμηλή"  />
+				<text id="txt13" name="zoom μέχρι"  />
+				<text id="txt14" name="Αγνόηση προτάσεων φιλίας"  />
+				<text id="txt15" name="Όχι επίσκεψη παιχτών από κατάταξη"  />
+				<text id="txt16" name="Ενεργοποίηση συμβουλών παιχνιδιού."  />
+				<text id="txt2" name="Διάφανα σπίτια"  />
+				<text id="txt3" name="Διάφανα διακοσμητικά"  />
+				<text id="txt4" name="&quot;Γρήγορα&quot; γραφικά"  />
+				<text id="txt5" name="Αλλαγή κωδικού"  />
+				<text id="txt6" name="Ακύρωση"  />
+				<text id="txt7" name="Αποθήκευση"  />
+				<text id="txt8" name="Απενεργοποίηση animation"  />
+				<text id="txt9" name="Ποιότητα"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Αναζήτηση ονόματος/θέσης"  />
+				<text id="txt0" name="Κατάταξη"  />
+				<text id="txt1" name="αναζήτηση"  />
+				<text id="txt2" name="Θέση"  />
+				<text id="txt3" name="Όνομα"  />
+				<text id="txt4" name="Επίπεδο"  />
+				<text id="txt5" name="ΠΕ"  />
+				<text id="zeitraum0" name="Σήμερα"  />
+				<text id="zeitraum1" name="Αυτήν τη βδομάδα"  />
+				<text id="zeitraum2" name="Αυτόν το μήνα"  />
+				<text id="zeitraum3" name="Πάντα"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Πώληση αντικειμένου"  />
+				<text id="txt1" name="Θέλεις πραγματικά να πουλήσεις το αντικείμενο #obj# για #w1# δολλάρια φάρμας;"  />
+				<text id="txt2" name="Όχι"  />
+				<text id="txt3" name="Ναι"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Με αυτό το αναζωογονητικό λίπασμα επανορθώνεται η ξεραμένη σπορά."  />
+				<text id="F30" name="Επιταχύνει την ανάπτυξη φυτών και δέντρων κατά 10%"  />
+				<text id="F31" name="Επιταχύνει την ανάπτυξη φυτών και δέντρων κατά 50%"  />
+				<text id="F40" name="Επιταχύνει την ανάπτυξη των ζώων κατά 10%"  />
+				<text id="F41" name="Επιταχύνει την ανάπτυξη των ζώων κατά 50%"  />
+				<text id="F50" name="Αυξάνει τα έσοδα και τους κερδισμένους πόντους εμπειρίας από σπόρους, καθώς και τα έσοδα από σπόρους, δέντρα και ζώα κατά 50%!"  />
+				<text id="H00" name="Ο αχυρώνας σου επιτρέπει να αποθηκεύεις 15 αντικείμενα."  />
+				<text id="H02" name="Η παράγκα σου δίνει χώρο για να αποθηκεύσεις 4 αντικείμενα."  />
+				<text id="H10" name="Το κοτέτσι σου επιτρέπει να μαζεύεις αυγά από πολλές κότες ταυτόχρονα."  />
+				<text id="H11" name="Το χοιροστάσιο σου επιτρέπει να μαζεύεις τρούφες από πολλά γουρούνια ταυτόχρονα."  />
+				<text id="H12" name="Η στάνη αγελάδων σου επιτρέπει να μαζεύεις γάλα από πολλές αγελάδες ταυτόχρονα."  />
+				<text id="H13" name="Ο στάβλος αλόγων σου επιτρέπει να μαζεύεις τρίχες από πολλά άλογα ταυτόχρονα."  />
+				<text id="H40" name="Η δεξαμενή σου δίνει 20% μπόνους σε όλες τις αγορές λιπάσματος και τροφής."  />
+				<text id="N01" name="Άδειες για: Συγκομιδή όλων των έτοιμων δέντρων αμέσως."  />
+				<text id="N02" name="Άδειες για: Συγκομιδή όλων των έτοιμων ζώων αμέσως."  />
+				<text id="R0x" name="Αυτός ο ανανεωτής ανανεώνει την ενέργεια εργασίας σου {0} μονάδες."  />
+				<text id="S5x" name="Οι προνομιακοί σπόροι σου αποδίδουν περισσότερα δολλάρια φάρμας και εμπειρία από κανονικούς σπόρους και δεν μπορούν να μαραθούν! Μπορείς να τους αγοράσεις ως πακέτο και μετά να τους χρησιμοποιείς από το κατάστημα χωρίς επιπλέον κόστος."  />
+				<text id="V0x" name="Αυτά τα δοχεία καυσίμων σου επιτρέπουν να γεμίσεις τις ρεζέρβες καυσίμων σου {0} φορές."  />
+				<text id="V10" name="Με το τρακτέρ μπορείς να οργώσεις μέχρι τέσσερα χωράφια ταυτόχρονα."  />
+				<text id="V20" name="Με τη μηχανή σποράς μπορείς να σπείρεις μέχρι τέσσερα χωράφια ταυτόχρονα."  />
+				<text id="V30" name="Με τη θεριστική μηχανή μπορείς να θερίσεις μέχρι τέσσερα χωράφια ταυτόχρονα."  />
+				<text id="V40" name="Με το φορτηγό λιπάσματος μπορείς να ρίξεις λίπασμα μέχρι σε τέσσερα χωράφια ταυτόχρονα."  />
+				<text id="V90" name="20% περισσότερα καύσιμα
+με την αγορά ενός 
+δοχείου βενζίνης"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Επίπεδο #level#"  />
+				<text id="txtAnzahl" name="Ποσότητα:"  />
+				<text id="txtAnzahlVon" name="από"  />
+				<text id="txtBenutzen" name="Χρήση"  />
+				<text id="txtBuy" name="Αγορά"  />
+				<text id="txtHarvestXP" name="Συγκομιδή για:"  />
+				<text id="txtPremium" name="Προνομιακό"  />
+				<text id="txtSize" name="Μέγεθος πακέτου:"  />
+				<text id="txtVerbrauch" name="Κατανάλωση"  />
+				<text id="txtWork" name="Εργασία"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Απενεργοποίηση συμβουλών παιχνιδιού."  />
+				<text id="shoptipp_0_title" name="Ωχ!"  />
+				<text id="shoptipp_1_text" name="Δεν έχεις αρκετά καύσιμα γι&#039; αυτήν την ενέργεια. Θέλεις να γεμίσεις;"  />
+				<text id="shoptipp_1_title" name="Γέμισμα καυσίμων"  />
+				<text id="shoptipp_2_text" name="Δεν έχεις αρκετό λίπασμα γι&#039; αυτήν την ενέργεια. Θέλεις να αγοράσεις επιπλέον;"  />
+				<text id="shoptipp_2_title" name="Αγορά λιπάσματος"  />
+				<text id="shoptipp_3_text" name="Δεν έχεις άλλο χώρο στη φάρμα σου! Θέλεις να την επεκτείνεις αμέσως;"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="Δεν έχεις άλλη ενέργεια εργασίας!
+Ήξερες ότι μπορείς να ανανεώσεις την ενέργεια εργασίας σου και ο εσύ ο ίδιος / η ίδια;"  />
+				<text id="shoptipp_4_title" name="Εργασιομανής!"  />
+				<text id="shoptipp_5_text" name="Δεν έχεις αρκετούς προνομιακούς σπόρους γι&#039; αυτήν την ενέργεια. Θέλεις ν&#039; αγοράσεις επιπλέον;"  />
+				<text id="shoptipp_5_title" name="Αγορά προνομιακών σπόρων"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Κατάστημα"  />
+				<text id="txtSilo" name="Δεξαμενή"  />
+				<text id="txtWork" name="Εργασία"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Ψάχνω δουλειά."  />
+				<text id="txt1" name="Θέλω να οργώσω."  />
+				<text id="txt2" name="Θέλω να θερίσω."  />
+				<text id="txt3" name="Ποιος θέλει να οργώσει;"  />
+				<text id="txt4" name="Ποιος θέλει να θερίσει;"  />
+				<text id="txt5" name="Γειά σου!"  />
+				<text id="txt6" name="Ευχαριστούμε"  />
+				<text id="txt7" name="Ναι"  />
+				<text id="txt8" name="Όχι"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Πρόσκληση φίλου"  />
+				<text id="txt1" name="Το όνομά σου"  />
+				<text id="txt2" name="Όνομα του φίλου σου"  />
+				<text id="txt3" name="Η διεύθυνση e-mail του φίλου σου"  />
+				<text id="txt4" name="Ακύρωση"  />
+				<text id="txt5" name="Πρόσκληση"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Αποσιώπηση"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Μελισσοσόδα"  />
+				<text id="txt1" name="Παίξε τη μελισσοσόδα και κέρδισε φανταστικά βραβεία!"  />
+				<text id="txt2" name="Γυροβολιά!"  />
+				<text id="txt3" name="Ο πρώτος γύρος είναι δωρεάν!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Γιούχου!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Επόμενο βήμα σε
+#xp# ΠΕ"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Δολ. φάρμας:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Φίλοι:"  />
+				<text id="txt4" name="Βραβεία:"  />
+				<text id="txt5" name="ΟΚ"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Διαγραφή συμπαίχτη"  />
+				<text id="txt1" name="Θέλεις πραγματικά να διώξεις τον/την #name# από τη φάρμα σου;"  />
+				<text id="txt2" name="Ακύρωση"  />
+				<text id="txt3" name="Αποδοχή"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Επιτέλους ήρθε η άνοιξη στο Goodgame Farmer! Μη χάσεις τα πολλά καινούργια κτίρια, διακοσμητικά, ζώα και δέντρα!"  />
+				<text id="teaser_11_info_1" name="Για άκου!
+Στην φάρμα σου βελάζει και κακαρίζει!
+Καλή διασκέδαση με τους καινούργιους ήχους στο Goodgame Farmer."  />
+				<text id="teaser_11_title" name="Ήχοι!"  />
+				<text id="teaser_12_info_1" name="Στην αγορά μπορείς να κάνεις chat από το επίπεδο 10 και πάνω. Μέχρι τότε χρησιμοποίησε απλά τις έτοιμες προτάσεις."  />
+				<text id="teaser_12_title" name="Κανόνες chat"  />
+				<text id="teaser_13_info_1" name="Περισσότερες προμήθειες!
+Και συνεχίζουμε με περισσότερα ζώα, δέντρα, διακοσμητικά και κτίρια!"  />
+				<text id="teaser_13_info_2" name="Επιπλέον υπάρχουν ένα σωρό καινούργια επίπεδα βραβείων!"  />
+				<text id="teaser_14_info_1" name="Πάρε τώρα τους καινούργιους προνομιακούς σπόρους! Σου δίνουν περισσότερους ΠΕ και δολλάρια φάρμας και δεν μπορούν να μαραθούν."  />
+				<text id="teaser_14_info_2" name="Επίσης υπάρχουν καινούργιοι σπόροι για όλους τους αγρότες με μεγάλο επίπεδο και δύο νέα βραβεία!"  />
+				<text id="teaser_14_title" name="Προνομιακοί σπόροι!"  />
+				<text id="teaser_17_info_1" name="Με τη γιορτή του Πάσχα υπάρχουν καινούργια υπέροχα κτίρια, διακοσμητικά, ζώα και σπόροι στο παιχνίδι! Σας ευχόμαστε όλους καλή διασκέδαση στο ψάξιμο των αυγών!"  />
+				<text id="teaser_17_info_2" name="Επιπλέον τροποποιήσαμε το σύστημα με τις άδειες εργασίας. Από εδώ και πέρα θα σου αφαιρούνται άδειες μόνο όταν έχεις κάνει κάποια δουλειά, ώστε να μην γυρνάς ποτέ ξανά με άδεια χέρια στο σπίτι."  />
+				<text id="teaser_17_title" name="Καλό Πάσχα!"  />
+				<text id="teaser_18_info_1" name="Τώρα όμως βιάσου! Σε μερικές μέρες η πασχαλινή προσφορά θα λήξει. Γι&#039; αυτό και τώρα έχει μέχρι 50% έκπτωση στα εποχιακά αντικείμενα!!!"  />
+				<text id="teaser_18_title" name="Πάρε τώρα!"  />
+				<text id="teaser_19_info_1" name="Η καλοκαιρινή μόδα έφτασε! 
+Πάρε ένα από τα κομψά καινούργια καπέλα ή τα αστεία αυτιά πασχαλινού λαγού.
+
+Επίσης αξίζει να ρίχνεις που και που καμιά ματιά στο καινούργιο μας φόρουμ."  />
+				<text id="teaser_19_title" name="Βάλε καπέλο!"  />
+				<text id="teaser_20_info_1" name="Το Goodgame Farmer γιορτάζει τα πρώτα του γενέθλια, γιόρτασε κι εσύ μαζί μας! Διακόσμησε τη φάρμα σου, βάλε το αστείο καπέλο πάρτυ και δοκίμασε οπωσδήποτε τα καινούργια σποράκια μάφιν.
+
+Αλλά βιάσου, η γιορτή δεν θα κρατήσει για πολύ!"  />
+				<text id="teaser_20_title" name="Χαρούμενα γενέθλια!"  />
+				<text id="teaser_21_info_1" name="Προσοχή! Για επιτυχίες έχει τώρα την ειδική μαγική σκόνη.
+Μ&#039; αυτήν τα δέντρα, τα ζώα και οι σπόροι σου θ&#039; αποδόσουν πολύ περισσότερο."  />
+				<text id="teaser_21_info_2" name="Τα ζώα σου πεινάν! 
+Άντε να τα ταΐσεις, για να μεγαλώσουν γρηγορότερα!
+Και τα δέντρα θέλουν το λίπασμά τους."  />
+				<text id="teaser_21_title" name="Τροφή ζώων και άλλα!"  />
+				<text id="teaser_23_info_1" name="Το Goodgame Farmer είναι υποψήφιο ως „Best Social Game“ για το European Games Award!"  />
+				<text id="teaser_23_info_2" name="Βοηθήστε μας να κερδίσουμε το βραβείο και ψηφίστε μας!"  />
+				<text id="teaser_23_title" name="Ψήφισέ μας!"  />
+				<text id="teaser_24_info_1" name="Αρρρ!
+Οι πειρατές μπούκαραν στο Goodgame Farmer!
+Φόρεσε ένα πειρατικό καπέλο, φύτεψε τους σπόρους σεντουκιών θησαυρού και πάρε έναν παπαγάλο που μιλάει!"  />
+				<text id="teaser_24_title" name="Update πειρατών!"  />
+				<text id="teaser_25_info_1" name="The latest update caused severe technical difficulties with the conversion of the fertilizer and the achievement rewards.
+
+In order to solve this issue we had to reset all accounts to the previous state.
+
+We are sorry about any inconveniences caused."  />
+				<text id="teaser_25_title" name="Επανεκκίνηση"  />
+				<text id="teaser_5_info_1" name="Τρόμαξε τους επισκέπτες σου με πρωτότυπα τρομακτικά διακοσμητικά και κτίρια για την γιορτή του Halloween"  />
+				<text id="teaser_5_title" name="Νέα αντικείμενα!"  />
+				<text id="teaser_6_info_1" name=""  />
+				<text id="teaser_6_title" name=""  />
+				<text id="teaser_7_info_1" name="Επιτέλους Χριστούγεννα!
+Μη χάσεις με τίποτα τα πολλά καινούργια σπίτια, διακοσμητικά, δέντρα και φυτά!"  />
+				<text id="teaser_7_info_2" name="Και για να έχεις πάντα αρκετό χώρο στη φάρμα σου, τώρα υπάρχει και μία νέα αποθήκη! 
+Βάλε αντικείμενα απλά σε παράγκες και αχυρώνες."  />
+				<text id="teaser_7_title" name="Νέα αντικείμενα"  />
+				<text id="teaser_8_info_1" name="Και ένα ακόμα Χριστουγεννιάτικο δώρο για σένα! Στην ολοκαίνουργια λίστα κατάταξης μπορείς να συγκρίνεις τον εαυτό σου με άλλους παίχτες.
+Γίνε ο καλύτερος από όλους τους αγρότες!"  />
+				<text id="teaser_8_title" name="Κατάταξη!"  />
+				<text id="teaser_9_info_1" name="Τώρα όμως βιάσου!
+Σε μία εβδομάδα η Χριστουγεννιάτικη προσφορά θα λήξει. Γι&#039; αυτό και τώρα έχει μέχρι 50% έκπτωση σε όλα τα εποχιακά αντικείμενα!"  />
+				<text id="teaser_9_title" name="Άρπαξε!"  />
+				<text id="teaser_btn_forum" name="Στο φόρουμ"  />
+				<text id="teaser_btn_ok" name="ΟΚ"  />
+				<text id="teaser_btn_shop" name="Κατάστημα"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Απόρριψη"  />
+				<text id="zAchievements" name="Τα βραβεία μου"  />
+				<text id="zAn2" name="Αποδοχή"  />
+				<text id="zBuddies" name="Όλοι οι φίλοι σου"  />
+				<text id="zBuddiesNoAsk" name="Αυτός ο παίχτης δεν δέχεται προτάσεις φιλίας"  />
+				<text id="zBuddiesSub" name="Σβήσε αυτόν τον παίχτη από τη λίστα φίλων σου"  />
+				<text id="zBuy" name="Αγορά"  />
+				<text id="zCancel" name="Κλείσιμο παραθύρου"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Αποσιώπηση"  />
+				<text id="zChatSenden" name="Αποστολή μηνύματος"  />
+				<text id="zChatVorgaben" name="Έτοιμες προτάσεις για chat."  />
+				<text id="zCheckAGB" name="Αποδέχομαι τους Γ.Ο.Χ"  />
+				<text id="zCheckAny" name="Απενεργοποίηση animation ζώων"  />
+				<text id="zCheckMen" name="Αντρικός χαρακτήρας"  />
+				<text id="zCheckMerken" name="Αποθήκευση ονόματος και κωδικού
+για την επόμενη επίσκεψη;"  />
+				<text id="zCheckMute" name="Δεν θέλω chat με αυτόν τον παίχτη"  />
+				<text id="zCheckNoMoreShow" name="Να μην προβληθεί ξανά αυτό το παράθυρο."  />
+				<text id="zCheckQuali" name="Μείωση ποιότητας γραφικών για βελτίωση απόδοσης του υπολογιστή"  />
+				<text id="zCheckShowB" name="Δέντρα να γίνουν διάφανα"  />
+				<text id="zCheckShowD" name="Διακοσμητικά να γίνουν διάφανα"  />
+				<text id="zCheckShowH" name="Σπίτια να γίνουν διάφανα"  />
+				<text id="zCheckSound1" name="Εφέ"  />
+				<text id="zCheckSound2" name="Μουσική"  />
+				<text id="zCheckWomen" name="Γυναικείος χαρακτήρας"  />
+				<text id="zChipsMore" name="Πρόσθεση δολλαρίων φάρμας/χρυσού"  />
+				<text id="zClose" name="Κλείσιμο"  />
+				<text id="zClothes" name="Ντύσε τον χαρακτήρα σου"  />
+				<text id="zClothsBuy" name="Αποδοχή αυτού του άβαταρ;"  />
+				<text id="zClothsSelect" name="Επιλογή"  />
+				<text id="zClothsZufall" name="Ο υπολογιστής σου προτείνει ένα στυλ"  />
+				<text id="zCookAdd" name="αποθήκευση ιστορικού"  />
+				<text id="zCookDel" name="Σβήσιμο ιστορικού"  />
+				<text id="zDel" name="Διαγραφή"  />
+				<text id="zDown" name="Κάτω"  />
+				<text id="zEarnChips" name="Κέρδισε δολλάρια φάρμας"  />
+				<text id="zEarnGold" name="Κέρδισε επιπλέον χρυσό"  />
+				<text id="zEinladen" name="Πρέπει πρώτα να προσκαλέσεις άλλους {0} φίλους για να μπορέσεις να αγοράσεις αυτό εδώ."  />
+				<text id="zEinladen2" name="Έχεις μόλις {1} {0} φίλους."  />
+				<text id="zEmailVerificationWinker" name="Πάρε
+το δώρο!"  />
+				<text id="zErweitern" name="Επέκταση"  />
+				<text id="zExchange" name="Αντ/αγή χρυσού με δολλ."  />
+				<text id="zExpHigherLevelNeeded" name="Δεν έφτασες ακόμα το απαιτούμενο επίπεδο."  />
+				<text id="zExpPreviousNeeded" name="Χρειάζεται η προηγούμενη επέκταση."  />
+				<text id="zFarmowner" name="Ιδιοκτήτες αυτής της φάρμας"  />
+				<text id="zFertilize" name="Λίπασμα"  />
+				<text id="zFlinkeHand" name="Γρηγορότερη εργασία"  />
+				<text id="zFoto" name="Φωτογραφίες"  />
+				<text id="zFullscreen" name="Πλήρης οθόνη"  />
+				<text id="zFunc" name="Αντικείμενα με ειδικές ιδιότητες"  />
+				<text id="zGiftsMy" name="Τα δώρα μου"  />
+				<text id="zHarvest" name="Συγκομιδή"  />
+				<text id="zHarvestV3" name="Θέρισμα χωραφιών με τη θεριστική μηχανή"  />
+				<text id="zHelp" name="Βοήθεια"  />
+				<text id="zHome" name="Η φάρμα μου"  />
+				<text id="zInfoEMail" name="Μία διεύθυνση e-mail έχει τη μορφή: aaa.bbb@ccc.gr"  />
+				<text id="zInfoKenn" name="Ο κωδικός περιλαμβάνει από 5 μέχρι 15 χαρακτήρες,
+που αποτελούνται από: a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="Άνοιγμα"  />
+				<text id="zInvite" name="Προσκάλεσε τους φίλους σου!"  />
+				<text id="zJ" name="Εκτέλεση"  />
+				<text id="zJobben" name="Ενέργεια εργασίας:
+Χρειάζεται για θέρισμα και όργωμα σε ξένες φάρμες.
+Όσο έχεις λιγότερο από {0} ενέργεια εργασίας, ανανεώνεται αυτόματα κάθε λεπτό, μπορείς όμως να αγοράσεις κάποια και στο κατάστημα."  />
+				<text id="zKatAC" name="T-Shirt"  />
+				<text id="zKatAG" name="Χαρακτήρας"  />
+				<text id="zKatAH" name="Κούρεμα"  />
+				<text id="zKatAK" name="Καπέλο"  />
+				<text id="zKatAP" name="Παντελόνι"  />
+				<text id="zKatAS" name="Παπούτσια"  />
+				<text id="zKatAT" name="Χροιά"  />
+				<text id="zKatB" name="Δέντρα"  />
+				<text id="zKatD" name="Διακοσμητικά"  />
+				<text id="zKatE" name="Επεκτάσεις φάρμας"  />
+				<text id="zKatF" name="Λίπασμα"  />
+				<text id="zKatG" name="Δρόμοι"  />
+				<text id="zKatH" name="Κτίρια"  />
+				<text id="zKatR" name="Ενέργ. εργ."  />
+				<text id="zKatS" name="Σπόροι"  />
+				<text id="zKatT" name="Ζώα"  />
+				<text id="zKatV" name="Οχήματα"  />
+				<text id="zKatX" name="Ειδικές προσφορές"  />
+				<text id="zKatY" name="Όλα"  />
+				<text id="zKennLost" name="Κάνε κλικ, αν ξέχασες τον κωδικό σου."  />
+				<text id="zKennMod" name="Αλλαγή κωδικού"  />
+				<text id="zKette" name="Λίστα εργασιών"  />
+				<text id="zKetteDel" name="Σβήσιμο λίστας εργασιών"  />
+				<text id="zKick" name="Διώξε αυτόν τον παίχτη από τη φάρμα σου."  />
+				<text id="zLinkAGB" name="Κάνε κλικ, αν θέλεις να διαβάσεις τους Γ.Ο.Χ."  />
+				<text id="zLogin" name="Στο παιχνίδι"  />
+				<text id="zLogout" name="Αποσύνδεση"  />
+				<text id="zLupeM" name="Σμίκρυνση"  />
+				<text id="zLupeP" name="Μεγένθυση"  />
+				<text id="zMail" name="Μηνύματα"  />
+				<text id="zMarket" name="Αγορά"  />
+				<text id="zMeldBad" name="Αναφορά παίχτη;"  />
+				<text id="zMen" name="Αντρικός χαρακτήρας"  />
+				<text id="zMoreChipsGold" name="Αγορά δολ. φάρμας/χρυσού"  />
+				<text id="zMove" name="Μετακίνηση"  />
+				<text id="zN" name="Ακύρωση"  />
+				<text id="zNext" name="Συνέχεια"  />
+				<text id="zNoSilo" name="Πρέπει πρώτα να χτίσεις δεξαμενή."  />
+				<text id="zOK" name="ΟΚ"  />
+				<text id="zOKKennLost" name="Ζήτησε την αποστολή του κωδικού σου"  />
+				<text id="zOKKennMod" name="Αποθήκευση νέου κωδικού"  />
+				<text id="zPfeil" name="Πολυεργαλείο"  />
+				<text id="zPfeilV" name="Πολυεργαλείο οχημάτων"  />
+				<text id="zPlow" name="Όργωμα"  />
+				<text id="zPlowNew" name="Νέο χωράφι"  />
+				<text id="zPlowV1" name="Όργωμα χωραφιών με το τρακτέρ"  />
+				<text id="zPrefs" name="Ρυθμίσεις"  />
+				<text id="zPremium" name="Αγόρασε αυτό το πακέτο"  />
+				<text id="zPremiumUse" name="Χρήση αυτού του προνομιακού σπόρου στη φάρμα σου"  />
+				<text id="zPrev" name="Πίσω"  />
+				<text id="zQuest" name="Αποστολές"  />
+				<text id="zRangliste" name="Κατάταξη"  />
+				<text id="zRanking2Farm" name="Αυτός ο παίχτης δεν επιτρέπει επισκέψεις στη φάρμα του από τη λίστα κατάταξης."  />
+				<text id="zRegistrieren" name="Κάνε εγγραφή για να αποθηκευτούν τα στοιχεία του παιχνιδιού"  />
+				<text id="zRot" name="Περιστροφή"  />
+				<text id="zSave" name="Αποθήκευση"  />
+				<text id="zScrBG" name="Μπάρα κύλισης"  />
+				<text id="zScrMove" name="Μετακίνηση της μπάρας"  />
+				<text id="zSell" name="Πώληση"  />
+				<text id="zShare" name="Πες το στους φίλους σου!"  />
+				<text id="zShop" name="Κατάστημα"  />
+				<text id="zShopEarn" name="Πώληση για:"  />
+				<text id="zShopHarvest" name="Συγκομιδή για:"  />
+				<text id="zShopLagerSize" name="Θέσεις"  />
+				<text id="zShopTime" name="Συγκομιδή σε:"  />
+				<text id="zShopXP" name="Κερδισμένοι ΠΕ:"  />
+				<text id="zSilo" name="Δεξαμενή (λιπ.)"  />
+				<text id="zSofort" name="Παίξε αμέσως - χωρίς εγγραφή"  />
+				<text id="zSound" name="Ήχοι"  />
+				<text id="zSow" name="Σπορά"  />
+				<text id="zSowV2" name="Σπορά χωραφιών με το φυτευτήρι"  />
+				<text id="zStrangeAchies" name="Βραβεία αυτού του παίχτη"  />
+				<text id="zStrangeAdd" name="Πρόταση φιλίας σ&#039; αυτόν τον παίχτη"  />
+				<text id="zStrangeFotos" name="Άλμπουμ φωτογραφιών αυτού του παίχτη"  />
+				<text id="zStrangeGift" name="Χάρισε ένα δώρο σ&#039; αυτόν τον παίχτη"  />
+				<text id="zStrangeHarvest" name="Προσέλαβε αυτόν τον παίχτη για συγκομιδή"  />
+				<text id="zStrangeHome" name="Πάνε στη φάρμα αυτού του παίχτη"  />
+				<text id="zStrangeInfo" name="Πληροφορίες για αυτόν τον παίχτη"  />
+				<text id="zStrangeMail" name="Γράψε ένα μήνυμα σ&#039; αυτόν τον παίχτη"  />
+				<text id="zStrangePlow" name="Προσέλαβε αυτόν τον παίχτη για όργωμα"  />
+				<text id="zSubAsk" name="Ερωτήσεις και απαντήσεις"  />
+				<text id="zSubFotobuch" name="Άλμπουμ φωτογραφιών"  />
+				<text id="zSubMailInbox" name="Ανάγνωση μηνυμάτων"  />
+				<text id="zSubMailNew" name="Σύνταξη μηνυμάτων"  />
+				<text id="zSubNews" name="Νέα"  />
+				<text id="zSubShot1" name="Βγάλε φωτογραφία όλη τη φάρμα"  />
+				<text id="zSubShot2" name="Βγάλε φωτογραφία
+επέλεξε μία ορθογώνια περιοχή"  />
+				<text id="zSubShot3" name="Βγάλε φωτογραφία
+κάνε κλικ σε ένα αντικείμενο"  />
+				<text id="zSubSupport" name="Υποστήριξη"  />
+				<text id="zTanken" name="Γέμισμα:
+Κάνε κλικ για να γεμίσεις
+Προβολή:
+Ποσότητα γεμισμάτων
+και δείκτης καυσίμου
+(από μέγιστο {0})"  />
+				<text id="zTosOpen" name="Αποθήκευση"  />
+				<text id="zTosStall" name="Μετακίνηση αυτού του ζώου σε ένα στάβλο"  />
+				<text id="zUp" name="Ψηλά"  />
+				<text id="zUse" name="Χρήση"  />
+				<text id="zUsersOnFarm" name="Όλοι οι συμπαίχτες στη φάρμα ή στην αγορά"  />
+				<text id="zVZBuddies" name="Απαιτούμενος αριθμός φίλων {0}"  />
+				<text id="zVZBuddiesE" name="Όταν έχεις προσκαλέσει
+αρκετούς φίλους,
+μπορείς να αγοράσεις αυτό το αντικείμενο
+σε χαμηλότερη τιμή."  />
+				<text id="zWomen" name="Γυναικείος χαρακτήρας"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Καλώς όρισες στη δική σου φάρμα!
+
+Άσε με να σε βοηθήσω στο ξεκίνημά σου, μαζί θα την κάνουμε ν&#039; ανθίσει!"  />
+				<text id="tut_gast_1_title" name="Γειά σου φίλε"  />
+				<text id="tut_gast_2_text" name="Δες, οι φράουλές σου είναι έτοιμες κιόλας!
+Γρήγορα να τις μαζέψεις!"  />
+				<text id="tut_gast_2_title" name="Θέρισε τη σοδιά κάνοντας κλικ!"  />
+				<text id="tut_gast_3_text" name="Όταν θερίζεις φυτά,
+κερδίζεις δολλάρια φάρμας και
+μαζεύεις πόντους εμπειρίας."  />
+				<text id="tut_gast_3_title" name="Με το θέρισμα κερδίζεις δολλάρια φάρμας και ΠΕ!"  />
+				<text id="tut_gast_4_text" name="Τώρα πρέπει να οργώσεις τα χωράφια σου,
+για να μπορείς να τα ξανασπείρεις!"  />
+				<text id="tut_gast_4_title" name="Όργωσε χωράφια κάνοντας κλικ"  />
+				<text id="tut_gast_5_text" name="Τώρα μπορείς να διαλέξεις καινούργιους σπόρους στο μαγαζί!"  />
+				<text id="tut_gast_5_title" name="Αγόρασε καινούργιους σπόρους στο μαγαζί"  />
+				<text id="tut_gast_6_text" name="Ας αγοράσουμε σιτάρι!"  />
+				<text id="tut_gast_6_title" name="Αγόρασε σιτάρι"  />
+				<text id="tut_gast_7_text" name="Κάνε κλικ στα χωράφια, για να σπείρεις εκεί το σιτάρι."  />
+				<text id="tut_gast_7_title" name="Μοίρασε το σιτάρι στα χωράφια"  />
+				<text id="tut_gast_8_text" name="Κάνεις πολύ καλή δουλειά!
+Η φάρμα σου θα είναι σε λίγο η ωραιότερη
+απ&#039; όλες.
+
+Άντε, φύτεψε λίγο ακόμα!"  />
+				<text id="tut_gast_8_title" name="Γιούπι! Η φάρμα σου ακμάζει!"  />
+				<text id="tut_market_1_text" name="Οι σπόροι σου χρειάζονται ακόμα πολύ χρόνο για να ωριμάσουν; Πάνε τότε στην αγορά και δούλεψε για άλλους παίχτες!"  />
+				<text id="tut_market_1_title" name="Μπορείς επίσης να πας να δουλέψεις!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Δολ. φάρμας:"  />
+				<text id="txt1" name="Χρυσός:"  />
+				<text id="txt2" name="Επ. συγκ/δή:"  />
+				<text id="txt3" name="Φίλοι:"  />
+				<text id="txt4" name="Βραβεία:"  />
+				<text id="txt5" name="ΟΚ"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Περισσότεροι
+φίλοι"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Μέρα {0}"  />
+				<text id="txt0" name="Καλώς όρισες"  />
+				<text id="txt1" name="ΟΚ"  />
+				<text id="txt2" name="Κάθε μέρα παίρνεις μπόνους καλωσορίσματος!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Για να σε ευχαριστήσουμε για την εγγραφή σου, σου χαρίζουμε #w1# δολλάρια φάρμας."  />
+				<text id="21" name="Παίρνεις #w1# δολλάρια φάρμας ως καθημερινό bonus καλωσορίσματος!"  />
+				<text id="2f" name="Γι&#039; αυτό παίρνεις #anz# #ferti#."  />
+				<text id="2job" name="Γι&#039; αυτό παίρνεις #job# ενέργεια εργασίας."  />
+				<text id="2w1" name="Γι&#039; αυτό παίρνεις #w1# δολλάρια φάρμας."  />
+				<text id="2w2" name="Γι&#039; αυτό παίρνεις #w2# χρυσό."  />
+				<text id="2x" name="Έκανες σύνδεση #days# συνεχόμενες μέρες"  />
+				<text id="2xp" name="Γι&#039; αυτό παίρνεις #xp# ΠΕ."  />
+				<text id="freunde" name="Για τις δραστηριότητες των παιχτών που προσκάλεσες παίρνεις #w1# δολλάρια φάρμας."  />
+				<text id="txt0" name="Καλώς όρισες"  />
+				<text id="txt1" name="ΟΚ"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Σφάλμα"  />
+				<text id="generic_alert_connection_failed_copy" name="Συντήρηση. Παρακαλώ δοκιμάστε ξανά αργότερα!"  />
+				<text id="generic_alert_connection_failed_title" name="Εργασία σε εξέλιξη!"  />
+				<text id="generic_alert_connection_lost_copy" name="Η σύνδεση στο server απέτυχε. Παρακαλώ προσπαθήστε να επανασυνδεθείτε."  />
+				<text id="generic_alert_connection_lost_description" name="Αυτή τη στιγμή γίνονται εργασίες συντήρησης. Δυστυχώς πρέπει να γίνεται και αυτό που και που για να βάζουμε αναβαθμίσεις και καινούργιες λειτουργίες ή να διορθώσουμε κάποιο λάθος.&lt;br&gt;&lt;br&gt;
+Δουλεύουμε εντατικά για να μπορείτε να παίξετε όσο το δυνατόν γρηγορότερα."  />
+				<text id="generic_alert_connection_lost_promo" name="Δοκίμασε στο μεταξύ ένα από τα άλλα μας παιχνίδια!"  />
+				<text id="generic_alert_connection_lost_thanks" name="Σας ευχαριστούμε για την κατανόησή σας!"  />
+				<text id="generic_alert_connection_lost_title" name="Η σύνδεση διακόπηκε!"  />
+				<text id="generic_alert_error" name="Λάθος"  />
+				<text id="generic_alert_information" name="Προσοχή"  />
+				<text id="generic_alert_loggedout_copy" name="Έχεις αποσυνδεθεί επιτυχώς. Μη ξεχνάς: Κάθε μέρα υπάρχει ένα μπόνους σύνδεσης για σένα!"  />
+				<text id="generic_alert_loggedout_title" name="Τα λέμε αργότερα!"  />
+				<text id="generic_alert_warning" name="Προειδοποίηση"  />
+				<text id="generic_alert_watchout" name="Προσοχή!"  />
+				<text id="generic_alert_win7chromebug" name="Αν δεν είναι δυνατή η εισαγωγή κειμένου, παρακαλούμε πάτα το πλήκτρο ctrl."  />
+				<text id="generic_invalid_email_provider" name="Δεν επιτρέπονται διευθύνσεις e-mail από αυτόν τον προμηθευτή!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Η ταχύτητα της σύνδεσής σας δείχνει να είναι πολύ αργή αυτή τη στιγμή. Παρακαλώ δοκιμάστε αργότερα!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Πώς σας φαίνεται το παιχνίδι και τι μπορεί ακόμα να βελτιωθεί; Παρακαλώ, γράψτε τη γνώμη σας στο Goodgame Φόρουμ ή στην Ομάδα."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Προσοχή: Η πρόοδός σου αποθηκεύεται μόνο αν εγγραφείς!"  />
+				<text id="generic_register_error_invalidemail" name="Η διεύθυνση e-mail που έβαλες δεν είναι σωστή."  />
+				<text id="generic_report_muted_chattry" name="Δε μπορείς να χρησιμοποιήσεις την υπηρεσία του chat γιατί έχεις αποκλειστεί."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Αποδοχή"  />
+				<text id="generic_btn_cancel" name="Ακύρωση"  />
+				<text id="generic_btn_close" name="Κλείσιμο"  />
+				<text id="generic_btn_continue" name="Συνέχεια"  />
+				<text id="generic_btn_end" name="Τέλος"  />
+				<text id="generic_btn_endnow" name="Τερματισμός τώρα"  />
+				<text id="generic_btn_goback" name="Πίσω"  />
+				<text id="generic_btn_no" name="Όχι"  />
+				<text id="generic_btn_noshare" name="Μην ασχολείσαι!"  />
+				<text id="generic_btn_notaccept" name="Απόρριψη"  />
+				<text id="generic_btn_okay" name="Εντάξει"  />
+				<text id="generic_btn_reconnect" name="Επανασύνδεση"  />
+				<text id="generic_btn_refresh" name="Ανανέωση"  />
+				<text id="generic_btn_report" name="Αναφορά"  />
+				<text id="generic_btn_search" name="Αναζήτηση"  />
+				<text id="generic_btn_share" name="Μοιραστείτε!"  />
+				<text id="generic_btn_skip" name="Παράλειψη"  />
+				<text id="generic_btn_start" name="Έναρξη"  />
+				<text id="generic_btn_topayment" name="Φέρε!"  />
+				<text id="generic_btn_yes" name="Ναι"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="Πρέπει να φτάσεις το επίπεδο {0} για να μπορείς να κάνεις chat"  />
+				<text id="generic_chat_writeable" name="Πρέπει να εγγραφείς και να φτάσεις το επίπεδο1 για να χρησιμοποιήσεις το chat."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Μην ξενχάς:
+Στο φόρουμ υπάρχει τώρα ένα τέλειος διαγωνισμός του {0}. Ρίξε κι εσύ μία ματιά και πάρε μέρος!"  />
+				<text id="cm_teaser2_copy" name="Μην ξεχνάς:
+Στο φόρουμ υπάρχει τώρα μία καταπληκτική προσφορά για το {0}. Δεν θα ήθελες να την χάσεις με τίποτα, οπότε έλα γρήγορα!"  />
+				<text id="cm_teaser3_copy" name="Προς στιγμήν υπάρχει στο σελίδα Facebook του {0} μία φανταστική προσφορά.
+Ρίξε οπωσδήποτε μία ματιά!"  />
+				<text id="cm_teaser4_copy" name="Λόγω ενός τεχνικού προβλήματος μπορεί αυτή τη στιγμή να υπάρξουν κάποιοι περιορισμοί στις λειτουργίες του παιχνιδιού {0}.
+Παρακαλούμε κοίτα στο φόρουμ για να μάθεις πληροφορίες."  />
+				<text id="cm_teaser5_copy" name="Παρακαλούμε μην ξεχνάς: Ένας αληθινός συνεργάτης της Goodgame Studios δεν θα σου ζητήσει ποτέ τον κωδικό σου! Φύλαγε πάντα τα στοιχεία σου και μη τα δίνεις σε άλλους!
+
+Καλή διασκέδαση με το {0}!"  />
+				<text id="cm_teaser6_copy" name="Μία καινούρια αναβάθμιση για το {0} είναι καθ&#039; οδόν! 
+Σχετικά νέα και περισσότερες πληροφορίες για τις καινούριες λειτουργίες και τις διορθώσεις σφαλμάτων θα βρεις όπως πάντα στο φόρουμ!"  />
+				<text id="cm_teaser7_copy" name="Σε μερικά λεπτά πρέπει να κλείσουμε το σέρβερ του {0} για λίγη ώρα. Θα βρεις περισσότερες λεπτομέρειες στο φόρουμ."  />
+				<text id="cm_teaser8_copy" name="Δυστυχώς πρέπει να κλείσουμε το σέρβερ του {0} λόγω μίας επείγουσας συντήρησης. Θα βρεις περισσότερες πληροφορίες στο φόρουμ."  />
+				<text id="cm_teaserevent_title" name="{0}, προσοχή:"  />
+				<text id="cm_teaserinfo_title" name="Γειά σου {0}!"  />
+				<text id="cm_teaserwarning_title" name="Προσοχή!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Διαχείριση"  />
+				<text id="generic_animation" name="Προβολή κινούμενων εικόνων"  />
+				<text id="generic_bugreport" name="Πείτε μας για λάθη"  />
+				<text id="generic_changePass" name="Αλλαγή Κωδικού"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Προσεχώς*"  />
+				<text id="generic_date" name="Ημερομηνία"  />
+				<text id="generic_day" name="Ημέρα"  />
+				<text id="generic_dayformat" name="{0}.{1}.{2}"  />
+				<text id="generic_dayformat_short" name="{0}.{1}."  />
+				<text id="generic_days" name="Ημέρες"  />
+				<text id="generic_day_short" name="Μ"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="Ηλεκτρονικό ταχυδρομείο"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Συχνές ερωτήσεις"  />
+				<text id="generic_forum" name="Φόρουμ"  />
+				<text id="generic_friend" name="Φίλος"  />
+				<text id="generic_friends" name="Φίλοι"  />
+				<text id="generic_general" name="Γενικά"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Ομάδα"  />
+				<text id="generic_guest" name="Επισκέπτης"  />
+				<text id="generic_help" name="Βοήθεια"  />
+				<text id="generic_high" name="Ψηλά"  />
+				<text id="generic_hour" name="Ώρα"  />
+				<text id="generic_hours" name="Ώρες"  />
+				<text id="generic_hour_short" name="Ωρ"  />
+				<text id="generic_limited" name="Περιορισμένος"  />
+				<text id="generic_logout" name="Αποσύνδεση"  />
+				<text id="generic_low" name="Χαμηλό"  />
+				<text id="generic_medium" name="Μεσαίο"  />
+				<text id="generic_minute" name="Λεπτό"  />
+				<text id="generic_minutes" name="Λεπτά"  />
+				<text id="generic_minute_short" name="Λεπ"  />
+				<text id="generic_moderator" name="Συντονιστής"  />
+				<text id="generic_month" name="Μήνας"  />
+				<text id="generic_months" name="Μήνες"  />
+				<text id="generic_month_short" name="Μ"  />
+				<text id="generic_music" name="Μουσική on/off"  />
+				<text id="generic_name" name="Όνομα"  />
+				<text id="generic_news" name="Νέες ιστορίες"  />
+				<text id="generic_options" name="Επιλογές"  />
+				<text id="generic_quality" name="Ποιότητα"  />
+				<text id="generic_register" name="Αποθήκευση και Εγγραφή"  />
+				<text id="generic_second" name="Δευτερόλεπτο"  />
+				<text id="generic_seconds" name="Δευτερόλεπτα"  />
+				<text id="generic_second_short" name="Δευ"  />
+				<text id="generic_sound" name="Ήχος οn/off"  />
+				<text id="generic_support" name="Υποστήριξη"  />
+				<text id="generic_today" name="Σήμερα"  />
+				<text id="generic_tomorrow" name="Σήμερα"  />
+				<text id="generic_tutorial" name="Οδηγός"  />
+				<text id="generic_username" name="Όνομα παίχτη"  />
+				<text id="generic_validTo_timer" name="Ακόμα {0} ώρες {1} λεπτά ενεργή"  />
+				<text id="generic_xp" name="ΠΕ"  />
+				<text id="generic_yesterday" name="Χθες"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Παλιά έκδοση!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Ανανέωση τη σελίδα"  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Θέλεις να προσθέσεις τον {0} σαν φίλο?"  />
+				<text id="generic_friends_add_title" name="Αίτηση φίλου"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Περισσότεροι φίλοι!"  />
+				<text id="generic_friends_denied_copy" name="{0} αρνήθηκε το αίτημά σας."  />
+				<text id="generic_friends_denied_title" name="Άρνηση αίτησης!"  />
+				<text id="generic_friends_invite_badword_copy" name="Το όνομα που έβαλες δεν επιτρέπεται!"  />
+				<text id="generic_friends_invite_badword_title" name="Προσοχή!"  />
+				<text id="generic_friends_invite_error_copy" name="Για να καλέσεις φίλους πρέπει πρώτα να εγγραφείς."  />
+				<text id="generic_friends_invite_error_title" name="Εγγραφείτε πρώτα"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Δεν είναι δυνατή η λειτουργία πλήρους οθόνης"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Τσέχικα"  />
+				<text id="generic_language_cz" name="Τσέχικα"  />
+				<text id="generic_language_da" name="Δανική"  />
+				<text id="generic_language_de" name="Γερμανικά"  />
+				<text id="generic_language_el" name="Ελληνικά"  />
+				<text id="generic_language_en" name="Αγγλικά"  />
+				<text id="generic_language_es" name="Ισπανικά"  />
+				<text id="generic_language_fi" name="Φινλανδικά"  />
+				<text id="generic_language_fr" name="Γαλλικά"  />
+				<text id="generic_language_hu" name="Ουγγρικά"  />
+				<text id="generic_language_id" name="Ινδονησιακά"  />
+				<text id="generic_language_it" name="Ιταλικά"  />
+				<text id="generic_language_ja" name="Ιαπωνικά"  />
+				<text id="generic_language_ko" name="Κορεάτικα"  />
+				<text id="generic_language_nl" name="Ολλανδικά"  />
+				<text id="generic_language_no" name="Νορβηγικά"  />
+				<text id="generic_language_pl" name="Πολωνικά"  />
+				<text id="generic_language_pt" name="Πορτογαλικά"  />
+				<text id="generic_language_pt_BR" name="Brazilian"  />
+				<text id="generic_language_ru" name="Ρωσικά"  />
+				<text id="generic_language_sv" name="Σουηδικά"  />
+				<text id="generic_language_tr" name="Τουρκικά"  />
+				<text id="generic_language_zh_CN" name="Κινέζικα (απλοποιημένα)"  />
+				<text id="generic_language_zh_TW" name="Κινέζικα (παραδοσιακά)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Ο λογαριασμός σας έχει αποκλειστεί! Παρακαλώ επικοινωνήστε με την υποστήριξη!"  />
+				<text id="generic_login_banned_2" name="Ο λογαριασμός σου κλειδώθηκε!
+
+Θα είναι κλειδωμένος μέχρι: {0}
+
+Αν έχεις ερωτήσεις σχετικά με το κλείδωμα, παρακαλούμε απευθύνσου στην ομάδα υποστήριξης."  />
+				<text id="generic_login_banned_3" name="Ο λογαριασμός σου κλειδώθηκε μόνιμα.
+
+Αν έχεις ερωτήσεις σχετικά με το κλείδωμα, παρακαλούμε απευθύνσου στην ομάδα υποστήριξης."  />
+				<text id="generic_login_banned_permanent" name="μόνιμα"  />
+				<text id="generic_login_facebook" name="Σύνδεση μέσω Facebook"  />
+				<text id="generic_login_login" name="ΣΥΝΔΕΣΗ"  />
+				<text id="generic_login_loginname" name="Όνομα χρήστη/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Ξέχασες τον κωδικό σου?"  />
+				<text id="generic_login_lostpassword_copy" name="Εισάγετε τη διεύθυνση e-mail και θα σας στείλουμε το νέο κωδικό σας."  />
+				<text id="generic_login_lostpassword_title" name="Ξέχασες τον κωδικό σου?"  />
+				<text id="generic_login_newplayer" name="Καινούργιος εδώ;"  />
+				<text id="generic_login_password" name="Κωδικός"  />
+				<text id="generic_login_play" name="ΠΑΙΞΕ ΤΩΡΑ"  />
+				<text id="generic_login_playnow" name="Παίξε τώρα!"  />
+				<text id="generic_login_register" name="Εγγραφή"  />
+				<text id="generic_login_rememberpassword" name="Αποθήκευση κωδικού"  />
+				<text id="generic_login_wronglogin" name="Λάθος όνομα χρήστη ή κωδικός!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Εγγραφείτε για ν&#039;αποθηκεύσετε τη βαθμολογία σας!"  />
+				<text id="generic_logout_guest_title" name="Εγγραφή"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Το αργότερο σε {0} το παιχνίδι θα είναι και πάλι προσβάσιμο."  />
+				<text id="servershutdownpremonition_copy" name="Ο server του παιχνιδιού κλείνει σε {0}. Παρακαλώ αποσυνδέσου ή κάνε εγγραφή για ν&#039;αποθηκεύσεις τη βαθμολογία σου."  />
+				<text id="servershutdownpremonition_registered_copy" name="Ο σέρβερ του παιχνιδιού θα κλείσει σε {0} λόγω εργασιών συντήρησης."  />
+				<text id="servershutdown_copy" name="Ο server του παιχνιδιού αυτή τη στιγμή κλείνει. Σε μερικά λεπτά, θα μπορείς να συνδεθείς ξανά."  />
+				<text id="welcomeback_copy" name="Καλώς ήρθες πάλι! Εδώ υπάρχει κάτι να σε βοηθήσει να συνεχίσεις την πορεία σου!"  />
+				<text id="welcomeback_title" name="Γύρισες!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Νέος κωδικός:"  />
+				<text id="generic_change_password_copy_oldpass" name="Παλιός κωδικός:"  />
+				<text id="generic_change_password_copy_send" name="Ο νέος σας κωδικός στάλθηκε στη διεύθυνση e-mail σας."  />
+				<text id="generic_change_password_error_failed" name="Συγνώμη, αλλά αυτός δεν είναι ο παλιός κωδικός σου."  />
+				<text id="generic_change_password_error_success" name="Ο κωδικός σας άλλαξε με επιτυχία!"  />
+				<text id="generic_change_password_faild_copy" name="Ο νέος κωδικός σας πρέπει να έχει περισσότερα από δύο γράμματα και ο παλιός πρέπει να εισαχθεί σωστά!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Ο κωδικός σου δεν επιτρέπεται να είναι άδειος ή να περιέχει ειδικούς χαρακτήρες."  />
+				<text id="generic_change_password_faild_title" name="Εισάγετε τον κωδικό"  />
+				<text id="generic_change_password_title" name="Αλλαγή κωδικού"  />
+				<text id="generic_guest_change_password_faild_copy" name="Μπορείς να αλλάξεις τον κωδικό σου μόνο αν έχεις εγγραφεί!"  />
+				<text id="generic_guest_change_password_faild_title" name="Εγγραφείτε πρώτα"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Περισσότερο {0} για τα ίδια χρήματα!"  />
+				<text id="generic_payment_48hdiscount_button" name="Περισσότερος χρυσός τις πρώτες 48 ώρες"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Περισσότερο {0} στις πρώτες 48 ώρες"  />
+				<text id="generic_payment_48hdiscount_copy" name="Αγόρασε χρυσό στις πρώτες 48 ώρες και πάρε επιπλέον {0}% για επιλεγμένα πακέτα!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Αγόρασε στις πρώτες 48 ώρες και πάρε σε όλα τα πακέτα επιπλέον {0}%!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Μόνο 48 ώρες μετά την εγγραφή σου - Αγόρασε {0} πακέτα και πάρε {1}% εξτρά δωρεάν!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Μόνο 48 ώρες μετά την εγγραφή σου - Αγόρασε επιλεγμένα πακέτα {0} και λάβε {1}% επιπλέον δωρεάν!"  />
+				<text id="generic_payment_btn" name="Στο Κατάστημα"  />
+				<text id="generic_payment_copy" name="Θα μεταφερθείτε στο κατάστημα πληρωμών."  />
+				<text id="generic_payment_discount_button" name="Τώρα {0}% περισσότερος χρυσός!"  />
+				<text id="generic_payment_discount_copy" name="Αγόρασε τώρα χρυσό και πάρε ένα bonus {0}%!"  />
+				<text id="generic_payment_discount_copy_general" name="Αγόρασε τώρα {0} και πάρε μπόνους {1}%!"  />
+				<text id="generic_payment_discount_general" name="Τώρα {0}% επιπλέον {1} για τα ίδια χρήματα!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% περισσότερο για τα ίδια χρήματα!"  />
+				<text id="generic_payment_discount_time" name="ΑΚΟΜΑ {0}!"  />
+				<text id="generic_payment_discount_title" name="Επιπλέον χρυσός!"  />
+				<text id="generic_payment_newPrices" name="Από τώρα! Διαρκώς χαμηλωμένες τιμές στο μαγαζί πληρωμών μας! Εξοικονόμησε αληθινά λεφτά!"  />
+				<text id="generic_payment_title" name="Κατάστημα πληρωμής"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Ψάχνω τούνελ στο χωροχρόνο"  />
+				<text id="loading_text_10" name="Μοιράζω αντικείμενα στον κόσμο"  />
+				<text id="loading_text_11" name="Ζωγραφίζω γραφικά"  />
+				<text id="loading_text_12" name="Χρωματίζω τα κουμπιά"  />
+				<text id="loading_text_13" name="Κρύβω εκπλήξεις"  />
+				<text id="loading_text_14" name="Αναζητώ στοιχεία χρήστη"  />
+				<text id="loading_text_15" name="Διώχνω ζουζούνια"  />
+				<text id="loading_text_16" name="Ταΐζω τους προγραμματιστές"  />
+				<text id="loading_text_17" name="Μαστορεύω στον Client"  />
+				<text id="loading_text_18" name="Γυρνάω την κλεψύδρα"  />
+				<text id="loading_text_19" name="Κρυώνω το σύστημα"  />
+				<text id="loading_text_2" name="Λαδώνω τα γρανάζια"  />
+				<text id="loading_text_20" name="Είμαι σχεδόν έτοιμος"  />
+				<text id="loading_text_3" name="Γυρνάω τον τροχό του χάμστερ"  />
+				<text id="loading_text_4" name="Ζεσταίνω το σέρβερ"  />
+				<text id="loading_text_5" name="Ελπίζω όλα να παν καλά"  />
+				<text id="loading_text_6" name="Φέρνω τον εξολοθρευτή ζιζανίων"  />
+				<text id="loading_text_7" name="Υπολογίζω πολύπλοκο αλγόριθμο"  />
+				<text id="loading_text_8" name="Ρυθμίζω τους πυκνωτές ροής"  />
+				<text id="loading_text_9" name="Φτιάχνω αντικείμενα"  />
+				<text id="loading_text_default" name="Εκκίνηση"  />
+				<text id="loading_text_itemXML" name="Στοιχεία παιχνιδιού φορτώνονται"  />
+				<text id="progress_loadfiles" name="Γραφικά παιχνιδιού φορτώνονται..."  />
+				<text id="progress_serverconnection" name="Σύνδεση με το σέρβερ..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Εισαγωγή διεύθυνσης e-mail"  />
+				<field id="generic_register_insertName" name="Εισαγωγή ονόματος"  />
+				<field id="generic_register_insertPassword" name="Εισαγωγή κωδικού"  />
+				<text id="generic_register_agb_copy" name="Χωρίς γενικούς όρους χρήσης δεν γίνεται! Απλά διάβασε τους και βάλε ένα σημαδάκι αριστερά δίπλα στο &quot;Αποδοχή ΓΟΧ&quot;, και τότε μπορείς να ξεκινήσεις!"  />
+				<text id="generic_register_agb_read" name="Ανάγνωση ΓΟΧ"  />
+				<text id="generic_register_alreadyavatar" name="Ο χρήστης έχει ήδη ένα άβαταρ."  />
+				<text id="generic_register_badword" name="Δεν επιτρέπεται να χρησιμοποήσεις {0} στο όνομά σου."  />
+				<text id="generic_register_btn_agb" name="Αποδοχή Όρων Χρήσης"  />
+				<text id="generic_register_btn_later" name="Αργότερα"  />
+				<text id="generic_register_btn_next" name="Συνέχεια"  />
+				<text id="generic_register_btn_save" name="Αποθήκευση"  />
+				<text id="generic_register_character" name="Δημιούργησε το χαρακτήρα σου"  />
+				<text id="generic_register_copy_0" name="Κάνε τώρα δωρεάν εγγραφή!"  />
+				<text id="generic_register_copy_1" name="Αποθήκευσε την πρόοδό σου στο παιχνίδι!"  />
+				<text id="generic_register_emaillong_copy" name="Δυστυχώς, η διεύθυνση e-mail είναι πολύ μεγάλη."  />
+				<text id="generic_register_emailwrong_copy" name="Η διεύθυνση e-mail που έβαλες δεν είναι σωστή."  />
+				<text id="generic_register_email_copy" name="Η διεύθυνση e-mail δε πρέπει να είναι άδεια ή να περιέχει ειδικούς χαρακτήρες."  />
+				<text id="generic_register_error" name="Η εγγραφή απέτυχε"  />
+				<text id="generic_register_errormistake" name="Σφάλμα"  />
+				<text id="generic_register_error_accountalreadyexists" name="Ένας άλλος παίκτης έχει εγγραφει με αυτή τη διεύθυνση e-mail, ζητούμε συγνώμη."  />
+				<text id="generic_register_forfree" name="Δωρεάν εγγραφή!"  />
+				<text id="generic_register_forfree1" name="Δωρεάν!"  />
+				<text id="generic_register_letsgo" name="ΦΥΓΑΜΕ!"  />
+				<text id="generic_register_namealreadyused" name="Το όνομα αυτό χρησιμοποιείται ήδη."  />
+				<text id="generic_register_namenotvalid" name="Το όνομα που έχεις εισάγει δεν είναι έγκυρο."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Ο κωδικός που έχεις εισάγει είναι πολύ μικρός. Πρέπει να περιέχει τουλάχιστον 4 χαρακτήρες."  />
+				<text id="generic_register_passwordwrong_copy" name="Ο κωδικός που έβαλες δεν είναι σωστός."  />
+				<text id="generic_register_password_copy" name="Ο κωδικός σας δε πρέπει να είναι κενός ή να περιέχει ειδικούς χαρακτήρες."  />
+				<text id="generic_register_receivenews" name="Λήψη νέων"  />
+				<text id="generic_register_rememberdata" name="Αποθήκευση στοιχείων"  />
+				<text id="generic_register_reward" name="Κάνε δωρεάν εγγραφή και πάρε {0} {1} δώρο!"  />
+				<text id="generic_register_subscribe" name="Εγγραφή"  />
+				<text id="generic_register_success" name="Η εγγραφή σου ήταν επιτυχής."  />
+				<text id="generic_register_title" name="Σφάλμα εγγραφής"  />
+				<text id="generic_register_unlock" name="Ξεκλείδωσε αυτή τη λειτουργία!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Παρακαλούμε προσέξτε τον τρόπο έκφρασης. Διαφορετικά θα αποκλειστείτε από το chat ή ο λογαριασμός σας θα κλείσει προσωρινά. Αιτιολογία: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Δε μπορείς να χρησιμοποιήσεις την υπηρεσία του chat για τις επόμενες {0} λόγω επαναλαμβανόμενης κακής συμπεριφοράς. Αιτιολογία: {1}"  />
+				<text id="generic_report_muted_domain1" name="Μη γράφετε διευθύνσεις URL στο chat!"  />
+				<text id="generic_report_muted_reported_copy" name="Αρκετοί παίκτες έχουν κάνει παράπονα για σένα. Είσαι αποκλεισμένος από το chat για τις επόμενες {0}. Αιτιολογία: {1}"  />
+				<text id="generic_report_player_copy" name="Θέλεις πραγματικά ν&#039;αναφέρεις τον παίκτη {0}?
+Προσοχή! Υπερβολική χρήση αυτής της λειτουργίας θα επιφέρει μπλοκάρισμα του λογαριασμού σου."  />
+				<text id="generic_report_player_reason_0" name="Προσβολή"  />
+				<text id="generic_report_player_reason_1" name="σεξουαλική παρενόχληση"  />
+				<text id="generic_report_player_reason_2" name="φυλετική παρατήρηση"  />
+				<text id="generic_report_player_reason_3" name="Απειλή/εκβιασμός"  />
+				<text id="generic_report_player_reason_title" name="Αιτία αναφοράς"  />
+				<text id="generic_report_player_title" name="Αναφορά παίκτη?"  />
+				<text id="generic_report_reported_copy" name="Έχεις αναφερθεί στον διαχειριστή από έναν άλλο παίκτη. Αιτιολογία: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Σύνδεση"  />
+				<text id="generic_select_world" name="Επέλεξε κόσμο:"  />
+				<text id="generic_world" name="Κόσμος: {0}"  />
+				<text id="generic_world_international" name="Διεθνής: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

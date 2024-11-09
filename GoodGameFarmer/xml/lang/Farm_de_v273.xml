@@ -1,0 +1,1802 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - de - 1 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Eier einsammeln"  />
+			<text id="T01" name="Eier einsammeln"  />
+			<text id="T02" name="Eier einsammeln"  />
+			<text id="T03" name="Eier einsammeln"  />
+			<text id="T04" name="krähen lassen"  />
+			<text id="T05" name="Eier einsammeln"  />
+			<text id="T06" name="Eier einsammeln"  />
+			<text id="T07" name="streicheln"  />
+			<text id="T10" name="Trüffel sammeln"  />
+			<text id="T11" name="melken"  />
+			<text id="T110" name="melken"  />
+			<text id="T111" name="bürsten"  />
+			<text id="T112" name="bürsten"  />
+			<text id="T113" name="melken"  />
+			<text id="T114" name="bürsten"  />
+			<text id="T115" name="bürsten"  />
+			<text id="T12" name="scheren"  />
+			<text id="T13" name="melken"  />
+			<text id="T14" name="bürsten"  />
+			<text id="T15" name="bürsten"  />
+			<text id="T16" name="bürsten"  />
+			<text id="T17" name="bürsten"  />
+			<text id="T18" name="bürsten"  />
+			<text id="T19" name="scheren"  />
+			<text id="T20" name="bürsten"  />
+			<text id="T21" name="bürsten"  />
+			<text id="T22" name="bürsten"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D31"  />
+				<text id="format_date" name="{0}.{1}.{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="T"  />
+				<text id="s1" name="Mio"  />
+				<text id="s2" name="Mrd"  />
+				<text id="s3" name="Bio"  />
+				<text id="s4" name="Bid"  />
+				<text id="s5" name="Tri"  />
+				<text id="s6" name="Trd"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="T"  />
+				<text id="day1" name="Tag"  />
+				<text id="day2" name="Tage"  />
+				<text id="heute" name="heute"  />
+				<text id="hour0" name="Std"  />
+				<text id="hour1" name="Stunde"  />
+				<text id="hour2" name="Stunden"  />
+				<text id="min0" name="Min"  />
+				<text id="min1" name="Minute"  />
+				<text id="min2" name="Minuten"  />
+				<text id="morgen" name="morgen"  />
+				<text id="sofort" name="unmittelbar"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="ZURÜCK"  />
+				<text id="ex" name="SCHLIESSEN"  />
+				<text id="next" name="WEITER"  />
+				<text id="no" name="NEIN"  />
+				<text id="yes" name="JA"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Also:
+Dein Ziel bei #play# ist es, Erfahrungspunkte und Geld zu verdienen, um eine möglichst große und schöne Farm aufzubauen."  />
+				<text id="intro_01_goals_t" name="Ziel"  />
+				<text id="welcome_01_i" name="Herzlich willkommen bei #play#, #name#
+Wir fänden&#039;s toll, wenn du dir unsere liebevoll vorbereitete Einführung ansiehst, die dir den Einstieg erleichtern wird. Dafür wirst du sogar belohnt werden! Möchtest du das"  />
+				<text id="welcome_01_t" name="Einführung"  />
+				<text id="welcome_02_i" name="Pffff, na gut, wenn du keine Belohnung willst… Du kannst die Einführungs-Tipps jederzeit einsehen, indem du auf das Fragezeichen-Blatt klickst. Die Spielregeln werden auch im Hilfe-Menü-Punkt „Fragen und Antworten“ erklärt.
+Viel Spass!"  />
+				<text id="welcome_02_t" name="Einführung 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Ich habe gerade Goodgame Farmer installiert. Besuche mich doch mal auf meiner Farm und sieh dir an was ich alles angebaut habe!"  />
+			<text id="descriptionlongfarmer" name="Willkommen bei Goodgame Farmer, der neuen Farmsimulation der Goodgame Studios. Bei Goodgame Farmer kannst Du Deine virtuelle Farm managen, indem Du Feldfrüchte, Getreide oder Bäume anpflanzst und erntest, Dein Vieh hütest und viele nützliche Gegenstände für das erwirtschaftete Spielgeld kaufst."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Frau"  />
+			<text id="A02" name="Mann"  />
+			<text id="B00" name="Apfel"  />
+			<text id="B01" name="Birne"  />
+			<text id="B010" name="Avocado"  />
+			<text id="B011" name="Dattel"  />
+			<text id="B012" name="Feige"  />
+			<text id="B013" name="Granatapfel"  />
+			<text id="B014" name="Kiwi"  />
+			<text id="B015" name="Kaki"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papaya"  />
+			<text id="B018" name="Kokosnuss"  />
+			<text id="B019" name="Drachenfrucht"  />
+			<text id="B02" name="Kirsche"  />
+			<text id="B020" name="Kakao"  />
+			<text id="B021" name="Walnuss"  />
+			<text id="B022" name="Brotfrucht"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Mandel"  />
+			<text id="B025" name="Lychee"  />
+			<text id="B026" name="Sternfrucht"  />
+			<text id="B027" name="Flammenbaum"  />
+			<text id="B028" name="Bambus"  />
+			<text id="B029" name="Kandierter Apfel"  />
+			<text id="B03" name="Aprikose"  />
+			<text id="B030" name="Lebkuchen"  />
+			<text id="B031" name="Schokolade"  />
+			<text id="B032" name="Osterbaum Rot"  />
+			<text id="B033" name="Osterbaum Blau"  />
+			<text id="B034" name="Weide"  />
+			<text id="B04" name="Pflaume"  />
+			<text id="B05" name="Olive"  />
+			<text id="B06" name="Banane"  />
+			<text id="B07" name="Zitrone"  />
+			<text id="B08" name="Orange"  />
+			<text id="B09" name="Grapefruit"  />
+			<text id="D00" name="Holzstapel"  />
+			<text id="D01" name="Heuballen"  />
+			<text id="D010" name="Baumstumpf"  />
+			<text id="D011" name="Wagenrad"  />
+			<text id="D02" name="Futtertrog"  />
+			<text id="D03" name="Wassertränke"  />
+			<text id="D04" name="Brunnen"  />
+			<text id="D05" name="Pferdepflug"  />
+			<text id="D06" name="Wasserpumpe"  />
+			<text id="D07" name="Pferdewagen"  />
+			<text id="D08" name="Fass"  />
+			<text id="D09" name="Kiste"  />
+			<text id="D11" name="Vogelscheuche"  />
+			<text id="D110" name="Parkbank"  />
+			<text id="D111" name="Dunkle Bank"  />
+			<text id="D112" name="Springbrunnen"  />
+			<text id="D113" name="Vogelscheuche"  />
+			<text id="D114" name="Eule"  />
+			<text id="D115" name="Windrad"  />
+			<text id="D116" name="Windsack"  />
+			<text id="D117" name="Kleiner Teich"  />
+			<text id="D118" name="Großer Teich"  />
+			<text id="D119" name="Koi Teich"  />
+			<text id="D12" name="Rasenmäher"  />
+			<text id="D120" name="Pool"  />
+			<text id="D121" name="Picknick"  />
+			<text id="D122" name="Gartentisch"  />
+			<text id="D123" name="Gartenstuhl"  />
+			<text id="D124" name="Hängematte"  />
+			<text id="D125" name="Liegestuhl"  />
+			<text id="D126" name="Wäscheleine"  />
+			<text id="D127" name="Windlicht"  />
+			<text id="D128" name="Dicker Kaktus"  />
+			<text id="D129" name="Rote Lilien"  />
+			<text id="D13" name="Plumpsklo"  />
+			<text id="D130" name="Langer Kaktus"  />
+			<text id="D131" name="Zierbaum"  />
+			<text id="D132" name="Strauch in Vase"  />
+			<text id="D133" name="Weiße Lilien"  />
+			<text id="D134" name="Gruselscheuche"  />
+			<text id="D135" name="Hündchen"  />
+			<text id="D136" name="Geschenk"  />
+			<text id="D137" name="Schneekind"  />
+			<text id="D138" name="Schneemann"  />
+			<text id="D139" name="Schneefrau"  />
+			<text id="D14" name="Schubkarre"  />
+			<text id="D140" name="Skifahrer"  />
+			<text id="D141" name="Vogelhaus Katze"  />
+			<text id="D142" name="Schlitten"  />
+			<text id="D143" name="Schneeengel"  />
+			<text id="D144" name="Schild"  />
+			<text id="D145" name="Warnschild"  />
+			<text id="D146" name="Nordpol Schild"  />
+			<text id="D147" name="Schneeziege"  />
+			<text id="D148" name="Schneehund"  />
+			<text id="D149" name="Schneeschaf"  />
+			<text id="D15" name="Helle Bank"  />
+			<text id="D150" name="Schneekuh"  />
+			<text id="D151" name="Schneekatze"  />
+			<text id="D152" name="Schneehuhn"  />
+			<text id="D153" name="Schneeschwein"  />
+			<text id="D154" name="Schneegans"  />
+			<text id="D155" name="Zauntor"  />
+			<text id="D156" name="Zaun"  />
+			<text id="D157" name="Pfosten"  />
+			<text id="D158" name="Blaue Tanne"  />
+			<text id="D159" name="Bunte Tanne"  />
+			<text id="D16" name="Grill"  />
+			<text id="D160" name="Maibaum"  />
+			<text id="D161" name="Vogelnest"  />
+			<text id="D162" name="Heumann"  />
+			<text id="D163" name="Heufrau"  />
+			<text id="D164" name="Rotes Ei"  />
+			<text id="D165" name="Blaues Ei"  />
+			<text id="D166" name="Lila Ei"  />
+			<text id="D167" name="Rote Eiergruppe"  />
+			<text id="D168" name="Blaue Eiergruppe"  />
+			<text id="D169" name="Lila Eiergruppe"  />
+			<text id="D17" name="Gartenzwerg"  />
+			<text id="D170" name="Blaues Eiernest"  />
+			<text id="D171" name="Grünes Eiernest"  />
+			<text id="D172" name="Lila Eiernest"  />
+			<text id="D173" name="Rotes Eiernest"  />
+			<text id="D174" name="Weißes Eiernest"  />
+			<text id="D175" name="Nest voller Eier"  />
+			<text id="D176" name="Girlande"  />
+			<text id="D177" name="Roter Ballon"  />
+			<text id="D178" name="Blauer Ballon"  />
+			<text id="D179" name="Gelber Ballon"  />
+			<text id="D18" name="Briefkasten"  />
+			<text id="D180" name="Piratenflagge"  />
+			<text id="D19" name="Vogelhäuschen"  />
+			<text id="D20" name="Hecke"  />
+			<text id="D21" name="Zaun"  />
+			<text id="D210" name="Horrorbogen"  />
+			<text id="D22" name="Pfosten"  />
+			<text id="D23" name="Zaun"  />
+			<text id="D24" name="Pfosten"  />
+			<text id="D25" name="Zauntor"  />
+			<text id="D26" name="Zauntor"  />
+			<text id="D27" name="Heckenbogen"  />
+			<text id="D28" name="Horrorzaun"  />
+			<text id="D29" name="Horrorpfosten"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Deutschland"  />
+			<text id="D310" name="Italien"  />
+			<text id="D311" name="Frankreich"  />
+			<text id="D312" name="Spanien"  />
+			<text id="D313" name="Portugal"  />
+			<text id="D314" name="Niederlande"  />
+			<text id="D315" name="Belgien"  />
+			<text id="D316" name="Polen"  />
+			<text id="D317" name="Russland"  />
+			<text id="D318" name="Tschechien"  />
+			<text id="D319" name="Griechenland"  />
+			<text id="D32" name="Österreich"  />
+			<text id="D320" name="Türkei"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Mexiko"  />
+			<text id="D324" name="Brasilien"  />
+			<text id="D325" name="Argentinien"  />
+			<text id="D326" name="China"  />
+			<text id="D327" name="Japan"  />
+			<text id="D328" name="Australien"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Schweiz"  />
+			<text id="D330" name="Ungarn"  />
+			<text id="D331" name="Taiwan"  />
+			<text id="D34" name="Finnland"  />
+			<text id="D35" name="Schweden"  />
+			<text id="D36" name="Norwegen"  />
+			<text id="D37" name="Dänemark"  />
+			<text id="D38" name="Großbritannien"  />
+			<text id="D39" name="Irland"  />
+			<text id="D40" name="Pferd"  />
+			<text id="D41" name="Baum"  />
+			<text id="D410" name="Horrorbaum"  />
+			<text id="D42" name="Kuh"  />
+			<text id="D43" name="Schaf"  />
+			<text id="D44" name="Schwein"  />
+			<text id="D45" name="Ziege"  />
+			<text id="D46" name="Gans"  />
+			<text id="D47" name="Huhn"  />
+			<text id="D48" name="Hund"  />
+			<text id="D49" name="Katze"  />
+			<text id="D60" name="Marktplatz"  />
+			<text id="D70" name="Pappskelett"  />
+			<text id="D71" name="Zombiehand"  />
+			<text id="D72" name="Grabstein"  />
+			<text id="D73" name="Jack O'Lantern"  />
+			<text id="D74" name="Jack O'Lantern"  />
+			<text id="D75" name="Jack O'Lantern"  />
+			<text id="D76" name="Jack O'Lantern"  />
+			<text id="D77" name="Jack O'Lantern"  />
+			<text id="Dxxx" name="Grünes Nest"  />
+			<text id="E01" name="10x10 Felder"  />
+			<text id="E02" name="12x12 Felder"  />
+			<text id="E03" name="14x14 Felder"  />
+			<text id="E04" name="16x16 Felder"  />
+			<text id="E05" name="18x18 Felder"  />
+			<text id="E06" name="20x20 Felder"  />
+			<text id="E07" name="22x22 Felder"  />
+			<text id="E08" name="24x24 Felder"  />
+			<text id="E11" name="10x10 Felder"  />
+			<text id="E12" name="12x12 Felder"  />
+			<text id="E13" name="14x14 Felder"  />
+			<text id="E14" name="16x16 Felder"  />
+			<text id="E15" name="18x18 Felder"  />
+			<text id="E16" name="20x20 Felder"  />
+			<text id="E17" name="22x22 Felder"  />
+			<text id="E18" name="24x24 Felder"  />
+			<text id="E21" name="10x10 Felder"  />
+			<text id="E22" name="12x12 Felder"  />
+			<text id="E23" name="14x14 Felder"  />
+			<text id="E24" name="16x16 Felder"  />
+			<text id="E25" name="18x18 Felder"  />
+			<text id="E26" name="20x20 Felder"  />
+			<text id="E27" name="22x22 Felder"  />
+			<text id="E28" name="24x24 Felder"  />
+			<text id="F01" name="Zeit - M"  />
+			<text id="F20" name="Auffrischer"  />
+			<text id="F30" name="Dünger"  />
+			<text id="F31" name="Premium Dünger"  />
+			<text id="F40" name="Futter"  />
+			<text id="F41" name="Premium Futter"  />
+			<text id="F50" name="Zauberstaub"  />
+			<text id="G00" name="Plattenweg"  />
+			<text id="H00" name="Scheune"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Schuppen"  />
+			<text id="H03" name="Windmühle"  />
+			<text id="H04" name="Gewächshaus"  />
+			<text id="H05" name="Spuktreibhaus"  />
+			<text id="H06" name="Geistersilo"  />
+			<text id="H07" name="Gruselmühle"  />
+			<text id="H08" name="Wintersilo"  />
+			<text id="H09" name="Wintermühle"  />
+			<text id="H10" name="Hühnerstall"  />
+			<text id="H11" name="Schweinestall"  />
+			<text id="H12" name="Kuhstall"  />
+			<text id="H13" name="Pferdestall"  />
+			<text id="H20" name="Hütte"  />
+			<text id="H21" name="Bauernhaus"  />
+			<text id="H210" name="Geisterhaus"  />
+			<text id="H211" name="Geistervilla"  />
+			<text id="H212" name="Winterhütte"  />
+			<text id="H213" name="Winterhaus"  />
+			<text id="H214" name="Wintervilla"  />
+			<text id="H215" name="Lebkuchenhaus"  />
+			<text id="H216" name="Winterlandhaus"  />
+			<text id="H217" name="Winteranwesen"  />
+			<text id="H218" name="Blaues Eihaus"  />
+			<text id="H219" name="Rosa Eihaus"  />
+			<text id="H22" name="Villa"  />
+			<text id="H220" name="Piratenschiff"  />
+			<text id="H23" name="Hundehütte"  />
+			<text id="H24" name="Baumhaus"  />
+			<text id="H25" name="Landhaus"  />
+			<text id="H26" name="Orangerie"  />
+			<text id="H27" name="Große Villa"  />
+			<text id="H28" name="Riesige Villa"  />
+			<text id="H29" name="Geisterhütte"  />
+			<text id="H30" name="Früchtestand"  />
+			<text id="H31" name="Werkzeugladen"  />
+			<text id="H32" name="Gewinnspiel Bienen Brause"  />
+			<text id="H40" name="Silo(Dünger)"  />
+			<text id="H50" name="Spukhaus"  />
+			<text id="H51" name="Albtraumkirche"  />
+			<text id="N01" name="Bäume ernten"  />
+			<text id="N02" name="Tiere ernten"  />
+			<text id="R00" name="Jobenergie S"  />
+			<text id="R01" name="Jobenergie M"  />
+			<text id="R02" name="Jobenergie XL"  />
+			<text id="S00" name="Tulpen"  />
+			<text id="S01" name="Maiglöckchen"  />
+			<text id="S010" name="Lila Rosen"  />
+			<text id="S02" name="Lavendel"  />
+			<text id="S03" name="Sonnenblumen"  />
+			<text id="S04" name="Rosen"  />
+			<text id="S05" name="Dahlien"  />
+			<text id="S06" name="Krokusse"  />
+			<text id="S07" name="Lilien"  />
+			<text id="S08" name="Lupinen"  />
+			<text id="S09" name="Mohn"  />
+			<text id="S10" name="Erdbeeren"  />
+			<text id="S11" name="Wassermelonen"  />
+			<text id="S12" name="Ananas"  />
+			<text id="S13" name="Weintrauben"  />
+			<text id="S14" name="Honigmelonen"  />
+			<text id="S15" name="Himbeeren"  />
+			<text id="S16" name="Heidelbeeren"  />
+			<text id="S17" name="Preiselbeeren"  />
+			<text id="S18" name="Stachelbeeren"  />
+			<text id="S19" name="Brombeeren"  />
+			<text id="S20" name="Auberginen"  />
+			<text id="S21" name="Blumenkohl"  />
+			<text id="S210" name="Spinat"  />
+			<text id="S211" name="Zwiebeln"  />
+			<text id="S212" name="Rotkohl"  />
+			<text id="S213" name="Kartoffeln"  />
+			<text id="S214" name="Karotten"  />
+			<text id="S215" name="Erbsen"  />
+			<text id="S216" name="Radieschen"  />
+			<text id="S217" name="Rhabarber"  />
+			<text id="S218" name="Rosenkohl"  />
+			<text id="S219" name="Soja"  />
+			<text id="S22" name="Kürbis"  />
+			<text id="S220" name="Rote Beete"  />
+			<text id="S221" name="Broccoli"  />
+			<text id="S222" name="Artischocken"  />
+			<text id="S223" name="Chili"  />
+			<text id="S224" name="Spargel"  />
+			<text id="S225" name="Raps"  />
+			<text id="S23" name="Paprika"  />
+			<text id="S24" name="Tomaten"  />
+			<text id="S25" name="Bohnen"  />
+			<text id="S26" name="Gurken"  />
+			<text id="S27" name="Rüben"  />
+			<text id="S28" name="Salat"  />
+			<text id="S29" name="Zucchini"  />
+			<text id="S30" name="Weizen"  />
+			<text id="S31" name="Hafer"  />
+			<text id="S32" name="Reis"  />
+			<text id="S33" name="Roggen"  />
+			<text id="S34" name="Mais"  />
+			<text id="S35" name="Gerste"  />
+			<text id="S36" name="Hirse"  />
+			<text id="S37" name="Süßmais"  />
+			<text id="S38" name="Rotweizen"  />
+			<text id="S39" name="Dinkel"  />
+			<text id="S40" name="Kaffee"  />
+			<text id="S41" name="Tee"  />
+			<text id="S42" name="Zuckerrohr"  />
+			<text id="S43" name="Aloe Vera"  />
+			<text id="S44" name="Baumwolle"  />
+			<text id="S45" name="Gen Soja"  />
+			<text id="S49" name="Schneeglöckchen"  />
+			<text id="S50" name="Rote Zuckerstange"  />
+			<text id="S51" name="Schneeglöckchen"  />
+			<text id="S510" name="Schatztruhe"  />
+			<text id="S52" name="Eier Rot"  />
+			<text id="S53" name="Eier Blau"  />
+			<text id="S54" name="Lotus"  />
+			<text id="S55" name="Weisse Rosen"  />
+			<text id="S56" name="Habaneros"  />
+			<text id="S57" name="Vergissmeinnicht"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffins"  />
+			<text id="S60" name="Eisblumen"  />
+			<text id="S61" name="Blaue Zuckerstange"  />
+			<text id="S62" name="Eier Lila"  />
+			<text id="S63" name="Eier Gelb"  />
+			<text id="T00" name="Huhn"  />
+			<text id="T01" name="Gans"  />
+			<text id="T02" name="Braunes Huhn"  />
+			<text id="T03" name="Schwarzes Huhn"  />
+			<text id="T04" name="Hahn"  />
+			<text id="T05" name="Ente"  />
+			<text id="T06" name="Wintergans"  />
+			<text id="T07" name="Papagei"  />
+			<text id="T10" name="Schwein"  />
+			<text id="T11" name="Kuh"  />
+			<text id="T110" name="Braune Kuh"  />
+			<text id="T111" name="Bulle"  />
+			<text id="T112" name="Winterpferd"  />
+			<text id="T113" name="Winterkuh"  />
+			<text id="T114" name="Lamm"  />
+			<text id="T115" name="Einhorn"  />
+			<text id="T12" name="Schaf"  />
+			<text id="T13" name="Ziege"  />
+			<text id="T14" name="Hund"  />
+			<text id="T15" name="Schwarze Katze"  />
+			<text id="T16" name="Braune Katze"  />
+			<text id="T17" name="Dunkles Pferd"  />
+			<text id="T18" name="Helles Pferd"  />
+			<text id="T19" name="Dunkles Schaf"  />
+			<text id="T20" name="Schäferhund"  />
+			<text id="T21" name="Rentier"  />
+			<text id="T22" name="Hase"  />
+			<text id="V00" name="10x tanken"  />
+			<text id="V01" name="25x tanken"  />
+			<text id="V02" name="50x tanken"  />
+			<text id="V10" name="Traktor"  />
+			<text id="V20" name="Sämaschine"  />
+			<text id="V30" name="Mähdrescher"  />
+			<text id="V40" name="Düngerfahrzeug"  />
+			<text id="V90" name="Tank"  />
+			<text id="Y01" name="Geerntetes"  />
+			<text id="Y02" name="Gepflügtes"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Sorry, Deine oder #name#s Freundesliste ist bereits voll,#tab#oder #name# hat Deiner Freundschaftsanfrage nicht zugestimmt."  />
+				<text id="buddies_add_ok" name="#name# ist jetzt Dein Freund."  />
+				<text id="chat_dop" name="Bitte nicht ständig den selben Text chatten. Danke!"  />
+				<text id="chat_nonsense" name="Bitte etwas sinnvolles chatten. Danke!"  />
+				<text id="chat_vorgaben" name="Auf dem Marktplatz kannst Du ab Level {0} frei Chatten. Benutze bis dahin einfach die vorgefertigten Sätze."  />
+				<text id="email_bad" name="Ungültige Email Adresse.
+Gib bitte eine gültige Email Adresse an."  />
+				<text id="email_dop" name="Diese Email Adresse gibt es schon.
+Gib bitte eine andere an."  />
+				<text id="email_no" name="Diese Email Adresse ist uns unbekannt."  />
+				<text id="farm_full" name="Auf dieser Farm sind zur Zeit schon zu viele Leute. Bitte wähle eine andere Farm aus."  />
+				<text id="helper_job_no" name="#name# hat Deine Anfrage zum #job# abgelehnt oder den Marktplatz verlassen."  />
+				<text id="helper_job_ok" name="#name# hat Deine Anfrage zum #job# angenommen."  />
+				<text id="helper_owner_no_money" name="Der Farmeigentümer besitzt zu wenig Geld, um weitere Felder pflügen zu lassen."  />
+				<text id="invite_sent" name="Vielen Dank!
+Eine Email wird an deinen Freund verschickt."  />
+				<text id="item_dop" name="Du hast das Limit für dieses Objekt bereits erreicht."  />
+				<text id="kenn_bad" name="Für das Passwort bitte
+folgende Zeichen verwenden:
+5 bis 15 Zeichen, bestehend aus#tab#
+a-z, A-Z, 0-9, ÄÖÜäöüß, -_@"  />
+				<text id="kenn_no" name="Dieses Passwort ist uns unbekannt"  />
+				<text id="kenn_unequal" name="Ungleiche Passworteingabe"  />
+				<text id="kick" name="Sorry, #name# hat Dich von seiner Farm geworfen!#tab#Offensichtlich hast Du Dich daneben benommen!?"  />
+				<text id="lagernosell" name="Du musst dieses Gebäude leeren, bevor Du es verkaufen kannst."  />
+				<text id="lager_building" name="Du benötigst einen Schuppen oder eine Scheune auf deiner Farm, um Objekte einlagern zu können."  />
+				<text id="lager_cantsell" name="Du musst erst genug Platz in Deinem Lager frei machen, ehe Du dieses Gebäude verkaufen kannst."  />
+				<text id="lager_voll" name="Du darfst kein Funktions-Objekt in ein Funktions-Objekt legen."  />
+				<text id="login_bad" name="Login-Fehler. Falls Du Dein Passwort vergessen hast, klicke auf &#039;Passwort vergessen?&#039;.#tab#Falls Du Hilfe benötigst,
+schreibe uns an
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="Für den Namen bitte folgende Zeichen verwenden:#tab#2 bis 15 Zeichen, bestehend aus a-z, A-Z, 0-9, ÄÖÜäöüß, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Der Spielername ist bereits vergeben. Bitte gib einen anderen ein oder wähle:"  />
+				<text id="name_spam" name="Bitte einen anderen Namen eingeben"  />
+				<text id="no_agb" name="AGB akzeptieren. Bitte stimme noch unseren AGB zu."  />
+				<text id="no_arbeitskraft" name="Du besitzt zu wenig Jobenergie für diese Aktion.
+Warte, bis Dir wieder Jobenergie zur Verfügung steht oder gehe in den Shop und kaufe Dir welche."  />
+				<text id="no_buddies" name="Leider hast Du noch nicht genügend Freunde eingeladen.#tab#Um das Objekt #obj# zu kaufen mußt Du #anz# weitere/n Freund/e einladen."  />
+				<text id="no_chat" name="Zum Chatten musst Du dich Registrieren und mindestens Level 1 erreicht haben."  />
+				<text id="no_ferti" name="Der Dünger #name# ist aufgebraucht. Kauf Dir bitte neuen."  />
+				<text id="no_food" name="Du hast leider nicht genug Futter um alle Tiere versorgen zu können!"  />
+				<text id="no_gender" name="Du hast noch kein Geschlecht gewählt. Bitte klicke eines der Bilder an."  />
+				<text id="no_lager" name="Kein geeignetes oder freies Lager bzw. Stall für dieses Objekt vorhanden."  />
+				<text id="no_money" name="Du besitzt zu wenig Geld für diese Aktion."  />
+				<text id="no_premium" name="Deine Premium- Saat #name# ist aufgebraucht. Kauf Dir bitte neue."  />
+				<text id="no_regi" name="Diese Funktion ist registrierten Spielern vorbehalten.#tab#Bitte registriere Dich, damit Du Deine Farm behalten kannst."  />
+				<text id="no_tanken" name="Du besitzt zu wenig Treibstoff für diese Aktion."  />
+				<text id="no_zauberstaub" name="Dein {0} ist aufgebraucht.
+Um neuen zu erhalten musst du weitere Auszeichnungen schaffen!"  />
+				<text id="old_client_version" name="Es gibt eine neuere Version. Bitte aktualisiere die Seite."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Du wirst erst dann in der Rangliste aufgeführt, wenn Du registriert bist und Level 3 erreicht hast."  />
+				<text id="rangliste_player_not_ranked" name="Dieser Spieler benötigt Level 3 um in der Rangliste angezeigt zu werden."  />
+				<text id="rangliste_unknown_id" name="Sorry, unter diesem Namen ist kein Spieler registriert."  />
+				<text id="vehiclesnosell" name="Dieses Fahrzeug ist gerade in Gebrauch."  />
+				<text id="vollscreen" name="Im Vollbild-Modus kann leider nicht gechattet werden.
+(Aus Sicherheitsgründen sind keine Tastatureingaben möglich)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Freundschaft"  />
+				<text id="farm_full" name="Oops!"  />
+				<text id="helper_job_ok" name="Job angenommen"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="aktiviert"  />
+				<text id="buyOf" name="Verbrauch #anz# von #menge#"  />
+				<text id="clickZum" name="Klick"  />
+				<text id="deactive" name="deaktiviert"  />
+				<text id="doContent" name="Auswahlfenster"  />
+				<text id="doDel" name="löschen"  />
+				<text id="doFertilize" name="düngen"  />
+				<text id="doFertilizeAnimals" name="füttern"  />
+				<text id="doFortune" name="spiele das Gewinnspiel"  />
+				<text id="doHarvest" name="ernten"  />
+				<text id="doMove" name="bewegen"  />
+				<text id="doPlow" name="pflügen"  />
+				<text id="doPos" name="positionieren"  />
+				<text id="doRot" name="drehen"  />
+				<text id="doSell" name="verkaufen"  />
+				<text id="doSow" name="säen"  />
+				<text id="doTosOpen" name="lagern"  />
+				<text id="doVehicles" name="maschinell"  />
+				<text id="farmbuddie" name="Deine Freundin#Dein Freund"  />
+				<text id="farmgast" name="Gast#Gast"  />
+				<text id="farmhelperharvest" name="Erntehelferin#Erntehelfer"  />
+				<text id="farmhelperplow" name="Pflüghelferin#Pflüghelfer"  />
+				<text id="farmowner" name="Eigentümerin dieser Farm#Eigentümer dieser Farm"  />
+				<text id="farmvisitor" name="Besucherin#Besucher"  />
+				<text id="isFertilize" name="gedüngt"  />
+				<text id="isHarvest" name="wurde geerntet"  />
+				<text id="isReadyB" name="reif"  />
+				<text id="isReadyEX" name="verdorrt"  />
+				<text id="isReadyFin" name="Erntewert"  />
+				<text id="isReadyS" name="gewachsen"  />
+				<text id="isReadyT" name="fertig"  />
+				<text id="jobbenrest" name="#anz# Jobenergie"  />
+				<text id="jobVehicles" name="--- Maschinenarbeiten:"  />
+				<text id="jobWalk" name="--- Handarbeiten:"  />
+				<text id="ketteZum" name="Arbeitsliste"  />
+				<text id="Market" name="Marktplatz"  />
+				<text id="marketvisitor" name="Mitspielerin#Mitspieler"  />
+				<text id="my" name="Du selbst"  />
+				<text id="noPfad" name="Der Weg ist mir versperrt.
+Dahin kann ich nicht laufen :-("  />
+				<text id="online" name="ist online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Spieler"  />
+				<text id="AC" name="T-Shirt"  />
+				<text id="AG" name="Figur"  />
+				<text id="AH" name="Frisur"  />
+				<text id="AP" name="Hose"  />
+				<text id="AS" name="Schuhe"  />
+				<text id="AT" name="Teint"  />
+				<text id="B" name="Baum"  />
+				<text id="D" name="Dekoration"  />
+				<text id="E" name="Farmerweiterung"  />
+				<text id="F" name="Dünger"  />
+				<text id="G" name="Straße"  />
+				<text id="H" name="Haus"  />
+				<text id="R" name="Jobben"  />
+				<text id="S" name="Feld"  />
+				<text id="T" name="Tier"  />
+				<text id="V" name="Fahrzeug"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Baum"  />
+				<text id="D0" name="Farmdekoration"  />
+				<text id="D1" name="Hausdekoration"  />
+				<text id="D2" name="Abgrenzung"  />
+				<text id="D3" name="Flagge"  />
+				<text id="D4" name="Gartendekoration"  />
+				<text id="D7" name="Feiertage Dekoration"  />
+				<text id="F0" name="Zeitbeschleunigung"  />
+				<text id="F1" name="Ertragvergrössernd"  />
+				<text id="F2" name="Auffrischend"  />
+				<text id="H0" name="Farm"  />
+				<text id="H1" name="Ställe"  />
+				<text id="H2" name="Wohnhaus"  />
+				<text id="H4" name="Funktionen"  />
+				<text id="H5" name="Sondergebäude"  />
+				<text id="N0" name="Schneller arbeiten"  />
+				<text id="R0" name="Arbeiten auf anderen Farmen"  />
+				<text id="S0" name="Blume"  />
+				<text id="S1" name="Frucht"  />
+				<text id="S2" name="Gemüse"  />
+				<text id="S3" name="Getreide"  />
+				<text id="S4" name="Sonstiges"  />
+				<text id="S5" name="Premium"  />
+				<text id="S6" name="Saison"  />
+				<text id="T0" name="Federvieh"  />
+				<text id="T1" name="Nutztier"  />
+				<text id="T2" name="Haustier"  />
+				<text id="V0" name="Benzin"  />
+				<text id="V1" name="Traktor"  />
+				<text id="V2" name="Sämaschine"  />
+				<text id="V3" name="Mähdrescher"  />
+				<text id="V4" name="Düngemaschine"  />
+				<text id="V9" name="Tank"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Neue Auszeichnung!"  />
+				<text id="txt1" name="Herzlichen Glückwunsch!
+Du hast den Preis '#name#' - Stufe #level# erhalten."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Freunden sagen"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Anzahl der verdienten Farmdollar"  />
+				<text id="i10" name="Anzahl der geernteten Blumen"  />
+				<text id="i11" name="Anzahl der geernteten Bäume"  />
+				<text id="i12" name="Anzahl der geernteten Tiere"  />
+				<text id="i13" name="Menge der Farmdollar, die für Geschenke ausgegeben wurden"  />
+				<text id="i14" name="Anzahl der erhaltenen Geschenke"  />
+				<text id="i15" name="Anzahl der Nachbarschaftshilfen"  />
+				<text id="i16" name="Anzahl der gemachten Bilder"  />
+				<text id="i17" name="Anzahl der gemachten Pflüge-Jobs im alten Jobberechtigungen-System"  />
+				<text id="i18" name="Anzahl der gemachten Ernte-Jobs im alten Jobberechtigungen-System"  />
+				<text id="i19" name="Anzahl der erteilten Pflüge-Jobs im alten Jobberechtigungen-System"  />
+				<text id="i2" name="Anzahl der ausgegebenen Farmdollar"  />
+				<text id="i20" name="Anzahl der erteilten Ernte-Jobs im alten Jobberechtigungen-System"  />
+				<text id="i21" name="Anzahl der gedüngten Felder, Tiere und Bäume: Zeitvorteil"  />
+				<text id="i22" name="Anzahl der gedüngten Felder, Tiere und Bäume: Zauberstaub"  />
+				<text id="i23" name="Anzahl der unterschiedlich geernteten Getreidesorten"  />
+				<text id="i24" name="Anzahl der unterschiedlich geernteten Obstsorten"  />
+				<text id="i25" name="Anzahl der unterschiedlich geernteten Blumen"  />
+				<text id="i26" name="Anzahl des unterschiedlich geernteten Gemüses"  />
+				<text id="i27" name="Anzahl der unterschiedlich geernteten Bäume"  />
+				<text id="i28" name="Anzahl der unterschiedlich geernteten Tiere"  />
+				<text id="i29" name="Anzahl der unterschiedlich geernteten Einheiten gesamt"  />
+				<text id="i3" name="Anzahl der gekauften Gebäude"  />
+				<text id="i30" name="Anzahl der Unterschiedlichen Masteries"  />
+				<text id="i31" name="Anzahl der Masteries gesamt"  />
+				<text id="i32" name="Anzahl der geworbenen Freunde"  />
+				<text id="i33" name="Anzahl der gekauften Bäume"  />
+				<text id="i34" name="Anzahl der geernteten Premium Saaten"  />
+				<text id="i35" name="Anzahl der unterschiedlich geernteten Premium Saaten"  />
+				<text id="i36" name="Anzahl der bei Pflüge-Jobs gepflügten Felder"  />
+				<text id="i37" name="Anzahl der Felder die während von Dir erteilten Pflüge-Jobs auf Deiner Farm gepflügt wurden"  />
+				<text id="i38" name="Anzahl der bei Ernte-Jobs geernteten Felder, Tiere oder Bäume"  />
+				<text id="i39" name="Anzahl der Felder, Bäume und Tiere die während von Dir erteilten Ernte-Jobs auf Deiner Farm geerntet wurden"  />
+				<text id="i4" name="Anzahl der gekauften Dekos"  />
+				<text id="i5" name="Anzahl der gekauften Tiere"  />
+				<text id="i6" name="Anzahl der geernteten Saaten gesamt"  />
+				<text id="i7" name="Anzahl des geernteten Obstes"  />
+				<text id="i8" name="Anzahl des geernteten Gemüses"  />
+				<text id="i9" name="Anzahl des geernteten Getreides"  />
+				<text id="next" name="Noch #level#
+bis zum nächsten Level."  />
+				<text id="t1" name="Bauern Beute"  />
+				<text id="t10" name="Blumen Kind"  />
+				<text id="t11" name="Baum Schmuser"  />
+				<text id="t12" name="Tier Freund"  />
+				<text id="t13" name="Chips spent on gifts"  />
+				<text id="t14" name="Gifts received"  />
+				<text id="t15" name="Neighbours supporting you"  />
+				<text id="t16" name="Pictures taken"  />
+				<text id="t17" name="Legendärer Pflüger"  />
+				<text id="t18" name="Ernte Veteran"  />
+				<text id="t19" name="Alter Aufseher"  />
+				<text id="t2" name="Kauf König"  />
+				<text id="t20" name="Erfahrener Einheimser"  />
+				<text id="t21" name="Flotter Farmer"  />
+				<text id="t22" name="Güte Siegel"  />
+				<text id="t23" name="Körner Picker"  />
+				<text id="t24" name="Frucht Fliege"  />
+				<text id="t25" name="Blumen Pflücker"  />
+				<text id="t26" name="Gemüse Genießer"  />
+				<text id="t27" name="Blatt Laus"  />
+				<text id="t28" name="Tier Trainer"  />
+				<text id="t29" name="Famoser Farmer"  />
+				<text id="t3" name="Baustellen Bauer"  />
+				<text id="t30" name="Different masteries"  />
+				<text id="t31" name="Total masteries"  />
+				<text id="t32" name="Coole Clique"  />
+				<text id="t33" name="Borken Käfer"  />
+				<text id="t34" name="Goldene Ernte"  />
+				<text id="t35" name="Grenzenloser Glanz"  />
+				<text id="t36" name="Prächtiger Pflüger"  />
+				<text id="t37" name="Ackern Lasser"  />
+				<text id="t38" name="Eiserner Ernter"  />
+				<text id="t39" name="Ertrag Einheimser"  />
+				<text id="t4" name="Dolle Deko"  />
+				<text id="t5" name="Viel Vieh"  />
+				<text id="t6" name="Saaten Sammler"  />
+				<text id="t7" name="Frucht Zwerg"  />
+				<text id="t8" name="Gemüse Gaumen"  />
+				<text id="t9" name="Korn Kenner"  />
+				<text id="txt0" name="Preise"  />
+				<text id="txt1" name="Gesamtfortschritt"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Du wurdest vom Spiel gebannt.
+Restzeit der Sperre: #time# Minuten
+Falls Du Fragen zu der Sperrung hast, schreibe uns eine Email an #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Wichtige Info !!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="Auf diesem Computer läuft bereits ein Fenster mit #spielname#."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="ACHTUNG !!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Die Server-Verbindung wird leider in #time# Sekunden unterbrochen!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Auswählen"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Zufall"  />
+				<text id="txt1" name="Speichern"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Spieler melden!"  />
+				<text id="txt1" name="Möchtest Du den Spieler {0} wirklich melden?"  />
+				<text id="txt2" name="ja"  />
+				<text id="txt3" name="nein"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Freund bestätigen"  />
+				<text id="txt1" name="#name# möchte Dich zu seinen/ihren Freunden hinzufügen."  />
+				<text id="txt2" name="Ablehnen"  />
+				<text id="txt3" name="Annehmen"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Freundschaft"  />
+				<text id="txt1" name="Frage #name# ob er/sie dein Freund sein will."  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="Fragen"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} ist Dein {0} Freund. Um ihn zu löschen musst Du eure {0} Freundschaft beenden!"  />
+				<text id="txt0" name="Freund entfernen"  />
+				<text id="txt1" name="Willst Du wirklich #name# von Deiner Freundesliste entfernen?"  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="Annehmen"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Objekt löschen"  />
+				<text id="txt1" name="Möchest Du das Objekt #obj# wirklich löschen?"  />
+				<text id="txt2" name="Nein"  />
+				<text id="txt3" name="Ja"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Weiter"  />
+				<text id="tTitle" name="Belohnung!"  />
+				<text id="txt0" name="Du hast ein Geschenk an deine E-Mail geschickt bekommen."  />
+				<text id="txt1" name="Hol es dir jetzt ab!"  />
+				<text id="txt2" name="Du kannst dir die E-Mail nochmal zusenden lassen!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Weiter"  />
+				<text id="tTitle" name="E-Mail verschickt"  />
+				<text id="txt0" name="Eine E-Mail mit der Belohnung wurde soeben an Dich versand!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Weiter"  />
+				<text id="tTitle" name="Geschenk"  />
+				<text id="txt0" name="Du hast deine Belohnung bekommen!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Erweitern"  />
+				<text id="txt1" name="Erweitere dieses Gebäude,
+damit Du noch mehr Objekte herein
+stellen kannst."  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="Kaufen"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Farm vergrößert!"  />
+				<text id="txt1" name="Herzlichen Glückwunsch!
+Deine Farm ist noch größer geworden."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Freunden sagen"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Fotoalbum"  />
+				<text id="txt1" name="Abbrechen"  />
+				<text id="txt2" name="Löschen"  />
+				<text id="txt3" name="Sichern"  />
+				<text id="txt4" name="Etwas zu diesem Bild schreiben!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Registrieren"  />
+				<text id="txt1" name="Du musst Dich registrieren, um Deinen Spielstand abzuspeichern. Sonst gehen Deine Daten verloren!
+
+Die Registrierung ist absolut kostenlos!"  />
+				<text id="txt2" name="Registrieren"  />
+				<text id="txt3" name="Logout"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Anfrage zum Ernten"  />
+				<text id="txt1" name="Willst Du #name# beim Ernten auf seiner/ihrer Farm helfen?
+Dafür bekommst Du bei jeder Aktion XP!"  />
+				<text id="txt2" name="Ablehnen"  />
+				<text id="txt3" name="Annehmen"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Anfrage zum Pflügen"  />
+				<text id="txt1" name="Willst Du #name# beim Pflügen auf seiner/ihrer Farm helfen?
+Dafür bekommst Du bei jeder Aktion Farmdollar!"  />
+				<text id="txt2" name="Ablehnen"  />
+				<text id="txt3" name="Annehmen"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Auftrag zum Ernten"  />
+				<text id="txt1" name="Frage #name# ob er/sie auf Deiner Farm ernten will.
+Wenn jemand für Dich erntet, bekommst Du mehr Farmdollar!"  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="Fragen"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Auftrag zum Pflügen"  />
+				<text id="txt1" name="Frage #name# ob er/sie auf Deiner Farm pflügen will.
+Wenn jemand für Dich pflügt, bekommst Du zusätzlich XP!"  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="Fragen"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Entfernen"  />
+				<text id="txt1" name="Kaufen"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Belegte Plätze"  />
+				<text id="txt1" name="Erweitern"  />
+				<text id="txt2" name="Lager"  />
+				<text id="txt3" name="Zurück"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Entfernen"  />
+				<text id="txt1" name="Ernten"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Belegte Plätze"  />
+				<text id="txt1" name="Erweitern"  />
+				<text id="txt2" name="Alle ernten"  />
+				<text id="txt3" name="Alle füttern mit &#039;{0}&#039;"  />
+				<text id="txt4" name="Füttern mit &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Neue Items wurden im Shop für Dich freigeschaltet."  />
+				<text id="itemvorschau_text2" name="Im nächsten Level wirst du folgendes freischalten:"  />
+				<text id="itemvorschau_text3" name="Du hast schon die Hälfte bis zum nächsten Level erreicht.
+Bald kannst du neue Items freischalten!"  />
+				<text id="itemvorschau_title1" name="Neue Items"  />
+				<text id="itemvorschau_title2" name="Vorschau"  />
+				<text id="itemvorschau_title3" name="Fast Geschafft!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Level Up!"  />
+				<text id="txt1" name="Herzlichen Glückwunsch, Du hast ein neues Level erreicht!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Freunden sagen"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Passwort vergessen"  />
+				<text id="txt1" name="Gib hier bitte die Email Adresse ein, mit der Du Dich registriert hast und klicke auf &#039;senden&#039;.
+Du bekommst Dein Passwort anschließend zugeschickt."  />
+				<text id="txt2" name="Email"  />
+				<text id="txt3" name="Abbrechen"  />
+				<text id="txt4" name="Senden"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Logout"  />
+				<text id="txt1" name="Willst Du die Farm verlassen?"  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Oops!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Registrieren"  />
+				<text id="txt1" name="Bitte registriere Dich, damit Du Deine Farm behalten kannst."  />
+				<text id="txt2" name="Logout"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Registrieren"  />
+				<text id="txt1" name="Email"  />
+				<text id="txt2" name="Passwort"  />
+				<text id="txt3" name="AGB gelesen und akzeptiert"  />
+				<text id="txt4" name="Abbrechen"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Spieler erstellen"  />
+				<text id="txt1" name="Nickname"  />
+				<text id="txt2" name="weiblich"  />
+				<text id="txt3" name="männlich"  />
+				<text id="txt4" name="Abbrechen"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Sofort spielen"  />
+				<text id="txt1" name="Registrieren"  />
+				<text id="txt2" name="Login"  />
+				<text id="txt3" name="Name / Email"  />
+				<text id="txt4" name="Passwort"  />
+				<text id="txt5" name="Passwort vergessen?"  />
+				<text id="txt6" name="Daten merken"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Marktplatz"  />
+				<text id="txt1" name="nicht mehr zeigen"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Hallo #name# !
+Das ist der Marktplatz von #spielname#. Hier kannst Du Dich von anderen Spielern zum Pflügen oder Ernten anheuern lassen
+bzw. selbst Spieler einstellen."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Passwort ändern"  />
+				<text id="txt1" name="Altes Passwort"  />
+				<text id="txt2" name="Neues Passwort"  />
+				<text id="txt3" name="Wiederhole das neue Passwort"  />
+				<text id="txt4" name="Abbrechen"  />
+				<text id="txt5" name="Sichern"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Oops!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Registrieren"  />
+				<text id="txt3" name="Freund einladen"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Einstellungen"  />
+				<text id="txt1" name="Bäume durchsichtig"  />
+				<text id="txt10" name="hoch"  />
+				<text id="txt11" name="mittel"  />
+				<text id="txt12" name="niedrig"  />
+				<text id="txt13" name="zoomen bis "  />
+				<text id="txt14" name="Freundschaftsanfragen ignorieren"  />
+				<text id="txt15" name="Spielerbesuch über die Rangliste verbieten"  />
+				<text id="txt16" name="Spieltipps zeigen."  />
+				<text id="txt2" name="Häuser durchsichtig"  />
+				<text id="txt3" name="Dekorationen durchsichtig"  />
+				<text id="txt4" name="Darstellung &#039;schnell&#039;"  />
+				<text id="txt5" name="Passwort ändern"  />
+				<text id="txt6" name="Abbrechen"  />
+				<text id="txt7" name="Sichern"  />
+				<text id="txt8" name="Animationen ausschalten"  />
+				<text id="txt9" name="Qualität"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Name/Rang suchen"  />
+				<text id="txt0" name="Rangliste"  />
+				<text id="txt1" name="suchen"  />
+				<text id="txt2" name="Rang"  />
+				<text id="txt3" name="Name"  />
+				<text id="txt4" name="Level"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Heute"  />
+				<text id="zeitraum1" name="Diese Woche"  />
+				<text id="zeitraum2" name="Diesen Monat"  />
+				<text id="zeitraum3" name="Allzeit"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Objekt verkaufen"  />
+				<text id="txt1" name="Möchtest Du das Objekt #obj# wirklich für #w1# Farmdollar verkaufen?"  />
+				<text id="txt2" name="Nein"  />
+				<text id="txt3" name="Ja"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Mit diesem Auffrischer-Dünger erholt sich verdorrte Saat."  />
+				<text id="F30" name="Beschleunigt das Wachstum von Pflanzen und Bäumen um 10%"  />
+				<text id="F31" name="Beschleunigt das Wachstum von Pflanzen und Bäumen um 50%"  />
+				<text id="F40" name="Beschleunigt das Wachstum von Tieren um 10%"  />
+				<text id="F41" name="Beschleunigt das Wachstum von Tieren um 50%"  />
+				<text id="F50" name="Erhöht die erhaltenen Erfahrungspunkte von Saaten, sowie den Ertrag von Saaten, Bäumen und Tieren um 50%!"  />
+				<text id="H00" name="Die Scheune erlaubt es Dir 15 Objekte einzulagern."  />
+				<text id="H02" name="Der Schuppen erlaubt es Dir 4 Objekte einzulagern."  />
+				<text id="H10" name="Der Hühnerstall erlaubt es Dir,
+mehrere Hühner gleichzeitig zu ernten."  />
+				<text id="H11" name="Der Schweinestall erlaubt es Dir
+mehrere Schweine gleichzeitig zu ernten."  />
+				<text id="H12" name="Der Kuhstall erlaubt es Dir
+mehrere Kühe gleichzeitig zu ernten."  />
+				<text id="H13" name="Der Pferdestall erlaubt es Dir
+mehrere Pferde gleichzeitig zu ernten."  />
+				<text id="H40" name="Das Silo gibt Dir einen 20% Bonus auf alle Dünger und Futter Einkäufe."  />
+				<text id="N01" name="Berechtigungen um:
+Alle fertigen Bäume auf einmal zu ernten."  />
+				<text id="N02" name="Berechtigungen um:
+Alle fertigen Tiere auf einmal zu ernten."  />
+				<text id="R0x" name="Dieser Auffüller erhöht deine aktuelle Jobenergie um {0}."  />
+				<text id="S5x" name="Premium Saaten geben mehr XP und Farmdollar als normale Saaten, außerdem können sie nicht verdorren!
+Du kannst sie als Paket kaufen und dann ohne weitere Kosten vom Shop aus verwenden."  />
+				<text id="V0x" name="Diese Treibstoffkanister ermöglichen es Dir,
+Deine Treibstoffreserven {0}x wieder aufzufüllen."  />
+				<text id="V10" name="Mit dem Traktor kannst Du
+bis zu vier Felder gleichzeitig pflügen."  />
+				<text id="V20" name="Mit der Sämaschine kannst Du
+bis zu vier Felder gleichzeitig säen."  />
+				<text id="V30" name="Mit dem Mähdrescher kannst Du bis zu vier Felder gleichzeitig ernten."  />
+				<text id="V40" name="Mit dem Düngerfahrzeug kannst Du bis zu vier Felder gleichzeitig düngen."  />
+				<text id="V90" name="20% mehr Auffüller
+bei Kauf eines
+Benzinkanisters"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Level #level#"  />
+				<text id="txtAnzahl" name="Anzahl:"  />
+				<text id="txtAnzahlVon" name="von"  />
+				<text id="txtBenutzen" name="Benutzen"  />
+				<text id="txtBuy" name="Kaufen"  />
+				<text id="txtHarvestXP" name="Ernten für:"  />
+				<text id="txtPremium" name="Premium"  />
+				<text id="txtSize" name="Paketgrösse:"  />
+				<text id="txtVerbrauch" name="Verbrauch"  />
+				<text id="txtWork" name="Arbeiten"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Keine Spieltipps zeigen."  />
+				<text id="shoptipp_0_title" name="Oops!"  />
+				<text id="shoptipp_1_text" name="Du besitzt zu wenig Treibstoff für diese Aktion. Möchtest Du gleich nachtanken?"  />
+				<text id="shoptipp_1_title" name="Treibstoff auffüllen"  />
+				<text id="shoptipp_2_text" name="Du besitzt zu wenig Dünger für diese Aktion. Möchtest Du gleich nachkaufen?"  />
+				<text id="shoptipp_2_title" name="Dünger nachkaufen"  />
+				<text id="shoptipp_3_text" name="Du hast kaum noch Platz auf deiner Farm! Möchtest Du sie jetzt sofort erweitern?"  />
+				<text id="shoptipp_3_title" name="Erweitere deine Farm!"  />
+				<text id="shoptipp_4_text" name="Du hast keine Jobenergie mehr!
+Wusstest Du schon, dass Du Deine Jobenergie auch manuell auffüllen kannst?"  />
+				<text id="shoptipp_4_title" name="Arbeitswütig!"  />
+				<text id="shoptipp_5_text" name="Du besitzt zu wenig Premium-Saat für diese Aktion. Möchtest Du gleich nachkaufen?"  />
+				<text id="shoptipp_5_title" name="Premium-Saat nachkaufen"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Shop"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="Arbeiten"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Ich suche einen Job."  />
+				<text id="txt1" name="Ich möchte pflügen."  />
+				<text id="txt2" name="Ich möchte ernten."  />
+				<text id="txt3" name="Wer möchte Pflügen?"  />
+				<text id="txt4" name="Wer möchte Ernten?"  />
+				<text id="txt5" name="Hallo!"  />
+				<text id="txt6" name="Danke"  />
+				<text id="txt7" name="Ja"  />
+				<text id="txt8" name="Nein"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Freund einladen"  />
+				<text id="txt1" name="Dein Name"  />
+				<text id="txt2" name="Name deines Freundes"  />
+				<text id="txt3" name="Email deines Freundes"  />
+				<text id="txt4" name="Abbrechen"  />
+				<text id="txt5" name="Einladen"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Stumm schalten"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bienen Brause"  />
+				<text id="txt1" name="Spiel die Bienen Brause und gewinne tolle Preise!"  />
+				<text id="txt2" name="Drehen!"  />
+				<text id="txt3" name="Die erste Runde ist umsonst!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hurra!"  />
+				<text id="txt1" name="Du hast gewonnen!"  />
+				<text id="txt2" name="Nehmen"  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Nächste Stufe bei
+#xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farmdollar:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Freunde:"  />
+				<text id="txt4" name="Auszeichnungen:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Mitspieler entfernen"  />
+				<text id="txt1" name="Willst Du wirklich #name# von Deiner Farm entfernen?"  />
+				<text id="txt2" name="Abbrechen"  />
+				<text id="txt3" name="Annehmen"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Endlich hält der Frühling Einzug in Goodgame Farmer!
+Verpasse nicht die vielen neuen Gebäude, Dekorationen, Tiere und Bäume!"  />
+				<text id="teaser_11_info_1" name="Hergehört!
+Es muht und gackert auf deiner Farm!
+Viel Spaß mit den neuen Sounds in Goodgame Farmer."  />
+				<text id="teaser_11_title" name="Sounds!"  />
+				<text id="teaser_12_info_1" name="Auf dem Marktplatz kannst Du ab Level 10 frei Chatten. Benutze bis dahin einfach die vorgefertigten Sätze."  />
+				<text id="teaser_12_title" name="Marktplatz Chatregeln"  />
+				<text id="teaser_13_info_1" name="Noch mehr Nachschub!
+Und weiter geht&#039;s, mit jeder Menge neuer Tiere, Bäume, Dekorationen und Gebäuden!"  />
+				<text id="teaser_13_info_2" name="Zusätzlich gibt es jetzt jede Menge neue Auszeichnungsstufen!"  />
+				<text id="teaser_14_info_1" name="Hol Dir jetzt die neuen Premium Saaten! 
+Sie geben mehr XP und Farmdollar als normale Saaten und können nicht verdorren."  />
+				<text id="teaser_14_info_2" name="Außerdem gibt es nun neue Saaten für alle hochstufigen Farmer und zwei neue Auszeichnungen!"  />
+				<text id="teaser_14_title" name="Premium Saaten!"  />
+				<text id="teaser_17_info_1" name="Mit dem Osterfest kommen einige wunderschöne neue Gebäude, Dekorationen, Tiere und Saaten ins Spiel!
+Wir wünschen euch allen fröhliches Eiersuchen!"  />
+				<text id="teaser_17_info_2" name=" LÖSCHEN"  />
+				<text id="teaser_17_title" name="Frohe Ostern!"  />
+				<text id="teaser_18_info_1" name="Jetzt aber schnell! In ein paar Tagen ist die Osteraktion wieder vorbei. Dafür gibt es jetzt nocheinmal bis zu 50% Rabatt auf viele Saison items!!!"  />
+				<text id="teaser_18_title" name="Greif zu!"  />
+				<text id="teaser_19_info_1" name="Die Sommermode ist da!
+Hol Dir jetzt einen der schicken neuen Hüte oder die ulkigen Osterhasen Ohren!
+
+Außerdem lohnt es sich immer in unser neues Farmer Forum rein zu schauen."  />
+				<text id="teaser_19_title" name="Hut auf!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer hat seinen 1. Geburtstag, feiere mit uns!
+Dekoriere Deine Farm, setz Dir einen witzigen Partyhut auf und probiere unbedingt die neue Muffin-Saat.
+
+Aber beeile Dich, denn das Fest geht nur eine kurze Zeit!"  />
+				<text id="teaser_20_title" name="Happy Birthday!"  />
+				<text id="teaser_21_info_1" name="Aufgepasst! Für Erfolge gibt es jetzt den besonderen Zauberstaub.
+Damit geben Deine Bäume, Tiere und Saaten viel mehr Erfahrung und Ertrag."  />
+				<text id="teaser_21_info_2" name="Your animals are hungry!
+Feed them so they grow faster!
+The trees are also wanting to be fertilized."  />
+				<text id="teaser_21_title" name="Tierfutter &amp; mehr!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer ist als „Best Social Game“ für den European Games Award nominiert!"  />
+				<text id="teaser_23_info_2" name="Helft uns, den Preis zu gewinnen und stimmt für uns!"  />
+				<text id="teaser_23_title" name="Stimme für uns!"  />
+				<text id="teaser_24_info_1" name="Arr!
+Die Piraten halten Einzug in Goodgame Farmer!
+Hol Dir einen verwegenen Piratenhut, pflanze die neuen Schatztruhen Saaten und halte Dir einen sprechenden Papagei!"  />
+				<text id="teaser_24_title" name="Piraten Update!"  />
+				<text id="teaser_25_info_1" name="Durch das letzte Update sind schwere Probleme mit dem Umrechnen des Düngers und der Belohnungen für Erfolge entstanden.
+Daher mussten wir leider alle Spielstände auf den Stand vor dem Update zurück setzen.
+Für die entstandenen Unannehmlichkeiten möchten wir uns ausdrücklich entschuldigen."  />
+				<text id="teaser_25_title" name="Reset"  />
+				<text id="teaser_5_info_1" name="Jage deinen Besuchern mit schaurig schöner Halloween-Dekoration und stimmungsvollen Gebäuden einen Schrecken ein."  />
+				<text id="teaser_5_title" name="Neue Items!"  />
+				<text id="teaser_6_info_1" name="Deine Meinung ist gefragt! Sag uns was Du in Zukunft spielen willst!"  />
+				<text id="teaser_6_title" name="Entscheide mit!!!"  />
+				<text id="teaser_7_info_1" name="Endlich Weihnachten!
+verpasse auf keinem Fall die vielen neuen Häuser, Dekorationen, Bäume und Pflanzen!"  />
+				<text id="teaser_7_info_2" name="LÖSCHEN"  />
+				<text id="teaser_7_title" name="Neue Items"  />
+				<text id="teaser_8_info_1" name="Und noch ein Weihnachtgeschenk für Dich!
+In der brandneuen Rangliste kannst du dich mit anderen Spielern vergleichen.
+Werde der beste Farmer von allen!"  />
+				<text id="teaser_8_title" name="Rangliste!"  />
+				<text id="teaser_9_info_1" name="Jetzt aber schnell!
+In einer Woche ist die Weihnachtsaktion wieder vorbei.
+Dafür gibt es jetzt nocheinmal bis zu 50% Rabatt auf alle Saison items!!!"  />
+				<text id="teaser_9_title" name="Greif zu!"  />
+				<text id="teaser_btn_forum" name="Zum Forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Shop"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Ablehnen"  />
+				<text id="zAchievements" name="Meine Auszeichnungen"  />
+				<text id="zAn2" name="Annehmen"  />
+				<text id="zBuddies" name="Alle Deine Freunde"  />
+				<text id="zBuddiesNoAsk" name="Dieser Spieler nimmt keine
+Freundschaftsanfragen an"  />
+				<text id="zBuddiesSub" name="Diesen Spieler
+von Deiner Freundesliste löschen"  />
+				<text id="zBuy" name="Kaufen"  />
+				<text id="zCancel" name="Fenster schließen"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Stumm schalten"  />
+				<text id="zChatSenden" name="Nachricht senden"  />
+				<text id="zChatVorgaben" name="Vorgefertigte Sätze zum Chatten."  />
+				<text id="zCheckAGB" name="AGB gelesen und akzeptiert"  />
+				<text id="zCheckAny" name="Tieranimationen deaktivieren"  />
+				<text id="zCheckMen" name="Männliche Spielfigur"  />
+				<text id="zCheckMerken" name="Name und Passwort
+für den nächsten Besuch merken?"  />
+				<text id="zCheckMute" name="Kein Chat mit diesem Spieler"  />
+				<text id="zCheckNoMoreShow" name="Dieses Fenster nicht mehr anzeigen."  />
+				<text id="zCheckQuali" name="Darstellungsqualität verringern
+um Rechenleistung zu sparen"  />
+				<text id="zCheckShowB" name="Bäume transparent machen"  />
+				<text id="zCheckShowD" name="Dekorationen transparent machen"  />
+				<text id="zCheckShowH" name="Häuser transparent machen"  />
+				<text id="zCheckSound1" name="Effekte"  />
+				<text id="zCheckSound2" name="Musik"  />
+				<text id="zCheckWomen" name="Weibliche Spielfigur"  />
+				<text id="zChipsMore" name="Farmdollar/Gold hinzufügen"  />
+				<text id="zClose" name="Schließen"  />
+				<text id="zClothes" name="Kleide deine Spielerfigur ein"  />
+				<text id="zClothsBuy" name="Den aktuellen Avatar übernehmen?"  />
+				<text id="zClothsSelect" name="Auswählen"  />
+				<text id="zClothsZufall" name="Der Computer schlägt Dir einen Style vor"  />
+				<text id="zCookAdd" name="weitere Logdaten anlegen"  />
+				<text id="zCookDel" name="diese Logdaten löschen"  />
+				<text id="zDel" name="Entfernen"  />
+				<text id="zDown" name="Runter"  />
+				<text id="zEarnChips" name="Mehr Farmdollar verdienen"  />
+				<text id="zEarnGold" name="Mehr Gold verdienen"  />
+				<text id="zEinladen" name="Du mußt erst weitere {0} Freunde
+einladen um dies hier kaufen zu können."  />
+				<text id="zEinladen2" name="Du besitzt erst {1} {0} Freunde."  />
+				<text id="zEmailVerificationWinker" name="Geschenk
+abholen!"  />
+				<text id="zErweitern" name="Erweitern"  />
+				<text id="zExchange" name="Gold in Farmdollar tauschen"  />
+				<text id="zExpHigherLevelNeeded" name="Benötigtes Level noch nicht erreicht."  />
+				<text id="zExpPreviousNeeded" name="Vorherige Erweiterung benötigt."  />
+				<text id="zFarmowner" name="Eigentümer dieser Farm"  />
+				<text id="zFertilize" name="Dünger"  />
+				<text id="zFlinkeHand" name="Schneller arbeiten"  />
+				<text id="zFoto" name="Fotos"  />
+				<text id="zFullscreen" name="Vollbild"  />
+				<text id="zFunc" name="Objekte mit speziellen Aufgaben"  />
+				<text id="zGiftsMy" name="Meine Geschenke"  />
+				<text id="zHarvest" name="Ernten"  />
+				<text id="zHarvestV3" name="Felder mit dem Mähdrescher ernten"  />
+				<text id="zHelp" name="Hilfe"  />
+				<text id="zHome" name="Meine Farm"  />
+				<text id="zInfoEMail" name="Eine Email hat die Form:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Ein Passwort besteht aus 5 bis 15 Zeichen,
+bestehend aus: a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="Öffnen"  />
+				<text id="zInvite" name="Lade Deine Freunde ein!"  />
+				<text id="zJ" name="Ausführen"  />
+				<text id="zJobben" name="Jobenergie:
+Wird beim Ernten und Pflügen auf fremden Farmen verbraucht.
+Solange Du unter {0} Jobenergie hast, regenerierst Du automatisch jede Minute neue, Du kannst Dir auch Nachschub im Shop kaufen."  />
+				<text id="zKatAC" name="T-Shirt"  />
+				<text id="zKatAG" name="Figur"  />
+				<text id="zKatAH" name="Frisur"  />
+				<text id="zKatAK" name="Hut"  />
+				<text id="zKatAP" name="Hose"  />
+				<text id="zKatAS" name="Schuhe"  />
+				<text id="zKatAT" name="Teint"  />
+				<text id="zKatB" name="Bäume"  />
+				<text id="zKatD" name="Dekorationen"  />
+				<text id="zKatE" name="Farmerweiterungen"  />
+				<text id="zKatF" name="Dünger"  />
+				<text id="zKatG" name="Straßen"  />
+				<text id="zKatH" name="Gebäude"  />
+				<text id="zKatR" name="Jobenergie"  />
+				<text id="zKatS" name="Saatgut"  />
+				<text id="zKatT" name="Tiere"  />
+				<text id="zKatV" name="Fahrzeuge"  />
+				<text id="zKatX" name="Aktionsangebote"  />
+				<text id="zKatY" name="Alles"  />
+				<text id="zKennLost" name="Klicke, wenn Du Dein Passwort vergessen hast."  />
+				<text id="zKennMod" name="Passwort ändern"  />
+				<text id="zKette" name="Arbeitsliste"  />
+				<text id="zKetteDel" name="Arbeitsliste löschen"  />
+				<text id="zKick" name="Diesen Spieler von Deiner Farm werfen."  />
+				<text id="zLinkAGB" name="Klick, wenn Du die AGB lesen möchtest."  />
+				<text id="zLogin" name="Zum Spiel"  />
+				<text id="zLogout" name="Logout"  />
+				<text id="zLupeM" name="Verkleinern"  />
+				<text id="zLupeP" name="Vergrößern"  />
+				<text id="zMail" name="Nachrichten"  />
+				<text id="zMarket" name="Marktplatz"  />
+				<text id="zMeldBad" name="Spieler melden?"  />
+				<text id="zMen" name="Männliche Spielfigur"  />
+				<text id="zMoreChipsGold" name="Farmdollar &amp; Gold kaufen"  />
+				<text id="zMove" name="Bewegen"  />
+				<text id="zN" name="Nicht ausführen"  />
+				<text id="zNext" name="Weiter"  />
+				<text id="zNoSilo" name="Du musst erst ein Silo bauen."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Senden Deines Passwortes beantragen."  />
+				<text id="zOKKennMod" name="Neues Passwort speichern"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Multi Tool Fahrzeuge"  />
+				<text id="zPlow" name="Pflügen"  />
+				<text id="zPlowNew" name="Neues Feld"  />
+				<text id="zPlowV1" name="Felder mit dem Traktor pflügen"  />
+				<text id="zPrefs" name="Einstellungen"  />
+				<text id="zPremium" name="Kaufe dieses Paket"  />
+				<text id="zPremiumUse" name="Dieses Premium- Saatgut auf der Farm benutzen"  />
+				<text id="zPrev" name="Zurück"  />
+				<text id="zQuest" name="Aufgaben"  />
+				<text id="zRangliste" name="Rangliste"  />
+				<text id="zRanking2Farm" name="Dieser Spieler erlaubt keinen
+Besuch seiner Farm über die Rangliste."  />
+				<text id="zRegistrieren" name="Anmelden
+damit die Spieldaten erhalten bleiben."  />
+				<text id="zRot" name="Drehen"  />
+				<text id="zSave" name="Sichern"  />
+				<text id="zScrBG" name="Scrollleiste"  />
+				<text id="zScrMove" name="Bewege den Schieber"  />
+				<text id="zSell" name="Verkaufen"  />
+				<text id="zShare" name="Sag es Deinen Freunden!"  />
+				<text id="zShop" name="Shop"  />
+				<text id="zShopEarn" name="Verkauf für:"  />
+				<text id="zShopHarvest" name="Ernten für:"  />
+				<text id="zShopLagerSize" name="Plätze:"  />
+				<text id="zShopTime" name="Ernten in:"  />
+				<text id="zShopXP" name="XP erhalten:"  />
+				<text id="zSilo" name="Silo(Dünger)"  />
+				<text id="zSofort" name="Sofort spielen - ohne Registrierung"  />
+				<text id="zSound" name="Sounds"  />
+				<text id="zSow" name="Säen"  />
+				<text id="zSowV2" name="Felder mit der Sämaschine säen"  />
+				<text id="zStrangeAchies" name="Auszeichnungen dieses Spielers"  />
+				<text id="zStrangeAdd" name="Diesem Spieler
+die Freundschaft anbieten"  />
+				<text id="zStrangeFotos" name="Fotoalbum dieses Spielers"  />
+				<text id="zStrangeGift" name="Diesem Spieler
+ein Geschenk spendieren"  />
+				<text id="zStrangeHarvest" name="Diesen Spieler
+zum Ernten einstellen"  />
+				<text id="zStrangeHome" name="Gehe zur Farm dieses Spielers"  />
+				<text id="zStrangeInfo" name="Infos über diesen Spieler"  />
+				<text id="zStrangeMail" name="Diesem Spieler
+eine Nachricht schreiben"  />
+				<text id="zStrangePlow" name="Diesen Spieler
+zum Pflügen einstellen"  />
+				<text id="zSubAsk" name="Fragen und Antworten"  />
+				<text id="zSubFotobuch" name="Fotoalbum"  />
+				<text id="zSubMailInbox" name="Nachrichten lesen"  />
+				<text id="zSubMailNew" name="Nachrichten schreiben"  />
+				<text id="zSubNews" name="News"  />
+				<text id="zSubShot1" name="Fotografieren
+die ganze Farm"  />
+				<text id="zSubShot2" name="Fotografieren
+ziehe ein Auswahlrechteck auf"  />
+				<text id="zSubShot3" name="Fotografieren
+klicke ein Objekt an"  />
+				<text id="zSubSupport" name="Support"  />
+				<text id="zTanken" name="Tanken:
+Klick zum Auffüllen
+Anzeige:
+Anzahl Auffüllungen
+und Tankanzeige
+(von maximal {0})"  />
+				<text id="zTosOpen" name="Lagern"  />
+				<text id="zTosStall" name="Dieses Tier in einen Stall bringen"  />
+				<text id="zUp" name="Hoch"  />
+				<text id="zUse" name="Benutzen"  />
+				<text id="zUsersOnFarm" name="Alle Mitspieler hier
+auf der Farm bzw. Marktplatz"  />
+				<text id="zVZBuddies" name="Benötigte Anzahl {0} Freunde"  />
+				<text id="zVZBuddiesE" name="Wenn Du genug Freunde
+erfolgreich eingeladen hast,
+kannst Du dieses Objekt zu
+einem geringeren Preis kaufen."  />
+				<text id="zWomen" name="Weibliche Spielfigur"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Willkommen auf Deiner eigenen Farm!
+
+Lass mich Dir bei Deinem Start helfen, gemeinsam lassen wir sie wunderschön erblühen."  />
+				<text id="tut_gast_1_title" name="Hallo Freund"  />
+				<text id="tut_gast_2_text" name="Sieh mal, Deine Erdbeeren sind schon fertig!
+Schnell hole sie Dir gleich ab."  />
+				<text id="tut_gast_2_title" name="Ernte Saaten durch anklicken!"  />
+				<text id="tut_gast_3_text" name="Wenn du Pflanzen erntest,
+verdienst du Farmdollar und
+bekommst Erfahrungspunkte."  />
+				<text id="tut_gast_3_title" name="Ernten gibt Farmdollar und XP!"  />
+				<text id="tut_gast_4_text" name="Nun musst Du Deine Felder pflügen,
+um sie erneut bepflanzen zu können!"  />
+				<text id="tut_gast_4_title" name="Felder pflügen durch anklicken"  />
+				<text id="tut_gast_5_text" name="Jetzt kannst Du Dir neue Saaten im Shop aussuchen!"  />
+				<text id="tut_gast_5_title" name="Neue Saaten im Shop kaufen"  />
+				<text id="tut_gast_6_text" name="Lass uns Weizen kaufen!"  />
+				<text id="tut_gast_6_title" name="Kaufe Weizen"  />
+				<text id="tut_gast_7_text" name="Klicke die Felder an, um den Weizen dort auszusäen."  />
+				<text id="tut_gast_7_title" name="Verteile den Weizen auf den Feldern"  />
+				<text id="tut_gast_8_text" name="Das machst du super!
+Deine Farm wird bald die schönste
+von allen sein.
+
+Na los, pflanze gleich noch ein bisschen mehr an!"  />
+				<text id="tut_gast_8_title" name="Hurra! Deine Farm gedeiht!"  />
+				<text id="tut_market_1_text" name="Deine Saaten brauchen noch lange zum fertig werden?
+Dann geh doch auf den Marktplatz
+und arbeite bei anderen Spielern!"  />
+				<text id="tut_market_1_title" name="Du kannst auch arbeiten gehen!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farmdollar:"  />
+				<text id="txt1" name="Gold:"  />
+				<text id="txt2" name="Nächste Ernte:"  />
+				<text id="txt3" name="Freunde:"  />
+				<text id="txt4" name="Auszeichnungen:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Mehr
+Freunde"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Tag {0}"  />
+				<text id="txt0" name="Willkommen"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Du bekommst jeden Tag einen Willkommensbonus!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Als Dankeschön
+für deine Registrierung erhältst Du #w1# Farmdollar."  />
+				<text id="21" name="Du erhältst
+#w1# Farmdollar als täglichen Willkommens-Bonus!"  />
+				<text id="2f" name="Dafür erhältst Du #anz# #ferti#."  />
+				<text id="2job" name="Dafür erhältst Du #job# Jobenergie."  />
+				<text id="2w1" name="Dafür erhältst Du #w1# Farmdollar."  />
+				<text id="2w2" name="Dafür erhältst Du #w2# Gold."  />
+				<text id="2x" name="Du hast Dich
+#days# Tage in Folge eingeloggt"  />
+				<text id="2xp" name="Dafür erhältst Du #xp# XPs."  />
+				<text id="freunde" name="Für die Aktivitäten der von Dir eingeladenen Spieler erhältst Du #w1# Farmdollar."  />
+				<text id="txt0" name="Willkommen"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Fehler"  />
+				<text id="generic_alert_connection_failed_copy" name="Aktuell finden Wartungsarbeiten am Spiel statt. Versuch es bitte später nochmal!"  />
+				<text id="generic_alert_connection_failed_title" name="Wartungsarbeiten!"  />
+				<text id="generic_alert_connection_lost_copy" name="Die Verbindung zum Spielserver wurde unterbrochen. Bitte versuch Dich neu zu verbinden."  />
+				<text id="generic_alert_connection_lost_description" name="Aktuell finden Wartungsarbeiten statt, dass muss leider ab und zu sein.
+Um Updates und neue Features einzuspielen oder einen Fehler auszubügeln.&lt;br&gt;&lt;br&gt;
+Wir arbeiten mit Hochdruck, damit Ihr schnellstmöglich wieder spielen könnt."  />
+				<text id="generic_alert_connection_lost_promo" name="Probiere doch in der Zwischenzeit eins unserer anderen Spiele aus."  />
+				<text id="generic_alert_connection_lost_thanks" name="Vielen Dank für euer Verständnis!"  />
+				<text id="generic_alert_connection_lost_title" name="Verbindung verloren!"  />
+				<text id="generic_alert_error" name="Error"  />
+				<text id="generic_alert_information" name="Hinweis"  />
+				<text id="generic_alert_loggedout_copy" name="Du hast dich erfolgreich ausgeloggt. Nicht vergessen: Jeden Tag wartet ein Login-Bonus auf Dich!"  />
+				<text id="generic_alert_loggedout_title" name="Bis später!"  />
+				<text id="generic_alert_warning" name="Warnung"  />
+				<text id="generic_alert_watchout" name="Achtung!"  />
+				<text id="generic_alert_win7chromebug" name="Sollte die Texteingabe nicht möglich sein, bitte die Strg-Taste drücken."  />
+				<text id="generic_invalid_email_provider" name="Eine E-Mail-Adresse von diesem Anbieter ist nicht zugelassen!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Deine Internetverbindung scheint gerade sehr langsam zu sein. Versuch es doch später nochmal!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Wie gefällt Dir das Spiel und was kann man besser machen? Schreib uns Deine Meinung in unserem Goodgame-Forum bzw. Gruppe!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Achtung: Dein Spielstand wird nur gespeichert, wenn Du Dich registrierst!"  />
+				<text id="generic_register_error_invalidemail" name="Die E-Mail Adresse, die Du eingegeben hast ist nicht korrekt."  />
+				<text id="generic_report_muted_chattry" name="Du kannst den Chat aufgrund deiner Sperre im Moment nicht benutzen."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Annehmen"  />
+				<text id="generic_btn_cancel" name="Abbrechen"  />
+				<text id="generic_btn_close" name="Schließen"  />
+				<text id="generic_btn_continue" name="Weiter"  />
+				<text id="generic_btn_end" name="Beenden"  />
+				<text id="generic_btn_endnow" name="Sofort Beenden"  />
+				<text id="generic_btn_goback" name="Zurück"  />
+				<text id="generic_btn_no" name="Nein"  />
+				<text id="generic_btn_noshare" name="Doch nicht!"  />
+				<text id="generic_btn_notaccept" name="Ablehnen"  />
+				<text id="generic_btn_okay" name="Okay"  />
+				<text id="generic_btn_reconnect" name="Erneut verbinden"  />
+				<text id="generic_btn_refresh" name="Aktualisieren"  />
+				<text id="generic_btn_report" name="Melden"  />
+				<text id="generic_btn_search" name="Suchen"  />
+				<text id="generic_btn_share" name="Teilen!"  />
+				<text id="generic_btn_skip" name="Überspringen"  />
+				<text id="generic_btn_start" name="Starten"  />
+				<text id="generic_btn_topayment" name="Her damit!"  />
+				<text id="generic_btn_yes" name="Ja"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="Du musst Level {0} erreichen um zu Chatten!"  />
+				<text id="generic_chat_writeable" name="Nur registrierte Spieler ab Level 1 dürfen den Chat benutzen."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Nicht vergessen: 
+Im Forum gibt es derzeit ein tolles {0}-Gewinnspiel!
+Schau am besten direkt vorbei und mach mit!"  />
+				<text id="cm_teaser2_copy" name="Nicht vergessen: 
+Im Forum gibt es derzeit eine tolle {0}-Aktion!
+Das willst du garantiert nicht versäumen, also komm schnell vorbei!"  />
+				<text id="cm_teaser3_copy" name="Zur Zeit läuft auf der {0}-Facebook-Seite eine tolle Aktion.
+Schau unbedingt mal vorbei!"  />
+				<text id="cm_teaser4_copy" name="Durch ein technisches Problem kann es derzeit zu leichten Einschränkungen im Spielverlauf von {0} kommen. 
+Bitte schaue im Forum nach, um Einzelheiten zu erfahren."  />
+				<text id="cm_teaser5_copy" name="Bitte vergiss nicht: Ein echter Mitarbeiter von Goodgame Studios wird dich im Spiel niemals nach deinem Passwort fragen! Bewahre deine Daten stets sicher auf, und gib sie nicht weiter! 
+
+Viel Spaß weiterhin bei {0}!"  />
+				<text id="cm_teaser6_copy" name="Ein neues Update für {0} ist auf dem Weg! 
+Aktuelle Neuigkeiten sowie nähere Infos zu neuen Features und behobenen Fehlern gibt es wie immer im Forum!"  />
+				<text id="cm_teaser7_copy" name="In wenigen Minuten muss der {0}-Server für kurze Zeit heruntergefahren werden. Mehr Infos findest du im Forum."  />
+				<text id="cm_teaser8_copy" name="Leider muss der {0}-Server wegen einer Notfallwartung heruntergefahren werden. Mehr Infos findest du im Forum."  />
+				<text id="cm_teaserevent_title" name="{0}, aufgepasst:"  />
+				<text id="cm_teaserinfo_title" name="Hallo {0}!"  />
+				<text id="cm_teaserwarning_title" name="Achtung!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Animationen anzeigen"  />
+				<text id="generic_bugreport" name="Melde uns Fehler"  />
+				<text id="generic_changePass" name="Passwort ändern"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Coming Soon*"  />
+				<text id="generic_date" name="Datum"  />
+				<text id="generic_day" name="Tag"  />
+				<text id="generic_dayformat" name="{0}.{1}.{2}"  />
+				<text id="generic_dayformat_short" name="{0}.{1}."  />
+				<text id="generic_days" name="Tage"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-Mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Fragen und Antworten"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Freund"  />
+				<text id="generic_friends" name="Freunde"  />
+				<text id="generic_general" name="Allgemeines"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Gruppe"  />
+				<text id="generic_guest" name="Gast"  />
+				<text id="generic_help" name="Hilfe"  />
+				<text id="generic_high" name="Hoch"  />
+				<text id="generic_hour" name="Stunde"  />
+				<text id="generic_hours" name="Stunden"  />
+				<text id="generic_hour_short" name="Std"  />
+				<text id="generic_limited" name="Limited"  />
+				<text id="generic_logout" name="Logout"  />
+				<text id="generic_low" name="Niedrig"  />
+				<text id="generic_medium" name="Mittel"  />
+				<text id="generic_minute" name="Minute"  />
+				<text id="generic_minutes" name="Minuten"  />
+				<text id="generic_minute_short" name="Min"  />
+				<text id="generic_moderator" name="Moderator"  />
+				<text id="generic_month" name="Monat"  />
+				<text id="generic_months" name="Monate"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Musik an/aus"  />
+				<text id="generic_name" name="Name"  />
+				<text id="generic_news" name="Neuigkeiten"  />
+				<text id="generic_options" name="Einstellungen"  />
+				<text id="generic_quality" name="Qualität"  />
+				<text id="generic_register" name="Speichern und Registrieren"  />
+				<text id="generic_second" name="Sekunde"  />
+				<text id="generic_seconds" name="Sekunden"  />
+				<text id="generic_second_short" name="Sek"  />
+				<text id="generic_sound" name="Ton an/aus"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="Heute"  />
+				<text id="generic_tomorrow" name="Morgen"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Spielername"  />
+				<text id="generic_validTo_timer" name="Noch {0} Stunden {1} Minuten aktiv"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Gestern"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Alte Version!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Aktualisiere die Seite."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Möchtest Du {0} als Freund hinzufügen?"  />
+				<text id="generic_friends_add_title" name="Freundschaftsanfrage"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Mehr Freunde!"  />
+				<text id="generic_friends_denied_copy" name="{0} hat Deine Anfrage leider abgelehnt."  />
+				<text id="generic_friends_denied_title" name="Anfrage abgelehnt!"  />
+				<text id="generic_friends_invite_badword_copy" name="Der Name den Du eingegeben hast ist nicht erlaubt!"  />
+				<text id="generic_friends_invite_badword_title" name="Achtung!"  />
+				<text id="generic_friends_invite_error_copy" name="Du kannst nur als registrierter Spieler andere Freunde einladen."  />
+				<text id="generic_friends_invite_error_title" name="Erst registrieren"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Vollbildmodus nicht möglich"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Tschechisch"  />
+				<text id="generic_language_cz" name="Tschechisch"  />
+				<text id="generic_language_da" name="Dänisch"  />
+				<text id="generic_language_de" name="Deutsch"  />
+				<text id="generic_language_el" name="Griechisch"  />
+				<text id="generic_language_en" name="Englisch"  />
+				<text id="generic_language_es" name="Spanisch"  />
+				<text id="generic_language_fi" name="Finnisch"  />
+				<text id="generic_language_fr" name="Französisch"  />
+				<text id="generic_language_hu" name="Ungarisch"  />
+				<text id="generic_language_id" name="Indonesisch"  />
+				<text id="generic_language_it" name="Italienisch"  />
+				<text id="generic_language_ja" name="Japanisch"  />
+				<text id="generic_language_ko" name="Koreanisch"  />
+				<text id="generic_language_nl" name="Niederländisch"  />
+				<text id="generic_language_no" name="Norwegisch"  />
+				<text id="generic_language_pl" name="Polnisch"  />
+				<text id="generic_language_pt" name="Portugiesisch"  />
+				<text id="generic_language_pt_BR" name="Brasilianisch"  />
+				<text id="generic_language_ru" name="Russisch"  />
+				<text id="generic_language_sv" name="Schwedisch"  />
+				<text id="generic_language_tr" name="Türkisch"  />
+				<text id="generic_language_zh_CN" name="Chinesisch (vereinfacht) "  />
+				<text id="generic_language_zh_TW" name="Chinesisch (traditionell)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Dein Account wurde gesperrt! Bitte wende Dich an den Support!"  />
+				<text id="generic_login_banned_2" name="Dein Account wurde gesperrt!
+
+Die Sperre läuft bis: {0}
+
+Falls Du Frage zu der Sperre hast, wende Dich bitte an den Support."  />
+				<text id="generic_login_banned_3" name="Dein Account wurde permanent gesperrt.
+
+Falls Du Frage zu der Sperre hast, wende Dich bitte an den Support."  />
+				<text id="generic_login_banned_permanent" name="permanent"  />
+				<text id="generic_login_facebook" name="Über Facebook anmelden"  />
+				<text id="generic_login_login" name="LOGIN"  />
+				<text id="generic_login_loginname" name="Username/ E-Mail"  />
+				<text id="generic_login_lostpassword" name="Passwort vergessen?"  />
+				<text id="generic_login_lostpassword_copy" name="Gib Deine E-Mail Adresse ein und wir schicken Dir Dein Passwort zu."  />
+				<text id="generic_login_lostpassword_title" name="Passwort vergessen"  />
+				<text id="generic_login_newplayer" name="NEU HIER?"  />
+				<text id="generic_login_password" name="Passwort"  />
+				<text id="generic_login_play" name="SOFORT SPIELEN"  />
+				<text id="generic_login_playnow" name="Jetzt spielen!"  />
+				<text id="generic_login_register" name="Registrieren"  />
+				<text id="generic_login_rememberpassword" name="Passwort speichern"  />
+				<text id="generic_login_wronglogin" name="Benutzername oder Passwort falsch!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Registriere Dich, um Deinen Spielstand zu speichern!"  />
+				<text id="generic_logout_guest_title" name="Registrieren"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="In spätestens {0} wird das Spiel wieder erreichbar sein."  />
+				<text id="servershutdownpremonition_copy" name="Der Spielserver wird in {0} heruntergefahren. Logge dich bitte aus oder registriere dich um deinen Spielstand zu sichern."  />
+				<text id="servershutdownpremonition_registered_copy" name="Der Spielserver wird in {0} aufgrund von Wartungsarbeiten heruntergefahren."  />
+				<text id="servershutdown_copy" name="Der Spielserver wird nun heruntergefahren. In ein paar Minuten kannst du dich wieder einloggen."  />
+				<text id="welcomeback_copy" name="Schön Dich wieder zu sehen! Hier eine Kleinigkeit, um Dir den Wiedereinstieg zu erleichtern!"  />
+				<text id="welcomeback_title" name="Wieder da!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Neues Passwort:"  />
+				<text id="generic_change_password_copy_oldpass" name="Altes Passwort:"  />
+				<text id="generic_change_password_copy_send" name="Dein neues Passwort wurde Dir an Deine E-Mail Adresse geschickt."  />
+				<text id="generic_change_password_error_failed" name="Sorry, aber das ist nicht Dein altes Passwort."  />
+				<text id="generic_change_password_error_success" name="Passwort wurde erfolgreich geändert!"  />
+				<text id="generic_change_password_faild_copy" name="Dein neues Passwort sollte länger als 2 Zeichen sein und das alte Passwort muss korrekt eingegeben worden sein!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Dein Passwort darf nicht leer sein oder Sonderzeichen enthalten."  />
+				<text id="generic_change_password_faild_title" name="Passworteingabe"  />
+				<text id="generic_change_password_title" name="Passwortänderung"  />
+				<text id="generic_guest_change_password_faild_copy" name="Du kannst nur als registrierter Spieler Dein Passwort ändern!"  />
+				<text id="generic_guest_change_password_faild_title" name="Erst registrieren"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Mehr {0} fürs Geld!"  />
+				<text id="generic_payment_48hdiscount_button" name="Mehr Gold in den ersten 48 Stunden"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Mehr {0} in den ersten 48 Stunden"  />
+				<text id="generic_payment_48hdiscount_copy" name="In den ersten 48 Stunden Gold kaufen und bei ausgewählten Paketen {0}% zusätzlich bekommen!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="In den ersten 48 Stunden Gold kaufen und bei allen Paketen {0}% zusätzlich bekommen!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="In den ersten 48 Stunden {0} kaufen und bei allen Paketen {1}% zusätzlich bekommen!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="In den ersten 48 Stunden {0} kaufen und bei ausgewählten Paketen {1}% zusätzlich bekommen!"  />
+				<text id="generic_payment_btn" name="Zum Shop"  />
+				<text id="generic_payment_copy" name="Du wirst nun zum Paymentshop weitergeleitet."  />
+				<text id="generic_payment_discount_button" name="Jetzt {0}% mehr Gold fürs Geld!"  />
+				<text id="generic_payment_discount_copy" name="Jetzt Gold kaufen und einen {0}% Bonus bekommen!"  />
+				<text id="generic_payment_discount_copy_general" name="Jetzt {0} kaufen und einen {1}% Bonus bekommen!"  />
+				<text id="generic_payment_discount_general" name="Jetzt {0}% mehr {1} fürs Geld!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% mehr fürs Geld!"  />
+				<text id="generic_payment_discount_time" name="NOCH {0}!"  />
+				<text id="generic_payment_discount_title" name="Mehr Gold fürs Geld!"  />
+				<text id="generic_payment_newPrices" name="Ab sofort! Dauerhaft reduzierte Preise in unserem Payment-Shop! Spare echtes Geld!"  />
+				<text id="generic_payment_title" name="Paymentshop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Suche Tunnel durch den Cyberspace"  />
+				<text id="loading_text_10" name="Verteile Gegenstände in der Welt"  />
+				<text id="loading_text_11" name="Male Grafiken"  />
+				<text id="loading_text_12" name="Koloriere die Buttons"  />
+				<text id="loading_text_13" name="Verstecke Easter Eggs"  />
+				<text id="loading_text_14" name="Schlage Benutzerdaten nach"  />
+				<text id="loading_text_15" name="Verscheuche Bugs"  />
+				<text id="loading_text_16" name="Füttere die Programmierer"  />
+				<text id="loading_text_17" name="Schraube am Client"  />
+				<text id="loading_text_18" name="Drehe die Sanduhr"  />
+				<text id="loading_text_19" name="Kühle das System"  />
+				<text id="loading_text_2" name="Öle die Zahnräder"  />
+				<text id="loading_text_20" name="Werde gleich fertig"  />
+				<text id="loading_text_3" name="Drehe das Hamsterrad"  />
+				<text id="loading_text_4" name="Wärme den Server auf"  />
+				<text id="loading_text_5" name="Hoffe, dass alles gut geht"  />
+				<text id="loading_text_6" name="Hole den Kammerjäger"  />
+				<text id="loading_text_7" name="Berechne komplizierten Algorithmus"  />
+				<text id="loading_text_8" name="Kalibriere Fluxkompensatoren"  />
+				<text id="loading_text_9" name="Bastle Gegenstände"  />
+				<text id="loading_text_default" name="Initialisierung"  />
+				<text id="loading_text_itemXML" name="Spielelemente laden"  />
+				<text id="progress_loadfiles" name="Spielegrafiken werden geladen..."  />
+				<text id="progress_serverconnection" name="Mit Gameserver verbinden..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="E-Mail Adresse eingeben"  />
+				<field id="generic_register_insertName" name="Name eingeben"  />
+				<field id="generic_register_insertPassword" name="Passwort eingeben"  />
+				<text id="generic_register_agb_copy" name="Ohne AGB geht&#039;s nicht. Einfach lesen und einen Haken links neben &quot;AGB akzeptieren&quot; setzen, dann kann es losgehen!"  />
+				<text id="generic_register_agb_read" name="AGB lesen"  />
+				<text id="generic_register_alreadyavatar" name="Der User hat schon einen Avatar."  />
+				<text id="generic_register_badword" name="Du darfst {0} nicht in Deinem Namen verwenden."  />
+				<text id="generic_register_btn_agb" name="AGB akzeptieren"  />
+				<text id="generic_register_btn_later" name="Später"  />
+				<text id="generic_register_btn_next" name="Weiter"  />
+				<text id="generic_register_btn_save" name="Speichern"  />
+				<text id="generic_register_character" name="Erstelle Deinen Charakter"  />
+				<text id="generic_register_copy_0" name="Registriere Dich jetzt kostenlos!"  />
+				<text id="generic_register_copy_1" name="Speichere Deinen Spielstand!"  />
+				<text id="generic_register_emaillong_copy" name="Deine Email-Adresse ist leider zu lang."  />
+				<text id="generic_register_emailwrong_copy" name="Die E-Mail Adresse, die Du eingegeben hast ist nicht korrekt."  />
+				<text id="generic_register_email_copy" name="Die E-Mail Adresse darf nicht leer sein oder Sonderzeichen enthalten."  />
+				<text id="generic_register_error" name="Registrieren fehlgeschlagen"  />
+				<text id="generic_register_errormistake" name="Fehler"  />
+				<text id="generic_register_error_accountalreadyexists" name="Unter dieser E-Mail ist bereits ein Spieler angemeldet, Sorry."  />
+				<text id="generic_register_forfree" name="Kostenlos anmelden!"  />
+				<text id="generic_register_forfree1" name="Kostenlos!"  />
+				<text id="generic_register_letsgo" name="LOS GEHT&#039;S"  />
+				<text id="generic_register_namealreadyused" name="Der Name ist bereits vergeben."  />
+				<text id="generic_register_namenotvalid" name="Der eingegebene Name ist ungültig."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Das eingegebene Passwort ist zu kurz. Es muss mindestens 4 Zeichen lang sein."  />
+				<text id="generic_register_passwordwrong_copy" name="Das Passwort, das Du eingegeben hast ist nicht korrekt."  />
+				<text id="generic_register_password_copy" name="Dein Passwort darf nicht leer sein oder Sonderzeichen enthalten."  />
+				<text id="generic_register_receivenews" name="News erhalten"  />
+				<text id="generic_register_rememberdata" name="Daten merken"  />
+				<text id="generic_register_reward" name="Melde Dich kostenlos an und bekomme {0} {1} als Geschenk!"  />
+				<text id="generic_register_subscribe" name="Anmelden"  />
+				<text id="generic_register_success" name="Du hast dich erfolgreich registriert."  />
+				<text id="generic_register_title" name="Registrierfehler"  />
+				<text id="generic_register_unlock" name="Diese Funktion freischalten!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Bitte achte auf deine Ausdrucksweise. Ansonsten droht eine Chat-Sperre oder eine temporäre Sperrung des Accounts. 
+Grund: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Du kannst den Chat in den nächsten {0} wegen wiederholtem Fehlverhalten nicht benutzen. Grund: {1}"  />
+				<text id="generic_report_muted_domain1" name="Keine Internetadressen im Chat!"  />
+				<text id="generic_report_muted_reported_copy" name="Es  haben sich mehrere Spieler über dich beschwert. Du kannst den Chat daher für die nächsten {0} nicht benutzen. Grund: {1}"  />
+				<text id="generic_report_player_copy" name="Möchtest Du den Spieler {0} wirklich melden?\nAchtung! Ein Missbrauch dieser Funktion kann zur Sperrung des Accounts führen."  />
+				<text id="generic_report_player_reason_0" name="Beleidigung"  />
+				<text id="generic_report_player_reason_1" name="sexuelle Belästigung"  />
+				<text id="generic_report_player_reason_2" name="rassistische Äußerung"  />
+				<text id="generic_report_player_reason_3" name="Drohung/Erpressung"  />
+				<text id="generic_report_player_reason_title" name="Grund der Meldung:"  />
+				<text id="generic_report_player_title" name="Spieler melden?"  />
+				<text id="generic_report_reported_copy" name="Du wurdest von einem anderen Spieler beim Administrator gemeldet. Grund: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Verbinden"  />
+				<text id="generic_select_world" name="Wähle Welt:"  />
+				<text id="generic_world" name="Welt: {0}"  />
+				<text id="generic_world_international" name="International: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

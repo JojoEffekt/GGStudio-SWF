@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Goodgame Studios Farmer - Items -->
+<!-- created: 04.08.2011 17:11:23 -->
+<datas>
+<items><item id="D122" buy_w1="10000" buy_w2="3" sell_w1="800" buy_xp="350" buy_level="0" w="3" h="3" spezi="ALWAYS" />
+<item id="D121" buy_w1="10000" buy_w2="3" sell_w1="800" buy_xp="350" buy_level="0" w="3" h="4" spezi="ALWAYS" />
+<item id="D120" buy_w1="90000" buy_w2="5" sell_w1="5000" buy_xp="2050" buy_level="0" w="9" h="6" spezi="ALWAYS" />
+<item id="D325" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D324" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D323" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D322" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D321" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D320" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D319" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D318" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D317" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D316" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D315" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D314" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D313" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D312" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D311" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D310" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D39" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D38" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D37" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D36" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D35" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D34" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D33" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D32" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D31" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D30" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D118" buy_w1="72900" buy_w2="7" sell_w1="4345" buy_xp="1808" buy_level="0" w="7" h="6" spezi="ALWAYS" />
+<item id="D116" buy_w1="6400" buy_w2="3" sell_w1="620" buy_xp="278" buy_level="0" w="1" h="1" spezi="ALWAYS" />
+<item id="D113" buy_w1="44100" buy_w2="3" sell_w1="2505" buy_xp="1032" buy_level="0" w="1" h="1" spezi="ALWAYS" />
+<item id="H27" buy_w1="3000000" buy_w2="23" sell_w1="152300" buy_xp="61150" buy_level="45" w="48" h="24" spezi="ALWAYS" />
+<item id="H26" buy_w1="1500000" buy_w2="8" sell_w1="75800" buy_xp="30400" buy_level="40" w="13" h="8" spezi="ALWAYS" />
+<item id="H24" buy_w1="500000" buy_w2="12" sell_w1="26200" buy_xp="10600" buy_level="25" w="6" h="5" spezi="ALWAYS" />
+<item id="T04" buy_w1="3250" buy_w2="5" sell_w1="662" buy_xp="255" buy_level="30" w="2" h="2" duration="5760" spezi="ALWAYS" harvest_w1="180" />
+<item id="T02" buy_w1="2450" sell_w1="122" buy_xp="98" buy_level="22" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="156" />
+<item id="B028" buy_w1="200" buy_w2="3" sell_w1="310" buy_xp="289" buy_level="0" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="18" />
+<item id="B026" buy_w1="2750" buy_w2="7" sell_w1="837" buy_xp="285" buy_level="51" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="100" />
+<item id="T111" buy_w1="3650" buy_w2="7" sell_w1="882" buy_xp="321" buy_level="34" w="2" h="2" duration="2880" spezi="ALWAYS" harvest_w1="99" />
+<item id="B022" buy_w1="2350" sell_w1="117" buy_xp="94" buy_level="43" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="81" />
+<item id="B021" buy_w1="2250" sell_w1="112" buy_xp="90" buy_level="41" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="52" />
+<item id="D159" buy_w1="48400" buy_w2="10" sell_w1="3420" buy_xp="1468" buy_level="0" w="3" h="3" spezi="CHRISTMAS" />
+<item id="D158" buy_w1="40000" buy_w2="8" sell_w1="2800" buy_xp="1200" buy_level="0" w="3" h="3" spezi="CHRISTMAS" />
+<item id="D157" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="0" w="1" h="1" spezi="CHRISTMAS" />
+<item id="D156" buy_w1="3600" sell_w1="180" buy_xp="72" buy_level="0" w="1" h="4" spezi="CHRISTMAS" />
+<item id="D155" buy_w1="6400" buy_w2="1" sell_w1="420" buy_xp="178" buy_level="0" w="1" h="4" spezi="CHRISTMAS" />
+<item id="D154" buy_w1="10000" sell_w1="500" buy_xp="200" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D148" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D149" buy_w1="4900" sell_w1="245" buy_xp="98" buy_level="0" w="0" h="2" spezi="CHRISTMAS" harvest_w1="2" />
+<item id="D150" buy_w1="8100" sell_w1="405" buy_xp="162" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D151" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D152" buy_w1="8100" sell_w1="405" buy_xp="162" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D153" buy_w1="10000" sell_w1="500" buy_xp="200" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D147" buy_w1="10000" sell_w1="500" buy_xp="200" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D146" buy_w1="14400" buy_w2="2" sell_w1="920" buy_xp="388" buy_level="0" w="1" h="2" spezi="CHRISTMAS" />
+<item id="D143" buy_w1="4900" buy_w2="1" sell_w1="345" buy_xp="148" buy_level="0" w="4" h="4" spezi="CHRISTMAS" />
+<item id="D144" buy_w1="25600" buy_w2="5" sell_w1="1780" buy_xp="762" buy_level="0" w="1" h="3" spezi="CHRISTMAS" />
+<item id="D145" buy_w1="19600" buy_w2="3" sell_w1="1280" buy_xp="542" buy_level="0" w="1" h="2" spezi="CHRISTMAS" />
+<item id="D142" buy_w1="25600" buy_w2="5" sell_w1="1780" buy_xp="762" buy_level="0" w="3" h="6" spezi="CHRISTMAS" />
+<item id="D141" buy_w1="16900" buy_w2="4" sell_w1="1245" buy_xp="538" buy_level="0" w="1" h="1" spezi="CHRISTMAS" />
+<item id="D140" buy_w1="16900" buy_w2="4" sell_w1="1245" buy_xp="538" buy_level="0" w="5" h="6" spezi="CHRISTMAS" />
+<item id="V30" buy_w1="25000" buy_w2="20" sell_w1="3250" buy_xp="1500" buy_level="10" w="5" h="4" buy_w4="10" buy_buddies="5" spezi="ALWAYS" />
+<item id="D139" buy_w1="6400" buy_w2="1" sell_w1="420" buy_xp="178" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D138" buy_w1="6400" buy_w2="1" sell_w1="420" buy_xp="178" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D137" buy_w1="10000" buy_w2="2" sell_w1="700" buy_xp="300" buy_level="0" w="2" h="2" spezi="CHRISTMAS" />
+<item id="D136" buy_w1="8100" buy_w2="1" sell_w1="505" buy_xp="212" buy_level="0" w="1" h="1" spezi="CHRISTMAS" />
+<item id="D135" buy_w1="8100" buy_w2="1" sell_w1="505" buy_xp="212" buy_level="0" w="1" h="1" spezi="CHRISTMAS" />
+<item id="H216" buy_w1="80000" buy_w2="20" sell_w1="6000" buy_xp="2600" buy_level="0" w="13" h="15" spezi="CHRISTMAS" />
+<item id="H217" buy_w1="120000" buy_w2="30" sell_w1="9000" buy_xp="3900" buy_level="0" w="48" h="24" spezi="CHRISTMAS" />
+<item id="H214" buy_w1="100000" buy_w2="25" sell_w1="7500" buy_xp="3250" buy_level="0" w="20" h="13" spezi="CHRISTMAS" />
+<item id="H215" buy_w1="100000" buy_w2="25" sell_w1="7500" buy_xp="3250" buy_level="0" w="13" h="10" spezi="CHRISTMAS" />
+<item id="H213" buy_w1="60000" buy_w2="20" sell_w1="5000" buy_xp="2200" buy_level="0" w="13" h="10" spezi="CHRISTMAS" />
+<item id="H212" buy_w1="45000" buy_w2="10" sell_w1="3250" buy_xp="1400" buy_level="0" w="9" h="7" spezi="CHRISTMAS" />
+<item id="H09" buy_w1="35000" buy_w2="5" sell_w1="2250" buy_xp="950" buy_level="0" w="7" h="5" spezi="CHRISTMAS" />
+<item id="H08" buy_w1="30000" buy_w2="5" sell_w1="2000" buy_xp="850" buy_level="0" w="3" h="3" spezi="CHRISTMAS" />
+<item id="T21" buy_w1="2650" buy_w2="8" sell_w1="932" buy_xp="306" buy_level="24" w="2" h="2" duration="5760" spezi="CHRISTMAS" harvest_w1="152" />
+<item id="T113" buy_w1="1850" buy_w2="3" sell_w1="392" buy_xp="149" buy_level="16" w="2" h="2" duration="4320" spezi="CHRISTMAS" harvest_w1="57" />
+<item id="T112" buy_w1="1050" buy_w2="3" sell_w1="352" buy_xp="117" buy_level="8" w="2" h="2" duration="2880" spezi="CHRISTMAS" harvest_w1="29" />
+<item id="T06" buy_w1="250" buy_w2="3" sell_w1="312" buy_xp="85" buy_level="0" w="1" h="1" duration="1440" spezi="CHRISTMAS" harvest_w1="11" />
+<item id="B031" buy_w1="1500" buy_w2="3" sell_w1="375" buy_xp="135" buy_level="26" w="1" h="1" duration="4320" spezi="CHRISTMAS" harvest_w1="61" />
+<item id="B030" buy_w1="850" buy_w2="3" sell_w1="342" buy_xp="109" buy_level="13" w="1" h="1" duration="2880" spezi="CHRISTMAS" harvest_w1="30" />
+<item id="B029" buy_w1="200" buy_w2="3" sell_w1="310" buy_xp="83" buy_level="0" w="1" h="1" duration="1440" spezi="CHRISTMAS" harvest_w1="9" />
+<item id="D134" buy_w1="25600" buy_w2="5" sell_w1="1780" buy_xp="762" buy_level="0" w="2" h="1" spezi="HALLOWEEN" />
+<item id="D29" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="0" w="1" h="0" spezi="HALLOWEEN" />
+<item id="D28" buy_w1="3600" sell_w1="180" buy_xp="72" buy_level="0" w="1" h="4" spezi="HALLOWEEN" />
+<item id="D210" buy_w1="6400" buy_w2="2" sell_w1="520" buy_xp="228" buy_level="0" w="1" h="4" spezi="HALLOWEEN" />
+<item id="H211" buy_w1="100000" buy_w2="35" sell_w1="8500" buy_xp="3750" buy_level="0" w="18" h="12" spezi="HALLOWEEN" />
+<item id="H05" buy_w1="70000" buy_w2="20" sell_w1="5500" buy_xp="2400" buy_level="0" w="8" h="6" spezi="HALLOWEEN" />
+<item id="H210" buy_w1="60000" buy_w2="20" sell_w1="5000" buy_xp="2200" buy_level="0" w="13" h="10" spezi="HALLOWEEN" />
+<item id="H29" buy_w1="45000" buy_w2="10" sell_w1="3250" buy_xp="1400" buy_level="0" w="9" h="7" spezi="HALLOWEEN" />
+<item id="H07" buy_w1="35000" buy_w2="5" sell_w1="2250" buy_xp="950" buy_level="0" w="7" h="5" spezi="HALLOWEEN" />
+<item id="H06" buy_w1="30000" buy_w2="5" sell_w1="2000" buy_xp="850" buy_level="0" w="3" h="3" spezi="HALLOWEEN" />
+<item id="R11" buy_w2="1" buy_level="0" w="0" h="0" menge="200" spezi="ALWAYS" />
+<item id="R10" buy_w2="1" buy_level="0" w="0" h="0" menge="200" spezi="ALWAYS" />
+<item id="E01" buy_w2="3" buy_xp="100" buy_level="1" w="40" h="40" spezi="ALWAYS" />
+<item id="E02" buy_w2="9" buy_xp="400" buy_level="3" w="48" h="48" spezi="ALWAYS" />
+<item id="V02" buy_w2="30" buy_level="5" w="0" h="0" spezi="ALWAYS" buy_bonus="10" menge="50" />
+<item id="V01" buy_w2="20" buy_level="5" w="0" h="0" spezi="ALWAYS" buy_bonus="5" menge="25" />
+<item id="R02" buy_w2="20" buy_level="0" w="0" h="0" spezi="ALWAYS" menge="45000" />
+<item id="R01" buy_w2="5" buy_level="0" w="0" h="0" spezi="ALWAYS" menge="9000" />
+<item id="S45" buy_w1="310" sell_w1="343" buy_xp="5" buy_level="58" w="4" h="4" duration="120" spezi="ALWAYS" harvest_w1="343" />
+<item id="R00" buy_w2="1" buy_level="0" w="0" h="0" spezi="ALWAYS" menge="1500" />
+<item id="V00" buy_w2="10" buy_level="5" w="0" h="0" spezi="ALWAYS" buy_bonus="2" menge="10" />
+<item id="D110" buy_level="999" w="2" h="3" spezi="ALWAYS" />
+<item id="G00" buy_w1="200" sell_w1="10" buy_xp="4" buy_level="0" w="2" h="6" spezi="ALWAYS" />
+<item id="S44" buy_w1="270" sell_w1="284" buy_xp="2" buy_level="50" w="4" h="4" duration="30" spezi="ALWAYS" harvest_w1="284" />
+<item id="D27" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="5" w="1" h="4" spezi="ALWAYS" />
+<item id="H12" buy_w1="121000" buy_w2="8" sell_w1="6850" buy_xp="2820" buy_level="9" w="7" h="15" menge="30" buy_w3="10" spezi="ALWAYS" maxBuyAnz="3" />
+<item id="S39" buy_w1="240" sell_w1="408" buy_xp="20" buy_level="44" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="408" />
+<item id="H13" buy_w1="461000" buy_w2="8" sell_w1="23850" buy_xp="9620" buy_level="21" w="7" h="12" menge="25" buy_w3="10" spezi="ALWAYS" maxBuyAnz="3" />
+<item id="S43" buy_w1="220" sell_w1="403" buy_xp="25" buy_level="40" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="403" />
+<item id="S38" buy_w1="210" sell_w1="450" buy_xp="37" buy_level="38" w="4" h="4" duration="1440" spezi="ALWAYS" harvest_w1="450" />
+<item id="H11" buy_w1="62000" buy_w2="8" sell_w1="3900" buy_xp="1640" buy_level="7" w="8" h="12" menge="25" buy_w3="10" spezi="ALWAYS" maxBuyAnz="3" />
+<item id="H10" buy_w1="62000" buy_w2="8" sell_w1="3900" buy_xp="1640" buy_level="5" w="3" h="5" menge="15" buy_w3="10" spezi="ALWAYS" maxBuyAnz="3" />
+<item id="T18" buy_w1="2250" buy_w2="5" sell_w1="612" buy_xp="215" buy_level="20" w="2" h="2" duration="2880" spezi="ALWAYS" harvest_w1="100" />
+<item id="S37" buy_w1="185" sell_w1="352" buy_xp="25" buy_level="33" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="352" />
+<item id="T16" buy_w1="2050" buy_w2="5" sell_w1="602" buy_xp="207" buy_level="18" w="2" h="2" duration="4320" spezi="ALWAYS" harvest_w1="100" />
+<item id="D111" buy_w1="25600" sell_w1="1280" buy_xp="512" buy_level="16" w="1" h="3" spezi="ALWAYS" />
+<item id="S42" buy_w1="170" sell_w1="188" buy_xp="3" buy_level="30" w="4" h="4" duration="60" spezi="ALWAYS" harvest_w1="188" />
+<item id="D07" buy_w1="22500" sell_w1="1125" buy_xp="450" buy_level="15" w="2" h="4" spezi="ALWAYS" />
+<item id="D06" buy_w1="19600" sell_w1="980" buy_xp="392" buy_level="14" w="1" h="1" spezi="ALWAYS" />
+<item id="S36" buy_w1="155" sell_w1="287" buy_xp="20" buy_level="27" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="287" />
+<item id="D05" buy_w1="19600" sell_w1="980" buy_xp="392" buy_level="14" w="1" h="1" spezi="ALWAYS" />
+<item id="S20" buy_w1="15" sell_w1="28" buy_xp="2" buy_level="0" w="4" h="4" duration="30" spezi="ALWAYS" harvest_w1="28" />
+<item id="S10" buy_w1="20" sell_w1="36" buy_xp="3" buy_level="0" w="4" h="4" duration="60" spezi="ALWAYS" harvest_w1="36" />
+<item id="S00" buy_w1="25" sell_w1="48" buy_xp="5" buy_level="1" w="4" h="4" duration="120" spezi="ALWAYS" harvest_w1="48" />
+<item id="S35" buy_w1="130" sell_w1="175" buy_xp="8" buy_level="22" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="175" />
+<item id="S21" buy_w1="35" sell_w1="131" buy_xp="20" buy_level="3" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="131" />
+<item id="S41" buy_w1="120" sell_w1="240" buy_xp="20" buy_level="20" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="240" />
+<item id="S11" buy_w1="40" sell_w1="208" buy_xp="37" buy_level="4" w="4" h="4" duration="1440" spezi="ALWAYS" harvest_w1="208" />
+<item id="S01" buy_w1="45" sell_w1="82" buy_xp="8" buy_level="5" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="82" />
+<item id="S22" buy_w1="55" sell_w1="80" buy_xp="5" buy_level="7" w="4" h="4" duration="120" spezi="ALWAYS" harvest_w1="80" />
+<item id="S12" buy_w1="60" sell_w1="252" buy_xp="37" buy_level="8" w="4" h="4" duration="1440" spezi="ALWAYS" harvest_w1="252" />
+<item id="S34" buy_w1="95" sell_w1="230" buy_xp="25" buy_level="15" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="230" />
+<item id="S02" buy_w1="65" sell_w1="382" buy_xp="60" buy_level="9" w="4" h="4" duration="2880" spezi="ALWAYS" harvest_w1="382" />
+<item id="S23" buy_w1="80" sell_w1="536" buy_xp="86" buy_level="12" w="4" h="4" duration="4320" spezi="ALWAYS" harvest_w1="536" />
+<item id="S13" buy_w1="85" sell_w1="102" buy_xp="3" buy_level="13" w="4" h="4" duration="60" spezi="ALWAYS" harvest_w1="102" />
+<item id="S33" buy_w1="75" sell_w1="149" buy_xp="14" buy_level="11" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="149" />
+<item id="S40" buy_w1="70" sell_w1="178" buy_xp="20" buy_level="10" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="178" />
+<item id="S03" buy_w1="90" sell_w1="676" buy_xp="100" buy_level="14" w="4" h="4" duration="5760" spezi="ALWAYS" harvest_w1="676" />
+<item id="S24" buy_w1="100" sell_w1="114" buy_xp="2" buy_level="16" w="4" h="4" duration="30" spezi="ALWAYS" harvest_w1="114" />
+<item id="S32" buy_w1="50" sell_w1="169" buy_xp="25" buy_level="6" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="169" />
+<item id="S14" buy_w1="105" sell_w1="470" buy_xp="60" buy_level="17" w="4" h="4" duration="2880" spezi="ALWAYS" harvest_w1="470" />
+<item id="S04" buy_w1="110" sell_w1="151" buy_xp="8" buy_level="18" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="151" />
+<item id="S25" buy_w1="115" sell_w1="197" buy_xp="14" buy_level="19" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="197" />
+<item id="S31" buy_w1="30" sell_w1="96" buy_xp="14" buy_level="2" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="96" />
+<item id="S26" buy_w1="125" sell_w1="341" buy_xp="37" buy_level="21" w="4" h="4" duration="1440" spezi="ALWAYS" harvest_w1="341" />
+<item id="S15" buy_w1="135" sell_w1="286" buy_xp="25" buy_level="23" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="286" />
+<item id="S30" buy_w1="10" sell_w1="21" buy_xp="1" buy_level="0" w="4" h="4" duration="10" spezi="ALWAYS" harvest_w1="21" />
+<item id="D326" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D327" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D328" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="D40" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="13" w="1" h="1" spezi="ALWAYS" />
+<item id="S05" buy_w1="140" sell_w1="167" buy_xp="5" buy_level="24" w="4" h="4" duration="120" spezi="ALWAYS" harvest_w1="167" />
+<item id="S27" buy_w1="145" sell_w1="194" buy_xp="8" buy_level="25" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="194" />
+<item id="S28" buy_w1="150" sell_w1="563" buy_xp="60" buy_level="26" w="4" h="4" duration="2880" spezi="ALWAYS" harvest_w1="563" />
+<item id="S16" buy_w1="160" sell_w1="250" buy_xp="14" buy_level="28" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="250" />
+<item id="S29" buy_w1="175" sell_w1="857" buy_xp="100" buy_level="31" w="4" h="4" duration="5760" spezi="ALWAYS" harvest_w1="857" />
+<item id="S06" buy_w1="165" sell_w1="693" buy_xp="86" buy_level="29" w="4" h="4" duration="4320" spezi="ALWAYS" harvest_w1="693" />
+<item id="S17" buy_w1="190" sell_w1="334" buy_xp="20" buy_level="34" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="334" />
+<item id="S210" buy_w1="180" sell_w1="191" buy_xp="1" buy_level="32" w="4" h="4" duration="10" spezi="ALWAYS" harvest_w1="191" />
+<item id="S212" buy_w1="205" sell_w1="361" buy_xp="20" buy_level="37" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="361" />
+<item id="S211" buy_w1="200" sell_w1="298" buy_xp="14" buy_level="36" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="298" />
+<item id="S07" buy_w1="195" sell_w1="224" buy_xp="5" buy_level="35" w="4" h="4" duration="120" spezi="ALWAYS" harvest_w1="224" />
+<item id="S18" buy_w1="215" sell_w1="268" buy_xp="8" buy_level="39" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="268" />
+<item id="D60" buy_level="999" w="2" h="2" spezi="ALWAYS" />
+<item id="D41" buy_level="999" w="1" h="1" spezi="ALWAYS" />
+<item id="S08" buy_w1="225" sell_w1="331" buy_xp="14" buy_level="41" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="331" />
+<item id="H31" buy_level="999" w="6" h="8" spezi="ALWAYS" />
+<item id="H30" buy_level="999" w="4" h="8" spezi="ALWAYS" />
+<item id="S213" buy_w1="230" sell_w1="494" buy_xp="37" buy_level="42" w="4" h="4" duration="1440" spezi="ALWAYS" harvest_w1="494" />
+<item id="S214" buy_w1="235" sell_w1="696" buy_xp="60" buy_level="43" w="4" h="4" duration="2880" spezi="ALWAYS" harvest_w1="696" />
+<item id="S19" buy_w1="245" sell_w1="359" buy_xp="14" buy_level="45" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="359" />
+<item id="S09" buy_w1="250" sell_w1="850" buy_xp="86" buy_level="46" w="4" h="4" duration="4320" spezi="ALWAYS" harvest_w1="850" />
+<item id="S215" buy_w1="255" sell_w1="312" buy_xp="8" buy_level="47" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="312" />
+<item id="H40" buy_w1="50000" buy_w2="30" sell_w1="5500" buy_xp="2500" buy_level="1" w="3" h="3" spezi="ALWAYS" maxBuyAnz="1" />
+<item id="V40" buy_w1="25000" buy_w2="20" sell_w1="3250" buy_xp="1500" buy_level="10" w="5" h="4" buy_w4="10" buy_buddies="5" spezi="ALWAYS" />
+<item id="V90" buy_w1="50000" buy_w2="30" sell_w1="5500" buy_xp="2500" buy_level="10" w="5" h="3" spezi="ALWAYS" maxBuyAnz="1" />
+<item id="D329" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="S216" buy_w1="260" sell_w1="459" buy_xp="25" buy_level="48" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="459" />
+<item id="S217" buy_w1="265" sell_w1="445" buy_xp="20" buy_level="49" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="445" />
+<item id="S218" buy_w1="275" sell_w1="294" buy_xp="3" buy_level="51" w="4" h="4" duration="60" spezi="ALWAYS" harvest_w1="294" />
+<item id="S219" buy_w1="280" sell_w1="311" buy_xp="5" buy_level="52" w="4" h="4" duration="120" spezi="ALWAYS" harvest_w1="311" />
+<item id="H50" buy_w1="80000" buy_w2="15" sell_w1="5500" buy_xp="2350" buy_level="0" w="11" h="12" spezi="HALLOWEEN" />
+<item id="H51" buy_w1="100000" buy_w2="35" sell_w1="8500" buy_xp="3750" buy_level="0" w="8" h="5" spezi="HALLOWEEN" />
+<item id="S220" buy_w1="285" sell_w1="407" buy_xp="14" buy_level="53" w="4" h="4" duration="480" spezi="ALWAYS" harvest_w1="407" />
+<item id="S221" buy_w1="290" sell_w1="482" buy_xp="20" buy_level="54" w="4" h="4" duration="720" spezi="ALWAYS" harvest_w1="482" />
+<item id="D410" buy_w1="19600" buy_w2="3" sell_w1="1280" buy_xp="542" buy_level="0" w="1" h="0" spezi="HALLOWEEN" />
+<item id="D74" buy_w1="4900" sell_w1="245" buy_xp="98" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D75" buy_w1="4900" sell_w1="245" buy_xp="98" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D76" buy_w1="8100" buy_w2="2" sell_w1="605" buy_xp="262" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D77" buy_w1="8100" buy_w2="2" sell_w1="605" buy_xp="262" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D73" buy_w1="14400" buy_w2="2" sell_w1="920" buy_xp="388" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D72" buy_w1="16900" buy_w2="4" sell_w1="1245" buy_xp="538" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D71" buy_w1="16900" buy_w2="4" sell_w1="1245" buy_xp="538" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D70" buy_w1="25600" buy_w2="5" sell_w1="1780" buy_xp="762" buy_level="0" w="1" h="1" spezi="HALLOWEEN" />
+<item id="D330" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="S51" buy_w2="9" buy_xp="111" buy_level="62" w="4" h="4" duration="1440" menge="450" spezi="CHRISTMAS" harvest_w1="312" />
+<item id="S61" buy_w1="65" buy_xp="20" buy_level="8" w="4" h="4" duration="720" spezi="CHRISTMAS" harvest_w1="177" />
+<item id="S60" buy_w1="25" buy_xp="14" buy_level="3" w="4" h="4" duration="480" spezi="CHRISTMAS" harvest_w1="95" />
+<item id="S50" buy_w2="2" buy_xp="24" buy_level="0" w="4" h="4" duration="240" menge="450" spezi="CHRISTMAS" harvest_w1="39" />
+<item id="S222" buy_w1="295" sell_w1="583" buy_xp="37" buy_level="55" w="4" h="4" duration="1440" spezi="ALWAYS" harvest_w1="583" />
+<item id="S223" buy_w1="300" sell_w1="361" buy_xp="8" buy_level="56" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="361" />
+<item id="S224" buy_w1="305" sell_w1="520" buy_xp="25" buy_level="57" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="520" />
+<item id="B00" buy_w1="200" sell_w1="10" buy_xp="8" buy_level="0" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="8" />
+<item id="B01" buy_w1="250" sell_w1="12" buy_xp="10" buy_level="1" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="18" />
+<item id="B02" buy_w1="350" sell_w1="17" buy_xp="14" buy_level="3" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="28" />
+<item id="B03" buy_w1="450" sell_w1="22" buy_xp="18" buy_level="5" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="40" />
+<item id="B04" buy_w1="550" sell_w1="27" buy_xp="22" buy_level="7" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="11" />
+<item id="B05" buy_w1="650" sell_w1="32" buy_xp="26" buy_level="9" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="24" />
+<item id="B06" buy_w1="750" sell_w1="37" buy_xp="30" buy_level="11" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="39" />
+<item id="B07" buy_w1="850" sell_w1="42" buy_xp="34" buy_level="13" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="56" />
+<item id="B08" buy_w1="950" sell_w1="47" buy_xp="38" buy_level="15" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="15" />
+<item id="B09" buy_w1="1050" sell_w1="52" buy_xp="42" buy_level="17" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="32" />
+<item id="B010" buy_w1="1150" sell_w1="57" buy_xp="46" buy_level="19" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="51" />
+<item id="B011" buy_w1="1250" sell_w1="62" buy_xp="50" buy_level="21" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="71" />
+<item id="B012" buy_w1="1350" sell_w1="67" buy_xp="54" buy_level="23" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="18" />
+<item id="B013" buy_w1="1450" sell_w1="72" buy_xp="58" buy_level="25" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="38" />
+<item id="B014" buy_w1="1550" sell_w1="77" buy_xp="62" buy_level="27" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="60" />
+<item id="B015" buy_w1="1650" sell_w1="82" buy_xp="66" buy_level="29" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="84" />
+<item id="B016" buy_w1="1750" sell_w1="87" buy_xp="70" buy_level="31" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="22" />
+<item id="B017" buy_w1="1850" sell_w1="92" buy_xp="74" buy_level="33" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="46" />
+<item id="B018" buy_w1="1950" sell_w1="97" buy_xp="78" buy_level="35" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="71" />
+<item id="B019" buy_w1="2050" sell_w1="102" buy_xp="82" buy_level="37" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="98" />
+<item id="B020" buy_w1="2150" sell_w1="107" buy_xp="86" buy_level="39" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="25" />
+<item id="T00" buy_w1="250" sell_w1="12" buy_xp="10" buy_level="0" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="10" />
+<item id="T10" buy_w1="450" sell_w1="22" buy_xp="18" buy_level="2" w="2" h="2" duration="2880" spezi="ALWAYS" harvest_w1="22" />
+<item id="T11" buy_w1="650" sell_w1="32" buy_xp="26" buy_level="4" w="2" h="2" duration="4320" spezi="ALWAYS" harvest_w1="36" />
+<item id="T12" buy_w1="850" sell_w1="42" buy_xp="34" buy_level="6" w="2" h="2" duration="5760" spezi="ALWAYS" harvest_w1="52" />
+<item id="T13" buy_w1="1050" sell_w1="52" buy_xp="42" buy_level="8" w="2" h="2" duration="1440" spezi="ALWAYS" harvest_w1="14" />
+<item id="T14" buy_w1="1250" sell_w1="62" buy_xp="50" buy_level="10" w="2" h="2" duration="2880" spezi="ALWAYS" harvest_w1="30" />
+<item id="T01" buy_w1="1450" sell_w1="72" buy_xp="58" buy_level="12" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="48" />
+<item id="T15" buy_w1="1650" sell_w1="82" buy_xp="66" buy_level="14" w="2" h="2" duration="5760" spezi="ALWAYS" harvest_w1="68" />
+<item id="S510" buy_w2="9" buy_xp="111" buy_level="0" w="4" h="4" duration="1440" menge="450" spezi="PIRATES" harvest_w1="168" />
+<item id="E08" buy_w2="95" buy_xp="17900" buy_level="30" w="96" h="96" spezi="ALWAYS" />
+<item id="T17" buy_w1="1850" sell_w1="92" buy_xp="74" buy_level="16" w="2" h="2" duration="1440" spezi="ALWAYS" harvest_w1="18" />
+<item id="E07" buy_w2="75" buy_xp="13200" buy_level="25" w="88" h="88" spezi="ALWAYS" />
+<item id="H00" buy_w1="46000" sell_w1="2300" buy_xp="460" buy_level="4" w="7" h="8" menge="15" buy_w3="10" spezi="ALWAYS" />
+<item id="H20" buy_w1="17000" sell_w1="850" buy_xp="340" buy_level="2" w="9" h="7" spezi="ALWAYS" />
+<item id="H01" buy_w1="25000" sell_w1="1250" buy_xp="500" buy_level="3" w="3" h="3" spezi="ALWAYS" />
+<item id="H02" buy_w1="4000" sell_w1="200" buy_xp="80" buy_level="1" w="2" h="2" menge="4" buy_w3="5" spezi="ALWAYS" />
+<item id="E06" buy_w2="59" buy_xp="9100" buy_level="20" w="80" h="80" spezi="ALWAYS" />
+<item id="E03" buy_w2="21" buy_xp="900" buy_level="5" w="56" h="56" spezi="ALWAYS" />
+<item id="D42" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D44" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D47" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D48" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="E04" buy_w2="33" buy_xp="2900" buy_level="10" w="64" h="64" spezi="ALWAYS" />
+<item id="E05" buy_w2="45" buy_xp="5600" buy_level="15" w="72" h="72" spezi="ALWAYS" />
+<item id="V20" buy_w1="25000" buy_w2="20" sell_w1="3250" buy_xp="1500" buy_level="10" w="5" h="4" buy_w4="10" buy_buddies="3" spezi="ALWAYS" />
+<item id="V10" buy_w1="25000" buy_w2="20" sell_w1="3250" buy_xp="1500" buy_level="10" w="5" h="4" buy_w4="10" buy_buddies="3" spezi="ALWAYS" />
+<item id="H03" buy_w1="158000" sell_w1="7900" buy_xp="3160" buy_level="11" w="7" h="5" spezi="ALWAYS" />
+<item id="H23" buy_w1="229000" sell_w1="11450" buy_xp="4580" buy_level="12" w="3" h="3" spezi="ALWAYS" />
+<item id="H21" buy_w1="374000" sell_w1="18700" buy_xp="7480" buy_level="15" w="13" h="10" spezi="ALWAYS" />
+<item id="H04" buy_w1="374000" sell_w1="18700" buy_xp="7480" buy_level="18" w="8" h="6" spezi="ALWAYS" />
+<item id="D43" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D46" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D49" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D45" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="2" h="2" spezi="ALWAYS" />
+<item id="D331" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="1" h="1" spezi="ALWAYS" />
+<item id="S56" buy_w2="6" buy_xp="50" buy_level="20" w="4" h="4" duration="960" menge="450" spezi="ALWAYS" harvest_w1="146" />
+<item id="S54" buy_w2="2" buy_xp="16" buy_level="0" w="4" h="4" duration="240" menge="450" spezi="ALWAYS" harvest_w1="39" />
+<item id="S55" buy_w2="3" buy_xp="28" buy_level="10" w="4" h="4" duration="480" menge="450" spezi="ALWAYS" harvest_w1="70" />
+<item id="S58" buy_w2="9" buy_xp="74" buy_level="60" w="4" h="4" duration="1440" menge="450" spezi="ALWAYS" harvest_w1="305" />
+<item id="S57" buy_w2="5" buy_xp="40" buy_level="35" w="4" h="4" duration="720" menge="450" spezi="ALWAYS" harvest_w1="155" />
+<item id="H22" buy_w1="664000" sell_w1="33200" buy_xp="13280" buy_level="30" w="18" h="12" spezi="ALWAYS" />
+<item id="S52" buy_w2="2" buy_xp="24" buy_level="0" w="4" h="4" duration="240" menge="450" spezi="EASTER" harvest_w1="39" />
+<item id="S53" buy_w2="9" buy_xp="111" buy_level="62" w="4" h="4" duration="1440" menge="450" spezi="EASTER" harvest_w1="312" />
+<item id="S62" buy_w1="25" buy_xp="14" buy_level="3" w="4" h="4" duration="480" spezi="EASTER" harvest_w1="95" />
+<item id="S63" buy_w1="65" buy_xp="20" buy_level="8" w="4" h="4" duration="720" spezi="EASTER" harvest_w1="177" />
+<item id="D08" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="1" w="1" h="1" spezi="ALWAYS" />
+<item id="D09" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="1" w="1" h="1" spezi="ALWAYS" />
+<item id="D21" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="1" w="1" h="4" spezi="ALWAYS" />
+<item id="D22" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="1" w="1" h="1" spezi="ALWAYS" />
+<item id="D23" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="5" w="1" h="4" spezi="ALWAYS" />
+<item id="D24" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="5" w="1" h="1" spezi="ALWAYS" />
+<item id="D25" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="1" w="1" h="4" spezi="ALWAYS" />
+<item id="D26" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="5" w="1" h="4" spezi="ALWAYS" />
+<item id="D00" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="1" w="2" h="1" spezi="ALWAYS" />
+<item id="D01" buy_w1="400" sell_w1="20" buy_xp="8" buy_level="2" w="1" h="1" spezi="ALWAYS" />
+<item id="D11" buy_w1="900" sell_w1="45" buy_xp="18" buy_level="3" w="1" h="1" spezi="ALWAYS" />
+<item id="D20" buy_w1="1600" sell_w1="80" buy_xp="32" buy_level="4" w="1" h="4" spezi="ALWAYS" />
+<item id="D12" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="5" w="1" h="1" spezi="ALWAYS" />
+<item id="D13" buy_w1="3600" sell_w1="180" buy_xp="72" buy_level="6" w="2" h="2" spezi="ALWAYS" />
+<item id="D14" buy_w1="3600" sell_w1="180" buy_xp="72" buy_level="6" w="1" h="2" spezi="ALWAYS" />
+<item id="S46" buy_level="0" w="0" h="0" spezi="CHRISTMAS" />
+<item id="D15" buy_w1="4900" sell_w1="245" buy_xp="98" buy_level="7" w="1" h="3" spezi="ALWAYS" />
+<item id="D16" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="1" h="1" spezi="ALWAYS" />
+<item id="D17" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="1" h="1" spezi="ALWAYS" />
+<item id="S59" buy_w2="2" buy_xp="24" buy_level="0" w="4" h="4" duration="240" menge="450" spezi="BIRTHDAY" harvest_w1="39" />
+<item id="D18" buy_w1="8100" sell_w1="405" buy_xp="162" buy_level="9" w="1" h="1" spezi="ALWAYS" />
+<item id="D02" buy_w1="10000" sell_w1="500" buy_xp="200" buy_level="10" w="3" h="1" spezi="ALWAYS" />
+<item id="D19" buy_w1="10000" sell_w1="500" buy_xp="200" buy_level="10" w="1" h="1" spezi="ALWAYS" />
+<item id="D03" buy_w1="12100" sell_w1="605" buy_xp="242" buy_level="11" w="3" h="1" spezi="ALWAYS" />
+<item id="D04" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="12" w="2" h="2" spezi="ALWAYS" />
+<item id="Y00" buy_level="0" w="4" h="4" spezi="ALWAYS" />
+<item id="A01" buy_level="0" w="1" h="1" spezi="ALWAYS" />
+<item id="Y01" buy_w1="10" buy_level="0" w="4" h="4" spezi="ALWAYS" />
+<item id="A02" buy_level="0" w="1" h="1" spezi="ALWAYS" />
+<item id="Y02" buy_w1="10" buy_level="0" w="4" h="4" spezi="ALWAYS" />
+<item id="F30" buy_w1="30000" buy_level="0" w="0" h="0" spezi="ALWAYS" power="10" menge="1000" buy_bonus="200" />
+<item id="F31" buy_w2="8" buy_level="0" w="0" h="0" spezi="ALWAYS" power="50" menge="2500" buy_bonus="500" />
+<item id="F40" buy_w1="30000" buy_level="0" w="0" h="0" spezi="ALWAYS" power="10" menge="1000" buy_bonus="200" />
+<item id="F41" buy_w2="8" buy_level="0" w="0" h="0" spezi="ALWAYS" power="50" menge="2500" buy_bonus="500" />
+<item id="F50" buy_level="999" w="0" h="0" spezi="ALWAYS" power="50" menge="1" buy_bonus="0" />
+<item id="D124" buy_w1="22500" buy_w2="2" sell_w1="1325" buy_xp="550" buy_level="0" w="3" h="6" spezi="ALWAYS" />
+<item id="D125" buy_w1="10000" buy_w2="3" sell_w1="800" buy_xp="350" buy_level="0" w="2" h="4" spezi="ALWAYS" />
+<item id="D128" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="1" h="1" spezi="ALWAYS" />
+<item id="D129" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="2" h="2" spezi="ALWAYS" />
+<item id="D130" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="2" h="2" spezi="ALWAYS" />
+<item id="T19" buy_w1="2650" sell_w1="132" buy_xp="106" buy_level="24" w="2" h="2" duration="1440" spezi="ALWAYS" harvest_w1="40" />
+<item id="D123" buy_w1="10000" buy_w2="1" sell_w1="600" buy_xp="250" buy_level="0" w="3" h="3" spezi="ALWAYS" />
+<item id="B023" buy_w1="2450" sell_w1="122" buy_xp="98" buy_level="45" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="114" />
+<item id="B024" buy_w1="2550" sell_w1="127" buy_xp="102" buy_level="47" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="30" />
+<item id="B025" buy_w1="2650" sell_w1="132" buy_xp="106" buy_level="49" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="62" />
+<item id="B027" buy_w1="2850" buy_w2="7" sell_w1="842" buy_xp="289" buy_level="53" w="1" h="1" duration="5760" spezi="ALWAYS" harvest_w1="142" />
+<item id="T03" buy_w1="2850" sell_w1="142" buy_xp="114" buy_level="26" w="1" h="1" duration="2880" spezi="ALWAYS" harvest_w1="82" />
+<item id="T110" buy_w1="3050" buy_w2="5" sell_w1="652" buy_xp="247" buy_level="28" w="2" h="2" duration="4320" spezi="ALWAYS" harvest_w1="130" />
+<item id="T20" buy_w1="3450" buy_w2="7" sell_w1="872" buy_xp="313" buy_level="32" w="1" h="1" duration="1440" spezi="ALWAYS" harvest_w1="47" />
+<item id="T05" buy_w1="250" buy_w2="3" sell_w1="312" buy_xp="85" buy_level="0" w="1" h="1" duration="4320" spezi="ALWAYS" harvest_w1="43" />
+<item id="H25" buy_w1="1000000" buy_w2="15" sell_w1="51500" buy_xp="20750" buy_level="35" w="12" h="10" spezi="ALWAYS" />
+<item id="H28" buy_w1="3000000" buy_w2="31" sell_w1="153100" buy_xp="61550" buy_level="50" w="48" h="32" spezi="ALWAYS" />
+<item id="D114" buy_w1="16900" buy_w2="3" sell_w1="1145" buy_xp="488" buy_level="0" w="1" h="1" spezi="ALWAYS" />
+<item id="D115" buy_w1="8100" buy_w2="5" sell_w1="905" buy_xp="412" buy_level="0" w="3" h="3" spezi="ALWAYS" />
+<item id="D117" buy_w1="57600" buy_w2="3" sell_w1="1302" buy_xp="1302" buy_level="0" w="4" h="5" spezi="ALWAYS" />
+<item id="D119" buy_w1="108900" buy_w2="8" sell_w1="6245" buy_xp="2578" buy_level="0" w="13" h="8" spezi="ALWAYS" />
+<item id="D126" buy_w1="12100" buy_w2="3" sell_w1="905" buy_xp="392" buy_level="0" w="6" h="2" spezi="ALWAYS" />
+<item id="D127" buy_w1="8100" buy_w2="1" sell_w1="505" buy_xp="212" buy_level="0" w="1" h="1" spezi="ALWAYS" />
+<item id="D131" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="2" h="2" spezi="ALWAYS" />
+<item id="D132" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="8" w="2" h="2" spezi="ALWAYS" />
+<item id="D133" buy_w1="6400" sell_w1="320" buy_xp="128" buy_level="0" w="2" h="2" spezi="ALWAYS" />
+<item id="D010" buy_w1="25600" sell_w1="1280" buy_xp="512" buy_level="16" w="2" h="2" spezi="ALWAYS" />
+<item id="D011" buy_w1="8100" buy_w2="1" sell_w1="505" buy_xp="212" buy_level="0" w="3" h="1" spezi="ALWAYS" />
+<item id="S010" buy_w1="315" buy_xp="8" buy_level="62" w="4" h="4" duration="240" spezi="ALWAYS" harvest_w1="380" />
+<item id="S225" buy_w1="320" buy_xp="25" buy_level="68" w="4" h="4" duration="960" spezi="ALWAYS" harvest_w1="551" />
+<item id="B032" buy_w1="200" buy_w2="3" sell_w1="310" buy_xp="83" buy_level="0" w="1" h="1" duration="1440" spezi="EASTER" harvest_w1="29" />
+<item id="B033" buy_w1="700" buy_w2="3" sell_w1="335" buy_xp="103" buy_level="10" w="1" h="1" duration="2880" spezi="EASTER" harvest_w1="63" />
+<item id="B034" buy_w1="2950" buy_w2="7" sell_w1="847" buy_xp="293" buy_level="55" w="1" h="1" duration="4320" spezi="EASTER" harvest_w1="119" />
+<item id="T114" buy_w1="250" buy_w2="3" sell_w1="312" buy_xp="85" buy_level="0" w="2" h="2" duration="1440" spezi="EASTER" harvest_w1="16" />
+<item id="T22" buy_w1="3850" buy_w2="7" sell_w1="892" buy_xp="329" buy_level="36" w="2" h="2" duration="2880" spezi="EASTER" harvest_w1="104" />
+<item id="H218" buy_w1="75000" buy_w2="12" sell_w1="4950" buy_xp="2100" buy_level="0" w="6" h="6" spezi="EASTER" />
+<item id="H219" buy_w1="75000" buy_w2="12" sell_w1="4950" buy_xp="2100" buy_level="0" w="6" h="6" spezi="EASTER" />
+<item id="D171" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D170" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D169" buy_w1="8100" sell_w1="405" buy_xp="162" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D168" buy_w1="8100" sell_w1="405" buy_xp="162" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D167" buy_w1="8100" sell_w1="405" buy_xp="162" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D166" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D165" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D164" buy_w1="2500" sell_w1="125" buy_xp="50" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D163" buy_w1="10000" buy_w2="2" sell_w1="700" buy_xp="300" buy_level="0" w="4" h="3" spezi="EASTER" />
+<item id="D162" buy_w1="10000" buy_w2="2" sell_w1="700" buy_xp="300" buy_level="0" w="4" h="3" spezi="EASTER" />
+<item id="D161" buy_w1="16900" buy_w2="4" sell_w1="1245" buy_xp="538" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D160" buy_w1="22500" buy_w2="5" sell_w1="1625" buy_xp="700" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D172" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D173" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D174" buy_w1="14400" sell_w1="720" buy_xp="288" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D175" buy_w1="6400" buy_w2="1" sell_w1="420" buy_xp="178" buy_level="0" w="2" h="2" spezi="EASTER" />
+<item id="D176" buy_w1="100" buy_w2="5" sell_w1="505" buy_xp="252" buy_level="0" w="1" h="7" spezi="BIRTHDAY" />
+<item id="D177" buy_w1="900" sell_w1="45" buy_xp="18" buy_level="0" w="1" h="1" spezi="BIRTHDAY" />
+<item id="D178" buy_w1="900" sell_w1="45" buy_xp="18" buy_level="0" w="1" h="1" spezi="BIRTHDAY" />
+<item id="D179" buy_w1="900" sell_w1="45" buy_xp="18" buy_level="0" w="1" h="1" spezi="BIRTHDAY" />
+<item id="E11" buy_xp="100" buy_level="1" w="40" h="40" buy_buddies="2" spezi="ALWAYS" />
+<item id="E12" buy_xp="400" buy_level="3" w="48" h="48" buy_buddies="4" spezi="ALWAYS" />
+<item id="E13" buy_xp="900" buy_level="5" w="56" h="56" buy_buddies="8" spezi="ALWAYS" />
+<item id="E14" buy_xp="2900" buy_level="10" w="64" h="64" buy_buddies="12" spezi="ALWAYS" />
+<item id="E15" buy_xp="5600" buy_level="15" w="72" h="72" buy_buddies="16" spezi="ALWAYS" />
+<item id="E16" buy_xp="9100" buy_level="20" w="80" h="80" buy_buddies="20" spezi="ALWAYS" />
+<item id="E17" buy_xp="13200" buy_level="25" w="88" h="88" buy_buddies="24" spezi="ALWAYS" />
+<item id="E18" buy_xp="17900" buy_level="30" w="96" h="96" buy_buddies="28" spezi="ALWAYS" />
+<item id="E21" buy_w1="1000" buy_xp="100" buy_level="3" w="40" h="40" spezi="ALWAYS" />
+<item id="E22" buy_w1="21000" buy_xp="400" buy_level="8" w="48" h="48" spezi="ALWAYS" />
+<item id="E23" buy_w1="63000" buy_xp="900" buy_level="13" w="56" h="56" spezi="ALWAYS" />
+<item id="E24" buy_w1="180000" buy_xp="2900" buy_level="25" w="64" h="64" spezi="ALWAYS" />
+<item id="E25" buy_w1="450000" buy_xp="5600" buy_level="38" w="72" h="72" spezi="ALWAYS" />
+<item id="E26" buy_w1="580000" buy_xp="9100" buy_level="50" w="80" h="80" spezi="ALWAYS" />
+<item id="E27" buy_w1="730000" buy_xp="13200" buy_level="63" w="88" h="88" spezi="ALWAYS" />
+<item id="E28" buy_w1="880000" buy_xp="17900" buy_level="75" w="96" h="96" spezi="ALWAYS" />
+<item id="F20" buy_w2="25" buy_level="0" w="0" h="0" spezi="ALWAYS" power="100" menge="5000" buy_bonus="0" />
+<item id="T07" buy_w1="250" sell_w1="12" buy_xp="10" buy_level="0" w="1" h="1" duration="2880" spezi="PIRATES" harvest_w1="25" />
+<item id="H220" buy_w1="350000" sell_w1="17500" buy_xp="7000" buy_level="0" w="20" h="10" spezi="PIRATES" />
+<item id="D180" buy_w1="100" sell_w1="5" buy_xp="2" buy_level="0" w="1" h="1" spezi="PIRATES" />
+</items>
+<achievements>
+<achievement  id="1" req="1000#25000#250000#2500000#10000000#20000000#50000000#100000000#250000000#500000000" />
+<achievement  id="2" req="1000#25000#250000#2500000#10000000#20000000#50000000#100000000#250000000#500000000" />
+<achievement  id="3" req="2#5#9#14#20#27#35#44#54#65" />
+<achievement  id="4" req="5#15#30#50#75#105#140#180#225#275" />
+<achievement  id="5" req="3#15#45#90#150#350#650#1250#2500#5000" />
+<achievement  id="6" req="100#1000#10000#100000#1000000#2000000#5000000#10000000#25000000#50000000" />
+<achievement  id="7" req="25#250#2500#25000#250000#500000#1250000#2500000#6250000#12500000" />
+<achievement  id="8" req="25#250#2500#25000#250000#500000#1250000#2500000#6250000#12500000" />
+<achievement  id="9" req="25#250#2500#25000#250000#500000#1250000#2500000#6250000#12500000" />
+<achievement  id="10" req="25#250#2500#25000#250000#500000#1250000#2500000#6250000#12500000" />
+<achievement  id="11" req="5#50#500#5000#50000#100000#250000#500000#1250000#2500000" />
+<achievement  id="12" req="5#50#500#5000#50000#100000#250000#500000#1250000#2500000" />
+<achievement  id="13" req="1000#10000#100000#1000000#10000000" />
+<achievement  id="14" req="5#50#500#1250#2500" />
+<achievement  id="15" req="10#100#1000#2500#5000" />
+<achievement  id="16" req="3#15#30#100#500" />
+<achievement  id="17" req="5#50#500#1000#2500" />
+<achievement  id="18" req="5#50#500#1000#2500" />
+<achievement  id="19" req="5#50#500#1000#2500" />
+<achievement  id="20" req="5#50#500#1000#2500" />
+<achievement  id="21" req="10#100#1000#10000#100000#200000#500000#1000000#2500000#5000000" />
+<achievement  id="22" req="10#100#1000#10000#100000#200000#500000#1000000#2500#5000" />
+<achievement  id="23" req="2#4#6#8#10" />
+<achievement  id="24" req="2#4#6#8#10" />
+<achievement  id="25" req="2#4#6#8#10" />
+<achievement  id="26" req="2#4#8#13#25" />
+<achievement  id="27" req="2#5#9#14#20#27" />
+<achievement  id="28" req="2#4#6#9#11#14#18" />
+<achievement  id="29" req="10#30#50#70#90#100" />
+<achievement  id="30" req="15#60#105#150#183" />
+<achievement  id="31" req="5#20#35#50#61" />
+<achievement  id="32" req="1#5#10#25#50" />
+<achievement  id="33" req="3#15#45#90#150#350#650#1250" />
+<achievement  id="34" req="300#1500#4500#9000#15000#35000#65000#125000#250000#500000" />
+<achievement  id="35" req="2#4#7#10" />
+<achievement  id="36" req="50#500#5000#50000#500000#1000000#25000000#50000000#125000000#250000000" />
+<achievement  id="37" req="50#500#5000#50000#500000#1000000#25000000#50000000#125000000#250000000" />
+<achievement  id="38" req="50#500#5000#50000#500000#1000000#25000000#50000000#125000000#250000000" />
+<achievement  id="39" req="50#500#5000#50000#500000#1000000#25000000#50000000#125000000#250000000" />
+
+</achievements>
+<markets>
+<market  item="H30" rot="0"  pos="2" />
+<market  item="G00" rot="0"  pos="1008" />
+<market  item="D60" rot="0"  pos="2500" />
+<market  item="G00" rot="0"  pos="1014" />
+<market  item="G00" rot="0"  pos="1000" />
+<market  item="D125" rot="0"  pos="2118" />
+<market  item="B019" rot="0"  pos="2326" />
+<market  item="D08" rot="0"  pos="2023" />
+<market  item="D08" rot="0"  pos="2124" />
+<market  item="B018" rot="0"  pos="2126" />
+<market  item="D09" rot="0"  pos="210" />
+<market  item="D09" rot="0"  pos="211" />
+<market  item="D03" rot="0"  pos="1524" />
+<market  item="G00" rot="4"  pos="1612" />
+<market  item="S510" rot="0"  pos="2415" />
+<market  item="D06" rot="0"  pos="1625" />
+<market  item="S510" rot="0"  pos="2420" />
+<market  item="D180" rot="0"  pos="1924" />
+<market  item="D41" rot="0"  pos="115" />
+<market  item="T07" rot="2"  pos="2223" />
+<market  item="D08" rot="0"  pos="2222" />
+<market  item="D31" rot="0"  pos="1327" />
+<market  item="G00" rot="2"  pos="1210" />
+<market  item="H31" rot="0"  pos="720" />
+<market  item="B012" rot="0"  pos="124" />
+<market  item="G00" rot="0"  pos="1618" />
+<market  item="B015" rot="0"  pos="300" />
+<market  item="G00" rot="2"  pos="606" />
+<market  item="D110" rot="0"  pos="120" />
+</markets>
+</datas>
+<!-- number of written items: 383 -->
+<!-- number of written achievments: 39 -->
+<!-- number of written market items: 31 -->

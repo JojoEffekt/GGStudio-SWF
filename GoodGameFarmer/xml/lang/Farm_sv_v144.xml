@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - sv - 14 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="samla ägg"  />
+			<text id="T01" name="samla ägg"  />
+			<text id="T02" name="samla ägg"  />
+			<text id="T03" name="samla ägg"  />
+			<text id="T04" name="uthyrningsgala"  />
+			<text id="T05" name="samla ägg"  />
+			<text id="T06" name="samla ägg"  />
+			<text id="T07" name="husdjur"  />
+			<text id="T10" name="samla tryffel"  />
+			<text id="T11" name="mjölka"  />
+			<text id="T110" name="mjölk"  />
+			<text id="T111" name="borsta"  />
+			<text id="T112" name="borsta"  />
+			<text id="T113" name="mjölk"  />
+			<text id="T114" name="borsta"  />
+			<text id="T115" name="borsta"  />
+			<text id="T12" name="klipp"  />
+			<text id="T13" name="mjölka"  />
+			<text id="T14" name="borsta"  />
+			<text id="T15" name="borsta"  />
+			<text id="T16" name="borsta"  />
+			<text id="T17" name="borsta"  />
+			<text id="T18" name="borsta"  />
+			<text id="T19" name="klipp"  />
+			<text id="T20" name="borsta"  />
+			<text id="T21" name="borsta"  />
+			<text id="T22" name="borsta"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D35"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{2}{1}{0}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="K"  />
+				<text id="s1" name="M"  />
+				<text id="s2" name="B"  />
+				<text id="s3" name="Q"  />
+				<text id="s4" name="T"  />
+				<text id="s5" name="Kvi"  />
+				<text id="s6" name="Set"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="D"  />
+				<text id="day1" name="dag"  />
+				<text id="day2" name="dagar"  />
+				<text id="heute" name="idag"  />
+				<text id="hour0" name="h"  />
+				<text id="hour1" name="timme"  />
+				<text id="hour2" name="timmar"  />
+				<text id="min0" name="min"  />
+				<text id="min1" name="minut"  />
+				<text id="min2" name="minuter"  />
+				<text id="morgen" name="imorgon"  />
+				<text id="sofort" name="genast"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="TILLBAKS"  />
+				<text id="ex" name="AVSLUTA"  />
+				<text id="next" name="Fortsätt"  />
+				<text id="no" name="NEJ"  />
+				<text id="yes" name="JA"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Ditt mål i #play# är att samla XP och mynt så att du kan utveckla och dekorera din gård."  />
+				<text id="intro_01_goals_t" name="Mål"  />
+				<text id="welcome_01_i" name="Välkommen till #play#, #name# Vi skulle uppskatta om du ville gå igenom en handledningssekvens för att lära dig de grundläggande spelmomenten. Du kommer belönas för det! Är du med?"  />
+				<text id="welcome_01_t" name="Handledning"  />
+				<text id="welcome_02_i" name="OK, du vill inte ha belöningen... Du kan gå igenom handledningen när som helst genom att klicka på lövet utmärkt med ett frågetecken. Spelets regler hittar du i hjälpsektionen &quot;Frågor och svar&quot;. Lycka till!"  />
+				<text id="welcome_02_t" name="Handledning steg 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Jag har just installerat Goodgame Farmer. Kom förbi och se vad jag skördar just nu!"  />
+			<text id="descriptionlongfarmer" name="Välkommen till Goodgame Farmer, den nya bondgårdssimulatorn från Goodgame Studios! Njut av det vackra landslivet och sköt din egen virtuella bondgård. Odla grödor och träd, ta hand om djur, expandera och spela med vänner från hela världen i ett roligt och sött spel!"  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Kvinna"  />
+			<text id="A02" name="Man"  />
+			<text id="B00" name="Äpple"  />
+			<text id="B01" name="Päron"  />
+			<text id="B010" name="Avokado"  />
+			<text id="B011" name="Dadel"  />
+			<text id="B012" name="Fikon"  />
+			<text id="B013" name="Granatäpple"  />
+			<text id="B014" name="Kiwi"  />
+			<text id="B015" name="Kaki"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papaya"  />
+			<text id="B018" name="Kokosnöt"  />
+			<text id="B019" name="Drakfrukt"  />
+			<text id="B02" name="Körsbär"  />
+			<text id="B020" name="Kakao"  />
+			<text id="B021" name="Valnöt"  />
+			<text id="B022" name="Brödfrukt"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Mandel"  />
+			<text id="B025" name="Litchi"  />
+			<text id="B026" name="Stjärnfrukt"  />
+			<text id="B027" name="Eldträd"  />
+			<text id="B028" name="Bambu"  />
+			<text id="B029" name="Kanderat äpple"  />
+			<text id="B03" name="Persika"  />
+			<text id="B030" name="Pepparkaka"  />
+			<text id="B031" name="Choklad"  />
+			<text id="B032" name="Påskträd röd"  />
+			<text id="B033" name="Påskträd blått"  />
+			<text id="B034" name="Säv"  />
+			<text id="B04" name="Plommon"  />
+			<text id="B05" name="Oliv"  />
+			<text id="B06" name="Banan"  />
+			<text id="B07" name="Citron"  />
+			<text id="B08" name="Apelsin"  />
+			<text id="B09" name="Grapefrukt"  />
+			<text id="D00" name="Vedtrave"  />
+			<text id="D01" name="Höbal"  />
+			<text id="D010" name="Stubbe"  />
+			<text id="D011" name="Kärrhjulsluster"  />
+			<text id="D02" name="Utfodringstråg"  />
+			<text id="D03" name="Vattentråg"  />
+			<text id="D04" name="Brunn"  />
+			<text id="D05" name="Hästplog"  />
+			<text id="D06" name="Vattenpump"  />
+			<text id="D07" name="Hästvagn"  />
+			<text id="D08" name="Tunna"  />
+			<text id="D09" name="Låda"  />
+			<text id="D11" name="Fågelskrämma"  />
+			<text id="D110" name="Parkbänk"  />
+			<text id="D111" name="Mörk bänk"  />
+			<text id="D112" name="Fontän"  />
+			<text id="D113" name="Fågelskrämma"  />
+			<text id="D114" name="Uggla"  />
+			<text id="D115" name="Väderkvarn"  />
+			<text id="D116" name="Vindstrut"  />
+			<text id="D117" name="Liten damm"  />
+			<text id="D118" name="Stor damm"  />
+			<text id="D119" name="Karpdamm"  />
+			<text id="D12" name="Gräsklippare"  />
+			<text id="D120" name="Pool"  />
+			<text id="D121" name="Picknick"  />
+			<text id="D122" name="Trädgårdsbord"  />
+			<text id="D123" name="Trädgårdsstol"  />
+			<text id="D124" name="Hammock"  />
+			<text id="D125" name="Solstol"  />
+			<text id="D126" name="Tvättlina"  />
+			<text id="D127" name="Lykta"  />
+			<text id="D128" name="Rund kaktus"  />
+			<text id="D129" name="Röda liljor"  />
+			<text id="D13" name="Uthus"  />
+			<text id="D130" name="Lång kaktus"  />
+			<text id="D131" name="Prydnadsträd"  />
+			<text id="D132" name="Buske i vas"  />
+			<text id="D133" name="Vita liljor"  />
+			<text id="D134" name="Spökskrämma"  />
+			<text id="D135" name="Valp"  />
+			<text id="D136" name="Present"  />
+			<text id="D137" name="Snöbarn"  />
+			<text id="D138" name="Snögubbe"  />
+			<text id="D139" name="Snögumma"  />
+			<text id="D14" name="Skottkärra"  />
+			<text id="D140" name="Skidåkare"  />
+			<text id="D141" name="Fågelhuskatt"  />
+			<text id="D142" name="Släde"  />
+			<text id="D143" name="Snöängel"  />
+			<text id="D144" name="Julskylt"  />
+			<text id="D145" name="Varningsskylt"  />
+			<text id="D146" name="Nordpolenskylt"  />
+			<text id="D147" name="Snöget"  />
+			<text id="D148" name="Snöhund"  />
+			<text id="D149" name="Snöfår"  />
+			<text id="D15" name="Lätt bänk"  />
+			<text id="D150" name="Snöko"  />
+			<text id="D151" name="Snökatt"  />
+			<text id="D152" name="Snökyckling"  />
+			<text id="D153" name="Snögris"  />
+			<text id="D154" name="Snögås"  />
+			<text id="D155" name="Grind"  />
+			<text id="D156" name="Staket"  />
+			<text id="D157" name="Stolpe"  />
+			<text id="D158" name="Blågran"  />
+			<text id="D159" name="Julgran"  />
+			<text id="D16" name="Grill"  />
+			<text id="D160" name="Majstång"  />
+			<text id="D161" name="Fågelbo"  />
+			<text id="D162" name="Höman"  />
+			<text id="D163" name="Höman"  />
+			<text id="D164" name="Rött ägg"  />
+			<text id="D165" name="Blå ägg"  />
+			<text id="D166" name="Lila ägg"  />
+			<text id="D167" name="Röd äggrupp"  />
+			<text id="D168" name="Blå ägggrupp"  />
+			<text id="D169" name="Lila äggrupp"  />
+			<text id="D17" name="Gårdstomte"  />
+			<text id="D170" name="Bp med blå ägg"  />
+			<text id="D171" name="Bo med gröna ägg"  />
+			<text id="D172" name="Lila äggbo"  />
+			<text id="D173" name="Rött äggbo"  />
+			<text id="D174" name="Vitt äggbo"  />
+			<text id="D175" name="Bo fullt av ägg"  />
+			<text id="D176" name="Garland"  />
+			<text id="D177" name="Röd ballong"  />
+			<text id="D178" name="Blå ballong"  />
+			<text id="D179" name="Gul ballong"  />
+			<text id="D18" name="Brevlåda"  />
+			<text id="D180" name="Piratflagga"  />
+			<text id="D19" name="Fågelholk"  />
+			<text id="D20" name="Häck"  />
+			<text id="D21" name="Staket"  />
+			<text id="D210" name="Skräckvalv"  />
+			<text id="D22" name="Stolpe"  />
+			<text id="D23" name="Staket"  />
+			<text id="D24" name="Stolpe"  />
+			<text id="D25" name="Grind"  />
+			<text id="D26" name="Grind"  />
+			<text id="D27" name="Häckvalv"  />
+			<text id="D28" name="Skräckstaket"  />
+			<text id="D29" name="Skräckstolpe"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Tyskland"  />
+			<text id="D310" name="Italien"  />
+			<text id="D311" name="Frankrike"  />
+			<text id="D312" name="Spanien"  />
+			<text id="D313" name="Portugal"  />
+			<text id="D314" name="Nederländerna"  />
+			<text id="D315" name="Belgien"  />
+			<text id="D316" name="Polen"  />
+			<text id="D317" name="Ryssland"  />
+			<text id="D318" name="Tjeckien"  />
+			<text id="D319" name="Grekland"  />
+			<text id="D32" name="Österrike"  />
+			<text id="D320" name="Turkiet"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Mexiko"  />
+			<text id="D324" name="Brasilien"  />
+			<text id="D325" name="Argentina"  />
+			<text id="D326" name="Kina"  />
+			<text id="D327" name="Japan"  />
+			<text id="D328" name="Australien"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Schweiz"  />
+			<text id="D330" name="Ungern"  />
+			<text id="D331" name="Taiwan"  />
+			<text id="D34" name="Finland"  />
+			<text id="D35" name="Sverige"  />
+			<text id="D36" name="Norge"  />
+			<text id="D37" name="Danmark"  />
+			<text id="D38" name="Storbritannien"  />
+			<text id="D39" name="Irland"  />
+			<text id="D40" name="Häst"  />
+			<text id="D41" name="Träd"  />
+			<text id="D410" name="Skräckträd"  />
+			<text id="D42" name="Ko"  />
+			<text id="D43" name="Får"  />
+			<text id="D44" name="Gris"  />
+			<text id="D45" name="Get"  />
+			<text id="D46" name="Gås"  />
+			<text id="D47" name="Kyckling"  />
+			<text id="D48" name="Hund"  />
+			<text id="D49" name="Katt"  />
+			<text id="D60" name="Marknadsplats"  />
+			<text id="D70" name="Skelett"  />
+			<text id="D71" name="Zombie-hand"  />
+			<text id="D72" name="Gravsten"  />
+			<text id="D73" name="Jack o'lantern"  />
+			<text id="D74" name="Jack o'lantern"  />
+			<text id="D75" name="Jack o'lantern"  />
+			<text id="D76" name="Jack o'lantern"  />
+			<text id="D77" name="Jack o'lantern"  />
+			<text id="Dxxx" name="Grönt fågelbo"  />
+			<text id="E01" name="10x10 fält"  />
+			<text id="E02" name="12x12 fält"  />
+			<text id="E03" name="14x14 fält"  />
+			<text id="E04" name="16x16 fält"  />
+			<text id="E05" name="18x18 fält"  />
+			<text id="E06" name="20x20 fält"  />
+			<text id="E07" name="22x22 fält"  />
+			<text id="E08" name="24x24 fält"  />
+			<text id="E11" name="10x10 fält"  />
+			<text id="E12" name="12x12 fält"  />
+			<text id="E13" name="14x14 fält"  />
+			<text id="E14" name="16x16 fält"  />
+			<text id="E15" name="18x18 fält"  />
+			<text id="E16" name="20x20 fält"  />
+			<text id="E17" name="22x22 fält"  />
+			<text id="E18" name="24x24 fält"  />
+			<text id="E21" name="10x10 fält"  />
+			<text id="E22" name="12x12 fält"  />
+			<text id="E23" name="14x14 fält"  />
+			<text id="E24" name="16x16 fält"  />
+			<text id="E25" name="18x18 fält"  />
+			<text id="E26" name="20x20 fält"  />
+			<text id="E27" name="22x22 fält"  />
+			<text id="E28" name="24x24 fält"  />
+			<text id="F01" name="Tid - M"  />
+			<text id="F20" name="Uppfriskare"  />
+			<text id="F30" name="Gödningmedel"  />
+			<text id="F31" name="Premiumsäd"  />
+			<text id="F40" name="Mata"  />
+			<text id="F41" name="Premiumfoder"  />
+			<text id="F50" name="Trollspö"  />
+			<text id="G00" name="Stengång"  />
+			<text id="H00" name="Lada"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Verktygsskjul"  />
+			<text id="H03" name="Väderkvarn"  />
+			<text id="H04" name="Växthus"  />
+			<text id="H05" name="Skräckväxthus"  />
+			<text id="H06" name="Spöklik silo"  />
+			<text id="H07" name="Spökväderkvarn"  />
+			<text id="H08" name="Julsilo"  />
+			<text id="H09" name="Julväderkvarn"  />
+			<text id="H10" name="Hönshus"  />
+			<text id="H11" name="Svinstia"  />
+			<text id="H12" name="Ladugård"  />
+			<text id="H13" name="Häststall"  />
+			<text id="H20" name="Hydda"  />
+			<text id="H21" name="Stuga"  />
+			<text id="H210" name="Hemsökt stuga"  />
+			<text id="H211" name="Hemsökt villa"  />
+			<text id="H212" name="Julhydda"  />
+			<text id="H213" name="Julstuga"  />
+			<text id="H214" name="Julvilla"  />
+			<text id="H215" name="Godishus"  />
+			<text id="H216" name="Stor julstuga"  />
+			<text id="H217" name="Stor julvilla"  />
+			<text id="H218" name="Hus med blå ägg"  />
+			<text id="H219" name="Rosa ägghus"  />
+			<text id="H22" name="Villa"  />
+			<text id="H220" name="Piratskepp"  />
+			<text id="H23" name="Hundkoja"  />
+			<text id="H24" name="Trädkoja"  />
+			<text id="H25" name="Lantställe"  />
+			<text id="H26" name="Orangeri"  />
+			<text id="H27" name="Stor villa"  />
+			<text id="H28" name="Gigantisk villa"  />
+			<text id="H29" name="Hemsökt hydda"  />
+			<text id="H30" name="Fruktstånd"  />
+			<text id="H31" name="Verktygsbutik"  />
+			<text id="H32" name="Lotteri Bee Soda"  />
+			<text id="H40" name="Silo(Gödsel)"  />
+			<text id="H50" name="Spökherrgård"  />
+			<text id="H51" name="Mardrömskyrka"  />
+			<text id="N01" name="Skörda träd"  />
+			<text id="N02" name="Skörda djur"  />
+			<text id="R00" name="Jobbenergi M"  />
+			<text id="R01" name="Jobbenergi S"  />
+			<text id="R02" name="Jobbenergi XL"  />
+			<text id="S00" name="Tulpan"  />
+			<text id="S01" name="Liljekonvalj"  />
+			<text id="S010" name="Lila Roses"  />
+			<text id="S02" name="Lavendel"  />
+			<text id="S03" name="Solros"  />
+			<text id="S04" name="Ros"  />
+			<text id="S05" name="Dahlia"  />
+			<text id="S06" name="Krokus"  />
+			<text id="S07" name="Lilja"  />
+			<text id="S08" name="Lupin"  />
+			<text id="S09" name="Vallmo"  />
+			<text id="S10" name="Jordgubbar"  />
+			<text id="S11" name="Vattenmelon"  />
+			<text id="S12" name="Ananas"  />
+			<text id="S13" name="Vindruvor"  />
+			<text id="S14" name="Honungsmelon"  />
+			<text id="S15" name="Hallon"  />
+			<text id="S16" name="Blåbär"  />
+			<text id="S17" name="Tranbär"  />
+			<text id="S18" name="Krusbär"  />
+			<text id="S19" name="Björnbär"  />
+			<text id="S20" name="Aubergine"  />
+			<text id="S21" name="Blomkål"  />
+			<text id="S210" name="Spenat"  />
+			<text id="S211" name="Lök"  />
+			<text id="S212" name="Rödkål"  />
+			<text id="S213" name="Potatis"  />
+			<text id="S214" name="Morot"  />
+			<text id="S215" name="Ärtor"  />
+			<text id="S216" name="Rädisa"  />
+			<text id="S217" name="Rabarber"  />
+			<text id="S218" name="Brysselkål"  />
+			<text id="S219" name="Sojabönor"  />
+			<text id="S22" name="Pumpa"  />
+			<text id="S220" name="Rödbeta"  />
+			<text id="S221" name="Broccoli"  />
+			<text id="S222" name="Kronärtskocka"  />
+			<text id="S223" name="Chilipeppar"  />
+			<text id="S224" name="Sparris"  />
+			<text id="S225" name="Raps"  />
+			<text id="S23" name="Bellpeppar"  />
+			<text id="S24" name="Tomater"  />
+			<text id="S25" name="Bönor"  />
+			<text id="S26" name="Gurka"  />
+			<text id="S27" name="Rova"  />
+			<text id="S28" name="Grönsallad"  />
+			<text id="S29" name="Zucchini"  />
+			<text id="S30" name="Vete"  />
+			<text id="S31" name="Havre"  />
+			<text id="S32" name="Ris"  />
+			<text id="S33" name="Råg"  />
+			<text id="S34" name="Majs"  />
+			<text id="S35" name="Korn"  />
+			<text id="S36" name="Hirs"  />
+			<text id="S37" name="Sockermajs"  />
+			<text id="S38" name="Durra"  />
+			<text id="S39" name="Spält"  />
+			<text id="S40" name="Kaffe"  />
+			<text id="S41" name="Te"  />
+			<text id="S42" name="Sockerrör"  />
+			<text id="S43" name="Aloe Vera"  />
+			<text id="S44" name="Bomull"  />
+			<text id="S45" name="GMO-sojabönor"  />
+			<text id="S49" name="Snödroppe"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Skattkista"  />
+			<text id="S52" name="Röda ägg"  />
+			<text id="S53" name="Blå ägg"  />
+			<text id="S54" name="Lotus"  />
+			<text id="S55" name="Vita rosor"  />
+			<text id="S56" name="Habanero chili"  />
+			<text id="S57" name="Förgätmigej"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffins"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Lila ägg"  />
+			<text id="S63" name="Gula ägg"  />
+			<text id="T00" name="Kyckling"  />
+			<text id="T01" name="Gås"  />
+			<text id="T02" name="Brun kyckling"  />
+			<text id="T03" name="Svart kyckling"  />
+			<text id="T04" name="Tupp"  />
+			<text id="T05" name="Anka"  />
+			<text id="T06" name="Julgås"  />
+			<text id="T07" name="Papegoja"  />
+			<text id="T10" name="Gris"  />
+			<text id="T11" name="Ko"  />
+			<text id="T110" name="Brun ko"  />
+			<text id="T111" name="Tjur"  />
+			<text id="T112" name="Julhäst"  />
+			<text id="T113" name="Julko"  />
+			<text id="T114" name="Lamm"  />
+			<text id="T115" name="Enhörning"  />
+			<text id="T12" name="Får"  />
+			<text id="T13" name="Get"  />
+			<text id="T14" name="Hund"  />
+			<text id="T15" name="Svart katt"  />
+			<text id="T16" name="Brun katt"  />
+			<text id="T17" name="Svart häst"  />
+			<text id="T18" name="Brun häst"  />
+			<text id="T19" name="Svart får"  />
+			<text id="T20" name="Fårhund"  />
+			<text id="T21" name="Ren"  />
+			<text id="T22" name="Kanin"  />
+			<text id="V00" name="10x påtankning"  />
+			<text id="V01" name="25x påtankning"  />
+			<text id="V02" name="50x påtankning"  />
+			<text id="V10" name="Traktor"  />
+			<text id="V20" name="Såmaskin"  />
+			<text id="V30" name="Skördetröska"  />
+			<text id="V40" name="Gödselspridare"  />
+			<text id="V90" name="Bränsletank"  />
+			<text id="Y01" name="Skördad"  />
+			<text id="Y02" name="Plöjt"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Tyvärr är din eller #name#s vänlista redan full,#tab# eller så har #name# inte accepterat din förfrågan"  />
+				<text id="buddies_add_ok" name="#name# är nu din vän."  />
+				<text id="chat_dop" name="Var god upprepa inte samma text. Tack!"  />
+				<text id="chat_nonsense" name="Var god skriv något meningsfullt. Tack!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Ogiltig mail-adress.
+Var god ange en giltig e-mail."  />
+				<text id="email_dop" name="Mail-adressen används redan.
+Var god ange en annan e-mail."  />
+				<text id="email_no" name="Okänd mail-adress."  />
+				<text id="farm_full" name="Det är redan för mycket folk på den gården. Var god välj en annan."  />
+				<text id="helper_job_no" name="#name# har avböjt din #job#-förfrågan, eller lämnat marknadsplatsen."  />
+				<text id="helper_job_ok" name="#name# har accepterat din #job#-förfrågan."  />
+				<text id="helper_owner_no_money" name="Farmens ägare har inte tillräckligt med pengar för att plöja några fler fält."  />
+				<text id="invite_sent" name="Tack ska du ha!
+Ett e-post kommer att skickas till din vän."  />
+				<text id="item_dop" name="Du har redan nått maxgränsen för det här föremålet."  />
+				<text id="kenn_bad" name="För ditt lösenord, vad god använd
+följande tecken: 5 till 15 tecken,
+bestående av #tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="Ogiltigt lösenord"  />
+				<text id="kenn_unequal" name="Omatchande lösenord"  />
+				<text id="kick" name="Tyvärr så har #name# slängt ut dig från hans eller hennes gård!#tab#Har du kanske misskött dig!?"  />
+				<text id="lagernosell" name="Du måste utrymma byggnaden innan du kan sälja den."  />
+				<text id="lager_building" name="Du måste bygga en lada eller ett verktygsskjul för att kunna lagra saker."  />
+				<text id="lager_cantsell" name="Du kommer inte kunna sälja den här byggnaden, om du inte frigör mer lagerutrymme."  />
+				<text id="lager_voll" name="Du kan bara förvara tomma funktionella föremål i ett annat funktionellt föremål."  />
+				<text id="login_bad" name="Inloggning misslyckades. Om du glömt ditt lösenord, klicka på &quot;Glömt ditt lösenord?&quot;.#tab#Om du behöver ytterligare hjälp, skicka ett e-mail till
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="För ditt spelarnamn, var god använd följande tecken:#tab#2 till 15 tecken, bestående av a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Spelarnamn redan taget. Var god skriv in eller välj ett annat namn:"  />
+				<text id="name_spam" name="Välj ett annat namn"  />
+				<text id="no_agb" name="Var god acceptera användarvillkoren."  />
+				<text id="no_arbeitskraft" name="Du har inte tillräckligt med jobbenergi för den här åtgärden. Vänta tills du har tillräckligt med jobbenergi tillgänglig eller köp lite i affären."  />
+				<text id="no_buddies" name="Tyvärr har du inte bjudit in tillräckligt många vänner ännu.#tab#För att kunna köpa #obj# måste du bjuda in #anz# vänner till."  />
+				<text id="no_chat" name="Jag måste registrera mig och nå nivå 1 för att chatta."  />
+				<text id="no_ferti" name="Du har använt upp allt av föremålstypen: #name#.
+Var god köp nytt!"  />
+				<text id="no_food" name="Du har inte foder för att ge alla djuren mat!"  />
+				<text id="no_gender" name="Du har inte valt kön. Var god klicka på någon av
+bilderna."  />
+				<text id="no_lager" name="Det finns inget lagerutrymme ledigt för det här föremålet."  />
+				<text id="no_money" name="Du har inte tillräckligt med pengar för denna åtgärd."  />
+				<text id="no_premium" name="Du har använt upp all ditt premieutsäde #name#. Köp nytt utsäde."  />
+				<text id="no_regi" name="Den här funktionen är endast för registrerade spelare.#tab#Var god registrera dig, annars går din gårds
+utveckling förlorad."  />
+				<text id="no_tanken" name="Du har inte tillräckligt med bränsle för denna åtgärd."  />
+				<text id="no_zauberstaub" name="Din {0} är tom.
+Slutför utmaningarna för att få mer."  />
+				<text id="old_client_version" name="Gammal version! Uppdatera sidan."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Du måste vara registrerad och ha nått nivå 3 för att visas i rankingen."  />
+				<text id="rangliste_player_not_ranked" name="Den här spelaren måste först nå nivå 3 för att synas i rankingen."  />
+				<text id="rangliste_unknown_id" name="Tyvärr, ingen spelare registrerad med det namnet."  />
+				<text id="vehiclesnosell" name="Det här fordonet används."  />
+				<text id="vollscreen" name="Du kan inte chatta i helskärmsläge."  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Vänskap"  />
+				<text id="farm_full" name="Hoppsan!"  />
+				<text id="helper_job_ok" name="Jobb accepterat"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="aktiv"  />
+				<text id="buyOf" name="Konsumtion av #anz# av #menge#"  />
+				<text id="clickZum" name="Klicka"  />
+				<text id="deactive" name="inaktiv"  />
+				<text id="doContent" name="valfönster"  />
+				<text id="doDel" name="ta bort"  />
+				<text id="doFertilize" name="gödsla"  />
+				<text id="doFertilizeAnimals" name="mata"  />
+				<text id="doFortune" name="Spela på lotteriet"  />
+				<text id="doHarvest" name="skörda"  />
+				<text id="doMove" name="flytta"  />
+				<text id="doPlow" name="plöj"  />
+				<text id="doPos" name="positionera"  />
+				<text id="doRot" name="rotera"  />
+				<text id="doSell" name="sälj"  />
+				<text id="doSow" name="beså"  />
+				<text id="doTosOpen" name="lagra"  />
+				<text id="doVehicles" name="maskinellt"  />
+				<text id="farmbuddie" name="Din vän#Din vän"  />
+				<text id="farmgast" name="Gäst#Gäst"  />
+				<text id="farmhelperharvest" name="Skördeassistent#Skördeassistent"  />
+				<text id="farmhelperplow" name="Plöjningsassistent#Plöjningsassistent"  />
+				<text id="farmowner" name="Ägaren av den här gården#Ägaren av den här gården"  />
+				<text id="farmvisitor" name="Besökare#Besökare"  />
+				<text id="isFertilize" name="gödslad"  />
+				<text id="isHarvest" name="skördad"  />
+				<text id="isReadyB" name="mogen"  />
+				<text id="isReadyEX" name="vissen"  />
+				<text id="isReadyFin" name="Skördevärde"  />
+				<text id="isReadyS" name="fullväxt"  />
+				<text id="isReadyT" name="redo"  />
+				<text id="jobbenrest" name="#anz# jobbenergi"  />
+				<text id="jobVehicles" name="--- Maskinarbeten:"  />
+				<text id="jobWalk" name="--- Handarbeten:"  />
+				<text id="ketteZum" name="Arbetslista"  />
+				<text id="Market" name="Marknadsplats"  />
+				<text id="marketvisitor" name="Spelare#Spelare"  />
+				<text id="my" name="Du själv"  />
+				<text id="noPfad" name="Dit kan jag inte gå!"  />
+				<text id="online" name="är online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Spelare"  />
+				<text id="AC" name="T-shirt"  />
+				<text id="AG" name="Figur"  />
+				<text id="AH" name="Frisyr"  />
+				<text id="AP" name="Byxor"  />
+				<text id="AS" name="Skor"  />
+				<text id="AT" name="Hy"  />
+				<text id="B" name="Träd"  />
+				<text id="D" name="Dekoration"  />
+				<text id="E" name="Expansion"  />
+				<text id="F" name="Gödselmedel"  />
+				<text id="G" name="Gata"  />
+				<text id="H" name="Hus"  />
+				<text id="R" name="Jobb"  />
+				<text id="S" name="Fält"  />
+				<text id="T" name="Djur"  />
+				<text id="V" name="Fordon"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Träd"  />
+				<text id="D0" name="Gårdsdekoration"  />
+				<text id="D1" name="Hemdekoration"  />
+				<text id="D2" name="Avgränsning"  />
+				<text id="D3" name="Flagga"  />
+				<text id="D4" name="Trädgårdsdekoration"  />
+				<text id="D7" name="Helgdekoration"  />
+				<text id="F0" name="Tidsacceleration"  />
+				<text id="F1" name="Inkomstökande"  />
+				<text id="F2" name="Uppdatera"  />
+				<text id="H0" name="Bondgård"  />
+				<text id="H1" name="Stall"  />
+				<text id="H2" name="Bostad"  />
+				<text id="H4" name="Funktion"  />
+				<text id="H5" name="Speciell byggnad"  />
+				<text id="N0" name="Arbeta snabbare"  />
+				<text id="R0" name="Arbeta på andra gårdar"  />
+				<text id="S0" name="Blomma"  />
+				<text id="S1" name="Frukt"  />
+				<text id="S2" name="Grönsak"  />
+				<text id="S3" name="Korn"  />
+				<text id="S4" name="Annat"  />
+				<text id="S5" name="Premium"  />
+				<text id="S6" name="Årstid"  />
+				<text id="T0" name="Fjäderfä"  />
+				<text id="T1" name="Boskap"  />
+				<text id="T2" name="Husdjur"  />
+				<text id="V0" name="Bränsle"  />
+				<text id="V1" name="Traktor"  />
+				<text id="V2" name="Såmaskin"  />
+				<text id="V3" name="Skördetröska"  />
+				<text id="V4" name="Gödselspridare"  />
+				<text id="V9" name="Bränsletank"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Utmärkelse!"  />
+				<text id="txt1" name="Grattis!
+Du tilldelas utmärkelsen &quot;#name#&quot; - Nivå #level#."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Dela"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Antal intjänade Farmdollar"  />
+				<text id="i10" name="Antal skördade blommor"  />
+				<text id="i11" name="Antal skördade träd"  />
+				<text id="i12" name="Antal skördade djur"  />
+				<text id="i13" name="Farmdollar spenderade på gåvor."  />
+				<text id="i14" name="Antal mottagna gåvor"  />
+				<text id="i15" name="Antal grannskapshjälp"  />
+				<text id="i16" name="Antal tagna foton"  />
+				<text id="i17" name="Antal utförda plöjningsjobb med det gamla arbetstillståndssystemet."  />
+				<text id="i18" name="Antal utförda skördejobb i det gamla jobberäkningssystemet"  />
+				<text id="i19" name="Antal utfärdade plöjningsjobb med det gamla arbetstillståndssystmet"  />
+				<text id="i2" name="Antal spenderade Farmdollar"  />
+				<text id="i20" name="Antal utfärdade skördejobb i det gamla jobberäkningssystemet"  />
+				<text id="i21" name="Antal gödslade fält, djur och träd: Tidsfördel"  />
+				<text id="i22" name="Antal gödslade fält, djur och träd: trollstav"  />
+				<text id="i23" name="Antal olika skördade korn"  />
+				<text id="i24" name="Antal olika skördade frukter"  />
+				<text id="i25" name="Antal olika skördade blommor"  />
+				<text id="i26" name="Antal olika skördade grönsaker"  />
+				<text id="i27" name="Antal olika skördade träd"  />
+				<text id="i28" name="Antal olika skördade djur"  />
+				<text id="i29" name="Antal olika skördade enheter"  />
+				<text id="i3" name="Antal inköpta byggnader"  />
+				<text id="i30" name="Antal olika bemästranden"  />
+				<text id="i31" name="Antal totala bemästranden"  />
+				<text id="i32" name="Antal vänner"  />
+				<text id="i33" name="Antal köpta träd"  />
+				<text id="i34" name="Antal skördade premiegrödor"  />
+				<text id="i35" name="Antal olika skördade premiegrödor"  />
+				<text id="i36" name="Antal fält som plogade vid plogjobbet"  />
+				<text id="i37" name="Antal fät som plöjts under plogjobb som fördelats av dig på din farm."  />
+				<text id="i38" name="Antal vid skördearbeten skördade fält, djur eller träd"  />
+				<text id="i39" name="Antal fält, träd och djur som har skördats under skördjobb som du detat ut på din farm"  />
+				<text id="i4" name="Antal inköpta dekorationer"  />
+				<text id="i5" name="Antal inköpta djur"  />
+				<text id="i6" name="Antal sammanlagt skördade frön"  />
+				<text id="i7" name="Antal skördade frukter"  />
+				<text id="i8" name="Antal skördade grönsaker"  />
+				<text id="i9" name="Antal skördade korn"  />
+				<text id="next" name="Nästa nivå på
+#level#"  />
+				<text id="t1" name="Bonde Plundrare"  />
+				<text id="t10" name="Blombarn"  />
+				<text id="t11" name="Trädkramare"  />
+				<text id="t12" name="Djurälskare"  />
+				<text id="t13" name="Chips spenderade på gåvor"  />
+				<text id="t14" name="Mottagna gåvor"  />
+				<text id="t15" name="Grannar som stödjer dig"  />
+				<text id="t16" name="Tagna foton"  />
+				<text id="t17" name="Legendarisk Plöjare"  />
+				<text id="t18" name="Skördarveteran"  />
+				<text id="t19" name="Äldre handledare"  />
+				<text id="t2" name="Shoppande Drottning"  />
+				<text id="t20" name="Erfaren skördare"  />
+				<text id="t21" name="Snabb Bonde"  />
+				<text id="t22" name="Första Klass"  />
+				<text id="t23" name="Sädes Plockare"  />
+				<text id="t24" name="Bananfluga"  />
+				<text id="t25" name="Blomsmak"  />
+				<text id="t26" name="Fantastiskt Grönt"  />
+				<text id="t27" name="Plant Lus"  />
+				<text id="t28" name="Lycklig Hjord"  />
+				<text id="t29" name="Fin Farmare"  />
+				<text id="t3" name="Byggnads Odlare"  />
+				<text id="t30" name="Olika bemästranden"  />
+				<text id="t31" name="Totala bemästranden"  />
+				<text id="t32" name="Läcker Clique"  />
+				<text id="t33" name="Barkborre"  />
+				<text id="t34" name="Gyllene skörd"  />
+				<text id="t35" name="Skinande utsäde"  />
+				<text id="t36" name="Framgångsrik plogare"  />
+				<text id="t37" name="Plågade åkrar"  />
+				<text id="t38" name="Hjälpsam skördearbetare"  />
+				<text id="t39" name="Realiserad vinst"  />
+				<text id="t4" name="Underbar Dekor"  />
+				<text id="t5" name="Förtjusande Djur"  />
+				<text id="t6" name="Överlägsna Frön"  />
+				<text id="t7" name="Fruktiga Frukter"  />
+				<text id="t8" name="Vegetarisk Variation"  />
+				<text id="t9" name="Klassisk Majs"  />
+				<text id="txt0" name="Utmärkelser"  />
+				<text id="txt1" name="Övergripande framgång"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Du har blivit avstängd från spelet.
+Avstängningens varaktighet: #time# minuter
+Om du har frågor om avstängningen, skriv ett e-mail till #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Viktig information !!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="#spielname# körs redan i ett annat fönster."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="Varning !!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Tyvärr kommer anslutningen till servern avbrytas om #time# sekunder!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Välj"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Slump"  />
+				<text id="txt1" name="Spara"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Rapportera spelare!"  />
+				<text id="txt1" name="Vill du verkligen rapportera spelaren {0}?"  />
+				<text id="txt2" name="ja"  />
+				<text id="txt3" name="nej"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Vänskap"  />
+				<text id="txt1" name="#name# vill lägga till dig som en vän."  />
+				<text id="txt2" name="Avböj"  />
+				<text id="txt3" name="Acceptera"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Vänskap"  />
+				<text id="txt1" name="Fråga #name# om han eller hon vill vara din vän."  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="Tillfråga"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} är din {0}-vän. För att ta bort måste du avbryta {0}-vänskapen!"  />
+				<text id="txt0" name="Ta bort vän"  />
+				<text id="txt1" name="Vill du verkligen ta bort #name# från din vänlista?"  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="Acceptera"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Ta bort föremål"  />
+				<text id="txt1" name="Vill du verkligen ta bort #obj#?"  />
+				<text id="txt2" name="Nej"  />
+				<text id="txt3" name="Ja"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Fortsätt"  />
+				<text id="tTitle" name="Belöning!"  />
+				<text id="txt0" name="Du har skickat din present till din e-postadress."  />
+				<text id="txt1" name="Hämta den nu!"  />
+				<text id="txt2" name="Vi kan skicka ditt e-postmeddelande igen om du vill!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Fortsätt"  />
+				<text id="tTitle" name="E-post har skickats"  />
+				<text id="txt0" name="Vi skickade precis ett e-postmeddelande med din belöning!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Fortsätt"  />
+				<text id="tTitle" name="Present"  />
+				<text id="txt0" name="Du har fått din belöning!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Expandera"  />
+				<text id="txt1" name="Expandera den här byggnaden så att du kan få plats med fler föremål."  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="Köp"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Farm expanderad!"  />
+				<text id="txt1" name="Grattis!
+Din bondgård har växt sig ännu större."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Dela"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Fotogalleri"  />
+				<text id="txt1" name="Avbryt"  />
+				<text id="txt2" name="Ta bort"  />
+				<text id="txt3" name="Spara"  />
+				<text id="txt4" name="Skriv något om den här bilden!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Registrera"  />
+				<text id="txt1" name="Du måste registrera dig for att spara din utveckling. Annars går din data förlorad!
+
+Att registrera sig är gratis!"  />
+				<text id="txt2" name="Registrera"  />
+				<text id="txt3" name="Logga ut"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Vill du skörda?"  />
+				<text id="txt1" name="Vill du hjälpa #name# att skörda på hans eller hennes farm? Du får XP för alla åtgärder som belöning!"  />
+				<text id="txt2" name="Avböj"  />
+				<text id="txt3" name="Acceptera"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Vill du plöja?"  />
+				<text id="txt1" name="Vill du hjälpa #name# att plöja på hans eller hennes farm? Du får Farmdollar för allt du gör som tack!"  />
+				<text id="txt2" name="Avböj"  />
+				<text id="txt3" name="Acceptera"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Be om hjälp!"  />
+				<text id="txt1" name="Fråga #name# om han eller hon vill skörda på din gård. Om någon skördar gå din gård får du mer Farmdollar!"  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="Tillfråga"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Be om hjälp!"  />
+				<text id="txt1" name="Fråga #name# om han eller hon vill plöja på din gård. Om någon plöjer din farm får du ytterligare XP!"  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="Tillfråga"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Ta bort"  />
+				<text id="txt1" name="Köp"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Ockuperade platser"  />
+				<text id="txt1" name="Expandera"  />
+				<text id="txt2" name="Lagerutrymme"  />
+				<text id="txt3" name="Tillbaka"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Ta bort"  />
+				<text id="txt1" name="Skörda"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Ockuperade platser"  />
+				<text id="txt1" name="Expandera"  />
+				<text id="txt2" name="Skörda alla"  />
+				<text id="txt3" name="Mata alla med &#039;{0}&#039;"  />
+				<text id="txt4" name="Mata dem med &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Du har låst upp nya butiksföremål!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Nya föremål"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Ny nivå!"  />
+				<text id="txt1" name="Grattis! Du har nått en ny nivå!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Dela"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Glömt ditt lösenord?"  />
+				<text id="txt1" name="Var god ange din e-mail med vilken du registrerat dig, och klicka på &quot;skicka&quot;.
+Då får du ditt lösenord skickat till dig."  />
+				<text id="txt2" name="E-mail"  />
+				<text id="txt3" name="Avbryt"  />
+				<text id="txt4" name="Skicka"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Logga ut"  />
+				<text id="txt1" name="Vill du lämna gården?"  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Hoppsan!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Registrera"  />
+				<text id="txt1" name="Var god registrera dig, så kan du spara din utveckling."  />
+				<text id="txt2" name="Logga ut"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Registrera"  />
+				<text id="txt1" name="E-mail"  />
+				<text id="txt2" name="Lösenord"  />
+				<text id="txt3" name="Användarvillkor"  />
+				<text id="txt4" name="Avbryt"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Skapa spelare"  />
+				<text id="txt1" name="Smeknamn"  />
+				<text id="txt2" name="kvinna"  />
+				<text id="txt3" name="man"  />
+				<text id="txt4" name="Avbryt"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Spela nu"  />
+				<text id="txt1" name="Registrera"  />
+				<text id="txt2" name="Logga in"  />
+				<text id="txt3" name="Namn / E-mail"  />
+				<text id="txt4" name="Lösenord"  />
+				<text id="txt5" name="Glömt ditt lösenord?"  />
+				<text id="txt6" name="Kom ihåg"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Marknadsplats"  />
+				<text id="txt1" name="visa inte igen"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Hej #name# !
+Det här är #spielname#'s marknadsplats. Här kan du söka efter jobb, eller anställa andra spelare att hjälpa till på din egen gård"  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Ändra lösenord"  />
+				<text id="txt1" name="Gammalt lösenord"  />
+				<text id="txt2" name="Nytt lösenord"  />
+				<text id="txt3" name="Upprepa nytt lösenord"  />
+				<text id="txt4" name="Avbryt"  />
+				<text id="txt5" name="Spara"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Hoppsan!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Registrera"  />
+				<text id="txt3" name="Bjud in vän"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Inställningar"  />
+				<text id="txt1" name="Genomskinliga träd"  />
+				<text id="txt10" name="hög"  />
+				<text id="txt11" name="mellan"  />
+				<text id="txt12" name="låg"  />
+				<text id="txt13" name="zooma till"  />
+				<text id="txt14" name="Blocka vänskapsförfrågningar."  />
+				<text id="txt15" name="Blockera besök från rankinglistan."  />
+				<text id="txt16" name="Visa spelledtråd."  />
+				<text id="txt2" name="Genomskinliga byggnader"  />
+				<text id="txt3" name="Genomskinliga dekorationer"  />
+				<text id="txt4" name="Kvalitet &quot;låg&quot;"  />
+				<text id="txt5" name="Ändra lösenord"  />
+				<text id="txt6" name="Avbryt"  />
+				<text id="txt7" name="Spara"  />
+				<text id="txt8" name="Animationer av"  />
+				<text id="txt9" name="Kvalitet"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Sök namn/ranking"  />
+				<text id="txt0" name="Ranking"  />
+				<text id="txt1" name="sök"  />
+				<text id="txt2" name="Ranking"  />
+				<text id="txt3" name="Namn"  />
+				<text id="txt4" name="Nivå"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Idag"  />
+				<text id="zeitraum1" name="Denna vecka"  />
+				<text id="zeitraum2" name="Denna månad"  />
+				<text id="zeitraum3" name="Alltid"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Sälj föremål"  />
+				<text id="txt1" name="Vill du verkligen sälja #obj# för #w1# Farmdollar?"  />
+				<text id="txt2" name="Nej"  />
+				<text id="txt3" name="Ja"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Bättra på vissnade grödor med detta uppfriskande gödningsmedel."  />
+				<text id="F30" name="Växternas växthastighet ökar med 10%"  />
+				<text id="F31" name="Ökar växters och träds växthastighet med 50%"  />
+				<text id="F40" name="Djurens växthastighet ökar med 10%"  />
+				<text id="F41" name="Ökar djurens växthastighet med 50%"  />
+				<text id="F50" name="Ökar erfarenhetspoängen från säd och skörd av säd, träd och djur med 50%!"  />
+				<text id="H00" name="Ladan tillåter dig att lagra 15 föremål."  />
+				<text id="H02" name="Verktygsskjulet tillåter dig att lagra 4 föremål."  />
+				<text id="H10" name="Hönshuset tillåter dig
+att skörda från flera kycklingar
+på samma gång."  />
+				<text id="H11" name="Svinstian tillåter dig
+att skörda från flera grisar
+på samma gång."  />
+				<text id="H12" name="Ladugården tillåter dig
+att skörda från flera kor
+på samma gång."  />
+				<text id="H13" name="Häststallet tillåter dig
+att skörda från flera hästar
+på samma gång."  />
+				<text id="H40" name="Silon ger dig 20% bonus på alla gödselmedel och forderinköp."  />
+				<text id="N01" name="Tillstånd att skörda:
+Alla färdiga träd på en gång."  />
+				<text id="N02" name="Tillstånd att skörda: Alla färdiga djur på en gång."  />
+				<text id="R0x" name="Den här påfyllningen tillåter dig att fylla på dina jobbtillstånd {0}x."  />
+				<text id="S5x" name="Premiumutsäde ger mer XP och farmpengar än vanliga grödor, dessutom vissnar de inte! 
+De kan köpas som paketerbjudande i affären och
+kan användas omgående utan ytterligare kostnader."  />
+				<text id="V0x" name="Dessa bränsletankar
+låter dig fylla på bränsle {0}x."  />
+				<text id="V10" name="Med en traktor kan du
+plöja fyra fält samtidigt."  />
+				<text id="V20" name="Med såmaskinen kan du
+beså fyra fält samtidigt."  />
+				<text id="V30" name="Med skördetröskan kan du skörda fyra fält på samma gång."  />
+				<text id="V40" name="Med en gödselspridare kan du gödsla fyra fält samtidigt."  />
+				<text id="V90" name="20% extra bränsle
+när du köper en påfyllning"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Nivå #level#"  />
+				<text id="txtAnzahl" name="Antal:"  />
+				<text id="txtAnzahlVon" name="av"  />
+				<text id="txtBenutzen" name="Använd"  />
+				<text id="txtBuy" name="Köp"  />
+				<text id="txtHarvestXP" name="Skörda för:"  />
+				<text id="txtPremium" name="Premium"  />
+				<text id="txtSize" name="Paketstorlek:"  />
+				<text id="txtVerbrauch" name="Konsumtion"  />
+				<text id="txtWork" name="Arbete"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Visa inte spelledtrådar."  />
+				<text id="shoptipp_0_title" name="Hoppsan!"  />
+				<text id="shoptipp_1_text" name="Du har inte tillräckligt med bensin. Vill du fylla på?"  />
+				<text id="shoptipp_1_title" name="Fyll på bensin"  />
+				<text id="shoptipp_2_text" name="Du har inte tillräckligt med gödsel. Vill du köpa mer?"  />
+				<text id="shoptipp_2_title" name="Fyll på med lagringsmedel"  />
+				<text id="shoptipp_3_text" name="Du har inte tillräckligt med utrymme på din farm. Vill du expandera?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="Du har ingen jobbenergi! 
+Visste du att du kan fylla på den manuellt?"  />
+				<text id="shoptipp_4_title" name="Arbetsnarkoman!"  />
+				<text id="shoptipp_5_text" name="Du har inte tillräckligt med premiumsäd för att utföra denna åtgärd. Vill du köpa lite nu?"  />
+				<text id="shoptipp_5_title" name="Köp premiumsäd"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Shop"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="Arbeta"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Jag söker efter arbete."  />
+				<text id="txt1" name="Jag vill spela nu"  />
+				<text id="txt2" name="Jag vill skörda."  />
+				<text id="txt3" name="Någon som vill plöja?"  />
+				<text id="txt4" name="Någon som vill skörda?"  />
+				<text id="txt5" name="Hejsan!"  />
+				<text id="txt6" name="Tack"  />
+				<text id="txt7" name="Ja"  />
+				<text id="txt8" name="Nej"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Bjud in vän"  />
+				<text id="txt1" name="Ditt namn"  />
+				<text id="txt2" name="Ditt väns namn"  />
+				<text id="txt3" name="Din väns e-mail"  />
+				<text id="txt4" name="Avbryt"  />
+				<text id="txt5" name="Bjud in"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Tysta/ignorera användare"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bee Soda"  />
+				<text id="txt1" name="Spela Bee Soda och vinn fina priser!"  />
+				<text id="txt2" name="Snurra!"  />
+				<text id="txt3" name="Första rundan är gratis!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hurra!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Nästa nivå på
+#xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farmdollar:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Vänner:"  />
+				<text id="txt4" name="Utmärkelser:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Ta bort spelare"  />
+				<text id="txt1" name="Vill du verkligen ta bort #name# från din farm?"  />
+				<text id="txt2" name="Avbryt"  />
+				<text id="txt3" name="Acceptera"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Våren är på väg! Missa inte alla nya byggnader, dekorationer, djur och träd!"  />
+				<text id="teaser_11_info_1" name="Lyssna!
+Det bräcker och kacklar på din farm!
+Ha kul med det nya ljudet i Goodgame Farmer"  />
+				<text id="teaser_11_title" name="Ljud!"  />
+				<text id="teaser_12_info_1" name="Du kan enkelt chatta på marknadsplatsen från nivå 10, och uppåt. Alla med lägre nivå använder förhandsdefinierade meningar."  />
+				<text id="teaser_12_title" name="Marknadsplatsens Chatt Regler"  />
+				<text id="teaser_13_info_1" name="Ännu mer leveranser!
+Förbered dig för nästa våg av nya djur, träd, dekorationer och byggnader!"  />
+				<text id="teaser_13_info_2" name="Dessutom har vi lagt nya nivåer till alla framgångar!"  />
+				<text id="teaser_14_info_1" name="Test det nya fantastiska premiumutsädet!
+De ger mer XP  och Farmpengar än vanlig 
+gröda och kan inte vissna."  />
+				<text id="teaser_14_info_2" name="Vi har också lagt till nytt utsäde för bönder på hög nuvå och två nya utmaningar!"  />
+				<text id="teaser_14_title" name="Premiumutsäde"  />
+				<text id="teaser_17_info_1" name="Påsken är här det är dags att njuta av de underbara nya byggnaderna, dekorationerna, träden och säd! Ha kul under din äggjakt"  />
+				<text id="teaser_17_info_2" name="Jobbsystemet har också arbetats om. Nu spenderar du endast arbetstillstånd för att göra handlingar så du kommer aldrig iväg tomhänt."  />
+				<text id="teaser_17_title" name="Glad påsk!"  />
+				<text id="teaser_18_info_1" name="Skynda dig! 
+Det återstår endast ett fåtal dagar innan påsken är över. Vi erbjuder en stor rea med upp till 50 % rabatt på många säsongsvaror!!!"  />
+				<text id="teaser_18_title" name="Ta chansen"  />
+				<text id="teaser_19_info_1" name="Sommarmodet är här! 
+Skaffa en av de nya hattarna eller testa de roliga påskhareöronen! 
+
+Och glöm inte att kolla vårt nya Farmerforum."  />
+				<text id="teaser_19_title" name="Hatten på!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer firar 1 år, det är dags att fira med oss! 
+Dekorera hans gård, sätt på dig en galen partyhatt och missa inte de nya muffinsfröna.
+
+Men skynda dig, festligheterna pågår inte länge!"  />
+				<text id="teaser_20_title" name="Grattis!"  />
+				<text id="teaser_21_info_1" name="Observera! Det finns ett trollspö för att lyckas. Använd det och dina träd, djur och säd kommer att ge mer erfarenhet och utdelning."  />
+				<text id="teaser_21_info_2" name="Dina djur är hungriga! 
+Mata dem så de växer snabbare! 
+Träden väntar på att gödas."  />
+				<text id="teaser_21_title" name="Mata djuren med mera!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer har nominerats till Europeiska spelpriset för &quot;Bästa sociala spel&quot;!"  />
+				<text id="teaser_23_info_2" name="Hjälp oss att vinna genom att rösta på oss!"  />
+				<text id="teaser_23_title" name="Rösta på oss!"  />
+				<text id="teaser_24_info_1" name="Arggg
+Piraterna har kommit till Goodgame Farmer!
+Sätt på en pirathatt, plantera det nya skattfröet och fixa en pratande papegoja!"  />
+				<text id="teaser_24_title" name="Pirater uppdatering!"  />
+				<text id="teaser_25_info_1" name="The latest update caused severe technical difficulties with the conversion of the fertilizer and the achievement rewards.
+
+In order to solve this issue we had to reset all accounts to the previous state.
+
+We are sorry about any inconveniences caused."  />
+				<text id="teaser_25_title" name="Återställ"  />
+				<text id="teaser_5_info_1" name="Skräm slag på dina besökare med de nya läskiga Halloween-dekorationerna!"  />
+				<text id="teaser_5_title" name="Nya Funktioner!"  />
+				<text id="teaser_6_info_1" name=""  />
+				<text id="teaser_6_title" name=""  />
+				<text id="teaser_7_info_1" name="Julen närmar sig!
+Missa inte alla de nya byggnaderna, dekorationerna, träden och grödorna!"  />
+				<text id="teaser_7_info_2" name="Och för att se till att du alltid har tillräckligt med utrymme på din gård,
+kan du nu lagra föremål i verktygsskjul och lador!"  />
+				<text id="teaser_7_title" name="Nya föremål"  />
+				<text id="teaser_8_info_1" name="Ännu en julklapp till dig!
+Använd den helt nya rankingen för att mäta dig själv med andra spelare.
+Bli den bästa lantbrukaren av alla!"  />
+				<text id="teaser_8_title" name="Ranking!"  />
+				<text id="teaser_9_info_1" name="Snabba På!
+Bara några få dagar återstår av vår Jultillställning. Vi erbjuder en stor realisation med upp till 50% rabatt på alla säsongsföremål!!!"  />
+				<text id="teaser_9_title" name="Ta chansen!"  />
+				<text id="teaser_btn_forum" name="Forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Shop"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Avböj"  />
+				<text id="zAchievements" name="Mina utmärkelser"  />
+				<text id="zAn2" name="Acceptera"  />
+				<text id="zBuddies" name="Alla dina vänner"  />
+				<text id="zBuddiesNoAsk" name="Den här spelaren tar inte emot vänskapsförfrågningar."  />
+				<text id="zBuddiesSub" name="Ta bort spelaren
+från din vänlista"  />
+				<text id="zBuy" name="Köp"  />
+				<text id="zCancel" name="Stäng"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Tysta/Ignorera"  />
+				<text id="zChatSenden" name="Skicka meddelande"  />
+				<text id="zChatVorgaben" name="Förhandsdefinierade meningar för chatt."  />
+				<text id="zCheckAGB" name="Jag accepterar användarvillkoren"  />
+				<text id="zCheckAny" name="Djuranimationer av"  />
+				<text id="zCheckMen" name="Manlig avatar"  />
+				<text id="zCheckMerken" name="Spara namn och lösenord?"  />
+				<text id="zCheckMute" name="Ingen chat med den spelaren"  />
+				<text id="zCheckNoMoreShow" name="Visa inte det här fönstret igen."  />
+				<text id="zCheckQuali" name="Reducera grafik för att
+spara datorkraft"  />
+				<text id="zCheckShowB" name="Genomskinliga träd"  />
+				<text id="zCheckShowD" name="Genomskinliga dekorationer"  />
+				<text id="zCheckShowH" name="Genomskinliga byggnader"  />
+				<text id="zCheckSound1" name="Effekter"  />
+				<text id="zCheckSound2" name="Musik"  />
+				<text id="zCheckWomen" name="Kvinnlig avatar"  />
+				<text id="zChipsMore" name="Lägg till Farmdollar/Guld"  />
+				<text id="zClose" name="Stäng"  />
+				<text id="zClothes" name="Nya kläder för din avatar"  />
+				<text id="zClothsBuy" name="Spara nuvarande avatar?"  />
+				<text id="zClothsSelect" name="Välj"  />
+				<text id="zClothsZufall" name="Datorn kommer att föreslå en stil"  />
+				<text id="zCookAdd" name="skapar ytterligare loggdata"  />
+				<text id="zCookDel" name="radera dessa loggar"  />
+				<text id="zDel" name="Ta bort"  />
+				<text id="zDown" name="Ner"  />
+				<text id="zEarnChips" name="Tjäna mer Farmdollar"  />
+				<text id="zEarnGold" name="Tjäna mer Guld"  />
+				<text id="zEinladen" name="Du måste bjuda in fler {0}-vänner för att köpa detta."  />
+				<text id="zEinladen2" name="Du har {1} {0}-vänner."  />
+				<text id="zEmailVerificationWinker" name="Hämta present"  />
+				<text id="zErweitern" name="expandera"  />
+				<text id="zExchange" name="Växling av Guld mot Farmdollar"  />
+				<text id="zExpHigherLevelNeeded" name="För låg nivå."  />
+				<text id="zExpPreviousNeeded" name="Tidigare Expansion behövs."  />
+				<text id="zFarmowner" name="Farmens ägare"  />
+				<text id="zFertilize" name="Gödselmedel"  />
+				<text id="zFlinkeHand" name="Arbeta snabbare"  />
+				<text id="zFoto" name="Foton"  />
+				<text id="zFullscreen" name="Fullskärm"  />
+				<text id="zFunc" name="Föremål med speciell funktion"  />
+				<text id="zGiftsMy" name="Mina Gåvor"  />
+				<text id="zHarvest" name="skörda"  />
+				<text id="zHarvestV3" name="använd skördetröska för att skörda"  />
+				<text id="zHelp" name="Hjälp"  />
+				<text id="zHome" name="Min Farm"  />
+				<text id="zInfoEMail" name="En e-mail bör se ut som följande:
+aaa.bbb@ccc.se"  />
+				<text id="zInfoKenn" name="Ett lösenord innehåller mellan 5 och 15 tecken,
+bestående av: a-z,A-Z,0-9,ÄÖÜ,äöüß,-_@"  />
+				<text id="zInsOpen" name="öppna"  />
+				<text id="zInvite" name="Bjud in dina vänner!"  />
+				<text id="zJ" name="Gör det"  />
+				<text id="zJobben" name="Jobbenergi:
+Används för att plöja och skörda under jobb på andra spelares gårdar.
+Så länge som din jobbenergi är under {0} kommer den att återgenerera ny varje minut, du kan även köpa mer energi i affären."  />
+				<text id="zKatAC" name="T-Shirt"  />
+				<text id="zKatAG" name="Figur"  />
+				<text id="zKatAH" name="Frisyr"  />
+				<text id="zKatAK" name="Hatt"  />
+				<text id="zKatAP" name="Byxor"  />
+				<text id="zKatAS" name="Skor"  />
+				<text id="zKatAT" name="Hy"  />
+				<text id="zKatB" name="Träd"  />
+				<text id="zKatD" name="Dekorationer"  />
+				<text id="zKatE" name="Expansioner"  />
+				<text id="zKatF" name="Gödselmedel"  />
+				<text id="zKatG" name="Gator"  />
+				<text id="zKatH" name="Byggnader"  />
+				<text id="zKatR" name="Jobbenergi"  />
+				<text id="zKatS" name="Frön"  />
+				<text id="zKatT" name="Djur"  />
+				<text id="zKatV" name="Fordon"  />
+				<text id="zKatX" name="Specialerbjudanden"  />
+				<text id="zKatY" name="Alla"  />
+				<text id="zKennLost" name="Klicka om du glömt ditt lösenord."  />
+				<text id="zKennMod" name="Ändra lösenord"  />
+				<text id="zKette" name="Arbetslista"  />
+				<text id="zKetteDel" name="Ta bort arbetslista"  />
+				<text id="zKick" name="Kasta ut spelare från din gård."  />
+				<text id="zLinkAGB" name="Klicka för att läsa användarvillkoren."  />
+				<text id="zLogin" name="Starta spelet"  />
+				<text id="zLogout" name="Logga ut"  />
+				<text id="zLupeM" name="Zooma ut"  />
+				<text id="zLupeP" name="Zooma in"  />
+				<text id="zMail" name="Meddelanden"  />
+				<text id="zMarket" name="Marknadsplats"  />
+				<text id="zMeldBad" name="Rapportera användare?"  />
+				<text id="zMen" name="Manlig avatar"  />
+				<text id="zMoreChipsGold" name="Köp Farmdollar &amp; Guld"  />
+				<text id="zMove" name="flytta"  />
+				<text id="zN" name="Gör det inte"  />
+				<text id="zNext" name="Fortsätt"  />
+				<text id="zNoSilo" name="Du måste bygga en silo först."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Begär ditt lösenord."  />
+				<text id="zOKKennMod" name="Spara nytt lösenord"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Multi Tool-fordon"  />
+				<text id="zPlow" name="plöj"  />
+				<text id="zPlowNew" name="Nytt fält"  />
+				<text id="zPlowV1" name="använd traktor för att plöja"  />
+				<text id="zPrefs" name="Inställningar"  />
+				<text id="zPremium" name="Köp det här paketet"  />
+				<text id="zPremiumUse" name="Använd det här premiumutsädet på din farm."  />
+				<text id="zPrev" name="Tillbaka"  />
+				<text id="zQuest" name="Uppdrag"  />
+				<text id="zRangliste" name="Ranking"  />
+				<text id="zRanking2Farm" name="Den här spelaren vill inte bli besökt via rankinglistan."  />
+				<text id="zRegistrieren" name="Registrera
+för att spara dina framsteg."  />
+				<text id="zRot" name="rotera"  />
+				<text id="zSave" name="Spara"  />
+				<text id="zScrBG" name="Scrollbar"  />
+				<text id="zScrMove" name="Flytta reglaget"  />
+				<text id="zSell" name="sälj"  />
+				<text id="zShare" name="Berätta för dina vänner!"  />
+				<text id="zShop" name="Shop"  />
+				<text id="zShopEarn" name="Sälj för:"  />
+				<text id="zShopHarvest" name="Skörda för:"  />
+				<text id="zShopLagerSize" name="Platser:"  />
+				<text id="zShopTime" name="Skörda om:"  />
+				<text id="zShopXP" name="Erhållen XP:"  />
+				<text id="zSilo" name="Silo(Gödsel)"  />
+				<text id="zSofort" name="Starta spelet - utan registrering"  />
+				<text id="zSound" name="Ljud"  />
+				<text id="zSow" name="beså"  />
+				<text id="zSowV2" name="använd såmaskin for att beså"  />
+				<text id="zStrangeAchies" name="Spelarens utmärkelser"  />
+				<text id="zStrangeAdd" name="Lägg till spelaren
+i din vänlista"  />
+				<text id="zStrangeFotos" name="Spelarens fotogalleri"  />
+				<text id="zStrangeGift" name="Gör en gåva
+till spelaren"  />
+				<text id="zStrangeHarvest" name="Anställ spelaren
+för att skörda på din farm"  />
+				<text id="zStrangeHome" name="Besök spelarens farm"  />
+				<text id="zStrangeInfo" name="Information om den här spelaren"  />
+				<text id="zStrangeMail" name="Skicka ett meddelande
+till spelaren"  />
+				<text id="zStrangePlow" name="Anställ spelaren
+för att plöja på din farm"  />
+				<text id="zSubAsk" name="Frågor och svar"  />
+				<text id="zSubFotobuch" name="Fotogalleri"  />
+				<text id="zSubMailInbox" name="Läs meddelanden"  />
+				<text id="zSubMailNew" name="Skriv ett brev"  />
+				<text id="zSubNews" name="Nyheter"  />
+				<text id="zSubShot1" name="Fotografera
+hela gården"  />
+				<text id="zSubShot2" name="Fotografera
+genom att välja en yta med rektangeln"  />
+				<text id="zSubShot3" name="Fotografera
+klicka på ett objekt"  />
+				<text id="zSubSupport" name="Support"  />
+				<text id="zTanken" name="Bränslepåfyllning:
+Klicka för att fylla på
+Visa:
+Antal påfyllningar
+och bränslemätare
+(maximum {0})"  />
+				<text id="zTosOpen" name="Lagra"  />
+				<text id="zTosStall" name="Det här djuret flyttat till ett stall"  />
+				<text id="zUp" name="Upp"  />
+				<text id="zUse" name="använd"  />
+				<text id="zUsersOnFarm" name="Alla spelare på
+den här farmen eller marknadsplatsen"  />
+				<text id="zVZBuddies" name="{0} vänner behövs"  />
+				<text id="zVZBuddiesE" name="Om du har tillräckligt med vänner, kan du utöka farmen för lägre pris."  />
+				<text id="zWomen" name="Kvinnlig avatar"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Välkommen till din egen farm!
+
+Låt mig hjälpa dig att komma igång, tillsammans kan vi få den att blomstra."  />
+				<text id="tut_gast_1_title" name="Hej vän"  />
+				<text id="tut_gast_2_text" name="Titta, dina jordgubbar är redan klara!
+Skynda dig, gå och hämta dem."  />
+				<text id="tut_gast_2_title" name="Skörda säd genom att klicka på den!"  />
+				<text id="tut_gast_3_text" name="När du skördar plantor, tjänar du Farmdollar och får erfarenhetspoäng."  />
+				<text id="tut_gast_3_title" name="Skörd ger dig Farmdollar och XP!"  />
+				<text id="tut_gast_4_text" name="Nu måste du ploga dina fält för att plantera något nytt."  />
+				<text id="tut_gast_4_title" name="Plöj fälten genom att klicka på dem"  />
+				<text id="tut_gast_5_text" name="Nu kan du välja ut nytt utsäde i butiken!"  />
+				<text id="tut_gast_5_title" name="Köp nytt utsäde i butiken"  />
+				<text id="tut_gast_6_text" name="Låt oss köpa vete!"  />
+				<text id="tut_gast_6_title" name="Köp vete"  />
+				<text id="tut_gast_7_text" name="Klicka på fälten för att så vetet där."  />
+				<text id="tut_gast_7_title" name="Fördela veten på veten"  />
+				<text id="tut_gast_8_text" name="Du är jätteduktig! 
+Din gård kommer snart att vara snyggast av alla
+
+Kom igen, varför planterar du inte lite mer?!"  />
+				<text id="tut_gast_8_title" name="Hurra! Din gård blomstrar!"  />
+				<text id="tut_market_1_text" name="Behöver din säd lite tid innan den är klar?
+Varför inte åka till marknadsplatsen för att arbeta för andra spelare?"  />
+				<text id="tut_market_1_title" name="Du kan också börja jobba!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farmdollar:"  />
+				<text id="txt1" name="Guld:"  />
+				<text id="txt2" name="Nästa skörd:"  />
+				<text id="txt3" name="Vänner:"  />
+				<text id="txt4" name="Utmärkelser:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Mer
+vänner"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Dag {0}"  />
+				<text id="txt0" name="Välkommen"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Du får en välkomstbonus varje dag!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Du får
+#w1# Farmdollar som en belöning för din registrering!"  />
+				<text id="21" name="Du får
+#w1# Farmdollar som din dagliga välkomst-bonus!"  />
+				<text id="2f" name="Därför får du #anz# enheter #ferti#."  />
+				<text id="2job" name="Därför får du #job# jobbenenergi."  />
+				<text id="2w1" name="Därför får du #w1# Farmdollar."  />
+				<text id="2w2" name="Därför får du #w2# Guld."  />
+				<text id="2x" name="Du har loggat in
+#days# dagar i rad."  />
+				<text id="2xp" name="Därför får du #xp# XP."  />
+				<text id="freunde" name="Du får #w1# Farmdollar, tack vare aktiviteterna hos dina inbjudna spelare."  />
+				<text id="txt0" name="Välkommen"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Fel"  />
+				<text id="generic_alert_connection_failed_copy" name="Underhållande pågår. Var god försök senare!"  />
+				<text id="generic_alert_connection_failed_title" name="Underhåll!"  />
+				<text id="generic_alert_connection_lost_copy" name="Anslutningen misslyckades. Var god försök igen."  />
+				<text id="generic_alert_connection_lost_description" name="Vi utför underhållsarbete för tillfället, vilket är nödvändigt då och då. För att utföra uppdateringar eller lägga till nya funktioner eller korrigera misstag. &lt;br&gt;&lt;br&gt;
+Vi arbetar så fort vi kan så att du ska kunna spela igen så snart som möjligt."  />
+				<text id="generic_alert_connection_lost_promo" name="Varför inte testa ett av våra andra spel under tiden?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Tack för din förståelse"  />
+				<text id="generic_alert_connection_lost_title" name="Anslutning förlorad!"  />
+				<text id="generic_alert_error" name="Error"  />
+				<text id="generic_alert_information" name="Varning"  />
+				<text id="generic_alert_loggedout_copy" name="Du har loggat ut. Glöm dock inte: Varje dag finns det en login-bonus åt dig!"  />
+				<text id="generic_alert_loggedout_title" name="Ses senare!"  />
+				<text id="generic_alert_warning" name="Varning"  />
+				<text id="generic_alert_watchout" name="Var uppmärksam!"  />
+				<text id="generic_alert_win7chromebug" name="Skulle det inte vara möjligt att mata in test var god tryck på Strg-knappen."  />
+				<text id="generic_invalid_email_provider" name="En e-postadress från den här leverantören är inte tillåten!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Din uppkoppling till internet tycks vara långsam för tillfället. Var god försök senare!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Var tycker du om spelet, och vad kan förbättras? Låt oss veta om dina åsikter genom Goodgame Forum, eller Gruppen!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Varning: Dina framsteg sparas bara om du registrerar dig!"  />
+				<text id="generic_register_error_invalidemail" name="Angiven mail-adress inkorrekt."  />
+				<text id="generic_report_muted_chattry" name="Du kan inte använda chat-funktionen på grund av blockering."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Acceptera"  />
+				<text id="generic_btn_cancel" name="Avbryt"  />
+				<text id="generic_btn_close" name="Stäng"  />
+				<text id="generic_btn_continue" name="Fortsätt"  />
+				<text id="generic_btn_end" name="Avsluta"  />
+				<text id="generic_btn_endnow" name="Avsluta nu"  />
+				<text id="generic_btn_goback" name="Tillbaka"  />
+				<text id="generic_btn_no" name="Nej"  />
+				<text id="generic_btn_noshare" name="Dela inte"  />
+				<text id="generic_btn_notaccept" name="Avböj"  />
+				<text id="generic_btn_okay" name="Okej"  />
+				<text id="generic_btn_reconnect" name="Återanslut"  />
+				<text id="generic_btn_refresh" name="Uppdatera"  />
+				<text id="generic_btn_report" name="Rapportera"  />
+				<text id="generic_btn_search" name="Sök"  />
+				<text id="generic_btn_share" name="Dela!"  />
+				<text id="generic_btn_skip" name="Skippa"  />
+				<text id="generic_btn_start" name="Starta"  />
+				<text id="generic_btn_topayment" name="Ge den till mig!"  />
+				<text id="generic_btn_yes" name="Ja"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="Du måste registrera dig och nå nivå 1 för att få använda chat-funktionen."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="Var uppmärksam!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Administratör"  />
+				<text id="generic_animation" name="Visa animationer"  />
+				<text id="generic_bugreport" name="Rapportera fel"  />
+				<text id="generic_changePass" name="Ändra lösenord"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Kommer snart*"  />
+				<text id="generic_date" name="Datum"  />
+				<text id="generic_day" name="Dag"  />
+				<text id="generic_dayformat" name="{2}-{1}-{0}"  />
+				<text id="generic_dayformat_short" name="{1}/{0}"  />
+				<text id="generic_days" name="Dagar"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name=","  />
+				<text id="generic_email" name="E-post"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Vanliga frågor"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Vän"  />
+				<text id="generic_friends" name="Vänner"  />
+				<text id="generic_general" name="Allmänt"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Grupp"  />
+				<text id="generic_guest" name="Gäst"  />
+				<text id="generic_help" name="Hjälp"  />
+				<text id="generic_high" name="Hög"  />
+				<text id="generic_hour" name="Timme"  />
+				<text id="generic_hours" name="Timmar"  />
+				<text id="generic_hour_short" name="Hr"  />
+				<text id="generic_limited" name="Begränsat"  />
+				<text id="generic_logout" name="Logga ut"  />
+				<text id="generic_low" name="Låg"  />
+				<text id="generic_medium" name="Medel"  />
+				<text id="generic_minute" name="Minut"  />
+				<text id="generic_minutes" name="Minuter"  />
+				<text id="generic_minute_short" name="Min"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_month" name="Månad"  />
+				<text id="generic_months" name="Månader"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Musik på/av"  />
+				<text id="generic_name" name="Namn"  />
+				<text id="generic_news" name="Nyheter"  />
+				<text id="generic_options" name="Inställningar"  />
+				<text id="generic_quality" name="Kvalitet"  />
+				<text id="generic_register" name="Spara och registrera"  />
+				<text id="generic_second" name="Sekund"  />
+				<text id="generic_seconds" name="Sekunder"  />
+				<text id="generic_second_short" name="Sek"  />
+				<text id="generic_sound" name="Ljud på/av"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="Idag"  />
+				<text id="generic_tomorrow" name="Idag"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Spelarnamn"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Igår!"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Gammal version!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Uppdatera sidan."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Vill du lägga till {0} som en vän?"  />
+				<text id="generic_friends_add_title" name="Vänförfrågan"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Mer Vänner!"  />
+				<text id="generic_friends_denied_copy" name="{0} har avböjt din förfrågan."  />
+				<text id="generic_friends_denied_title" name="Förfrågan avböjd!"  />
+				<text id="generic_friends_invite_badword_copy" name="Namnet du valde är inte tillåtet!"  />
+				<text id="generic_friends_invite_badword_title" name="Se upp!"  />
+				<text id="generic_friends_invite_error_copy" name="För att bjuda in vänner måste du först registrera dig."  />
+				<text id="generic_friends_invite_error_title" name="Registrera först"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Fullskärm inte tillgängligt"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Tjeckiska"  />
+				<text id="generic_language_cz" name="Tjeckiska"  />
+				<text id="generic_language_da" name="Danska"  />
+				<text id="generic_language_de" name="Tyska"  />
+				<text id="generic_language_el" name="Grek"  />
+				<text id="generic_language_en" name="Engelska"  />
+				<text id="generic_language_es" name="Spanska"  />
+				<text id="generic_language_fi" name="Finska"  />
+				<text id="generic_language_fr" name="Franska"  />
+				<text id="generic_language_hu" name="Ungerska"  />
+				<text id="generic_language_id" name="Indonesisk"  />
+				<text id="generic_language_it" name="Italienska"  />
+				<text id="generic_language_ja" name="Japanska"  />
+				<text id="generic_language_ko" name="Koreanska"  />
+				<text id="generic_language_nl" name="Holländska"  />
+				<text id="generic_language_no" name="Norska"  />
+				<text id="generic_language_pl" name="Polska"  />
+				<text id="generic_language_pt" name="Portugisiska"  />
+				<text id="generic_language_pt_BR" name="Brazilian"  />
+				<text id="generic_language_ru" name="Ryska"  />
+				<text id="generic_language_sv" name="Svenska"  />
+				<text id="generic_language_tr" name="Turkiska"  />
+				<text id="generic_language_zh_CN" name="Kinesiska (förenklad)"  />
+				<text id="generic_language_zh_TW" name="Kinesiska (traditionell)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Ditt konto är avstängt! Var god kontakta supporten!"  />
+				<text id="generic_login_banned_2" name="Ditt konto har avaktiverats!
+
+Avaktivering till: {0}
+
+Om du har några frågor om avaktiveringen, var god kontakta supporten."  />
+				<text id="generic_login_banned_3" name="Ditt konto har spärrats permanent.
+
+Om du har frågor om spärrandet, vänder du dig till supporten."  />
+				<text id="generic_login_banned_permanent" name="permanent"  />
+				<text id="generic_login_facebook" name="Inloggning via Facebook"  />
+				<text id="generic_login_login" name="LOGGA IN"  />
+				<text id="generic_login_loginname" name="Användarnamn/E-Mail"  />
+				<text id="generic_login_lostpassword" name="Glömt ditt lösenord?"  />
+				<text id="generic_login_lostpassword_copy" name="Ange din mail-adress så skickar vi ditt lösenord till dig."  />
+				<text id="generic_login_lostpassword_title" name="Glömt ditt lösenord?"  />
+				<text id="generic_login_newplayer" name="Är du ny?"  />
+				<text id="generic_login_password" name="Lösenord"  />
+				<text id="generic_login_play" name="SPELA NU"  />
+				<text id="generic_login_playnow" name="Låt oss spela!"  />
+				<text id="generic_login_register" name="Registrera"  />
+				<text id="generic_login_rememberpassword" name="Spara lösenord"  />
+				<text id="generic_login_wronglogin" name="Användarnamn eller lösenord fel!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Registrera och spara dina poäng!"  />
+				<text id="generic_logout_guest_title" name="Registrera"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Om senast {0} kommer spelar åter att kunna nås."  />
+				<text id="servershutdownpremonition_copy" name="Spelservern kommer att stänga ner om {0}. Logga ut eller anmäl dig för att säkra din poäng."  />
+				<text id="servershutdownpremonition_registered_copy" name="Spelservern ligger nere i {0} på grund av underhållsarbeten."  />
+				<text id="servershutdown_copy" name="Spelservera stängs nu ner. Om några minuter kan du logga in igen."  />
+				<text id="welcomeback_copy" name="Trevligt att se dig igen! Här är något litet för att hjälpa dig komma igång på nytt!"  />
+				<text id="welcomeback_title" name="Du är tillbaka!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nytt lösenord:"  />
+				<text id="generic_change_password_copy_oldpass" name="Gammalt lösenord:"  />
+				<text id="generic_change_password_copy_send" name="Ditt nya lösenord har skickats till dig."  />
+				<text id="generic_change_password_error_failed" name="Fel gammalt lösenord."  />
+				<text id="generic_change_password_error_success" name="Ditt lösenord har ändrats framgångsrikt!"  />
+				<text id="generic_change_password_faild_copy" name="Ditt nya lösenord måste ha fler än två tecken och ditt gamla måste anges korrekt!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Ditt lösenord får inte vara tomt eller innehålla specialtecken."  />
+				<text id="generic_change_password_faild_title" name="Ange lösenord"  />
+				<text id="generic_change_password_title" name="Lösenordsbyte"  />
+				<text id="generic_guest_change_password_faild_copy" name="Du kan bara byta lösenord om du registrerar dig!"  />
+				<text id="generic_guest_change_password_faild_title" name="Registrera först"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Mer {0} för pengarna!"  />
+				<text id="generic_payment_48hdiscount_button" name="Mer guld de första två dygnen"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Mer {0}under de första två dygnen"  />
+				<text id="generic_payment_48hdiscount_copy" name="Endast två dygn efter din registrering - Köp utvalda guldpaket och få {0} extra guld gratis!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Endast i två dygn efter din registrering - Köp guldpaket och få {0}% extra guld gratis!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Endast två dygn efter din registrering - Köp {0} paket och få {1} extra gratis!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Endast i 2 dygn efter din registrering - Köp utvalda {0} paket och få {1} extra gratis!"  />
+				<text id="generic_payment_btn" name="Till affären"  />
+				<text id="generic_payment_copy" name="Du skickas vidare till Paymentshop."  />
+				<text id="generic_payment_discount_button" name="Nu {0} mer guld!"  />
+				<text id="generic_payment_discount_copy" name="Köp guld nu och få en {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Köp nu {0} och få {1} % bonus!"  />
+				<text id="generic_payment_discount_general" name="Skaffa nu {0}% mer {1} för dina pengar!"  />
+				<text id="generic_payment_discount_generalshort" name="Få {0}% mer för pengarna!"  />
+				<text id="generic_payment_discount_time" name="{0} kvar!"  />
+				<text id="generic_payment_discount_title" name="Mer guld för pengarna!"  />
+				<text id="generic_payment_newPrices" name="Från nu! Vi har sänkt priserna i vår Payment Shop! Dags att fynda!"  />
+				<text id="generic_payment_title" name="Paymentshop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Leta efter en tunnel genom cyberspace"  />
+				<text id="loading_text_10" name="Fördela föremål i världen"  />
+				<text id="loading_text_11" name="Måla grafiker"  />
+				<text id="loading_text_12" name="Färga knapparna"  />
+				<text id="loading_text_13" name="Göm påskägg"  />
+				<text id="loading_text_14" name="Slå upp användardata"  />
+				<text id="loading_text_15" name="Skräm iväg insekter"  />
+				<text id="loading_text_16" name="Mata programmerarna"  />
+				<text id="loading_text_17" name="Experiment med klienten"  />
+				<text id="loading_text_18" name="Vrid sanduret"  />
+				<text id="loading_text_19" name="Kyl systemet"  />
+				<text id="loading_text_2" name="Olja kugghjulen"  />
+				<text id="loading_text_20" name="Var klar snart"  />
+				<text id="loading_text_3" name="Vrid hamsterhjulet"  />
+				<text id="loading_text_4" name="Värm upp servern"  />
+				<text id="loading_text_5" name="Hoppas att allt går bra"  />
+				<text id="loading_text_6" name="Hämta kammarjägaren"  />
+				<text id="loading_text_7" name="Beräkna komplicerad algoritm"  />
+				<text id="loading_text_8" name="Kalibrera fluxkompensatorer"  />
+				<text id="loading_text_9" name="Tinkerföremål"  />
+				<text id="loading_text_default" name="Initialisering"  />
+				<text id="loading_text_itemXML" name="Ladda spelelement"  />
+				<text id="progress_loadfiles" name="Spelgrafik laddas...."  />
+				<text id="progress_serverconnection" name="Ansluter till Gameserver...."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Ange E-mail"  />
+				<field id="generic_register_insertName" name="Välj namn"  />
+				<field id="generic_register_insertPassword" name="Ange lösenord"  />
+				<text id="generic_register_agb_copy" name="Först måste du läsa och acceptera användarvillkoren! Bekräfta med knappen till vänster så kan du fortsätta!"  />
+				<text id="generic_register_agb_read" name="Läs allmänna affärsvillkor"  />
+				<text id="generic_register_alreadyavatar" name="Den här användaren har redan en karaktär."  />
+				<text id="generic_register_badword" name="Du får inte använda {0} i ditt namn."  />
+				<text id="generic_register_btn_agb" name="Acceptera användarvillkoren"  />
+				<text id="generic_register_btn_later" name="Senare"  />
+				<text id="generic_register_btn_next" name="Fortsätt"  />
+				<text id="generic_register_btn_save" name="Spara"  />
+				<text id="generic_register_character" name="Skapa din avatar"  />
+				<text id="generic_register_copy_0" name="Registrera utan kostnad nu!"  />
+				<text id="generic_register_copy_1" name="Spara dina spelframsteg!"  />
+				<text id="generic_register_emaillong_copy" name="Tyvärr är din e-postadress för lång."  />
+				<text id="generic_register_emailwrong_copy" name="E-postadressen du angivit är felaktig."  />
+				<text id="generic_register_email_copy" name="Mail-adressen kan inte vara tom eller innehålla specialtecken."  />
+				<text id="generic_register_error" name="Registreringen misslyckades"  />
+				<text id="generic_register_errormistake" name="Fel"  />
+				<text id="generic_register_error_accountalreadyexists" name="En annan spelare är registrerad med den mail-adressen."  />
+				<text id="generic_register_forfree" name="Registrera dig gratis!"  />
+				<text id="generic_register_forfree1" name="Gratis!"  />
+				<text id="generic_register_letsgo" name="Då kör vi!"  />
+				<text id="generic_register_namealreadyused" name="Det här namnet är redan taget."  />
+				<text id="generic_register_namenotvalid" name="Namnet du angivit är ogiltigt."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Ditt valda lösenord är för kort. Det måste innehålla 4 eller fler tecken."  />
+				<text id="generic_register_passwordwrong_copy" name="Lösenordet du angivit är inte korrekt."  />
+				<text id="generic_register_password_copy" name="Ditt lösenord kan inte vara tomt eller innehålla specialtecken."  />
+				<text id="generic_register_receivenews" name="Få nyheter"  />
+				<text id="generic_register_rememberdata" name="Märk uppgifter"  />
+				<text id="generic_register_reward" name="Prenumerera gratis och få {0} {1}!"  />
+				<text id="generic_register_subscribe" name="Registrera dig"  />
+				<text id="generic_register_success" name="Din registrering lyckades."  />
+				<text id="generic_register_title" name="Registreringsfel"  />
+				<text id="generic_register_unlock" name="Lås upp den här funktionen!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Var god kontrollera ditt sätt att uttrycka dig. Annars kommer du blockas från chat-funktionen, eller så blir ditt konto tillfälligt avstängt. Anledning: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Du kan inte använda chat-funktionen innan {0} på grund av upprepad misskötsel. Anledning: {1}"  />
+				<text id="generic_report_muted_domain1" name="Var god skriv inga URL:er i chatten!"  />
+				<text id="generic_report_muted_reported_copy" name="En spelare har skickat in klagomål riktade mot dig. Din chat-funktion stängs därför av i {0}. Anledning: {1}"  />
+				<text id="generic_report_player_copy" name="Vill du verkligen rapportera spelaren {0}?\\n Varning! Missbruk av den här funktionen resulterar i kontoavstängning."  />
+				<text id="generic_report_player_reason_0" name="Förolämpning"  />
+				<text id="generic_report_player_reason_1" name="sexuella trakasserier"  />
+				<text id="generic_report_player_reason_2" name="rasistisk anmärkning"  />
+				<text id="generic_report_player_reason_3" name="Hot/utpressning"  />
+				<text id="generic_report_player_reason_title" name="Anledning för rapporterande"  />
+				<text id="generic_report_player_title" name="Rapportera spelare?"  />
+				<text id="generic_report_reported_copy" name="Du har blivit rapporterad till administrationen av en annan spelare. Anledning: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Anslut"  />
+				<text id="generic_select_world" name="Välj värld:"  />
+				<text id="generic_world" name="Värld: {0}"  />
+				<text id="generic_world_international" name="Internationell: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

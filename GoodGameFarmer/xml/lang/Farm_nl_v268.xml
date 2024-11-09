@@ -1,0 +1,1784 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - nl - 8 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="eieren verzamelen"  />
+			<text id="T01" name="eieren verzamelen"  />
+			<text id="T02" name="Eieren verzamelen"  />
+			<text id="T03" name="Eieren verzamelen"  />
+			<text id="T04" name="laten kraaien"  />
+			<text id="T05" name="Eieren verzamelen"  />
+			<text id="T06" name="Eieren verzamelen"  />
+			<text id="T07" name="huisdier"  />
+			<text id="T10" name="truffels verzamelen"  />
+			<text id="T11" name="melk"  />
+			<text id="T110" name="melk"  />
+			<text id="T111" name="borstel"  />
+			<text id="T112" name="borstel"  />
+			<text id="T113" name="melk"  />
+			<text id="T114" name="scheren"  />
+			<text id="T115" name="borstelen"  />
+			<text id="T12" name="scheren"  />
+			<text id="T13" name="melk"  />
+			<text id="T14" name="borstelen"  />
+			<text id="T15" name="borstelen"  />
+			<text id="T16" name="borstelen"  />
+			<text id="T17" name="borstelen"  />
+			<text id="T18" name="borstelen"  />
+			<text id="T19" name="scheren"  />
+			<text id="T20" name="borstel"  />
+			<text id="T21" name="borstel"  />
+			<text id="T22" name="borstelen"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D314"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="D"  />
+				<text id="s1" name="mljn"  />
+				<text id="s2" name="mljd"  />
+				<text id="s3" name="bljn"  />
+				<text id="s4" name="bljd"  />
+				<text id="s5" name="tljn"  />
+				<text id="s6" name="tljd"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="D"  />
+				<text id="day1" name="dag"  />
+				<text id="day2" name="dagen"  />
+				<text id="heute" name="vandaag"  />
+				<text id="hour0" name="h"  />
+				<text id="hour1" name="uur"  />
+				<text id="hour2" name="uren"  />
+				<text id="min0" name="min"  />
+				<text id="min1" name="minuut"  />
+				<text id="min2" name="minuten"  />
+				<text id="morgen" name="morgen"  />
+				<text id="sofort" name="meteen"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="TERUG"  />
+				<text id="ex" name="EXIT"  />
+				<text id="next" name="Doorgaan"  />
+				<text id="no" name="NEE"  />
+				<text id="yes" name="JA"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Je doel in #play# is om XP en munten te verzamelen om je eigen boerderij op te starten en in te richten."  />
+				<text id="intro_01_goals_t" name="Doel"  />
+				<text id="welcome_01_i" name="Welkom bij #play#, #name#  We willen graag samen met jou de handleiding doorlopen zodat je de basis van het spel leert kennen. Je krijgt er een beloning voor. Wil je dat nu doen?"  />
+				<text id="welcome_01_t" name="Handleiding"  />
+				<text id="welcome_02_i" name="Ok dan, je wilt de beloning niet hebben... Je kunt op elk moment de handleiding bekijken door op het blaadje met het vraagteken te klikken. In de help-sectie &#039;Vragen &amp; Antwoorden&quot; vind je de spelregels. Veel plezier!"  />
+				<text id="welcome_02_t" name="Handleiding 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Ik heb net Goodgame Farmer geinstalleerd. Kom eens kijken op mijn boerderij en ontdek wat ik aan het oogsten ben!"  />
+			<text id="descriptionlongfarmer" name="Goodgame Farmer is een leuke simulatie van het boerenleven, gemaakt door Goodgame Studios. Geniet van het mooie plattelandsleven en beheer je eigen virtuele boerderij. Bewerk gewassen en plant bomen, zorg voor dieren en verdien veel upgrades en prestaties. Vergroot en verbeter je boerderij en speel met vrienden van over de hele wereld in dit leuke en schattige spel!"  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Vrouw"  />
+			<text id="A02" name="Man"  />
+			<text id="B00" name="Appel"  />
+			<text id="B01" name="Peer"  />
+			<text id="B010" name="Avocado"  />
+			<text id="B011" name="Dadel"  />
+			<text id="B012" name="Vijgen"  />
+			<text id="B013" name="Granaatappel"  />
+			<text id="B014" name="Kiwi"  />
+			<text id="B015" name="Kaki"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papaya"  />
+			<text id="B018" name="Kokosnoot"  />
+			<text id="B019" name="Drakenfruit"  />
+			<text id="B02" name="Kers"  />
+			<text id="B020" name="Cacao"  />
+			<text id="B021" name="Walnoot"  />
+			<text id="B022" name="Broodvrucht"  />
+			<text id="B023" name="Doerian"  />
+			<text id="B024" name="Amandel"  />
+			<text id="B025" name="Lychee"  />
+			<text id="B026" name="Stervrucht"  />
+			<text id="B027" name="Flamboyant"  />
+			<text id="B028" name="Bamboe"  />
+			<text id="B029" name="Candy Apple"  />
+			<text id="B03" name="Perzik"  />
+			<text id="B030" name="Peperkoek"  />
+			<text id="B031" name="Chocolade"  />
+			<text id="B032" name="Rode Paasboom"  />
+			<text id="B033" name="Blauwe Paasboom"  />
+			<text id="B034" name="Wilg"  />
+			<text id="B04" name="Pruim"  />
+			<text id="B05" name="Olijven"  />
+			<text id="B06" name="Banaan"  />
+			<text id="B07" name="Citroen"  />
+			<text id="B08" name="Sinaasappel"  />
+			<text id="B09" name="Grapefruit"  />
+			<text id="D00" name="Houtstapel"  />
+			<text id="D01" name="Hooibaal"  />
+			<text id="D010" name="Boomstam"  />
+			<text id="D011" name="Karrenwiel"  />
+			<text id="D02" name="Voederbak"  />
+			<text id="D03" name="Waterbak"  />
+			<text id="D04" name="Waterput"  />
+			<text id="D05" name="Paardenploeg"  />
+			<text id="D06" name="Waterpomp"  />
+			<text id="D07" name="Paardenkar"  />
+			<text id="D08" name="Ton"  />
+			<text id="D09" name="Kist"  />
+			<text id="D11" name="Stroman"  />
+			<text id="D110" name="Parkbank"  />
+			<text id="D111" name="Donkere bank"  />
+			<text id="D112" name="Fontein"  />
+			<text id="D113" name="Stroman"  />
+			<text id="D114" name="Uil"  />
+			<text id="D115" name="Windmolen"  />
+			<text id="D116" name="Windzak"  />
+			<text id="D117" name="Kleine vijver"  />
+			<text id="D118" name="Grote vijver"  />
+			<text id="D119" name="Karpervijver"  />
+			<text id="D12" name="Grasmaaier"  />
+			<text id="D120" name="Zwembad"  />
+			<text id="D121" name="Picknick"  />
+			<text id="D122" name="Tuintafel"  />
+			<text id="D123" name="Tuinstoel"  />
+			<text id="D124" name="Hangmat"  />
+			<text id="D125" name="Ligstoel"  />
+			<text id="D126" name="Waslijn"  />
+			<text id="D127" name="Lantaarn"  />
+			<text id="D128" name="Ronde cactus"  />
+			<text id="D129" name="Rode lelies"  />
+			<text id="D13" name="Bijgebouw"  />
+			<text id="D130" name="Lange cactus"  />
+			<text id="D131" name="Sierboom"  />
+			<text id="D132" name="Struik in vaas"  />
+			<text id="D133" name="Witte lelies"  />
+			<text id="D134" name="Griezelige Stroman"  />
+			<text id="D135" name="Puppy"  />
+			<text id="D136" name="Cadeau"  />
+			<text id="D137" name="Sneeuwkind"  />
+			<text id="D138" name="Sneeuwman"  />
+			<text id="D139" name="Sneeuwvrouw"  />
+			<text id="D14" name="Kruiwagen"  />
+			<text id="D140" name="Skiër"  />
+			<text id="D141" name="Vogelhuis Kat"  />
+			<text id="D142" name="Slee"  />
+			<text id="D143" name="Sneeuwengel"  />
+			<text id="D144" name="Kerst Bord"  />
+			<text id="D145" name="Verkeersbord"  />
+			<text id="D146" name="Noordpool Bord"  />
+			<text id="D147" name="Sneeuw geit"  />
+			<text id="D148" name="Sneeuw hond"  />
+			<text id="D149" name="Sneeuw schaap"  />
+			<text id="D15" name="Lichte bank"  />
+			<text id="D150" name="Sneeuw koe"  />
+			<text id="D151" name="Sneeuw kat"  />
+			<text id="D152" name="Sneeuw kip"  />
+			<text id="D153" name="Sneeuw varken"  />
+			<text id="D154" name="Sneeuw gans"  />
+			<text id="D155" name="Hek"  />
+			<text id="D156" name="Schutting"  />
+			<text id="D157" name="Mast"  />
+			<text id="D158" name="Spar"  />
+			<text id="D159" name="Kerstboom"  />
+			<text id="D16" name="Grill"  />
+			<text id="D160" name="Meiboom"  />
+			<text id="D161" name="Vogelnest"  />
+			<text id="D162" name="Hooibalen man"  />
+			<text id="D163" name="Hooibalen vrouw"  />
+			<text id="D164" name="Rood ei"  />
+			<text id="D165" name="Blauw ei"  />
+			<text id="D166" name="Lila ei"  />
+			<text id="D167" name="Rood ei groep"  />
+			<text id="D168" name="Blauw ei groep"  />
+			<text id="D169" name="Lila ei groep"  />
+			<text id="D17" name="Tuinkabouter"  />
+			<text id="D170" name="Blauw ei nest"  />
+			<text id="D171" name="Groene ei nest"  />
+			<text id="D172" name="Lila ei nest"  />
+			<text id="D173" name="Rood ei nest"  />
+			<text id="D174" name="Wit ei nest"  />
+			<text id="D175" name="Nest vol eieren"  />
+			<text id="D176" name="Guirlande"  />
+			<text id="D177" name="Rode ballon"  />
+			<text id="D178" name="Blauwe ballon"  />
+			<text id="D179" name="Gele ballon"  />
+			<text id="D18" name="Brievenbus"  />
+			<text id="D180" name="Piratenvlag"  />
+			<text id="D19" name="Vogelhuisje"  />
+			<text id="D20" name="Haag"  />
+			<text id="D21" name="Hek"  />
+			<text id="D210" name="Horror boog"  />
+			<text id="D22" name="Posten"  />
+			<text id="D23" name="Hek"  />
+			<text id="D24" name="Posten"  />
+			<text id="D25" name="Hekpoort"  />
+			<text id="D26" name="Hekpoort"  />
+			<text id="D27" name="Haagboog"  />
+			<text id="D28" name="Horror hek"  />
+			<text id="D29" name="Horror pilaar"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Duitsland"  />
+			<text id="D310" name="Italië"  />
+			<text id="D311" name="Frankrijk"  />
+			<text id="D312" name="Spanje"  />
+			<text id="D313" name="Portugal"  />
+			<text id="D314" name="Nederland"  />
+			<text id="D315" name="België"  />
+			<text id="D316" name="Polen"  />
+			<text id="D317" name="Rusland"  />
+			<text id="D318" name="Tsjechië"  />
+			<text id="D319" name="Griekenland"  />
+			<text id="D32" name="Oostenrijk"  />
+			<text id="D320" name="Turkije"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Canada"  />
+			<text id="D323" name="Mexico"  />
+			<text id="D324" name="Brazilië"  />
+			<text id="D325" name="Argentinië"  />
+			<text id="D326" name="China"  />
+			<text id="D327" name="Japan"  />
+			<text id="D328" name="Australië"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Zwitserland"  />
+			<text id="D330" name="Hongarije"  />
+			<text id="D331" name="Taiwan"  />
+			<text id="D34" name="Finland"  />
+			<text id="D35" name="Zweden"  />
+			<text id="D36" name="Noorwegen"  />
+			<text id="D37" name="Denemarken"  />
+			<text id="D38" name="UK"  />
+			<text id="D39" name="Ierland"  />
+			<text id="D40" name="Paard"  />
+			<text id="D41" name="Boom"  />
+			<text id="D410" name="Horror boom"  />
+			<text id="D42" name="Koe"  />
+			<text id="D43" name="Schaap"  />
+			<text id="D44" name="Varken"  />
+			<text id="D45" name="Geit"  />
+			<text id="D46" name="Gans"  />
+			<text id="D47" name="Kip"  />
+			<text id="D48" name="Hond"  />
+			<text id="D49" name="Kat"  />
+			<text id="D60" name="Marktplaats"  />
+			<text id="D70" name="Skelet"  />
+			<text id="D71" name="Zombie hand"  />
+			<text id="D72" name="Grafsteen"  />
+			<text id="D73" name="Pompoen Lantaarn"  />
+			<text id="D74" name="Pompoen Lantaarn"  />
+			<text id="D75" name="Pompoen Lantaarn"  />
+			<text id="D76" name="Pompoen Lantaarn"  />
+			<text id="D77" name="Pompoen Lantaarn"  />
+			<text id="Dxxx" name="Groen nest"  />
+			<text id="E01" name="10x10 velden"  />
+			<text id="E02" name="12x12 velden"  />
+			<text id="E03" name="14x14 velden"  />
+			<text id="E04" name="16x16 velden"  />
+			<text id="E05" name="18x18 velden"  />
+			<text id="E06" name="20x20 velden"  />
+			<text id="E07" name="22x22 velden"  />
+			<text id="E08" name="24x24 velden"  />
+			<text id="E11" name="10x10 velden"  />
+			<text id="E12" name="12x12 velden"  />
+			<text id="E13" name="14x14 velden"  />
+			<text id="E14" name="16x16 velden"  />
+			<text id="E15" name="18x18 velden"  />
+			<text id="E16" name="20x20 velden"  />
+			<text id="E17" name="22x22 velden"  />
+			<text id="E18" name="24x24 velden"  />
+			<text id="E21" name="10x10 velden"  />
+			<text id="E22" name="12x12 velden"  />
+			<text id="E23" name="14x14 velden"  />
+			<text id="E24" name="16x16 velden"  />
+			<text id="E25" name="18x18 velden"  />
+			<text id="E26" name="20x20 velden"  />
+			<text id="E27" name="22x22 velden"  />
+			<text id="E28" name="24x24 velden"  />
+			<text id="F01" name="Tijd - M"  />
+			<text id="F20" name="Opfrisser"  />
+			<text id="F30" name="Bemesting"  />
+			<text id="F31" name="Premium Zaad"  />
+			<text id="F40" name="Voeden"  />
+			<text id="F41" name="Premium Voeding"  />
+			<text id="F50" name="Magische Toverstaf"  />
+			<text id="G00" name="Stenen pad"  />
+			<text id="H00" name="Schuur"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Opslagplaats"  />
+			<text id="H03" name="Windmolen"  />
+			<text id="H04" name="Kas"  />
+			<text id="H05" name="Horror broeikas"  />
+			<text id="H06" name="Spookachtige silo"  />
+			<text id="H07" name="Bezeten windmolen"  />
+			<text id="H08" name="Kerst Silo"  />
+			<text id="H09" name="Kerst Molen"  />
+			<text id="H10" name="Kippenren"  />
+			<text id="H11" name="Varkensstal"  />
+			<text id="H12" name="Koeienstal"  />
+			<text id="H13" name="Paardenstal"  />
+			<text id="H20" name="Hut"  />
+			<text id="H21" name="Boerderij"  />
+			<text id="H210" name="Bezeten landhuis"  />
+			<text id="H211" name="Bezeten villa"  />
+			<text id="H212" name="Sneeuwhut"  />
+			<text id="H213" name="Kerst Huisje"  />
+			<text id="H214" name="Kerst Villa"  />
+			<text id="H215" name="Peperkoek Huis"  />
+			<text id="H216" name="Kerst-boerderij"  />
+			<text id="H217" name="Kerst-Villa"  />
+			<text id="H218" name="Blauw ei huis"  />
+			<text id="H219" name="Roze ei huis"  />
+			<text id="H22" name="Villa"  />
+			<text id="H220" name="Piratenschip"  />
+			<text id="H23" name="Hondenhok"  />
+			<text id="H24" name="Boomhut"  />
+			<text id="H25" name="Landhuis"  />
+			<text id="H26" name="Orangerie"  />
+			<text id="H27" name="Grote villa"  />
+			<text id="H28" name="Gigantische villa"  />
+			<text id="H29" name="Bezeten hutje"  />
+			<text id="H30" name="Fruitkraam"  />
+			<text id="H31" name="Gereedschapswinkel"  />
+			<text id="H32" name="Speel Bijen Frisdrank"  />
+			<text id="H40" name="Silo(Mest)"  />
+			<text id="H50" name="Bezeten landhuis"  />
+			<text id="H51" name="Nachtmerrie kerk"  />
+			<text id="N01" name="Bomen oogsten"  />
+			<text id="N02" name="Dieren oogsten"  />
+			<text id="R00" name="Job energie M"  />
+			<text id="R01" name="Job energie S"  />
+			<text id="R02" name="Job energie XL"  />
+			<text id="S00" name="Tulp"  />
+			<text id="S01" name="Lelie"  />
+			<text id="S010" name="Lila Rozen"  />
+			<text id="S02" name="Lavendel"  />
+			<text id="S03" name="Zonnebloem"  />
+			<text id="S04" name="Roos"  />
+			<text id="S05" name="Dahlia"  />
+			<text id="S06" name="Krokus"  />
+			<text id="S07" name="Lelie"  />
+			<text id="S08" name="Lupine"  />
+			<text id="S09" name="Klaproos"  />
+			<text id="S10" name="Aardbeien"  />
+			<text id="S11" name="Watermeloen"  />
+			<text id="S12" name="Ananas"  />
+			<text id="S13" name="Druiven"  />
+			<text id="S14" name="Gele meloen"  />
+			<text id="S15" name="Frambozen"  />
+			<text id="S16" name="Bosbessen"  />
+			<text id="S17" name="Cranberries"  />
+			<text id="S18" name="Kruisbessen"  />
+			<text id="S19" name="Bramen"  />
+			<text id="S20" name="Aubergine"  />
+			<text id="S21" name="Bloemkool"  />
+			<text id="S210" name="Spinazie"  />
+			<text id="S211" name="Uien"  />
+			<text id="S212" name="Rode kool"  />
+			<text id="S213" name="Aardappelen"  />
+			<text id="S214" name="Wortels"  />
+			<text id="S215" name="Erwtjes"  />
+			<text id="S216" name="Radijsjes"  />
+			<text id="S217" name="Rabarber"  />
+			<text id="S218" name="Spruitjes"  />
+			<text id="S219" name="Sojabonen"  />
+			<text id="S22" name="Pompoen"  />
+			<text id="S220" name="Rode biet"  />
+			<text id="S221" name="Broccoli"  />
+			<text id="S222" name="Artisjokken"  />
+			<text id="S223" name="Chili pepers"  />
+			<text id="S224" name="Asperges"  />
+			<text id="S225" name="Canola"  />
+			<text id="S23" name="Paprika"  />
+			<text id="S24" name="Tomaten"  />
+			<text id="S25" name="Bonen"  />
+			<text id="S26" name="Komkommer"  />
+			<text id="S27" name="Knolraap"  />
+			<text id="S28" name="Sla"  />
+			<text id="S29" name="Courgette"  />
+			<text id="S30" name="Tarwe"  />
+			<text id="S31" name="Haver"  />
+			<text id="S32" name="Rijst"  />
+			<text id="S33" name="Rogge"  />
+			<text id="S34" name="Mais"  />
+			<text id="S35" name="Gerst"  />
+			<text id="S36" name="Gierst"  />
+			<text id="S37" name="Suikermais"  />
+			<text id="S38" name="Rode tarwe"  />
+			<text id="S39" name="Spelt"  />
+			<text id="S40" name="Koffie"  />
+			<text id="S41" name="Thee"  />
+			<text id="S42" name="Suikerriet"  />
+			<text id="S43" name="Aloe Vera"  />
+			<text id="S44" name="Katoen"  />
+			<text id="S45" name="GM Sojabonen"  />
+			<text id="S49" name="Sneeuwklokje"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Schatkist"  />
+			<text id="S52" name="Rode eieren"  />
+			<text id="S53" name="Blauwe eieren"  />
+			<text id="S54" name="Lotus"  />
+			<text id="S55" name="Witte Rozen"  />
+			<text id="S56" name="Habanero chili"  />
+			<text id="S57" name="Vergeetmenietje"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffin"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Lila eieren"  />
+			<text id="S63" name="Gele eieren"  />
+			<text id="T00" name="Kip"  />
+			<text id="T01" name="Gans"  />
+			<text id="T02" name="Bruine kip"  />
+			<text id="T03" name="zwarte kip"  />
+			<text id="T04" name="Haan"  />
+			<text id="T05" name="Eend"  />
+			<text id="T06" name="Kerstmis gans"  />
+			<text id="T07" name="Papegaai"  />
+			<text id="T10" name="Varken"  />
+			<text id="T11" name="Koe"  />
+			<text id="T110" name="Bruine koe"  />
+			<text id="T111" name="Stier"  />
+			<text id="T112" name="Kerst-paard"  />
+			<text id="T113" name="Kerstmis koe"  />
+			<text id="T114" name="Lam"  />
+			<text id="T115" name="Eenhoorn"  />
+			<text id="T12" name="Schaap"  />
+			<text id="T13" name="Geit"  />
+			<text id="T14" name="Hond"  />
+			<text id="T15" name="Zwarte kat"  />
+			<text id="T16" name="Bruine kat"  />
+			<text id="T17" name="Zwart paard"  />
+			<text id="T18" name="Bruin paard"  />
+			<text id="T19" name="Zwart schaap"  />
+			<text id="T20" name="Herdershond"  />
+			<text id="T21" name="Rendier"  />
+			<text id="T22" name="Konijn"  />
+			<text id="V00" name="10x bijvullen"  />
+			<text id="V01" name="25x bijvullen"  />
+			<text id="V02" name="50x bijvullen"  />
+			<text id="V10" name="Traktor"  />
+			<text id="V20" name="Zaaimachine"  />
+			<text id="V30" name="Oogstmachine"  />
+			<text id="V40" name="Mestmachine"  />
+			<text id="V90" name="Tank"  />
+			<text id="Y01" name="Geoogst"  />
+			<text id="Y02" name="Geploegd"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Sorry, jouw of #name#s vriendenlijst is al vol,#tab#of #name# heeft je vriendschapsverzoek niet geaccepteerd"  />
+				<text id="buddies_add_ok" name="#name# is nu je vriend."  />
+				<text id="chat_dop" name="Herhaal alsjeblieft niet steeds dezelfde tekst. Bedankt!"  />
+				<text id="chat_nonsense" name="Schrijf alsjeblieft iets zinvols. Bedankt!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Ongeldig emailadres.
+Gebruik een geldig emailadres."  />
+				<text id="email_dop" name="Dit emailadres is al in gebruik.
+Gebruik een ander emailadres."  />
+				<text id="email_no" name="Onbekend emailadres."  />
+				<text id="farm_full" name="Er zijn al teveel mensen op die boerderij. Kies een andere boerderij."  />
+				<text id="helper_job_no" name="#name# heeft jouw #job# verzoek afgewezen of heeft de marktplaats verlaten."  />
+				<text id="helper_job_ok" name="#name# heeft jouw #job# verzoek geaccepteerd."  />
+				<text id="helper_owner_no_money" name="De eigenaar van de boerderij heeft niet genoeg geld om nog meer velden om te ploegen."  />
+				<text id="invite_sent" name="Dank je! 
+Er wordt een E-mail naar je vriend(in)gestuurd."  />
+				<text id="item_dop" name="Je hebt de limiet voor dit object al bereikt."  />
+				<text id="kenn_bad" name="Voor het paswoord
+gebruik de volgende karakters:
+5 tot 15 karakters, bestaande uit#tab#
+a-z, A-Z, 0-9, -_@"  />
+				<text id="kenn_no" name="Ongeldig of onbekend paswoord"  />
+				<text id="kenn_unequal" name="Ongelijke paswoorden"  />
+				<text id="kick" name="#name# heeft je van zijn of haar boerderij verwijderd!#tab#Je hebt waarschijnlijk iets verkeerd gedaan!?"  />
+				<text id="lagernosell" name="Voordat je het gebouw kunt verkopen, moet je het eerst leegmaken."  />
+				<text id="lager_building" name="Je moet een opslagplaats of schuur bouwen om objecten op te kunnen slaan."  />
+				<text id="lager_cantsell" name="Je kunt dit gebouw niet verkopen tenzij je meer ruimte maakt in je opslagplaats."  />
+				<text id="lager_voll" name="Je kunt alleen een leeg bruikbaar item opslaan in een bruikbaar item."  />
+				<text id="login_bad" name="Login Fout. Als je je paswoord vergeten bent, klik op &#039;Paswoord vergeten?&#039;.#tab#Als je hulp nodig hebt,
+schrijf een email naar
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="Voor de spelernaam
+gebruik de volgende karakters:#tab#2 tot 15 karakters, bestaande uit
+a-z, A-Z, 0-9, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Deze spelernaam is al in gebruik. Voeg een andere naam in of selecteer een naam:"  />
+				<text id="name_spam" name="Kies een andere naam"  />
+				<text id="no_agb" name="Zorg ervoor dat je onze Algemene Voorwaarden geaccepteerd hebt."  />
+				<text id="no_arbeitskraft" name="Je hebt niet genoeg job-energie voor deze actie. Wacht tot je energie weer aangevuld is of koop energie in de winkel."  />
+				<text id="no_buddies" name="Helaas, je hebt nog niet genoeg vrienden uitgenodigd.#tab#Om #obj# te kunnen kopen, moet je #anz# meer vrienden uitnodigen."  />
+				<text id="no_chat" name="Ik moet me aanmelden en level 1 bereikt hebben om te kunnen chatten."  />
+				<text id="no_ferti" name="Je hebt alle #name# opgebruikt.
+Koop wat meer."  />
+				<text id="no_food" name="Je hebt niet genoeg voer om je dieren te verzorgen!"  />
+				<text id="no_gender" name="Je hebt nog geen geslacht gekozen. Klik op een van
+de plaatjes."  />
+				<text id="no_lager" name="Er is geen opslagplaats beschikbaar voor dit item. Koop een opslagplaats of breid je opslagplaats uit."  />
+				<text id="no_money" name="Je hebt niet genoeg geld voor deze actie."  />
+				<text id="no_premium" name="Je hebt al je Premium-Zaad #name# opgebruikt. Koop nieuwe zaden."  />
+				<text id="no_regi" name="Deze functie is gereserveerd voor geregistreerde gebruikers.#tab#Als je je niet registreert, zal de vooruitgang op je boerderij niet bewaard worden."  />
+				<text id="no_tanken" name="Je hebt niet genoeg brandstof voor deze actie."  />
+				<text id="no_zauberstaub" name="Je {0} is leeg. 
+Werk de prestaties af om meer te krijgen."  />
+				<text id="old_client_version" name="Oude versie! Vernieuw de pagina."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Pas als je Level 3 bereikt hebt, wordt je naam toegevoegd aan de ranglijsten."  />
+				<text id="rangliste_player_not_ranked" name="Deze speler moet Level 3 bereiken om toegevoegd te worden aan de ranglijst."  />
+				<text id="rangliste_unknown_id" name="Sorry, er is geen speler geregistreerd onder deze naam."  />
+				<text id="vehiclesnosell" name="Dit voertuig is in gebruik."  />
+				<text id="vollscreen" name="Je kunt niet in fullscreen modus chatten."  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Vriendschap"  />
+				<text id="farm_full" name="Oeps!"  />
+				<text id="helper_job_ok" name="Job accepteerd"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="geactiveerd"  />
+				<text id="buyOf" name="Consumption of #anz# of #menge#"  />
+				<text id="clickZum" name="Klik om"  />
+				<text id="deactive" name="gedeactiveerd"  />
+				<text id="doContent" name="keuzescherm"  />
+				<text id="doDel" name="verwijderen"  />
+				<text id="doFertilize" name="bemesten"  />
+				<text id="doFertilizeAnimals" name="eten geven"  />
+				<text id="doFortune" name="Speel de loterij"  />
+				<text id="doHarvest" name="oogsten"  />
+				<text id="doMove" name="bewegen"  />
+				<text id="doPlow" name="ploegen"  />
+				<text id="doPos" name="positioneren"  />
+				<text id="doRot" name="draaien"  />
+				<text id="doSell" name="verkopen"  />
+				<text id="doSow" name="zaaien"  />
+				<text id="doTosOpen" name="kopen"  />
+				<text id="doVehicles" name="mechanisch"  />
+				<text id="farmbuddie" name="Jouw vriendin#Jouw vriend"  />
+				<text id="farmgast" name="Gast#Gast"  />
+				<text id="farmhelperharvest" name=" Oogsthulp# Oogsthulp"  />
+				<text id="farmhelperplow" name="Ploeghulp#Ploeghulp"  />
+				<text id="farmowner" name="Eigenaresse van deze boerderij#Eigenaar van deze boerderij"  />
+				<text id="farmvisitor" name="Bezoeker#Bezoeker"  />
+				<text id="isFertilize" name="bemest"  />
+				<text id="isHarvest" name="geoogst"  />
+				<text id="isReadyB" name="rijp"  />
+				<text id="isReadyEX" name="verdord"  />
+				<text id="isReadyFin" name="oogstwaarde"  />
+				<text id="isReadyS" name="gegroeid"  />
+				<text id="isReadyT" name="klaar"  />
+				<text id="jobbenrest" name="#anz# job energie"  />
+				<text id="jobVehicles" name="--- Machine-arbeid:"  />
+				<text id="jobWalk" name="--- Handarbeid:"  />
+				<text id="ketteZum" name="In de werklijst om"  />
+				<text id="Market" name="Marktplaats"  />
+				<text id="marketvisitor" name="Speler#Speler"  />
+				<text id="my" name="Jijzelf"  />
+				<text id="noPfad" name="Wegversperring, daar kan ik niet heen gaan!"  />
+				<text id="online" name="is online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Speler"  />
+				<text id="AC" name="T-shirt"  />
+				<text id="AG" name="Figuur"  />
+				<text id="AH" name="Kapsel"  />
+				<text id="AP" name="Broek"  />
+				<text id="AS" name="Schoenen"  />
+				<text id="AT" name="Huidskleur"  />
+				<text id="B" name="Boom"  />
+				<text id="D" name="Decoratie"  />
+				<text id="E" name="Uitbreiding"  />
+				<text id="F" name="Mest"  />
+				<text id="G" name="Straat"  />
+				<text id="H" name="Huis"  />
+				<text id="R" name="Job"  />
+				<text id="S" name="Veld"  />
+				<text id="T" name="Dier"  />
+				<text id="V" name="Voertuig"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Boom"  />
+				<text id="D0" name="Decoratie voor boerderij"  />
+				<text id="D1" name="Decoratie voor huis"  />
+				<text id="D2" name="Hekken"  />
+				<text id="D3" name="Vlag"  />
+				<text id="D4" name="Tuindecoratie"  />
+				<text id="D7" name="Feestdagen Decoratie"  />
+				<text id="F0" name="Versnelling van de tijd"  />
+				<text id="F1" name="Verhoging van de winst"  />
+				<text id="F2" name="Refresh"  />
+				<text id="H0" name="Boerderij"  />
+				<text id="H1" name="Stallen"  />
+				<text id="H2" name="Woonhuis"  />
+				<text id="H4" name="Functie"  />
+				<text id="H5" name="speciaal gebouw"  />
+				<text id="N0" name="Werk sneller"  />
+				<text id="R0" name="Werk op andere boerderijen"  />
+				<text id="S0" name="Bloem"  />
+				<text id="S1" name="Fruit"  />
+				<text id="S2" name="Groente"  />
+				<text id="S3" name="Graan"  />
+				<text id="S4" name="Anderen"  />
+				<text id="S5" name="Premium"  />
+				<text id="S6" name="Seizoen"  />
+				<text id="T0" name="Gevogelte"  />
+				<text id="T1" name="Dier voor productie"  />
+				<text id="T2" name="Huisdier"  />
+				<text id="V0" name="Brandstof"  />
+				<text id="V1" name="Traktor"  />
+				<text id="V2" name="Zaaimachine"  />
+				<text id="V3" name="Oogstmachine"  />
+				<text id="V4" name="Mestmachine"  />
+				<text id="V9" name="Tank"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Prestatie!"  />
+				<text id="txt1" name="Gefeliciteerd!
+Je hebt de '#name#' - Level #level# bereikt."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Delen"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Aantal verdiende Farmdollars"  />
+				<text id="i10" name="Aantal geoogste bloemen"  />
+				<text id="i11" name="Aantal geoogste bomen"  />
+				<text id="i12" name="Aantal geoogste dieren"  />
+				<text id="i13" name="Aantal Farmdollars uitgegeven aan cadeaus."  />
+				<text id="i14" name="Aantal ontvangen cadeaus"  />
+				<text id="i15" name="Aantal buren die je helpen"  />
+				<text id="i16" name="Aantal gemaakte foto&#039;s"  />
+				<text id="i17" name="Aantal afgemaakte ploegwerkzaamheden met het oude job toestemmingssysteem"  />
+				<text id="i18" name="Aantal afgemaakte oogstwerkzaamheden met het oude job toestemmingssysteem"  />
+				<text id="i19" name="Aantal uitgegeven ploegwerkzaamheden met het oude job toestemmingssysteem"  />
+				<text id="i2" name="Aantal uitgegeven Farmdollars"  />
+				<text id="i20" name="Aantal uitgegeven oogstwerkzaamheden met het oude job toestemmingssysteem"  />
+				<text id="i21" name="Aantal bemeste velden, dieren en bomen: voordeel in tijd"  />
+				<text id="i22" name="Aantal bemeste velden, dieren en bomen: Magische toverstaf"  />
+				<text id="i23" name="Aantal verschillende geoogste granen"  />
+				<text id="i24" name="Aantal verschillende geoogste vruchten"  />
+				<text id="i25" name="Aantal verschillende geoogste bloemen"  />
+				<text id="i26" name="Aantal verschillende geoogste groenten"  />
+				<text id="i27" name="Aantal verschillende geoogste bomen"  />
+				<text id="i28" name="Aantal verschillende geoogste dieren"  />
+				<text id="i29" name="Aantal verschillende geoogste units"  />
+				<text id="i3" name="Aantal gekochte gebouwen"  />
+				<text id="i30" name="Aantal verschillende masteries"  />
+				<text id="i31" name="Totaal aantal masteries"  />
+				<text id="i32" name="Aantal vrienden"  />
+				<text id="i33" name="Aantal gekochte bomen"  />
+				<text id="i34" name="Aantal geoogste premium zaden"  />
+				<text id="i35" name="Aantal verschillende geoogste premium zaden"  />
+				<text id="i36" name="Aantal geploegde velden tijdens een ploeg-sessie"  />
+				<text id="i37" name="Aantal geploegde velden tijdens ploeg-sessies op je boerderij"  />
+				<text id="i38" name="Aantal geoogste velden, bomen of dieren tijdens een oogst-sessie"  />
+				<text id="i39" name="Aantal velden, bomen en dieren die geoogst zijn tijdens oogst-sessies op je boerderij"  />
+				<text id="i4" name="Aantal gekochte decoraties"  />
+				<text id="i5" name="Aantal gekochte dieren"  />
+				<text id="i6" name="Aantal van alle geoogste zaden"  />
+				<text id="i7" name="Aantal geoogste vruchten"  />
+				<text id="i8" name="Aantal geoogste groenten"  />
+				<text id="i9" name="Aantal geoogste granen"  />
+				<text id="next" name="Volgende level op
+#level#"  />
+				<text id="t1" name="Plattelands Plunderaar"  />
+				<text id="t10" name="Bloemen Kind"  />
+				<text id="t11" name="Bomen Knuffelaar"  />
+				<text id="t12" name="Dierenvriend"  />
+				<text id="t13" name="Chips spent on gifts"  />
+				<text id="t14" name="Gifts received"  />
+				<text id="t15" name="Neighbours supporting you"  />
+				<text id="t16" name="Pictures taken"  />
+				<text id="t17" name="Legendarische Ploeger"  />
+				<text id="t18" name="Oogst Veteraan"  />
+				<text id="t19" name="Oude Supervisor"  />
+				<text id="t2" name="Shopping Queen"  />
+				<text id="t20" name="Vakbekwame Verzamelaar"  />
+				<text id="t21" name="Snelle Boer"  />
+				<text id="t22" name="Eerste Klas"  />
+				<text id="t23" name="Granen Plukker"  />
+				<text id="t24" name="Fruitvlieg"  />
+				<text id="t25" name="Bloemen Plukker"  />
+				<text id="t26" name="Groenten Genieter"  />
+				<text id="t27" name="Plantluis"  />
+				<text id="t28" name="Dieren Trainer"  />
+				<text id="t29" name="Bedrijvige Boer"  />
+				<text id="t3" name="Gebouwen Groeier"  />
+				<text id="t30" name="Different masteries"  />
+				<text id="t31" name="Total masteries"  />
+				<text id="t32" name="Coole Kliek"  />
+				<text id="t33" name="Stam Kever"  />
+				<text id="t34" name="Gouden Oogst"  />
+				<text id="t35" name="Grenzeloze Glans"  />
+				<text id="t36" name="Prachtige Ploeger"  />
+				<text id="t37" name="Strenge Supervisor"  />
+				<text id="t38" name="Hulpvaardige Oogster"  />
+				<text id="t39" name="Gerealiseerde Opbrengst"  />
+				<text id="t4" name="Duizelingwekkend Decor"  />
+				<text id="t5" name="Schattige Dieren"  />
+				<text id="t6" name="Superieure Zaden"  />
+				<text id="t7" name="Fruitig Fruit"  />
+				<text id="t8" name="Veggie Variatie"  />
+				<text id="t9" name="Mais Meester"  />
+				<text id="txt0" name="Prestaties"  />
+				<text id="txt1" name="Algemene voortgang"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Je wordt verbannen uit het spel.
+Duur van de ban: #time# minuten
+Als je vragen hebt over deze ban, kun je mailen naar #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Belangrijke info !!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="#spielname# loopt op deze computer al in een ander scherm."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="Let op !!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Helaas, de server verbinding zal worden verbroken binnen #time# seconden!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Selecteer"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Speelfiguur"  />
+				<text id="txt0" name="Toeval"  />
+				<text id="txt1" name="Bewaar"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Speler melden!"  />
+				<text id="txt1" name="Weet je zeker dat je speler {0} wilt melden?"  />
+				<text id="txt2" name="ja"  />
+				<text id="txt3" name="nee"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Vriendschap"  />
+				<text id="txt1" name="#name# wil je graag toevoegen aan zijn/haar vriendenlijst."  />
+				<text id="txt2" name="Weigeren"  />
+				<text id="txt3" name="Accepteren"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Vriendschap"  />
+				<text id="txt1" name="Vraag #name# of hij/zij je vriend(in) wil zijn."  />
+				<text id="txt2" name="Annuleren"  />
+				<text id="txt3" name="Vragen"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} is je {0} vriend. Om hem / haar te kunnen verwijderen, moet je de {0} vriendschap beëindigen!"  />
+				<text id="txt0" name="Verwijder vriend"  />
+				<text id="txt1" name="Weet je zeker dat je #name# wil verwijderen uit je vriendenlijst?"  />
+				<text id="txt2" name="Annuleren"  />
+				<text id="txt3" name="Accepteren"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Verwijder object"  />
+				<text id="txt1" name="Weet je zeker dat je #obj# wilt verwijderen?"  />
+				<text id="txt2" name="Nee"  />
+				<text id="txt3" name="Ja"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Doorgaan"  />
+				<text id="tTitle" name="Beloning!"  />
+				<text id="txt0" name="We hebben je cadeau naar je e-mail adres gestuurd."  />
+				<text id="txt1" name="Haal het nu op!"  />
+				<text id="txt2" name="Je kunt je e-mail nog een keer verzenden als je wilt!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Doorgaan"  />
+				<text id="tTitle" name="E-mail is verzonden"  />
+				<text id="txt0" name="We sturen je een e-mail met je beloning!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Doorgaan"  />
+				<text id="tTitle" name="Cadeau"  />
+				<text id="txt0" name="Je hebt je beloning ontvangen!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Uitbreiden"  />
+				<text id="txt1" name="Breid dit gebouw uit om meer objecten op te kunnen slaan."  />
+				<text id="txt2" name="Annuleer"  />
+				<text id="txt3" name="Koop"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Boerderij uitgebreid!"  />
+				<text id="txt1" name="Gefeliciteerd!
+Je boerderij is nu nog groter geworden."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Delen"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Foto album"  />
+				<text id="txt1" name="Annuleren"  />
+				<text id="txt2" name="Verwijderen"  />
+				<text id="txt3" name="Bewaren"  />
+				<text id="txt4" name="Schrijf iets over deze foto!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Aanmelden"  />
+				<text id="txt1" name="Je moet je aanmelden om je spel te bewaren. Anders gaat al je informatie verloren!
+
+Registratie is gratis!"  />
+				<text id="txt2" name="Aanmelden"  />
+				<text id="txt3" name="Logout"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Wil je oogsten?"  />
+				<text id="txt1" name="Wil je #name# helpen oogsten op zijn/haar boerderij? Je ontvangt XP als beloning voor elke actie!"  />
+				<text id="txt2" name="Weigeren"  />
+				<text id="txt3" name="Accepteren"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Wil je ploegen?"  />
+				<text id="txt1" name="Wil je #name# helpen ploegen op zijn / haar boerderij?
+Je ontvangt Farmdollars als beloning voor elke actie!"  />
+				<text id="txt2" name="Weigeren"  />
+				<text id="txt3" name="Accepteren"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Vraag om hulp!"  />
+				<text id="txt1" name="Vraag #name# of hij/zij wil oogsten op je boerderij. Elke keer als er iemand oogst op je boerderij ontvang je meer Farmdollars!"  />
+				<text id="txt2" name="Annuleren"  />
+				<text id="txt3" name="Vragen"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Vraag om hulp!"  />
+				<text id="txt1" name="Vraag #name# of hij/zij wil ploegen op je boerderij.
+Elke keer als er iemand ploegt op je boerderij ontvang je extra XP!"  />
+				<text id="txt2" name="Annuleren"  />
+				<text id="txt3" name="Vragen"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Verwijder"  />
+				<text id="txt1" name="Kopen"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Gebruikte plaatsen"  />
+				<text id="txt1" name="Uitbreiden"  />
+				<text id="txt2" name="Opslag"  />
+				<text id="txt3" name="Terug"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Verwijderen"  />
+				<text id="txt1" name="Oogsten"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Gebruikte plaatsen"  />
+				<text id="txt1" name="Uitbreiden"  />
+				<text id="txt2" name="Oogst alles"  />
+				<text id="txt3" name="Voed ze allemaal met &#039;{0}&#039;"  />
+				<text id="txt4" name="Geef ze &#039;{0}&#039; te eten"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Je hebt nieuwe shop items vrijgegeven!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Nieuwe items"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Volgende Level!"  />
+				<text id="txt1" name="Gefeliciteerd! Je hebt een nieuw level bereikt!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Delen"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Paswoord vergeten?"  />
+				<text id="txt1" name="Typ het emailadres dat je gebruikt hebt toen je je registreerde en klik op &#039;versturen&#039;.
+Dan krijg je je paswoord doorgestuurd per mail."  />
+				<text id="txt2" name="Email"  />
+				<text id="txt3" name="Annuleer"  />
+				<text id="txt4" name="Verstuur"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Logout"  />
+				<text id="txt1" name="Wil je de boerderij verlaten?"  />
+				<text id="txt2" name="Annuleer"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Oeps!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Aanmelden"  />
+				<text id="txt1" name="Meld je alsjeblieft aan, zodat je vooruitgang bewaard wordt."  />
+				<text id="txt2" name="Logout"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Aanmelden"  />
+				<text id="txt1" name="Email"  />
+				<text id="txt2" name="Paswoord"  />
+				<text id="txt3" name="Algemene Voortgang"  />
+				<text id="txt4" name="Annuleer"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Speler aanmaken"  />
+				<text id="txt1" name="Nickname"  />
+				<text id="txt2" name="vrouwelijk"  />
+				<text id="txt3" name="mannelijk"  />
+				<text id="txt4" name="Annuleer"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Speel nu"  />
+				<text id="txt1" name="Aanmelden"  />
+				<text id="txt2" name="Login"  />
+				<text id="txt3" name="Naam / Email"  />
+				<text id="txt4" name="Paswoord"  />
+				<text id="txt5" name="Paswoord vergeten?"  />
+				<text id="txt6" name="Gegevens onthouden"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Marktplaats"  />
+				<text id="txt1" name="laat niet meer zien"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Hallo #name# !
+Dit is de #spielname# marktplaats. Hier kun je werk zoeken of je kunt andere spelers inhuren om te ploegen of oogsten"  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Verander paswoord"  />
+				<text id="txt1" name="Oud paswoord"  />
+				<text id="txt2" name="Nieuw paswoord"  />
+				<text id="txt3" name="Herhaal het nieuwe paswoord"  />
+				<text id="txt4" name="Annuleren"  />
+				<text id="txt5" name="Bewaren"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Oeps!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Aanmelden"  />
+				<text id="txt3" name="Nodig vrienden uit"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Instellingen"  />
+				<text id="txt1" name="Transparente bomen"  />
+				<text id="txt10" name="hoog"  />
+				<text id="txt11" name="medium"  />
+				<text id="txt12" name="laag"  />
+				<text id="txt13" name="inzoomen tot"  />
+				<text id="txt14" name="Blokkeer alle vriendschapsverzoeken"  />
+				<text id="txt15" name="Spelerbezoek via Ranglijst verbieden"  />
+				<text id="txt16" name="Laat spel-hints zien."  />
+				<text id="txt2" name="Transparente gebouwen"  />
+				<text id="txt3" name="Transparente decoraties"  />
+				<text id="txt4" name="Kwaliteit &#039;laag&#039;"  />
+				<text id="txt5" name="Verander paswoord"  />
+				<text id="txt6" name="Annuleer"  />
+				<text id="txt7" name="Bewaar"  />
+				<text id="txt8" name="Animaties uit"  />
+				<text id="txt9" name="kwaliteit"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Naam / Rang zoeken"  />
+				<text id="txt0" name="Ranglijst"  />
+				<text id="txt1" name="zoeken"  />
+				<text id="txt2" name="Rang"  />
+				<text id="txt3" name="Naam"  />
+				<text id="txt4" name="Level"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Vandaag"  />
+				<text id="zeitraum1" name="Deze week"  />
+				<text id="zeitraum2" name="Deze maand"  />
+				<text id="zeitraum3" name="Altijd"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Verkoop object"  />
+				<text id="txt1" name="Wil je #obj# echt verkopen voor #w1# Farmdollar?"  />
+				<text id="txt2" name="Nee"  />
+				<text id="txt3" name="Ja"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Dit opfrismiddel laat verdorde gewassen weer opleven."  />
+				<text id="F30" name="Versnelt de groei van planten en zaden met 10%"  />
+				<text id="F31" name="Versnelt de groei van planten en bomen met 50%"  />
+				<text id="F40" name="Versnelt de groei van dieren met 10%"  />
+				<text id="F41" name="Versnel de groei van je dieren met 50%"  />
+				<text id="F50" name="Verhoogt de ervaringspunten die je ontvangt bij de zaden en het oogsten van zaden, bomen en dieren met 50%!"  />
+				<text id="H00" name="De schuur maakt het mogelijk 15 objecten op te slaan."  />
+				<text id="H02" name="De opslagplaats maakt het mogelijk 4 objecten op te slaan."  />
+				<text id="H10" name="Het kippenhok zorgt
+ervoor dat je meerdere kippen
+tegelijkertijd kunt oogsten."  />
+				<text id="H11" name="De varkensstal zorgt
+ervoor dat je meerdere varkens
+tegelijkertijd kunt oogsten."  />
+				<text id="H12" name="De koeienstal zorgt ervoor
+dat je meerdere koeien
+tegelijkertijd kunt oogsten."  />
+				<text id="H13" name="De paardenstal zorgt ervoor
+dat je meerdere paarden
+tegelijkertijd kunt oogsten."  />
+				<text id="H40" name="De silo geeft je een 20% bonus op alle bemesting en voedsel-aankopen."  />
+				<text id="N01" name="Toestemming om te oogsten:
+alle bomen tegelijkertijd (klaar)."  />
+				<text id="N02" name="Toestemming om te oogsten:
+alle dieren tegelijkertijd (klaar)."  />
+				<text id="R0x" name="Hiermee kun je jobtoestemmingen
+bijvullen ({0}x)."  />
+				<text id="S5x" name="Premium zaden leveren meer XP en Farmdollars op dan de gewone gewassen en ze kunnen ook niet verwelken!
+Ze kunnen in pakketten gekocht worden en je kunt ze zonder extra kosten direct via de winkel kopen."  />
+				<text id="V0x" name="Met dit brandstofvat
+kun je {0}x bijtanken."  />
+				<text id="V10" name="Met de tractor kun je
+je velden gelijktijdig ploegen."  />
+				<text id="V20" name="Met de zaadmachine kun je
+je velden gelijktijdig bezaaien."  />
+				<text id="V30" name="Met de oogstmachine kun je je velden gelijktijdig oogsten."  />
+				<text id="V40" name="Met de mestmachine kun je je velden gelijktijdig bemesten."  />
+				<text id="V90" name="20% extra brandstof
+bij het aanschaffen
+van een refill"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Level #level#"  />
+				<text id="txtAnzahl" name="Aantal:"  />
+				<text id="txtAnzahlVon" name="van"  />
+				<text id="txtBenutzen" name="Gebruiken"  />
+				<text id="txtBuy" name="Kopen"  />
+				<text id="txtHarvestXP" name="Oogst voor:"  />
+				<text id="txtPremium" name="Premium"  />
+				<text id="txtSize" name="Maat Pakket:"  />
+				<text id="txtVerbrauch" name="Consumptie"  />
+				<text id="txtWork" name="werken"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Laat geen hints zien."  />
+				<text id="shoptipp_0_title" name="Oeps!"  />
+				<text id="shoptipp_1_text" name="Je hebt niet genoeg brandstof. Wil je bijvullen?"  />
+				<text id="shoptipp_1_title" name="Brandstof bijvullen"  />
+				<text id="shoptipp_2_text" name="Je hebt niet genoeg meststoffen. Wil je er kopen?"  />
+				<text id="shoptipp_2_title" name="Meer mest inslaan"  />
+				<text id="shoptipp_3_text" name="Je hebt niet genoeg ruimte op je boerderij. Wil je uitbreiden?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="Je hebt geen job-energie meer!
+Wist je al dat je dit zelf kunt aanvullen?"  />
+				<text id="shoptipp_4_title" name="Werkverslaafde!"  />
+				<text id="shoptipp_5_text" name="Je hebt niet genoeg premium zaden om deze actie uit te voeren. Wil je nu wat zaden kopen?"  />
+				<text id="shoptipp_5_title" name="Koop premium zaden"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Winkel"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="werken"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Ik ben op zoek naar werk."  />
+				<text id="txt1" name="Ik wil ploegen."  />
+				<text id="txt2" name="Ik wil oogsten."  />
+				<text id="txt3" name="Wie wil ploegen?"  />
+				<text id="txt4" name="Wie wil oogsten?"  />
+				<text id="txt5" name="Hallo!"  />
+				<text id="txt6" name="Bedankt"  />
+				<text id="txt7" name="Ja"  />
+				<text id="txt8" name="Nee"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Nodig een vriend(in) uit"  />
+				<text id="txt1" name="Jouw naam"  />
+				<text id="txt2" name="Naam van je vriend(in)"  />
+				<text id="txt3" name="Email van je vriend(in)"  />
+				<text id="txt4" name="Annuleren"  />
+				<text id="txt5" name="Uitnodigen"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Gebruikers laten zwijgen"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bijen Frisdrank"  />
+				<text id="txt1" name="Speel Bijen Frisdrank en win fantastische prijzen!"  />
+				<text id="txt2" name="Draaien!"  />
+				<text id="txt3" name="De eerste ronde kost je niets!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hoera!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Volgende niveau bij
+#xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farmdollars:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Vrienden:"  />
+				<text id="txt4" name="Prestaties:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Verwijder Speler"  />
+				<text id="txt1" name="Weet je zeker dat je #name# wilt verwijderen van je boerderij?"  />
+				<text id="txt2" name="Annuleren"  />
+				<text id="txt3" name="Accepteren"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Het is bijna lente! Mis de nieuwe gebouwen, decoraties, dieren en bomen niet!"  />
+				<text id="teaser_11_info_1" name="Luister goed!
+Het is aan het kakelen en loeien op je boerderij!
+Veel plezier met de nieuwe geluiden in Goodgame Farmer"  />
+				<text id="teaser_11_title" name="Geluiden!"  />
+				<text id="teaser_12_info_1" name="Je kunt vanaf level 10 vrijblijvend chatten op de marktplaats. Alle lagere levels kunnen gebruik maken van de voorgeprogrammeerde chat-zinnen."  />
+				<text id="teaser_12_title" name="Marktplaats Chat Regels"  />
+				<text id="teaser_13_info_1" name="Nu zelfs nog meer onderdelen!
+Zet jezelf schrap voor de volgende lading dieren, bomen, decoraties en gebouwen!"  />
+				<text id="teaser_13_info_2" name="Bijkomend hebben we nieuwe levels toegevoegd bij alle prestaties!"  />
+				<text id="teaser_14_info_1" name="Probeer de nieuwe premium zaden!
+Ze leveren meer XP en Farmdollars op dan de gewone gewassen en ze kunnen niet verwelken! 
+Je kunt ze in pakketten kopen, direct en zonder extra kosten in de winkel.
+
+We hebben ook nieuwe zaden toegevoegd voor high-level boeren!"  />
+				<text id="teaser_14_info_2" name="We hebben ook nieuwe zaden en twee nieuwe prestaties toegevoegd voor high-level boeren!"  />
+				<text id="teaser_14_title" name="Premium zaden!"  />
+				<text id="teaser_17_info_1" name="Het is Pasen en tijd om te genieten van prachtige nieuwe gebouwen, decoraties, bomen en zaden!
+Veel plezier met het zoeken naar eitjes!"  />
+				<text id="teaser_17_info_2" name="Het job systeem is ook veranderd. Nu heb je alleen job-toestemmingen nodig voor acties dus je komt nooit met lege handen thuis."  />
+				<text id="teaser_17_title" name="Vrolijk Pasen!"  />
+				<text id="teaser_18_info_1" name="Opschieten! 
+Nog maar een paar dagen en Pasen is voorbij. We bieden je een grote korting aan (tot 50%) voor veel seizoen-items."  />
+				<text id="teaser_18_title" name="Grijp je kans!"  />
+				<text id="teaser_19_info_1" name="De zomermode is hier!
+Koop een van de nieuwe hoedjes of probeer de grappige paashaas-oren!
+
+En vergeet niet te gaan kijken naar ons nieuwe Farmer forum."  />
+				<text id="teaser_19_title" name="Hoedjes op!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer&#039;s 1ste verjaardag, tijd om samen te vieren!
+Decoreer je boerderij, versier jezelf met slingers en hoedjes en mis het nieuwe muffin-zaad niet.
+
+Maar haast je wel, want het feest duurt niet eeuwig!"  />
+				<text id="teaser_20_title" name="Gelukkige Verjaardag!"  />
+				<text id="teaser_21_info_1" name="Aandacht! Er is een magische toverstaf voor succes. Gebruik hem voor je bomen, dieren en zaden. Op die manier win je aan ervaring en opbrengst."  />
+				<text id="teaser_21_info_2" name="Je dieren hebben honger!
+Voed ze zodat ze sneller groeien!
+De bomen wachten ook om bemest te worden."  />
+				<text id="teaser_21_title" name="Dierenvoeding &amp; meer!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer is genomineerd voor de Europese Games Award voor &quot;Best Social Game&quot;!"  />
+				<text id="teaser_23_info_2" name="Help ons om te winnen door op ons te stemmen!"  />
+				<text id="teaser_23_title" name="Stem op ons!"  />
+				<text id="teaser_24_info_1" name="Arrr!
+De piraten hebben hun intrede gemaakt bij Goodgame Farmer!
+Zet je piratenhoed op, plant een nieuwe schat en zorg voor een sprekende papegaai!"  />
+				<text id="teaser_24_title" name="Piraten update!"  />
+				<text id="teaser_25_info_1" name="The laatste update heeft gezorgd voor ernstige technische problemen met de conversie van de bemesting en de prestaties. 
+
+Om dit probleem op te lossen, moesten we alles resetten.
+
+Het spijt ons voor de ongemakken die dit veroorzaakt."  />
+				<text id="teaser_25_title" name="Reset"  />
+				<text id="teaser_5_info_1" name="Frighten your visitors with spooky Halloween decorations and nightmarish buildings."  />
+				<text id="teaser_5_title" name="Nieuwe feautures!"  />
+				<text id="teaser_6_info_1" name="Jouw mening wordt gevraagd! Vertel ons hoe je in de toekomst wilt spelen!"  />
+				<text id="teaser_6_title" name="Beslis mee!!!"  />
+				<text id="teaser_7_info_1" name="Kerstmis komt eraan!
+Mis het niet: de nieuwe gebouwen, decoraties, bomen en zaden!"  />
+				<text id="teaser_7_info_2" name="En om er voor te zorgen dat er altijd genoeg ruimte is op je boerderij kun je items nu opslaan in schuren en loodsen!"  />
+				<text id="teaser_7_title" name="Nieuwe items"  />
+				<text id="teaser_8_info_1" name="Weer een Kerstcadeautje voor jou!
+Gebruik de gloednieuwe rangschikking om jezelf te matchen met andere spelers. 
+Word de beste boer aller tijden!"  />
+				<text id="teaser_8_title" name="Rangschikking!"  />
+				<text id="teaser_9_info_1" name="Snel! 
+Nog maar een paar dagen en het Kerst evenement is voorbij. We bieden een grote uitverkoop aan met tot 50% korting voor alle seizoen-items!!!"  />
+				<text id="teaser_9_title" name="Neem je kans!"  />
+				<text id="teaser_btn_forum" name="Forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Winkel"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Weiger"  />
+				<text id="zAchievements" name="Mijn prestaties"  />
+				<text id="zAn2" name="Accepteer"  />
+				<text id="zBuddies" name="Al je vrienden"  />
+				<text id="zBuddiesNoAsk" name="Deze speler accepteert geen vriendschapsverzoeken."  />
+				<text id="zBuddiesSub" name="Verwijder deze speler
+uit je vriendenlijst"  />
+				<text id="zBuy" name="Kopen"  />
+				<text id="zCancel" name="Sluit"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Zet geluid uit"  />
+				<text id="zChatSenden" name="Stuur een bericht"  />
+				<text id="zChatVorgaben" name="Voorgeprogrammeerde chat-zinnen."  />
+				<text id="zCheckAGB" name="Ik accepteer de Algemene Voorwaarden"  />
+				<text id="zCheckAny" name="Sta animaties niet toe"  />
+				<text id="zCheckMen" name="Mannelijke speelfiguur"  />
+				<text id="zCheckMerken" name="Naam en paswoord bewaren?"  />
+				<text id="zCheckMute" name="Geen chat met die speler"  />
+				<text id="zCheckNoMoreShow" name="Laat dit scherm niet meer zien."  />
+				<text id="zCheckQuali" name="Verminder beeldkwaliteit
+om energie te besparen"  />
+				<text id="zCheckShowB" name="Bomen transparant maken"  />
+				<text id="zCheckShowD" name="Decoraties transparant maken"  />
+				<text id="zCheckShowH" name="Gebouwen transparant maken"  />
+				<text id="zCheckSound1" name="Effecten"  />
+				<text id="zCheckSound2" name="Muziek"  />
+				<text id="zCheckWomen" name="Vrouwelijke speelfiguur"  />
+				<text id="zChipsMore" name="Voeg Farmdollars/Goud toe"  />
+				<text id="zClose" name="Sluit af"  />
+				<text id="zClothes" name="Nieuwe kleding voor je speelfiguur"  />
+				<text id="zClothsBuy" name="Wil je de huidige speelfiguur bewaren?"  />
+				<text id="zClothsSelect" name="Selecteren"  />
+				<text id="zClothsZufall" name="De computer zal een stijl voorstellen"  />
+				<text id="zCookAdd" name="Meerdere log data aanmaken"  />
+				<text id="zCookDel" name="Verwijder deze log data"  />
+				<text id="zDel" name="Verwijder"  />
+				<text id="zDown" name="Naar onder"  />
+				<text id="zEarnChips" name="Verdien meer Farmdollars"  />
+				<text id="zEarnGold" name="Verdien meer Goud"  />
+				<text id="zEinladen" name="Je moet {0} extra vrienden uitnodigen om dit te kunnen kopen."  />
+				<text id="zEinladen2" name="Je hebt {1} {0} vrienden."  />
+				<text id="zEmailVerificationWinker" name="Cadeau ontvangen"  />
+				<text id="zErweitern" name="Uitbreiden"  />
+				<text id="zExchange" name="Ruil goud voor Farmdollars"  />
+				<text id="zExpHigherLevelNeeded" name="Level is te laag."  />
+				<text id="zExpPreviousNeeded" name="Je hebt een eerdere uitbreiding nodig."  />
+				<text id="zFarmowner" name="Eigenaar van deze boerderij"  />
+				<text id="zFertilize" name="Mest"  />
+				<text id="zFlinkeHand" name="Werk sneller"  />
+				<text id="zFoto" name="Foto&#039;s"  />
+				<text id="zFullscreen" name="Volledig scherm"  />
+				<text id="zFunc" name="Objecten met een speciale functie"  />
+				<text id="zGiftsMy" name="Mijn cadeaus"  />
+				<text id="zHarvest" name="oogsten"  />
+				<text id="zHarvestV3" name="gebruik oogstmachine om te oogsten"  />
+				<text id="zHelp" name="Help"  />
+				<text id="zHome" name="Mijn boerderij"  />
+				<text id="zInfoEMail" name="Een email moet er zo uitzien:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Een paswoord bevat 5 tot 15 karakters,
+bestaande uit: a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="openen"  />
+				<text id="zInvite" name="Nodig je vrienden uit!"  />
+				<text id="zJ" name="Doe het"  />
+				<text id="zJobben" name="Job energie:
+Wordt gebruikt om te zaaien en oogsten tijdens jobs op boerderijen van andere spelers.
+Zolang je job energie lager dan {0} is, zal het elke minuut nieuwe regenereren. Je kunt ook meer energie kopen in de shop."  />
+				<text id="zKatAC" name="T-Shirt"  />
+				<text id="zKatAG" name="Figuur"  />
+				<text id="zKatAH" name="Kapsel"  />
+				<text id="zKatAK" name="Hoed"  />
+				<text id="zKatAP" name="Broek"  />
+				<text id="zKatAS" name="Schoenen"  />
+				<text id="zKatAT" name="Huidskleur"  />
+				<text id="zKatB" name="Bomen"  />
+				<text id="zKatD" name="Decoraties"  />
+				<text id="zKatE" name="Uitbreidingen"  />
+				<text id="zKatF" name="Mest"  />
+				<text id="zKatG" name="Straten"  />
+				<text id="zKatH" name="Gebouwen"  />
+				<text id="zKatR" name="Job energie"  />
+				<text id="zKatS" name="Zaadjes"  />
+				<text id="zKatT" name="Dieren"  />
+				<text id="zKatV" name="Voertuigen"  />
+				<text id="zKatX" name="Speciale aanbiedingen"  />
+				<text id="zKatY" name="Alle"  />
+				<text id="zKennLost" name="Klik als je je paswoord vergeten bent."  />
+				<text id="zKennMod" name="Verander paswoord"  />
+				<text id="zKette" name="Werklijst"  />
+				<text id="zKetteDel" name="Werklijst wissen"  />
+				<text id="zKick" name="Verwijder deze speler van je boerderij."  />
+				<text id="zLinkAGB" name="Klik hier om de Algemene Voorwaarden te lezen."  />
+				<text id="zLogin" name="Start het spel"  />
+				<text id="zLogout" name="Log uit"  />
+				<text id="zLupeM" name="Zoom uit"  />
+				<text id="zLupeP" name="Zoom in"  />
+				<text id="zMail" name="Mail"  />
+				<text id="zMarket" name="Marktplaats"  />
+				<text id="zMeldBad" name="Speler melden?"  />
+				<text id="zMen" name="Mannelijke speelfiguur"  />
+				<text id="zMoreChipsGold" name="Koop Farmdollars &amp; Goud"  />
+				<text id="zMove" name="bewegen"  />
+				<text id="zN" name="Doe het niet"  />
+				<text id="zNext" name="Doorgaan"  />
+				<text id="zNoSilo" name="Je moet eerst een silo bouwen."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Vraag dit paswoord aan."  />
+				<text id="zOKKennMod" name="Bewaar nieuw paswoord"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Multi Tool Voertuigen"  />
+				<text id="zPlow" name="ploegen"  />
+				<text id="zPlowNew" name="Nieuw veld"  />
+				<text id="zPlowV1" name="gebruik tractor om te ploegen"  />
+				<text id="zPrefs" name="Instellingen"  />
+				<text id="zPremium" name="Koop dit pakket"  />
+				<text id="zPremiumUse" name="Gebruik deze Premium-zaden op je boerderij."  />
+				<text id="zPrev" name="Terug"  />
+				<text id="zQuest" name="Opgaven"  />
+				<text id="zRangliste" name="Ranglijst"  />
+				<text id="zRanking2Farm" name="Deze speler wil niet bezocht worden via de ranglijst."  />
+				<text id="zRegistrieren" name="Registreer
+om je vooruitgang te bewaren."  />
+				<text id="zRot" name="draaien"  />
+				<text id="zSave" name="Bewaar"  />
+				<text id="zScrBG" name="Scrollbalk"  />
+				<text id="zScrMove" name="Beweeg de schuifbalk"  />
+				<text id="zSell" name="verkopen"  />
+				<text id="zShare" name="Vertel het je vrienden!"  />
+				<text id="zShop" name="Winkel"  />
+				<text id="zShopEarn" name="Verkopen voor:"  />
+				<text id="zShopHarvest" name="Oogst voor:"  />
+				<text id="zShopLagerSize" name="Plaatsen:"  />
+				<text id="zShopTime" name="Oogsten:"  />
+				<text id="zShopXP" name="XP erbij:"  />
+				<text id="zSilo" name="Silo(Mest)"  />
+				<text id="zSofort" name="Start het spel - zonder registratie"  />
+				<text id="zSound" name="Geluiden"  />
+				<text id="zSow" name="zaaien"  />
+				<text id="zSowV2" name="gebruik zaaimachine om te zaaien"  />
+				<text id="zStrangeAchies" name="Prestaties van deze speler"  />
+				<text id="zStrangeAdd" name="Voeg deze speler toe
+in je vriendenlijst"  />
+				<text id="zStrangeFotos" name="Foto album van deze speler"  />
+				<text id="zStrangeGift" name="Maak voor deze speler
+een cadeau"  />
+				<text id="zStrangeHarvest" name="Huur deze speler in
+om op je boerderij te oogsten"  />
+				<text id="zStrangeHome" name="Ga naar de boerderij van deze speler"  />
+				<text id="zStrangeInfo" name="Informatie over deze speler"  />
+				<text id="zStrangeMail" name="Stuur deze speler
+een bericht"  />
+				<text id="zStrangePlow" name="Huur deze speler in
+om op je boerderij te ploegen"  />
+				<text id="zSubAsk" name="Vragen en antwoorden"  />
+				<text id="zSubFotobuch" name="Foto album"  />
+				<text id="zSubMailInbox" name="Lees je berichten"  />
+				<text id="zSubMailNew" name="Schrijf een bericht"  />
+				<text id="zSubNews" name="Nieuws"  />
+				<text id="zSubShot1" name="Maak een foto
+van de hele boerderij"  />
+				<text id="zSubShot2" name="Maak een foto
+gebruik de rechthoek om een gebied te selecteren"  />
+				<text id="zSubShot3" name="Maak een foto
+klik op een object"  />
+				<text id="zSubSupport" name="Ondersteuning"  />
+				<text id="zTanken" name="Bijtanken:
+Klik om bij te vullen
+Display:
+Aantal keren bijgevuld
+en brandstofmeter
+(maximum {0})"  />
+				<text id="zTosOpen" name="Opslaan"  />
+				<text id="zTosStall" name="Dit dier in de stal gezet"  />
+				<text id="zUp" name="Naar boven"  />
+				<text id="zUse" name="Gebruiken"  />
+				<text id="zUsersOnFarm" name="Alle aanwezige spelers
+op deze boerderij of marktplaats"  />
+				<text id="zVZBuddies" name="{0} vrienden nodig"  />
+				<text id="zVZBuddiesE" name="Als je genoeg vrienden hebt, kun je je boerderij uitbreiden tegen een goedkopere prijs."  />
+				<text id="zWomen" name="Vrouwelijke speelfiguur"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Welkom op je eigen boerderij!
+
+Ik zal je helpen bij het opstarten, samen maken we er een bloeiende onderneming van."  />
+				<text id="tut_gast_1_title" name="Hallo vriend(in)"  />
+				<text id="tut_gast_2_text" name="Kijk, je aardbeien zijn al klaar!
+Snel, ga ze ophalen."  />
+				<text id="tut_gast_2_title" name="Oogst zaden door er op te klikken!"  />
+				<text id="tut_gast_3_text" name="Als je planten oogst,
+verdien je Farmdolldars en 
+krijg je ervaringspunten."  />
+				<text id="tut_gast_3_title" name="Oogsten levert Farmdollars en XP op!"  />
+				<text id="tut_gast_4_text" name="Nu moet je je velden ploegen om iets nieuws te kunnen zaaien."  />
+				<text id="tut_gast_4_title" name="Ploeg de velden door er op te klikken"  />
+				<text id="tut_gast_5_text" name="Nu kun je nieuwe zaadjes halen in de shop!"  />
+				<text id="tut_gast_5_title" name="Koop nieuwe zaden in de shop"  />
+				<text id="tut_gast_6_text" name="Laten we tarwe kopen!"  />
+				<text id="tut_gast_6_title" name="Tarwe kopen"  />
+				<text id="tut_gast_7_text" name="Klik op de velden om er tarwe te zaaien"  />
+				<text id="tut_gast_7_title" name="De tarwe over de velden verspreiden"  />
+				<text id="tut_gast_8_text" name="Je doet het fantastisch!
+Je boerderij is binnenkort de mooiste van allemaal.
+
+Kom op, waarom plant je niet wat meer?!"  />
+				<text id="tut_gast_8_title" name="Hoera! Je boerderij doet het fantastisch!"  />
+				<text id="tut_market_1_text" name="Duurt het nog even voor je zaden klaar zijn?
+Waarom ga je niet naar de marktplaats om voor 
+andere spelers te werken?"  />
+				<text id="tut_market_1_title" name="Je kunt ook gaan werken!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farmdollars:"  />
+				<text id="txt1" name="Goud:"  />
+				<text id="txt2" name="Volgende oogst:"  />
+				<text id="txt3" name="Vrienden:"  />
+				<text id="txt4" name="Prestaties:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Nodig meer
+vrienden uit"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Dag {0}"  />
+				<text id="txt0" name="Welkom"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Je ontvangt elke dag een welkomst bonus!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Je ontvangt
+#w1# Farmdollar als beloning voor je registratie!"  />
+				<text id="21" name="Je ontvangt
+#w1# Farmdollar als dagelijkse welkomst-bonus!"  />
+				<text id="2f" name="Daarom ontvang je nu #anz# #ferti#."  />
+				<text id="2job" name="Daarom ontvang je nu #job# job energie"  />
+				<text id="2w1" name="Daarom ontvang je nu #w1# Farmdollars."  />
+				<text id="2w2" name="Daarom ontvang je nu #w2# Goud."  />
+				<text id="2x" name="Je hebt nu
+#days# dag/en achter elkaar ingelogd."  />
+				<text id="2xp" name="Daarom ontvang je nu #xp# XPs."  />
+				<text id="freunde" name="Je ontvangt #w1# Farmdollar, voor de activiteiten van de spelers die je hebt uitgenodigd."  />
+				<text id="txt0" name="Welkom"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Fout"  />
+				<text id="generic_alert_connection_failed_copy" name="Onderhoud. Probeer het later nog eens!"  />
+				<text id="generic_alert_connection_failed_title" name="Werk in uitvoering!"  />
+				<text id="generic_alert_connection_lost_copy" name="De server-verbinding doet het niet. Probeer het a.u.b. nog eens."  />
+				<text id="generic_alert_connection_lost_description" name="We zijn op dit moment bezig met onderhoudswerk dat af en toe nodig is. Dit doen we om updates of nieuwe features te installeren of fouten te corrigeren. &lt;br&gt;&lt;br&gt; 
+We werken zo snel we kunnen zodat je niet te lang hoeft te wachten om weer terug te keren naar je spel."  />
+				<text id="generic_alert_connection_lost_promo" name="Waarom probeer je ondertussen niet een van onze andere spelletjes?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Bedankt voor je begrip!"  />
+				<text id="generic_alert_connection_lost_title" name="Verbinding verbroken!"  />
+				<text id="generic_alert_error" name="Fout"  />
+				<text id="generic_alert_information" name="Melding"  />
+				<text id="generic_alert_loggedout_copy" name="Je bent nu uitgelogd. Vergeet niet: Elke dag is er een log-in bonus voor jou!"  />
+				<text id="generic_alert_loggedout_title" name="Tot straks!"  />
+				<text id="generic_alert_warning" name="Waarschuwing"  />
+				<text id="generic_alert_watchout" name="Let op!"  />
+				<text id="generic_alert_win7chromebug" name="If you can&#039;t enter text, please press the Ctrl key."  />
+				<text id="generic_invalid_email_provider" name="Een e-mail adres van deze provider is niet toegestaan!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Je internet verbinding lijkt nogal langzaam op het moment. Probeer het a.u.b. later nog eens!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Wat vind je van het spel en wat kan nog verbeterd worden? Schrijf je opmerkingen a.u.b. in het Goodgame Forum of de Groep."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Let op: Je vooruitgang wordt alleen geregistreerd als je je hebt aangemeld!"  />
+				<text id="generic_register_error_invalidemail" name="Het ingevoerde e-mail adres is niet correct."  />
+				<text id="generic_report_muted_chattry" name="Je kunt de chat functie niet gebruiken omdat je geblokkeerd bent."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Accepteren"  />
+				<text id="generic_btn_cancel" name="Annuleren"  />
+				<text id="generic_btn_close" name="Sluiten"  />
+				<text id="generic_btn_continue" name="Doorgaan"  />
+				<text id="generic_btn_end" name="Einde"  />
+				<text id="generic_btn_endnow" name="Nu eindigen"  />
+				<text id="generic_btn_goback" name="Terug"  />
+				<text id="generic_btn_no" name="Nee"  />
+				<text id="generic_btn_noshare" name="Niet draaien"  />
+				<text id="generic_btn_notaccept" name="Afwijzen"  />
+				<text id="generic_btn_okay" name="OK"  />
+				<text id="generic_btn_reconnect" name="Verbind opnieuw"  />
+				<text id="generic_btn_refresh" name="Refresh"  />
+				<text id="generic_btn_report" name="Melden"  />
+				<text id="generic_btn_search" name="Zoeken"  />
+				<text id="generic_btn_share" name="Delen!"  />
+				<text id="generic_btn_skip" name="Overslaan"  />
+				<text id="generic_btn_start" name="Beginnen"  />
+				<text id="generic_btn_topayment" name="Geef het aan mij!"  />
+				<text id="generic_btn_yes" name="Ja"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="Je moet je aanmelden en level 1 bereikt hebben om de chat te kunnen gebruiken."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="Let op!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Animaties weergeven"  />
+				<text id="generic_bugreport" name="Vertel ons over Fouten"  />
+				<text id="generic_changePass" name="Wachtwoord veranderen"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Binnenkort uit*"  />
+				<text id="generic_date" name="Datum"  />
+				<text id="generic_day" name="Dag"  />
+				<text id="generic_dayformat" name="{0}-{1}-{2}"  />
+				<text id="generic_dayformat_short" name="{0}-{1}"  />
+				<text id="generic_days" name="Dagen"  />
+				<text id="generic_day_short" name="D"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Veel Gestelde Vragen"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Vriend"  />
+				<text id="generic_friends" name="Vrienden"  />
+				<text id="generic_general" name="Algemene settings"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Groep"  />
+				<text id="generic_guest" name="Gast"  />
+				<text id="generic_help" name="Help"  />
+				<text id="generic_high" name="Hoog"  />
+				<text id="generic_hour" name="Uur"  />
+				<text id="generic_hours" name="Uur"  />
+				<text id="generic_hour_short" name="U"  />
+				<text id="generic_limited" name="Limited"  />
+				<text id="generic_logout" name="Log-out"  />
+				<text id="generic_low" name="Laag"  />
+				<text id="generic_medium" name="Medium"  />
+				<text id="generic_minute" name="Minuut"  />
+				<text id="generic_minutes" name="Minuten"  />
+				<text id="generic_minute_short" name="Min"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_month" name="maand"  />
+				<text id="generic_months" name="maanden"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Muziek aan/uit"  />
+				<text id="generic_name" name="Naam"  />
+				<text id="generic_news" name="Nieuwe verhalen"  />
+				<text id="generic_options" name="Opties"  />
+				<text id="generic_quality" name="Kwaliteit"  />
+				<text id="generic_register" name="Bewaren en Aanmelden"  />
+				<text id="generic_second" name="Seconde"  />
+				<text id="generic_seconds" name="Seconden"  />
+				<text id="generic_second_short" name="Sec"  />
+				<text id="generic_sound" name="Geluid aan/uit"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="Vandaag"  />
+				<text id="generic_tomorrow" name="Vandaag"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Spelernaam"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Gisteren"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Oude versie!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Pagina updaten."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Wil je {0} als vriend toevoegen?"  />
+				<text id="generic_friends_add_title" name="Vriendschapsverzoek"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Meer Vrienden!"  />
+				<text id="generic_friends_denied_copy" name="{0} heeft je verzoek afgewezen."  />
+				<text id="generic_friends_denied_title" name="Verzoek afgewezen!"  />
+				<text id="generic_friends_invite_badword_copy" name="De naam die je hebt gekozen is niet toegestaan!"  />
+				<text id="generic_friends_invite_badword_title" name="Kijk uit!"  />
+				<text id="generic_friends_invite_error_copy" name="Om vrienden te kunnen uitnodigen, moet je je eerst aanmelden."  />
+				<text id="generic_friends_invite_error_title" name="Meld je eerst aan"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Fullscreen niet mogelijk"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Tsjechisch"  />
+				<text id="generic_language_cz" name="Tsjechisch"  />
+				<text id="generic_language_da" name="Deens"  />
+				<text id="generic_language_de" name="Duits"  />
+				<text id="generic_language_el" name="Grieks"  />
+				<text id="generic_language_en" name="Engels"  />
+				<text id="generic_language_es" name="Spaans"  />
+				<text id="generic_language_fi" name="Fins"  />
+				<text id="generic_language_fr" name="Frans"  />
+				<text id="generic_language_hu" name="Hongaars"  />
+				<text id="generic_language_id" name="Indonesisch"  />
+				<text id="generic_language_it" name="Italiaans"  />
+				<text id="generic_language_ja" name="Japans"  />
+				<text id="generic_language_ko" name="Koreaans"  />
+				<text id="generic_language_nl" name="Nederlands"  />
+				<text id="generic_language_no" name="Noors"  />
+				<text id="generic_language_pl" name="Pools"  />
+				<text id="generic_language_pt" name="Portugees"  />
+				<text id="generic_language_pt_BR" name="Braziliaans"  />
+				<text id="generic_language_ru" name="Russisch"  />
+				<text id="generic_language_sv" name="Zweeds"  />
+				<text id="generic_language_tr" name="Turks"  />
+				<text id="generic_language_zh_CN" name="Chinees (vereenvoudigd)"  />
+				<text id="generic_language_zh_TW" name="Chinees (traditioneel)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Je account is geblokkeerd! Contacteer het support-team!"  />
+				<text id="generic_login_banned_2" name="Je account is gedeactiveerd!
+
+Deactivatie tot: {0}
+
+Als je vragen hebt over je deactivatie, contacteer dan onze helpdesk."  />
+				<text id="generic_login_banned_3" name="Je account is voorgoed geblokkeerd. 
+
+Als je vragen hebt over deze actie, neem dan contact op met support."  />
+				<text id="generic_login_banned_permanent" name="permanent"  />
+				<text id="generic_login_facebook" name="Login via Facebook"  />
+				<text id="generic_login_login" name="LOG-IN"  />
+				<text id="generic_login_loginname" name="Spelernaam / E-mail"  />
+				<text id="generic_login_lostpassword" name="Wachtwoord vergeten?"  />
+				<text id="generic_login_lostpassword_copy" name="Voer je E-mailadres in en dan sturen we je je wachtwoord."  />
+				<text id="generic_login_lostpassword_title" name="Wachtwoord vergeten?"  />
+				<text id="generic_login_newplayer" name="Ben jij nieuw?"  />
+				<text id="generic_login_password" name="Wachtwoord"  />
+				<text id="generic_login_play" name="NU SPELEN"  />
+				<text id="generic_login_playnow" name="Nu spelen!"  />
+				<text id="generic_login_register" name="Aanmelden"  />
+				<text id="generic_login_rememberpassword" name="Wachtwoord bewaren"  />
+				<text id="generic_login_wronglogin" name="Gebruikersnaam of wachtwoord verkeerd!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Meld je aan om je score te bewaren!"  />
+				<text id="generic_logout_guest_title" name="Aanmelden"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Het spel zal binnen {0} zeker weer beschikbaar zijn."  />
+				<text id="servershutdownpremonition_copy" name="De spelserver is nu even niet bruikbaar {0}. Kun je uitloggen of jezelf aanmelden om je score op te slaan?"  />
+				<text id="servershutdownpremonition_registered_copy" name="Wij stoppen de server binnen {0} omwille van onderhoudswerken."  />
+				<text id="servershutdown_copy" name="De spelserver is nu even niet bruikbaar. Over een paar minuten kun je inloggen."  />
+				<text id="welcomeback_copy" name="Leuk om je weer te zien! Hier is een kleinigheidje om je weer op gang te krijgen!"  />
+				<text id="welcomeback_title" name="Je bent er weer!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nieuw wachtwoord:"  />
+				<text id="generic_change_password_copy_oldpass" name="Oud wachtwoord:"  />
+				<text id="generic_change_password_copy_send" name="Je nieuwe wachtwoord is naar je e-mail adres gestuurd."  />
+				<text id="generic_change_password_error_failed" name="Sorry, maar dit is niet je oude wachtwoord."  />
+				<text id="generic_change_password_error_success" name="Je wachtwoord is met succes veranderd!"  />
+				<text id="generic_change_password_faild_copy" name="Je nieuwe wachtwoord moet meer dan twee letters bevatten en je oude wachtwoord moet correct worden ingevoerd!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Je wachtwoord mag niet leeg zijn of speciale tekens bevatten."  />
+				<text id="generic_change_password_faild_title" name="Wachtwoord invoeren"  />
+				<text id="generic_change_password_title" name="Verander wachtwoord"  />
+				<text id="generic_guest_change_password_faild_copy" name="Je kunt je wachtwoord alleen wijzigen als je een geregistreerd speler bent!"  />
+				<text id="generic_guest_change_password_faild_title" name="Meld je eerst aan"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Meer {0} voor je geld!"  />
+				<text id="generic_payment_48hdiscount_button" name="Meer Goud in de eerste 48 uur"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Meer {0} in de eerste 48 uur"  />
+				<text id="generic_payment_48hdiscount_copy" name="Alleen 48 uur na je registratie - Koop geselecteerde goud pakketten en ontvang {0}% Goud gratis!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Alleen 48 uur na je aanmelding - Koop goud pakketten en ontvang {0}% extra Goud gratis!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Alleen 48 uur na je registratie - Koop {0} pakketten en ontvang gratis {1}% extra!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Alleen 48 uur na je aanmelding - Koop geselecteerde {0} pakketten en ontvang gratis {1}% extra!"  />
+				<text id="generic_payment_btn" name="Naar de Shop"  />
+				<text id="generic_payment_copy" name="Je wordt doorgestuurd naar de betaling shop"  />
+				<text id="generic_payment_discount_button" name="Nu {0}% meer goud!"  />
+				<text id="generic_payment_discount_copy" name="Koop nu goud en ontvang een bonus van {0}%!"  />
+				<text id="generic_payment_discount_copy_general" name="Koop nu {0} en ontvang een {1} % bonus!"  />
+				<text id="generic_payment_discount_general" name="Krijg nu {0}% meer {1} voor je geld!"  />
+				<text id="generic_payment_discount_generalshort" name="Ontvang {0}% meer voor je geld!"  />
+				<text id="generic_payment_discount_time" name="{0} resterende!"  />
+				<text id="generic_payment_discount_title" name="Meer goud voor je geld!"  />
+				<text id="generic_payment_newPrices" name="Vanaf nu! Permanent verlaagde prijzen in onze betalings-shop! Bespaar echt geld!"  />
+				<text id="generic_payment_title" name="Betaling shop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Grafieken voorbereiden"  />
+				<text id="loading_text_10" name="Items in de wereld verspreiden"  />
+				<text id="loading_text_11" name="Grafieken tekenen"  />
+				<text id="loading_text_12" name="De knoppen inkleuren"  />
+				<text id="loading_text_13" name="Paaseieren verstoppen"  />
+				<text id="loading_text_14" name="Zoek gebruikersinformatie op"  />
+				<text id="loading_text_15" name="Insecten wegjagen"  />
+				<text id="loading_text_16" name="De programmeur voeren"  />
+				<text id="loading_text_17" name="Experimenteer met de klant"  />
+				<text id="loading_text_18" name="De zandloper omdraaien"  />
+				<text id="loading_text_19" name="Het systeem afkoelen"  />
+				<text id="loading_text_2" name="Spelmecahniek berekenen"  />
+				<text id="loading_text_20" name="Bijna klaar"  />
+				<text id="loading_text_3" name="Het hamsterwiel doen draaien"  />
+				<text id="loading_text_4" name="De server opwarmen"  />
+				<text id="loading_text_5" name="Hopen dat alles goed gaat"  />
+				<text id="loading_text_6" name="De verdelger roepen"  />
+				<text id="loading_text_7" name="Calculeer gecompliceerde algoritmes"  />
+				<text id="loading_text_8" name="Flux capacitor kalibreren"  />
+				<text id="loading_text_9" name="Prutserige items"  />
+				<text id="loading_text_default" name="Initialisering"  />
+				<text id="loading_text_itemXML" name="Spelelementen laden"  />
+				<text id="progress_loadfiles" name="Spelgrafieken worden geladen..."  />
+				<text id="progress_serverconnection" name="Verbinden met server..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="E-mailadres invoeren"  />
+				<field id="generic_register_insertName" name="Naam invoeren"  />
+				<field id="generic_register_insertPassword" name="Wachtwoord invoeren"  />
+				<text id="generic_register_agb_copy" name="Je moet eerst de Algemene Voorwaarden lezen en accepteren! Bevestigen met de linkerknop en je bent er klaar voor!"  />
+				<text id="generic_register_agb_read" name="Lees de Algemene Voorwaarden"  />
+				<text id="generic_register_alreadyavatar" name="Deze gebruiker heeft al een avatar."  />
+				<text id="generic_register_badword" name="Het is niet toegestaan om {0} te gebruiken in je naam."  />
+				<text id="generic_register_btn_agb" name="Algemene Voorwaarden aanvaarden"  />
+				<text id="generic_register_btn_later" name="Later"  />
+				<text id="generic_register_btn_next" name="Doorgaan"  />
+				<text id="generic_register_btn_save" name="Bewaren"  />
+				<text id="generic_register_character" name="Creëer je speelfiguur"  />
+				<text id="generic_register_copy_0" name="Meld je nu gratis aan!"  />
+				<text id="generic_register_copy_1" name="Bewaar je vooruitgang!"  />
+				<text id="generic_register_emaillong_copy" name="Je e-mailadres is helaas te lang."  />
+				<text id="generic_register_emailwrong_copy" name="Het e-mailadres dat je hebt opgegeven, is niet correct."  />
+				<text id="generic_register_email_copy" name="Het E-mailadres mag niet leeg zijn of spaties bevatten."  />
+				<text id="generic_register_error" name="Aanmelding mislukt"  />
+				<text id="generic_register_errormistake" name="Fout"  />
+				<text id="generic_register_error_accountalreadyexists" name="Een andere speler heeft zich al geregistreerd met dit e-mail adres, sorry."  />
+				<text id="generic_register_forfree" name="Meld je gratis aan!"  />
+				<text id="generic_register_forfree1" name="Gratis!"  />
+				<text id="generic_register_letsgo" name="Hier gaan we!"  />
+				<text id="generic_register_namealreadyused" name="Deze naam is al in gebruik."  />
+				<text id="generic_register_namenotvalid" name="De naam die je hebt opgegeven, is niet juist."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="Je wachtwoord is te kort. Het moet tenminste 4 letters bevatten."  />
+				<text id="generic_register_passwordwrong_copy" name="Het wachtwoord dat je hebt opgegeven, is niet juist."  />
+				<text id="generic_register_password_copy" name="Je wachtwoord mag niet leeg zijn of speciale karakters bevatten."  />
+				<text id="generic_register_receivenews" name="Nieuws ontvangen"  />
+				<text id="generic_register_rememberdata" name="Onthoud gegevens"  />
+				<text id="generic_register_reward" name="Meld je gratis aan en ontvang {0} {1}!"  />
+				<text id="generic_register_subscribe" name="Aanmelden"  />
+				<text id="generic_register_success" name="Je hebt je met succes aangemeld."  />
+				<text id="generic_register_title" name="Registratie fout"  />
+				<text id="generic_register_unlock" name="Unlock deze functie!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Let op je taal en manieren. Anders word je geblokkeerd van de chat en zal je account tijdelijk worden afgesloten. Reden: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Je kunt de chat functie de volgende {0} niet gebruiken omwille van herhaaldelijk misbruik. Reden:  {1}"  />
+				<text id="generic_report_muted_domain1" name="Schrijf geen URL&#039;s in de chat!"  />
+				<text id="generic_report_muted_reported_copy" name="Sommige spelers hebben over je geklaagd. Je wordt op de chat geblokkeerd voor de volgende{0}. Reden:  {1}"  />
+				<text id="generic_report_player_copy" name="Wil je de speler {0} echt melden? Kijk uit! Misbruik maken van deze functie kan tot gevolg hebben dat je account geblokkeerd wordt."  />
+				<text id="generic_report_player_reason_0" name="Belediging"  />
+				<text id="generic_report_player_reason_1" name="opmerkingen m.b.t. sex"  />
+				<text id="generic_report_player_reason_2" name="racistische opmerking"  />
+				<text id="generic_report_player_reason_3" name="Bedreiging / blackmail"  />
+				<text id="generic_report_player_reason_title" name="reden van melding"  />
+				<text id="generic_report_player_title" name="Speler melden?"  />
+				<text id="generic_report_reported_copy" name="Een andere speler heeft jou gemeld bij de administrator. Reden:  {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Connect"  />
+				<text id="generic_select_world" name="Selecteer wereld:"  />
+				<text id="generic_world" name="Wereld: {0}"  />
+				<text id="generic_world_international" name="Internationaal: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

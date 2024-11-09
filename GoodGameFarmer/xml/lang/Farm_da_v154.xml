@@ -1,0 +1,1761 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - da - 16 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Samle æg"  />
+			<text id="T01" name="Samle æg"  />
+			<text id="T02" name="Samle æg"  />
+			<text id="T03" name="Samle æg"  />
+			<text id="T04" name="Lad gale"  />
+			<text id="T05" name="Samle æg"  />
+			<text id="T06" name="Samle æg"  />
+			<text id="T07" name="klappe"  />
+			<text id="T10" name="Samle trøfler"  />
+			<text id="T11" name="malke"  />
+			<text id="T110" name="mælke"  />
+			<text id="T111" name="børste"  />
+			<text id="T112" name="børste"  />
+			<text id="T113" name="mælke"  />
+			<text id="T114" name="børst"  />
+			<text id="T115" name="børste"  />
+			<text id="T12" name="Klippe"  />
+			<text id="T13" name="Malke"  />
+			<text id="T14" name="Børste"  />
+			<text id="T15" name="Børste"  />
+			<text id="T16" name="Børste"  />
+			<text id="T17" name="Børste"  />
+			<text id="T18" name="Børste"  />
+			<text id="T19" name="Klippe"  />
+			<text id="T20" name="børste"  />
+			<text id="T21" name="børste"  />
+			<text id="T22" name="børst"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D37"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}: {1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="T"  />
+				<text id="s1" name="Mil."  />
+				<text id="s2" name="Mrd"  />
+				<text id="s3" name="Quardrl."  />
+				<text id="s4" name="Trl."  />
+				<text id="s5" name="Quintil."  />
+				<text id="s6" name="Sekstil."  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="T"  />
+				<text id="day1" name="Dag"  />
+				<text id="day2" name="Dage"  />
+				<text id="heute" name="i dag"  />
+				<text id="hour0" name="h"  />
+				<text id="hour1" name="Time"  />
+				<text id="hour2" name="Timer"  />
+				<text id="min0" name="Min."  />
+				<text id="min1" name="Minut"  />
+				<text id="min2" name="Minutter"  />
+				<text id="morgen" name="i morgen"  />
+				<text id="sofort" name="straks"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="TILBAGE"  />
+				<text id="ex" name="LUKKE"  />
+				<text id="next" name="VIDERE"  />
+				<text id="no" name="NEJ"  />
+				<text id="yes" name="JA"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Altså:
+Dit mål ved #play# er at tjene erfaringspoint og penge for at bygge en stor og flot gård."  />
+				<text id="intro_01_goals_t" name="Mål"  />
+				<text id="welcome_01_i" name="Hjertelig velkommen til #play#, #name#
+Det ville glæde os, hvis du vil se vores særdeles vel forberedte indledning, der gør det nemmere at starte dette spil- Du bliver endda belønnet for det!
+Vil du?"  />
+				<text id="welcome_01_t" name="Indledning"  />
+				<text id="welcome_02_i" name="Grrr, OK, hvis du ikke vil ha&#039; nogen belønning. Du kan til enhver tid se tipsne til indledningen idet du klikker på Spørgsmålstegnet. Spillereglerne bliver også forklaret i hjælpemenuen punkt &quot;Spørgsmål of svar&quot;.
+God fornøjelse!"  />
+				<text id="welcome_02_t" name="Indledning 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Jeg har lige installeret Goodgame Farmer. Besøg mig dog engang på min farm og se hvad jeg alt har fået plantet!"  />
+			<text id="descriptionlongfarmer" name="Velkommen hos Goodgame Farmer, Goodgame Studios nye farmsimulation. Hos Goodgame Farmer kan du manage din virstuelle farm, idet du planter og dyrker feltfrugter, korn eller træer, passer dit kvæg og køber mange nyttige genstande for de tjente spillepenge."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Kvinde"  />
+			<text id="A02" name="Mand"  />
+			<text id="B00" name="Æble"  />
+			<text id="B01" name="Pære"  />
+			<text id="B010" name="Avocado"  />
+			<text id="B011" name="Daddel"  />
+			<text id="B012" name="Figen"  />
+			<text id="B013" name="Granatæble"  />
+			<text id="B014" name="Kiwi"  />
+			<text id="B015" name="Kaki"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papaya"  />
+			<text id="B018" name="Kokosnød"  />
+			<text id="B019" name="Dragefrugt"  />
+			<text id="B02" name="Kirsebær"  />
+			<text id="B020" name="Kakao"  />
+			<text id="B021" name="Valnød"  />
+			<text id="B022" name="Brødfrugt"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Mandel"  />
+			<text id="B025" name="Litchi"  />
+			<text id="B026" name="Stjernefrugt"  />
+			<text id="B027" name="Flammetræ"  />
+			<text id="B028" name="Bambus"  />
+			<text id="B029" name="Kandiserede æbler"  />
+			<text id="B03" name="Fersken"  />
+			<text id="B030" name="Honningkager"  />
+			<text id="B031" name="Chokolade"  />
+			<text id="B032" name="Påsketræ rød"  />
+			<text id="B033" name="Påsketræ blå"  />
+			<text id="B034" name="Mark"  />
+			<text id="B04" name="Blomme"  />
+			<text id="B05" name="Oliven"  />
+			<text id="B06" name="Banan"  />
+			<text id="B07" name="Citron"  />
+			<text id="B08" name="Appelsin"  />
+			<text id="B09" name="Grapefrugt"  />
+			<text id="D00" name="Træstabel"  />
+			<text id="D01" name="Høballe"  />
+			<text id="D010" name="Træstump"  />
+			<text id="D011" name="Vognhjul"  />
+			<text id="D02" name="Fodertrug"  />
+			<text id="D03" name="Vandtrug"  />
+			<text id="D04" name="Brønd"  />
+			<text id="D05" name="Hestepløj"  />
+			<text id="D06" name="Vandpumpe"  />
+			<text id="D07" name="Hestevogn"  />
+			<text id="D08" name="Fad"  />
+			<text id="D09" name="Kasse"  />
+			<text id="D11" name="Fugleskræmsel"  />
+			<text id="D110" name="Parkbænk"  />
+			<text id="D111" name="Mørk bænk"  />
+			<text id="D112" name="Springvand"  />
+			<text id="D113" name="Fugleskræmsel"  />
+			<text id="D114" name="Ugle"  />
+			<text id="D115" name="Vindhjul"  />
+			<text id="D116" name="Vindpose"  />
+			<text id="D117" name="Lille dam"  />
+			<text id="D118" name="Stor dam"  />
+			<text id="D119" name="Koi dam"  />
+			<text id="D12" name="Græsslåmaskine"  />
+			<text id="D120" name="Pool"  />
+			<text id="D121" name="Picknick"  />
+			<text id="D122" name="Havebord"  />
+			<text id="D123" name="Havestol"  />
+			<text id="D124" name="Hængemåtte"  />
+			<text id="D125" name="Liggestol"  />
+			<text id="D126" name="Tørresnor"  />
+			<text id="D127" name="Vindlys"  />
+			<text id="D128" name="Fed kaktus"  />
+			<text id="D129" name="Røde liljer"  />
+			<text id="D13" name="Lokum"  />
+			<text id="D130" name="Lang kaktus"  />
+			<text id="D131" name="Pyntetræ"  />
+			<text id="D132" name="Buket i vase"  />
+			<text id="D133" name="Hvide liljer"  />
+			<text id="D134" name="Skrækkenskræmsel"  />
+			<text id="D135" name="Lille hund"  />
+			<text id="D136" name="Gave"  />
+			<text id="D137" name="slæde"  />
+			<text id="D138" name="snemand"  />
+			<text id="D139" name="sne dame"  />
+			<text id="D14" name="Trillebør"  />
+			<text id="D140" name="Skiløber"  />
+			<text id="D141" name="Fuglehus kat"  />
+			<text id="D142" name="Slæde"  />
+			<text id="D143" name="Sneengel"  />
+			<text id="D144" name="skjold"  />
+			<text id="D145" name="Advarselsskilt"  />
+			<text id="D146" name="Skilt til nordpolen"  />
+			<text id="D147" name="Sneged"  />
+			<text id="D148" name="Snehund"  />
+			<text id="D149" name="Snefår"  />
+			<text id="D15" name="Lys bænk"  />
+			<text id="D150" name="Sneko"  />
+			<text id="D151" name="Snekat"  />
+			<text id="D152" name="Ryper"  />
+			<text id="D153" name="Snegris"  />
+			<text id="D154" name="Snegås"  />
+			<text id="D155" name="Låge i hegnet"  />
+			<text id="D156" name="Hegn"  />
+			<text id="D157" name="Pæl"  />
+			<text id="D158" name="blå gran"  />
+			<text id="D159" name="Farverig gran"  />
+			<text id="D16" name="Grill"  />
+			<text id="D160" name="Majtræ"  />
+			<text id="D161" name="Fuglerede"  />
+			<text id="D162" name="Hømand"  />
+			<text id="D163" name="Høkvinde"  />
+			<text id="D164" name="Rødt æg"  />
+			<text id="D165" name="Blåt æg"  />
+			<text id="D166" name="Lilla æg"  />
+			<text id="D167" name="Rød æggegruppe"  />
+			<text id="D168" name="Blå æggegruppe"  />
+			<text id="D169" name="Lilla æggegruppe"  />
+			<text id="D17" name="Have gnom"  />
+			<text id="D170" name="Blå æggerede"  />
+			<text id="D171" name="Grøn æggerede"  />
+			<text id="D172" name="Lilla æggerede"  />
+			<text id="D173" name="Rød æggerede"  />
+			<text id="D174" name="Hvid æggerede"  />
+			<text id="D175" name="Rede fuld af æg"  />
+			<text id="D176" name="Guirlande"  />
+			<text id="D177" name="Rød ballon"  />
+			<text id="D178" name="Blå ballon"  />
+			<text id="D179" name="Gul ballon"  />
+			<text id="D18" name="Brevkasse"  />
+			<text id="D180" name="Piratflag"  />
+			<text id="D19" name="Stærekasse"  />
+			<text id="D20" name="Hæk"  />
+			<text id="D21" name="Hegn"  />
+			<text id="D210" name="Horrorbue"  />
+			<text id="D22" name="Pæl"  />
+			<text id="D23" name="Hegn"  />
+			<text id="D24" name="Pæl"  />
+			<text id="D25" name="Låge i hegnet"  />
+			<text id="D26" name="Låge i hegnet"  />
+			<text id="D27" name="Hækkebue"  />
+			<text id="D28" name="Horrorhegn"  />
+			<text id="D29" name="Horrorpæl"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Tyskland"  />
+			<text id="D310" name="Italien"  />
+			<text id="D311" name="Frankrig"  />
+			<text id="D312" name="Spanien"  />
+			<text id="D313" name="Portugal"  />
+			<text id="D314" name="Holland"  />
+			<text id="D315" name="Belgien"  />
+			<text id="D316" name="Polen"  />
+			<text id="D317" name="Rusland"  />
+			<text id="D318" name="Tjekkiet"  />
+			<text id="D319" name="Grækenland"  />
+			<text id="D32" name="Østrig"  />
+			<text id="D320" name="Tyrkiet"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Mexiko"  />
+			<text id="D324" name="Brasilien"  />
+			<text id="D325" name="Argentinien"  />
+			<text id="D326" name="Kina"  />
+			<text id="D327" name="Japan"  />
+			<text id="D328" name="Australien"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Schweiz"  />
+			<text id="D330" name="Ungarn"  />
+			<text id="D331" name="Taiwan"  />
+			<text id="D34" name="Finland"  />
+			<text id="D35" name="Sverige"  />
+			<text id="D36" name="Norge"  />
+			<text id="D37" name="Danmark"  />
+			<text id="D38" name="Storbritanien"  />
+			<text id="D39" name="Irland"  />
+			<text id="D40" name="Hest"  />
+			<text id="D41" name="Træ"  />
+			<text id="D410" name="Horrortræ"  />
+			<text id="D42" name="Ko"  />
+			<text id="D43" name="Får"  />
+			<text id="D44" name="Gris"  />
+			<text id="D45" name="Ged"  />
+			<text id="D46" name="Gås"  />
+			<text id="D47" name="Høne"  />
+			<text id="D48" name="Hund"  />
+			<text id="D49" name="Kat"  />
+			<text id="D60" name="Markedsplads"  />
+			<text id="D70" name="Papskelet"  />
+			<text id="D71" name="Zombiehånd"  />
+			<text id="D72" name="Gravsten"  />
+			<text id="D73" name="Jack O&#039;Lantern"  />
+			<text id="D74" name="Jack O&#039;Lantern"  />
+			<text id="D75" name="Jack O&#039;Lantern"  />
+			<text id="D76" name="Jack O&#039;Lantern"  />
+			<text id="D77" name="Jack O&#039;Lantern"  />
+			<text id="Dxxx" name="Grøn rede"  />
+			<text id="E01" name="10x10 marker"  />
+			<text id="E02" name="12x12 marker"  />
+			<text id="E03" name="14x14 marker"  />
+			<text id="E04" name="16x16 marker"  />
+			<text id="E05" name="18x18 marker"  />
+			<text id="E06" name="20x20 marker"  />
+			<text id="E07" name="22x22 marker"  />
+			<text id="E08" name="24x24 marker"  />
+			<text id="E11" name="10x10 marker"  />
+			<text id="E12" name="12x12 marker"  />
+			<text id="E13" name="14x14 marker"  />
+			<text id="E14" name="16x16 marker"  />
+			<text id="E15" name="18x18 marker"  />
+			<text id="E16" name="20x20 marker"  />
+			<text id="E17" name="22x22 marker"  />
+			<text id="E18" name="24x24 marker"  />
+			<text id="E21" name="10x10 marker"  />
+			<text id="E22" name="12x12 marker"  />
+			<text id="E23" name="14x14 marker"  />
+			<text id="E24" name="16x16 marker"  />
+			<text id="E25" name="18x18 marker"  />
+			<text id="E26" name="20x20 marker"  />
+			<text id="E27" name="22x22 marker"  />
+			<text id="E28" name="24x24 marker"  />
+			<text id="F01" name="Tid - M"  />
+			<text id="F20" name="Opfrisker"  />
+			<text id="F30" name="Gødning"  />
+			<text id="F31" name="Premiumgødning"  />
+			<text id="F40" name="Foder"  />
+			<text id="F41" name="Premiumfoder"  />
+			<text id="F50" name="Tryllestav"  />
+			<text id="G00" name="Gangsti"  />
+			<text id="H00" name="Lade"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Udhus"  />
+			<text id="H03" name="Vindmølle"  />
+			<text id="H04" name="Drivhus"  />
+			<text id="H05" name="Spøgelsesdrivhus"  />
+			<text id="H06" name="Åndernes silo"  />
+			<text id="H07" name="Den uhyggelige mølle"  />
+			<text id="H08" name="Vintersilo"  />
+			<text id="H09" name="Vinter mølle"  />
+			<text id="H10" name="Hønsegård"  />
+			<text id="H11" name="Svinestald"  />
+			<text id="H12" name="Kostald"  />
+			<text id="H13" name="Hestestald"  />
+			<text id="H20" name="Hytte"  />
+			<text id="H21" name="Bondehus"  />
+			<text id="H210" name="Åndernes hus"  />
+			<text id="H211" name="Åndernes villa"  />
+			<text id="H212" name="Vinterhytte"  />
+			<text id="H213" name="Vinterhus"  />
+			<text id="H214" name="Vinter villa"  />
+			<text id="H215" name="Honningkagehus"  />
+			<text id="H216" name="Vinterlandsted"  />
+			<text id="H217" name="Vinterlandejendom"  />
+			<text id="H218" name="Blåt æggehus"  />
+			<text id="H219" name="Rosa æggehus"  />
+			<text id="H22" name="Villa"  />
+			<text id="H220" name="Piratskib"  />
+			<text id="H23" name="Hundehus"  />
+			<text id="H24" name="Legehus"  />
+			<text id="H25" name="Landhus"  />
+			<text id="H26" name="Orangeri"  />
+			<text id="H27" name="Stor villa"  />
+			<text id="H28" name="Kæmpe villa"  />
+			<text id="H29" name="Åndernes hytte"  />
+			<text id="H30" name="Frugtstand"  />
+			<text id="H31" name="Værktøjsforretning"  />
+			<text id="H32" name="Gevinstspillet Bier brus"  />
+			<text id="H40" name="Silo (Gødning)"  />
+			<text id="H50" name="Spøgelseshus"  />
+			<text id="H51" name="Mareridtskirke"  />
+			<text id="N01" name="Høste træer"  />
+			<text id="N02" name="Høste dyr"  />
+			<text id="R00" name="Arbejdsenergi L"  />
+			<text id="R01" name="Arbejdsenergi M"  />
+			<text id="R02" name="Arbejdsenergi XL"  />
+			<text id="S00" name="Tulipaner"  />
+			<text id="S01" name="Liljekonval"  />
+			<text id="S010" name="Lilla roser"  />
+			<text id="S02" name="Lavendel"  />
+			<text id="S03" name="Solsikker"  />
+			<text id="S04" name="Roser"  />
+			<text id="S05" name="Dalier"  />
+			<text id="S06" name="Krokus"  />
+			<text id="S07" name="Liljer"  />
+			<text id="S08" name="Lupiner"  />
+			<text id="S09" name="Valmue"  />
+			<text id="S10" name="Jordbær"  />
+			<text id="S11" name="Vandmeloner"  />
+			<text id="S12" name="Ananas"  />
+			<text id="S13" name="Vindruer"  />
+			<text id="S14" name="Honningmeloner"  />
+			<text id="S15" name="Hindbær"  />
+			<text id="S16" name="Blåbær"  />
+			<text id="S17" name="Tranebær"  />
+			<text id="S18" name="Stikkelsbær"  />
+			<text id="S19" name="Brombær"  />
+			<text id="S20" name="Auberginer"  />
+			<text id="S21" name="Blomkål"  />
+			<text id="S210" name="Spinat"  />
+			<text id="S211" name="Løg"  />
+			<text id="S212" name="Rødkål"  />
+			<text id="S213" name="Kartofler"  />
+			<text id="S214" name="Gulerødder"  />
+			<text id="S215" name="Ærter"  />
+			<text id="S216" name="Radiser"  />
+			<text id="S217" name="Rabarber"  />
+			<text id="S218" name="Rosenkål"  />
+			<text id="S219" name="Soja"  />
+			<text id="S22" name="Græskar"  />
+			<text id="S220" name="Rødbeder"  />
+			<text id="S221" name="Broccoli"  />
+			<text id="S222" name="Artiskokker"  />
+			<text id="S223" name="Chili"  />
+			<text id="S224" name="Asparges"  />
+			<text id="S225" name="Raps"  />
+			<text id="S23" name="Peberfrugter"  />
+			<text id="S24" name="Tomater"  />
+			<text id="S25" name="Bønner"  />
+			<text id="S26" name="Agurker"  />
+			<text id="S27" name="Roer"  />
+			<text id="S28" name="Salat"  />
+			<text id="S29" name="Squash"  />
+			<text id="S30" name="Hvede"  />
+			<text id="S31" name="Havre"  />
+			<text id="S32" name="Ris"  />
+			<text id="S33" name="Rug"  />
+			<text id="S34" name="Majs"  />
+			<text id="S35" name="Byg"  />
+			<text id="S36" name="Hirse"  />
+			<text id="S37" name="Søde majs"  />
+			<text id="S38" name="Rød hvede"  />
+			<text id="S39" name="Spelt"  />
+			<text id="S40" name="Kaffe"  />
+			<text id="S41" name="Te"  />
+			<text id="S42" name="Sukkerrør"  />
+			<text id="S43" name="Aloe Vera"  />
+			<text id="S44" name="Bomuld"  />
+			<text id="S45" name="Gen Soja"  />
+			<text id="S49" name="Liljekonval"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Skattekiste"  />
+			<text id="S52" name="Æg rød"  />
+			<text id="S53" name="Æg blå"  />
+			<text id="S54" name="Lotus"  />
+			<text id="S55" name="Hvide roser"  />
+			<text id="S56" name="Habaneros"  />
+			<text id="S57" name="Forglem-mig-ej"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffins"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Æg lilla"  />
+			<text id="S63" name="Æg gul"  />
+			<text id="T00" name="Høne"  />
+			<text id="T01" name="Gås"  />
+			<text id="T02" name="Brun høne"  />
+			<text id="T03" name="Sort høne"  />
+			<text id="T04" name="Hane"  />
+			<text id="T05" name="And"  />
+			<text id="T06" name="Vintergås"  />
+			<text id="T07" name="Papegøje"  />
+			<text id="T10" name="Svin"  />
+			<text id="T11" name="Ko"  />
+			<text id="T110" name="Brun ko"  />
+			<text id="T111" name="Okse"  />
+			<text id="T112" name="Vinterhest"  />
+			<text id="T113" name="Vinterko"  />
+			<text id="T114" name="Lam"  />
+			<text id="T115" name="Enhjørning"  />
+			<text id="T12" name="Får"  />
+			<text id="T13" name="Ged"  />
+			<text id="T14" name="Hund"  />
+			<text id="T15" name="Sort kat"  />
+			<text id="T16" name="Brun kat"  />
+			<text id="T17" name="Mørk hest"  />
+			<text id="T18" name="Lys hest"  />
+			<text id="T19" name="Sort får"  />
+			<text id="T20" name="Schæferhund"  />
+			<text id="T21" name="Rensdyr"  />
+			<text id="T22" name="Hare"  />
+			<text id="V00" name="Tanke 10x"  />
+			<text id="V01" name="tanke 25x"  />
+			<text id="V02" name="Tanke 50x"  />
+			<text id="V10" name="Traktor"  />
+			<text id="V20" name="Såmaskine"  />
+			<text id="V30" name="Mejetærsker"  />
+			<text id="V40" name="Gødningskøretøj"  />
+			<text id="V90" name="Tank"  />
+			<text id="Y01" name="Høst"  />
+			<text id="Y02" name="Pløjet"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Sorry, din eller #name#s venneliste er allerede fuld, #tab# eller #name# har ikke accepteret din invitation til venskab."  />
+				<text id="buddies_add_ok" name="#name# er nu din ven."  />
+				<text id="chat_dop" name="Undlad venligst at chatte den samme tekst hele tiden. Tak!"  />
+				<text id="chat_nonsense" name="Chat venligst noget fornuftig. Tak!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Ugyldig e-mail-adresse.
+Indtast venligst en gyldig e-mail adresse."  />
+				<text id="email_dop" name="Denne e-mail adresse er allerede i brug.
+Indtast venligst en anden."  />
+				<text id="email_no" name="Denne e-mail adresse er ukendt"  />
+				<text id="farm_full" name="På denne gård er der allerede nu for mange mennesker. Vælg venligst en anden gård."  />
+				<text id="helper_job_no" name="#name# har afvist din invitation som #job# eller forladt markedspladsen."  />
+				<text id="helper_job_ok" name="#name# har accepteret din invitation som #job#."  />
+				<text id="helper_owner_no_money" name="Gårdejeren har ikke penge nok til at lade flere marker pløje."  />
+				<text id="invite_sent" name="Mange tak!
+En e-mail bliver afsendt til din ven."  />
+				<text id="item_dop" name="Du har allerede nået grænsen til dette objekt."  />
+				<text id="kenn_bad" name="Brug venligst følgende 
+tegn til adgangskoden:
+5 op til 15 tegn, som består af#tab#
+a-z, A-Z, 0-9, ÆØÅæøå, -_"  />
+				<text id="kenn_no" name="Denne adgangskode er ukendt"  />
+				<text id="kenn_unequal" name="Ugyldig adgangskode"  />
+				<text id="kick" name="Sorry, #name# har smidt dig ud fra sin gård! #tab# Tilsyneladende har du ikke opført dig ordenligt."  />
+				<text id="lagernosell" name="Du er nødt til tømme bygningen, før du kan sælge den."  />
+				<text id="lager_building" name="Du har brug for en lade eller et skur på din farm, for at kunne lagre objekter."  />
+				<text id="lager_cantsell" name="Du skal gøre nok plads fri på dit lager, inden du kan sælge denne bygning."  />
+				<text id="lager_voll" name="Du må ikke lægge et funktionsobjekt i et funktionsobjekt."  />
+				<text id="login_bad" name="Login-fejl. Hvis du har glemt din adgangskode klik på 'Glemt adgangskode?'.#tab#Hvis du har brug for hjælp, skriv til os
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="Brug venligst følgende tegn til spillernavn:#tab#2 op til 15 tegn, som består af a-z, A-Z, 0-9, ÆØÅæøå, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Spillernavn er allerede benyttet. Indtast venligst et andet, eller vælg:"  />
+				<text id="name_spam" name="Angiv venligst et andet navn"  />
+				<text id="no_agb" name="Accepter forretningsbetingelserne. Bekræft venligst."  />
+				<text id="no_arbeitskraft" name="Du besidder for lidt arbejdskraft til denne aktion.
+Vent til du igen har arbejdskraft til rådighed, eller gå i shoppen og køb dig noget."  />
+				<text id="no_buddies" name="Desværre har du ikke endnu ikke inviteret nok venner.#tab#For at købe dette objekt #obj# skal du invitere #anz# yderligere venner."  />
+				<text id="no_chat" name="For at chatte er du først nødt til at lade dig registrere og have opnået mindst level 1."  />
+				<text id="no_ferti" name="Gødningen #name# er brugt op. Du er nødt til at købe noget mere."  />
+				<text id="no_food" name="Du har desværre ikke nok foder til at kunne forsørge alle dyr!"  />
+				<text id="no_gender" name="Du har ikke valgt køn. Klik venligst på et af billederne."  />
+				<text id="no_lager" name="Intet egnet eller frit lager/fri stald til rådighed for dette objekt."  />
+				<text id="no_money" name="Du har ikke penge nok til denne aktion."  />
+				<text id="no_premium" name="Dit premiumsæd #name# er brugt. Køb venligst nyt."  />
+				<text id="no_regi" name="Denne funktion er forbeholdt registrerede spillere. #tab#Meld dig til, så du kan beholde din gård."  />
+				<text id="no_tanken" name="Du har ikke brændstof nok til denne aktion."  />
+				<text id="no_zauberstaub" name="Din {0} er opbrugt.
+For at få nye skal du klare yderligere udmærkelser."  />
+				<text id="old_client_version" name="Gammel version! Aktualiser siden."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Du kommer først på ranglisten når du er registreret og har nået level 3."  />
+				<text id="rangliste_player_not_ranked" name="Denne spiller skal have level 3 for at kunne blive vist på ranglisten."  />
+				<text id="rangliste_unknown_id" name="Beklager. Under dette navn er der ikke registreret nogen spiller."  />
+				<text id="vehiclesnosell" name="Dette fartøj er lige i brug."  />
+				<text id="vollscreen" name="Der kan desværre ikke chattes i fuldbilledmodus.
+(På grund af sikkerhed er tastaturangivelser ikke mulige)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Venskab"  />
+				<text id="farm_full" name="Hovsa!"  />
+				<text id="helper_job_ok" name="Job accepteret"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="aktiveret"  />
+				<text id="buyOf" name="Forbrug #anz# af #menge#"  />
+				<text id="clickZum" name="Klik"  />
+				<text id="deactive" name="deaktiveret"  />
+				<text id="doContent" name="Udvalgsvindue"  />
+				<text id="doDel" name="slette"  />
+				<text id="doFertilize" name="gøde"  />
+				<text id="doFertilizeAnimals" name="fodre"  />
+				<text id="doFortune" name="spil gevinstspillet"  />
+				<text id="doHarvest" name="høste"  />
+				<text id="doMove" name="Bevæge"  />
+				<text id="doPlow" name="Pløje"  />
+				<text id="doPos" name="Positionere"  />
+				<text id="doRot" name="dreje"  />
+				<text id="doSell" name="sælge"  />
+				<text id="doSow" name="Så"  />
+				<text id="doTosOpen" name="Lagre"  />
+				<text id="doVehicles" name="maskinelt"  />
+				<text id="farmbuddie" name="Din veninde#din ven"  />
+				<text id="farmgast" name="Gæst#Gæst"  />
+				<text id="farmhelperharvest" name="Høsthjælper#Høsthjælper"  />
+				<text id="farmhelperplow" name="Pløjehjælper#Pløjehjælper"  />
+				<text id="farmowner" name="Indehaver af denne gård#Indehaver af denne gård"  />
+				<text id="farmvisitor" name="Besøgende#Besøgende"  />
+				<text id="isFertilize" name="gødet"  />
+				<text id="isHarvest" name="blev høstet"  />
+				<text id="isReadyB" name="moden"  />
+				<text id="isReadyEX" name="Udtørret"  />
+				<text id="isReadyFin" name="Høstudbytte"  />
+				<text id="isReadyS" name="vokset"  />
+				<text id="isReadyT" name="klar"  />
+				<text id="jobbenrest" name="#anz# jobenergi"  />
+				<text id="jobVehicles" name="--- Maskinarbejde:"  />
+				<text id="jobWalk" name="--- Håndarbejde:"  />
+				<text id="ketteZum" name="Arbejdsliste"  />
+				<text id="Market" name="Markedsplads"  />
+				<text id="marketvisitor" name="Medspiller#Medspiller"  />
+				<text id="my" name="Dig selv"  />
+				<text id="noPfad" name="Vejen er spærret for mig.
+Der kan jeg ikke løbe hen :-("  />
+				<text id="online" name="er online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Spiller"  />
+				<text id="AC" name="T-Shirt"  />
+				<text id="AG" name="Figur"  />
+				<text id="AH" name="Frisure"  />
+				<text id="AP" name="Bukser"  />
+				<text id="AS" name="Sko"  />
+				<text id="AT" name="Hudfarve"  />
+				<text id="B" name="Træ"  />
+				<text id="D" name="Dekoration"  />
+				<text id="E" name="Gårdudvidelse"  />
+				<text id="F" name="Gødning"  />
+				<text id="G" name="Gade"  />
+				<text id="H" name="Hus"  />
+				<text id="R" name="Jobbe"  />
+				<text id="S" name="Mark"  />
+				<text id="T" name="Dyr"  />
+				<text id="V" name="Køretøj"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Træ"  />
+				<text id="D0" name="Gårddekoration"  />
+				<text id="D1" name="Husdekoration"  />
+				<text id="D2" name="Afgrænsning"  />
+				<text id="D3" name="Flag"  />
+				<text id="D4" name="Havedekoration"  />
+				<text id="D7" name="Helligdagesdekoration"  />
+				<text id="F0" name="Tidsacceleration"  />
+				<text id="F1" name="Optimering af fortjenesten"  />
+				<text id="F2" name="Opfriskende"  />
+				<text id="H0" name="Gård"  />
+				<text id="H1" name="Stalde"  />
+				<text id="H2" name="Stuehus"  />
+				<text id="H4" name="Funktioner"  />
+				<text id="H5" name="Særlig bygning"  />
+				<text id="N0" name="Arbejde hurtigere"  />
+				<text id="R0" name="Arbejde på andre gårde"  />
+				<text id="S0" name="Blomst"  />
+				<text id="S1" name="Frugt"  />
+				<text id="S2" name="Grøntsager"  />
+				<text id="S3" name="Korn"  />
+				<text id="S4" name="Andet"  />
+				<text id="S5" name="Premium"  />
+				<text id="S6" name="Sæson"  />
+				<text id="T0" name="Fjerkræ"  />
+				<text id="T1" name="Nyttedyr"  />
+				<text id="T2" name="Husdyr"  />
+				<text id="V0" name="Benzin"  />
+				<text id="V1" name="Traktor"  />
+				<text id="V2" name="Såmaskine"  />
+				<text id="V3" name="Mejetærsker"  />
+				<text id="V4" name="Gødningsmaskine"  />
+				<text id="V9" name="Tank"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Ny udmærkelse!"  />
+				<text id="txt1" name="Tillykke!
+Du har vundet gevinsten '#name#' - level #level#"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Vennerne siger"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Summe af tjente Farmdollar"  />
+				<text id="i10" name="Antal høstede blomster"  />
+				<text id="i11" name="Antal høstede træer"  />
+				<text id="i12" name="Antal høstede dyr"  />
+				<text id="i13" name="Summen af Farmdollar, der blev brugt til gaver"  />
+				<text id="i14" name="Antal modtagne gaver"  />
+				<text id="i15" name="Antal nabohjælp"  />
+				<text id="i16" name="Antal fotos"  />
+				<text id="i17" name="Antal af de udførte pløjejobs i det gamle jobtilladelsessystem"  />
+				<text id="i18" name="Antal af de udførte høstjobs i det gamle jobtilladelsessystem"  />
+				<text id="i19" name="Antal tildelte pløjejobs i det gamle jobtilladelses-system"  />
+				<text id="i2" name="Antal brugte Farmdollar"  />
+				<text id="i20" name="Antal tildelte høstjobs i det gamle jobtilladelses-system"  />
+				<text id="i21" name="Antal gødede marker, dyr og træer: Tidsfordel"  />
+				<text id="i22" name="Antal gødede marker, dyr og træer: Tryllestav"  />
+				<text id="i23" name="Antal af de forskellige slags korns"  />
+				<text id="i24" name="Antal af forskellige slags høstede frugtsorter"  />
+				<text id="i25" name="Antal forskellige slags høstede blomster"  />
+				<text id="i26" name="Antal forskellige slags høstede grøntsager"  />
+				<text id="i27" name="Antal forskellige slags høstede træer"  />
+				<text id="i28" name="Antal forskellige slags høstede dyr"  />
+				<text id="i29" name="Antal forskellige slags høstede enheder ialt"  />
+				<text id="i3" name="Antal købte bygninger"  />
+				<text id="i30" name="Antal forskellige masteries"  />
+				<text id="i31" name="Summen af alle masteries"  />
+				<text id="i32" name="Antal nye venner"  />
+				<text id="i33" name="Antal af de købte træer"  />
+				<text id="i34" name="Antal af det høstede premiumsæd"  />
+				<text id="i35" name="Antal af det forskelligt høstede premiumsæd"  />
+				<text id="i36" name="Antal af hos pløjejobs pløjede marker"  />
+				<text id="i37" name="Antal af de marker som medens dine tildelte pløjejobs på din farm blev pløjet af dig"  />
+				<text id="i38" name="Antal af de ved høst-jobs høstede marker,dyr eller træer"  />
+				<text id="i39" name="Antal af de marker, træer og dyr som medens dine tildelte pløjejobs blev høstet på din farm"  />
+				<text id="i4" name="Antal købte dekorationer"  />
+				<text id="i5" name="Antal købte dyr"  />
+				<text id="i6" name="Totale antal høstede kornsorter"  />
+				<text id="i7" name="Antal høstet frugt"  />
+				<text id="i8" name="Antal høstede grøntsager"  />
+				<text id="i9" name="Antal høstet korn"  />
+				<text id="next" name="Endnu #level# til næste level"  />
+				<text id="t1" name="Bondebytte"  />
+				<text id="t10" name="Blomsterbarn"  />
+				<text id="t11" name="Træplejer"  />
+				<text id="t12" name="Dyreven"  />
+				<text id="t13" name="Penge brugt på gaver"  />
+				<text id="t14" name="Modtagede gaver"  />
+				<text id="t15" name="Hjælpende naboer"  />
+				<text id="t16" name="Antal fotos"  />
+				<text id="t17" name="Legendarisk pløjer"  />
+				<text id="t18" name="Høstveteran"  />
+				<text id="t19" name="Gammel oppasser"  />
+				<text id="t2" name="Købekonge"  />
+				<text id="t20" name="Erfaren scorer"  />
+				<text id="t21" name="Flot farmer"  />
+				<text id="t22" name="Kvalitetssegl"  />
+				<text id="t23" name="Kornhakker"  />
+				<text id="t24" name="Frugtflue"  />
+				<text id="t25" name="Blomsterplukker"  />
+				<text id="t26" name="Grøntsagsnyder"  />
+				<text id="t27" name="Bladlus"  />
+				<text id="t28" name="Dyretræner"  />
+				<text id="t29" name="Famøs farmer"  />
+				<text id="t3" name="Byggepladsbonde"  />
+				<text id="t30" name="Forskellige kundskaber"  />
+				<text id="t31" name="Summen af masteries"  />
+				<text id="t32" name="Coole Clique"  />
+				<text id="t33" name="Barkbille"  />
+				<text id="t34" name="Gylden høst"  />
+				<text id="t35" name="Grænseløs glans"  />
+				<text id="t36" name="Prægtig pløjer"  />
+				<text id="t37" name="Lad pløje"  />
+				<text id="t38" name="Jernhård høster"  />
+				<text id="t39" name="Gevinst scorer"  />
+				<text id="t4" name="Flot deko"  />
+				<text id="t5" name="Meget kvæg"  />
+				<text id="t6" name="Sædsamler"  />
+				<text id="t7" name="Frugtdværg"  />
+				<text id="t8" name="Grøntsagsgane"  />
+				<text id="t9" name="Kornkender"  />
+				<text id="txt0" name="Priser"  />
+				<text id="txt1" name="Samlet fremskridt"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Undskyld!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Du er blevet blokeret fra spillet.
+Blokeringen varer: #time# minutter 
+Hvis du har spørgsmål om blokering, send os en mail til  #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Vigtig information !!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Undskyld!"  />
+				<text id="txt1" name="På denne computer kører allerede et vindue med #spielname#."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="Pas på !!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Forbindelsen til servereren bliver desværre afbrudt om #time# sekunder!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Vælge"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Tilfælde"  />
+				<text id="txt1" name="Gemme"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Melde spiller!"  />
+				<text id="txt1" name="Vil du virklig melde spiller {0}?"  />
+				<text id="txt2" name="ja"  />
+				<text id="txt3" name="nej"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Bekræfte ven"  />
+				<text id="txt1" name="#name# vil gerne føje dig til sin venner"  />
+				<text id="txt2" name="Afslå"  />
+				<text id="txt3" name="Acceptere"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Venskab"  />
+				<text id="txt1" name="Spørge #name# om han/hun vil være din ven/veninde"  />
+				<text id="txt2" name="Afbryd"  />
+				<text id="txt3" name="Spørge"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} er din {0} ven. For at slette ham skal du slutte {0} jeres venskab."  />
+				<text id="txt0" name="Fjerne en ven"  />
+				<text id="txt1" name="Vil du virkelig fjerne #name# fra din venneliste?"  />
+				<text id="txt2" name="Afbryd"  />
+				<text id="txt3" name="Acceptere"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="slette objekt"  />
+				<text id="txt1" name="Vil du virklig slette dette objekt #obj#?"  />
+				<text id="txt2" name="Nej"  />
+				<text id="txt3" name="Ja"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Fortsæt"  />
+				<text id="tTitle" name="Belønning!"  />
+				<text id="txt0" name="Du har fået tilsendt en gave til din e-mailadresse."  />
+				<text id="txt1" name="Afhent det nu!"  />
+				<text id="txt2" name="Du kan lade dig tilsende e-mailen endnu engang!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Fortsæt"  />
+				<text id="tTitle" name="E-mail afsendt"  />
+				<text id="txt0" name="En e-mail med belønningen er lige blevet afsendt til dig!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Fortsæt"  />
+				<text id="tTitle" name="Gave"  />
+				<text id="txt0" name="Du har fået din belønning!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Udvide"  />
+				<text id="txt1" name="Udvid denne bygning, så du kan stille endnu flere objekter derind."  />
+				<text id="txt2" name="Annullere"  />
+				<text id="txt3" name="Købe"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Gården udvidet!"  />
+				<text id="txt1" name="Hjertelig Tillykke!
+Din gård er blevet endnu større."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Sige til vennerne"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Fotoalbum"  />
+				<text id="txt1" name="Afbryd"  />
+				<text id="txt2" name="Slette"  />
+				<text id="txt3" name="Gemme"  />
+				<text id="txt4" name="Skriv noget til dette billede!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="registrere"  />
+				<text id="txt1" name="Du er nødt til at lade dig registrere for at kunne gemme dit spil. Ellers taber du dine data.
+Registreringen er absolut gratis."  />
+				<text id="txt2" name="Registrere"  />
+				<text id="txt3" name="Logout"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Forespørgsel om at høste"  />
+				<text id="txt1" name="Vil du hjælpe #name# med at høste på hans/hendes gård?
+For det får du ved hver aktion XP!"  />
+				<text id="txt2" name="Afslå"  />
+				<text id="txt3" name="Acceptere"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Forespørgsel på at pløje"  />
+				<text id="txt1" name="Vil du hjælpe #name# med at pløje på hans/hendes gård?
+For det får du ved hver aktion farmdollar"  />
+				<text id="txt2" name="Afslå"  />
+				<text id="txt3" name="Invillige"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Ordre til at høste"  />
+				<text id="txt1" name="Spørg #name# om han/hun vil høste på din gård.
+Når nogen høster for dig, får du mere farmdollar!"  />
+				<text id="txt2" name="Afbryd"  />
+				<text id="txt3" name="Spørge"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Ordre til at pløje"  />
+				<text id="txt1" name="Spørg #name# om han/hun vil pløje på din gård.
+Når nogen pløjer for dig, får du yderligere XP!"  />
+				<text id="txt2" name="Afbryd"  />
+				<text id="txt3" name="Spørge"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Fjerne"  />
+				<text id="txt1" name="Købe"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Optagede pladser"  />
+				<text id="txt1" name="Udvide"  />
+				<text id="txt2" name="Lager"  />
+				<text id="txt3" name="Tilbage"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Fjerne"  />
+				<text id="txt1" name="Høste"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Optagede pladser"  />
+				<text id="txt1" name="Udvide"  />
+				<text id="txt2" name="Alle høster"  />
+				<text id="txt3" name="Alle fodrer med &#039;{0}&#039;"  />
+				<text id="txt4" name="Fodre med &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Nye items blev åbnet i shoppen for dig."  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Nye items"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Level op!"  />
+				<text id="txt1" name="Hjerteligt tillykke. Du er nået op på et nyt level!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Sige til venner"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Glemt din adgangskode"  />
+				<text id="txt1" name="Indtast her din e-mail- adresse, som du er registreret med og klik på ´send`. Derefter får du din adgangskode tilsendt."  />
+				<text id="txt2" name="E-mail"  />
+				<text id="txt3" name="Annullere"  />
+				<text id="txt4" name="Sende"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Logout"  />
+				<text id="txt1" name="Vil du forlade gården?"  />
+				<text id="txt2" name="Annullere"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Hovsa!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Registrere"  />
+				<text id="txt1" name="Registrer venligst, så du kan beholde din gård."  />
+				<text id="txt2" name="Logout"  />
+				<text id="txt3" name="Ok"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="registrere"  />
+				<text id="txt1" name="E-mail"  />
+				<text id="txt2" name="Adgangskode"  />
+				<text id="txt3" name="Læst og godkendt forretningsbetingelserne"  />
+				<text id="txt4" name="Annullere"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Oprette spiller"  />
+				<text id="txt1" name="Nickname"  />
+				<text id="txt2" name="Kvindelig"  />
+				<text id="txt3" name="Mandlig"  />
+				<text id="txt4" name="Annullere"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Spil nu"  />
+				<text id="txt1" name="Registrere"  />
+				<text id="txt2" name="Login"  />
+				<text id="txt3" name="Navn / Email"  />
+				<text id="txt4" name="Adgangskode"  />
+				<text id="txt5" name="Glemt din adgangskode?"  />
+				<text id="txt6" name="Huske data"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Markedsplads"  />
+				<text id="txt1" name="Vis ikke mere"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Hej #name# !
+Dette er #spielname#s markedsplads. Her kan du blive ansat af andere spillere til at pløje eller høste eller selv ansætte spillere"  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Ændre adgangskode"  />
+				<text id="txt1" name="Gamle adgangskode"  />
+				<text id="txt2" name="Ny adgangskode"  />
+				<text id="txt3" name="Gentag ny adgangskode"  />
+				<text id="txt4" name="Afbryd"  />
+				<text id="txt5" name="Gemme"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Hovsa!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Registrere"  />
+				<text id="txt3" name="Invitere en ven"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Indstillinger"  />
+				<text id="txt1" name="Træer gennemsigtig"  />
+				<text id="txt10" name="høj"  />
+				<text id="txt11" name="medium"  />
+				<text id="txt12" name="lav"  />
+				<text id="txt13" name="zoome ind til"  />
+				<text id="txt14" name="Ignorer venskabsforespørgsler"  />
+				<text id="txt15" name="Forbyd spillerbesøg over ranglisten"  />
+				<text id="txt16" name="Vis spilletips."  />
+				<text id="txt2" name="Huse gennemsigtig"  />
+				<text id="txt3" name="Dekorationer gennemsigtig"  />
+				<text id="txt4" name="Vis &#039;schnell&#039;"  />
+				<text id="txt5" name="Ændre adgangskode"  />
+				<text id="txt6" name="Afbryd"  />
+				<text id="txt7" name="Gemme"  />
+				<text id="txt8" name="Udblænde animationerne"  />
+				<text id="txt9" name="kvalitet"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Søg navn/niveau"  />
+				<text id="txt0" name="Rangliste"  />
+				<text id="txt1" name="Søg"  />
+				<text id="txt2" name="Niveau"  />
+				<text id="txt3" name="navn"  />
+				<text id="txt4" name="level"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="I dag"  />
+				<text id="zeitraum1" name="denne uge"  />
+				<text id="zeitraum2" name="denne måned"  />
+				<text id="zeitraum3" name="Nogensinde"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Sælge objekt"  />
+				<text id="txt1" name="Ønsker du virklig at sælge #obj# for #w1# Farmdollar?"  />
+				<text id="txt2" name="Nej"  />
+				<text id="txt3" name="Ja"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Med denne opfriskningsgødning regenererer de tørre frø sig igen"  />
+				<text id="F30" name="Fremskynder væksten af planter og træer med 10%"  />
+				<text id="F31" name="Fremskynder væksten af planter og træer med 50%"  />
+				<text id="F40" name="Fremskynder væksten af dyr med 10%"  />
+				<text id="F41" name="Fremskynder væksten af dyr med 50%"  />
+				<text id="F50" name="Forhøjer udbyttet og de opnåede erfaringspoint fra sæd, samt udbyttet fra sæd, træer og dyr med 50%!"  />
+				<text id="H00" name="Laden tillader dig at lagre 15 objekter."  />
+				<text id="H02" name="Skuret tillader dig at lagre 4 objekter."  />
+				<text id="H10" name="Hønsegården gir dig lov til at høste flere høns på en gang."  />
+				<text id="H11" name="Svinestien gir dig lov til at høste flere svin på en gang."  />
+				<text id="H12" name="Kostalden gir dig lov til at høste flere køer på en gang."  />
+				<text id="H13" name="Hestestalden gir dig lov til at høste flere heste på en gang."  />
+				<text id="H40" name="Silon giver dig en bonus på 20% på alle gødningsindkøb."  />
+				<text id="N01" name="Tilladelser til:
+at høste alle færdige træer på en gang"  />
+				<text id="N02" name="Tilladelser til:
+at høste alle færdige dyr på en gang"  />
+				<text id="R0x" name="Denne opfylder forhøjer din aktuelle jobenergi med {0}."  />
+				<text id="S5x" name="Premiumsæd giver mere XP og farmdollar end normal sæd og desuden kan de ikke udtørre!
+Du kan sælge dem som pakke og så uden videre anvende omkostninger fra shoppen."  />
+				<text id="V0x" name="Denne benzindunk giver dig mulighed for at fylde dine benzinreserver {0}x op."  />
+				<text id="V10" name="Med traktoren kan du
+pløje op til fire marker samtidig."  />
+				<text id="V20" name="Med såmaskinen kan du så op til fire marker samtidig."  />
+				<text id="V30" name="Med mejetærskeren kan du høste op til fire marker samtidig"  />
+				<text id="V40" name="Med køretøjet med gødning kan du gøde op til fire marker samtidig."  />
+				<text id="V90" name="Ved køb af en benzindunk fyldes 20% mere på"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Level #level#"  />
+				<text id="txtAnzahl" name="Antal:"  />
+				<text id="txtAnzahlVon" name="af"  />
+				<text id="txtBenutzen" name="Benyt"  />
+				<text id="txtBuy" name="Købe"  />
+				<text id="txtHarvestXP" name="Høste for:"  />
+				<text id="txtPremium" name="Premium"  />
+				<text id="txtSize" name="Pakkestørrelse"  />
+				<text id="txtVerbrauch" name="forbrug"  />
+				<text id="txtWork" name="Arbejde"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Vis ikke spilletips."  />
+				<text id="shoptipp_0_title" name="Oops!"  />
+				<text id="shoptipp_1_text" name="Du har for lidt brændstof til denne aktion. Ønsker du at tanke mere lige straks?"  />
+				<text id="shoptipp_1_title" name="Fyld brændstof på"  />
+				<text id="shoptipp_2_text" name="Du besidder for lidt gødning til denne aktion. Ønsker du at købe mere lige straks?"  />
+				<text id="shoptipp_2_title" name="Køb ekstra gødning"  />
+				<text id="shoptipp_3_text" name="Du har næsten ikke mere plads på din farm! Ønsker du at at udvide denne nu med det samme?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="Du har ikke nogen jobenergi mere!
+Vidste du allerede, at du også kan fylde din jobenergi manuelt op?"  />
+				<text id="shoptipp_4_title" name="Arbejdsivrig!"  />
+				<text id="shoptipp_5_text" name="Du besidder for lidt premium-sæd til denne aktion.
+Ønsker du at købe mere lige straks?"  />
+				<text id="shoptipp_5_title" name="Køb ekstra premium-sæd"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Shop"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="arbejde"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Jeg søger et job."  />
+				<text id="txt1" name="Jeg ønsker at pløje."  />
+				<text id="txt2" name="Jeg ønsker at høste."  />
+				<text id="txt3" name="Hvem ønsker at pløje?"  />
+				<text id="txt4" name="Hvem ønsker at høste?"  />
+				<text id="txt5" name="Hallo!"  />
+				<text id="txt6" name="Tak"  />
+				<text id="txt7" name="Ja"  />
+				<text id="txt8" name="Nej"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Invitere en ven"  />
+				<text id="txt1" name="Dit navn"  />
+				<text id="txt2" name="Din vens navn"  />
+				<text id="txt3" name="Din vens e-mail"  />
+				<text id="txt4" name="Afbryd"  />
+				<text id="txt5" name="Invitere"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Sluk for lyden"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bier brus"  />
+				<text id="txt1" name="Spil Bier brus og vind flotte priser!"  />
+				<text id="txt2" name="Drej!"  />
+				<text id="txt3" name="Den første runde er gratis!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hurra!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Næste level ved #xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farmdollar:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Venner:"  />
+				<text id="txt4" name="Udmærkelser:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Fjerne medspiller"  />
+				<text id="txt1" name="Vil du virkelig fjerne #name# fra din gård?"  />
+				<text id="txt2" name="Afbryd"  />
+				<text id="txt3" name="Antager"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Endeligt holder foråret indtog hos Goodgame Farmer! Gå ikke glip af alle de nye bygninger, dekorationer, dyr og træer!"  />
+				<text id="teaser_11_info_1" name="Lyt!
+Der muhes og kagles på din farm! God fornøjelse med den nye sound i Goodgame Farmer."  />
+				<text id="teaser_11_title" name="Sounds!"  />
+				<text id="teaser_12_info_1" name="På markedspladsen kan du chatte frit fra level 10 af. Benyt indtil da de forfærdiggjorte sætninger."  />
+				<text id="teaser_12_title" name="Markedspladsens chatregler"  />
+				<text id="teaser_13_info_1" name="Endnu mere forsyning!
+Og så går det videre, med en stor mængde nye dyr, træer, dekorationer og bygninger!"  />
+				<text id="teaser_13_info_2" name="Ydermere findes der nu enhver mængde nye udmærkelsestrin!"  />
+				<text id="teaser_14_info_1" name="Hent dit nye premiumsæd nu! Det giver mere XP og farmdollar end normal sæd og kan ikke udtørre."  />
+				<text id="teaser_14_info_2" name="Desuden er der nu nyt sæd til alle højtrangerende farmere og to nye udmærkelser!"  />
+				<text id="teaser_14_title" name="Premiumsæd!"  />
+				<text id="teaser_17_info_1" name="Ved påskefesten kommer nogle skønne nye bygninger, dekorationer, dyr og nyt sæd ind i spillet!
+Vi ønsker Jer alle sammen glædelig æggesøgning"  />
+				<text id="teaser_17_info_2" name="Desuden var der en fornyelse af jobuddelingsystemet.
+Fra nu af vil du kun blive fratrukket jobtilladelser for gennemført arbejde, så du fremover aldrig mere skal gå tomhændet hjem."  />
+				<text id="teaser_17_title" name="Glædelig påske!"  />
+				<text id="teaser_18_info_1" name="Men hurtig nu! Om et par dage er påskeaktionen forbi igen. På grund af dette, gives der op til 50% rabat på mange af sæsonens items!!!"  />
+				<text id="teaser_18_title" name="Grib til!"  />
+				<text id="teaser_19_info_1" name="Sommermoden er der!
+Hent dig en af de flotte nye huer nu eller de sjove påskehareører!
+
+Desuden betaler det sig altid at kigge ind i vores nye Farmer Forum."  />
+				<text id="teaser_19_title" name="Hat på!"  />
+				<text id="teaser_20_info_1" name="Goodgame holder sin første fødselsdag. Fest med os!
+Dekorer din farm; tag din sjove partyhat på og prøv absolut den nye muffin-sæd.
+
+Men skynd dig, da festen kun finder sted kort tid!"  />
+				<text id="teaser_20_title" name="Happy Birthday!"  />
+				<text id="teaser_21_info_1" name="Vær opmærksom! For succeer får man en særlig tryllestav.
+Med denne giver dine træer, dyr og sæd mere erfaring og udbytte."  />
+				<text id="teaser_21_info_2" name="Din dyr er sultne!
+Kom igang med at fodre dem, så de vokser hurtigere!
+Alle træer ønsker at blive gødet."  />
+				<text id="teaser_21_title" name="Dyrefoder &amp; mere!"  />
+				<text id="teaser_23_info_1" name="Goodgane Farmer er nomineret som &quot;Best Social Game&quot; til European Games Award!"  />
+				<text id="teaser_23_info_2" name="Hjælp os med at vinde prisen og stem på os!"  />
+				<text id="teaser_23_title" name="Stem på os!"  />
+				<text id="teaser_24_info_1" name="Argh!
+Piraterne holder indtog i Goodgame Farmer!
+Hent dig en fræk pirathat. Plant de nye skattekiste med sæd og hold dig en snakkende papegøje!"  />
+				<text id="teaser_24_title" name="Pirater update!"  />
+				<text id="teaser_25_info_1" name="Gennem den sidste update er der opstået store problemer med omregningen af gødningen og belønningerne for succeer.
+Derfor måtte vi sætte alle spillestande tilbage til standen før updaten.
+For de opståede ubehageligheder ønsker vi at undskylde os udtrykkeligt."  />
+				<text id="teaser_25_title" name="Reset"  />
+				<text id="teaser_5_info_1" name="Jag dine gæster en ordentlig skræk i livet med uhyggelige halloweendekorationer og stemningsfyldte bygninger"  />
+				<text id="teaser_5_title" name="Nye konti!"  />
+				<text id="teaser_6_info_1" name="Din mening er ønsket! Sig os hvad du gerne vil spille i fremtiden!"  />
+				<text id="teaser_6_title" name="Beslut med!!!!"  />
+				<text id="teaser_7_info_1" name="Endelig jul!
+I hvert fald ikke misse de mange nye huse, dekorationer, træer og planter!"  />
+				<text id="teaser_7_info_2" name="Og dermed du altid har plads nok på din gård har du nu et nyt lager!
+Gem bare ting og sager i udhuse og lader."  />
+				<text id="teaser_7_title" name="Nye items"  />
+				<text id="teaser_8_info_1" name="Og endnu en julegave til dig! I den spritnye rangliste kan du sammenligne dig med andre spillere. Bliv den bedste farmer af dem alle!"  />
+				<text id="teaser_8_title" name="Rangliste!"  />
+				<text id="teaser_9_info_1" name="Skynd dig nu!
+Om en uge er juleaktionen forbi igen.
+Derfor gives der endnu engang op til 50% rabat på alle sæson items!!!"  />
+				<text id="teaser_9_title" name="Grib til!"  />
+				<text id="teaser_btn_forum" name="Til forum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Butik"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Afvise"  />
+				<text id="zAchievements" name="Mine kvalifikationer"  />
+				<text id="zAn2" name="Acceptere"  />
+				<text id="zBuddies" name="Alle dine venner"  />
+				<text id="zBuddiesNoAsk" name="Denne spiller modtager ikke venskabsforespørgsler"  />
+				<text id="zBuddiesSub" name="Slet denne spiller fra din venneliste"  />
+				<text id="zBuy" name="Købe"  />
+				<text id="zCancel" name="Luk vinduet"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Sluk for lyden"  />
+				<text id="zChatSenden" name="Send besked"  />
+				<text id="zChatVorgaben" name="Forfærdiggjorte sætninger til at chatte."  />
+				<text id="zCheckAGB" name="Forretningsbetingelserne er læst og accepteret"  />
+				<text id="zCheckAny" name="Deaktiver dyreanimationerne"  />
+				<text id="zCheckMen" name="Mandlig spillefigur"  />
+				<text id="zCheckMerken" name="Huske navn og adgangskode til næste gang?"  />
+				<text id="zCheckMute" name="Ingen chat med denne spiller"  />
+				<text id="zCheckNoMoreShow" name="Vis ikke dette billede mere"  />
+				<text id="zCheckQuali" name="Billedkvaliteten forringes for at spare på computerens kapacitet"  />
+				<text id="zCheckShowB" name="Gør træerne gennemsigtige"  />
+				<text id="zCheckShowD" name="Gør dekorationerne gennemsigtige"  />
+				<text id="zCheckShowH" name="Gør husene gennemsigtige"  />
+				<text id="zCheckSound1" name="Effekter"  />
+				<text id="zCheckSound2" name="Musik"  />
+				<text id="zCheckWomen" name="Kvindelig spillefigur"  />
+				<text id="zChipsMore" name="Tilføj farmdollar/guld"  />
+				<text id="zClose" name="Lukke"  />
+				<text id="zClothes" name="Giv din spillefigur tøj på"  />
+				<text id="zClothsBuy" name="Overtage den aktuelle avatar?"  />
+				<text id="zClothsSelect" name="Vælge"  />
+				<text id="zClothsZufall" name="Computeren foreslår en stilart"  />
+				<text id="zCookAdd" name="Anlæggelse af yderligere logdata"  />
+				<text id="zCookDel" name="Slet disse logdata"  />
+				<text id="zDel" name="Fjern"  />
+				<text id="zDown" name="Ned"  />
+				<text id="zEarnChips" name="Tjene flere Farmdollar"  />
+				<text id="zEarnGold" name="Tjene mere guld"  />
+				<text id="zEinladen" name="Du skal først invitere flere {0} venner for at købe det her."  />
+				<text id="zEinladen2" name="Du har kun {1} {0} venner."  />
+				<text id="zEmailVerificationWinker" name="Afhent velkomstgave!"  />
+				<text id="zErweitern" name="Udvide"  />
+				<text id="zExchange" name="Bytte guld til Farmdollar"  />
+				<text id="zExpHigherLevelNeeded" name="Krævet level er ikke opnået endnu"  />
+				<text id="zExpPreviousNeeded" name="Tidligere udvidelse er nødvendig"  />
+				<text id="zFarmowner" name="Ejeren af denne gård"  />
+				<text id="zFertilize" name="Gødning"  />
+				<text id="zFlinkeHand" name="Arbejd hurtigere"  />
+				<text id="zFoto" name="Billeder"  />
+				<text id="zFullscreen" name="Full screen"  />
+				<text id="zFunc" name="Objekter med særlige opgaver"  />
+				<text id="zGiftsMy" name="Mine gaver"  />
+				<text id="zHarvest" name="Høste"  />
+				<text id="zHarvestV3" name="Høst markerne med mejetærskeren"  />
+				<text id="zHelp" name="Hjælp"  />
+				<text id="zHome" name="Min gård"  />
+				<text id="zInfoEMail" name="En e-mail har formen:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="En adgangskode består af 5 til 15 tegn,
+som kan bestå af: a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="Åbne"  />
+				<text id="zInvite" name="Inviter dine venner!"  />
+				<text id="zJ" name="Udføre"  />
+				<text id="zJobben" name="Jobenergi:
+Klik for at lade op.
+Bliver brugt ved høst og pløjning på fremmede farme.
+So lang tid du har under {0} jobenergi regenerer du automatisk hvert minut ny; du kan også købe dig ekstra forsyning i shoppen."  />
+				<text id="zKatAC" name="T-Shirt"  />
+				<text id="zKatAG" name="Figur"  />
+				<text id="zKatAH" name="Frisure"  />
+				<text id="zKatAK" name="Hat"  />
+				<text id="zKatAP" name="Bukser"  />
+				<text id="zKatAS" name="Sko"  />
+				<text id="zKatAT" name="Hudfarve"  />
+				<text id="zKatB" name="Træer"  />
+				<text id="zKatD" name="Dekorationer"  />
+				<text id="zKatE" name="Udvidelser af gården"  />
+				<text id="zKatF" name="Gødning"  />
+				<text id="zKatG" name="Gader"  />
+				<text id="zKatH" name="Bygning"  />
+				<text id="zKatR" name="Jobenergi"  />
+				<text id="zKatS" name="Frø"  />
+				<text id="zKatT" name="Dyr"  />
+				<text id="zKatV" name="Køretøjer"  />
+				<text id="zKatX" name="Aktionstilbud"  />
+				<text id="zKatY" name="Alt"  />
+				<text id="zKennLost" name="Klik hvis du har glemt din adgangskode."  />
+				<text id="zKennMod" name="Skift adgangskoden"  />
+				<text id="zKette" name="Arbejdsliste"  />
+				<text id="zKetteDel" name="Slet arbejdslisten"  />
+				<text id="zKick" name="Smid denne spiller ud fra din gård"  />
+				<text id="zLinkAGB" name="Klik, hvis du ønsker at læse forretingsbetingelserne."  />
+				<text id="zLogin" name="Til spillet"  />
+				<text id="zLogout" name="Logout"  />
+				<text id="zLupeM" name="Formindsker"  />
+				<text id="zLupeP" name="Forstørrer"  />
+				<text id="zMail" name="Beskeder"  />
+				<text id="zMarket" name="Markedsplads"  />
+				<text id="zMeldBad" name="Anmelde spilleren?"  />
+				<text id="zMen" name="Mandlig spillefigur"  />
+				<text id="zMoreChipsGold" name="Købe Farmdollar &amp; guld"  />
+				<text id="zMove" name="Flytte"  />
+				<text id="zN" name="Ikke udføre"  />
+				<text id="zNext" name="Frem"  />
+				<text id="zNoSilo" name="Du skal først bygge en silo."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Bed om tilsendelse af adgangskode"  />
+				<text id="zOKKennMod" name="Gem ny adgangskode"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Multi Tool køretøjer"  />
+				<text id="zPlow" name="Pløje"  />
+				<text id="zPlowNew" name="Ny mark"  />
+				<text id="zPlowV1" name="Pløj markerne med traktoren"  />
+				<text id="zPrefs" name="Indstillinger"  />
+				<text id="zPremium" name="Køb denne pakke"  />
+				<text id="zPremiumUse" name="Brug dette premiumsæd på farmen"  />
+				<text id="zPrev" name="Tilbage"  />
+				<text id="zQuest" name="Opgaver"  />
+				<text id="zRangliste" name="Rangliste"  />
+				<text id="zRanking2Farm" name="Denne spiller tillader ikke noget besøg på sin farm via sin rangliste."  />
+				<text id="zRegistrieren" name="Tilmeld dig så dine spillepoint ikke går tabt"  />
+				<text id="zRot" name="Dreje"  />
+				<text id="zSave" name="Gemme"  />
+				<text id="zScrBG" name="Scrollliste"  />
+				<text id="zScrMove" name="Bevæg glideren"  />
+				<text id="zSell" name="Sælge"  />
+				<text id="zShare" name="Fortæl det til dine venner!"  />
+				<text id="zShop" name="Shop"  />
+				<text id="zShopEarn" name="Sælge til:"  />
+				<text id="zShopHarvest" name="Høste for:"  />
+				<text id="zShopLagerSize" name="Pladser:"  />
+				<text id="zShopTime" name="Høste om:"  />
+				<text id="zShopXP" name="Opnåede XP:"  />
+				<text id="zSilo" name="Silo (Gødning)"  />
+				<text id="zSofort" name="Direkte spil - uden registrering"  />
+				<text id="zSound" name="Lyde"  />
+				<text id="zSow" name="Så"  />
+				<text id="zSowV2" name="Så markerne med såmaskinen"  />
+				<text id="zStrangeAchies" name="Denne spillers kvalifikationer"  />
+				<text id="zStrangeAdd" name="Tilbyd denne spiller dit venskab"  />
+				<text id="zStrangeFotos" name="Denne spillers fotoalbum"  />
+				<text id="zStrangeGift" name="Giv denne spiller en gave"  />
+				<text id="zStrangeHarvest" name="Ansæt denne spiller til at høste"  />
+				<text id="zStrangeHome" name="Gå til denne spillers gård"  />
+				<text id="zStrangeInfo" name="Informationer om denne spiller"  />
+				<text id="zStrangeMail" name="Skriv en besked til denne spiller"  />
+				<text id="zStrangePlow" name="Ansæt denne spiller til at pløje"  />
+				<text id="zSubAsk" name="Spørgsmål og svar"  />
+				<text id="zSubFotobuch" name="Fotoalbum"  />
+				<text id="zSubMailInbox" name="Læse beskeder"  />
+				<text id="zSubMailNew" name="Skrive beskeder"  />
+				<text id="zSubNews" name="Nyheder"  />
+				<text id="zSubShot1" name="Fotografer hele gården"  />
+				<text id="zSubShot2" name="For at fotografere:
+træk en firkant frem"  />
+				<text id="zSubShot3" name="For at fotografere: Klik på et objekt"  />
+				<text id="zSubSupport" name="Support"  />
+				<text id="zTanken" name="Optankning: Klik for at påfyldning.
+Viser: 
+Antal tankfyldninger
+og brændstofmåler
+(på maximal {0})"  />
+				<text id="zTosOpen" name="Gemme"  />
+				<text id="zTosStall" name="Bring dette dyr i stalden"  />
+				<text id="zUp" name="Højt"  />
+				<text id="zUse" name="Bruge"  />
+				<text id="zUsersOnFarm" name="Alle gårdens eller markedspladsens spillere"  />
+				<text id="zVZBuddies" name="Det nødvendige antal {0} venner"  />
+				<text id="zVZBuddiesE" name="Når du har inviteret nok venner succesrigt, kan du købe dette objekt til en lavere pris."  />
+				<text id="zWomen" name="Kvindelig spillefigur"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Velkommen på din egen farm!
+
+Lad mig hjælpe dig ved starten. Fælles lader vi de blomstre vidunderlige."  />
+				<text id="tut_gast_1_title" name="Hallo ven"  />
+				<text id="tut_gast_2_text" name="Se engang. Dine jordbær er allerede færdige!
+Hurtig. Hent dig disse lige straks."  />
+				<text id="tut_gast_2_title" name="Høst sæd ved at påklikke!"  />
+				<text id="tut_gast_3_text" name="Når du høster planter, tjener du farmdollar og
+får erfaringspoint."  />
+				<text id="tut_gast_3_title" name="At høste giver farmdollar og XP!"  />
+				<text id="tut_gast_4_text" name="Nu skal du pløje dine marker for at kunne beplante disse påny!"  />
+				<text id="tut_gast_4_title" name="Pløj marker ved at påklikke"  />
+				<text id="tut_gast_5_text" name="Nu kan du udvælge dig ny sæd i shoppen!"  />
+				<text id="tut_gast_5_title" name="Køb ny sæd i shoppen"  />
+				<text id="tut_gast_6_text" name="Lad os købe hvede!"  />
+				<text id="tut_gast_6_title" name="Køb hvede"  />
+				<text id="tut_gast_7_text" name="Anklik felterne for at gøde hveden der."  />
+				<text id="tut_gast_7_title" name="Fordel hveden på markerne"  />
+				<text id="tut_gast_8_text" name="Det gør du super!
+Din farm vil snart være den skønneste af dem alle.
+
+Så løs. Plant lige straks endnu lidt mere!"  />
+				<text id="tut_gast_8_title" name="Hurra! Din farm blomstrer!"  />
+				<text id="tut_market_1_text" name="Bruger dit sæd endnu længe til at være færdig?
+Så gå da på markedspladsen
+og arbejd hos de andre spillere!"  />
+				<text id="tut_market_1_title" name="Du kan også gå og arbejde!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farmdollar:"  />
+				<text id="txt1" name="Guld:"  />
+				<text id="txt2" name="Næste høst:"  />
+				<text id="txt3" name="Venner:"  />
+				<text id="txt4" name="Udmærkelser:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Flere venner"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Dag {0}"  />
+				<text id="txt0" name="Velkommen"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Du får en velkomstbonus hver dag!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Som tak for din registrering får du #w1# Farmdollar"  />
+				<text id="21" name="Du får 
+#w1# Farmdollar som en daglig velkomst bonus!"  />
+				<text id="2f" name="For det får du #anz# #ferti#."  />
+				<text id="2job" name="For det får du #job# jobenergi."  />
+				<text id="2w1" name="For det får du #w1# Farmdollar."  />
+				<text id="2w2" name="For det får du #w2# guld."  />
+				<text id="2x" name="Du har logget dig ind #days# i træk"  />
+				<text id="2xp" name="For det får du #xp# XPs."  />
+				<text id="freunde" name="Du får #w1# Farmdollar for dine indbudte spilleres aktiviteter"  />
+				<text id="txt0" name="Velkommen"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Fejl"  />
+				<text id="generic_alert_connection_failed_copy" name="For tiden foretages vedligeholdelsesarbejde for spillet. Prøv igen senere!"  />
+				<text id="generic_alert_connection_failed_title" name="Vedligeholdelsesarbejde!"  />
+				<text id="generic_alert_connection_lost_copy" name="Forbindelsen til spilleserveren blev afbrudt. Forsøg venligst at opret din forbindelse igen."  />
+				<text id="generic_alert_connection_lost_description" name="Aktuelt vedligeholdes der. Dette skal desværre gøres af og til.
+For at indspille updates og nye features eller rette en fejl.&lt;br&gt;&lt;br&gt;
+Vi arbejder på højtryk, så I hurtigst muligt kan spille igen."  />
+				<text id="generic_alert_connection_lost_promo" name="Prøv da i mellemtiden et af vores andre spil."  />
+				<text id="generic_alert_connection_lost_thanks" name="Mange tak for jeres forståelse!"  />
+				<text id="generic_alert_connection_lost_title" name="Tabt forbindelse!"  />
+				<text id="generic_alert_error" name="Error"  />
+				<text id="generic_alert_information" name="Henvisning"  />
+				<text id="generic_alert_loggedout_copy" name="Du har logget dig succesrigt ud. Glem ikke: Hver dag venter der en login-bonus på dig!"  />
+				<text id="generic_alert_loggedout_title" name="Indtil senere!"  />
+				<text id="generic_alert_warning" name="Advarsel"  />
+				<text id="generic_alert_watchout" name="Attention!"  />
+				<text id="generic_alert_win7chromebug" name="Skulle tekstningen ikke være mulig, tryk venligst Strg-tasten."  />
+				<text id="generic_invalid_email_provider" name="En e-mailadresse fra denne tilbyder er ikke tilladt!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Din internetforbindelse lader til at være meget langsom for tide. Prøv igen senere!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Hvad synes du om spillet og hvad kan gøres bedre?
+Skriv din mening i vores Goodgame-Forum henholdsvis gruppe!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Attention: Din spillestand bliver kun lagret, når du lader dig registrere!"  />
+				<text id="generic_register_error_invalidemail" name="E-mailadressen, du har indtastet, er ikke korrekt."  />
+				<text id="generic_report_muted_chattry" name="Du kan desværre ikke benytte chatten i øjeblikket på grund af din spærring."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="tage imod"  />
+				<text id="generic_btn_cancel" name="Afbryd"  />
+				<text id="generic_btn_close" name="Luk"  />
+				<text id="generic_btn_continue" name="Videre"  />
+				<text id="generic_btn_end" name="Afslut"  />
+				<text id="generic_btn_endnow" name="Afslut med det samme"  />
+				<text id="generic_btn_goback" name="Tilbage"  />
+				<text id="generic_btn_no" name="Nej"  />
+				<text id="generic_btn_noshare" name="Alligevel ikke!"  />
+				<text id="generic_btn_notaccept" name="Afvis"  />
+				<text id="generic_btn_okay" name="OK"  />
+				<text id="generic_btn_reconnect" name="Opret påny"  />
+				<text id="generic_btn_refresh" name="Aktualiser"  />
+				<text id="generic_btn_report" name="Meld"  />
+				<text id="generic_btn_search" name="Søg"  />
+				<text id="generic_btn_share" name="Del!"  />
+				<text id="generic_btn_skip" name="Overspring"  />
+				<text id="generic_btn_start" name="Start"  />
+				<text id="generic_btn_topayment" name="Hit med det!"  />
+				<text id="generic_btn_yes" name="Ja"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="Du skal opnå level {0} for at chatte!"  />
+				<text id="generic_chat_writeable" name="Kun registrerede spillere fra level 1 af må benytte chatten."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Glem ikke:
+I forummet findes der for tiden et flot {0}-vinderspil!
+Kig bedst direkte forbi og spil med!"  />
+				<text id="cm_teaser2_copy" name="Glem ikke:
+I forummet findes der for tiden en flot {0}-aktion!
+Det vil du garanteret ikke forsømme, altså kom hurtigt forbi!"  />
+				<text id="cm_teaser3_copy" name="For tiden løber der på {0}-Facebook-Siden en fantastisk aktion.
+Kig da absolut forbi!"  />
+				<text id="cm_teaser4_copy" name="Via et teknisk problem kan det for tiden komme til lette indskrænkninger i spilleforløbet fra {0}.
+Kig venligst efter i forummet for at erfare enkeltheder."  />
+				<text id="cm_teaser5_copy" name="Glem venligst ikke: En ægte medarbejder fra Goodgame Studios vil aldrig spørge efter dig efter dit password midt i spillet! Opbevar dine data altid sikkert og giv disse ikke videre!
+
+Fortsat god fornøjelse hos {0}!"  />
+				<text id="cm_teaser6_copy" name="Et nyt update til {0} er på vej!
+Aktuelle nyheder samt yderligere informationer til de nye features og rettede fejl findes som altid i forummet!"  />
+				<text id="cm_teaser7_copy" name="Om få minutter skal {0}-serveren køres ned for kort tid. Mere information kan du finde i forummet."  />
+				<text id="cm_teaser8_copy" name="Desværre skal {0}-serveren køres ned på grund af en nødtilfældevedligeholdelse. Mere information finder du i forummet."  />
+				<text id="cm_teaserevent_title" name="{0}, giv agt:"  />
+				<text id="cm_teaserinfo_title" name="Hallo {0}!"  />
+				<text id="cm_teaserwarning_title" name="Attention!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Vis animationer"  />
+				<text id="generic_bugreport" name="Meld fejl til os"  />
+				<text id="generic_changePass" name="Ændring af password"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Kommer snart*"  />
+				<text id="generic_date" name="Dato"  />
+				<text id="generic_day" name="Dag"  />
+				<text id="generic_dayformat" name="{0}-{1}-{2}"  />
+				<text id="generic_dayformat_short" name="{0}.{1}"  />
+				<text id="generic_days" name="Dage"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Spørgsmål og svar"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Ven"  />
+				<text id="generic_friends" name="Venner"  />
+				<text id="generic_general" name="Generelt"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Gruppe"  />
+				<text id="generic_guest" name="Gæst"  />
+				<text id="generic_help" name="Hjælp"  />
+				<text id="generic_high" name="Op"  />
+				<text id="generic_hour" name="Time"  />
+				<text id="generic_hours" name="Timer"  />
+				<text id="generic_hour_short" name="Time"  />
+				<text id="generic_limited" name="Limited"  />
+				<text id="generic_logout" name="Logout"  />
+				<text id="generic_low" name="Lavt"  />
+				<text id="generic_medium" name="Middel"  />
+				<text id="generic_minute" name="Minut"  />
+				<text id="generic_minutes" name="Minutter"  />
+				<text id="generic_minute_short" name="Min"  />
+				<text id="generic_moderator" name="Moderator"  />
+				<text id="generic_month" name="Måned"  />
+				<text id="generic_months" name="Måneder"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Musik til/fra"  />
+				<text id="generic_name" name="Navn"  />
+				<text id="generic_news" name="Nyheder"  />
+				<text id="generic_options" name="Indstillinger"  />
+				<text id="generic_quality" name="Kvalitet"  />
+				<text id="generic_register" name="Gem og registrer"  />
+				<text id="generic_second" name="Sekund"  />
+				<text id="generic_seconds" name="Sekunder"  />
+				<text id="generic_second_short" name="Sek"  />
+				<text id="generic_sound" name="Lyd til/fra"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="I dag"  />
+				<text id="generic_tomorrow" name="Morgen"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Spillernavn"  />
+				<text id="generic_validTo_timer" name="Endnu {0} timer {1} minutter aktiv"  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="I går"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Gammel version!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Aktualiser siden."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Ønsker du at føje {0} til som ven?"  />
+				<text id="generic_friends_add_title" name="Venskabsforespørgsel"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Flere venner"  />
+				<text id="generic_friends_denied_copy" name="{0} har desværre afvist din forespørgsel."  />
+				<text id="generic_friends_denied_title" name="Forespørgsel afvist!"  />
+				<text id="generic_friends_invite_badword_copy" name="Det navn du har angivet, er ikke tilladt!"  />
+				<text id="generic_friends_invite_badword_title" name="Attention!"  />
+				<text id="generic_friends_invite_error_copy" name="Kun som registreret spiller kan du invitere andre spillere."  />
+				<text id="generic_friends_invite_error_title" name="Registrer først"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Fuld billedmodus ikke mulig"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Tjekkisk"  />
+				<text id="generic_language_cz" name="Tjekkisk"  />
+				<text id="generic_language_da" name="Dansk"  />
+				<text id="generic_language_de" name="Tysk"  />
+				<text id="generic_language_el" name="Græsk"  />
+				<text id="generic_language_en" name="Engelsk"  />
+				<text id="generic_language_es" name="Spansk"  />
+				<text id="generic_language_fi" name="Finsk"  />
+				<text id="generic_language_fr" name="Fransk"  />
+				<text id="generic_language_hu" name="Ungarsk"  />
+				<text id="generic_language_id" name="Indonesisk"  />
+				<text id="generic_language_it" name="Italiensk"  />
+				<text id="generic_language_ja" name="Japansk"  />
+				<text id="generic_language_ko" name="Koreansk"  />
+				<text id="generic_language_nl" name="Hollandsk"  />
+				<text id="generic_language_no" name="Norsk"  />
+				<text id="generic_language_pl" name="Polsk"  />
+				<text id="generic_language_pt" name="Portugisisk"  />
+				<text id="generic_language_pt_BR" name="Brasiliansk"  />
+				<text id="generic_language_ru" name="Russisk"  />
+				<text id="generic_language_sv" name="Svensk"  />
+				<text id="generic_language_tr" name="Tyrkisk"  />
+				<text id="generic_language_zh_CN" name="Kinesisk (forenklet)"  />
+				<text id="generic_language_zh_TW" name="Kinesisk (traditionelt)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Din account blev spærret! Henvend dig venligst til supporten!"  />
+				<text id="generic_login_banned_2" name="Din account blev spærret!
+
+Spærringen gælder indtil: {0}
+
+Såfremt du har spørgsmål til spærringen, så henvend dig venligst til supporten."  />
+				<text id="generic_login_banned_3" name="Din account blev spærret permant.
+
+Såfremt du har spørgsmål til spærringen, henvend dig venligst til supporten."  />
+				<text id="generic_login_banned_permanent" name="permanent"  />
+				<text id="generic_login_facebook" name="Tilmeld dig via Facebook"  />
+				<text id="generic_login_login" name="LOGIN"  />
+				<text id="generic_login_loginname" name="Brugernavn/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Glemt password?"  />
+				<text id="generic_login_lostpassword_copy" name="Indtast din e-mailadresse og du vil få tilsendt et nyt password."  />
+				<text id="generic_login_lostpassword_title" name="Glemt password"  />
+				<text id="generic_login_newplayer" name="NY HER?"  />
+				<text id="generic_login_password" name="Password"  />
+				<text id="generic_login_play" name="SPIL MED DET SAMME"  />
+				<text id="generic_login_playnow" name="Spil nu!"  />
+				<text id="generic_login_register" name="Registrer"  />
+				<text id="generic_login_rememberpassword" name="Lagring af password"  />
+				<text id="generic_login_wronglogin" name="Brugernavn eller Password forkert!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Registrer dig for at kunne lagre din spillerstand!"  />
+				<text id="generic_logout_guest_title" name="Registrer"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Senest {0} vil spillet være til at nå igen."  />
+				<text id="servershutdownpremonition_copy" name="Spilserveren bliver kørt ned i  {0}. Log dig venligst ud eller registrer dig for at sikre din spillestand."  />
+				<text id="servershutdownpremonition_registered_copy" name="Spilserveren bliver kørt ned på {0} på grund af vedligeholdelsesarbejde."  />
+				<text id="servershutdown_copy" name="Spilserveren bliver nu kørt ned. Om et par minutter kan du logge dig på igen."  />
+				<text id="welcomeback_copy" name="Skønt at se dig igen! Her en lille ting, for at gøre genindstigingen lettere!"  />
+				<text id="welcomeback_title" name="Igen tilstede!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nyt password"  />
+				<text id="generic_change_password_copy_oldpass" name="Gammelt password"  />
+				<text id="generic_change_password_copy_send" name="Dit nye password blev sendt til din e-mailadresse."  />
+				<text id="generic_change_password_error_failed" name="Sorry, men er det ikke dit gmle password?"  />
+				<text id="generic_change_password_error_success" name="Password blev ændret succesrigt!"  />
+				<text id="generic_change_password_faild_copy" name="Dit password skal være længere end 2 tegn og det gamle password skal være indtastet korrekt!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Dit password må ikke være tomt eller indeholde særtegn."  />
+				<text id="generic_change_password_faild_title" name="Passwordindlæsning"  />
+				<text id="generic_change_password_title" name="Passwordændring"  />
+				<text id="generic_guest_change_password_faild_copy" name="Kun som registreret spiller kan du ændre dit password!"  />
+				<text id="generic_guest_change_password_faild_title" name="Registrer først"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Mere {0} for pengene!"  />
+				<text id="generic_payment_48hdiscount_button" name="Mere guld i de første 48 timer"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Mere {0} i de første 48 timer"  />
+				<text id="generic_payment_48hdiscount_copy" name="Køb guld de første 48 timer og få yderligere {0}% hos udvalgte pakker!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Køb guld i de første 48 timer og få yderligere {0}% hos alle pakker!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Køb {0} indenfor de første 48 timer og få yderligere {1}% hos alle pakker!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Køb {0} indenfor de første 48 timer og få yderligere {1}% ved udvalgte pakker!"  />
+				<text id="generic_payment_btn" name="Til shoppen"  />
+				<text id="generic_payment_copy" name="Du bliver nu ledt videre til paymentshop."  />
+				<text id="generic_payment_discount_button" name="Nu {0}% mere guld for pengene!"  />
+				<text id="generic_payment_discount_copy" name="Køb guld nu og få en {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Køb {0} nu og få en bonus på {1}%!"  />
+				<text id="generic_payment_discount_general" name="Nu {0}% mere {1} for pengene!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% mere for pengene!"  />
+				<text id="generic_payment_discount_time" name="ENDNU {0}!"  />
+				<text id="generic_payment_discount_title" name="Mere guld for pengene!"  />
+				<text id="generic_payment_newPrices" name="Fra nu af! Konstant reducerede priser i vores Payment-Shop! Spar virkelig penge!"  />
+				<text id="generic_payment_title" name="Paymentshop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Søg tunnel gennem cyberspace"  />
+				<text id="loading_text_10" name="Fordel genstande i verdenen"  />
+				<text id="loading_text_11" name="Mal grafikker"  />
+				<text id="loading_text_12" name="Mal buttons"  />
+				<text id="loading_text_13" name="Gem påskeæg"  />
+				<text id="loading_text_14" name="Slog brugerdata op"  />
+				<text id="loading_text_15" name="Skræm bugs væk"  />
+				<text id="loading_text_16" name="Fodre programmørerne"  />
+				<text id="loading_text_17" name="Skru ved klienten"  />
+				<text id="loading_text_18" name="Drej sanduret"  />
+				<text id="loading_text_19" name="Køl systemet"  />
+				<text id="loading_text_2" name="Giv tandhjulene olie"  />
+				<text id="loading_text_20" name="Bliver lige straks færdig"  />
+				<text id="loading_text_3" name="Drej hamsterhjulet"  />
+				<text id="loading_text_4" name="Opvarm serveren"  />
+				<text id="loading_text_5" name="Håber at alt går godt"  />
+				<text id="loading_text_6" name="Hent kammerjægeren"  />
+				<text id="loading_text_7" name="Beregn kompliceret algoritme"  />
+				<text id="loading_text_8" name="Kalibrer flukskompesatorer"  />
+				<text id="loading_text_9" name="Byggegenstande"  />
+				<text id="loading_text_default" name="Initialisering"  />
+				<text id="loading_text_itemXML" name="Lad spilelementer"  />
+				<text id="progress_loadfiles" name="Spillegrafikker bliver ladet..."  />
+				<text id="progress_serverconnection" name="Forbind med gameserver..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Indtast e-mailadresse"  />
+				<field id="generic_register_insertName" name="Indtast navn"  />
+				<field id="generic_register_insertPassword" name="Indtast password"  />
+				<text id="generic_register_agb_copy" name="Uden AGB går det ikke. Bare læs og bekræft ved at sætte en hage til venstre ved siden af &quot;accepter forretningsbetingelser&quot;, så kan det gå løs!"  />
+				<text id="generic_register_agb_read" name="læs AGB"  />
+				<text id="generic_register_alreadyavatar" name="Useren har allerede et navn."  />
+				<text id="generic_register_badword" name="Du må ikke anvende {0} i dit navn."  />
+				<text id="generic_register_btn_agb" name="Accepter AGB"  />
+				<text id="generic_register_btn_later" name="Senere"  />
+				<text id="generic_register_btn_next" name="Fortsæt"  />
+				<text id="generic_register_btn_save" name="Gem"  />
+				<text id="generic_register_character" name="Skab din karakter"  />
+				<text id="generic_register_copy_0" name="Registrer dig gratis nu!"  />
+				<text id="generic_register_copy_1" name="Lager din spillestand!"  />
+				<text id="generic_register_emaillong_copy" name="Din e-mailadresse er desværre for lang."  />
+				<text id="generic_register_emailwrong_copy" name="Den e-mailadresse du har indtastet er ikke korrekt."  />
+				<text id="generic_register_email_copy" name="E-mailadressen må ikke være tom eller indeholde særtegn."  />
+				<text id="generic_register_error" name="Registrering slået fejl"  />
+				<text id="generic_register_errormistake" name="Fejl"  />
+				<text id="generic_register_error_accountalreadyexists" name="Under denne e-mail er allerede en spiller tilmeldt, sorry."  />
+				<text id="generic_register_forfree" name="Tilmeld dig gratis!"  />
+				<text id="generic_register_forfree1" name="Gratis!"  />
+				<text id="generic_register_letsgo" name="DET GÅR LØS"  />
+				<text id="generic_register_namealreadyused" name="Navnet findes allerede."  />
+				<text id="generic_register_namenotvalid" name="Det indtastede navn er ugyldigt."  />
+				<text id="generic_register_optional" name="(optionelt)"  />
+				<text id="generic_register_passwordshort_copy" name="Det indtastede password er for kort. Det skal mindst indeholde 4 tegn."  />
+				<text id="generic_register_passwordwrong_copy" name="Det password du har indtastet er ikke korrekt."  />
+				<text id="generic_register_password_copy" name="Dit password må ikke være tomt eller indeholde særtegn."  />
+				<text id="generic_register_receivenews" name="Modtaget nyheder"  />
+				<text id="generic_register_rememberdata" name="Husk data"  />
+				<text id="generic_register_reward" name="Tilmeld dig gratis og få {0} {1} som gave!"  />
+				<text id="generic_register_subscribe" name="Tilmeld"  />
+				<text id="generic_register_success" name="Du har registreret dig succesfuldt."  />
+				<text id="generic_register_title" name="Registreringsfejl"  />
+				<text id="generic_register_unlock" name="Åben denne funktion!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Vær venligst opmærksom på din udtryksmåde ellers risikerer du en chat-spærring eller en midlertidig spærring af accounten.
+Grund: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="På grund af gentaget fejlopførsel kan du ikke benytte chatten de næste {0}. Grund: {1}"  />
+				<text id="generic_report_muted_domain1" name="Ikke nogen internetadresser i chatten!"  />
+				<text id="generic_report_muted_reported_copy" name="Der er flere spillere som har klaget over dig. På grund af det, kan du ikke benytte chatten for de næste {0}. Grund: {1}"  />
+				<text id="generic_report_player_copy" name="Vil du virkelig melde den spiller {0}?\nAttention! Misbrug af denne funktion kan føre til spærring af account."  />
+				<text id="generic_report_player_reason_0" name="Fornærmelse"  />
+				<text id="generic_report_player_reason_1" name="sexchikane"  />
+				<text id="generic_report_player_reason_2" name="racistisk ytring"  />
+				<text id="generic_report_player_reason_3" name="Trussel/Afpresning"  />
+				<text id="generic_report_player_reason_title" name="Grunden til meldingen:"  />
+				<text id="generic_report_player_title" name="Meld spiller?"  />
+				<text id="generic_report_reported_copy" name="Du blev meldt til administrator af en anden spiller. Grund: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Forbind"  />
+				<text id="generic_select_world" name="Vælg verden:"  />
+				<text id="generic_world" name="Verden: {0}"  />
+				<text id="generic_world_international" name="International: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

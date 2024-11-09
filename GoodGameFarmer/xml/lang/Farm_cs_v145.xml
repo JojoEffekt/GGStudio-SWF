@@ -1,0 +1,1791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - cs - 15 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="Sběr vajec"  />
+			<text id="T01" name="Sběr vajec"  />
+			<text id="T02" name="Sběr vajec"  />
+			<text id="T03" name="Sběr vajec"  />
+			<text id="T04" name="kokrhat"  />
+			<text id="T05" name="Sběr vajec"  />
+			<text id="T06" name="Sběr vajec"  />
+			<text id="T07" name="pohladit"  />
+			<text id="T10" name="Sbírat lanýže"  />
+			<text id="T11" name="dojit"  />
+			<text id="T110" name="dojit"  />
+			<text id="T111" name="kartáčovat"  />
+			<text id="T112" name="kartáčovat"  />
+			<text id="T113" name="dojit"  />
+			<text id="T114" name="kartáčovat"  />
+			<text id="T115" name="kartáčovat"  />
+			<text id="T12" name="stříhat"  />
+			<text id="T13" name="dojit"  />
+			<text id="T14" name="kartáčovat"  />
+			<text id="T15" name="kartáčovat"  />
+			<text id="T16" name="kartáčovat"  />
+			<text id="T17" name="kartáčovat"  />
+			<text id="T18" name="kartáčovat"  />
+			<text id="T19" name="stříhat"  />
+			<text id="T20" name="kartáčovat"  />
+			<text id="T21" name="kartáčovat"  />
+			<text id="T22" name="kartáčovat"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D318"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="T"  />
+				<text id="s1" name="Mio."  />
+				<text id="s2" name="Mld."  />
+				<text id="s3" name="Kvadrilion"  />
+				<text id="s4" name="Trilión"  />
+				<text id="s5" name="Tri"  />
+				<text id="s6" name="Trd"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="T"  />
+				<text id="day1" name="Den"  />
+				<text id="day2" name="Dny"  />
+				<text id="heute" name="dnes"  />
+				<text id="hour0" name="Hod."  />
+				<text id="hour1" name="Hodina"  />
+				<text id="hour2" name="Hodiny"  />
+				<text id="min0" name="Min"  />
+				<text id="min1" name="Minuta"  />
+				<text id="min2" name="Minuty"  />
+				<text id="morgen" name="zítra"  />
+				<text id="sofort" name="Ihned"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="ZPĚT"  />
+				<text id="ex" name="ZAVŘÍT"  />
+				<text id="next" name="DÁLE"  />
+				<text id="no" name="NE"  />
+				<text id="yes" name="ANO"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="Teda:
+Tvůj cíl u #play# je vydělat zkušenostní body a peníze, aby jsi mohl vystavit co možná největší a nejlepší farmu."  />
+				<text id="intro_01_goals_t" name="Cíl"  />
+				<text id="welcome_01_i" name="Vítejte u #play#, #name#
+Bylo by super, pokud by sis prohlédl naš láskyplně připravený úvod, který ti ulehčí vstup. Za to budeš dokonce odměněn! Chceš to"  />
+				<text id="welcome_01_t" name="Úvod"  />
+				<text id="welcome_02_i" name="Pffff, dobře, když nechceš žádnou odměnu...Můžeš si kdykoliv kliknutím na otazník-list prohlédnout úvodní tipy. Pravdila hry jsou take vysvětleny v nabídce nápověda &quot;Otázky a odpovědi&quot;. 
+Bav se!"  />
+				<text id="welcome_02_t" name="Úvod 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="Právě jsem nainstaloval Goodgame Farmer. Navštiv mě na farmě a podívej se, co všechno jsem vypěstoval!"  />
+			<text id="descriptionlongfarmer" name="Vítejte v Goodgame Farmer, v nové simulaci farmy od Goodgame Studios.V Goodgame Farm můžeš spravovat vlastní virtuální farmu, pěstovat zemědělské plodiny, obilí nebo stromy, krmit svůj dobytek a nakupovat mnoho potřebných věcí za vydělané hrací peníze."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="Žena"  />
+			<text id="A02" name="Muž"  />
+			<text id="B00" name="Jabloň"  />
+			<text id="B01" name="Hruška"  />
+			<text id="B010" name="Avokádo"  />
+			<text id="B011" name="Datle"  />
+			<text id="B012" name="Fík"  />
+			<text id="B013" name="Granátové jablko"  />
+			<text id="B014" name="Kiwi"  />
+			<text id="B015" name="Kaki"  />
+			<text id="B016" name="Mango"  />
+			<text id="B017" name="Papája"  />
+			<text id="B018" name="Kokosový ořech"  />
+			<text id="B019" name="Dračí ovoce"  />
+			<text id="B02" name="Třešeň"  />
+			<text id="B020" name="Kakao"  />
+			<text id="B021" name="Vlašský ořech"  />
+			<text id="B022" name="Chlebovník"  />
+			<text id="B023" name="Durian"  />
+			<text id="B024" name="Mandle"  />
+			<text id="B025" name="Liči"  />
+			<text id="B026" name="Hvězdné ovoce"  />
+			<text id="B027" name="Ohnivý strom"  />
+			<text id="B028" name="Bambus"  />
+			<text id="B029" name="Kandované jablko"  />
+			<text id="B03" name="Meruňka"  />
+			<text id="B030" name="Perník"  />
+			<text id="B031" name="Čokoláda"  />
+			<text id="B032" name="Velik.červený strom"  />
+			<text id="B033" name="Velik. modr.strom"  />
+			<text id="B034" name="Pastvina"  />
+			<text id="B04" name="Švestka"  />
+			<text id="B05" name="Oliva"  />
+			<text id="B06" name="Banán"  />
+			<text id="B07" name="Citrón"  />
+			<text id="B08" name="Pomeranče"  />
+			<text id="B09" name="Grapefruit"  />
+			<text id="D00" name="Hranice dříví"  />
+			<text id="D01" name="Balíky sena"  />
+			<text id="D010" name="Pařez"  />
+			<text id="D011" name="Kolo vozu"  />
+			<text id="D02" name="Žlab"  />
+			<text id="D03" name="Vodní koryto"  />
+			<text id="D04" name="Kašna"  />
+			<text id="D05" name="Pluh koně"  />
+			<text id="D06" name="Vodní pumpa"  />
+			<text id="D07" name="Kočár"  />
+			<text id="D08" name="Sud"  />
+			<text id="D09" name="Bedna"  />
+			<text id="D11" name="Strašák"  />
+			<text id="D110" name="Lavička v parku"  />
+			<text id="D111" name="Tmavá banka"  />
+			<text id="D112" name="Kašna"  />
+			<text id="D113" name="Strašák"  />
+			<text id="D114" name="Sova"  />
+			<text id="D115" name="Větrné kolo"  />
+			<text id="D116" name="Větrný pytel"  />
+			<text id="D117" name="Malý stůl"  />
+			<text id="D118" name="Velký rybník"  />
+			<text id="D119" name="Koi rybník"  />
+			<text id="D12" name="Sekačka na trávu"  />
+			<text id="D120" name="Bazén"  />
+			<text id="D121" name="Picknick"  />
+			<text id="D122" name="Zahradní židle"  />
+			<text id="D123" name="Zahradní stůl"  />
+			<text id="D124" name="Houpací síť"  />
+			<text id="D125" name="Lehátko"  />
+			<text id="D126" name="Šnůra na prádlo"  />
+			<text id="D127" name="Lehký vítr"  />
+			<text id="D128" name="Tlustý kaktus"  />
+			<text id="D129" name="Červené lilie"  />
+			<text id="D13" name="Suchý záchod"  />
+			<text id="D130" name="Dlouhý kaktus"  />
+			<text id="D131" name="Okrasný strom"  />
+			<text id="D132" name="Křoví ve váze"  />
+			<text id="D133" name="Bílé lilie"  />
+			<text id="D134" name="Strašidelný strašák"  />
+			<text id="D135" name="Psík"  />
+			<text id="D136" name="Dárek"  />
+			<text id="D137" name="Sněžné dítě"  />
+			<text id="D138" name="Sněhulák"  />
+			<text id="D139" name="Sněžná žena"  />
+			<text id="D14" name="Kolečko"  />
+			<text id="D140" name="Lyžař"  />
+			<text id="D141" name="Voliéra Kočka"  />
+			<text id="D142" name="Sáně"  />
+			<text id="D143" name="Sněhový anděl"  />
+			<text id="D144" name="Cedule"  />
+			<text id="D145" name="Výstražná tabulka"  />
+			<text id="D146" name="Cedeule Severní pól"  />
+			<text id="D147" name="Sněžná koza"  />
+			<text id="D148" name="Sněžný pes"  />
+			<text id="D149" name="Sněžná ovce"  />
+			<text id="D15" name="Světlá banka"  />
+			<text id="D150" name="Sněžná kráva"  />
+			<text id="D151" name="Sněžná kočka"  />
+			<text id="D152" name="Sněžná slepice"  />
+			<text id="D153" name="Sněžné prase"  />
+			<text id="D154" name="Sněžná husa"  />
+			<text id="D155" name="Brána u plotu"  />
+			<text id="D156" name="Plot"  />
+			<text id="D157" name="Kůl"  />
+			<text id="D158" name="Modrá jedle"  />
+			<text id="D159" name="Barevná jedle"  />
+			<text id="D16" name="Gril"  />
+			<text id="D160" name="Májka"  />
+			<text id="D161" name="Ptačí hnízdo"  />
+			<text id="D162" name="Muž ze sena"  />
+			<text id="D163" name="Žena ze sena"  />
+			<text id="D164" name="Červené vejce"  />
+			<text id="D165" name="Modré vejce"  />
+			<text id="D166" name="Fialové vejce"  />
+			<text id="D167" name="Skup. červ. vajec"  />
+			<text id="D168" name="Skup. modr.vajec"  />
+			<text id="D169" name="Skup. fial.vajec"  />
+			<text id="D17" name="Trpaslík"  />
+			<text id="D170" name="Hnízdo modr. vajec"  />
+			<text id="D171" name="Hnízdo zel. vajec"  />
+			<text id="D172" name="Hnízdo fial. vajec"  />
+			<text id="D173" name="Hnízdo červ. vajec"  />
+			<text id="D174" name="Hnízdo bílých vajec"  />
+			<text id="D175" name="Hnízdo plné vajec"  />
+			<text id="D176" name="Girlanda"  />
+			<text id="D177" name="Červený balón"  />
+			<text id="D178" name="Modrý balón"  />
+			<text id="D179" name="Žlutý balón"  />
+			<text id="D18" name="Poštovní schránka"  />
+			<text id="D180" name="Pirátská vlajka"  />
+			<text id="D19" name="Ptačí domky"  />
+			<text id="D20" name="Křoví"  />
+			<text id="D21" name="Plot"  />
+			<text id="D210" name="Oblouk hrůzy"  />
+			<text id="D22" name="Kůl"  />
+			<text id="D23" name="Plot"  />
+			<text id="D24" name="Kůl"  />
+			<text id="D25" name="Brána u plotu"  />
+			<text id="D26" name="Brána u plotu"  />
+			<text id="D27" name="Zadní luk"  />
+			<text id="D28" name="Plot hrůzy"  />
+			<text id="D29" name="Trám hrůzy"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="Německo"  />
+			<text id="D310" name="Itálie"  />
+			<text id="D311" name="Francie"  />
+			<text id="D312" name="Španělsko"  />
+			<text id="D313" name="Portugalsko"  />
+			<text id="D314" name="Pořážka"  />
+			<text id="D315" name="Belgie"  />
+			<text id="D316" name="Polsko"  />
+			<text id="D317" name="Rusko"  />
+			<text id="D318" name="Česká Republika"  />
+			<text id="D319" name="Řecko"  />
+			<text id="D32" name="Rakousko"  />
+			<text id="D320" name="Turecko"  />
+			<text id="D321" name="USA"  />
+			<text id="D322" name="Kanada"  />
+			<text id="D323" name="Mexiko"  />
+			<text id="D324" name="Brazílie"  />
+			<text id="D325" name="Argentina"  />
+			<text id="D326" name="Čína"  />
+			<text id="D327" name="Japonsko"  />
+			<text id="D328" name="Austrálie"  />
+			<text id="D329" name="Korea"  />
+			<text id="D33" name="Švýcarsko"  />
+			<text id="D330" name="Maďarsko"  />
+			<text id="D331" name="Taiwan"  />
+			<text id="D34" name="Finsko"  />
+			<text id="D35" name="Švédové"  />
+			<text id="D36" name="Norsko"  />
+			<text id="D37" name="Dánsko"  />
+			<text id="D38" name="Velká Británie"  />
+			<text id="D39" name="Irsko"  />
+			<text id="D40" name="Kůň"  />
+			<text id="D41" name="Strom"  />
+			<text id="D410" name="Strom hrůzy"  />
+			<text id="D42" name="Kráva"  />
+			<text id="D43" name="Ovce"  />
+			<text id="D44" name="Prase"  />
+			<text id="D45" name="Koza"  />
+			<text id="D46" name="Husa"  />
+			<text id="D47" name="Kuře"  />
+			<text id="D48" name="Pes"  />
+			<text id="D49" name="Kočka"  />
+			<text id="D60" name="Trh"  />
+			<text id="D70" name="Lepenková kostra"  />
+			<text id="D71" name="Ruka zombie"  />
+			<text id="D72" name="Náhrobek"  />
+			<text id="D73" name="Jack O&#039;Lantern"  />
+			<text id="D74" name="Jack O&#039;Lantern"  />
+			<text id="D75" name="Jack O&#039;Lantern"  />
+			<text id="D76" name="Jack O&#039;Lantern"  />
+			<text id="D77" name="Jack O&#039;Lantern"  />
+			<text id="Dxxx" name="Zelené hnízdo"  />
+			<text id="E01" name="10x10 pole"  />
+			<text id="E02" name="12x12 pole"  />
+			<text id="E03" name="14x14 pole"  />
+			<text id="E04" name="16x16 pole"  />
+			<text id="E05" name="18x18 pole"  />
+			<text id="E06" name="20x20 pole"  />
+			<text id="E07" name="22x22 pole"  />
+			<text id="E08" name="24x24 pole"  />
+			<text id="E11" name="10x10 pole"  />
+			<text id="E12" name="12x12 pole"  />
+			<text id="E13" name="14x14 pole"  />
+			<text id="E14" name="16x16 pole"  />
+			<text id="E15" name="18x18 pole"  />
+			<text id="E16" name="20x20 pole"  />
+			<text id="E17" name="22x22 pole"  />
+			<text id="E18" name="24x24 pole"  />
+			<text id="E21" name="10x10 pole"  />
+			<text id="E22" name="12x12 pole"  />
+			<text id="E23" name="14x14 pole"  />
+			<text id="E24" name="16x16 pole"  />
+			<text id="E25" name="18x18 pole"  />
+			<text id="E26" name="20x20 pole"  />
+			<text id="E27" name="22x22 pole"  />
+			<text id="E28" name="24x24 pole"  />
+			<text id="F01" name="Doba - M"  />
+			<text id="F20" name="Osvěžovač"  />
+			<text id="F30" name="Hnojivo"  />
+			<text id="F31" name="Prémium hnojivo"  />
+			<text id="F40" name="Krmení"  />
+			<text id="F41" name="Prémium krmení"  />
+			<text id="F50" name="Kouzelný prach"  />
+			<text id="G00" name="Cesta z desek"  />
+			<text id="H00" name="Stodola"  />
+			<text id="H01" name="Silo"  />
+			<text id="H02" name="Kůlna"  />
+			<text id="H03" name="Větrný mlýn"  />
+			<text id="H04" name="Skleník"  />
+			<text id="H05" name="Strašidelný dům hrůzy"  />
+			<text id="H06" name="Silo duchů"  />
+			<text id="H07" name="Mlýn strachu"  />
+			<text id="H08" name="Zimní zásobník"  />
+			<text id="H09" name="Zimní mlýn"  />
+			<text id="H10" name="Kurník"  />
+			<text id="H11" name="Chlívek"  />
+			<text id="H12" name="Kravín"  />
+			<text id="H13" name="Konírna"  />
+			<text id="H20" name="Chalupa"  />
+			<text id="H21" name="Statek"  />
+			<text id="H210" name="Dům duchů"  />
+			<text id="H211" name="Vila duchů"  />
+			<text id="H212" name="Zimní chata"  />
+			<text id="H213" name="Zimní dům"  />
+			<text id="H214" name="Zimní vila"  />
+			<text id="H215" name="Perníková chaloupka"  />
+			<text id="H216" name="Zimní chalupa na venkově"  />
+			<text id="H217" name="Zimní nemovitosti"  />
+			<text id="H218" name="Modrý dům vajíčko"  />
+			<text id="H219" name="Růž. vajíčkový dům"  />
+			<text id="H22" name="Vila"  />
+			<text id="H220" name="Pirátská loď"  />
+			<text id="H23" name="Psí bouda"  />
+			<text id="H24" name="Dům na stromě"  />
+			<text id="H25" name="Venkovský dům"  />
+			<text id="H26" name="Oranžérie"  />
+			<text id="H27" name="Velká vila"  />
+			<text id="H28" name="Obrovská vila"  />
+			<text id="H29" name="Chata duchů"  />
+			<text id="H30" name="Stánek s ovocem"  />
+			<text id="H31" name="Železářství"  />
+			<text id="H32" name="Vyhraj včelí limonádu"  />
+			<text id="H40" name="Silo (hnojivo)"  />
+			<text id="H50" name="Strašidelný dům"  />
+			<text id="H51" name="Kostel jako noční můra"  />
+			<text id="N01" name="Stromy sklizené"  />
+			<text id="N02" name="Chovat zvířata"  />
+			<text id="R00" name="Jobenergie S"  />
+			<text id="R01" name="Jobenergie M"  />
+			<text id="R02" name="Jobenergie XL"  />
+			<text id="S00" name="Tulipány"  />
+			<text id="S01" name="Konvalinka"  />
+			<text id="S010" name="Fialové růže"  />
+			<text id="S02" name="Levandule"  />
+			<text id="S03" name="Slunečnice"  />
+			<text id="S04" name="Růže"  />
+			<text id="S05" name="Jiřiny"  />
+			<text id="S06" name="Krokusy"  />
+			<text id="S07" name="Lilie"  />
+			<text id="S08" name="Lupiny"  />
+			<text id="S09" name="Mák"  />
+			<text id="S10" name="Jahody"  />
+			<text id="S11" name="Vodní meloun"  />
+			<text id="S12" name="Ananas"  />
+			<text id="S13" name="Hrozny"  />
+			<text id="S14" name="Meloun"  />
+			<text id="S15" name="Maliny"  />
+			<text id="S16" name="Borůvky"  />
+			<text id="S17" name="Brusinky"  />
+			<text id="S18" name="Angrešt"  />
+			<text id="S19" name="Ostružiny"  />
+			<text id="S20" name="Lilky"  />
+			<text id="S21" name="Květák"  />
+			<text id="S210" name="Špenát"  />
+			<text id="S211" name="Cibule"  />
+			<text id="S212" name="Červené zelí"  />
+			<text id="S213" name="Brambory"  />
+			<text id="S214" name="Mrkve"  />
+			<text id="S215" name="Hrášek"  />
+			<text id="S216" name="Ředkvička"  />
+			<text id="S217" name="Rebarbora"  />
+			<text id="S218" name="Růžičková kapusta"  />
+			<text id="S219" name="Sója"  />
+			<text id="S22" name="Dýně"  />
+			<text id="S220" name="Červená řepa"  />
+			<text id="S221" name="Brokolice"  />
+			<text id="S222" name="Artyčoky"  />
+			<text id="S223" name="Chili"  />
+			<text id="S224" name="Chřest"  />
+			<text id="S225" name="Řepka"  />
+			<text id="S23" name="Paprika"  />
+			<text id="S24" name="Rajčata"  />
+			<text id="S25" name="Fazole"  />
+			<text id="S26" name="Okurky"  />
+			<text id="S27" name="Řepa"  />
+			<text id="S28" name="Salát"  />
+			<text id="S29" name="Cuketa"  />
+			<text id="S30" name="Pšenice"  />
+			<text id="S31" name="Oves"  />
+			<text id="S32" name="Rýže"  />
+			<text id="S33" name="Žito"  />
+			<text id="S34" name="Kukuřice"  />
+			<text id="S35" name="Ječmen"  />
+			<text id="S36" name="Proso"  />
+			<text id="S37" name="Sladká kukuřice"  />
+			<text id="S38" name="Červená pšenice"  />
+			<text id="S39" name="Špalda"  />
+			<text id="S40" name="Kafe"  />
+			<text id="S41" name="Čaj"  />
+			<text id="S42" name="Cukrová třina"  />
+			<text id="S43" name="Aloe Vera"  />
+			<text id="S44" name="Bavlna"  />
+			<text id="S45" name="Sojový gen"  />
+			<text id="S49" name="Sněženka"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Truhla pokladů"  />
+			<text id="S52" name="Červená vejce"  />
+			<text id="S53" name="Modrá vejce"  />
+			<text id="S54" name="Lotus"  />
+			<text id="S55" name="Bílé růže"  />
+			<text id="S56" name="Habaneros"  />
+			<text id="S57" name="Pomněnka"  />
+			<text id="S58" name="Wasabi"  />
+			<text id="S59" name="Muffins"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="Fialová vejce"  />
+			<text id="S63" name="Žlutá vejce"  />
+			<text id="T00" name="Kuře"  />
+			<text id="T01" name="Husa"  />
+			<text id="T02" name="Hnědé kuře"  />
+			<text id="T03" name="Černé kuře"  />
+			<text id="T04" name="Kohout"  />
+			<text id="T05" name="Husa"  />
+			<text id="T06" name="Zimní husa"  />
+			<text id="T07" name="Papoušek"  />
+			<text id="T10" name="Prase"  />
+			<text id="T11" name="Kráva"  />
+			<text id="T110" name="Hnědá kráva"  />
+			<text id="T111" name="Býk"  />
+			<text id="T112" name="Zimní kůň"  />
+			<text id="T113" name="Zimní kráva"  />
+			<text id="T114" name="Beránek"  />
+			<text id="T115" name="Jednorožec"  />
+			<text id="T12" name="Ovce"  />
+			<text id="T13" name="Koza"  />
+			<text id="T14" name="Pes"  />
+			<text id="T15" name="Černá kočka"  />
+			<text id="T16" name="Hnědá kočka"  />
+			<text id="T17" name="Tmavý kůň"  />
+			<text id="T18" name="Světlý kůň"  />
+			<text id="T19" name="Tmavá ovce"  />
+			<text id="T20" name="Ovčácký pes"  />
+			<text id="T21" name="Sob"  />
+			<text id="T22" name="Zajíc"  />
+			<text id="V00" name="10x tankovat"  />
+			<text id="V01" name="25x tankovat"  />
+			<text id="V02" name="50x tankovat"  />
+			<text id="V10" name="Traktor"  />
+			<text id="V20" name="Secí mašina"  />
+			<text id="V30" name="Kombajn"  />
+			<text id="V40" name="Hnojící vozidlo"  />
+			<text id="V90" name="Nádrž"  />
+			<text id="Y01" name="Sklizené"  />
+			<text id="Y02" name="Zorané"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="Sorry, tvoje nebo #name# listina přátel je právě zcela zaplnena,#tab#nebo #name# nepotvrdil tvoji nabídku na přátelství."  />
+				<text id="buddies_add_ok" name="#name# je nyní tvůj přítel."  />
+				<text id="chat_dop" name="Prosím tě, nepoužívej při chatu stále ten stejný text. Díky!"  />
+				<text id="chat_nonsense" name="Prosím chatuj o něčem, co má smysl. Díky!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="Neplatná emailová adresa.
+Prosím zadej platnou emailovou adresu."  />
+				<text id="email_dop" name="Tato emailová adresa je zadaná.
+Prosím zadej jinou."  />
+				<text id="email_no" name="Tato emailová adresa je neplatná."  />
+				<text id="farm_full" name="Na této farmě je právě spousta lidí. 
+Prosím zvol jinou farmu."  />
+				<text id="helper_job_no" name="#name# odmítl tvoji poptávku na #job# nebo opustil trh."  />
+				<text id="helper_job_ok" name="#name# přijal tvoji nabídku na #job#."  />
+				<text id="helper_owner_no_money" name="Majitel farmy nemá dost peněz, aby oral další pole."  />
+				<text id="invite_sent" name="Díky moc!
+Poslali jsme email tvému příteli"  />
+				<text id="item_dop" name="Právě jsi dosáhl limitu pro tento předmět."  />
+				<text id="kenn_bad" name="Jako heslo prosím použít 
+následující symboly:
+5 až 15 znaků, stávající z#tab#
+a-z, A-Z, 0-9, ÄÖÜäöüß, -_@"  />
+				<text id="kenn_no" name="Toto heslo je neplatné"  />
+				<text id="kenn_unequal" name="Nesprávné heslo"  />
+				<text id="kick" name="Sorry, #name# tě vyhodil/la ze své farmy!#tab#Pravděpodobně jsi se choval dost špatně!?"  />
+				<text id="lagernosell" name="Musíš tuto budovu vyprázdnit, dříve než ji budeš moci prodat."  />
+				<text id="lager_building" name="Aby jsi mohl uložit předměty, potřebuješ sklad nebo stodolu."  />
+				<text id="lager_cantsell" name="Nejprve musíš udělat dostatek místa ve skladu, pak můžeš tuto budovu prodat."  />
+				<text id="lager_voll" name="Nesmíš vložit funkce-objektu do funkci-objektu."  />
+				<text id="login_bad" name="Chyba při registraci. Pokud jsi zapomněl své heslo, klikni na &quot;Zapomenuté heslo?&quot;. #tab#Pokud potřebuješ pomoc,
+napiš nám
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="Pro jméno hráče prosím použít následující symboly:#tab#2 až 15 znaků, stávající z a-z, A-Z, 0-9, ÄÖÜäöüß, -_"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="Jméno hráče je již zadané. Prosím zadej jiné nebo si vyber:"  />
+				<text id="name_spam" name="Prosím zadej jiné jméno"  />
+				<text id="no_agb" name="AGB akceptovat. Prosím potvrď naše AGB."  />
+				<text id="no_arbeitskraft" name="Nemáš dost pracovních sil k vykonání této akce.
+Počkej, až budeš mít dost prac. sil k dispozici, nebo zajdi do obchodu a kup nějakou."  />
+				<text id="no_buddies" name="Bohužel jsi ještě nepozval dostatek přátel.#tab#Předmět #obj# si můžeš koupit teprve tehdy, pozveš-li tento počet dalších přátel: #anz#."  />
+				<text id="no_chat" name="Pokud chceš chatovat musíš se zaregistrovat a dosáhnout nejméně ůroveň 1."  />
+				<text id="no_ferti" name="Hnojivo #name# je vykoupené. Kup si prosím nové."  />
+				<text id="no_food" name="Nemáš bohužel dost krmení, aby jsi obstaral všechna zvířat!"  />
+				<text id="no_gender" name="Jěště jsi nezvolil pohlaví. Prosím klikni na jeden z obrázků."  />
+				<text id="no_lager" name="Žádný vhodný nebo volný sklad popř. stáj pro tento objekt."  />
+				<text id="no_money" name="Na tuto akci nemáš dost peněz."  />
+				<text id="no_premium" name="Tvé prémium osivo #name# je vyčerpané. Kup si prosím nové."  />
+				<text id="no_regi" name="Tato funkce je vyhrazena pro registrované hráče. #tab#Prosím zaregistruj se a zajisti si tím svoji farmu."  />
+				<text id="no_tanken" name="Na tuto akci nemáš dostatek paliva."  />
+				<text id="no_zauberstaub" name="Tvé {0} je vyčerpané.
+Aby jsi získal nové, musiš obdržet další ocenění."  />
+				<text id="old_client_version" name="Existuje nová verze. Prosím aktualizuj tuto stránku."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="Buděš uveden v žebříčku, pokud jsi zaregistrovaný a dosáhl jsi úrovneň 3."  />
+				<text id="rangliste_player_not_ranked" name="Tento hráč musí dosáhnout úrovně 3 a pak bude zapsán do žebříčku."  />
+				<text id="rangliste_unknown_id" name="Sorry, pod tímto jménem není zaregistrován žádný hráč."  />
+				<text id="vehiclesnosell" name="Toto vozidlo se právě používá."  />
+				<text id="vollscreen" name="V režimu celé obrazovky nelze bohužel chatovat. (Z bezpečnostních důvodů není možné zadávat údaje z klávsnice)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="Přátelství"  />
+				<text id="farm_full" name="Ups!"  />
+				<text id="helper_job_ok" name="Práce přijata"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="aktivovat"  />
+				<text id="buyOf" name="Spotřeba #anz# z #menge#"  />
+				<text id="clickZum" name="Klikni"  />
+				<text id="deactive" name="deaktivovaný"  />
+				<text id="doContent" name="Výběrové okno"  />
+				<text id="doDel" name="smazat"  />
+				<text id="doFertilize" name="hnojit"  />
+				<text id="doFertilizeAnimals" name="krmit"  />
+				<text id="doFortune" name="hrej výherní hru"  />
+				<text id="doHarvest" name="sklidit"  />
+				<text id="doMove" name="Pohybovat"  />
+				<text id="doPlow" name="orat"  />
+				<text id="doPos" name="zaujmout pozici"  />
+				<text id="doRot" name="točit"  />
+				<text id="doSell" name="prodat"  />
+				<text id="doSow" name="sít"  />
+				<text id="doTosOpen" name="skladovat"  />
+				<text id="doVehicles" name="strojově"  />
+				<text id="farmbuddie" name="Tvá kamarádka#tvůj kamarád"  />
+				<text id="farmgast" name="Host#Host"  />
+				<text id="farmhelperharvest" name="Pomocnice#pomocník při sklizni"  />
+				<text id="farmhelperplow" name="Pomocnice/pomocník při orbě"  />
+				<text id="farmowner" name="Majitel této farmy#majitel této farmy"  />
+				<text id="farmvisitor" name="Návštěvnice#Návštěvník"  />
+				<text id="isFertilize" name="pohnojený"  />
+				<text id="isHarvest" name="bylo sklizeno"  />
+				<text id="isReadyB" name="uzralý"  />
+				<text id="isReadyEX" name="vysušit"  />
+				<text id="isReadyFin" name="Hodnota plodiny"  />
+				<text id="isReadyS" name="vzrostlá"  />
+				<text id="isReadyT" name="hotovo"  />
+				<text id="jobbenrest" name="#anz# Pracovní nasazení"  />
+				<text id="jobVehicles" name="--- Práce na strojích:"  />
+				<text id="jobWalk" name="--- Ruční práce:"  />
+				<text id="ketteZum" name="Pracovní listina"  />
+				<text id="Market" name="Trh"  />
+				<text id="marketvisitor" name="Spoluhráčka#Spoluhráč"  />
+				<text id="my" name="Ty sám"  />
+				<text id="noPfad" name="Silnice je zablokovaná.
+Proto nemůžu běžet :-("  />
+				<text id="online" name="je online"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="Hráč"  />
+				<text id="AC" name="Triko"  />
+				<text id="AG" name="Figura"  />
+				<text id="AH" name="Účes"  />
+				<text id="AP" name="Kalhoty"  />
+				<text id="AS" name="Boty"  />
+				<text id="AT" name="Pleť"  />
+				<text id="B" name="Strom"  />
+				<text id="D" name="Dekorace"  />
+				<text id="E" name="Rozšíření farmy"  />
+				<text id="F" name="Hnojivo"  />
+				<text id="G" name="Ulice"  />
+				<text id="H" name="Dům"  />
+				<text id="R" name="Pracovat"  />
+				<text id="S" name="Pole"  />
+				<text id="T" name="Zvíře"  />
+				<text id="V" name="Vozidlo"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="Strom"  />
+				<text id="D0" name="Dekorace farmy"  />
+				<text id="D1" name="Dekorace domu"  />
+				<text id="D2" name="Omezení"  />
+				<text id="D3" name="Vlajka"  />
+				<text id="D4" name="Zahradní dekorace"  />
+				<text id="D7" name="Slavnostní dekorace"  />
+				<text id="F0" name="Zrychlení času"  />
+				<text id="F1" name="Zvětšování příjmů"  />
+				<text id="F2" name="Aktualizovat"  />
+				<text id="H0" name="Farma"  />
+				<text id="H1" name="Stáje"  />
+				<text id="H2" name="Obytný dům"  />
+				<text id="H4" name="Funkce"  />
+				<text id="H5" name="Speciální budova"  />
+				<text id="N0" name="Pracovat rychleji"  />
+				<text id="R0" name="Práce na různých farmách"  />
+				<text id="S0" name="Květina"  />
+				<text id="S1" name="Ovoce"  />
+				<text id="S2" name="Zelenina"  />
+				<text id="S3" name="Obilí"  />
+				<text id="S4" name="Ostatní"  />
+				<text id="S5" name="Prémie"  />
+				<text id="S6" name="Sezóna"  />
+				<text id="T0" name="Drůbež"  />
+				<text id="T1" name="Užitkové zvíře"  />
+				<text id="T2" name="Domácí zvíře"  />
+				<text id="V0" name="Benzín"  />
+				<text id="V1" name="Traktor"  />
+				<text id="V2" name="Secí mašina"  />
+				<text id="V3" name="Kombajn"  />
+				<text id="V4" name="Hnojící stroj"  />
+				<text id="V9" name="Nádrž"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="Nová vyznamenání!"  />
+				<text id="txt1" name="Gratulujeme!
+Obdržel jsi cenu &#039;#name#&#039; - etapa #level#"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Říci přátelům"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="Počet vydělaných farm dolarů"  />
+				<text id="i10" name="Počet sklizených květin"  />
+				<text id="i11" name="Počet sklizených stromů"  />
+				<text id="i12" name="Počet chovaných zvířat"  />
+				<text id="i13" name="Množství farm dolarů, které jsi vydal za nákup dárků."  />
+				<text id="i14" name="Počet obdržených dárků"  />
+				<text id="i15" name="Počet výpomoci od sousedů"  />
+				<text id="i16" name="Počet udělaných obrázků"  />
+				<text id="i17" name="Počet vykonaných prací při orbě ve starém systému pracovních oprávnění"  />
+				<text id="i18" name="Počet prací na sklizni ve starém systému pracovních oprávnění"  />
+				<text id="i19" name="Počet udělených pracovních míst na orbě ve starém systému pracovních oprávnění"  />
+				<text id="i2" name="Počet vydaných farm dolarů"  />
+				<text id="i20" name="Počet udělených prací na žni ve starém systému pracovních oprávnění"  />
+				<text id="i21" name="Počet zahnojených polí, zvířat a stromů: časová výhoda"  />
+				<text id="i22" name="Počet zahnojených polí, zvířat a stromů: kouzelný prach"  />
+				<text id="i23" name="Počet sklizených různých druhů obilí"  />
+				<text id="i24" name="Počet sklizených různých druhů ovoce"  />
+				<text id="i25" name="Počet různých sklizených květin"  />
+				<text id="i26" name="Počet různé sklizené zeleniny"  />
+				<text id="i27" name="Počet různých sklizených stromů"  />
+				<text id="i28" name="Počet chovaných různých druhů zvířat"  />
+				<text id="i29" name="Celkový počet různých sklizených jednotek"  />
+				<text id="i3" name="Počet zakoupených budov"  />
+				<text id="i30" name="Počet různých dovedností"  />
+				<text id="i31" name="Celkový počet dovedností"  />
+				<text id="i32" name="Počet získaných prací"  />
+				<text id="i33" name="Počet zakoupených stromů"  />
+				<text id="i34" name="Počet sesbíraného Premium osiva"  />
+				<text id="i35" name="Počet sklizených různých plodin Premium"  />
+				<text id="i36" name="Počet při orbě zoraných polí"  />
+				<text id="i37" name="Počet polí, která byla na tvoji zakázku během orby zorána"  />
+				<text id="i38" name="Počet při sklizni sklizených polí, zvířat nebo stromů."  />
+				<text id="i39" name="Počet polí, stromů a zvířat, která byla sklizena během sklizně dle tebou rozdělených prací"  />
+				<text id="i4" name="Počet zakoupených Decos"  />
+				<text id="i5" name="Počet zakoupených zvířat"  />
+				<text id="i6" name="Celkový počet sklizených semen"  />
+				<text id="i7" name="Počet sklizeného ovoce"  />
+				<text id="i8" name="Počet sklizené zeleniny"  />
+				<text id="i9" name="Počet sklizeného obilí"  />
+				<text id="next" name="Jěště #level#
+do další úrovně."  />
+				<text id="t1" name="Kořist zemědělce"  />
+				<text id="t10" name="Květinové dítě"  />
+				<text id="t11" name="Milující strom"  />
+				<text id="t12" name="Milovník zvířat"  />
+				<text id="t13" name="Čipy vynaložené za dárky"  />
+				<text id="t14" name="Gifts received"  />
+				<text id="t15" name="Neighbours supporting you"  />
+				<text id="t16" name="Pictures taken"  />
+				<text id="t17" name="Legendární oráč"  />
+				<text id="t18" name="Veterán sklizně"  />
+				<text id="t19" name="Starý dozorce"  />
+				<text id="t2" name="Nákup král"  />
+				<text id="t20" name="Zkušený sklízeč"  />
+				<text id="t21" name="Rychlý farmář"  />
+				<text id="t22" name="Pečeť kvality"  />
+				<text id="t23" name="Sběrač zrní"  />
+				<text id="t24" name="Ovocná muška"  />
+				<text id="t25" name="Sběrač květin"  />
+				<text id="t26" name="Obdivovatel zeleniny"  />
+				<text id="t27" name="Lupen veš"  />
+				<text id="t28" name="Krotitel"  />
+				<text id="t29" name="Známý farmář"  />
+				<text id="t3" name="Staveniště Hospodář"  />
+				<text id="t30" name="Různé dovednosti"  />
+				<text id="t31" name="Celkové dovednosti"  />
+				<text id="t32" name="Cool parta"  />
+				<text id="t33" name="Kůrovec"  />
+				<text id="t34" name="Zlatá sklizeň"  />
+				<text id="t35" name="Neomezená záře"  />
+				<text id="t36" name="Velkolepý oráč"  />
+				<text id="t37" name="Pluh Lasser"  />
+				<text id="t38" name="Železný sklízeč"  />
+				<text id="t39" name="Těžit z příjmů"  />
+				<text id="t4" name="Dolle Deko"  />
+				<text id="t5" name="Hodně dobytka"  />
+				<text id="t6" name="Sběratel osiva"  />
+				<text id="t7" name="Ovocný trpaslík"  />
+				<text id="t8" name="Rostlinné patro"  />
+				<text id="t9" name="Znalec obilí"  />
+				<text id="txt0" name="Ceny"  />
+				<text id="txt1" name="Celkový pokrok"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Byl jsi vykázán ze hry.
+Zbývající doba zákazu:  #time# minuty
+Pokud máš otázky týkající se zákazu, napiš nám email na #support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="Důležité informace !!!"  />
+				<text id="txt1" name="OK"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="Sorry!"  />
+				<text id="txt1" name="Na tomto počítači běží právě okno s #spielname#."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="POZOR!!!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Připojení k serveru bude za #time# sekund přerušeno!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="Vybrat"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="Avatar"  />
+				<text id="txt0" name="Náhoda"  />
+				<text id="txt1" name="Uložit"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="Nahlásit hráče!"  />
+				<text id="txt1" name="Opravdu chceš nahlásit tohoto hráče {0}?"  />
+				<text id="txt2" name="ano"  />
+				<text id="txt3" name="ne"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="Potvrdit přítele"  />
+				<text id="txt1" name="#name# tě chce připojit ke svým přátelům."  />
+				<text id="txt2" name="Odmítnout"  />
+				<text id="txt3" name="Přijmout"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="Přátelství"  />
+				<text id="txt1" name="Ptám se #name# zda ona/on chce být tvůj/tvoje kamarád/kamarádka."  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="Otázky"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="{1} je tvůj {0} přítel. Aby jsi ho mohl smazat, musíš ukončit vaše přátelství {0}!"  />
+				<text id="txt0" name="Odstranit přítele"  />
+				<text id="txt1" name="Chceš #name# odstranit z listini přátel?"  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="Přijmout"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="Vymazat objekt"  />
+				<text id="txt1" name="Opravdu chceš vymazat tento předmět #obj#?"  />
+				<text id="txt2" name="Ne"  />
+				<text id="txt3" name="Ano"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Dále"  />
+				<text id="tTitle" name="Odměna!"  />
+				<text id="txt0" name="Na tvůj email byl zaslán dárek."  />
+				<text id="txt1" name="Vyzvedni si to teď!"  />
+				<text id="txt2" name="E-mail si můžeš nechat zaslat jěště jednou."  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Dále"  />
+				<text id="tTitle" name="E-mail odeslán"  />
+				<text id="txt0" name="E-mail s odměnou byl zaslán na tvoji emailovou adresu."  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Dále"  />
+				<text id="tTitle" name="Dárek"  />
+				<text id="txt0" name="Obdržel jsi odměnu!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="Rozšířit"  />
+				<text id="txt1" name="Aby jsi mohl umístit více objektů do této budovy, musíš ji rozšířit."  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="Koupit"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="Rozšířit farmu!"  />
+				<text id="txt1" name="Gratulujeme!
+Tvá farma je jěště větší."  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Říci přátelům"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="Fotoalbum"  />
+				<text id="txt1" name="Přerušit"  />
+				<text id="txt2" name="Smazat"  />
+				<text id="txt3" name="Zapamatovat"  />
+				<text id="txt4" name="Napiš něco k tomuto obrazu!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="Registrovat se"  />
+				<text id="txt1" name="Aby jsi uložil stav hry, musíš se zaregistrovat. V opačném případě se data ztratí!
+
+Registrace je zcela zdarma!"  />
+				<text id="txt2" name="Registrovat se"  />
+				<text id="txt3" name="Logout"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="Žádost o sklizeň"  />
+				<text id="txt1" name="Chceš #name# pomoci při sklizni na jeho/její farmě?
+Za to obdržíš při každé akci XP!"  />
+				<text id="txt2" name="Odmítnout"  />
+				<text id="txt3" name="Přijmout"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="Žádost o orbu"  />
+				<text id="txt1" name="Chceš #name# pomoci při orbě na jeho/její farmě?
+Za to obdržíš při každé akci farm dolar!"  />
+				<text id="txt2" name="Odmítnout"  />
+				<text id="txt3" name="Přijmout"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="Zakázka na sklizeň"  />
+				<text id="txt1" name="Zeptej se #name#, zda chce pracovat při sklizni na tvé farmě.
+Když pro tebe někdo sklízí, obdržíš farm dolar!"  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="Otázky"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="Zakázka na orbu"  />
+				<text id="txt1" name="Zeptej se #name#, zda chce orat na tvé farmě. 
+Když pro tebe někdo orá, obdržíš navíc XP!"  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="Otázky"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="Odstranit"  />
+				<text id="txt1" name="Koupit"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="Obsazená místa"  />
+				<text id="txt1" name="Rozšířit"  />
+				<text id="txt2" name="Sklad"  />
+				<text id="txt3" name="Zpět"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="Odstranit"  />
+				<text id="txt1" name="Sklidit"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="Obsazená místa"  />
+				<text id="txt1" name="Rozšířit"  />
+				<text id="txt2" name="Všechno sklidit"  />
+				<text id="txt3" name="Všechny nakrmit &#039;{0}&#039;"  />
+				<text id="txt4" name="Krmit &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="Nové položky byly pro tebe v obchodě odblokovány"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="Nové složky"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="Zvýšit úroveň!"  />
+				<text id="txt1" name="Gratulujeme, dosáhl jsi nové úrovně!"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Říci přátelům"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="Zapomenuté heslo"  />
+				<text id="txt1" name="Zadej zde prosím emailovou adresu, kterou jsi použil při registraci a klikni na &quot;odeslat&quot;.
+Poté obdržíš heslo."  />
+				<text id="txt2" name="Email"  />
+				<text id="txt3" name="Přerušit"  />
+				<text id="txt4" name="Poslat"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="Logout"  />
+				<text id="txt1" name="Chceš opustit farmu?"  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="OK"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="Ups!"  />
+				<text id="txt1" name="OK"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="Registrovat se"  />
+				<text id="txt1" name="Aby sis mohl ponechat své přátele, musíš se zaregistrovat."  />
+				<text id="txt2" name="Logout"  />
+				<text id="txt3" name="OK"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="Registrovat se"  />
+				<text id="txt1" name="Email"  />
+				<text id="txt2" name="Heslo"  />
+				<text id="txt3" name="AGB pročteny a akceptovány"  />
+				<text id="txt4" name="Přerušit"  />
+				<text id="txt5" name="OK"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="Vytvořit hráče"  />
+				<text id="txt1" name="Přezdívka"  />
+				<text id="txt2" name="ženský"  />
+				<text id="txt3" name="mužský"  />
+				<text id="txt4" name="Přerušit"  />
+				<text id="txt5" name="OK"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="Okamžitě hrát"  />
+				<text id="txt1" name="Registrovat se"  />
+				<text id="txt2" name="Login"  />
+				<text id="txt3" name="Jméno / Email"  />
+				<text id="txt4" name="Heslo"  />
+				<text id="txt5" name="Zapomněl jsi heslo?"  />
+				<text id="txt6" name="Zapamatovat si data"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="Trh"  />
+				<text id="txt1" name="již nezobrazovat"  />
+				<text id="txt2" name="OK"  />
+				<text id="txt3" name="Ahoj #name# !
+Jedná se o trh #spielname#. Zde se můžeš nechat najmout od jiných hráčů na orbu nebo sklizen
+popř. můžeš sám zaměstnat hráče"  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="Změna hesla"  />
+				<text id="txt1" name="Staré heslo"  />
+				<text id="txt2" name="Nové heslo"  />
+				<text id="txt3" name="Zopakuj nové heslo"  />
+				<text id="txt4" name="Přerušit"  />
+				<text id="txt5" name="Zapamatovat"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="Ups!"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Registrovat se"  />
+				<text id="txt3" name="Pozvat přítele"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="Nastavení"  />
+				<text id="txt1" name="Transparentní stromy"  />
+				<text id="txt10" name="vysoká"  />
+				<text id="txt11" name="střední"  />
+				<text id="txt12" name="nízká"  />
+				<text id="txt13" name="zvětšit o"  />
+				<text id="txt14" name="Ignorovat žádost o přátelství"  />
+				<text id="txt15" name="Zakázat návštěvu hráčů přes žebříček"  />
+				<text id="txt16" name="Ukázat herní tipy."  />
+				<text id="txt2" name="Transparentní domy"  />
+				<text id="txt3" name="Transparentní dekorace"  />
+				<text id="txt4" name="Popis &#039;rychle&#039;"  />
+				<text id="txt5" name="Změna hesla"  />
+				<text id="txt6" name="Přerušit"  />
+				<text id="txt7" name="Zapamatovat"  />
+				<text id="txt8" name="Vypnout animaci"  />
+				<text id="txt9" name="Kvalita"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="Jméno/Pořadí hledat"  />
+				<text id="txt0" name="Žebříček"  />
+				<text id="txt1" name="hledat"  />
+				<text id="txt2" name="Pořadí"  />
+				<text id="txt3" name="Jméno"  />
+				<text id="txt4" name="Úroveň"  />
+				<text id="txt5" name="XP"  />
+				<text id="zeitraum0" name="Dnes"  />
+				<text id="zeitraum1" name="Tento týden"  />
+				<text id="zeitraum2" name="Tento měsíc"  />
+				<text id="zeitraum3" name="Pořád"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="Prodat objekt"  />
+				<text id="txt1" name="Opravdu chceš tento objekt #obj# prodat za  #w1# farm dolarů?"  />
+				<text id="txt2" name="Ne"  />
+				<text id="txt3" name="Ano"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="Díky tomuto hnojivu se zvadlé plodiny zmátoří."  />
+				<text id="F30" name="Zpomaluje růst rostlin a stromů o 10%"  />
+				<text id="F31" name="Zpomaluje růst rostlin a stromů o 50%"  />
+				<text id="F40" name="Zpomaluje růst zvířat o 10%"  />
+				<text id="F41" name="Zpomaluje růst zvířat o 50%"  />
+				<text id="F50" name="Zvyš výnos a obdržené zkušenostní body z obilovin, stromů a zvířat o 50%!"  />
+				<text id="H00" name="Stodola ti umožnuje uložit 15 předmětů."  />
+				<text id="H02" name="Dřevník ti umožní, uložit 4 objekty."  />
+				<text id="H10" name="Voliéry ti umožní 
+chovat několik kuřat najednou"  />
+				<text id="H11" name="Chlívek ti umožnuje
+chovat několik prasat najednou."  />
+				<text id="H12" name="Stodola ti umožní
+chovat několik krav najednou"  />
+				<text id="H13" name="Stáj ti umožní
+chovat několik koní najednou"  />
+				<text id="H40" name="Silo to poskytne 20% bonus na nákup veškerých hnojiv a krmiva."  />
+				<text id="N01" name="Oprávnění:
+Všechny připravené stromy sklidit najednou"  />
+				<text id="N02" name="Oprávnění:
+Všechna připavená zvířata sklidit najednou"  />
+				<text id="R0x" name="Toto doplnění zvyšuje aktuální pracovní energii o {0}."  />
+				<text id="S5x" name="Za prémium semena obdržíš více XP a farm dolarů než za normální semena. Mimo jiné nevyschnou!
+Můžeš je zakoupit jako balíček a bez dalších nákladů hned použít rovnou z obchodu."  />
+				<text id="V0x" name="Tento kanystr ti umožní,
+{0}x doplnit palivové zásoby."  />
+				<text id="V10" name="Traktorem můžeš orat až čtyři pole najednou."  />
+				<text id="V20" name="Secím strojem můžeš osít až čtyři pole najednou."  />
+				<text id="V30" name="S kombajnem můžeš sklízet až čtyři pole najednou."  />
+				<text id="V40" name="S tímto hnojícím vozem můžeš hnojit až čtyři pole najednou."  />
+				<text id="V90" name="20% více v náplni
+při nákupu 
+kanystru na benzín"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="Úroveň #level#"  />
+				<text id="txtAnzahl" name="Počet:"  />
+				<text id="txtAnzahlVon" name="od"  />
+				<text id="txtBenutzen" name="Použít"  />
+				<text id="txtBuy" name="Koupit"  />
+				<text id="txtHarvestXP" name="Sklizeň pro:"  />
+				<text id="txtPremium" name="Prémie"  />
+				<text id="txtSize" name="Velikost balíčku:"  />
+				<text id="txtVerbrauch" name="Spotřeba"  />
+				<text id="txtWork" name="pracovat"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Nezobrazovat herní tipy."  />
+				<text id="shoptipp_0_title" name="Ups!"  />
+				<text id="shoptipp_1_text" name="Na tuto akci nemáš dosta paliva. Chceš hned dotankovat?"  />
+				<text id="shoptipp_1_title" name="Doplnit palivo"  />
+				<text id="shoptipp_2_text" name="K provedení této akce máš bohužel málo hnojiva. Chceš hned dokoupit?"  />
+				<text id="shoptipp_2_title" name="Dokoupit hnojivo"  />
+				<text id="shoptipp_3_text" name="Už skoro nemáš místo na farmě! Chceš ji hned rozšířit?"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="Už nemáš žádnou pracovní energii!
+Věděl jsi, že můžeš doplnit ručně svoji pracovní energii?"  />
+				<text id="shoptipp_4_title" name="Vzteklý po práci!"  />
+				<text id="shoptipp_5_text" name="Na tuto akci nemáš dostatek prémium hnojiva. Chceš hned dokoupit?"  />
+				<text id="shoptipp_5_title" name="Dokoupit prémium osivo"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="Obchod"  />
+				<text id="txtSilo" name="Silo"  />
+				<text id="txtWork" name="Pracovat"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="Hledám práci."  />
+				<text id="txt1" name="Chci orat."  />
+				<text id="txt2" name="Chci sklízet."  />
+				<text id="txt3" name="Kdo chce orat?"  />
+				<text id="txt4" name="Kdo chce sklízet?"  />
+				<text id="txt5" name="Ahoj!"  />
+				<text id="txt6" name="Děkuji"  />
+				<text id="txt7" name="Ano"  />
+				<text id="txt8" name="Ne"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="Pozvat přítele"  />
+				<text id="txt1" name="Tvé jméno"  />
+				<text id="txt2" name="Jméno tvého přítele"  />
+				<text id="txt3" name="Email tvého přítele"  />
+				<text id="txt4" name="Přerušit"  />
+				<text id="txt5" name="Pozvat"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="Vypnout zvuk"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Včelí limonáda"  />
+				<text id="txt1" name="Hraj včelí limonádu a vyhrak super ceny!"  />
+				<text id="txt2" name="Točit!"  />
+				<text id="txt3" name="První kolo je zdarma!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Hurá!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="Další stupeň u
+#xp# XP"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="Farm-dolar:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="Přátelé:"  />
+				<text id="txt4" name="Vyznamenání:"  />
+				<text id="txt5" name="OK"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="Odstranit spoluhráče"  />
+				<text id="txt1" name="Chceš, aby #name# opusti/la tvoji farmu?"  />
+				<text id="txt2" name="Přerušit"  />
+				<text id="txt3" name="Přijmout"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="Konečně dorazilo jaro do Goodgame farmy! 
+Nenech si ujít velké množství nových budov, dekorací, zvířat a stromů!"  />
+				<text id="teaser_11_info_1" name="Poslouchej!
+Bučí a kdáká to u tebe na farmě!
+Bav se s novými zvuky ve hře Goodgame Farmer."  />
+				<text id="teaser_11_title" name="Zvuky!"  />
+				<text id="teaser_12_info_1" name="Na trhu můžeš od úrovně 10 volně chatovat. 
+Jednoduše do té doby použij připravenou stránku."  />
+				<text id="teaser_12_title" name="Trh pravidla chatu"  />
+				<text id="teaser_13_info_1" name="Jěště více zásob!
+A jdeme na to, se spoustou nových zvířat, stromů, dekorací a budov!"  />
+				<text id="teaser_13_info_2" name="Navíc jsou nyní k dispozici spousty nových ocenění!"  />
+				<text id="teaser_14_info_1" name="Pořiď si nová Premium semena!
+Poskytnou více XP a farm dolarů než normální semena a nemohou vyschnout."  />
+				<text id="teaser_14_info_2" name="Mimo jiné jsou pro farmáře na vysoké úrovni k dispozici nové plodiny pro a dvě nová vyznamenání!"  />
+				<text id="teaser_14_title" name="Prémium semena!"  />
+				<text id="teaser_17_info_1" name="S Velikonocemi vstupují do hry nové budovy, dekorace, zvířata a plodiny!
+Přejeme Vám všem super zábavu při hledání vajec!"  />
+				<text id="teaser_17_info_2" name="Mimo jiné došlo ke změně v systému udělování práce.
+Od této chvíle ti budou jěště odčítána pracovní oprávnění za provedenou práci, takže už nikdy nepůjdeš domů s prázdnou."  />
+				<text id="teaser_17_title" name="Veselé Velikonoce!"  />
+				<text id="teaser_18_info_1" name="Ale rychle!! Za pár dní končí velikonoční akce. Nyní je na různé sezóní předměty až 50% sleva!!!"  />
+				<text id="teaser_18_title" name="Zakroč!"  />
+				<text id="teaser_19_info_1" name="Letní móda dorazila!
+Obstarej si jeden ze slušivých klobouků nebo srandovní zaječí uši!
+
+Kromě toho se vyplatí, stále nakukovat do našeho fóra."  />
+				<text id="teaser_19_title" name="Klobouk dolů!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farma slaví 1. narozeniny, slavte s námi! 
+Ozdob svoji farmu, nasaď si srandovní párty klobouk a vyzkoušej nová muffin semena.
+
+Ale pospěš si, oslava trvá jen krátkou dobu!"  />
+				<text id="teaser_20_title" name="Všechno nejlepší k narozeninám!"  />
+				<text id="teaser_21_info_1" name="Pozor! Za úspěchy existuje speciální kouzelný prášek.
+Díky tomu mají stromy, zvířata a obiloviny více zkušeností a větší výnos."  />
+				<text id="teaser_21_info_2" name="Zvířata mají hlad!
+Honem je nakrm, rychleji porostou!
+Také by jsi měl pohnojit stromy."  />
+				<text id="teaser_21_title" name="Krmení pro zvířata &amp;více!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer je nominován jako „Best Social Game“ pro European Games Award!"  />
+				<text id="teaser_23_info_2" name="Pomoz nám vyhrát cenu a hlasuj pro nás!"  />
+				<text id="teaser_23_title" name="Hlasuj pro nás!"  />
+				<text id="teaser_24_info_1" name="Arr!
+Piráti táhnou do Goodgame Farmy!
+Získej drsňácký pirátský klobouk, vysázej nové osivo z truhly pokladů a chovej mluvícího papouška!"  />
+				<text id="teaser_24_title" name="AKtualizovat piráty!"  />
+				<text id="teaser_25_info_1" name="Vzhledem k poslední aktualizaci se vyskytly závažné problémy s přepočítáváním hnojiv a odměnami za úspěchy.
+Proto byla veškerá skóre vrácena na původní stav před aktualizací.
+Za způsobené potíže se omlouváme."  />
+				<text id="teaser_25_title" name="Restartovat"  />
+				<text id="teaser_5_info_1" name="Postraš své návštěvníky strašně pěknou Halloween-dekorací a příšernou budovou."  />
+				<text id="teaser_5_title" name="Nové složky!"  />
+				<text id="teaser_6_info_1" name=""  />
+				<text id="teaser_6_title" name=""  />
+				<text id="teaser_7_info_1" name="Konečně Vánoce!
+v žádném případě nepropásni mnoho nových domů, dekorací, stromů a rostlin!"  />
+				<text id="teaser_7_info_2" name="Aby jsi měl stále dostatek místa na své farmě, máš k dispozici nový sklad!
+Srovnej předměty do kůlny a stodoly."  />
+				<text id="teaser_7_title" name="Nové složky"  />
+				<text id="teaser_8_info_1" name="Vánoční dárek pro tebe!
+Ve zbrusu novém pořadníku se můžeš srovnávat s jinými hráči.
+Staň se nejlepším hráčem ze všech!"  />
+				<text id="teaser_8_title" name="Žebříček!"  />
+				<text id="teaser_9_info_1" name="Teď ale rychle!
+Vánoční akce trvá pouze týden.
+Nýní je až 50% sleva na veškeré sezónní zboží!!!"  />
+				<text id="teaser_9_title" name="Zakroč!"  />
+				<text id="teaser_btn_forum" name="Fórum"  />
+				<text id="teaser_btn_ok" name="OK"  />
+				<text id="teaser_btn_shop" name="Obchod"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="Odmítnout"  />
+				<text id="zAchievements" name="Moje vyznamenání"  />
+				<text id="zAn2" name="Přijmout"  />
+				<text id="zBuddies" name="Všichni tvoji přátelé"  />
+				<text id="zBuddiesNoAsk" name="Tento hráč nepřijímá žádné žádosti o přátelství"  />
+				<text id="zBuddiesSub" name="Smazat tohoto hráče z listiny přátel"  />
+				<text id="zBuy" name="Koupit"  />
+				<text id="zCancel" name="Zavřít okna"  />
+				<text id="zChat" name="Chat"  />
+				<text id="zChatMute" name="Vypnout zvuk"  />
+				<text id="zChatSenden" name="Poslat zprávu"  />
+				<text id="zChatVorgaben" name="Připravené věty na chat."  />
+				<text id="zCheckAGB" name="AGB pročteny a akceptovány"  />
+				<text id="zCheckAny" name="Vypnout zvířecí animaci"  />
+				<text id="zCheckMen" name="Mužské postavy"  />
+				<text id="zCheckMerken" name="Jméno a heslo
+zapamatovat pro další návštěvu?"  />
+				<text id="zCheckMute" name="Žádný chat s tímto hráčem"  />
+				<text id="zCheckNoMoreShow" name="Toto okno již nezobrazovat."  />
+				<text id="zCheckQuali" name="Snížením kvality obrazu
+se šetří výpočetní výkon"  />
+				<text id="zCheckShowB" name="Zprůhlednit stromy"  />
+				<text id="zCheckShowD" name="Vytvořit transparentní dekoraci"  />
+				<text id="zCheckShowH" name="Udělat transparentní domy"  />
+				<text id="zCheckSound1" name="Efekty"  />
+				<text id="zCheckSound2" name="Hudba"  />
+				<text id="zCheckWomen" name="Ženská postava"  />
+				<text id="zChipsMore" name="Farm dolar &amp; koupit zlato"  />
+				<text id="zClose" name="Zavřít"  />
+				<text id="zClothes" name="Obleč svoji hrací figurku"  />
+				<text id="zClothsBuy" name="Převzít aktuální Avatar?"  />
+				<text id="zClothsSelect" name="Vybrat"  />
+				<text id="zClothsZufall" name="Počítač ti navrhuje styl"  />
+				<text id="zCookAdd" name="přidat další data"  />
+				<text id="zCookDel" name="smazat tato data"  />
+				<text id="zDel" name="Odstranit"  />
+				<text id="zDown" name="Dolů"  />
+				<text id="zEarnChips" name="Vydělat více farm dolarů"  />
+				<text id="zEarnGold" name="Vydělat více zlata"  />
+				<text id="zEinladen" name="Nejprve musíš pozvat další přátele {0}
+a pak to zde můžeš koupit."  />
+				<text id="zEinladen2" name="Máš teprve {1} {0} přátel."  />
+				<text id="zEmailVerificationWinker" name="Dárek
+vyzvednout!"  />
+				<text id="zErweitern" name="Rozšířit"  />
+				<text id="zExchange" name="Zlato vyměnit v farm dolary"  />
+				<text id="zExpHigherLevelNeeded" name="Vyžadovaná úroveň jěště nebyla dosažena"  />
+				<text id="zExpPreviousNeeded" name="Předešlé rozšíření vyžadováno."  />
+				<text id="zFarmowner" name="Majitel této firmy"  />
+				<text id="zFertilize" name="Hnojivo"  />
+				<text id="zFlinkeHand" name="Pracovat rychleji"  />
+				<text id="zFoto" name="Fotky"  />
+				<text id="zFullscreen" name="Kompletní obraz"  />
+				<text id="zFunc" name="Předměty se speciálními úkoly"  />
+				<text id="zGiftsMy" name="Moje dárky"  />
+				<text id="zHarvest" name="Sklizeň"  />
+				<text id="zHarvestV3" name="Pole sklidit kombajnem"  />
+				<text id="zHelp" name="Pomoc"  />
+				<text id="zHome" name="Moje farma"  />
+				<text id="zInfoEMail" name="Email má tuto formu:
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="Heslo se skládá z 5 až 15 znaků,
+skládající se z: a-z, A-Z, 0-9, ÄÖÜäöü, ß, -_@"  />
+				<text id="zInsOpen" name="Otevřít"  />
+				<text id="zInvite" name="Pozvi své přátele!"  />
+				<text id="zJ" name="Provést"  />
+				<text id="zJobben" name="Pracovní výkon:
+Je spotřebován sklizní a orbou na cizích farmách.
+Do té doby, co máš v pracovním výkonu {0}, automaticky obnovuješ každou minutu nové, také si můžeš přísun zakoupit v obchodě."  />
+				<text id="zKatAC" name="Triko"  />
+				<text id="zKatAG" name="Figura"  />
+				<text id="zKatAH" name="Účes"  />
+				<text id="zKatAK" name="Klobouk"  />
+				<text id="zKatAP" name="Kalhoty"  />
+				<text id="zKatAS" name="Boty"  />
+				<text id="zKatAT" name="Pleť"  />
+				<text id="zKatB" name="Stromy"  />
+				<text id="zKatD" name="Dekorace"  />
+				<text id="zKatE" name="Rozšíření farmy"  />
+				<text id="zKatF" name="Hnojivo"  />
+				<text id="zKatG" name="Ulice"  />
+				<text id="zKatH" name="Budova"  />
+				<text id="zKatR" name="Pracovní energie"  />
+				<text id="zKatS" name="Osivo"  />
+				<text id="zKatT" name="Zvířata"  />
+				<text id="zKatV" name="Vozidla"  />
+				<text id="zKatX" name="Speciální nabídky"  />
+				<text id="zKatY" name="Všechno"  />
+				<text id="zKennLost" name="Zmáčkni, pokud jsi zapomněl heslo."  />
+				<text id="zKennMod" name="Změna hesla"  />
+				<text id="zKette" name="Pracovní listina"  />
+				<text id="zKetteDel" name="Vymazat pracovní listinu"  />
+				<text id="zKick" name="Vyhodit tohoto hráče z farmy."  />
+				<text id="zLinkAGB" name="Zmáčkni, pokud chceš číst AGB"  />
+				<text id="zLogin" name="Ke hře"  />
+				<text id="zLogout" name="Logout"  />
+				<text id="zLupeM" name="Zmenšit"  />
+				<text id="zLupeP" name="Zvětšit"  />
+				<text id="zMail" name="Zprávy"  />
+				<text id="zMarket" name="Trh"  />
+				<text id="zMeldBad" name="Nahlásit hráče?"  />
+				<text id="zMen" name="Mužské postavy"  />
+				<text id="zMoreChipsGold" name="Farm dolar &amp; koupit zlato"  />
+				<text id="zMove" name="Pohybovat"  />
+				<text id="zN" name="Nelze spustit"  />
+				<text id="zNext" name="Dále"  />
+				<text id="zNoSilo" name="Nejprve musíš postavit silo."  />
+				<text id="zOK" name="OK"  />
+				<text id="zOKKennLost" name="Zažádat o poslání tvého hesla."  />
+				<text id="zOKKennMod" name="Uložit nové heslo"  />
+				<text id="zPfeil" name="Multi Tool"  />
+				<text id="zPfeilV" name="Multi Tool vozidla"  />
+				<text id="zPlow" name="Orat"  />
+				<text id="zPlowNew" name="Nové pole"  />
+				<text id="zPlowV1" name="Orání polí traktorem"  />
+				<text id="zPrefs" name="Nastavení"  />
+				<text id="zPremium" name="Kup toto balení"  />
+				<text id="zPremiumUse" name="Toto prémium osivo použít na farmě"  />
+				<text id="zPrev" name="Zpět"  />
+				<text id="zQuest" name="Úlohy"  />
+				<text id="zRangliste" name="Žebříček"  />
+				<text id="zRanking2Farm" name="Tento hráč nepovoluje žádnou návštěvu své farmy přes žebříček."  />
+				<text id="zRegistrieren" name="Přihlásit se 
+a uchovat data hry."  />
+				<text id="zRot" name="Točit"  />
+				<text id="zSave" name="Zapamatovat"  />
+				<text id="zScrBG" name="Scrollleiste"  />
+				<text id="zScrMove" name="Posuň posuvník"  />
+				<text id="zSell" name="Prodat"  />
+				<text id="zShare" name="Řekni to svým přátelům!"  />
+				<text id="zShop" name="Obchod"  />
+				<text id="zShopEarn" name="Prodáno pro:"  />
+				<text id="zShopHarvest" name="Sklizeň pro:"  />
+				<text id="zShopLagerSize" name="Místa:"  />
+				<text id="zShopTime" name="Sklizeň v:"  />
+				<text id="zShopXP" name="obdržené XP"  />
+				<text id="zSilo" name="Silo (hnojivo)"  />
+				<text id="zSofort" name="Okamžitě hrát - bez registrace"  />
+				<text id="zSound" name="Zvuky"  />
+				<text id="zSow" name="Sít"  />
+				<text id="zSowV2" name="Pole osetá secím strojem"  />
+				<text id="zStrangeAchies" name="Vyznamenání tohoto hráče"  />
+				<text id="zStrangeAdd" name="Nabídnout tomuto hráči přátelství"  />
+				<text id="zStrangeFotos" name="Fotoalbum tohoto hráče"  />
+				<text id="zStrangeGift" name="Tomuto hráči koupit dárek"  />
+				<text id="zStrangeHarvest" name="Zaměstnat tohoto hráče při sklizni"  />
+				<text id="zStrangeHome" name="Jdi na farmu tohoto hráče"  />
+				<text id="zStrangeInfo" name="Informace o tomto hráči"  />
+				<text id="zStrangeMail" name="Tomuto hráči napsat zprávu"  />
+				<text id="zStrangePlow" name="Zaměstnat tohoto hráče při orbě"  />
+				<text id="zSubAsk" name="Otázky a odpovědi"  />
+				<text id="zSubFotobuch" name="Fotoalbum"  />
+				<text id="zSubMailInbox" name="Poslat zprávy"  />
+				<text id="zSubMailNew" name="Napsat zprávy"  />
+				<text id="zSubNews" name="News"  />
+				<text id="zSubShot1" name="Fotografovat
+celou farmu"  />
+				<text id="zSubShot2" name="Fotografovat
+přetáhni vybraný obdélník"  />
+				<text id="zSubShot3" name="Fotografovat
+klikni na objekt"  />
+				<text id="zSubSupport" name="Pomoc"  />
+				<text id="zTanken" name="Tankovat:
+Klikni na naplnit
+Displej:
+Počet naplnění
+a palivoměr
+(maximálně {0})"  />
+				<text id="zTosOpen" name="Skladovat"  />
+				<text id="zTosStall" name="Toto zvíře umístit do stáje"  />
+				<text id="zUp" name="vysoko"  />
+				<text id="zUse" name="Použít"  />
+				<text id="zUsersOnFarm" name="Všichni hráči zde na farmě popř. na trhu"  />
+				<text id="zVZBuddies" name="Potřebný počet přátel {0}"  />
+				<text id="zVZBuddiesE" name="Pokud jsi úspěšně 
+pozval dost přátel, 
+můžeš tento předmět 
+zakoupit za dobrou cenu."  />
+				<text id="zWomen" name="Ženská postava"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Vítej na své nové farmě!
+
+Dovol mi, abych ti mohl pomoci při startu, společně ji přivedeme k rozkvětu."  />
+				<text id="tut_gast_1_title" name="Ahoj kamaráde"  />
+				<text id="tut_gast_2_text" name="Koukej, jahody jsou už hotové!
+Rychle si pro ně dojdi."  />
+				<text id="tut_gast_2_title" name="Klikni a skliď plodiny!"  />
+				<text id="tut_gast_3_text" name="Za sklizeň stromů
+vyděláš farm dolar a 
+dostaneš zkušenostní body."  />
+				<text id="tut_gast_3_title" name="Sklizeň poskytne farm dolar a XP!"  />
+				<text id="tut_gast_4_text" name="Musiš orat pole,
+aby jsi je mohl znovu osít!"  />
+				<text id="tut_gast_4_title" name="Klikni a skliď pole"  />
+				<text id="tut_gast_5_text" name="Nyní můžeš v obchodě vyhledat nové osivo!"  />
+				<text id="tut_gast_5_title" name="Nové osivo koupit v obchodě"  />
+				<text id="tut_gast_6_text" name="Pojď koupit pšenici!"  />
+				<text id="tut_gast_6_title" name="Kup pšenici"  />
+				<text id="tut_gast_7_text" name="Klikni na pole a vysej tam pšenici."  />
+				<text id="tut_gast_7_title" name="Pšenici rozděl na pole"  />
+				<text id="tut_gast_8_text" name="Deláš to perfektně!
+Tvoje farma bude brzo ta nejkrásnější
+ze všech.
+
+Honem, pěstuj jěště o trochu víc!"  />
+				<text id="tut_gast_8_title" name="Hurá! Tvé farmě se daří!"  />
+				<text id="tut_market_1_text" name="Potřebují tvé setby jěště hodně, než budou hotové?
+Tak jdi na trh
+a pracuj u jiných hráčů!"  />
+				<text id="tut_market_1_title" name="Ty také můžeš jít pracovat!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="Farm-dolar:"  />
+				<text id="txt1" name="Zlato:"  />
+				<text id="txt2" name="Další sklizeň:"  />
+				<text id="txt3" name="Přátelé:"  />
+				<text id="txt4" name="Vyznamenání:"  />
+				<text id="txt5" name="OK"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="Více
+přátel"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Den {0}"  />
+				<text id="txt0" name="Vítej"  />
+				<text id="txt1" name="OK"  />
+				<text id="txt2" name="Každý den obdržíš uvítací bonus!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="Jako poděkování
+za svoji regisraci obdržíš #w1# farm dolar."  />
+				<text id="21" name="Obdržíš
+#w1# farm dolar jako denní uvítací bonus!"  />
+				<text id="2f" name="Za to obdržíš #anz# #ferti#."  />
+				<text id="2job" name="Za to obdržíš #job# pracovní energii."  />
+				<text id="2w1" name="Za to obdržíš #w1# farm dolar."  />
+				<text id="2w2" name="Za to obdržíš #w2# zlato."  />
+				<text id="2x" name="Přihlásil jsi se tento počet dní
+#days# za sebou"  />
+				<text id="2xp" name="Za to obdržíš #xp# XPs."  />
+				<text id="freunde" name="Za aktivity tebou pozvaných přátel obdržíš #w1# farm dolar."  />
+				<text id="txt0" name="Vítej"  />
+				<text id="txt1" name="OK"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Chyba"  />
+				<text id="generic_alert_connection_failed_copy" name="Právě probíhají údržbové práce. Zkus to za chvíli ještě jednou!"  />
+				<text id="generic_alert_connection_failed_title" name="Údržbové práce!"  />
+				<text id="generic_alert_connection_lost_copy" name="Spojení s hracím servrem bylo přerušeno. Prosím, zkus to za chvíli jěště jednou."  />
+				<text id="generic_alert_connection_lost_description" name="Zrovna se provádí údržba, to musí čas od času být.
+Aby bylo možné nainstalovat aktualizase a nové funkce nebo urovnat chybu.&lt;br&gt;&lt;br&gt;
+Pracujeme tvrdě, aby jsi mohl zase brzo hrát."  />
+				<text id="generic_alert_connection_lost_promo" name="V přestávce vyzkoušej jinou hru."  />
+				<text id="generic_alert_connection_lost_thanks" name="Děkujeme za pochopení!"  />
+				<text id="generic_alert_connection_lost_title" name="Spojení ztraceno!"  />
+				<text id="generic_alert_error" name="Chyba"  />
+				<text id="generic_alert_information" name="Odkaz"  />
+				<text id="generic_alert_loggedout_copy" name="Úspěšně jsi se odregistroval. Nezapomeň: každý den na tebe čeká login bonus!"  />
+				<text id="generic_alert_loggedout_title" name="Tak zatím!"  />
+				<text id="generic_alert_warning" name="Varování"  />
+				<text id="generic_alert_watchout" name="Pozor!"  />
+				<text id="generic_alert_win7chromebug" name="Pokud není možné zapsat text, prosím stiskni klávesu Ctrl."  />
+				<text id="generic_invalid_email_provider" name="E-mailová adresa tohoto provozovatele není povolena!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Tvé internetové spojení je pomalé. Zkus to za cvhíli jěště jednou!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="Jak se ti líbí hra a co by se dalo vylepšit? Napiš nám svůj názor do Goodgame fóra popř. skupiny!"  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Pozor: Průběh hry se pouze uloží, pokud se zaregistruješ!"  />
+				<text id="generic_register_error_invalidemail" name="Zadaná emailová adresa není správná."  />
+				<text id="generic_report_muted_chattry" name="Z důvodu zablokování nemůžeš nyní používat Chat."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Přijmout"  />
+				<text id="generic_btn_cancel" name="Přerušit"  />
+				<text id="generic_btn_close" name="Zavřít"  />
+				<text id="generic_btn_continue" name="Dále"  />
+				<text id="generic_btn_end" name="Ukončit"  />
+				<text id="generic_btn_endnow" name="Okamžitě ukončit"  />
+				<text id="generic_btn_goback" name="Zpět"  />
+				<text id="generic_btn_no" name="Ne"  />
+				<text id="generic_btn_noshare" name="Ale ne!"  />
+				<text id="generic_btn_notaccept" name="Odmítnout"  />
+				<text id="generic_btn_okay" name="Okay"  />
+				<text id="generic_btn_reconnect" name="Znovu se připojit"  />
+				<text id="generic_btn_refresh" name="Aktualizovat"  />
+				<text id="generic_btn_report" name="Hlášení"  />
+				<text id="generic_btn_search" name="Hledat"  />
+				<text id="generic_btn_share" name="Dělit se!"  />
+				<text id="generic_btn_skip" name="Přeskočit"  />
+				<text id="generic_btn_start" name="Začít"  />
+				<text id="generic_btn_topayment" name="Sem s tím!"  />
+				<text id="generic_btn_yes" name="Ano"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="Abys mohl použivat chat, musíš dosáhnout úroveň {0}!"  />
+				<text id="generic_chat_writeable" name="Pouze zaregistrovaní hráči od úrovně 1 mohou použivat Chat."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Nezapomeň:
+Ve Fóru je nyní k dispozici skvělá soutěžní hra {0}! Podívej se na ni raději ihned a pojď do toho s námi!"  />
+				<text id="cm_teaser2_copy" name="Nezapomeň:
+Na Fóru je nyní k dispozici skvělá akce {0}!
+Tu zaručeně nechceš zmeškat, tak se tam rychle zajdi podívat!"  />
+				<text id="cm_teaser3_copy" name="Na Facebooku na stránce {0} právě běží skvělá akce.
+Na ní se musíš určitě podívat!"  />
+				<text id="cm_teaser4_copy" name="Kvůli technickému problému může nyní docházet k lehkým omezením v průběhu hry {0}.
+Bližší podrobnosti najdeš, když se podíváš na Fórum."  />
+				<text id="cm_teaser5_copy" name="Nezapomeň prosím: pravý zaměstnanec společnosti Goodgame Studios se tě na tvé heslo ve hře nikdy nezeptá! Své údaje vždy uchovávej v bezpečí a nikdy je nepředávej!
+
+Mnoho další zábavy se hrou {0}!"  />
+				<text id="cm_teaser6_copy" name="Na cestě je nová aktualizace hry {0}!
+Aktuální novinky, včetně bližších informací o nových funkcích a odstraněných chybách jsou jako vždy ve Fóru!"  />
+				<text id="cm_teaser7_copy" name="Během několika minut je nutné na chvilku vypnout server {0}. Více informací najdeš ve Fóru."  />
+				<text id="cm_teaser8_copy" name="Kvůli nouzové údržbě je bohužel nutné vypnout server {0}. Více informací najdeš na Fóru."  />
+				<text id="cm_teaserevent_title" name="{0}, dej pozor:"  />
+				<text id="cm_teaserinfo_title" name="Ahoj, {0}!"  />
+				<text id="cm_teaserwarning_title" name="Pozor!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Správce"  />
+				<text id="generic_animation" name="Ukázat animace"  />
+				<text id="generic_bugreport" name="Nahlaš chybu"  />
+				<text id="generic_changePass" name="Změna hesla"  />
+				<text id="generic_comma" name="."  />
+				<text id="generic_conningsoon" name="*Pracuje se na tom*"  />
+				<text id="generic_date" name="Datum"  />
+				<text id="generic_day" name="Den"  />
+				<text id="generic_dayformat" name="{0}.{1}.{2}"  />
+				<text id="generic_dayformat_short" name="{0}.{1}."  />
+				<text id="generic_days" name="Dny"  />
+				<text id="generic_day_short" name="T"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="Email"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Otázky a odpovědi"  />
+				<text id="generic_forum" name="Fórum"  />
+				<text id="generic_friend" name="Přítel"  />
+				<text id="generic_friends" name="Přátelé"  />
+				<text id="generic_general" name="Všeobecně"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Skupina"  />
+				<text id="generic_guest" name="Host"  />
+				<text id="generic_help" name="Pomoc"  />
+				<text id="generic_high" name="Vysoká"  />
+				<text id="generic_hour" name="Hodina"  />
+				<text id="generic_hours" name="Hodiny"  />
+				<text id="generic_hour_short" name="Hod."  />
+				<text id="generic_limited" name="Limitované"  />
+				<text id="generic_logout" name="Logout"  />
+				<text id="generic_low" name="Nízká"  />
+				<text id="generic_medium" name="Střední"  />
+				<text id="generic_minute" name="Minuta"  />
+				<text id="generic_minutes" name="Minuty"  />
+				<text id="generic_minute_short" name="Min."  />
+				<text id="generic_moderator" name="Moderátor"  />
+				<text id="generic_month" name="Měsíc"  />
+				<text id="generic_months" name="Měsíce"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Hudba on/off"  />
+				<text id="generic_name" name="Jméno"  />
+				<text id="generic_news" name="Novinky"  />
+				<text id="generic_options" name="Nastavení"  />
+				<text id="generic_quality" name="Kvalita"  />
+				<text id="generic_register" name="Uložit a registrovat"  />
+				<text id="generic_second" name="Sekunda"  />
+				<text id="generic_seconds" name="Sekundy"  />
+				<text id="generic_second_short" name="Sek."  />
+				<text id="generic_sound" name="Tón on/off"  />
+				<text id="generic_support" name="Podpora"  />
+				<text id="generic_today" name="Dnes"  />
+				<text id="generic_tomorrow" name="Zítra"  />
+				<text id="generic_tutorial" name="Tutoriál"  />
+				<text id="generic_username" name="Hrací jméno"  />
+				<text id="generic_validTo_timer" name="Aktivní ještě {0} hodin(u/y) {1} minut(u/y)."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Včera"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Stará verze!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Aktualizuj stránku."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Chceš {0} připojit jako přítele?"  />
+				<text id="generic_friends_add_title" name="Žádost o přátelství"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="Více přátel!"  />
+				<text id="generic_friends_denied_copy" name="{0} tvoji žádost odmítnul."  />
+				<text id="generic_friends_denied_title" name="Žádost odmítnuta!"  />
+				<text id="generic_friends_invite_badword_copy" name="Zadané jméno není povoleno!"  />
+				<text id="generic_friends_invite_badword_title" name="Pozor!"  />
+				<text id="generic_friends_invite_error_copy" name="Pouze jako zaregistrovaný hráč můžeš pozvat přátele."  />
+				<text id="generic_friends_invite_error_title" name="Teprve zaregistrovaný"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Režim celé obrazovky není možný"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Česky"  />
+				<text id="generic_language_cz" name="Česky"  />
+				<text id="generic_language_da" name="Dánsky"  />
+				<text id="generic_language_de" name="Německy"  />
+				<text id="generic_language_el" name="Řecké"  />
+				<text id="generic_language_en" name="Anglicky"  />
+				<text id="generic_language_es" name="Španělsky"  />
+				<text id="generic_language_fi" name="Finsky"  />
+				<text id="generic_language_fr" name="Francouzsky"  />
+				<text id="generic_language_hu" name="Maďarsky"  />
+				<text id="generic_language_id" name="Indonéský"  />
+				<text id="generic_language_it" name="Italsky"  />
+				<text id="generic_language_ja" name="Japonsky"  />
+				<text id="generic_language_ko" name="Korejsky"  />
+				<text id="generic_language_nl" name="Holandsky"  />
+				<text id="generic_language_no" name="Norsky"  />
+				<text id="generic_language_pl" name="Polsky"  />
+				<text id="generic_language_pt" name="Portugalsky"  />
+				<text id="generic_language_pt_BR" name="Brazilské"  />
+				<text id="generic_language_ru" name="Rusky"  />
+				<text id="generic_language_sv" name="Švédsky"  />
+				<text id="generic_language_tr" name="Turecky"  />
+				<text id="generic_language_zh_CN" name="Čínsky (zjednodušeně)"  />
+				<text id="generic_language_zh_TW" name="Čínsky (tradičně)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Tvoje konto bylo zablokováno! Prosím obrať se na support!"  />
+				<text id="generic_login_banned_2" name="Tvé konto bylo uzavřeno!
+
+Zákaz trvá do: {0}
+
+Pokud máš otázky ohledně zákazu, obrať se na support."  />
+				<text id="generic_login_banned_3" name="Tvé konto bylo trvale zablokováno.
+
+Pokud máš otázky týkající se zablokování, obrať se na support."  />
+				<text id="generic_login_banned_permanent" name="pernamentní"  />
+				<text id="generic_login_facebook" name="Přihlásit se přes facebook"  />
+				<text id="generic_login_login" name="Login"  />
+				<text id="generic_login_loginname" name="Uživatelské jméno/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Zapomenuté heslo?"  />
+				<text id="generic_login_lostpassword_copy" name="Zadej svoji e-mailovou adresu a my ti zašleme heslo."  />
+				<text id="generic_login_lostpassword_title" name="Zapomenuté heslo"  />
+				<text id="generic_login_newplayer" name="Jsi tady nový?"  />
+				<text id="generic_login_password" name="Heslo"  />
+				<text id="generic_login_play" name="OKAMŽITĚ HRÁT"  />
+				<text id="generic_login_playnow" name="Nyní hrát!"  />
+				<text id="generic_login_register" name="Registrace"  />
+				<text id="generic_login_rememberpassword" name="Uložit heslo"  />
+				<text id="generic_login_wronglogin" name="Uživatelské jméno nebo heslo jsou neplatné!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Zaregistruj se a ulož si svůj stav hry!"  />
+				<text id="generic_logout_guest_title" name="Registrace"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="Nejpozději za {0} bude hra opět přístupná."  />
+				<text id="servershutdownpremonition_copy" name="Hrací server je v {0}ukončován. Prosím odhlaš se nebo se přihlaš, aby jsi zajistil stav hry."  />
+				<text id="servershutdownpremonition_registered_copy" name="Hrací server bude z důvodu údržby za {0} vypnut."  />
+				<text id="servershutdown_copy" name="Server hry se vypíná. Za pár minut se zase můžeš přihlásit."  />
+				<text id="welcomeback_copy" name="Super, tě zase vidět! Malá pozornost, která ti ulehčí návrat do hry!"  />
+				<text id="welcomeback_title" name="Opět tady!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="Nové heslo:"  />
+				<text id="generic_change_password_copy_oldpass" name="Staré heslo:"  />
+				<text id="generic_change_password_copy_send" name="Nové heslo ti bylo zasláno na tvoji emailovou adresu."  />
+				<text id="generic_change_password_error_failed" name="Sorry, ale to není tvůj starý passwort."  />
+				<text id="generic_change_password_error_success" name="Heslo bylo úspěšně změněno!"  />
+				<text id="generic_change_password_faild_copy" name="Tvé nové heslo by mělo být delší než 2 znaky a staré heslo musí být zadané správně"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Tvé heslo nesmí být prázné nebo obsahovat speciální znaky."  />
+				<text id="generic_change_password_faild_title" name="Zadání hesla"  />
+				<text id="generic_change_password_title" name="Změna hesla"  />
+				<text id="generic_guest_change_password_faild_copy" name="Pouze jako zaregistrovaný hráč můžeš změnit heslo!"  />
+				<text id="generic_guest_change_password_faild_title" name="Teprve zaregistrovaný"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="Více {0} za peníze!"  />
+				<text id="generic_payment_48hdiscount_button" name="V prvních 48 hodinách více zlata"  />
+				<text id="generic_payment_48hdiscount_button_general" name="Více {0} v dalších 48 hodinách"  />
+				<text id="generic_payment_48hdiscount_copy" name="V následujících 48 hodinách koupit zlato a u vybraných balení obdržet dodatečně {0}%!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="V následujících 48 hodinách při nákupu zlata obdržíš při každém balení extra {0}%!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="V prvních 48 hodinách {0} koupit a u všech balíků obdržet {1}% extra!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="V prvních 48 hodinách {0} koupit a u vybraných paketů obdržet {1}% extra!"  />
+				<text id="generic_payment_btn" name="K obchodu"  />
+				<text id="generic_payment_copy" name="Budeš převeden na platební oddělení."  />
+				<text id="generic_payment_discount_button" name="Nyní {0}% více zlata za peníze!"  />
+				<text id="generic_payment_discount_copy" name="Kup nyní zlato a obdrž {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Nyní {0} koupit a obdržet {1}% bonus!"  />
+				<text id="generic_payment_discount_general" name="Nyní {0}% více {1} za peníze!"  />
+				<text id="generic_payment_discount_generalshort" name="{0}% více za peníze!"  />
+				<text id="generic_payment_discount_time" name="JEŠTĚ {0}!"  />
+				<text id="generic_payment_discount_title" name="Více zlata za peníze!"  />
+				<text id="generic_payment_newPrices" name="Od teď! Dlouhodobé snížení cen v splátkovém obchodě! Ušetři peníze!"  />
+				<text id="generic_payment_title" name="Platební oddělení"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Najdi tunel přes Cyberspace"  />
+				<text id="loading_text_10" name="Rozmísti předměty po světě"  />
+				<text id="loading_text_11" name="Namaluj grafiky"  />
+				<text id="loading_text_12" name="Vybarvi tlačítka"  />
+				<text id="loading_text_13" name="Schovej velikonoční vajíčka"  />
+				<text id="loading_text_14" name="Vyhledej uživatelská data"  />
+				<text id="loading_text_15" name="Zažeň chyby"  />
+				<text id="loading_text_16" name="Nakrm programátory"  />
+				<text id="loading_text_17" name="Prověř klienta"  />
+				<text id="loading_text_18" name="Otoč přesýpací hodiny"  />
+				<text id="loading_text_19" name="Ochlaď systém"  />
+				<text id="loading_text_2" name="Namaž olejem ozubená kola"  />
+				<text id="loading_text_20" name="Ukonči to"  />
+				<text id="loading_text_3" name="Otoč kolem pro křečka"  />
+				<text id="loading_text_4" name="Zahřej server"  />
+				<text id="loading_text_5" name="Doufám, že vše probíhá dobře"  />
+				<text id="loading_text_6" name="Vyzvedni deratizátora"  />
+				<text id="loading_text_7" name="Vypočítej komplikované algoritmy"  />
+				<text id="loading_text_8" name="Kalibruj proudící kompenzátory"  />
+				<text id="loading_text_9" name="Vyrob předměty"  />
+				<text id="loading_text_default" name="Inicializace"  />
+				<text id="loading_text_itemXML" name="Stáhnout herní prvky"  />
+				<text id="progress_loadfiles" name="Herní grafiky jsou stahovány..."  />
+				<text id="progress_serverconnection" name="Spojit s hracím serverem..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Zadat e-mailovou adresu"  />
+				<field id="generic_register_insertName" name="Zadat jméno"  />
+				<field id="generic_register_insertPassword" name="Zadat heslo"  />
+				<text id="generic_register_agb_copy" name="Bez všeobecných obchodních podmínek by to nešlo. Jednoduše si je přečti a zaškrtni vlevo vedle „Přijmout VOP“. Potom můžeme pokračovat!"  />
+				<text id="generic_register_agb_read" name="Pročíst VOP"  />
+				<text id="generic_register_alreadyavatar" name="Uživatel již má avatara."  />
+				<text id="generic_register_badword" name="Nesmíš {0} používat ve svém jménu."  />
+				<text id="generic_register_btn_agb" name="Akceptovat VOP"  />
+				<text id="generic_register_btn_later" name="Později"  />
+				<text id="generic_register_btn_next" name="Dále"  />
+				<text id="generic_register_btn_save" name="Uložit"  />
+				<text id="generic_register_character" name="Vytvoř vlastní charakter"  />
+				<text id="generic_register_copy_0" name="Nyní se zaregistruj zdarma!"  />
+				<text id="generic_register_copy_1" name="Ulož si stav hry!"  />
+				<text id="generic_register_emaillong_copy" name="Tvoje emailová adresa je bohužel krátká."  />
+				<text id="generic_register_emailwrong_copy" name="Zadaná emailová adresa není správná."  />
+				<text id="generic_register_email_copy" name="E-mailová adresa nesmí být prázdná nebo obsahovat speciální znaky."  />
+				<text id="generic_register_error" name="Registrace selhala"  />
+				<text id="generic_register_errormistake" name="Chyba"  />
+				<text id="generic_register_error_accountalreadyexists" name="Pod touto emailovou adresou je již přihlášen jeden hráč, sorry."  />
+				<text id="generic_register_forfree" name="Zdarma se přihlásit!"  />
+				<text id="generic_register_forfree1" name="Zdarma"  />
+				<text id="generic_register_letsgo" name="Jdem na to!"  />
+				<text id="generic_register_namealreadyused" name="Jméno je již zadané."  />
+				<text id="generic_register_namenotvalid" name="Zadané jméno je neplatné."  />
+				<text id="generic_register_optional" name="(nepovinný)"  />
+				<text id="generic_register_passwordshort_copy" name="Zadané heslo je příliš krátké. Musí se skládat nejméně ze 4 znaků."  />
+				<text id="generic_register_passwordwrong_copy" name="Zadané heslo je neplatné."  />
+				<text id="generic_register_password_copy" name="Tvé heslo nesmí být prázdné nebo obsahovat speciální znaky."  />
+				<text id="generic_register_receivenews" name="Obdržet novinky"  />
+				<text id="generic_register_rememberdata" name="Zaznamenat data"  />
+				<text id="generic_register_reward" name="Přihlaš se zdarma a obdržíš {0} {1} jako dárek!"  />
+				<text id="generic_register_subscribe" name="Přihlášení"  />
+				<text id="generic_register_success" name="Úspěšně jsi se zaregistroval."  />
+				<text id="generic_register_title" name="Chyba v registraci"  />
+				<text id="generic_register_unlock" name="Tato funkce neproběhla!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Prosím davej pozor na své vyjadřování. Jinak hrozí zablokování Chatu nebo časové zablokování konta.
+Důvod: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="Po dobu dní {0} nesmíš z důvodu opakovaného chybného chování používat Chat. Důvod: {1}"  />
+				<text id="generic_report_muted_domain1" name="Žádné e-mailové adresy na chatu!"  />
+				<text id="generic_report_muted_reported_copy" name="Nekolik hráčů si na tebe stěžovalo. Po dobu {0} nemůžeš používat Chat. Důvod: {1}"  />
+				<text id="generic_report_player_copy" name="Opravdu cheš hráče {0} nahlásit?\nPozor! Zneužití této funkce může způsobit zablokování konta."  />
+				<text id="generic_report_player_reason_0" name="Urážka"  />
+				<text id="generic_report_player_reason_1" name="Sexuální obtěžování"  />
+				<text id="generic_report_player_reason_2" name="Rasistický výrok"  />
+				<text id="generic_report_player_reason_3" name="Hrozba/Vydírání"  />
+				<text id="generic_report_player_reason_title" name="Důvod zprávy:"  />
+				<text id="generic_report_player_title" name="Nahlásit hráče?"  />
+				<text id="generic_report_reported_copy" name="Jiný hráč tě nahlásil u správce. Důvod: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Spojit"  />
+				<text id="generic_select_world" name="Zvol svět:"  />
+				<text id="generic_world" name="Svět: {0}"  />
+				<text id="generic_world_international" name="Mezinárodní: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 

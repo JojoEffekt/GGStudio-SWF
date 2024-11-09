@@ -1,0 +1,1749 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- goodgamestudios FARMER - ar - 22 -->
+	<farm>
+		<animals_harvest>
+			<text id="T00" name="جمع البيض"  />
+			<text id="T01" name="جمع البيض"  />
+			<text id="T02" name="جمع البيض"  />
+			<text id="T03" name="جمع البيض"  />
+			<text id="T04" name="طيران الغراب"  />
+			<text id="T05" name="جمع البيض"  />
+			<text id="T06" name="جمع البيض"  />
+			<text id="T07" name="pet"  />
+			<text id="T10" name="جمع الكمأة"  />
+			<text id="T11" name="حليب"  />
+			<text id="T110" name="لبن"  />
+			<text id="T111" name="فرشاة"  />
+			<text id="T112" name="فرشاة"  />
+			<text id="T113" name="لبن"  />
+			<text id="T114" name="فرشاة"  />
+			<text id="T115" name="brush"  />
+			<text id="T12" name="جرد"  />
+			<text id="T13" name="حليب"  />
+			<text id="T14" name="فرشاة"  />
+			<text id="T15" name="فرشاة"  />
+			<text id="T16" name="فرشاة"  />
+			<text id="T17" name="فرشاة"  />
+			<text id="T18" name="فرشاة"  />
+			<text id="T19" name="جرد"  />
+			<text id="T20" name="فرشاة"  />
+			<text id="T21" name="فرشاة"  />
+			<text id="T22" name="فرشاة"  />
+		</animals_harvest>
+		<country_specific>
+			<country_diverses>
+				<text id="flag" name="D30"  />
+				<text id="format_date" name="{1}/{0}/{2}"  />
+				<text id="format_time" name="{0}:{1}"  />
+				<text id="stv" name="{0}{1}{2}"  />
+			</country_diverses>
+			<country_suffix>
+				<text id="s0" name="أ"  />
+				<text id="s1" name="م"  />
+				<text id="s2" name="ب"  />
+				<text id="s3" name="ك د"  />
+				<text id="s4" name="ت"  />
+				<text id="s5" name="ك ت"  />
+				<text id="s6" name="مجموعة"  />
+			</country_suffix>
+			<country_time>
+				<text id="day0" name="ي"  />
+				<text id="day1" name="يوم"  />
+				<text id="day2" name="أيام"  />
+				<text id="heute" name="اليوم"  />
+				<text id="hour0" name="س"  />
+				<text id="hour1" name="ساعة"  />
+				<text id="hour2" name="ساعات"  />
+				<text id="min0" name="دق"  />
+				<text id="min1" name="دقيقة"  />
+				<text id="min2" name="دقائق"  />
+				<text id="morgen" name="غدا"  />
+				<text id="sofort" name="فورا"  />
+			</country_time>
+		</country_specific>
+		<farm_tut>
+			<buttons>
+				<text id="back" name="السابقة"  />
+				<text id="ex" name="خروج"  />
+				<text id="next" name="التالي"  />
+				<text id="no" name="لا"  />
+				<text id="yes" name="نعم"  />
+			</buttons>
+			<pages>
+				<text id="intro_01_goals_i" name="هدفك في #play# هو جمع إكس بي وعملات معدنية من أجل تطوير وتزيين مزارعك."  />
+				<text id="intro_01_goals_t" name="هدف"  />
+				<text id="welcome_01_i" name="مرحب بك في #name# , #play# نود منك أن تذهب إلى الدروس الأولى لتتعلم الخطوات الأساسية. سوف تحصل على مكافأة لذلك! هل أنت مستعد لذلك؟"  />
+				<text id="welcome_01_t" name="البرنامج التعليمي"  />
+				<text id="welcome_02_i" name="موافق ، إذا لا تريد المكافأة... يمكنك الذهاب من خلال البرنامج التعليمي في أي وقت على طريق النقر على علامة استفهام. يمكنك العثور على قواعد اللعبة في قسم المساعدة &#039;أسئلة وأجوبة&#039; . نتمنى لك المتعة."  />
+				<text id="welcome_02_t" name="البرنامج التعليمي 2"  />
+			</pages>
+		</farm_tut>
+		<feeds>
+			<text id="descriptionfeedfarmer" name="I just installed Goodgame Farmer. Come and have a look at my farm and see what I&#039;m harvesting at the moment!"  />
+			<text id="descriptionlongfarmer" name="Goodgame Farmer is a great farm simulation title from Goodgame Studios. Enjoy the beautiful country life and manage your virtual farm. Goodgame Farm allows you to manage your virtual farm by growing fruits, crops or trees and reaping them, caring for your animals and purchasing many useful tools and things with the virtual money that you have earned."  />
+		</feeds>
+		<generic>
+			<loginKennUndEMailChars>
+				<text id="BUCHSTABEN" name="abcdefghijklmnopqrstuvwxyzäöüABCDEFGHIJKLMNOPQRSTUVWXYZÄÖÜß"  />
+				<text id="NATIONAL" name="ÄäÀàÂâÁáÅåÃãąÆæÇçÈèÉéÊêËëÉéęĞğÌìİiIıÍíÎîÏïŁłńÑñÖöÓóÔôÕõŐőÒòØøŒœŚśŞşŠšÜüÙùÛûÚúŰűÝýŸÿŹźŻżß"  />
+				<text id="NATIONAL_JA" name="かきくけこきゃきゅきょさしすせそしゃしゅしょたちつてとちゃちゅちょなにぬねのにゃにゅにょはひふへほひゃひゅひょまみむめもみゃみゅみょやゆよらりるれろりゃりゅりょわゐゑをんがぎぐげごぎゃぎゅぎょざじずぜぞじゃじゅじょだぢづでどぢゃぢゅぢょばびぶべぼびゃびゅびょぱぴぷぺぽぴゃぴゅぴょカキクケコキャキュキョサシスセソシャシュショタチツテトチャチュチョナニヌネノニャニュニョハヒフヘホヒャヒュヒョマミムメモミャミュミョヤユヨラリルレロリャリュリョワヱヲヰャヰュヰョンガギグゲゴギャギュギョザジズゼゾジャジュジョダヂヅデドヂャヂュヂョバビブベボビャビュビョパピプペポピャピュピョヰェイィユェイェyeヷヴァヸヴィヴヹヴェヺヴォヴャヴュヴョシェジェチェスァスィスゥスェスォスャスュスョズァズィズゥズェズォズャズュズョツァツィツェツォテァティテゥテェテォテャテュテョデァディデゥデェデォデャデュデョトァトィトゥトェトォドァドィドゥドェドォファフィホゥフェフォフャフュフョリィリェウァウィウゥウェウォウャウュウョクヮクァクィクゥクェクォグヮグァグィグゥグェグォムヮムァムィムゥムェムォヶ"  />
+				<text id="SONDERZEICHEN_EMAIL" name="-_@"  />
+				<text id="SONDERZEICHEN_NAME" name="-_"  />
+				<text id="ZIFFERN" name="0123456789"  />
+			</loginKennUndEMailChars>
+		</generic>
+		<itemtypes>
+			<text id="A01" name="امرأة"  />
+			<text id="A02" name="رجل"  />
+			<text id="B00" name="تفاحة"  />
+			<text id="B01" name="إجاص"  />
+			<text id="B010" name="أفوكادو"  />
+			<text id="B011" name="تمر"  />
+			<text id="B012" name="تين"  />
+			<text id="B013" name="رمان"  />
+			<text id="B014" name="كيوي"  />
+			<text id="B015" name="كاكي"  />
+			<text id="B016" name="مانجو"  />
+			<text id="B017" name="بابايا"  />
+			<text id="B018" name="جوزة الهند"  />
+			<text id="B019" name="فاكهة التنين"  />
+			<text id="B02" name="الكرز"  />
+			<text id="B020" name="كاكاو"  />
+			<text id="B021" name="خشب الجوز"  />
+			<text id="B022" name="الخبز بالفاكهة"  />
+			<text id="B023" name="دوريان"  />
+			<text id="B024" name="لوز"  />
+			<text id="B025" name="ليتشي"  />
+			<text id="B026" name="نجم الفاكهة"  />
+			<text id="B027" name="لهبة الشجرة"  />
+			<text id="B028" name="خيزران"  />
+			<text id="B029" name="ملبس التفاح"  />
+			<text id="B03" name="خوخ"  />
+			<text id="B030" name="خبز الزنجبيل"  />
+			<text id="B031" name="شوكولا"  />
+			<text id="B032" name="شجرة عيد الفصح الحمراء"  />
+			<text id="B033" name="شجرة عيد الفصح الزرقاء"  />
+			<text id="B034" name="مرعى"  />
+			<text id="B04" name="برقوق"  />
+			<text id="B05" name="زيتون"  />
+			<text id="B06" name="موز"  />
+			<text id="B07" name="ليمون"  />
+			<text id="B08" name="برتقال"  />
+			<text id="B09" name="ليمون هندي"  />
+			<text id="D00" name="كومة الخشب"  />
+			<text id="D01" name="بالات القش"  />
+			<text id="D010" name="جذع شجرة"  />
+			<text id="D011" name="عجلة العربة"  />
+			<text id="D02" name="تغذية الحوض الصغير"  />
+			<text id="D03" name="مياه الحوض الصغير"  />
+			<text id="D04" name="نافورة"  />
+			<text id="D05" name="محراث الحصان"  />
+			<text id="D06" name="مضخة مياه"  />
+			<text id="D07" name="عربة الخيل"  />
+			<text id="D08" name="برميل"  />
+			<text id="D09" name="قفص"  />
+			<text id="D11" name="الفزاعة"  />
+			<text id="D110" name="مقعد الحديقة"  />
+			<text id="D111" name="مقعد مظلم"  />
+			<text id="D112" name="نافورة"  />
+			<text id="D113" name="الفزاعة"  />
+			<text id="D114" name="بومة"  />
+			<text id="D115" name="طاحونة هوائية"  />
+			<text id="D116" name="مخروط الرياح"  />
+			<text id="D117" name="الجنيه الصغيرة"  />
+			<text id="D118" name="الجنيه الكبيرة"  />
+			<text id="D119" name="بركة كوي"  />
+			<text id="D12" name="آلة لقص العشب"  />
+			<text id="D120" name="حوض السباحة"  />
+			<text id="D121" name="تنزه"  />
+			<text id="D122" name="طاولة البستان"  />
+			<text id="D123" name="مقعد البستان"  />
+			<text id="D124" name="أرجوحة"  />
+			<text id="D125" name="كرسي"  />
+			<text id="D126" name="خط الغسيل"  />
+			<text id="D127" name="فانوس"  />
+			<text id="D128" name="سلسلة الصبار"  />
+			<text id="D129" name="الزنابق الحمراء"  />
+			<text id="D13" name="مبنى خارجي"  />
+			<text id="D130" name="الزنابق الطويلة"  />
+			<text id="D131" name="زخرفة الشجرة"  />
+			<text id="D132" name="شجيرة في إناء"  />
+			<text id="D133" name="الزنابق البيضاء"  />
+			<text id="D134" name="مجفل الفزاعة"  />
+			<text id="D135" name="خسيس"  />
+			<text id="D136" name="هدية"  />
+			<text id="D137" name="طفل الثلج"  />
+			<text id="D138" name="رجل الثلج"  />
+			<text id="D139" name="مرأة الثلج"  />
+			<text id="D14" name="عربة يدوية"  />
+			<text id="D140" name="المتزحلق"  />
+			<text id="D141" name="منزل الطيور(قط)"  />
+			<text id="D142" name="الشريحة"  />
+			<text id="D143" name="ملاك الثلوج"  />
+			<text id="D144" name="درع"  />
+			<text id="D145" name="درع التحذير"  />
+			<text id="D146" name="درع القطب الشمالي"  />
+			<text id="D147" name="وعل"  />
+			<text id="D148" name="كلب الثلوج"  />
+			<text id="D149" name="أغنام الثلوج"  />
+			<text id="D15" name="بنك مشرق"  />
+			<text id="D150" name="بقر الثلوج"  />
+			<text id="D151" name="قط الثلوج"  />
+			<text id="D152" name="طائر الترمجان"  />
+			<text id="D153" name="خنزير الثلوج"  />
+			<text id="D154" name="أوزة الثلج"  />
+			<text id="D155" name="بوابة"  />
+			<text id="D156" name="سياج"  />
+			<text id="D157" name="آخر"  />
+			<text id="D158" name="شجرة التنوب الزرقاء"  />
+			<text id="D159" name="خشب التنوب الملون"  />
+			<text id="D16" name="شواء"  />
+			<text id="D160" name="الناغط"  />
+			<text id="D161" name="عش الطيور"  />
+			<text id="D162" name="رجل  بكفالة القش"  />
+			<text id="D163" name="امرأة بكفالة القش"  />
+			<text id="D164" name="البيض الأحمر"  />
+			<text id="D165" name="بيضة زرقاء"  />
+			<text id="D166" name="بيض أرجواني"  />
+			<text id="D167" name="مجموعة البيض الحمراء"  />
+			<text id="D168" name="مجموعة من الكرات الزرقاء"  />
+			<text id="D169" name="مجموعة من البيض  الأرجواني"  />
+			<text id="D17" name="حديقة جنوم"  />
+			<text id="D170" name="عش البيض الأزرق"  />
+			<text id="D171" name="عش البيض الأخضر"  />
+			<text id="D172" name="عش البيض الأرجواني"  />
+			<text id="D173" name="عش البيض الأحمر"  />
+			<text id="D174" name="عش البيض الأبيض"  />
+			<text id="D175" name="عش كامل بالبيض"  />
+			<text id="D176" name="Garland"  />
+			<text id="D177" name="Red balloon"  />
+			<text id="D178" name="Blue balloon"  />
+			<text id="D179" name="Yellow balloon"  />
+			<text id="D18" name="صندوق البريد"  />
+			<text id="D180" name="Pirate flag"  />
+			<text id="D19" name="بيت الطيور"  />
+			<text id="D20" name="وقاء"  />
+			<text id="D21" name="حاجز"  />
+			<text id="D210" name="قوس الرعب"  />
+			<text id="D22" name="آخر"  />
+			<text id="D23" name="حاجز"  />
+			<text id="D24" name="ما بعد"  />
+			<text id="D25" name="باب السور"  />
+			<text id="D26" name="باب السور"  />
+			<text id="D27" name="القوس الخلفي"  />
+			<text id="D28" name="سياج  الرعب"  />
+			<text id="D29" name="رعب آخر"  />
+			<text id="D30" name="GGS"  />
+			<text id="D31" name="ألمانيا"  />
+			<text id="D310" name="إيطاليا"  />
+			<text id="D311" name="فرنسا"  />
+			<text id="D312" name="اسبانيا"  />
+			<text id="D313" name="البرتغال"  />
+			<text id="D314" name="هولندا"  />
+			<text id="D315" name="بلجيكا"  />
+			<text id="D316" name="بولندا"  />
+			<text id="D317" name="روسيا"  />
+			<text id="D318" name="الجمهورية التشيكية"  />
+			<text id="D319" name="اليونان"  />
+			<text id="D32" name="النمسا"  />
+			<text id="D320" name="تركيا"  />
+			<text id="D321" name="الولايات المتحدة"  />
+			<text id="D322" name="كندا"  />
+			<text id="D323" name="المكسيك"  />
+			<text id="D324" name="البرازيل"  />
+			<text id="D325" name="الأرجنتين"  />
+			<text id="D326" name="الصين"  />
+			<text id="D327" name="اليابان"  />
+			<text id="D328" name="أستراليا"  />
+			<text id="D329" name="كوريا"  />
+			<text id="D33" name="سويسرا"  />
+			<text id="D330" name="هنغاريا"  />
+			<text id="D331" name="تايوان"  />
+			<text id="D34" name="فنلندا"  />
+			<text id="D35" name="السويد"  />
+			<text id="D36" name="النرويج"  />
+			<text id="D37" name="الدنمارك"  />
+			<text id="D38" name="المملكة المتحدة"  />
+			<text id="D39" name="أيرلندا"  />
+			<text id="D40" name="حصان"  />
+			<text id="D41" name="شجرة"  />
+			<text id="D410" name="شجرة الرعب"  />
+			<text id="D42" name="بقرة"  />
+			<text id="D43" name="خروف"  />
+			<text id="D44" name="خنزير"  />
+			<text id="D45" name="ماعز"  />
+			<text id="D46" name="أوزة"  />
+			<text id="D47" name="دجاج"  />
+			<text id="D48" name="كلب"  />
+			<text id="D49" name="قط"  />
+			<text id="D60" name="مكان السوق"  />
+			<text id="D70" name="هيكل عظمي"  />
+			<text id="D71" name="يد ميت"  />
+			<text id="D72" name="تمثال"  />
+			<text id="D73" name="قرع (جاك يا فانوس)"  />
+			<text id="D74" name="قرع (جاك يا فانوس)"  />
+			<text id="D75" name="قرع (جاك يا فانوس)"  />
+			<text id="D76" name="قرع (جاك يا فانوس)"  />
+			<text id="D77" name="قرع (جاك يا فانوس)"  />
+			<text id="Dxxx" name="عش أخضر"  />
+			<text id="E01" name="10x10 الحقول"  />
+			<text id="E02" name="12x12 الحقول"  />
+			<text id="E03" name="14xالحقول14"  />
+			<text id="E04" name="16x16الحقول"  />
+			<text id="E05" name="18x18الحقول"  />
+			<text id="E06" name="20x20الحقول"  />
+			<text id="E07" name="22x22الحقول"  />
+			<text id="E08" name="24x24الحقول"  />
+			<text id="E11" name="10x10 fields"  />
+			<text id="E12" name="12x12 fields"  />
+			<text id="E13" name="14x14 fields"  />
+			<text id="E14" name="16x16 fields"  />
+			<text id="E15" name="18x18 fields"  />
+			<text id="E16" name="20x20 fields"  />
+			<text id="E17" name="22x22 fields"  />
+			<text id="E18" name="24x24 fields"  />
+			<text id="E21" name="10x10 fields"  />
+			<text id="E22" name="12x12 fields"  />
+			<text id="E23" name="14x14 fields"  />
+			<text id="E24" name="16x16 fields"  />
+			<text id="E25" name="18x18 fields"  />
+			<text id="E26" name="20x20 fields"  />
+			<text id="E27" name="22x22 fields"  />
+			<text id="E28" name="24x24 fields"  />
+			<text id="F01" name="الوقت - متوسط"  />
+			<text id="F20" name="تجديد"  />
+			<text id="F30" name="Fertilizer"  />
+			<text id="F31" name="Premium Seed"  />
+			<text id="F40" name="Feed"  />
+			<text id="F41" name="Premium Feed"  />
+			<text id="F50" name="Magic dust"  />
+			<text id="G00" name="حجر الطريق"  />
+			<text id="H00" name="الحظيرة"  />
+			<text id="H01" name="صومعة"  />
+			<text id="H02" name="إلقاء أداة"  />
+			<text id="H03" name="طاحونة هوائية"  />
+			<text id="H04" name="البيت الاخضر"  />
+			<text id="H05" name="الرعب المسببة للاحتباس الحراري"  />
+			<text id="H06" name="مجفل الصومعة"  />
+			<text id="H07" name="طاحونة مسكونة"  />
+			<text id="H08" name="صومعة الشتاء"  />
+			<text id="H09" name="طاحونة الشتاء"  />
+			<text id="H10" name="قن الدجاج"  />
+			<text id="H11" name="زريبة الخنازير"  />
+			<text id="H12" name="زريبة"  />
+			<text id="H13" name="إسطبل الحصان"  />
+			<text id="H20" name="قمرة"  />
+			<text id="H21" name="كوخ"  />
+			<text id="H210" name="بيت مسكون"  />
+			<text id="H211" name="فيلا مسكونة"  />
+			<text id="H212" name="شاليه الشتاء"  />
+			<text id="H213" name="بيت الشتاء"  />
+			<text id="H214" name="فيلا الشتاء"  />
+			<text id="H215" name="بيت الزنجبيل"  />
+			<text id="H216" name="كوخ الشتاء"  />
+			<text id="H217" name="عقارات الشتاء"  />
+			<text id="H218" name="البيت البيض الزرقاء"  />
+			<text id="H219" name="البيت البيض الوردي"  />
+			<text id="H22" name="فيلا"  />
+			<text id="H220" name="Pirate ship"  />
+			<text id="H23" name="بيت الكلب"  />
+			<text id="H24" name="منزل من الشجر"  />
+			<text id="H25" name="البيت الكبير في البلد"  />
+			<text id="H26" name="مشتل البرتقال"  />
+			<text id="H27" name="فيلا كبيرة"  />
+			<text id="H28" name="فيلا عملاقة"  />
+			<text id="H29" name="كوخ مسكونة"  />
+			<text id="H30" name="موقف الفاكهة"  />
+			<text id="H31" name="أداة تخزين"  />
+			<text id="H32" name="Lottery Bee Soda"  />
+			<text id="H40" name="صومعة (الأسمدة)"  />
+			<text id="H50" name="قصر مسكون"  />
+			<text id="H51" name="كابوس الكنيسة"  />
+			<text id="N01" name="حصاد الأشجار"  />
+			<text id="N02" name="حصاد الحيوانات"  />
+			<text id="R00" name="ملأ x10"  />
+			<text id="R01" name="ملأ x25"  />
+			<text id="R02" name="ملأ x50"  />
+			<text id="S00" name="الخزامى"  />
+			<text id="S01" name="زنبق الوادي"  />
+			<text id="S010" name="الورود الأرجوانية"  />
+			<text id="S02" name="الخزامي"  />
+			<text id="S03" name="عباد الشمس"  />
+			<text id="S04" name="ورد"  />
+			<text id="S05" name="أضاليا"  />
+			<text id="S06" name="زعفران"  />
+			<text id="S07" name="زنبق"  />
+			<text id="S08" name="الترمس"  />
+			<text id="S09" name="الخشخاش"  />
+			<text id="S10" name="فراولة"  />
+			<text id="S11" name="بطيخ"  />
+			<text id="S12" name="الأناناس"  />
+			<text id="S13" name="عنب"  />
+			<text id="S14" name="البطيخ الأصفر"  />
+			<text id="S15" name="التوت"  />
+			<text id="S16" name="التوت"  />
+			<text id="S17" name="التوت البري"  />
+			<text id="S18" name="الكشمش"  />
+			<text id="S19" name="العليق"  />
+			<text id="S20" name="باذنجان"  />
+			<text id="S21" name="قرنبيط"  />
+			<text id="S210" name="سبانخ"  />
+			<text id="S211" name="بصل"  />
+			<text id="S212" name="ملفوف أحمر"  />
+			<text id="S213" name="البطاطا"  />
+			<text id="S214" name="جزر"  />
+			<text id="S215" name="بازلاء"  />
+			<text id="S216" name="فجل"  />
+			<text id="S217" name="راوند"  />
+			<text id="S218" name="قنبيط"  />
+			<text id="S219" name="فول الصويا"  />
+			<text id="S22" name="قرع"  />
+			<text id="S220" name="جذر الشمندر"  />
+			<text id="S221" name="بروكلي"  />
+			<text id="S222" name="خرشوف"  />
+			<text id="S223" name="الفلفل الحار"  />
+			<text id="S224" name="نبات الهليون"  />
+			<text id="S225" name="الاغتصاب"  />
+			<text id="S23" name="فلفل"  />
+			<text id="S24" name="طماطم"  />
+			<text id="S25" name="فاصوليا"  />
+			<text id="S26" name="خيار"  />
+			<text id="S27" name="لفت"  />
+			<text id="S28" name="الخس"  />
+			<text id="S29" name="كوسة"  />
+			<text id="S30" name="القمح"  />
+			<text id="S31" name="الشوفان"  />
+			<text id="S32" name="الأرز"  />
+			<text id="S33" name="حبوب الجاودار"  />
+			<text id="S34" name="ذرة"  />
+			<text id="S35" name="الشعير"  />
+			<text id="S36" name="الأمة"  />
+			<text id="S37" name="الذرة الحلوة"  />
+			<text id="S38" name="القمح الأحمر"  />
+			<text id="S39" name="يتهجى"  />
+			<text id="S40" name="قهوة"  />
+			<text id="S41" name="شاي"  />
+			<text id="S42" name="سكر"  />
+			<text id="S43" name="الألوة فيرا"  />
+			<text id="S44" name="القطن"  />
+			<text id="S45" name="فول الصويا المعدلة وراثيا"  />
+			<text id="S49" name="أجراس الثلج"  />
+			<text id="S50" name=""  />
+			<text id="S51" name=""  />
+			<text id="S510" name="Treasure chest"  />
+			<text id="S52" name="البيض الأحمر"  />
+			<text id="S53" name="البيض الأزرق"  />
+			<text id="S54" name="لوتس"  />
+			<text id="S55" name="الورد الابيض"  />
+			<text id="S56" name="Habanero chili"  />
+			<text id="S57" name="لا-تنسي-أنا"  />
+			<text id="S58" name="وسابي"  />
+			<text id="S59" name="Muffin"  />
+			<text id="S60" name=""  />
+			<text id="S61" name=""  />
+			<text id="S62" name="بيض أرجواني"  />
+			<text id="S63" name="بيض أخضر"  />
+			<text id="T00" name="دجاج"  />
+			<text id="T01" name="أوزة"  />
+			<text id="T02" name="الدجاج الأسمر"  />
+			<text id="T03" name="الدجاج الأسود"  />
+			<text id="T04" name="ديك"  />
+			<text id="T05" name="بط"  />
+			<text id="T06" name="غوس الشتاء"  />
+			<text id="T07" name="Parrot"  />
+			<text id="T10" name="خنزير"  />
+			<text id="T11" name="بقرة"  />
+			<text id="T110" name="البقرة السمراء"  />
+			<text id="T111" name="ثور"  />
+			<text id="T112" name="خيل الشتاء"  />
+			<text id="T113" name="بقر الشتاء"  />
+			<text id="T114" name="خروف"  />
+			<text id="T115" name="Unicorn"  />
+			<text id="T12" name="خروف"  />
+			<text id="T13" name="ماعز"  />
+			<text id="T14" name="كلب"  />
+			<text id="T15" name="القطة السوداء"  />
+			<text id="T16" name="القط الأسمر"  />
+			<text id="T17" name="الحصان الأسود"  />
+			<text id="T18" name="الحصان الأسمر"  />
+			<text id="T19" name="الخروف الأسود"  />
+			<text id="T20" name="كلب الراعي"  />
+			<text id="T21" name="الرنة"  />
+			<text id="T22" name="أرنبة"  />
+			<text id="V00" name="تزود بالوقود x10"  />
+			<text id="V01" name="تزود بالوقود x25"  />
+			<text id="V02" name="تزود بالوقود x50"  />
+			<text id="V10" name="جرار"  />
+			<text id="V20" name="نثر البزور"  />
+			<text id="V30" name="حاصدة"  />
+			<text id="V40" name="آلة للأسمدة"  />
+			<text id="V90" name="خزان الوقود"  />
+			<text id="Y01" name="حصد"  />
+			<text id="Y02" name="حرث"  />
+		</itemtypes>
+		<talk>
+			<oops>
+				<text id="buddies_add_no" name="عذرا، قائمة #name# أو قائمة أصدقائك  ممتلئة  ،#tab#أو #name# لم يقبل طلب الصداقة."  />
+				<text id="buddies_add_ok" name="#name# أصبح صديقك."  />
+				<text id="chat_dop" name="الرجاء لا تكتب باستمرار نفس النص. شكرا!"  />
+				<text id="chat_nonsense" name="الرجاء كتابة شيء مفيد. شكرا!"  />
+				<text id="chat_vorgaben" name="You can chat freely on the marketplace from level {0} onwards. At all lower levels simply use the predefined sentences."  />
+				<text id="email_bad" name="عنوان البريد الإلكتروني غير صالح. الرجاء إدخال عنوان بريد .إلكتروني صحيح"  />
+				<text id="email_dop" name="عنوان البريد الإلكتروني مستخدم. الرجاء إدخال بريد إلكتروني مختلف"  />
+				<text id="email_no" name=".عنوان البريد الإلكتروني غير معروف"  />
+				<text id="farm_full" name="هناك الكثير من الناس على هذه المزرعة. الرجاء اختيار مزرعة أخرى."  />
+				<text id="helper_job_no" name="#name# رفض طلبك وظيفة #job# أو ترك السوق."  />
+				<text id="helper_job_ok" name="#name# قبل طلب وظيفة #job#"  />
+				<text id="helper_owner_no_money" name="صاحب المزرعة لا يملك ما يكفي من المال لحرث الحقول بعد الآن."  />
+				<text id="invite_sent" name="شكرا لك!
+سوف ترسل رسالة لصديقك."  />
+				<text id="item_dop" name="وصلت بالفعل إلى الحد الأقصى لهذا الكائن."  />
+				<text id="kenn_bad" name="لكلمة المرور الرجاء استخدام الحروف التالية : 5#tab# إلى 15 حرفا ، تتكون من الألف إلى الياء ،  - _ @، 0-9"  />
+				<text id="kenn_no" name="كلمة المرور غير صالحة"  />
+				<text id="kenn_unequal" name="كلمات المرور غير متكافئة"  />
+				<text id="kick" name="عذرا، لقد ألقى بك #name# خارج المزرعة.
+#tab#ربما قد كنت ارتكبة خطأ ما!؟"  />
+				<text id="lagernosell" name=".عليك بتفريغ هذا المبنى قبل أن تتمكن من بيعها"  />
+				<text id="lager_building" name="أنت في حاجة الى اسطبل أو حظيرة في مزارعك  لتخزين الكائنات."  />
+				<text id="lager_cantsell" name="لست قادر على بيع هذا المبنى ، إلا إذا كانت لك مساحة أكبر في التخزين الخاص بك."  />
+				<text id="lager_voll" name=".لا يمكنك  تخزين عنصر فارغ وظيفي في عنصر وظيفي"  />
+				<text id="login_bad" name="تسجيل الدخول فشل. إذا كنت قد نسيت كلمة المرور، انقر على 'نسيت كلمة المرور'؟.#tab#إذا كنت بحاجة إلى مساعدة ، اكتب إلينا بريد إلكتروني  على
+support@goodgamestudios.com"  />
+				<text id="name_bad" name="للحصول على اسم لاعب الرجاء استخدام الحروف التالية : 2#tab#  إلى 15 حرفا ، تتكون من الألف إلى الياء ، -_ ، 0-9"  />
+				<text id="name_bad_mobage" name="bad_name_mobage"  />
+				<text id="name_defaults" name="اسم اللاعب مشغول. الرجاء إدخال اسم آخر أو اختيار أحد:"  />
+				<text id="name_spam" name="الرجاء اختيار اسم مختلف"  />
+				<text id="no_agb" name=".يرجى التأكد من قبول الشروط والأحكام"  />
+				<text id="no_arbeitskraft" name="You don&#039;t have enough job energy for this action. Wait until enough job energy is available or buy some at the store."  />
+				<text id="no_buddies" name="للأسف ، لم تقم حتى الآن بدعوة ما فيه الكفاية  من الأصدقاء. #tab#لتكون قادر على شراء #obj# تحتاج لدعوة #anz# المزيد من الأصدقاء."  />
+				<text id="no_chat" name=".بحاجة لالتسجيل والوصول إلى مستوى 1 للدردشة"  />
+				<text id="no_ferti" name="لقد استخدمت جميع الأسمدة #name#.الرجاء شراء أكثر."  />
+				<text id="no_food" name="You dont have enough fodder to feed all animals!"  />
+				<text id="no_gender" name=".لم تقم باختيار نوع الجنس. يرجى النقر على واحدة من الصور"  />
+				<text id="no_lager" name=".لا يوجد التخزين المتوفر لهذا البند"  />
+				<text id="no_money" name=".لم يكن لديك ما يكفي من المال لهذا الإجراء"  />
+				<text id="no_premium" name="قسط بذور  #name# غير المنضب .قمت بشراء واحد الجديد."  />
+				<text id="no_regi" name="هذه الميزة محفوظة للمستخدمين المسجلين.#tab#الرجاء التسجيل أو لن يتم حفظ التقدم في المزارع الخاصة بك."  />
+				<text id="no_tanken" name="المال لا يكفي لهذا الإجراء"  />
+				<text id="no_zauberstaub" name="Your {0} is empty.
+Finish achievements to get more."  />
+				<text id="old_client_version" name="نسخة قديمة! .تحديث الصفحة."  />
+				<text id="rangliste_playerselfcheck_not_ranked" name="أنت لن تكن في الترتيب، إذا كنت مسجلا و لديك  معايير  من المستوى 3."  />
+				<text id="rangliste_player_not_ranked" name="هذا اللاعب يحتاج  إلى 3 مستويات مماثلة ليبدو في الترتيب."  />
+				<text id="rangliste_unknown_id" name="عذرا ، هذا الاسم ليس لاعبا مسجلا."  />
+				<text id="vehiclesnosell" name="This vehicle is in use."  />
+				<text id="vollscreen" name="You can&#039;t chat in fullscreen mode. (This isn&#039;t allowed because of security reasons)"  />
+			</oops>
+			<oops_title>
+				<text id="buddies_add_ok" name="الصداقة"  />
+				<text id="farm_full" name="عفوا!"  />
+				<text id="helper_job_ok" name="قبلت الوظيفة"  />
+			</oops_title>
+			<smalltalks>
+				<text id="active" name="عامل"  />
+				<text id="buyOf" name="استهلاك #anz# من #menge#."  />
+				<text id="clickZum" name="انقر"  />
+				<text id="deactive" name="غير عامل"  />
+				<text id="doContent" name="اختيار الشاشة"  />
+				<text id="doDel" name="حذف"  />
+				<text id="doFertilize" name="سمد"  />
+				<text id="doFertilizeAnimals" name="feed"  />
+				<text id="doFortune" name="Play the lottery"  />
+				<text id="doHarvest" name="حصاد"  />
+				<text id="doMove" name="تحرك"  />
+				<text id="doPlow" name="حرث"  />
+				<text id="doPos" name="وضع"  />
+				<text id="doRot" name="دوران"  />
+				<text id="doSell" name="بيع"  />
+				<text id="doSow" name="زرع"  />
+				<text id="doTosOpen" name="مخزن"  />
+				<text id="doVehicles" name="الميكانيكية"  />
+				<text id="farmbuddie" name="صديقتك#صديقك"  />
+				<text id="farmgast" name="ضيفة#ضيف"  />
+				<text id="farmhelperharvest" name="مساعدة الحصاد#مساعد الحصاد"  />
+				<text id="farmhelperplow" name="مساعدة الحرث#مساعد الحرث"  />
+				<text id="farmowner" name="صاحبة هذه المزرعة#صاحب هذه المزرعة"  />
+				<text id="farmvisitor" name="زائرة#زائر"  />
+				<text id="isFertilize" name="المخصبة"  />
+				<text id="isHarvest" name="حصد"  />
+				<text id="isReadyB" name="ناضج"  />
+				<text id="isReadyEX" name="ذابل"  />
+				<text id="isReadyFin" name="قيمة المحصول"  />
+				<text id="isReadyS" name="نمت"  />
+				<text id="isReadyT" name="استعداد"  />
+				<text id="jobbenrest" name="#anz# وظيفة الطاقة"  />
+				<text id="jobVehicles" name=":المركبات-وظائف---"  />
+				<text id="jobWalk" name=":المشي-وظائف---"  />
+				<text id="ketteZum" name="قائمة الأعمال"  />
+				<text id="Market" name="ساحة السوق"  />
+				<text id="marketvisitor" name="لاعبة#لاعب"  />
+				<text id="my" name="أنت نفسك"  />
+				<text id="noPfad" name="لا أستطيع أن أذهب الى هناك!"  />
+				<text id="online" name="متواجد"  />
+			</smalltalks>
+			<typeArtBez>
+				<text id="A" name="لاعب"  />
+				<text id="AC" name="قميص"  />
+				<text id="AG" name="مظهر"  />
+				<text id="AH" name="تصفيفة الشعر"  />
+				<text id="AP" name="سروال"  />
+				<text id="AS" name="أحذية"  />
+				<text id="AT" name="بشرة"  />
+				<text id="B" name="شجرة"  />
+				<text id="D" name="زخرفة"  />
+				<text id="E" name="التوسع"  />
+				<text id="F" name="الأسمدة"  />
+				<text id="G" name="الشارع"  />
+				<text id="H" name="منزل"  />
+				<text id="R" name="وظيفة"  />
+				<text id="S" name="الميدان"  />
+				<text id="T" name="حيوان"  />
+				<text id="V" name="سيارة"  />
+			</typeArtBez>
+			<typeSubBez>
+				<text id="B0" name="شجرة"  />
+				<text id="D0" name="زخرفة المزرعة"  />
+				<text id="D1" name="زخرفة المنزل"  />
+				<text id="D2" name="تسييج"  />
+				<text id="D3" name="العلم"  />
+				<text id="D4" name=""  />
+				<text id="D7" name=""  />
+				<text id="F0" name="تسارع الوقت"  />
+				<text id="F1" name="زيادة الأرباح"  />
+				<text id="F2" name="تحديث"  />
+				<text id="H0" name="مزرعة"  />
+				<text id="H1" name="اسطبلات"  />
+				<text id="H2" name="الإقامة"  />
+				<text id="H4" name="وظائف"  />
+				<text id="H5" name="بناء خاص"  />
+				<text id="N0" name="العمل بشكل أسرع"  />
+				<text id="R0" name="عمل في مزارع أخرى"  />
+				<text id="S0" name="زهرة"  />
+				<text id="S1" name="الفاكهة"  />
+				<text id="S2" name="خضروات"  />
+				<text id="S3" name="حبوب"  />
+				<text id="S4" name="أخرى"  />
+				<text id="S5" name="علاوة"  />
+				<text id="S6" name="موسم"  />
+				<text id="T0" name="الدواجن"  />
+				<text id="T1" name="الإنتاج الحيواني"  />
+				<text id="T2" name="الحيوانات الأليفة"  />
+				<text id="V0" name="وقود"  />
+				<text id="V1" name="جرارة"  />
+				<text id="V2" name="آلة البذر"  />
+				<text id="V3" name="حاصدة"  />
+				<text id="V4" name="آلة للأسمدة"  />
+				<text id="V9" name="خزان الوقود"  />
+			</typeSubBez>
+		</talk>
+		<windows>
+			<achievementsnewwin>
+				<text id="txt0" name="!الإنجاز"  />
+				<text id="txt1" name="تهانينا! حصلت على '#name#' - في المستوى #level#."  />
+				<text id="txt2" name="موافق"  />
+				<text id="txt3" name="أخبر الأصدقاء"  />
+			</achievementsnewwin>
+			<achievementswin>
+				<text id="i1" name="عدد ربح  دولارات المزرعة"  />
+				<text id="i10" name="عدد الأزهار المحصودة"  />
+				<text id="i11" name="عدد الأشجار المقطوعة"  />
+				<text id="i12" name="عدد الحيوانات المحصودة"  />
+				<text id="i13" name="كمية دولارات  المزرعة التي تنفق على الهدايا"  />
+				<text id="i14" name="عدد الهدايا  المستلمة"  />
+				<text id="i15" name="عدد  مساعدة الجيران"  />
+				<text id="i16" name="عدد الصور التي التقطت"  />
+				<text id="i17" name="عدد عمل وظائف الحرث"  />
+				<text id="i18" name="عدد عمل وظائف الحصاد"  />
+				<text id="i19" name="عدد إصدار وظائف الحرث"  />
+				<text id="i2" name="عدد قضى دولارات المزرعة"  />
+				<text id="i20" name="عدد إصدار وظائف الحصاد"  />
+				<text id="i21" name="عدد الحقول المخصبة : ميزة الوقت"  />
+				<text id="i22" name="عدد الحقول المخصبة : ميزة الجودة"  />
+				<text id="i23" name="عدد  مختلف الحبوب المحصودة"  />
+				<text id="i24" name="عدد مختلف الثمار المقطوفة"  />
+				<text id="i25" name="عدد مختلف الزهور المقطوفة"  />
+				<text id="i26" name="عدد مختلف الخضار المقطوفة"  />
+				<text id="i27" name="عدد مختلف الأشجار المقطوعة"  />
+				<text id="i28" name="عدد مختلف الحيوانات  المحصودة"  />
+				<text id="i29" name="عدد مختلف الوحدات المحصودة"  />
+				<text id="i3" name="عدد  المباني التى اشترت"  />
+				<text id="i30" name="عدد  مختلف الإتقان"  />
+				<text id="i31" name="عدد مجموع الإتقان"  />
+				<text id="i32" name="عدد الأصدقاء"  />
+				<text id="i33" name="عدد الأشجار التي تم شراؤها"  />
+				<text id="i34" name="عدد المحاصيل المحصودة من بريميوم"  />
+				<text id="i35" name="عدد المحاصيل المختلفة المحصودة  من بريميوم"  />
+				<text id="i36" name="Number of plowed fields during a plow job"  />
+				<text id="i37" name="Number of fields that have been plowed during plow jobs issued on your farm"  />
+				<text id="i38" name="Number of fields, trees or animals harvested during a harvest job"  />
+				<text id="i39" name="Number of fields, trees and animals that have been harvested during harvest jobs issued on your farm"  />
+				<text id="i4" name="عدد الديكورات التى اشترت"  />
+				<text id="i5" name="عدد الحيوانات التى اشترت"  />
+				<text id="i6" name="العدد الشامل للبذور المحصودة"  />
+				<text id="i7" name="عدد الثمار المقطوفة"  />
+				<text id="i8" name="عدد  الخضروات المقطوعة"  />
+				<text id="i9" name="عدد الحبوب المحصودة"  />
+				<text id="next" name="المستوى التالي في #level#."  />
+				<text id="t1" name="نهب المزارعين"  />
+				<text id="t10" name="حصد الزهور"  />
+				<text id="t11" name="حصد الأشجار"  />
+				<text id="t12" name="حيوان جديد"  />
+				<text id="t13" name="رقائق نفقت على الهدايا"  />
+				<text id="t14" name="تلقى هدايا"  />
+				<text id="t15" name="دعم الجيران لك"  />
+				<text id="t16" name="الصور التي التقطت"  />
+				<text id="t17" name="فلوغر رائعة"  />
+				<text id="t18" name="وظائف عملت (الحصاد)"  />
+				<text id="t19" name="الحرس القديم"  />
+				<text id="t2" name="إنفاق دولار المزرعة"  />
+				<text id="t20" name="وظائف أصدرت (الحصاد)"  />
+				<text id="t21" name="ميزة الوقت"  />
+				<text id="t22" name="ميزة الجودة"  />
+				<text id="t23" name="مختلف الحبوب المحصودة"  />
+				<text id="t24" name="مختلف  الثمار المقطوفة"  />
+				<text id="t25" name="مختلف  الزهور المحصودة"  />
+				<text id="t26" name="مختلف الخضروات المحصودة"  />
+				<text id="t27" name="مختلف الأشجار المقطوعة"  />
+				<text id="t28" name="مختلف الحيوانات المحصودة"  />
+				<text id="t29" name="مختلف الوحدات المحصودة"  />
+				<text id="t3" name="مواقع البناء باور"  />
+				<text id="t30" name="سيطرة مختلفة"  />
+				<text id="t31" name="مجموع الإتقان"  />
+				<text id="t32" name="دعوة الأصدقاء"  />
+				<text id="t33" name="خنفساء اللحاء"  />
+				<text id="t34" name="الحصاد الذهبي"  />
+				<text id="t35" name="لمعان غير محدود"  />
+				<text id="t36" name="Prosperous Plower"  />
+				<text id="t37" name="Strict Supervisor"  />
+				<text id="t38" name="Helpful Harvester"  />
+				<text id="t39" name="Realized Return"  />
+				<text id="t4" name="شراء الزينة"  />
+				<text id="t5" name="حيوانات رائعة"  />
+				<text id="t6" name="مجموع البذور المحصودة"  />
+				<text id="t7" name="حصد الثمار"  />
+				<text id="t8" name="حصد  الخضروات"  />
+				<text id="t9" name="حصد الحبوب"  />
+				<text id="txt0" name="الأسعار"  />
+				<text id="txt1" name="التقدم الكلي"  />
+			</achievementswin>
+			<adminbannwin>
+				<text id="txt0" name="عذرا!"  />
+				<text id="txt1" name="موافق"  />
+				<text id="txt2" name="لقد منعت من اللعبة.
+مدةالحظر #time# دقائق
+إذا كان لديك تساؤلات حول الحظر اكتب لنا رسالة بالبريد  الالكتروني إلى
+#support#"  />
+			</adminbannwin>
+			<adminmsgwin>
+				<text id="txt0" name="معلومات هامة!!!"  />
+				<text id="txt1" name="موافق"  />
+			</adminmsgwin>
+			<adminmultistopwin>
+				<text id="txt0" name="عذرا!"  />
+				<text id="txt1" name="على هذا الكمبيوتر تشتغل نافذة أخرى مع #spielname# ."  />
+			</adminmultistopwin>
+			<adminshutdownwin>
+				<text id="txt0" name="انتباه!!!"  />
+				<text id="txt1" name="موافق"  />
+				<text id="txt2" name="الاتصال بالخادم سيتوقف للأسف في #time# ثانية!"  />
+			</adminshutdownwin>
+			<ankleideonewin>
+				<text id="txt0" name="اختار"  />
+			</ankleideonewin>
+			<ankleidewin>
+				<text id="bgtitle" name="الرمزية"  />
+				<text id="txt0" name="عشوائية"  />
+				<text id="txt1" name="حفظ"  />
+			</ankleidewin>
+			<bannchatwin>
+				<text id="txt0" name="تقرير لاعب!"  />
+				<text id="txt1" name="هل حقا تريد تقرير اللاعب {0}؟"  />
+				<text id="txt2" name="نعم"  />
+				<text id="txt3" name="لا"  />
+			</bannchatwin>
+			<buddiesansweraddwin>
+				<text id="txt0" name="صداقة"  />
+				<text id="txt1" name="#name# يريد اضافتك الى قائمة أصدقائه."  />
+				<text id="txt2" name="يرفض"  />
+				<text id="txt3" name="قبول"  />
+			</buddiesansweraddwin>
+			<buddiesaskaddwin>
+				<text id="txt0" name="صداقة"  />
+				<text id="txt1" name="اسأل #name# اذا كان يريد ان يكون صديقك."  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="إسأل"  />
+			</buddiesaskaddwin>
+			<buddiessubwin>
+				<text id="buddies_del_vz" name="أن {1} هو صديقك فى {0}. من أجل حذفه تحتاج إلى إلغاءالصداقة فى {0}."  />
+				<text id="txt0" name="حذف صديق"  />
+				<text id="txt1" name="هل حقا تريد حذف #name# من قائمة أصدقائك؟"  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="قبول"  />
+			</buddiessubwin>
+			<deleteitemwin>
+				<text id="txt0" name="حذف"  />
+				<text id="txt1" name="هل حقا تريد حذف #obj# ؟"  />
+				<text id="txt2" name="لا"  />
+				<text id="txt3" name="نعم"  />
+			</deleteitemwin>
+			<emailverification1win>
+				<text id="tBtn1" name="Continue"  />
+				<text id="tTitle" name="Reward!"  />
+				<text id="txt0" name="We have sent your present to your e-mail address."  />
+				<text id="txt1" name="Collect it now!"  />
+				<text id="txt2" name="We can resend your e-mail if you&#039;d like!"  />
+			</emailverification1win>
+			<emailverification2win>
+				<text id="tBtn1" name="Continue"  />
+				<text id="tTitle" name="E-mail has been sent"  />
+				<text id="txt0" name="We just sent you an e-mail with your reward!"  />
+			</emailverification2win>
+			<emailverification3win>
+				<text id="tBtn1" name="Continue"  />
+				<text id="tTitle" name="Present"  />
+				<text id="txt0" name="You have received your reward!"  />
+			</emailverification3win>
+			<erweiternwin>
+				<text id="txt0" name="توسيع"  />
+				<text id="txt1" name="توسيع هذا المبنى لتخزين المزيد من العناصر."  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="شراء"  />
+			</erweiternwin>
+			<farmexpansionfeedwin>
+				<text id="txt0" name="توسيع المزرعة!"  />
+				<text id="txt1" name="تهانينا! مزرعتك أصبحت أكبر."  />
+				<text id="txt2" name="موافق"  />
+				<text id="txt3" name="أخبر الأصدقاء"  />
+			</farmexpansionfeedwin>
+			<fotobuchwin>
+				<text id="txt0" name="معرض الصور"  />
+				<text id="txt1" name="إلغاء"  />
+				<text id="txt2" name="حذف"  />
+				<text id="txt3" name="حفظ"  />
+				<text id="txt4" name="أكتب شيئا عن هذه الصورة!"  />
+			</fotobuchwin>
+			<gastregiwin>
+				<text id="txt0" name="تسجيل"  />
+				<text id="txt1" name="يجب عليك التسجيل لحفظ اللعبة. وإلا سوف يتم فقدان البيانات الخاصة بك.
+التسجيل مجاني!"  />
+				<text id="txt2" name="تسجيل"  />
+				<text id="txt3" name="خروج"  />
+			</gastregiwin>
+			<helpanswerharvestwin>
+				<text id="txt0" name="تريد الحصاد؟"  />
+				<text id="txt1" name="هل تريد مساعدة #name#  في الحصاد  له\ لها  في المزرعه؟"  />
+				<text id="txt2" name="يرفض"  />
+				<text id="txt3" name="قبول"  />
+			</helpanswerharvestwin>
+			<helpanswerplowwin>
+				<text id="txt0" name="تريد المحراث؟"  />
+				<text id="txt1" name="هل تريد مساعدة #name# لحرث  مزرعته\ها؟"  />
+				<text id="txt2" name="رفض"  />
+				<text id="txt3" name="قبول"  />
+			</helpanswerplowwin>
+			<helpaskharvestwin>
+				<text id="txt0" name="طلب المساعدة!"  />
+				<text id="txt1" name="إسأل #name# اذا  ت\يريد الحصاد في مزارعك."  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="إسأل"  />
+			</helpaskharvestwin>
+			<helpaskplowwin>
+				<text id="txt0" name="طلب المساعدة!"  />
+				<text id="txt1" name="اسأل #name# اذا كان\ت ت\يريد الحرث في مزارعك."  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="إسأل"  />
+			</helpaskplowwin>
+			<inlageronewin>
+				<text id="txt0" name="إزالة"  />
+				<text id="txt1" name="شراء"  />
+			</inlageronewin>
+			<inlagerwin>
+				<text id="txt0" name="مقاعد متحفّظة"  />
+				<text id="txt1" name="توسيع"  />
+				<text id="txt2" name="مؤن"  />
+				<text id="txt3" name="العودة"  />
+			</inlagerwin>
+			<installonewin>
+				<text id="txt0" name="إزالة"  />
+				<text id="txt1" name="حصاد"  />
+			</installonewin>
+			<installwin>
+				<text id="txt0" name="الأماكن المحتلة"  />
+				<text id="txt1" name="توسيع"  />
+				<text id="txt2" name="حصد الكل"  />
+				<text id="txt3" name="Feed all with &#039;{0}&#039;"  />
+				<text id="txt4" name="Feed them &#039;{0}&#039;"  />
+			</installwin>
+			<itemvorschauwin>
+				<text id="itemvorschau_text1" name="You have unlocked new shop items!"  />
+				<text id="itemvorschau_text2" name="Next level you will unlock the following items:"  />
+				<text id="itemvorschau_text3" name="You have almost made it to the next level.
+New items will be unlocked soon!"  />
+				<text id="itemvorschau_title1" name="New items"  />
+				<text id="itemvorschau_title2" name="Preview"  />
+				<text id="itemvorschau_title3" name="Almost there!"  />
+			</itemvorschauwin>
+			<levelupwin>
+				<text id="txt0" name="مستوى أعلى!"  />
+				<text id="txt1" name="تهانينا! لقد وصلت إلى مستوى جديد! بنود جديد تم فتحه في المتجر."  />
+				<text id="txt2" name="موافق"  />
+				<text id="txt3" name="أخبر الأصدقاء"  />
+			</levelupwin>
+			<loginkennlostwin>
+				<text id="txt0" name="فقدت كلمة السر؟"  />
+				<text id="txt1" name="الرجاء إدخال عنوان البريد الإلكتروني الخاص بك هنا ، التي كنت سجلت بها وانقر على 'إرسال'.  ستحصل على كلمة السر الخاصة بك."  />
+				<text id="txt2" name="البريد الإلكتروني"  />
+				<text id="txt3" name="إلغاء"  />
+				<text id="txt4" name="إرسال"  />
+			</loginkennlostwin>
+			<loginlogoutwin>
+				<text id="txt0" name="خروج"  />
+				<text id="txt1" name="تريد ترك المزرعة؟"  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="موافق"  />
+			</loginlogoutwin>
+			<loginoopswin>
+				<text id="txt0" name="عفوا!"  />
+				<text id="txt1" name="موافق"  />
+			</loginoopswin>
+			<loginregigastwin>
+				<text id="txt0" name="تسجيل"  />
+				<text id="txt1" name="يرجى التسجيل ليتم حفظ تقدمك."  />
+				<text id="txt2" name="خروج"  />
+				<text id="txt3" name="موافق"  />
+			</loginregigastwin>
+			<loginregiwin>
+				<text id="txt0" name="تسجيل"  />
+				<text id="txt1" name="البريد الإلكتروني"  />
+				<text id="txt2" name="كلمة السر"  />
+				<text id="txt3" name="شروط والشروط"  />
+				<text id="txt4" name="إلغاء"  />
+				<text id="txt5" name="موافق"  />
+			</loginregiwin>
+			<loginsofortwin>
+				<text id="txt0" name="إنشاء لاعب"  />
+				<text id="txt1" name="اسم المستخدم"  />
+				<text id="txt2" name="أنثى"  />
+				<text id="txt3" name="ذكر"  />
+				<text id="txt4" name="إلغاء"  />
+				<text id="txt5" name="موافق"  />
+			</loginsofortwin>
+			<loginwin>
+				<text id="txt0" name="اللعب الآن"  />
+				<text id="txt1" name="تسجيل"  />
+				<text id="txt2" name="تسجيل الدخول"  />
+				<text id="txt3" name="الاسم \ البريد الإلكتروني"  />
+				<text id="txt4" name="كلمة السر"  />
+				<text id="txt5" name="فقدت كلمة السر؟"  />
+				<text id="txt6" name="تذكر المعلومات"  />
+			</loginwin>
+			<marketplacewin>
+				<text id="txt0" name="ساحة السوق"  />
+				<text id="txt1" name="لا تظهر مرة أخرى"  />
+				<text id="txt2" name="موافق"  />
+				<text id="txt3" name="مرحبا #name#! 
+هذا هو سوق #spielname# . هنا يمكنك البحث عن وظائف أو يمكنك استئجار لاعبين آخرين للحرث أو الحصاد."  />
+			</marketplacewin>
+			<optionenkennmodwin>
+				<text id="txt0" name="تغيير كلمة السر"  />
+				<text id="txt1" name="كلمة السر القديمة"  />
+				<text id="txt2" name="كلمة السر جديدة"  />
+				<text id="txt3" name="تكرار كلمة السر الجديدة"  />
+				<text id="txt4" name="إلغاء"  />
+				<text id="txt5" name="حفظ"  />
+			</optionenkennmodwin>
+			<optionenoopswin>
+				<text id="txt0" name="عفوا!"  />
+				<text id="txt1" name="موافق"  />
+				<text id="txt2" name="تسجيل"  />
+				<text id="txt3" name="دعوة صديق"  />
+			</optionenoopswin>
+			<optionenprefswin>
+				<text id="txt0" name="إعدادات"  />
+				<text id="txt1" name="أشجار شفافة"  />
+				<text id="txt10" name="مرتفع"  />
+				<text id="txt11" name="متوسط"  />
+				<text id="txt12" name="منخفض"  />
+				<text id="txt13" name="للتكبير"  />
+				<text id="txt14" name="تجاهل طلبات الأصدقاء"  />
+				<text id="txt15" name="زيارة حظر اللاعبين على المستوى"  />
+				<text id="txt16" name="Show game hints."  />
+				<text id="txt2" name="مباني شفافة"  />
+				<text id="txt3" name="زخارف شفافة"  />
+				<text id="txt4" name="جودة 'منخفضة'"  />
+				<text id="txt5" name="تغيير كلمة المرور"  />
+				<text id="txt6" name="إلغاء"  />
+				<text id="txt7" name="حفظ"  />
+				<text id="txt8" name="إغلاق الرسوم المتحركة"  />
+				<text id="txt9" name="جودة"  />
+			</optionenprefswin>
+			<ranglistewin>
+				<text id="tInputName" name="بحث اسم\ترتيب"  />
+				<text id="txt0" name="الترتيب"  />
+				<text id="txt1" name="البحث"  />
+				<text id="txt2" name="المستوى"  />
+				<text id="txt3" name="اسم"  />
+				<text id="txt4" name="المستوى"  />
+				<text id="txt5" name="إكس بي"  />
+				<text id="zeitraum0" name="اليوم"  />
+				<text id="zeitraum1" name="هذا الاسبوع"  />
+				<text id="zeitraum2" name="هذا الشهر"  />
+				<text id="zeitraum3" name="من أي وقت مضى"  />
+			</ranglistewin>
+			<sellitemwin>
+				<text id="txt0" name="بيع"  />
+				<text id="txt1" name="هل حقا ترغب  بيع #obj# مقابل #w1# دولار المزرعة؟"  />
+				<text id="txt2" name="لا"  />
+				<text id="txt3" name="نعم"  />
+			</sellitemwin>
+			<shopinfo>
+				<text id="F20" name="استخدام الأسمدة لتعافى ذبل المحاصيل"  />
+				<text id="F30" name="هذه الأسمدة لها تأثير صغير الوقت على  بذورك"  />
+				<text id="F31" name="هذه الأسمدة لها تأثير  متوسط الوقت على بذورك"  />
+				<text id="F40" name="هذه الأسمدة لها تأثير شديد الوقت على  بذورك"  />
+				<text id="F41" name="هذه الأسمدة لها تأثير صغير الربح على بذورك"  />
+				<text id="F50" name="هذه الأسمدة لها تأثير متوسط الربح على بذورك"  />
+				<text id="H00" name="الحظيرة تسمح لك بتخزين 15 كائنا."  />
+				<text id="H02" name="أداة التسلط تسمح لك بتخزين 4 كائنات."  />
+				<text id="H10" name="قن الدجاج يسمح لك بحصاد عديد الدجاج   في وقت واحد"  />
+				<text id="H11" name="زريبة الخنازير تسمح لك بحصاد عديد الخنازير  في وقت واحد"  />
+				<text id="H12" name="زريبة الأبقار تسمح لك بحصاد عديد الأبقار  في وقت واحد"  />
+				<text id="H13" name="اسطبلات الحصان  تسمح لك بحصاد عديد الخيول  في وقت واحد"  />
+				<text id="H40" name="كنت بحاجة إلى هذا الصوامع لشراء واستخدام الأسمدة."  />
+				<text id="N01" name="إذن للحصاد : الانتهاء من جميع الأشجار في وقت واحد."  />
+				<text id="N02" name="إذن للحصاد : الانتهاء من جميع الحيوانات في آن واحد."  />
+				<text id="R0x" name="{0} هذه العبوة  تسمح لك بإعادة ملء أذونات وظيفتك"  />
+				<text id="S5x" name="علاوة البذور تمنح المزيد من  إكس بي و دولار المزرعة من المحاصيل المشتركة ، وأيضا لا يمكن أن تذبل!
+يمكن شراؤها على شكل حزم ويمكنك وضعها دون تكاليف إضافية مباشرة عن طريق المحل."  />
+				<text id="V0x" name="{0}هذه علبة الوقود تسمح لك بتزود الوقود"  />
+				<text id="V10" name="بالجرار يمكنك حرث أربعة حقول في وقت واحد"  />
+				<text id="V20" name="بالبذور يمكنك زرع أربعة حقول في وقت واحد"  />
+				<text id="V30" name="بالحاصدة يمكنك حصاد أربعة حقول في وقت واحد"  />
+				<text id="V40" name="بآلة الأسمدة يمكنك تسميد أربعة حقول في وقت واحد"  />
+				<text id="V90" name="%20 وقود اضافي عند شراء عبوة"  />
+			</shopinfo>
+			<shoponewin>
+				<text id="tLevel" name="مستوى #level#"  />
+				<text id="txtAnzahl" name="الكمية:"  />
+				<text id="txtAnzahlVon" name="من"  />
+				<text id="txtBenutzen" name="استخدام"  />
+				<text id="txtBuy" name="اشترى"  />
+				<text id="txtHarvestXP" name="للحصاد:"  />
+				<text id="txtPremium" name="علاوة"  />
+				<text id="txtSize" name="حجم العلبة:"  />
+				<text id="txtVerbrauch" name="استهلاك"  />
+				<text id="txtWork" name="العمل"  />
+			</shoponewin>
+			<shoptippwin>
+				<text id="noShopTipps" name="Don&#039;t show game hints."  />
+				<text id="shoptipp_0_title" name="عفوا!"  />
+				<text id="shoptipp_1_text" name="لديك ما يكفي من الوقود لهذا الإجراء.هل تريد تزويد الوقود لنفس الشيء؟"  />
+				<text id="shoptipp_1_title" name="Refill fuel"  />
+				<text id="shoptipp_2_text" name="لديك القليل  من الأسمدة لهذا الإجراء.هل تريد شراء المزيد من المساواة؟"  />
+				<text id="shoptipp_2_title" name="Stock up on fertilizer"  />
+				<text id="shoptipp_3_text" name="لديك  مساحة صغيرة في هذه المزرعة!هل تريد توسيعها في هذاالوقت ؟"  />
+				<text id="shoptipp_3_title" name="Expand your farm!"  />
+				<text id="shoptipp_4_text" name="You are out of job energy!
+Did you know, that you can manually refill it?"  />
+				<text id="shoptipp_4_title" name="Workaholic!"  />
+				<text id="shoptipp_5_text" name="You don&#039;t have enough premium seeds to perform this action. Would you like to buy some now?"  />
+				<text id="shoptipp_5_title" name="Buy premium seeds"  />
+			</shoptippwin>
+			<shopwin>
+				<text id="txtShop" name="متجر"  />
+				<text id="txtSilo" name="قوة"  />
+				<text id="txtWork" name="العمل"  />
+			</shopwin>
+			<sozialeschatvorgabenwin>
+				<text id="txt0" name="أنا أبحث عن وظيفة."  />
+				<text id="txt1" name="أود الحرث."  />
+				<text id="txt2" name="أريد المحاصيل.."  />
+				<text id="txt3" name="أقدم لك وظيفة المحراث ."  />
+				<text id="txt4" name="أقدم لك وظيفة الحصاد."  />
+				<text id="txt5" name="مرحبا!"  />
+				<text id="txt6" name="Thanks"  />
+				<text id="txt7" name="نعم"  />
+				<text id="txt8" name="لا"  />
+			</sozialeschatvorgabenwin>
+			<sozialesinvitewin>
+				<text id="txt0" name="دعوة صديق"  />
+				<text id="txt1" name="اسمك"  />
+				<text id="txt2" name="اسم صديقك"  />
+				<text id="txt3" name="البريد الالكتروني لصديقك"  />
+				<text id="txt4" name="إلغاء"  />
+				<text id="txt5" name="دعوة"  />
+			</sozialesinvitewin>
+			<sozialesmutewin>
+				<text id="txt0" name="كتم المستخدمين"  />
+			</sozialesmutewin>
+			<spiel1win>
+				<text id="txt0" name="Bee Soda"  />
+				<text id="txt1" name="Play Bee Soda an win great prizes!"  />
+				<text id="txt2" name="Spin!"  />
+				<text id="txt3" name="The first round is free!"  />
+			</spiel1win>
+			<spielgewinnwin>
+				<text id="txt0" name="Horray!"  />
+				<text id="txt1" name=""  />
+				<text id="txt2" name=""  />
+			</spielgewinnwin>
+			<statuswin>
+				<text id="txt0" name="في المرحلة المقبلة #xp# إكس بي"  />
+			</statuswin>
+			<strangeinfowin>
+				<text id="txt0" name="دولار المزرعة:"  />
+				<text id="txt1" name=" "  />
+				<text id="txt2" name=" "  />
+				<text id="txt3" name="أصدقاء:"  />
+				<text id="txt4" name="الإنجازات:"  />
+				<text id="txt5" name="موافق"  />
+			</strangeinfowin>
+			<strangekickwin>
+				<text id="txt0" name="حذف لاعب"  />
+				<text id="txt1" name="هل حقا تريد حذف #name# من مزارعك ؟"  />
+				<text id="txt2" name="إلغاء"  />
+				<text id="txt3" name="قبول"  />
+			</strangekickwin>
+			<teaserwin>
+				<text id="teaser_10_info_1" name="وأخيرا جمع الربيع  تحمل في مزارع جيد اللعبة!
+لا تغيب عن العديد من المباني الجديدة،الديكورات،
+الحيوانات والأشجار!"  />
+				<text id="teaser_11_info_1" name="استمعوا جيدا!
+الخوار واليقيق على مزارعك!
+استمتعوا مع الأصوات الجديدة في المباراة الجيدة للمزارع ."  />
+				<text id="teaser_11_title" name="الأصوات!"  />
+				<text id="teaser_12_info_1" name="على السوق يمكنك الدردشه بحرية على مستوى 10.
+حتى ذلك الحين  يمكنك استخدام ما قبل المجموعات."  />
+				<text id="teaser_12_title" name="دردشة قواعد السوق"  />
+				<text id="teaser_13_info_1" name="إمدادات أكثر!
+ونذهب، مع الكثير من الحيوانات الجديدة،الأشجار،
+الزينة والمباني!"  />
+				<text id="teaser_13_info_2" name="بالإضافة إلى ذلك، هناك الآن الكثير من الجديد
+جائزة المستويات!"  />
+				<text id="teaser_14_info_1" name="احصل على بذورك الآن ،القسط الجديد!
+إضافة المزيد من إكس بي ودولار المزرعة والبذور الزراعية والطبيعية لا يمكن أن تذوي كذلك.
+ة"  />
+				<text id="teaser_14_info_2" name="بالإضافة إلى ذلك ، هناك الآن بذور جديدة لجميع  مستويات المزارعين وأسعار جديدة!"  />
+				<text id="teaser_14_title" name="قسط المحاصيل!"  />
+				<text id="teaser_17_info_1" name="Easter is here and it&#039;s time to enjoy the wonderful new buildings, decorations, trees and seeds!
+Have fun on your egg hunt!"  />
+				<text id="teaser_17_info_2" name="The job system has also been reworked. Now you&#039;ll only spend job permissions for doing actions, so you&#039;ll never come away empty-handed."  />
+				<text id="teaser_17_title" name="Happy Easter!"  />
+				<text id="teaser_18_info_1" name="Hurry Up!
+Only a few days remain and the Easter event will be over. We offer a big sale with up to 50% savings for many saisonal items!!!"  />
+				<text id="teaser_18_title" name="Take your chance!"  />
+				<text id="teaser_19_info_1" name="Summer fashion is here!
+Get one of the new hats or try the funny easter bunny ears!
+
+And don&#039;t forget to check out our new  Farmer forum."  />
+				<text id="teaser_19_title" name="Hats on!"  />
+				<text id="teaser_20_info_1" name="Goodgame Farmer has its 1st birthday, time to celebrate with us!
+Decorate your farm, put on one of those crazy party hats and don&#039;t miss the new muffin-seed.
+
+But hurry up, the festivity won&#039;t last for long!"  />
+				<text id="teaser_20_title" name="Happy Birthday!"  />
+				<text id="teaser_21_info_1" name="Attention! There&#039;s a magic wand for success.
+Use it and your trees, animals and seeds will yield more experience and output."  />
+				<text id="teaser_21_info_2" name="Your animals are hungry!
+Feed them so they grow faster!
+The trees are also wanting to be fertilized."  />
+				<text id="teaser_21_title" name="Animal feed &amp; more!"  />
+				<text id="teaser_23_info_1" name="Goodgame Farmer has been nominated for the European Games Award as „Best Social Game”!"  />
+				<text id="teaser_23_info_2" name="Help us to win by voting for us!"  />
+				<text id="teaser_23_title" name="Vote for us!"  />
+				<text id="teaser_24_info_1" name="Yarr!
+The pirates arrived at Goodgame Farmer!
+Put on a pirate hat, plant the new treasure seed and get a talking parrot!"  />
+				<text id="teaser_24_title" name="Pirates update!"  />
+				<text id="teaser_25_info_1" name="The latest update caused severe technical difficulties with the conversion of the fertilizer and the achievement rewards.
+
+In order to solve this issue we had to reset all accounts to the previous state.
+
+We are sorry about any inconveniences caused."  />
+				<text id="teaser_25_title" name="Reset"  />
+				<text id="teaser_5_info_1" name="تخويف الزائرين بزخارف هالوين المخيفة والمباني الكابوسية"  />
+				<text id="teaser_5_title" name="بنود جديدة!"  />
+				<text id="teaser_6_info_1" name="رأيك مهم!قل لنا ماذا تريد أن تلعب في المستقبل!"  />
+				<text id="teaser_6_title" name="القرارات!!!"  />
+				<text id="teaser_7_info_1" name="وأخيرا عيد نويل!
+لا تدع العديد من المنازل الجديدة ،
+الزينة،الأشجار والنباتات تفوت عنك!"  />
+				<text id="teaser_7_info_2" name="يوجد الآن مخزون جديد هكذا يكون لديك مساحة كافية على المزارع الخاصة بك!
+خبأ البنود في السقيفة والحظائر."  />
+				<text id="teaser_7_title" name="بنود و مؤن جديدة!"  />
+				<text id="teaser_8_info_1" name="وهدية عيد الميلاد بالنسبة لك!
+في ترتيب العلامة التجارية الجديدة يمكنك مقارنة نفسك مع لاعبين آخرين.
+تصبح أفضل مزارع!"  />
+				<text id="teaser_8_title" name="التصنيف!"  />
+				<text id="teaser_9_info_1" name="ولكن الآن بسريعة!
+في أسبوع واحد ، حملة عيد الميلاد اكتملت.
+الآن هناك مرة أخرى خصم يصل إلى 50 ٪ على جميع البنود الموسمية!"  />
+				<text id="teaser_9_title" name="على الصليب!"  />
+				<text id="teaser_btn_forum" name="إلى الساحة"  />
+				<text id="teaser_btn_ok" name="موافق"  />
+				<text id="teaser_btn_shop" name="متجر"  />
+			</teaserwin>
+			<tooltipwin>
+				<text id="zAb2" name="رفض"  />
+				<text id="zAchievements" name="إنجازاتي"  />
+				<text id="zAn2" name="قبول"  />
+				<text id="zBuddies" name="جميع أصدقائك"  />
+				<text id="zBuddiesNoAsk" name="هذا اللاعب لا يقبل طلبات الأصدقاء"  />
+				<text id="zBuddiesSub" name="أحذف هذا اللاعب من قائمة أصدقائك"  />
+				<text id="zBuy" name="شراء"  />
+				<text id="zCancel" name="إغلاق"  />
+				<text id="zChat" name="دردشة"  />
+				<text id="zChatMute" name="أبكم"  />
+				<text id="zChatSenden" name="إرسال رسالة"  />
+				<text id="zChatVorgaben" name="مجموعات جاهزة للدردشة."  />
+				<text id="zCheckAGB" name="أوافق على الشروط والأحكام"  />
+				<text id="zCheckAny" name="غلق الصور المتحركة للحيوان"  />
+				<text id="zCheckMen" name="رمزية الذكر"  />
+				<text id="zCheckMerken" name="حفظ الاسم وكلمة السر؟"  />
+				<text id="zCheckMute" name="لا دردشة مع هذا اللاعب"  />
+				<text id="zCheckNoMoreShow" name=".لا تظهر هذه النافذة مرة أخرى"  />
+				<text id="zCheckQuali" name="قلل من جودة الرسومات لحفظ طاقة الكمبيوتر"  />
+				<text id="zCheckShowB" name="جعل الأشجار شفافة"  />
+				<text id="zCheckShowD" name="جعل الزينة شفافة"  />
+				<text id="zCheckShowH" name="جعل المنازل شفافة"  />
+				<text id="zCheckSound1" name="تأثير"  />
+				<text id="zCheckSound2" name="الموسيقى"  />
+				<text id="zCheckWomen" name="رمزية الأنثى"  />
+				<text id="zChipsMore" name="أضف دولار المزارعة/ذهب"  />
+				<text id="zClose" name="إغلاق"  />
+				<text id="zClothes" name="ملابس جديدة لرمزيتك"  />
+				<text id="zClothsBuy" name="حفظ الصورة الرمزية الحالية؟"  />
+				<text id="zClothsSelect" name="حدد"  />
+				<text id="zClothsZufall" name="سيقوم الكمبيوتر باقتراح نمط"  />
+				<text id="zCookAdd" name="إنشاء تسجيل البيانات الإضافية"  />
+				<text id="zCookDel" name="حذف هذه التسجيلات"  />
+				<text id="zDel" name="حذف"  />
+				<text id="zDown" name="أسفل"  />
+				<text id="zEarnChips" name="كسب المزيد من دولار المزرعة"  />
+				<text id="zEarnGold" name="كسب المزيد من الذهب"  />
+				<text id="zEinladen" name="تحتاج لدعوة {0} من مزيد الأصدقاء  من أجل شراء هذه."  />
+				<text id="zEinladen2" name="لديك {1} أصدقاء فى  {0}."  />
+				<text id="zEmailVerificationWinker" name="Collect present"  />
+				<text id="zErweitern" name="توسيع"  />
+				<text id="zExchange" name="تغيير الذهب بدولار المزرعة"  />
+				<text id="zExpHigherLevelNeeded" name=".مستوى منخفض جدا"  />
+				<text id="zExpPreviousNeeded" name=".الحاجة للتوسع السابق"  />
+				<text id="zFarmowner" name="صاحب هذه المزرعة"  />
+				<text id="zFertilize" name="الأسمدة"  />
+				<text id="zFlinkeHand" name="العمل بسرعة"  />
+				<text id="zFoto" name="صور"  />
+				<text id="zFullscreen" name="شاشة كاملة"  />
+				<text id="zFunc" name="الكائنات التي تمتلك وظيفة خاصة"  />
+				<text id="zGiftsMy" name="هداياي"  />
+				<text id="zHarvest" name="حصاد"  />
+				<text id="zHarvestV3" name="استخدام الحصادة للحصاد"  />
+				<text id="zHelp" name="مساعدة"  />
+				<text id="zHome" name="مزرعتي"  />
+				<text id="zInfoEMail" name="يجب أن يبدو عنوان البريد الإلكتروني مثل
+aaa.bbb@ccc.de"  />
+				<text id="zInfoKenn" name="كلمة المرور تحتوي على 5 إلى 15 حرفا ، تتألف من
+-_@،أ-ي،0-9"  />
+				<text id="zInsOpen" name="فتح"  />
+				<text id="zInvite" name="دعوة أصدقائك!"  />
+				<text id="zJ" name="إفعل ذلك"  />
+				<text id="zJobben" name="الوظيفة:
+اضغط لملء العرض
+العرض:
+عدد الغيارات وعدد الوظائف
+التي يمكن القيام بها
+({0} الحد أقصى)"  />
+				<text id="zKatAC" name="قميص"  />
+				<text id="zKatAG" name="مظهر"  />
+				<text id="zKatAH" name="تصفيفة الشعر"  />
+				<text id="zKatAK" name="Hat"  />
+				<text id="zKatAP" name="سروال"  />
+				<text id="zKatAS" name="أحذية"  />
+				<text id="zKatAT" name="بشرة"  />
+				<text id="zKatB" name="الأشجار"  />
+				<text id="zKatD" name="ديكورات"  />
+				<text id="zKatE" name="التوسعات"  />
+				<text id="zKatF" name="الأسمدة"  />
+				<text id="zKatG" name="الشوارع"  />
+				<text id="zKatH" name="المباني"  />
+				<text id="zKatR" name="إذن العمل"  />
+				<text id="zKatS" name="البذور"  />
+				<text id="zKatT" name="الحيوانات"  />
+				<text id="zKatV" name="سيارات"  />
+				<text id="zKatX" name="عروض خاصة"  />
+				<text id="zKatY" name="جميع"  />
+				<text id="zKennLost" name=".انقر هنا، إذا كنت قد نسيت كلمة السر الخاصة بك"  />
+				<text id="zKennMod" name="تغيير كلمة المرور"  />
+				<text id="zKette" name="قائمة العمل"  />
+				<text id="zKetteDel" name="حذف قائمة العمل"  />
+				<text id="zKick" name=".إلقاء هذا اللاعب من المزارع الخاصة بك"  />
+				<text id="zLinkAGB" name=".اضغط هنا لقراءة الشروط والأحكام"  />
+				<text id="zLogin" name="بداية اللعبة"  />
+				<text id="zLogout" name="خروج"  />
+				<text id="zLupeM" name="تصغير"  />
+				<text id="zLupeP" name="تكبير"  />
+				<text id="zMail" name="البريد"  />
+				<text id="zMarket" name="السوق"  />
+				<text id="zMeldBad" name="تقرير لاعب؟"  />
+				<text id="zMen" name="رمزية الذكر"  />
+				<text id="zMoreChipsGold" name="شراء مزرعة بالدولار والذهب"  />
+				<text id="zMove" name="تحرك"  />
+				<text id="zN" name="لا تفعل ذلك"  />
+				<text id="zNext" name="التالي"  />
+				<text id="zNoSilo" name="أنت بحاجة إلى بناء الصومعة الأولى."  />
+				<text id="zOK" name="موافق"  />
+				<text id="zOKKennLost" name=".طلب كلمة السر الخاصة بك"  />
+				<text id="zOKKennMod" name="حفظ كلمة المرور الجديدة"  />
+				<text id="zPfeil" name="أداة متعددة"  />
+				<text id="zPfeilV" name="الأدوات  المتعددة للسيارات"  />
+				<text id="zPlow" name="حراثة"  />
+				<text id="zPlowNew" name="حقل جديد"  />
+				<text id="zPlowV1" name="استخدام جرار للحرث"  />
+				<text id="zPrefs" name="إعدادات"  />
+				<text id="zPremium" name="شراء هذه الحزمة"  />
+				<text id="zPremiumUse" name="هذا استخدام قسط من البذور  في المزرعة"  />
+				<text id="zPrev" name="السابق"  />
+				<text id="zQuest" name="المهام"  />
+				<text id="zRangliste" name="الترتيب"  />
+				<text id="zRanking2Farm" name="هذا اللاعب لا تسمح بزيارة  مزرعته على التصنيف."  />
+				<text id="zRegistrieren" name=".سجل لحفظ تقدمك"  />
+				<text id="zRot" name="دوران"  />
+				<text id="zSave" name="حفظ"  />
+				<text id="zScrBG" name="شريط التمرير"  />
+				<text id="zScrMove" name="حرك مربع التمرير"  />
+				<text id="zSell" name="بيع"  />
+				<text id="zShare" name="أخبر أصدقائك!"  />
+				<text id="zShop" name="متجر"  />
+				<text id="zShopEarn" name="للبيع ب:"  />
+				<text id="zShopHarvest" name="للحصاد:"  />
+				<text id="zShopLagerSize" name="أماكن:"  />
+				<text id="zShopTime" name="الحصاد في:"  />
+				<text id="zShopXP" name="الحصول على إكس بي:"  />
+				<text id="zSilo" name="صومعة (الأسمدة)"  />
+				<text id="zSofort" name="بداية اللعبة - دون التسجيل"  />
+				<text id="zSound" name="الأصوات"  />
+				<text id="zSow" name="البذر"  />
+				<text id="zSowV2" name="استخدام البذور للبذر"  />
+				<text id="zStrangeAchies" name="إنجازات هذا اللاعب"  />
+				<text id="zStrangeAdd" name="أضف هذا اللاعب في قائمة الأصدقاء"  />
+				<text id="zStrangeFotos" name="معرض الصور لهذا اللاعب"  />
+				<text id="zStrangeGift" name="تقديم هدية لهذا اللاعب"  />
+				<text id="zStrangeHarvest" name="تأجير هذا اللاعب للحصاد في المزارع الخاصة بك"  />
+				<text id="zStrangeHome" name="الذهاب إلى مزرعة هذا اللاعب"  />
+				<text id="zStrangeInfo" name="معلومات عن هذا اللاعب"  />
+				<text id="zStrangeMail" name="إرسال رسالة لهذا اللاعب"  />
+				<text id="zStrangePlow" name="تأجير هذا اللاعب للحرث في المزارع الخاصة بك"  />
+				<text id="zSubAsk" name="أسئلة وأجوبة"  />
+				<text id="zSubFotobuch" name="معرض الصور"  />
+				<text id="zSubMailInbox" name="قراءة البريد"  />
+				<text id="zSubMailNew" name="كتابة رسالة"  />
+				<text id="zSubNews" name="أخبار"  />
+				<text id="zSubShot1" name="تصوير
+            المزرعة بأكملها"  />
+				<text id="zSubShot2" name="اختار صورة فوتوغرافية في المنطقة المستطيلة"  />
+				<text id="zSubShot3" name="انقر على وجه الصورة"  />
+				<text id="zSubSupport" name="دعم"  />
+				<text id="zTanken" name="تزود بالوقود:
+اضغط هنا لملء
+العرض:
+عدد العبوات وقياس الوقود
+({0} الحد أقصى)"  />
+				<text id="zTosOpen" name="مخزن"  />
+				<text id="zTosStall" name="هذا الحيوان يجلب الإستقرار"  />
+				<text id="zUp" name="ارتفاع"  />
+				<text id="zUse" name="استخدام"  />
+				<text id="zUsersOnFarm" name="جميع اللاعبين هنا في هذه المزرعة أو مكان السوق"  />
+				<text id="zVZBuddies" name="العدد المطلوب  من الأصدقاء  {0}"  />
+				<text id="zVZBuddiesE" name="إذا كان لديك ما يكفي من الاصدقاء، يمكنك توسيع المزارع الخاصة بك بأسعار منخفضة."  />
+				<text id="zWomen" name="رمزية الأنثى"  />
+			</tooltipwin>
+			<tutorialwin>
+				<text id="tut_gast_1_text" name="Welcome to your own farm!
+
+Let me help you get started, together we will make it flourish beautifully."  />
+				<text id="tut_gast_1_title" name="Hello friend"  />
+				<text id="tut_gast_2_text" name="Look, your strawberries are ready already!
+Quick, go and get them."  />
+				<text id="tut_gast_2_title" name="Reap seeds by clicking on them!"  />
+				<text id="tut_gast_3_text" name="When you harvest plants,
+you earn Farmdollars and
+get experience points."  />
+				<text id="tut_gast_3_title" name="Harvesting gives you Farmdollars and XP!"  />
+				<text id="tut_gast_4_text" name="Now you have to plow your fields
+in order to plant something new."  />
+				<text id="tut_gast_4_title" name="Plow fields by clicking on them"  />
+				<text id="tut_gast_5_text" name="Now you can pick out new seeds at the shop!"  />
+				<text id="tut_gast_5_title" name="Buy new seeds at the shop"  />
+				<text id="tut_gast_6_text" name="Let&#039;s buy wheat!"  />
+				<text id="tut_gast_6_title" name="Buy wheat"  />
+				<text id="tut_gast_7_text" name="Click on the fields to sow the wheat there."  />
+				<text id="tut_gast_7_title" name="Distribute the wheat across the fields"  />
+				<text id="tut_gast_8_text" name="You&#039;re doing great!
+Your farm will soon be the prettiest
+of all.
+
+Come on, why don&#039;t you plant some more?!"  />
+				<text id="tut_gast_8_title" name="Horray! Your farm is flourishing!"  />
+				<text id="tut_market_1_text" name="Your seeds need a while until completion?
+Why don&#039;t you go to the market place
+and work for other players?!"  />
+				<text id="tut_market_1_title" name="You can also go to work!"  />
+			</tutorialwin>
+			<userinfowin>
+				<text id="txt0" name="دولار  المزرعة:"  />
+				<text id="txt1" name="الذهب:"  />
+				<text id="txt2" name="الحصاد المقبل:"  />
+				<text id="txt3" name="أصدقاء:"  />
+				<text id="txt4" name="الإنجازات:"  />
+				<text id="txt5" name="موافق"  />
+			</userinfowin>
+			<userlisteuntenwin>
+				<text id="txt0" name="المزيد من الأصدقاء"  />
+			</userlisteuntenwin>
+			<welcome2win>
+				<text id="tag" name="Day {0}"  />
+				<text id="txt0" name="مرحبا"  />
+				<text id="txt1" name="موافق"  />
+				<text id="txt2" name="You get a welcome bonus every day!"  />
+			</welcome2win>
+			<welcomewin>
+				<text id="11" name="كمكافأة على تسجيلك تحصل على  #w1# دولار المزرعة!"  />
+				<text id="21" name="يمكنك الحصول على #w1# دولار المزرعة مكافأة يومية  للترحيب!"  />
+				<text id="2f" name="لذلك ستحصل على #ferti# #anz# أسمدة."  />
+				<text id="2job" name="إذن ستحصل على إذن الوظيفة #job#."  />
+				<text id="2w1" name="لذا ستحصل على #w1# دولار المزرعة."  />
+				<text id="2w2" name="لذلك ستحصل على #w2# ذهب."  />
+				<text id="2x" name="لقد قمت  بالتسجيل في  #days#  يوم\أيام على التوالي"  />
+				<text id="2xp" name="لذلك ستحصل على #xp# إكس بي."  />
+				<text id="freunde" name="لأنشطة الاعبين المدعوين لديك تحصل على #w1# دولار  المزرعة."  />
+				<text id="txt0" name="مرحبا"  />
+				<text id="txt1" name="موافق"  />
+			</welcomewin>
+		</windows>
+		<generic_flash>
+			<alert>
+				<text id="generic_alert_bug" name="Error"  />
+				<text id="generic_alert_connection_failed_copy" name="Maintenance. Please try again later!"  />
+				<text id="generic_alert_connection_failed_title" name="Work in progress!"  />
+				<text id="generic_alert_connection_lost_copy" name="The connection to the server failed. Please try to reconnect."  />
+				<text id="generic_alert_connection_lost_description" name="We are currently performing maintenance work, which is necessary from time to time. In order to bring in updates or new features or in order to correct mistakes. &lt;br&gt;&lt;br&gt;
+We are working as fast as we can so you will be able to play again as soon as possible."  />
+				<text id="generic_alert_connection_lost_promo" name="Why don&#039;t you try one of our other games in the meantime?"  />
+				<text id="generic_alert_connection_lost_thanks" name="Thank you for your understanding!"  />
+				<text id="generic_alert_connection_lost_title" name="Connection lost!"  />
+				<text id="generic_alert_error" name="Error"  />
+				<text id="generic_alert_information" name="Alert"  />
+				<text id="generic_alert_loggedout_copy" name="You have successfully logged out. Do not forget: Every day there is a login bonus for you!"  />
+				<text id="generic_alert_loggedout_title" name="See you later!"  />
+				<text id="generic_alert_warning" name="Warning"  />
+				<text id="generic_alert_watchout" name="Attention!"  />
+				<text id="generic_alert_win7chromebug" name="If you can&#039;t enter text, please press the Ctrl key."  />
+				<text id="generic_invalid_email_provider" name="An e-mail address from this supplier is not allowed!"  />
+				<text id="generic_js_alert_firstsessiontracking_loading" name="Your internet connection seems to be quite slow at the moment. Please try again later!"  />
+				<text id="generic_js_alert_firstsessiontracking_registered" name="How do you like the game and what can we improve upon? Please, let us know your opinion in our Goodgame forums or group."  />
+				<text id="generic_js_alert_firstsessiontracking_unregistered" name="Attention: Your progress is only saved when you register!"  />
+				<text id="generic_register_error_invalidemail" name="The e-mail address you entered is not correct."  />
+				<text id="generic_report_muted_chattry" name="You cannot use the chat function due to being blocked."  />
+			</alert>
+			<button>
+				<text id="generic_btn_accept" name="Accept"  />
+				<text id="generic_btn_cancel" name="Cancel"  />
+				<text id="generic_btn_close" name="Close"  />
+				<text id="generic_btn_continue" name="Continue"  />
+				<text id="generic_btn_end" name="End"  />
+				<text id="generic_btn_endnow" name="Finish Now"  />
+				<text id="generic_btn_goback" name="Back"  />
+				<text id="generic_btn_no" name="No"  />
+				<text id="generic_btn_noshare" name="Never mind!"  />
+				<text id="generic_btn_notaccept" name="Decline"  />
+				<text id="generic_btn_okay" name="Okay"  />
+				<text id="generic_btn_reconnect" name="Reconnect"  />
+				<text id="generic_btn_refresh" name="Refresh"  />
+				<text id="generic_btn_report" name="Report"  />
+				<text id="generic_btn_search" name="Search"  />
+				<text id="generic_btn_share" name="Share!"  />
+				<text id="generic_btn_skip" name="Skip"  />
+				<text id="generic_btn_start" name="Start"  />
+				<text id="generic_btn_topayment" name="Give it to me!"  />
+				<text id="generic_btn_yes" name="Yes"  />
+			</button>
+			<chat>
+				<text id="generic_chat_noChatMessage" name="You must reach level {0} to chat!"  />
+				<text id="generic_chat_writeable" name="You need to register and reach level 1 to use the chat."  />
+			</chat>
+			<cm_teaser>
+				<text id="cm_teaser1_copy" name="Don&#039;t forget: There&#039;s a great {0} contest going on right now at the forum! Go there right away and join the fun!"  />
+				<text id="cm_teaser2_copy" name="Don&#039;t forget: There is a great {0} activity going on right now at the forum! You definitely don&#039;t want to miss out, so head over there right away!"  />
+				<text id="cm_teaser3_copy" name="Right now there is a great activity on the {0} Facebook site. Make sure you check it out!"  />
+				<text id="cm_teaser4_copy" name="Due to a technical problem, there may be some slight restrictions in the gameplay in {0}. Please see the forum for details."  />
+				<text id="cm_teaser5_copy" name="Please don&#039;t forget: A real employee of Goodgame Studios will never ask for your password in the game! Always keep your password safe, and don&#039;t give it out!
+
+Good luck in {0}!"  />
+				<text id="cm_teaser6_copy" name="A new update for {0} is on the way! For the latest news and info about new features and bug fixes, always check the forum!"  />
+				<text id="cm_teaser7_copy" name="In a few minutes, the {0} server will be shut down temporarily. You can get more details at the forum."  />
+				<text id="cm_teaser8_copy" name="Unfortunately, the {0} servers are shut down for emergency maintenance. You can find more details at the forum."  />
+				<text id="cm_teaserevent_title" name="{0}, take note:"  />
+				<text id="cm_teaserinfo_title" name="Hello {0}!"  />
+				<text id="cm_teaserwarning_title" name="Attention!"  />
+			</cm_teaser>
+			<common>
+				<text id="generic_admin" name="Admin"  />
+				<text id="generic_animation" name="Show animations"  />
+				<text id="generic_bugreport" name="Tell Us About Errors"  />
+				<text id="generic_changePass" name="Change password"  />
+				<text id="generic_comma" name=","  />
+				<text id="generic_conningsoon" name="*Coming Soon*"  />
+				<text id="generic_date" name="Date"  />
+				<text id="generic_day" name="day"  />
+				<text id="generic_dayformat" name="{2}/{1}/{0}"  />
+				<text id="generic_dayformat_short" name="{1}/{0}"  />
+				<text id="generic_days" name="days"  />
+				<text id="generic_day_short" name="D"  />
+				<text id="generic_decimalseparator" name="."  />
+				<text id="generic_email" name="E-mail"  />
+				<text id="generic_embededSigns" name="|"  />
+				<text id="generic_faq" name="Frequently Asked Questions"  />
+				<text id="generic_forum" name="Forum"  />
+				<text id="generic_friend" name="Friend"  />
+				<text id="generic_friends" name="Friends"  />
+				<text id="generic_general" name="General settings"  />
+				<text id="generic_ggs" name="Goodgame Studios"  />
+				<text id="generic_group" name="Group"  />
+				<text id="generic_guest" name="Guest"  />
+				<text id="generic_help" name="Help"  />
+				<text id="generic_high" name="High"  />
+				<text id="generic_hour" name="hour"  />
+				<text id="generic_hours" name="hours"  />
+				<text id="generic_hour_short" name="Hr"  />
+				<text id="generic_limited" name="Limited"  />
+				<text id="generic_logout" name="Logout"  />
+				<text id="generic_low" name="Low"  />
+				<text id="generic_medium" name="Medium"  />
+				<text id="generic_minute" name="minute"  />
+				<text id="generic_minutes" name="minutes"  />
+				<text id="generic_minute_short" name="Min"  />
+				<text id="generic_moderator" name="Mod"  />
+				<text id="generic_month" name="month"  />
+				<text id="generic_months" name="months"  />
+				<text id="generic_month_short" name="M"  />
+				<text id="generic_music" name="Music on/off"  />
+				<text id="generic_name" name="Name"  />
+				<text id="generic_news" name="Newsflash"  />
+				<text id="generic_options" name="Options"  />
+				<text id="generic_quality" name="Quality"  />
+				<text id="generic_register" name="Save and Register"  />
+				<text id="generic_second" name="second"  />
+				<text id="generic_seconds" name="seconds"  />
+				<text id="generic_second_short" name="Sec"  />
+				<text id="generic_sound" name="Sound on/off"  />
+				<text id="generic_support" name="Support"  />
+				<text id="generic_today" name="Today"  />
+				<text id="generic_tomorrow" name="Today"  />
+				<text id="generic_tutorial" name="Tutorial"  />
+				<text id="generic_username" name="Playername"  />
+				<text id="generic_validTo_timer" name="Still active for {0} hours {1} minutes."  />
+				<text id="generic_xp" name="XP"  />
+				<text id="generic_yesterday" name="Yesterday"  />
+			</common>
+			<error>
+				<text id="generic_versioncheck_error" name="Old version!"  />
+				<text id="generic_versioncheck_errorcode_1" name="Update the page."  />
+			</error>
+			<feeds id=""  />
+			<friends>
+				<text id="generic_friends_add_copy" name="Do you want to add {0} as a friend?"  />
+				<text id="generic_friends_add_title" name="Friend request"  />
+				<text id="generic_friends_buddy_btn_morefriends" name="More Friends!"  />
+				<text id="generic_friends_denied_copy" name="{0} has denied your request."  />
+				<text id="generic_friends_denied_title" name="Request denied!"  />
+				<text id="generic_friends_invite_badword_copy" name="The name you chose is not allowed!"  />
+				<text id="generic_friends_invite_badword_title" name="Watch out!"  />
+				<text id="generic_friends_invite_error_copy" name="In order to invite friends you need to register first."  />
+				<text id="generic_friends_invite_error_title" name="Register first"  />
+			</friends>
+			<fullscreen>
+				<text id="generic_fullscreen_error_copy" name="Fullscreen mode not possible"  />
+			</fullscreen>
+			<languages>
+				<text id="generic_language_cs" name="Czech"  />
+				<text id="generic_language_cz" name="Czech"  />
+				<text id="generic_language_da" name="Danish"  />
+				<text id="generic_language_de" name="German"  />
+				<text id="generic_language_el" name="Greek"  />
+				<text id="generic_language_en" name="English"  />
+				<text id="generic_language_es" name="Spanish"  />
+				<text id="generic_language_fi" name="Finnish"  />
+				<text id="generic_language_fr" name="French"  />
+				<text id="generic_language_hu" name="Hungarian"  />
+				<text id="generic_language_id" name="Indonesian"  />
+				<text id="generic_language_it" name="Italian"  />
+				<text id="generic_language_ja" name="Japanese"  />
+				<text id="generic_language_ko" name="Korean"  />
+				<text id="generic_language_nl" name="Dutch"  />
+				<text id="generic_language_no" name="Norwegian"  />
+				<text id="generic_language_pl" name="Polish"  />
+				<text id="generic_language_pt" name="Portuguese"  />
+				<text id="generic_language_pt_BR" name="Brazilian"  />
+				<text id="generic_language_ru" name="Russian"  />
+				<text id="generic_language_sv" name="Swedish"  />
+				<text id="generic_language_tr" name="Turkish"  />
+				<text id="generic_language_zh_CN" name="Chinese (simplified)"  />
+				<text id="generic_language_zh_TW" name="Chinese (traditional)"  />
+			</languages>
+			<login>
+				<text id="generic_login_banned" name="Your account has been blocked! Please contact customer support!"  />
+				<text id="generic_login_banned_2" name="Your account has been deactivated!
+
+Deactivation until: {0}
+
+If you have questions about the deactivation, please contact support."  />
+				<text id="generic_login_banned_3" name="Your account has been frozen permanently.
+
+If you have any questions about this blockage, please contact support."  />
+				<text id="generic_login_banned_permanent" name="permanent"  />
+				<text id="generic_login_facebook" name="Login via Facebook"  />
+				<text id="generic_login_login" name="LOGIN"  />
+				<text id="generic_login_loginname" name="Username/ E-mail"  />
+				<text id="generic_login_lostpassword" name="Forgot your password?"  />
+				<text id="generic_login_lostpassword_copy" name="Enter your e-mail address and we will send you your password."  />
+				<text id="generic_login_lostpassword_title" name="Forgot your password?"  />
+				<text id="generic_login_newplayer" name="Are you new?"  />
+				<text id="generic_login_password" name="Password"  />
+				<text id="generic_login_play" name="PLAY NOW"  />
+				<text id="generic_login_playnow" name="Play now!"  />
+				<text id="generic_login_register" name="Register"  />
+				<text id="generic_login_rememberpassword" name="Save password"  />
+				<text id="generic_login_wronglogin" name="Username or password wrong!"  />
+			</login>
+			<logout>
+				<text id="generic_logout_guest_copy" name="Register to save your game score!"  />
+				<text id="generic_logout_guest_title" name="Register"  />
+			</logout>
+			<notification>
+				<text id="servershutdownpremonition_backin_copy" name="The game will be available again in {0} at the latest."  />
+				<text id="servershutdownpremonition_copy" name="The game server will shut down in {0}. Please log out or sign up to back up your score."  />
+				<text id="servershutdownpremonition_registered_copy" name="We are shutting the gaming server down in {0} due to maintenance work."  />
+				<text id="servershutdown_copy" name="The game server is now shutting down. In a few minutes, you can log in again."  />
+				<text id="welcomeback_copy" name="Nice to see you again! Here's a little something to help you get back on track!"  />
+				<text id="welcomeback_title" name="You're back!"  />
+			</notification>
+			<password>
+				<text id="generic_change_password_copy_newpass" name="New password:"  />
+				<text id="generic_change_password_copy_oldpass" name="Old password:"  />
+				<text id="generic_change_password_copy_send" name="Your new password was sent to your e-mail address."  />
+				<text id="generic_change_password_error_failed" name="Sorry, but this is not your old password."  />
+				<text id="generic_change_password_error_success" name="Your password has been changed successfully!"  />
+				<text id="generic_change_password_faild_copy" name="Your new password must have more than 2 letters and your old one must be entered correctly!"  />
+				<text id="generic_change_password_faild_specialcharacters" name="Your password must not be empty or contain special characters."  />
+				<text id="generic_change_password_faild_title" name="Enter password"  />
+				<text id="generic_change_password_title" name="Password change"  />
+				<text id="generic_guest_change_password_faild_copy" name="You can change your password only as a registered user!"  />
+				<text id="generic_guest_change_password_faild_title" name="Register first"  />
+			</password>
+			<payment>
+				<text id="generic_discount_payment_title_general" name="More {0} for the money!"  />
+				<text id="generic_payment_48hdiscount_button" name="More gold in the first 48 hours"  />
+				<text id="generic_payment_48hdiscount_button_general" name="More {0} in the first 48 hours"  />
+				<text id="generic_payment_48hdiscount_copy" name="Only 48 hours after your registration - Buy selected gold packages and get {0}% extra Gold for free!"  />
+				<text id="generic_payment_48hdiscount_copy_1" name="Only 48 hours after your registration - Buy gold packages and get {0}% extra Gold for free!"  />
+				<text id="generic_payment_48hdiscount_copy_1_general" name="Only 48 hours after your registration - Buy {0} packages and get {1}% extra for free!"  />
+				<text id="generic_payment_48hdiscount_copy_general" name="Only 48 hours after your registration - Buy selected {0} packages and get {1}% extra for free!"  />
+				<text id="generic_payment_btn" name="To the shop"  />
+				<text id="generic_payment_copy" name="You are being transferred to the payment shop."  />
+				<text id="generic_payment_discount_button" name="Now {0}% more gold!"  />
+				<text id="generic_payment_discount_copy" name="Buy gold now and get a {0}% bonus!"  />
+				<text id="generic_payment_discount_copy_general" name="Buy now {0} and get a {1} % bonus!"  />
+				<text id="generic_payment_discount_general" name="Get now {0}% more {1} for your money!"  />
+				<text id="generic_payment_discount_generalshort" name="Get {0}% more for your money!"  />
+				<text id="generic_payment_discount_time" name="{0} left!"  />
+				<text id="generic_payment_discount_title" name="More gold for the money!"  />
+				<text id="generic_payment_newPrices" name="Starting immediately! Permanently reduced prices in our payment shop! Save real money!"  />
+				<text id="generic_payment_title" name="Payment shop"  />
+			</payment>
+			<progressbar>
+				<text id="loading_text_1" name="Search for a tunnel through cyber space"  />
+				<text id="loading_text_10" name="Distribute items in the world"  />
+				<text id="loading_text_11" name="Draw graphics"  />
+				<text id="loading_text_12" name="Color the buttons"  />
+				<text id="loading_text_13" name="Hide easter eggs"  />
+				<text id="loading_text_14" name="Look up user information"  />
+				<text id="loading_text_15" name="Scare off bugs"  />
+				<text id="loading_text_16" name="Feed the programmers"  />
+				<text id="loading_text_17" name="Experiment with the client"  />
+				<text id="loading_text_18" name="Turn the hour glass"  />
+				<text id="loading_text_19" name="Cool the system"  />
+				<text id="loading_text_2" name="Oil the cog wheels"  />
+				<text id="loading_text_20" name="Be done soon"  />
+				<text id="loading_text_3" name="Spin the hamster wheel"  />
+				<text id="loading_text_4" name="Warm up the server"  />
+				<text id="loading_text_5" name="Hope that everything goes well"  />
+				<text id="loading_text_6" name="Call for the exterminator"  />
+				<text id="loading_text_7" name="Calculate complicated algorithms"  />
+				<text id="loading_text_8" name="Calibrate flux capacitor"  />
+				<text id="loading_text_9" name="Tinker items"  />
+				<text id="loading_text_default" name="Initialization"  />
+				<text id="loading_text_itemXML" name="Load game elements"  />
+				<text id="progress_loadfiles" name="Load assets..."  />
+				<text id="progress_serverconnection" name="Connect to Server..."  />
+			</progressbar>
+			<register>
+				<field id="generic_register_insertEmail" name="Enter E-mail address"  />
+				<field id="generic_register_insertName" name="Enter name"  />
+				<field id="generic_register_insertPassword" name="Enter password"  />
+				<text id="generic_register_agb_copy" name="You can&#039;t continue without accepting the terms and conditions. Check the box next to &quot;Accept terms,&quot; and away you go!"  />
+				<text id="generic_register_agb_read" name="Read Terms and Conditions of Use"  />
+				<text id="generic_register_alreadyavatar" name="This user already has an avatar."  />
+				<text id="generic_register_badword" name="You are not allowed to use {0} in your name."  />
+				<text id="generic_register_btn_agb" name="Accept Terms and Conditions of Use"  />
+				<text id="generic_register_btn_later" name="Later"  />
+				<text id="generic_register_btn_next" name="Continue"  />
+				<text id="generic_register_btn_save" name="Save"  />
+				<text id="generic_register_character" name="Create your character"  />
+				<text id="generic_register_copy_0" name="Register free of charge now!"  />
+				<text id="generic_register_copy_1" name="Save your gaming progress!"  />
+				<text id="generic_register_emaillong_copy" name="Unfortunately, your e-mail address is too long."  />
+				<text id="generic_register_emailwrong_copy" name="The e-mail address you entered is incorrect."  />
+				<text id="generic_register_email_copy" name="Your e-mail address must not be empty or contain special characters."  />
+				<text id="generic_register_error" name="Registration failed"  />
+				<text id="generic_register_errormistake" name="Error"  />
+				<text id="generic_register_error_accountalreadyexists" name="Another player is registered with this e-mail address, sorry."  />
+				<text id="generic_register_forfree" name="Register for free!"  />
+				<text id="generic_register_forfree1" name="For free!"  />
+				<text id="generic_register_letsgo" name="Here we go!"  />
+				<text id="generic_register_namealreadyused" name="This name is already taken."  />
+				<text id="generic_register_namenotvalid" name="The name you entered is invalid."  />
+				<text id="generic_register_optional" name="(optional)"  />
+				<text id="generic_register_passwordshort_copy" name="The password you entered is too short. It has to be at least 4 letters long."  />
+				<text id="generic_register_passwordwrong_copy" name="The password you entered is incorrect."  />
+				<text id="generic_register_password_copy" name="Your password must not be empty or contain special characters."  />
+				<text id="generic_register_receivenews" name="Receive News"  />
+				<text id="generic_register_rememberdata" name="Remember data"  />
+				<text id="generic_register_reward" name="Subscribe for free and get {0} {1}!"  />
+				<text id="generic_register_subscribe" name="Register"  />
+				<text id="generic_register_success" name="You have successfully registered."  />
+				<text id="generic_register_title" name="Registration Error"  />
+				<text id="generic_register_unlock" name="Unlock this function!"  />
+			</register>
+			<report>
+				<text id="generic_report_muted_badword1_copy" name="Watch your manner of expression, please. Otherwise you will get blocked from the chat or your account will be temporarily closed. Reason: {0}"  />
+				<text id="generic_report_muted_badword2_copy" name="You cannot use the chat function for the next {0} due to repeated misconduct. Reason: {1}"  />
+				<text id="generic_report_muted_domain1" name="Don't write any URLs in the chat!"  />
+				<text id="generic_report_muted_reported_copy" name="Several players have complained about you. You are being blocked from the chat for the next {0}. Reason: {1}"  />
+				<text id="generic_report_player_copy" name="Do you really want to report the player {0}?
+ Attention! Abuse of this function may result in your account being blocked."  />
+				<text id="generic_report_player_reason_0" name="Insult"  />
+				<text id="generic_report_player_reason_1" name="sexual harassment"  />
+				<text id="generic_report_player_reason_2" name="racist remark"  />
+				<text id="generic_report_player_reason_3" name="Threat/blackmail"  />
+				<text id="generic_report_player_reason_title" name="Reason for report:"  />
+				<text id="generic_report_player_title" name="Report player?"  />
+				<text id="generic_report_reported_copy" name="You were reported to the administrator by another player. Reason: {0}"  />
+			</report>
+			<worlds>
+				<text id="generic_connect" name="Connect"  />
+				<text id="generic_select_world" name="Select world:"  />
+				<text id="generic_world" name="World: {0}"  />
+				<text id="generic_world_international" name="International: {0}"  />
+			</worlds>
+		</generic_flash>
+	</farm>
+ 
